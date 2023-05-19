@@ -1,0 +1,28 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=LISTRI
+Name=LISTRI
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+[External Dictionaries]
+File=..\Dicts\HHForInt.dcf
+File=..\Dicts\TJHH80.dcf
+File=..\Dicts\CONTSUP.dcf
+File=..\Dicts\ELIGINDV.dcf
+[AppCode]
+File=.\LISTRI.apc
+Include=..\Library\HTMLFunctions.apc
+[Message]
+File=.\LISTRI.mgf
+[Help]
+File=.\LISTRI.qsf
+[Forms]
+File=.\Cnull.fmf
+[Dictionary Types]
+Dict-Type=..\Dicts\Cnull.dcf,Input,.\Cnull.fmf
+Dict-Type=..\Dicts\HHForInt.dcf,External
+Dict-Type=..\Dicts\TJHH80.dcf,External
+Dict-Type=..\Dicts\CONTSUP.dcf,External
+Dict-Type=..\Dicts\ELIGINDV.dcf,External

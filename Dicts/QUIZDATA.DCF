@@ -1,0 +1,99 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=Quizdata Dictionary
+Name=QUIZDATA_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=5C8E7E5B8C9B8F459F81954DF27C7EE5AC596C25F69917954579C0CC29FC7531
+
+[Level]
+Label=Quizdata Level
+Name=QUIZDATA_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Qdccode
+Name=QDCCODE
+Start=1
+Len=4
+DataType=Alpha
+
+[Item]
+Label=Qdtestid
+Name=QDTESTID
+Start=5
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Question number
+Name=QDQNO
+Start=8
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=Quizdata Record
+Name=QUIZDATA_REC
+RecordTypeValue=''
+RecordLen=1773
+
+[Item]
+Label=Question type
+Name=QDTYPE
+Start=11
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Text of question
+Name=QDQTEXT
+Start=19
+Len=500
+DataType=Alpha
+
+[Item]
+Label=Response A
+Name=QDRESPA
+Start=519
+Len=250
+DataType=Alpha
+
+[Item]
+Label=Response B
+Name=QDRESPB
+Start=769
+Len=250
+DataType=Alpha
+
+[Item]
+Label=Response C
+Name=QDRESPC
+Start=1019
+Len=250
+DataType=Alpha
+
+[Item]
+Label=Response D
+Name=QDRESPD
+Start=1269
+Len=250
+DataType=Alpha
+
+[Item]
+Label=Response E
+Name=QDRESPE
+Start=1519
+Len=250
+DataType=Alpha
+
+[Item]
+Label=Answer key
+Name=QDKEY
+Start=1769
+Len=5
+DataType=Alpha

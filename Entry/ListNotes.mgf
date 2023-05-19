@@ -1,0 +1,17 @@
+﻿Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages
+
+Language = RU
+99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
+
+{ common strings used by the application }  
+  RU ( "Listing Notes for Cluster: %04d" ) Список заметок для кластера: %04d
+  RU ( "Household" ) Домохозяйства
+  RU ( "Line" ) Линия
+  RU ( "Field" ) Поле
+  RU ( "Date (dd/mm/yyyy)" ) Дата (dd/mm/уууу)
+  RU ( "Time (hh:mm)" ) Время (hh:mm)
+  RU ( "Note/Observation" ) Примечание/Наблюдение
+  RU ( "Households" ) Домохозяйства
+  RU ( "Individuals" ) Индивидиум
+  RU ( "No notes found in this cluster" ) В этом кластере заметок не найдено

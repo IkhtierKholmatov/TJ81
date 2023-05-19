@@ -1,0 +1,13 @@
+﻿Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages
+
+Language = Ru
+99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
+
+{ strings commonly used by application }
+  RU ( "Incomplete" ) Не завершено
+  RU ( "Partial" ) Частично
+  RU ( "Complete" ) Завершено
+  RU ( "Female" ) Женщина
+  RU ( "Male" ) Мужчина
+  RU ( "Not Visited" ) Не посещено

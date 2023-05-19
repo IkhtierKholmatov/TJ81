@@ -1,0 +1,22 @@
+﻿Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages
+
+Language = RU
+99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
+
+{ strings commonly used by application }
+  RU ( "Eligible Individuals in Cluster: %04d Household: %04d %s %s in Sub Location %s" ) Соответствующие критериям лица в кластере: %04d Домохозяйство: %04d %s %s в подразделении %s
+  RU ( "Eligible Individuals in Cluster: %04d Household: %04d %s" ) Соответствующие критериям лица в кластере: %04d Домохозяйство: %04d
+  RU ( "Women/men eligible for individual interview" ) Женщины/мужчины, имеющие право на индивидуальное интервью
+  RU ( "Children eligible for biomarkers" ) Дети, подходящие для биомаркеров
+  RU ( "Line" ) Линия
+  RU ( "Sex" ) Пол
+  RU ( "Age" ) Возраст
+  RU ( "Name" ) Имя
+  RU ( "Marital Status" ) Семейное положение
+  RU ( "There are no individuals eligible for individual survey neither children eligible for biomarkers" ) Нет ни лиц, подходящих для индивидуального интеврью, ни детей, подходящих для биомаркеров.
+  RU ( "Women eligible for biomarkers" ) Женщины, имеющие право на биомаркеры
+  RU ( "Never in union" ) Никогда не была в союзе
+  RU ( "Other" ) Другое
+  RU ( "Men eligible for biomarkers" ) Мужчины, имеющие право на биомаркеры
+  RU ( "The household selected was not found in this cluster" ) Выбранное домохозяйство не найдено в этом кластере

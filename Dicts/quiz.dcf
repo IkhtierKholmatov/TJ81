@@ -1,0 +1,132 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=quiz
+Name=QUIZ_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=7F934C8901959ED904FEAE34BFB3FBD7BADE87DC840ECC8756213AFE0666281C
+
+[Level]
+Label=quiz Level
+Name=QUIZ_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Test id
+Name=QZTEST
+Start=2
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Test id
+Name=QZTEST_VS1
+Value=1:900
+
+[Item]
+Label=Interviewer ID
+Name=QZICODE
+Start=5
+Len=4
+ZeroFill=Yes
+
+[Record]
+Label=quiz Record
+Name=QUIZ_REC
+RecordTypeValue='2'
+RecordLen=19
+
+[Item]
+Label=Date of test
+Name=QZDATE
+Start=9
+Len=8
+
+[Item]
+Label=Date of test: day
+Name=QZDATED
+Start=9
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Date of test: month
+Name=QZDATEM
+Start=11
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Date of test: year
+Name=QZDATEY
+Start=13
+Len=4
+ItemType=SubItem
+
+[Item]
+Label=Start
+Name=QZSTART
+Start=17
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Finish
+Name=QZFIN
+Start=18
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Test score
+Name=QZSCORE
+Start=19
+Len=1
+
+[Record]
+Label=Questions roster
+Name=QUESTIONS
+RecordTypeValue='1'
+Required=No
+MaxRecords=50
+RecordLen=266
+
+[Item]
+Label=Question number
+Name=QZNUMBER
+Start=9
+Len=2
+
+[Item]
+Label=Question response (single)
+Name=QZRESP
+Start=11
+Len=1
+
+[ValueSet]
+Label=Question response (single)
+Name=QZRESP_VS1
+Value=1;Response
+
+[Item]
+Label=Question response (multiple)
+Name=QZRESPM
+Start=12
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Question response (multiple)
+Name=QZRESPM_VS1
+Value='A    ';Response
+
+[Item]
+Label=Question response (text)
+Name=QZTEXT
+Start=17
+Len=250
+DataType=Alpha

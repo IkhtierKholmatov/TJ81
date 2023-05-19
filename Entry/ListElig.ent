@@ -1,0 +1,26 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=LISTELIG
+Name=LISTELIG
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+[External Dictionaries]
+File=..\Dicts\TJHH80.dcf
+File=..\Dicts\TJIN80.dcf
+File=..\Dicts\Clusters.dcf
+[AppCode]
+File=.\listelig.apc
+Include=..\Library\HTMLFunctions.apc
+[Message]
+File=.\listelig.mgf
+[Help]
+File=.\listelig.qsf
+[Forms]
+File=.\Cnull.fmf
+[Dictionary Types]
+Dict-Type=..\Dicts\Cnull.dcf,Input,.\Cnull.fmf
+Dict-Type=..\Dicts\TJHH80.dcf,External
+Dict-Type=..\Dicts\TJIN80.dcf,External
+Dict-Type=..\Dicts\Clusters.dcf,External

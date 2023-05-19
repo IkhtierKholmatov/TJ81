@@ -1,0 +1,143 @@
+﻿language = EN
+50000 Language to be used to report messages not found. Please talk to the IT expert
+50001 Error number %d not found in error messages data file
+50040 Number of households to be collected in cluster %04d hasn't been assigned to the control file
+50041 Control file for cluster %04d could not be loaded
+50042 The household assignment file for cluster %03d could not be loaded
+50043 The %s transmittal sheet file for cluster %03d could not be loaded
+50050 Household=%04d household members in household schedule (%02d) inconsistent with total number of members (%02d)
+50051 Household=%04d women eligible in household schedule (%02d) inconsistent with total number of eligible women (%02d)
+50052 Household=%04d men eligible in household schedule (%02d) inconsistent with total number of eligible men (%02d)
+50054 Household=%04d records for biomarkers for %s (%02d) inconsistent with individuals eligible for biomarkers (%02d)
+50055 Household=%04d partially completed, structure will not be checked at this time
+50056 Household=%04d record for biomarkers for %s (%02d) doesn't exist
+50057 Household=%04d %s for %s (%02d) doesn't exist
+50100 Household=%04d record with data for: %s, is missing
+50101 Household=%04d incorrect number of records for mosquito nets %d expected %d
+50105 Household=%04d record with data for: %s inconsistent with %s=%d
+50110 Household=%04d this is an incomplete household (result=%d), however there are records that shouldn't exist
+50150 Review Households found (%02d) with initial households (%02d) and those registered in control file (%02d)
+50151 The number of households found and registered (%02d) is correct, but there are still errors that need to be resolved
+50164 Cluster has not been selected for remeasurement yet
+50165 Cluster was selected for remeasurement, but something is wrong with selected child (household=%04d Line=%02d)
+50166 Household=%04d child %02d, was selected for remeasurement but data haven't been entered yet
+50200 Household=%04d %s=%02d partially completed, structure will not be checked at this time
+50202 Household=%04d individual=%02d there must be at least one record for the history of use (%d)
+50203 Household=%04d %s=%02d one or more mandatory records are missing
+50204 Household=%04d individual=%02d records from history of use (%d) inconsistent with ever used (A307=%d)
+50205 Household=%04d individual=%02d calendar records (%d) incomplete. It must have %d
+50206 Household=%04d individual=%02d pregnancy history records (%d) inconsistent with total pregnancy outcomes (A212W=%d)
+50207 Household=%04d individual=%02d records for pregnancy and postnatal care (%d) inconsistent with pregnancies in the last three years (%d)
+50208 Household=%04d individual=%02d records for immunization (%d) inconsistent with births in the last three years (%d)
+50209 Household=%04d individual=%02d records for child's health (%d) inconsistent with births in the last five years (%d)
+50210 Household=%04d had previoulsy been accepted but modifications made after caused errors
+50211 Household=%04d individual questionnaires had previously been accepted but modifications made after caused errors
+50212 Household=%04d individual=%02d number of records for chronic disease module inconsistent (records=%d)
+50215 Household=%04d individual=%02d number of records for mental health module inconsistent (records=%d)
+50216 Household=%04d individual=%02d sibilings %02d inconsistent with siblings records=%02d/%02d
+50217 Household=%04d individual=%02d domestic violence incorrect: woman selected for DV=%02d records=%d
+50220 Household=%04d %s=%02d hasn't been contacted for individual interview
+50221 Household=%04d duplicate. Interviewed by %02d and by %02d. Review households from all interviewers
+50225 Household=%04d assigned to interviewer %02d but collected by interviewer %02d.  Household assignment will be updated
+50230 Household=%04d individual=%02d there are records defined for men in a complete woman's questionnaire
+50231 Household=%04d individual=%02d there are records defined for women in a complete men's questionnaire
+50232 Household=%04d individual=%02d result=%d there are records defined for %s in an incomplete questionnaire
+50271 Household=%04d individual=%02d number of records for ORS and feeding practices (%d) inconsistent
+50300 Household=%04d individual=%02d number of records for FGC inconsistent
+50301 Household=%04d individual=%02d number of records for daughters in FGC (%02d) inconsistent with expected number (%02d)
+50305 Household=%04d individual=%02d duplicated, the problem needs to be resolved
+50310 Household=%04d individual=%02d early child development incorrect: children elegible=%02d records=%d
+50315 Household=%04d individual=%02d number of records for malaria knowledge and beliefs inconsistent (records=%d)
+50320 Household=%04d individual=%02d number of records for fistula module inconsistent (records=%d)
+50400 Household=%02d not found in the household sample design file. It needs to be accepted by supervisor
+50401 Household=%04d wasn't accepted by supervisors it needs to be removed from interviewer %d
+50500 Household=%04d barcode (%s) for %s duplicated.  It was also found in household=%04d
+50501 Barcode (%s) for %s present in the transmittal sheet but not found in any questionnaire
+50502 Household=%04d barcode (%s) for %s doesn't exist in transmittal sheet
+50505 Household=%04d individual=%02d not declared as eligible in any household. It was collected by interviewer=%04d
+
+language = RU
+50000 Язык, который будет использоваться для сообщения о ненайденных сообщениях. Пожалуйста, поговорите с ИТ-специалистом
+50001 Номер ошибки %d не найден в файле данных сообщений об ошибках
+50040 Количество домохозяйств, подлежащих сбору в кластере %04d, не назначено контрольному файлу
+50041 Не удалось загрузить файл элемента управления для кластера %04d
+50042 Не удалось загрузить файл назначения домохозяйства для кластера %03d
+50043 Не удалось загрузить файл передающего листа %s для кластера %03d
+50050 Домохозяйство =%04d членов домохозяйства в расписании домохозяйств (%02d) несовместимо с общим числом членов (%02d)
+50051 Домохозяйство = 04 процента женщин, имеющих право на участие в расписании домашних хозяйств (02 процента), что не соответствует общему числу женщин, имеющих право на участие (02 процента)
+50052 Домохозяйство =%04d Мужчины, имеющие право на участие в расписании домохозяйств (%02d), не соответствует общему числу мужчин, имеющих право на участие (%02d)
+50054 Домохозяйство =%04d записи о биомаркерах для %s (%02d) несовместимы с лицами, имеющими право на биомаркеры (%02d)
+50055 Домохозяйство=%04d частично завершено, структура в настоящее время проверяться не будет
+50056 Домохозяйство=%04d Запись о биомаркерах для %s (%02d) не существует
+50057 Домохозяйство=%04d %s для %s (%02d) не существует
+50100 Домохозяйство=%04d запись с данными для: %s, отсутствует
+50101 Домашнее хозяйство=%04d Неверное количество записей для противомоскитных сеток %d ожидается %d
+50105 Домохозяйство=%04d запись с данными для: %s несовместимо с %s=%d
+50110 Домохозяйство=%04d Это неполное домохозяйство (result=%d), однако есть записи, которых не должно быть
+50150 Обзор Найденные домохозяйства (%02d) с первоначальными домохозяйствами (%02d) и зарегистрированными в контрольном файле (%02d)
+50151 Количество найденных и зарегистрированных домохозяйств (%02d) является правильным, но все еще есть ошибки, которые необходимо устранить
+50164 Кластер еще не выбран для повторного измерения
+50165 Кластер был выбран для повторного измерения, но что-то не так с выбранным ребенком (домохозяйство = % 04d Строка = % 02d)
+50166 Домохозяйство =%04d ребенок %02d, был выбран для повторного измерения, но данные еще не введены
+50200 Домохозяйство=%04d %s=%02d частично завершено, структура в настоящее время не проверяется
+50202 Домохозяйство=%04d Индивидуум=%02d Должна быть хотя бы одна запись для истории использования (%d)
+50203 Домохозяйство=%04d %s=%02d отсутствует одна или несколько обязательных записей
+50204 Домашнее хозяйство = %04d Физическое лицо = %02 Записи из истории использования (%d) не соответствуют когда-либо использованным (A307 = %d)
+50205 Домохозяйство =%04d Человек = %02d Календарные записи (%d) неполные. Он должен иметь %d
+50206 Домохозяйство =%04d индивидуум =%02d записи истории беременности (%d) несовместимы с общими исходами беременности (A212W =%d)
+50207 Домохозяйство =%04d Индивидуум =%02d записи о беременности и послеродовом уходе (%d) не соответствуют беременности за последние три года (%d)
+50208 Домохозяйство =%04d индивидуум =%02d записи о прививках (%d) не соответствуют рождению за последние три года (%d)
+50209 Домохозяйство =%04d Индивидуум =%02d Записи о здоровье ребенка (%d) не соответствуют рождению за последние пять лет (%d)
+50210 Домохозяйство=%04d ранее было принято, но изменения, внесенные после, вызвали ошибки
+50211 Домохозяйство =%04d Индивидуальные анкеты ранее принимались, но изменения, внесенные после этого, приводили к ошибкам
+50212 Домашнее хозяйство = %04d Человек = %02d Количество записей о несогласованном модуле хронических заболеваний (записи = % d)
+50215 Домохозяйство=%04d Индивидуум=%02d Количество записей по модулю психического здоровья не согласовано (записи=%d)
+50216 Домашнее хозяйство=%04d Индивидуум=%02d Сибиллинги %02d Несовместимо с записями братьев и сестер=%02d/%02d
+50217 Домохозяйство =%04d Физическое лицо =%02d Домашнее насилие неверно: женщина выбрана для DV =%02d записи =%d
+50220 Домохозяйство=%04d %s=%02d не связывались для индивидуального собеседования
+50221 Домохозяйство =%04d дубликат. Опрошены %02d и %02d. Обзор домохозяйств от всех интервьюеров
+50225 Домохозяйство =%04d, назначенное интервьюеру %02d, но собранное интервьюером %02d.  Домашнее задание будет обновлено
+50230 Домашнее хозяйство=%04d Индивидуум=%02d Есть записи, определенные для мужчин в полной женской анкете
+50231 Домашнее хозяйство=%04d Индивидуум=%02d В заполненном мужском вопроснике есть записи, определенные для женщин
+50232 Домашнее хозяйство=%04d Индивидуум=%02d Результат=%d В незаполненном вопроснике есть записи, определенные для %s
+50271 Домашнее хозяйство =%04d Индивидуум =%02d Количество записей о ОРС и методах кормления (%d) несогласовано
+50300 Домохозяйство=%04d Индивидуум=%02d Количество записей о FGC несовместимо
+50301 Домохозяйство =%04d Индивидуум =%02d Количество записей о дочерях в FGC (%02d) не соответствует ожидаемому числу (%02d)
+50305 Домохозяйство=%04d Индивидуум=%02d дублировано, проблема должна быть решена
+50310 Домохозяйство=%04d Индивидуум=%02d Раннее развитие ребенка неправильное: дети разборчиво=%02d записи=%d
+50315 Домашнее хозяйство = %04d Человек = %02d Количество записей о том, что знания и убеждения о малярии противоречивы (записи = %d)
+50320 Домашнее хозяйство =%04d Индивидуум =%02d Количество записей о несогласованном модуле свища (записи = %d)
+50400 Домохозяйство = %02d не найдено в файле проекта образца домохозяйства. Он должен быть принят руководителем
+50401 Домохозяйство =%04d не было принято руководителями, его необходимо удалить из интервьюера %d
+50500 Домохозяйство =%04d штрих-код (%s) для %s дублированный.  Он также был обнаружен в домашнем хозяйстве =%04d
+50501 Штрих-код (%s) для %s, присутствующий в сопроводительном листе, но не обнаруженный ни в одном вопроснике
+50502 Домашнее хозяйство =%04d штрих-код (%s) для %s отсутствует в передающем листе
+50505 Домохозяйство =%04d физическое лицо =%02d не заявлено как имеющее право на участие ни в одном домохозяйстве. Он был собран интервьюером = %04d
+
+  RU ( "Incomplete" ) Незавершено
+  RU ( "Partial" ) Частично
+  RU ( "Complete" ) Завершено
+  RU ( "child" ) Дети
+  RU ( "height & weight" ) Рост и вес
+  RU ( "anemia" ) анемия
+  RU ( "woman" ) женщины
+  RU ( "HIV" ) ВИЧ
+  RU ( "man" ) мужчина
+  RU ( "W-" ) Ж-
+  RU ( "M-" ) М-
+  RU ( "MALARIA" ) МАЛАРИЯ
+  RU ( "Not visited" ) Не посешено
+  RU ( "Confirm that household %d is accepted" ) Подтвердите, что домохозяйство %d принято
+  RU ( "Yes" ) Да
+  RU ( "No, cancel" ) Нет, отмена
+  RU ( "Status for cluster: %s" ) Статус для кластера: %s
+  RU ( "Interviews collected in cluster" ) Интервью, собранные в кластер
+  RU ( "HH/Line" ) ДХ/строка
+  RU ( "Interviewer" ) Интервьюер
+  RU ( "Address/Name" ) Адрес/Имя
+  RU ( "Result" ) Результат
+  RU ( "Visits" ) Визиты
+  RU ( "Biomarkers" ) Биомаркер
+  RU ( "Summary: (HH=%02d Complete=%02d Incomplete=%02d) (Indiv.=%d Complete:%02d Incomplete:%02d)") Сводка: (HH=%02d Завершено=%02d Незавершено=%02d) (Индив.=%d Завершено:%02d Незавершено:%02d)
+  RU ( "Households added not originally part of the sample design %d" ) Добавленные домохозяйства, изначально не входившие в план выборки %d
+  RU ( "SUMMARY OF OUTSTANDING ISSUES THAT NEED TO BE RESOLVED" ) РЕЗЮМЕ НЕРЕШЕННЫХ ПРОБЛЕМ, КОТОРЫЕ НЕОБХОДИМО РЕШИТЬ

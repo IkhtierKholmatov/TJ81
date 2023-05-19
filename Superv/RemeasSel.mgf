@@ -1,0 +1,47 @@
+﻿language = EN
+50000 Language to be used to report messages not found. Please talk to the IT expert
+50001 Error number %d not found in error messages data file
+50041 Control file for cluster %04d could not be loaded
+50042 The household assignment file for cluster %03d could not be loaded
+50055 Household=%04d partially completed
+50056 Household=%04d record for biomarkers for %s (%02d) doesn't exist
+50057 Household=%04d %s for %s (%02d) doesn't exist
+50100 Household=%04d record with data for: %s, is missing
+50160 Household=%04d not defined in sample file
+50161 Number of Households found (%02d) different from households declared in sample file (%02d)
+50162 Remeasurement already done and it was decided no to select again
+50163 There are no children eligible for remeasurement in the cluster
+
+language = RU
+50000 Язык для сообщения о ненайденных сообщениях. Пожалуйста, поговорите с ИТ-специалистом
+50001 Номер ошибки %d не найден в файле данных сообщений об ошибках
+50041 Не удалось загрузить управляющий файл для кластера %04d.
+50042 Не удалось загрузить файл назначений ДХ для кластера %03d.
+50055 Домохозяйство=%04d частично завершено
+50056 Домохозяйство=%04d запись биомаркеров для %s (%02d) не существует
+50057 Домохозяйство=%04d %s для %s (%02d) не существует
+50100 Домохозяйство=%04d запись с данными для: %s отсутствует
+50160 Домохозяйство=%04d не определено в файле выборки
+50161 Количество найденных домохозяйств (%02d), отличных от домохозяйств, указанных в файле выборки (%02d)
+50162 Повторное измерение уже выполнено, и было решено больше не выбирать
+50163 В кластере нет детей, подходящих для повторного измерения
+
+{ common strings used by application }
+  RU ( "CHILDREN SELECTED FOR REMEASUREMENT IN CLUSTER: %04d" ) ДЕТИ, ВЫБРАННЫЕ ДЛЯ ПОВТОРНОГО ИЗМЕРЕНИЯ В ГРУППЕ: %04d
+  RU ( "Children eligible for remeasurement identified" ) Выявлены дети, подходящие для повторного измерения
+  RU ( "HH" ) ДХ
+  RU ( "Line" ) Линия
+  RU ( "Health Spec." ) Мед. работник
+  RU ( "Child Name" ) Имя ребенка
+  RU ( "Date of Birth" ) Дата рождения
+  RU ( "Lying/Stand" ) Лежа/Стоя
+  RU ( "Household Head" ) Глава домохозяйства
+  RU ( "Household Address" ) Адрес домохозяйства
+  RU ( "height & weight" ) рост & весь
+  RU ( "child" ) ребенок
+  RU ( "Children in cluster %d were already selected for remeasurement. Do you want to select them again?" ) Дети в кластере %d уже были выбраны для повторного измерения. Вы хотите выбрать их снова?
+  RU ( "Yes" ) Да
+  RU ( "No" ) Нет
+  RU ( "SUMMARY OF OUTSTANDING ISSUES THAT NEED TO BE RESOLVED BEFORE SELECTION CAN BE PERFORMED" ) ОБЗОР НЕРЕШЕННЫХ ВОПРОСОВ, КОТОРЫЕ НЕОБХОДИМО РЕШИТЬ, ПРЕЖДЕ ЧЕМ ОТБОР МОЖЕТ БЫТЬ ОСУЩЕСТВЛЕН
+  RU ( "MESSAGE JUST FOR INFORMATION" ) СООБЩЕНИЕ ДЛЯ ИНФОРМАЦИИ
+

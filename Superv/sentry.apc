@@ -1,0 +1,153 @@
+﻿PROC GLOBAL
+
+  numeric x, n, oldhh, i, maxhh, hhtodelete;
+  string  strtxt;
+
+  { set up basic user bar }
+  function userbase();
+    userbar( clear );
+    userbar( add button, "<",    do("PreviousField") );
+    userbar( add button, ">",    do("NextField") );
+    userbar( add button, ">>|",  do("AdvanceToEnd") );
+    userbar( add button, "Lang", do("ChangeLanguage") );
+  end;
+
+  { set value sets based on language }
+  function OnChangeLanguage()
+    SetLanguage( getlanguage() );
+  end;
+
+  function resethh(xhh);
+    // fills occurrence of SALLHH with zeros
+    SNUMBER   (xhh) = 0;
+    SINTNUM   (xhh) = 0;
+    SACCEPTH  (xhh) = 0;
+    SACCEPTI  (xhh) = 0;
+    SACCEPTHW (xhh) = 0;
+    SACCEPTF  (xhh) = 0;
+    SREINTERV (xhh) = 0;
+  end;
+
+PROC FL_CONTSUP
+preproc
+
+  { converts parameter to numbers  }
+  maxhh    = maxocc( SALLHH );             { maximum number of households selected per cluster }
+  SetLanguage( getlanguage() );
+
+  set attributes( CONTSUP ) assisted off ( variable(title) );
+
+  { set font for value sets }
+  setfont( All, "Arial", 18, bold );
+
+  { set up minimal user bar }
+  userbase();
+  userbar( show );
+
+postproc
+  stop(1);
+
+PROC SCHANGE
+preproc
+  $ = notappl;
+
+postproc
+  if $ in  1:3 then
+    advance SEND
+  elseif $ = 4 then
+    stop(-1)
+  endif;
+
+PROC SHTOTAL
+  if !$ then
+    errmsg( 010 );
+    reenter SCHANGE
+  endif;
+
+PROC SCRDATE
+preproc
+  if visualvalue($) = 0 then
+    $ = sysdate()
+  endif;
+
+PROC SNUMBER
+preproc
+  { by entering zero, the household will be eliminated }
+  { the household number can also be changed            }
+  if visualvalue($) = notappl then
+    $ = 0;
+  endif;
+  if curocc() > SHTOTAL then
+    advance send
+  endif;
+PROC SINTNUM
+preproc
+  if visualvalue($) = notappl then
+    $ = 0;
+  endif;
+onfocus
+  n     = curocc();
+  oldhh = visualvalue($(n));
+
+postproc
+  if oldhh <> 0 & $ = 0 then
+    n = curocc();
+    do i = n while i < maxhh & visualvalue( SNUMBER(i+1) ) <> 0 by 1
+      SNUMBER(i)   = visualvalue( SNUMBER(i+1) );
+      SINTNUM(i)   = visualvalue( SINTNUM(i+1) );
+      SACCEPTH(i)  = visualvalue( SACCEPTH(i+1) ) ;
+      SACCEPTI(i)  = visualvalue( SACCEPTI(i+1) );
+      SACCEPTHW(i) = visualvalue( SACCEPTHW(i+1) );
+      SACCEPTF(i)  = visualvalue( SACCEPTF(i+1) );
+    enddo;
+    SNUMBER(i)   = 0;
+    SINTNUM(i)   = 0;
+    SACCEPTH(i)  = 0;
+    SACCEPTI(i)  = 0;
+    SACCEPTHW(i) = 0;
+    SACCEPTF(i)  = 0;
+    advance send;
+  endif;
+
+PROC SEND
+preproc
+  if SCHANGE = 1 then // select household to delete
+    if count( SNUMBER000 where SNUMBER <> 0 ) then
+      x =  show( tr("Select household to delete"), SNUMBER000, SNUMBER, SINTNUM, SACCEPTH, SACCEPTI, SACCEPTHW
+       title( tr("HH#"), tr("Int"), tr("HH"), tr("Indv"), tr("H&W") ) where SNUMBER <> 0 );
+      if x then
+        x  = seek(SNUMBER <> 0, @x);
+        hhtodelete = SNUMBER(x);
+        numeric action = errmsg(tr("Do you really wish to remove household %d from the sample file ? "), hhtodelete) select(tr("No"), continue, tr("Yes"), continue);
+        if action = 2 then
+          // remove household from the control file and decrement the total
+          resethh(x);
+          SHTOTAL = count( SNUMBER000 where SNUMBER <> 0 );
+          // remove household from sample file and decrement total of households
+          open(SAMPSEL);
+          errmsg(015, hhtodelete);
+          if loadcase(SAMPSEL, SSAMPLE) then
+            n = seek(XNUMBER = hhtodelete );
+            if n then
+              delete(SAMREC2(n));
+              XTOTAL = noccurs(SAMREC2);
+              x = writecase(SAMPSEL);
+              close(SAMPSEL);
+            endif;
+          else
+            errmsg("Cluster %d could not be loaded from sampsel", SSAMPLE);
+          endif
+        endif;
+      endif;
+    endif;
+  endif;
+  $ = " ";
+  noinput;
+
+postproc
+  if count( SNUMBER000 where SNUMBER <> 0 ) then
+    show( SNUMBER000, SNUMBER, SINTNUM, SACCEPTH, SACCEPTI, SACCEPTHW
+      title( tr("HH#"), tr("Int"), tr("HH"), tr("Indv"), tr("H&W") ) where SNUMBER <> 0 );
+  endif;
+  endlevel;
+

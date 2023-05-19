@@ -1,0 +1,1587 @@
+﻿[Dictionary]
+Version=CSPro 7.4
+Label=DHS-VII Core  07-13-2015
+Name=CCBIO80
+RecordTypeStart=11
+RecordTypeLen=3
+Positions=Relative
+ZeroFill=No
+DecimalChar=No
+SecurityOptions=4D4E31F2CFB71C20E0895958B41C789312A3A5B8A89B1F51AD6151C2596061E6
+
+[Level]
+Label=Biomarker
+Name=BIOMARKER
+
+[IdItems]
+
+[Item]
+Label=Cluster number
+Name=XBCLUST
+Start=1
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Household number
+Name=XBNUMBER
+Start=5
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Line of individual for biomarker
+Name=XBLINE
+Start=9
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Biomarker Identification
+Name=XBSECOVER
+RecordTypeValue='X00'
+RecordLen=58
+
+[Item]
+Label=Person's  name
+Name=XBNAME
+Start=14
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Biomarker number
+Name=XBCODE
+Start=39
+Len=4
+
+[Item]
+Label=Person's age
+Name=XBAGE
+Start=43
+Len=2
+
+[Item]
+Label=Code for type of individual for which biomarker is taken
+Name=XBPERSONC
+Start=45
+Len=1
+
+[ValueSet]
+Label=Code for type of individual for which biomarker is taken
+Name=XBPERSONC_EN
+Value=1;Woman
+Value=2;Man
+Value=3;Child
+
+[ValueSet]
+Label=Codigo para el tipo de individuo para el cual se toma el biomarcador
+Name=XBPERSONC_ES
+Value=1;Mujer
+Value=2;Hombre
+Value=3;Niño
+
+[Item]
+Label=Whether biomarker for children/women/men
+Name=XBPERSON
+Start=46
+Len=12
+DataType=Alpha
+
+[Item]
+Label=Auxliary to confirm
+Name=XBAUXILIAR
+Start=58
+Len=1
+
+[ValueSet]
+Label=Auxliary to confirm
+Name=XBAUXILIAR_EN
+Value=1;Yes
+Value=2;No
+
+[ValueSet]
+Label=Auxliar para confirmacion
+Name=XBAUXILIAR_ES
+Value=1;Si
+Value=2;No
+
+[Record]
+Label=Height, Weight, Hemoglobin (children)
+Name=XBSEC01
+RecordTypeValue='X01'
+Required=No
+RecordLen=79
+
+[Item]
+Label=Column number
+Name=XBCOL1
+Start=14
+Len=2
+
+[ValueSet]
+Label=Column number
+Name=XBCOL1_EN
+Value=1:20
+
+[ValueSet]
+Label=Numero de columna
+Name=XBCOL1_ES
+Value=1:20
+
+[Item]
+Label=Line number in household schedule
+Name=XB102
+Start=16
+Len=2
+
+[ValueSet]
+Label=Line number in household schedule
+Name=XB102_EN
+Value=1:50
+
+[ValueSet]
+Label=Numero de linea en listado de personas
+Name=XB102_ES
+Value=1:50
+
+[Item]
+Label=Day of birth
+Name=XB103D
+Start=18
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Day of birth
+Name=XB103D_EN
+Value=1:31
+Value=98;Don't know
+
+[ValueSet]
+Label=Dia de nacimiento
+Name=XB103D_ES
+Value=1:31
+Value=98;No sabe
+
+[Item]
+Label=Month of birth
+Name=XB103M
+Start=20
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Month of birth
+Name=XB103M_EN
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+Value=98;DK month
+
+[ValueSet]
+Label=Mes de nacimiento
+Name=XB103M_ES
+Value=1;Enero
+Value=2;Febrero
+Value=3;Marzo
+Value=4;Abril
+Value=5;Mayo
+Value=6;Junio
+Value=7;Julio
+Value=8;Agosto
+Value=9;Septiembre
+Value=10;Octubre
+Value=11;Noviembre
+Value=12;Diciembre
+Value=98;No sabe mes
+
+[Item]
+Label=Year of birth
+Name=XB103Y
+Start=22
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Year of birth
+Name=XB103Y_EN
+Value=2015;2015
+Value=2016;2016
+Value=2017;2017
+Value=2018;2018
+Value=2019;2019
+Value=2020;2020
+Value=9998;DK Year
+
+[ValueSet]
+Label=Año de nacimiento
+Name=XB103Y_ES
+Value=2015;2015
+Value=2016;2016
+Value=2017;2017
+Value=2018;2018
+Value=2019;2019
+Value=2020;2020
+Value=9998;No sabe año
+
+[Item]
+Label=Child age in years to be used as filter
+Name=XB104
+Start=26
+Len=1
+
+[Item]
+Label=Weight in kilograms
+Name=XB105
+Start=27
+Len=5
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms
+Name=XB105_EN
+Value=0.50:40.00
+Value=99.94;Not present
+Value=99.95;Refused
+Value=99.96;Other
+
+[ValueSet]
+Label=Peso en kilograms
+Name=XB105_ES
+Value=0.50:40.00
+Value=99.94;No presente
+Value=99.95;Rechazo
+Value=99.96;Otro
+
+[Item]
+Label=Weight in kilograms - working field for re-entering
+Name=XB105W
+Start=32
+Len=5
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms - working field for re-entering
+Name=XB105W_EN
+Value=0.50:40.00
+Value=99.94;Not present
+Value=99.95;Refused
+Value=99.96;Other
+
+[ValueSet]
+Label=Peso en kilograms - campo de trabajo
+Name=XB105W_ES
+Value=0.50:40.00
+Value=99.94;No presente
+Value=99.95;Rechazo
+Value=99.96;Otro
+
+[Item]
+Label=Height in centimeters
+Name=XB106
+Start=37
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters
+Name=XB106_EN
+Value=20.0:140.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[ValueSet]
+Label=Talla en centimetros
+Name=XB106_ES
+Value=20.0:140.0
+Value=999.4;No presente
+Value=999.5;Rechazo
+Value=999.6;Otro
+
+[Item]
+Label=Height in centimeters - working field for re-entering
+Name=XB106W
+Start=42
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters - working field for re-entering
+Name=XB106W_EN
+Value=20.0:140.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[ValueSet]
+Label=Talla en centimetros -campo de trabajo
+Name=XB106W_ES
+Value=20.0:140.0
+Value=999.4;No presente
+Value=999.5;Rechazo
+Value=999.6;Otro
+
+[Item]
+Label=Height: lying or standing
+Name=XB107
+Start=47
+Len=1
+
+[ValueSet]
+Label=Height: lying or standing
+Name=XB107_EN
+Value=1;Lying
+Value=2;Standing
+
+[ValueSet]
+Label=Tall: acostado o de pie
+Name=XB107_ES
+Value=1;Acostado
+Value=2;De pie
+
+[Item]
+Label=Fieldworker number for H/W
+Name=XB108
+Start=48
+Len=4
+
+[Item]
+Label=Born in month of interview or previous 5 months
+Name=XB109
+Start=52
+Len=1
+
+[ValueSet]
+Label=Born in month of interview or previous 5 months
+Name=XB109_EN
+Value=1;0-5 months
+Value=2;Older
+
+[Item]
+Label=Line no. of parent/caretaker
+Name=XB110
+Start=53
+Len=2
+
+[ValueSet]
+Label=Line no. of parent/caretaker
+Name=XB110_EN
+Value=0;Not listed in household
+Value=1:50
+
+[ValueSet]
+Label=Linea del responsable del niño(a)
+Name=XB110_ES
+Value=0;No es miembro del hogar
+Value=1:50
+
+[Item]
+Label=Read consent statement
+Name=XB112
+Start=55
+Len=1
+
+[ValueSet]
+Label=Read consent statement
+Name=XB112_EN
+Value=1;Granted
+Value=2;Refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento
+Name=XB112_ES
+Value=1;Obtenido
+Value=2;Rechazo
+Value=3;No presente/otro
+
+[Item]
+Label=Fieldworker signature
+Name=XB112A
+Start=56
+Len=5
+DataType=Alpha
+
+[Item]
+Label=Hemoglobin level (g/dl)
+Name=XB113
+Start=61
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Hemoglobin level (g/dl)
+Name=XB113_EN
+Value=2.0:26.0
+Value=99.5;Refused
+Value=99.6;Other
+
+[ValueSet]
+Label=Nivel de hemoglobin (g/dl)
+Name=XB113_ES
+Value=2.0:26.0
+Value=99.5;Rechazo
+Value=99.6;Otro
+
+[Item]
+Label=Hemoglobin level (g/dl) - working field for re-entering
+Name=XB113W
+Start=65
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Hemoglobin level (g/dl) - working field for re-entering
+Name=XB113W_EN
+Value=2.0:26.0
+Value=99.5;Refused
+Value=99.6;Other
+
+[ValueSet]
+Label=Nivel de hemoglobin (g/dl) - campo de trabajo
+Name=XB113W_ES
+Value=2.0:26.0
+Value=99.5;Rechazo
+Value=99.6;Otro
+
+[Item]
+Label=Day of measurement
+Name=XCINTD
+Start=69
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Day of measurement
+Name=XCINTD_EN
+Value=1:31
+
+[ValueSet]
+Label=Dia de medicion
+Name=XCINTD_ES
+Value=1:31
+
+[Item]
+Label=Month of measurement
+Name=XCINTM
+Start=71
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Month of measurement
+Name=XCINTM_EN
+Value=1:12
+
+[ValueSet]
+Label=Mes de medicion
+Name=XCINTM_ES
+Value=1:12
+
+[Item]
+Label=Year of measurement
+Name=XCINTY
+Start=73
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Year of measurement
+Name=XCINTY_EN
+Value=2020:2025
+
+[ValueSet]
+Label=Año de medicion
+Name=XCINTY_ES
+Value=2020:2025
+
+[Item]
+Label=Type of biomarker to collect
+Name=XBCTYPE1
+Start=77
+Len=1
+
+[ValueSet]
+Label=Type of biomarker to collect
+Name=XBCTYPE1_EN
+Value=1;Height & weight
+Value=2;Anemia
+
+[ValueSet]
+Label=Tipo de biomarcador
+Name=XBCTYPE1_ES
+Value=1;Peso y talla
+Value=2;Anemia
+
+[Item]
+Label=Collect anemia
+Name=XBCTYPE2
+Start=78
+Len=1
+
+[ValueSet]
+Label=Collect anemia
+Name=XBCTYPE2_EN
+Value=1;Yes
+Value=2;No
+
+[ValueSet]
+Label=Collect anemia
+Name=XBCTYPE2_ES
+Value=1;Si
+Value=2;No
+
+[Item]
+Label=End child holder
+Name=XCHLEND
+Start=79
+Len=1
+DataType=Alpha
+
+[Record]
+Label=Height, Weight, Hemoglobin (women)
+Name=XBSEC02
+RecordTypeValue='X02'
+Required=No
+RecordLen=92
+
+[Item]
+Label=Column number
+Name=XBCOL2
+Start=14
+Len=2
+
+[ValueSet]
+Label=Column number
+Name=XBCOL2_EN
+Value=1:20
+
+[ValueSet]
+Label=Numero de columna
+Name=XBCOL2_ES
+Value=1:20
+
+[Item]
+Label=Line number in household schedule
+Name=XB202
+Start=16
+Len=2
+
+[ValueSet]
+Label=Line number in household schedule
+Name=XB202_EN
+Value=1:50
+
+[ValueSet]
+Label=Numero de linea en listado de personas
+Name=XB202_ES
+Value=1:50
+
+[Item]
+Label=Under age 18
+Name=XB203
+Start=18
+Len=1
+
+[ValueSet]
+Label=Under age 18
+Name=XB203_EN
+Value=1;15-17 years
+Value=2;18-49 years
+
+[ValueSet]
+Label=Edad
+Name=XB203_ES
+Value=1;15-17 años
+Value=2;18-49 años
+
+[Item]
+Label=Marital status
+Name=XB204
+Start=19
+Len=1
+
+[ValueSet]
+Label=Marital status
+Name=XB204_EN
+Value=1;Code 4 (Never in union)
+Value=2;Other
+
+[ValueSet]
+Label=Estado civil
+Name=XB204_ES
+Value=1;Codigo 4 (Nunca unida)
+Value=2;Otro
+
+[Item]
+Label=Weight in kilograms
+Name=XB205
+Start=20
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms
+Name=XB205_EN
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[ValueSet]
+Label=Peso en kilogramos
+Name=XB205_ES
+Value=15.00:220.00
+Value=999.94;No presente
+Value=999.95;Rechazo
+Value=999.96;Otro
+
+[Item]
+Label=Weight in kilograms - working field for re-entering
+Name=XB205W
+Start=26
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms - working field for re-entering
+Name=XB205W_EN
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[ValueSet]
+Label=Peso en kilogramos - campo de trabajo
+Name=XB205W_VS2
+Value=15.00:220.00
+Value=999.94;No presente
+Value=999.95;Rechazo
+Value=999.96;Otro
+
+[Item]
+Label=Height in centimeters
+Name=XB206
+Start=32
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters
+Name=XB206_EN
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[ValueSet]
+Label=Talla en centimetros
+Name=XB206_ES
+Value=80.0:240.0
+Value=999.4;No presente
+Value=999.5;Rechazo
+Value=999.6;Otro
+
+[Item]
+Label=Height in centimeters - working field for re-entering
+Name=XB206W
+Start=37
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters - working field for re-entering
+Name=XB206W_EN
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[ValueSet]
+Label=Talla en centimetros campo de trabajo
+Name=XB206W_ES
+Value=80.0:240.0
+Value=999.4;No presente
+Value=999.5;Rechazo
+Value=999.6;Otro
+
+[Item]
+Label=Fieldworker number for H/w
+Name=XB207
+Start=42
+Len=4
+
+[Item]
+Label=Under age 18
+Name=XB208
+Start=46
+Len=1
+
+[ValueSet]
+Label=Under age 18
+Name=XB208_EN
+Value=1;15-17 years
+Value=2;18-49 years
+
+[ValueSet]
+Label=Edad
+Name=XB208_ES
+Value=1;15-17 años
+Value=2;18-49 años
+
+[Item]
+Label=Marital status
+Name=XB209
+Start=47
+Len=1
+
+[ValueSet]
+Label=Marital status
+Name=XB209_EN
+Value=1;Code 4 (Never in union)
+Value=2;Other
+
+[ValueSet]
+Label=Estado civil
+Name=XB209_ES
+Value=1;Codigo 4 (Nunca unida)
+Value=2;Otro
+
+[Item]
+Label=Read consent statement to respondent (Anemia)
+Name=XB211
+Start=48
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Anemia)
+Name=XB211_EN
+Value=1;Granted
+Value=2;Respondent refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento para anemia
+Name=XB211_ES
+Value=1;Obtenido
+Value=2;Entrevistada rechazo
+Value=3;No presente/otro
+
+[Item]
+Label=Currently pregnant
+Name=XB211A
+Start=49
+Len=1
+
+[ValueSet]
+Label=Currently pregnant
+Name=XB211A_EN
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[ValueSet]
+Label=Embarazo actual
+Name=XB211A_ES
+Value=1;Si
+Value=2;No
+Value=8;No sabe
+
+[Item]
+Label=Read consent statement to respondent (HIV)
+Name=XB213
+Start=50
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (HIV)
+Name=XB213_EN
+Value=1;Granted
+Value=2;Respondent refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento para VIH
+Name=XB213_ES
+Value=1;Obtenido
+Value=2;Entrevistada rechaza
+Value=3;No presente/otro
+
+[Item]
+Label=Fieldworker number for HIV
+Name=XB213A
+Start=51
+Len=4
+
+[Item]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB215
+Start=55
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB215_EN
+Value=1;Granted
+Value=2;Respondent refused
+
+[ValueSet]
+Label=Consentimiento para pruebas adicionales
+Name=XB215_ES
+Value=1;Obtenido
+Value=2;Entrevistada rechaza
+
+[Item]
+Label=Line no. of parent/caretaker
+Name=XB216
+Start=56
+Len=2
+
+[ValueSet]
+Label=Line no. of parent/caretaker
+Name=XB216_EN
+Value=0;Not listed in household
+Value=1:50
+
+[ValueSet]
+Label=Linea del responsable de la adolescente
+Name=XB216_ES
+Value=0;No es miembro del hogar
+Value=1:50
+
+[Item]
+Label=Read consent statement to parent/caretaker (Anemia)
+Name=XB218
+Start=58
+Len=1
+
+[ValueSet]
+Label=Read consent statement to parent/caretaker (Anemia)
+Name=XB218_EN
+Value=1;Granted
+Value=2;Parent/Other responsible adult refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento para anemia
+Name=XB218_ES
+Value=1;Obtenido
+Value=2;Responsable/Otro adulto rechaza
+Value=3;No presente/otro
+
+[Item]
+Label=Read consent statement to respondent (Anemia)
+Name=XB220
+Start=59
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Anemia)
+Name=XB220_EN
+Value=1;Granted
+Value=2;Minor respondent refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento para anemia de la entrevistada
+Name=XB220_ES
+Value=1;Obtenido
+Value=2;Adolescente entrevistada rechaza
+Value=3;No presente/otro
+
+[Item]
+Label=Currently pregnant
+Name=XB220A
+Start=60
+Len=1
+
+[ValueSet]
+Label=Currently pregnant
+Name=XB220A_EN
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[ValueSet]
+Label=Embarazo actual
+Name=XB220A_ES
+Value=1;Si
+Value=2;No
+Value=8;No sabe
+
+[Item]
+Label=Read consent statement to parent/caretaker (HIV)
+Name=XB222
+Start=61
+Len=1
+
+[ValueSet]
+Label=Read consent statement to parent/caretaker (HIV)
+Name=XB222_EN
+Value=1;Granted
+Value=2;Parent/Other responsible adult refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento para VIH del responsable
+Name=XB222_VS2
+Value=1;Obtenido
+Value=2;Responsable/otro adulto rechaza
+Value=3;No presente/otro
+
+[Item]
+Label=Fieldworker number for HIV
+Name=XB222A
+Start=62
+Len=4
+
+[Item]
+Label=Read consent statement to respondent (HIV)
+Name=XB224
+Start=66
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (HIV)
+Name=XB224_EN
+Value=1;Granted
+Value=2;Minor respondent refused
+Value=3;Not present/other
+
+[ValueSet]
+Label=Consentimiento para VIH la entrevistada
+Name=XB224_ES
+Value=1;Obtenido
+Value=2;Adolescente entrevistada rechaza
+Value=3;No presente/otro
+
+[Item]
+Label=Read consent statement to parent/caretaker (Additional tests)
+Name=XB226
+Start=67
+Len=1
+
+[ValueSet]
+Label=Read consent statement to parent/caretaker (Additional tests)
+Name=XB226_EN
+Value=1;Granted
+Value=2;Parent/Other responsible adult refused
+
+[ValueSet]
+Label=Consentimiento de responsable para pruebas adicionales
+Name=XB226_ES
+Value=1;Obtenido
+Value=2;Responsable/Otro adulto rechaza
+
+[Item]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB228
+Start=68
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB228_EN
+Value=1;Granted
+Value=2;Minor respondent refused
+
+[ValueSet]
+Label=Consentimiento para pruebas adicionales la entrevistada
+Name=XB228_ES
+Value=1;Obtenido
+Value=2;Adolescente entrevistada rechaza
+
+[Item]
+Label=Hemoglobin level (g/dl)
+Name=XB231
+Start=69
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Hemoglobin level (g/dl)
+Name=XB231_EN
+Value=2.0:26.0
+Value=99.4;Not present
+Value=99.5;Refused
+Value=99.6;Other
+
+[ValueSet]
+Label=Nivel de hemoglobina (g/dl)
+Name=XB231_ES
+Value=2.0:26.0
+Value=99.4;Ausente
+Value=99.5;Rechazo
+Value=99.6;Otro
+
+[Item]
+Label=Hemoglobin level (g/dl) - working field for re-entering
+Name=XB231W
+Start=73
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Hemoglobin level (g/dl) - working field for re-entering
+Name=XB231W_EN
+Value=2.0:26.0
+Value=99.4;Not present
+Value=99.5;Refused
+Value=99.6;Other
+
+[ValueSet]
+Label=Nivel de hemoglobina (g/dl) - campo de trabajo
+Name=XB231W_ES
+Value=2.0:26.0
+Value=99.4;Ausente
+Value=99.5;Rechazo
+Value=99.6;Otro
+
+[Item]
+Label=Barcode for blood sample (DBS)
+Name=XB232
+Start=77
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Barcode for blood sample (DBS)
+Name=XB232_EN
+Value=99994;Not present
+Value=99995;Refused
+Value=99996;Other
+
+[ValueSet]
+Label=Codigo de barra para muestra de sangre
+Name=XB232_VS2
+Value=99994;Ausente
+Value=99995;Rechazo
+Value=99996;Otro
+
+[Item]
+Label=Day of measurement
+Name=XWINTD
+Start=82
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Day of measurement
+Name=XWINTD_EN
+Value=1:31
+
+[ValueSet]
+Label=Dia de la medicion
+Name=XWINTD_ES
+Value=1:31
+
+[Item]
+Label=Month of measurement
+Name=XWINTM
+Start=84
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Month of measurement
+Name=XWINTM_EN
+Value=1:12
+
+[ValueSet]
+Label=Mes de la medicion
+Name=XWINTM_ES
+Value=1:12
+
+[Item]
+Label=Year of measurement
+Name=XWINTY
+Start=86
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Year of measurement
+Name=XWINTY_EN
+Value=2020:2025
+
+[ValueSet]
+Label=Año de la medicion
+Name=XWINTY_ES
+Value=2020:2025
+
+[Item]
+Label=Type of biomarker to collect
+Name=XWCTYPE1
+Start=90
+Len=1
+
+[ValueSet]
+Label=Type of biomarker to collect
+Name=XWCTYPE1_EN
+Value=1;Height & weight
+Value=2;Tests involving blood collection
+
+[ValueSet]
+Label=Tipo de biomarcador
+Name=XWCTYPE1_ES
+Value=1;Peso y talla
+Value=2;Pruebas que incluyen toma de muestras de sangre
+
+[Item]
+Label=Collect biomarkers that involve blood tests
+Name=XWCTYPE2
+Start=91
+Len=1
+
+[ValueSet]
+Label=Collect biomarkers that involve blood tests
+Name=XWCTYPE2_EN
+Value=1;Yes
+Value=2;No
+
+[ValueSet]
+Label=Recoleccion de biomarcadores con muestras de sangre
+Name=XWCTYPE2_ES
+Value=1;Si
+Value=2;No
+
+[Item]
+Label=End woman holder
+Name=XWOMEND
+Start=92
+Len=1
+DataType=Alpha
+
+[Record]
+Label=Height, Weight, Hemoglobin (men)
+Name=XBSEC03
+RecordTypeValue='X03'
+Required=No
+RecordLen=90
+
+[Item]
+Label=Line number
+Name=XBCOL3
+Start=14
+Len=2
+
+[ValueSet]
+Label=Line number
+Name=XBCOL3_EN
+Value=1:20
+
+[Item]
+Label=Line number in household schedule
+Name=XB302
+Start=16
+Len=2
+
+[ValueSet]
+Label=Line number in household schedule
+Name=XB302_EN
+Value=1;Head of household
+Value=2:50
+
+[Item]
+Label=Under age 18
+Name=XB303
+Start=18
+Len=1
+
+[ValueSet]
+Label=Under age 18
+Name=XB303_EN
+Value=1;15-17 years
+Value=2;18-[49] years
+
+[Item]
+Label=Marital status
+Name=XB304
+Start=19
+Len=1
+
+[ValueSet]
+Label=Marital status
+Name=XB304_EN
+Value=1;Code 4 (Never in union)
+Value=2;Other
+
+[Item]
+Label=Weight in kilograms
+Name=XB305
+Start=20
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms
+Name=XB305_EN
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[Item]
+Label=Weight in kilograms - working field for re-entering
+Name=XB305W
+Start=26
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms - working field for re-entering
+Name=XB305W_EN
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[Item]
+Label=Height in centimeters
+Name=XB306
+Start=32
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters
+Name=XB306_EN
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Height in centimeters - working field for re-entering
+Name=XB306W
+Start=37
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters - working field for re-entering
+Name=XB306W_EN
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Fieldworker number for H/W
+Name=XB307
+Start=42
+Len=4
+
+[Item]
+Label=Under age 18
+Name=XB308
+Start=46
+Len=1
+
+[ValueSet]
+Label=Under age 18
+Name=XB308_EN
+Value=1;15-17 years
+Value=2;18-[49] years
+
+[Item]
+Label=Marital status
+Name=XB309
+Start=47
+Len=1
+
+[ValueSet]
+Label=Marital status
+Name=XB309_EN
+Value=1;Code 4 (Never in union)
+Value=2;Other
+
+[Item]
+Label=Read consent statement to respondent (Anemia)
+Name=XB311
+Start=48
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Anemia)
+Name=XB311_EN
+Value=1;Granted
+Value=2;Respondent refused
+Value=3;Not present/other
+
+[Item]
+Label=Read consent statement to respondent (HIV)
+Name=XB313
+Start=49
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (HIV)
+Name=XB313_EN
+Value=1;Granted
+Value=2;Respondent refused
+Value=3;Not present/other
+
+[Item]
+Label=Fieldworker number for HIV
+Name=XB313A
+Start=50
+Len=4
+
+[Item]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB315
+Start=54
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB315_EN
+Value=1;Granted
+Value=2;Respondent refused
+
+[Item]
+Label=Line no. of parent/caretaker
+Name=XB316
+Start=55
+Len=2
+
+[ValueSet]
+Label=Line no. of parent/caretaker
+Name=XB316_EN
+Value=0;Not listed in household
+Value=1:50
+
+[Item]
+Label=Read consent statement to adult/caretaker (Anemia)
+Name=XB318
+Start=57
+Len=1
+
+[ValueSet]
+Label=Read consent statement to adult/caretaker (Anemia)
+Name=XB318_EN
+Value=1;Granted
+Value=2;Parent/Other responsible adult refused
+Value=3;Not present/other
+
+[Item]
+Label=Read consent statement to respondent (Anemia)
+Name=XB320
+Start=58
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Anemia)
+Name=XB320_EN
+Value=1;Granted
+Value=2;Minor respondent adult refused
+Value=3;Not present/other
+
+[Item]
+Label=Read consent statement to adult/caretaker (HIV)
+Name=XB322
+Start=59
+Len=1
+
+[ValueSet]
+Label=Read consent statement to adult/caretaker (HIV)
+Name=XB322_EN
+Value=1;Granted
+Value=2;Parent/Other responsible adult refused
+Value=3;Not present/other
+
+[Item]
+Label=Fieldworker number for HIV
+Name=XB322A
+Start=60
+Len=4
+
+[Item]
+Label=Read consent statement to respondent (HIV)
+Name=XB324
+Start=64
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (HIV)
+Name=XB324_EN
+Value=1;Granted
+Value=2;Minor respondent refused
+Value=3;Not present/other
+
+[Item]
+Label=Read consent statement to adult/caretaker (Additional tests)
+Name=XB326
+Start=65
+Len=1
+
+[ValueSet]
+Label=Read consent statement to adult/caretaker (Additional tests)
+Name=XB326_EN
+Value=1;Granted
+Value=2;Parent/Other responsible adult refused
+
+[Item]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB328
+Start=66
+Len=1
+
+[ValueSet]
+Label=Read consent statement to respondent (Additional tests)
+Name=XB328_EN
+Value=1;Granted
+Value=2;Minor respondent refused
+
+[Item]
+Label=Hemoglobin level (g/dl)
+Name=XB331
+Start=67
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Hemoglobin level (g/dl)
+Name=XB331_EN
+Value=2.0:26.0
+Value=99.4;Not present
+Value=99.5;Refused
+Value=99.6;Other
+
+[Item]
+Label=Hemoglobin level (g/dl) - working field for re-entering
+Name=XB331W
+Start=71
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Hemoglobin level (g/dl) - working field for re-entering
+Name=XB331W_EN
+Value=2.0:26.0
+Value=99.4;Not present
+Value=99.5;Refused
+Value=99.6;Other
+
+[Item]
+Label=Blood sample ID number
+Name=XB332
+Start=75
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Blood sample ID number
+Name=XB332_EN
+Value=99994;Not present
+Value=99995;Refused
+Value=99996;Other
+
+[Item]
+Label=Day of measurement
+Name=XMINTD
+Start=80
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Day of measurement
+Name=XMINTD_EN
+Value=1:31
+
+[Item]
+Label=Month of measurement
+Name=XMINTM
+Start=82
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Month of measurement
+Name=XMINTM_EN
+Value=1:12
+
+[Item]
+Label=Year of measurement
+Name=XMINTY
+Start=84
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Year of measurement
+Name=XMINTY_EN
+Value=2015:2020
+
+[Item]
+Label=Type of biomarker to collect
+Name=XMCTYPE1
+Start=88
+Len=1
+
+[ValueSet]
+Label=Type of biomarker to collect
+Name=XMCTYPE1_EN
+Value=1;Height & weight
+Value=2;Tests involving blood collection
+
+[ValueSet]
+Label=Tipo de biomarcador
+Name=XMCTYPE1_ES
+Value=1;Peso y talla
+Value=2;Pruebas que incluyen toma de muestras de sangre
+
+[Item]
+Label=Collect biomarkers that involve blood tests
+Name=XMCTYPE2
+Start=89
+Len=1
+
+[ValueSet]
+Label=Collect biomarkers that involve blood tests
+Name=XMCTYPE2_EN
+Value=1;Yes
+Value=2;No
+
+[ValueSet]
+Label=Recoleccion de biomarcadores con muestras de sangre
+Name=XMCTYPE2_ES
+Value=1;Si
+Value=2;No
+
+[Item]
+Label=End man holder
+Name=XMANEND
+Start=90
+Len=1
+DataType=Alpha

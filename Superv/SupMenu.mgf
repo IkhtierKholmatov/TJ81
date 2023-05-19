@@ -1,0 +1,154 @@
+﻿language = EN
+001 Cluster=%3d, not defined as part of the sample file
+002 Interviewer %02d not defined in the interviewer's file
+003 Interviewer %02d is not authorized to work in cluster %02d
+004 You must select your corresponding interviewer code
+005 You must select a household
+006 Error when trying to open file (%s)
+007 You must select an individual
+008 Directory "%s" not present, the system will abort
+010 A household can only be revisited when the previous visit was incomplete (%d)
+011 Household interview incomplete (%0d)
+012 Height and weight are only allowed to households with a complete interview (%d)
+014 WARNING: Bluetooth id (%s) not set to interviewer code. Use Android settings to change Bluetooth device name to "%s"\nThe system will now open the Android Settings Window.\n Type 'BL' in the search window and select the second entry in the list titled 'Bluetooth'
+015 Make sure that the supervisor SD card is connected to the PDA.  Once connected click on the OK button
+016 Data for cluster %04d were transferred to the supervisor computer.  click on OK
+017 There are no files for cluster %04d interviewer %02d
+018 There are files for cluster %04d interviewer %02d-%s that have not been accepted yet. Change current interviewer and repeat the process
+019 It wasn't possible to copy the files (%s) to receive directory
+020 An individual must be selected
+025 Review result of individual interview (%s) with the correct option (%d)
+030 Make sure that a CD has been placed in the CD unit.  Once the CD is in place click OK
+031 The CD recorded operation was completed.  Please continue
+035 Error setting-up file %s
+040 Individual data transferred. Its check will be done when listing or closing the cluster
+050 Mismatch between current cluster number on interviewer menu (%s) and supervisor menu (%s). Please check, make sure both menus are set to the correct cluster number and begin the transfer again. 
+054 You must select your correct supervisor code
+055 Individual interview incomplete (%d)
+060 Cluster can't be closed as there are still outstanding issues
+061 The flash memory is not connected to the computer.  Connect it and repeat the operation
+063 Cluster not closed yet, use option 8 first
+065 Secondary editing for individuals can't be run before secondary editing for households
+066 Secondary editing can't be run for incomplete households
+067 Can only review individuals for complete households %d
+068 Cannot select individuals that haven't been visited
+070 Make sure that your flash memory is in the computer to properly BACKUP the data to directory %s
+071 The flash memory isn't in the computer or directory %s doesn't exist.  BACKUP to flash memory may not be possible
+072 Completed data backup in FINAL directory to %s directory
+075 There are still processes pending before the data can be transferred to the central office
+076 There are no files available for this interviewer in the cluster
+080 There are no files available yet in the supervisor computer for cluster %s
+081 There are no files available yet for sampling selection for cluster %s
+090 Upgrade %s installed.
+091 The menu will shut down to implement upgrades. Please restart after shutdown. 
+092 WARNING: upgrade %s found but not installed correctly, please check
+093 All existing upgrades are present on the interviewer tablet, there is no need to transfer 
+095 Household assignment file not present, please use option 1 to create it
+100 Household file, in household %s the first record isn't valid '%s' for interviewer %s, in line %d
+101 Household file, household %d (line %d )duplicated for interviewer %s
+102 Sync with cloud server not successful, please check and try again
+103 Individual file, in household %s individual %s the first record isn't valid '%s' in line %d, interviewer %s
+104 Individual file, in household %d individual %d duplicated in line %d, interviewer %s
+105 Individual file, there are duplicate interviews for household %s individual %s from interviewer=%d and interviewer=%s
+109 Cluster successfully closed. The system will take a short time to combine files for uploading to the server, please click OK to continue
+110 Children not yet selected for remeasurement. Use option 1 'Select children for remeasurement'. 
+115 Biomarker data transferred. But no household data available in supervisor's machine for cluster
+118 There is no HH data file. It may be possible to list them using option 'Close/list cluster'
+120 Biomarker data transferred. But no household data available in supervisor's machine for cluster
+125 There are not enough completed households received on the supervisor tablet. Currently there are %02d, the minimum needed for selection is %02d.Run option 7 Close cluster/status report to verify.
+127 You have already selected %02d households for reinterview which is the maximum permittted
+200 No internet connection: please make sure you are connected to the Internet 
+500 Please ensure you are connected to the internet 
+501 Data has been sent to the central office
+502 Some data was NOT sent correctly to the central office, please resend
+999 Message=%08d
+
+language = RU
+001 Cluster=%3d, не определен в файле выборки
+002 Интервьюер %02d не определен в списке интервьюеров
+003 Интервьюер %02d не имеет права работать в кластере %02d
+004 Вы должны выбрать соответствующий код интервьюера
+005 Вы должны выбрать домашнее хозяйство
+006 Ошибка при попытке открыть файл (%s)
+007 Вы должны выбрать физическое лицо
+008 Папка "%s" отсутствует, система прервет работу
+010 Домохозяйство может быть повторно посещено только в том случае, если предыдущее посещение было неполным (%d)
+011 Неполное интервью с домохозяйством (%0d)
+012 Рост и вес разрешены только домохозяйствам с полным собеседованием (%d)
+014 ВНИМАНИЕ: Идентификатор Bluetooth (%s) не установлен на код интервьюера. Используйте настройки Android, чтобы изменить имя устройства Bluetooth на «%s»\nТеперь система откроет окно настроек Android.\n Введите «BL» в окне поиска и выберите вторую запись в списке под названием «Bluetooth».
+015 Убедитесь, что SD-карта супервизора подключена к КПК.  После подключения нажмите кнопку OK
+016 Данные для кластера %04d были переданы на компьютер супервизора.  нажмите на OK
+017 Нет файлов для кластера %04d интервьюер %02d
+018 Есть файлы для кластера %04d интервьюера %02d-%s, которые еще не приняты. Смените текущего интервьюера и повторите процесс
+019 Не удалось скопировать файлы (%s) в каталог получения
+020 Физическое лицо должно быть выбрано
+025 Обзор результатов индивидуального собеседования (%s) с правильным вариантом (%d)
+030 Удостоверьтесь, что компакт-диск помещен в компакт-диск.  После того, как компакт-диск будет установлен, нажмите кнопку ОК
+031 Операция записи компакт-диска была завершена.  Пожалуйста, продолжайте
+035 Ошибка настройки файла %s
+040 Передача индивидуальных данных. Его проверка будет производиться при листинге или закрытии кластера
+050 Несоответствие между текущим номером кластера в меню интервьюера (%s) и меню руководителя (%s). Пожалуйста, проверьте, убедитесь, что оба меню настроены на правильный номер кластера, и начните передачу заново. 
+054 Вы должны выбрать правильный код супервизора
+055 Индивидуальное собеседование не завершено (%d)
+060 Кластер не может быть закрыт, так как все еще есть нерешенные проблемы
+061 Флэш-память не подключена к компьютеру.  Подключите его и повторите операцию
+063 Кластер еще не закрыт, сначала используйте вариант 8
+065 Вторичное редактирование для отдельных лиц не может быть выполнено до вторичного редактирования для домашних хозяйств
+066 Вторичное редактирование не может быть выполнено для неполных домохозяйств
+067 Можно просматривать только отдельных лиц для полных домохозяйств %d
+068 Невозможно выбрать людей, которые не были посещены
+070 Убедитесь, что ваша флэш-память находится в компьютере, чтобы правильно РЕЗЕРВНОЕ КОПИРОВАНИЕ данных в каталог %s
+071 Флэш-память отсутствует на компьютере или каталог %s не существует.  РЕЗЕРВНОЕ КОПИРОВАНИЕ на флэш-память может быть невозможно
+072 Завершено резервное копирование данных из каталога FINAL в каталог %s
+075 До передачи данных в центральный офис еще не завершены процессы
+076 В кластере нет доступных файлов для этого интервьюера
+080 На компьютере-контролере пока нет доступных файлов для кластера %s
+081 Пока нет доступных файлов для выборки выборки для кластера %s
+090 Обновление %s установлено.
+091 Меню закроется для реализации обновлений. Пожалуйста, перезапустите после выключения. 
+092 ВНИМАНИЕ: обновление %s найдено, но установлено неправильно, пожалуйста, проверьте
+093 Все существующие апгрейды присутствуют на планшете интервьюера, переносить не нужно 
+095 Файл назначения домохозяйства отсутствует, пожалуйста, используйте вариант 1 для его создания
+100 Файл домохозяйства, в домохозяйстве %s первая запись недопустима '%s' для интервьюера %s, в строке %d
+101 Домашнее досье, домашнее хозяйство %d (строка %d )дублируется для интервьюера %s
+102 Синхронизация с облачным сервером не удалась, проверьте и повторите попытку
+103 Индивидуальное досье, в домашнем хозяйстве %s индивидуальные %s первая запись недопустима '%s' в строке %d, интервьюер %s
+104 Индивидуальное досье, в домашнем хозяйстве %d индивидуум %d дублирован в строке %d, интервьюер %s
+105 Индивидуальное досье, есть дубликаты интервью для домохозяйств %s индивидуальные %s от интервьюера = %d и интервьюера = %s
+109 Кластер успешно закрыт. Системе потребуется короткое время, чтобы объединить файлы для загрузки на сервер, пожалуйста, нажмите OK чтобы продолжить
+110 Детей еще не отобраны для повторного измерения. Используйте вариант 1 «Выбрать дочерние элементы для повторного измерения». 
+115 Переданные данные биомаркеров. Но нет данных о домохозяйствах, доступных в машине супервайзера для кластера
+118 Файл данных HH отсутствует. Их можно перечислить, используя опцию «Закрыть/перечислить кластер»
+120 Данные биомаркеров передано. Но нет данных о домохозяйствах, доступных в машине супервайзера для кластера
+125 Недостаточно завершенных домохозяйств, полученных на планшете супервайзера. В настоящее время существуют %02d, минимум, необходимый для выбора, составляет %02d. Запустите вариант 7 Закрыть кластер/отчет о состоянии для проверки.
+127 Вы уже отобрали %02d домохозяйств для повторного собеседования, что является максимально допустимым
+200 Нет подключения к Интернету: пожалуйста, убедитесь, что вы подключены к Интернету 
+500 Пожалуйста, убедитесь, что вы подключены к Интернету 
+501 Данные отправлены в центральный офис
+502 Некоторые данные НЕ были правильно отправлены в центральный офис, пожалуйста, отправьте повторно
+999 Сообщение=%08d
+
+{ common strings used by the application }
+  RU ("Select Language") Выбор языка
+  RU ("Select fieldworker you want to get data from") ") Выберите полевого работника, от которого вы хотите получить данные 
+  RU ( "Code" ) Код
+  RU ( "Name" ) Имя
+  RU ( "Role" ) Рол
+  RU ( "Do you want to register transmittal sheets for HIV or Malaria?" ) Вы хотите зарегистрировать трансмиссионные листы на ВИЧ или малярию?
+  RU ( "HIV" ) ВИЧ
+  RU ( "Malaria" ) Малярия
+  RU ( "Do you want to review HH/individual questionnaires?" ) Вы хотите просмотреть анкеты HH/ индивидуальные анкеты?
+  RU ( "Households" ) Домохозяйства
+  RU ( "Individuals" ) Индивиди
+  RU ( "There is another session running or the computer crashed while running" ) Запущен другой сеанс или произошел сбой компьютера во время работы
+  RU ( "Reset" ) Сброс
+  RU ( "Yes" ) Да
+  RU ( "No" ) Нет
+  RU ( "Sending Households Assigned" ) Отправка назначенных домохозяйств
+  RU ( "Sending assignment and household do team leader" ) Отправка назначения и домашнему хозяйству руководителю группы
+  RU ( "Sending Upgrades" ) Отправка обновления
+  RU ( "Sending Children for Remeasurement" ) Отправка детей на повторное измерение
+  RU ( "Select fieldworker " ) Выбор полевого работника
+  RU ( "Select a household to review from the list:" ) Выбор домохозяйство для просмотра:
+  RU ( "Received Fieldworker Questionnaire from interviewer %04d" ) Получен опросник полевого работника от интервьюера %04d
+  RU ( "Received Test file from interviewer %04d" ) Получен тестовый файл от интервьюера %04d  

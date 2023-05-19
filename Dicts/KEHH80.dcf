@@ -1,0 +1,5752 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=DHS-8 Core 06-19-2020
+Name=KEHH80
+RecordTypeStart=9
+RecordTypeLen=3
+Positions=Relative
+ZeroFill=No
+DecimalChar=No
+SecurityOptions=126F4BC2E5C1BD38A96BCC0A24416D34
+
+[Level]
+Label=Household
+Name=HOUSEHOLD
+
+[IdItems]
+
+[Item]
+Label=Cluster number
+Name=QHCLUST
+Start=1
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Household number
+Name=QHNUMBER
+Start=5
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Household identification
+Name=QHSECOVER
+RecordTypeValue='H00'
+RecordLen=274
+
+[Item]
+Label=County
+Name=QHREGION
+Start=12
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Sub county
+Name=QHSUBCOUNT
+Start=14
+Len=1
+DataType=Numeric
+
+[Item]
+Label=Location
+Name=QHLOCAT
+Start=15
+Len=1
+DataType=Numeric
+
+[Item]
+Label=Sub location
+Name=QHSUBLOCAT
+Start=16
+Len=1
+DataType=Numeric
+
+[Item]
+Label=K-HMSF cluster number
+Name=QHKHMSF
+Start=17
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Type of place of residence
+Name=QHTYPE
+Start=21
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Type of place of residence
+Name=QHTYPE_VS1
+Value=1;Urban
+Value=2;Rural
+
+[Item]
+Label=Address
+Name=QHADDRESS
+Start=22
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Eligibility for men?s interview
+Name=QHELIGM
+Start=62
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for men?s interview
+Name=QHELIGM_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Group to control visits
+Name=QHCONTVISIT
+Start=63
+Len=14
+DataType=Alpha
+Occurrences=5
+
+[Item]
+Label=Visit line number
+Name=QHVLINE
+Start=63
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Day of visit
+Name=QHVDAY
+Start=64
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Month of visit
+Name=QHVMONTH
+Start=66
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Year of visit
+Name=QHVYEAR
+Start=68
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Hour of visit
+Name=QHVHOUR
+Start=72
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Minute of visit
+Name=QHVMINUTE
+Start=74
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Result of visit
+Name=QHVRESULT
+Start=76
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Result of visit
+Name=QHVRESULT_VS1
+Value=1;Begin household interview
+Value=2;No household member at home or no competent respondent at time of visit
+Value=3;Entire household absent for extended period of time
+Value=4;Postponed
+Value=5;Refused
+Value=6;Dwelling vacant or address not a dwelling
+Value=7;Dwelling destroyed
+Value=8;Dwelling not found
+Value=9;Other
+
+[Item]
+Label=Interview day
+Name=QHINTD
+Start=133
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Interview day
+Name=QHINTD_VS1
+Value=1:31
+
+[Item]
+Label=Interview month
+Name=QHINTM
+Start=135
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Interview month
+Name=QHINTM_VS1
+Value=1:12
+
+[Item]
+Label=Interview year
+Name=QHINTY
+Start=137
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Interview year
+Name=QHINTY_VS1
+Value=2020:2025
+
+[Item]
+Label=Interviewer number
+Name=QHINTNUM
+Start=141
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Result of household interview
+Name=QHRESULT
+Start=145
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Result of household interview
+Name=QHRESULT_VS1
+Value=1;Completed
+Value=2;No household member at home or no competent respondent at home at time of visit
+Value=3;Entire household absent for extended period of time
+Value=4;Postponed
+Value=5;Refused
+Value=6;Dwelling vacant or address not a dwelling
+Value=7;Dwelling destroyed
+Value=8;Dwelling not found
+Value=9;Other
+
+[Item]
+Label=Number of household visits
+Name=QHVISITS
+Start=146
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Number of household visits
+Name=QHVISITS_VS1
+Value=1:5
+
+[Item]
+Label=Consent agreement
+Name=QHCONSENT
+Start=147
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Consent agreement
+Name=QHCONSENT_VS1
+Value=1;Respondent agrees to be interviewed
+Value=2;Respondent does not agree to be interviewed
+
+[Item]
+Label=Total members in household
+Name=QHMEMBER
+Start=148
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Total members in household
+Name=QHMEMBER_VS1
+Value=1:50
+
+[Item]
+Label=Eligible women in household
+Name=QHWOMEN
+Start=150
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligible women in household
+Name=QHWOMEN_VS1
+Value=0:15
+
+[Item]
+Label=Eligible men in household
+Name=QHMEN
+Start=152
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligible men in household
+Name=QHMEN_VS1
+Value=0:15
+
+[Item]
+Label=Line of household respondent
+Name=QHRESP
+Start=154
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line of household respondent
+Name=QHRESP_VS1
+Value=1:50
+
+[Item]
+Label=Team number
+Name=QHTEAM
+Start=156
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Supervisor number
+Name=QHSUPERV
+Start=158
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Language of questionnaire
+Name=QHLANGQ
+Start=162
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Language of questionnaire
+Name=QHLANGQ_VS1
+Value=1;English
+Value=2;Kiswahili
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Language of interview
+Name=QHLANGI
+Start=164
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Language of interview
+Name=QHLANGI_VS1
+Value=1;English
+Value=2;Kiswahili
+Value=3;Borana
+Value=4;Embu
+Value=5;Kalenjin
+Value=6;Kamba
+Value=7;Kikuyu
+Value=8;Kisii
+Value=9;Luhya
+Value=10;Maragoli
+Value=11;Luo
+Value=12;Maasai
+Value=13;Meru
+Value=14;Mijkenda
+Value=15;Pokot
+Value=16;Somali
+Value=17;Turkana
+Value=96;Other
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Language of respondent
+Name=QHLANGR
+Start=166
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Language of respondent
+Name=QHLANGR_VS1
+Value=1;English
+Value=2;Kiswahili
+Value=3;Borana
+Value=4;Embu
+Value=5;Kalenjin
+Value=6;Kamba
+Value=7;Kikuyu
+Value=8;Kisii
+Value=9;Luhya
+Value=10;Maragoli
+Value=11;Luo
+Value=12;Maasai
+Value=13;Meru
+Value=14;Mijkenda
+Value=15;Pokot
+Value=16;Somali
+Value=17;Turkana
+Value=96;Other
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Translator used
+Name=QHTRANS
+Start=168
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Translator used
+Name=QHTRANS_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Time household interview begins
+Name=QH100
+Start=169
+Len=4
+DataType=Alpha
+
+[Item]
+Label=Hour interview begins
+Name=QH100H
+Start=169
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[Item]
+Label=Minutes interview begins
+Name=QH100M
+Start=171
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Minutes interview begins
+Name=QH100M_VS1
+Value=0:59
+
+[Item]
+Label=Babies in the household
+Name=QHBABIES
+Start=173
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Babies in the household
+Name=QHBABIES_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other non-family members in household
+Name=QHNOFAM
+Start=174
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Other non-family members in household
+Name=QHNOFAM_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other temporary visitors in household
+Name=QHTEMP
+Start=175
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Other temporary visitors in household
+Name=QHTEMP_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Line number of woman eligible for domestic violence
+Name=QHNUMDV
+Start=176
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Date of household interview (CMC)
+Name=QHINTC
+Start=178
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Date of household interview (CMC)
+Name=QHINTC_VS1
+Value='    ';Not applicable
+Name=NOTAPPL,Special
+
+[Item]
+Label=Date of household interview Century Day Code (CDC)
+Name=QHINTCD
+Start=182
+Len=5
+DataType=Numeric
+
+[ValueSet]
+Label=Date of household interview Century Day Code (CDC)
+Name=QHINTCD_VS1
+Value='     ';Not applicable
+Name=NOTAPPL,Special
+
+[Item]
+Label=Household weight (6 decimals)
+Name=QHWEIGHT
+Start=187
+Len=8
+DataType=Numeric
+
+[Item]
+Label=Household weight - men's subsample (6 decimals)
+Name=QMWEIGHT
+Start=195
+Len=8
+DataType=Numeric
+
+[Item]
+Label=Sampling errors stratum
+Name=QHSTRATA
+Start=203
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Wealth index factor (5 decimals)
+Name=QHWLTHF
+Start=207
+Len=8
+DataType=Numeric
+
+[Item]
+Label=Wealth index quintile
+Name=QHWLTHI
+Start=215
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Wealth index quintile
+Name=QHWLTHI_VS1
+Value=1;Lowest
+Value=2;Second
+Value=3;Middle
+Value=4;Fourth
+Value=5;Highest
+
+[Item]
+Label=Wealth index factor for urban/rural (5 decimals)
+Name=QHWLTFUR
+Start=216
+Len=8
+DataType=Numeric
+
+[ValueSet]
+Label=Wealth index factor for urban/rural (5 decimals)
+Name=QHWLTFUR_VS1
+Value='        ';Not applicable
+Name=NOTAPPL,Special
+
+[Item]
+Label=Wealth index quintile for urban/rural
+Name=QHWLTIUR
+Start=224
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Wealth index quintile for urban/rural
+Name=QHWLTIUR_VS1
+Value=1;Lowest
+Value=2;Second
+Value=3;Middle
+Value=4;Fourth
+Value=5;Highest
+
+[Item]
+Label=Cluster altitude in meters
+Name=QHALTIT
+Start=225
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Eligibility for hemoglobin
+Name=QHELIHEM
+Start=229
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for hemoglobin
+Name=QHELIHEM_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Total de jure children 5-14 in household for child labor
+Name=QCHL22
+Start=230
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Total de jure children 5-14 in household for child labor
+Name=QCHL22_VS1
+Value=0:50
+
+[Item]
+Label=Interview notes
+Name=QHFINISH
+Start=232
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Auxiliary for HH coordinates
+Name=GHAUX
+Start=233
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Auxiliary for HH coordinates
+Name=GHAUX_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Introduction
+Name=GHINTRO
+Start=234
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Introduction
+Name=GHINTRO_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Latitude in degrees
+Name=GHLATITUDE
+Start=235
+Len=12
+DataType=Numeric
+Decimal=6
+DecimalChar=Yes
+
+[Item]
+Label=Pole north-south for latitude
+Name=GHLATPOLE
+Start=247
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Pole north-south for latitude
+Name=GHLATPOLE_VS1
+Value='N';North
+Value='S';South
+
+[Item]
+Label=Longitude in degrees
+Name=GHLONGITUDE
+Start=248
+Len=12
+DataType=Numeric
+Decimal=6
+DecimalChar=Yes
+
+[Item]
+Label=East-west longitude
+Name=GHLNGPOLE
+Start=260
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=East-west longitude
+Name=GHLNGPOLE_VS1
+Value='E';East
+Value='W';West
+
+[Item]
+Label=Altitude in meters
+Name=GHALTITUDE
+Start=261
+Len=5
+DataType=Numeric
+
+[Item]
+Label=Number of satellites
+Name=GHSATELLIT
+Start=266
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Accuracy (between 1-50) 1-the best 50-the weakest
+Name=GHACCURACY
+Start=268
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Line number of man eligible for domestic violence
+Name=QHNUMDVM
+Start=270
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Selected for DV
+Name=QHDV
+Start=272
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Selected for DV
+Name=QHDV_VS1
+Value=1;Man
+Value=2;Woman
+
+[Item]
+Label=Long/short
+Name=QHSHORT
+Start=273
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Long/short
+Name=QHSHORT_VS1
+Value=0;Long Questionnaire
+Value=1;Short Questionnaire
+
+[Item]
+Label=WHS+ consent statement
+Name=Q400
+Start=274
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=WHS+ consent statement
+Name=Q400_VS1
+Value=1;Respondent agrees to be revisited
+Value=2;Respondent does not agree to be revisited
+Value=9;Missing
+Name=MISSING,Special
+
+[Record]
+Label=Household members list
+Name=QHSEC01X
+RecordTypeValue='H1X'
+Required=No
+MaxRecords=50
+RecordLen=45
+
+[Item]
+Label=Person line number
+Name=QHLINE
+Start=12
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Person line number
+Name=QHLINE_VS1
+Value=1:50
+
+[Item]
+Label=Person first name
+Name=QHFIRSTN
+Start=14
+Len=12
+DataType=Alpha
+
+[Item]
+Label=Person last name
+Name=QHLASTN
+Start=26
+Len=12
+DataType=Alpha
+
+[Item]
+Label=Relationship
+Name=QHRELAT
+Start=38
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Relationship
+Name=QHRELAT_VS1
+Value=1;Head
+Value=2;Wife or husband
+Value=3;Son or daughter
+Value=4;Son-in-law or daughter-in-law
+Value=5;Grandchild
+Value=6;Parent
+Value=7;Parent-in-law
+Value=8;Brother or sister
+Value=9;Other relative
+Value=10;Adopted/foster/step child
+Value=11;Not related
+Value=98;Don't know
+
+[Item]
+Label=Usually lives here
+Name=QHLIVES
+Start=40
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Usually lives here
+Name=QHLIVES_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Slept here last night
+Name=QHSLEPT
+Start=41
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Slept here last night
+Name=QHSLEPT_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Sex
+Name=QHSEX
+Start=42
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Sex
+Name=QHSEX_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Age
+Name=QHAGE
+Start=43
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Age
+Name=QHAGE_VS1
+Value=0:94
+Value=95;95+
+Value=98;Don't know
+
+[Item]
+Label=Any other person living in household
+Name=QHMORE
+Start=45
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Any other person living in household
+Name=QHMORE_VS1
+Value=1;Yes
+Value=2;No
+
+[Record]
+Label=Household Schedule
+Name=QHSEC01
+RecordTypeValue='H01'
+Required=No
+MaxRecords=50
+RecordLen=90
+
+[Item]
+Label=Line number of member
+Name=QH01
+Start=12
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line number of member
+Name=QH01_VS1
+Value=1:50
+
+[Item]
+Label=Household member name
+Name=QH02
+Start=14
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Relationship to head
+Name=QH03
+Start=34
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Relationship to head
+Name=QH03_VS1
+Value=1;Head
+Value=2;Wife or husband
+Value=3;Son or daughter
+Value=4;Son-in-law or daughter-in-law
+Value=5;Grandchild
+Value=6;Parent
+Value=7;Parent-in-law
+Value=8;Brother or sister
+Value=9;Other relative
+Value=10;Adopted/foster/step child
+Value=11;Not related
+Value=98;Don't know
+
+[Item]
+Label=Sex of household member
+Name=QH04
+Start=36
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Sex of household member
+Name=QH04_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Usual resident
+Name=QH05
+Start=37
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Usual resident
+Name=QH05_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Slept last night
+Name=QH06
+Start=38
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Slept last night
+Name=QH06_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Age of household members
+Name=QH07
+Start=39
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Age of household members
+Name=QH07_VS1
+Value=0:94
+Value=95;95+
+Value=98;Don't know
+
+[Item]
+Label=Marital status
+Name=QH08
+Start=41
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Marital status
+Name=QH08_VS1
+Value=1;Married or living together
+Value=2;Divorced
+Value=3;Separated
+Value=4;Widowed
+Value=5;Never-married and never lived together
+
+[Item]
+Label=Eligibility for interview
+Name=QH09
+Start=42
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for interview
+Name=QH09_VS1
+Value=0;Not eligible
+Value=1:50
+
+[Item]
+Label=Eligibility for men?s interview
+Name=QH10
+Start=44
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for men?s interview
+Name=QH10_VS1
+Value=0;Not eligible
+Value=1:50
+
+[Item]
+Label=Eligibility for children for biomarkers
+Name=QH11
+Start=46
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for children for biomarkers
+Name=QH11_VS1
+Value=0;Not eligible
+Value=1:50
+
+[Item]
+Label=Mother alive
+Name=QH12
+Start=48
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Mother alive
+Name=QH12_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Mother's line number
+Name=QH13
+Start=49
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Mother's line number
+Name=QH13_VS1
+Value=0;Mother not in household
+Value=1:50
+
+[Item]
+Label=Father alive
+Name=QH14
+Start=51
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Father alive
+Name=QH14_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Father's line number
+Name=QH15
+Start=52
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Father's line number
+Name=QH15_VS1
+Value=0;Father not in household
+Value=1:50
+
+[Item]
+Label=Ever attended school
+Name=QH16
+Start=54
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Ever attended school
+Name=QH16_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Education attainment
+Name=QH17_ITEM
+Start=55
+Len=3
+DataType=Alpha
+
+[Item]
+Label=Level of education attended
+Name=QH17A
+Start=55
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Level of education attended
+Name=QH17A_VS1
+Link=127158312
+Value=0;Pre-primary
+Value=1;Primary
+Value=2;Secondary/"A" level
+Value=3;Middle level college (certificate/diploma)
+Value=4;University
+Value=5;Vocational
+Value=6;Informal education (madrasa/adult basic)
+Value=8;Don't know
+
+[Item]
+Label=Highest grade completed
+Name=QH17B
+Start=56
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Highest grade completed
+Name=QH17B_VS1
+Value=0;Less than 1 year completed
+Value=1:10
+Value=98;Don't know
+
+[Item]
+Label=Attended school the previous year
+Name=QH17AA
+Start=58
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Attended school the previous year
+Name=QH17AA_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Education attended
+Name=QH17BB_ITEM
+Start=59
+Len=3
+DataType=Alpha
+
+[Item]
+Label=Level of education attended
+Name=QH17BBA
+Start=59
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Level of education attended
+Name=QH17BBA_VS1
+Link=127158312
+
+[Item]
+Label=Grade attended
+Name=QH17BBB
+Start=60
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Grade attended
+Name=QH17BBB_VS1
+Value=1:10
+Value=98;Don't know
+
+[Item]
+Label=Attend school current year
+Name=QH18
+Start=62
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Attend school current year
+Name=QH18_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Education attending
+Name=QH19_ITEM
+Start=63
+Len=3
+DataType=Alpha
+
+[Item]
+Label=Level of education attending
+Name=QH19A
+Start=63
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Level of education attending
+Name=QH19A_VS1
+Link=127158312
+
+[Item]
+Label=Grade attending
+Name=QH19B
+Start=64
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Grade attending
+Name=QH19B_VS1
+Value=1:10
+Value=98;Don't know
+
+[Item]
+Label=Reason for stopping schooling
+Name=QH19AA
+Start=66
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Reason for stopping schooling
+Name=QH19AA_VS1
+Value=1;To young to attend
+Value=2;Completed school
+Value=3;Marriage
+Value=4;Pregnancy
+Value=5;Disability
+Value=6;Insecurity
+Value=7;Working/looking for work
+Value=8;School levies/other costs
+Value=9;Orphanhood
+Value=10;Socio-cultural/religious pressure
+Value=11;COVID-19 related problem
+Value=12;Illness (own/family)
+Value=13;Family responsibility
+Value=96;Other
+Value=98;Don't know
+
+[Item]
+Label=Birth certificate/registered
+Name=QH20
+Start=68
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Birth certificate/registered
+Name=QH20_VS1
+Value=1;Yes, registered with birth certificate
+Value=2;Yes, registered without birth certificate
+Value=3;Not registered
+Value=8;Don't know
+
+[Item]
+Label=Have difficulty seeing even when wearing glasses or contact lenses
+Name=QH21
+Start=69
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Have difficulty seeing even when wearing glasses or contact lenses
+Name=QH21_VS1
+Value=1;No difficulty seeing
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot see at all
+Value=8;Don't know
+
+[Item]
+Label=Have difficulty hearing even when using a hearing aid
+Name=QH22
+Start=70
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Have difficulty hearing even when using a hearing aid
+Name=QH22_VS1
+Value=1;No difficulty hearing
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot hear at all
+Value=8;Don't know
+
+[Item]
+Label=Have difficulty communicating using usual language
+Name=QH23
+Start=71
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Have difficulty communicating using usual language
+Name=QH23_VS1
+Value=1;No difficulty communicating
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot communicate at all
+Value=8;Don't know
+
+[Item]
+Label=Have difficulty remembering or concentrating
+Name=QH24
+Start=72
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Have difficulty remembering or concentrating
+Name=QH24_VS1
+Value=1;No difficulty remembering/concentrating
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot remember/concentrate at all
+Value=8;Don't know
+
+[Item]
+Label=Have difficulty walking or climbing steps
+Name=QH25
+Start=73
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Have difficulty walking or climbing steps
+Name=QH25_VS1
+Value=1;No difficulty walking or climbing
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot walk or climb at all
+Value=8;Don't know
+
+[Item]
+Label=Have difficulty washing all over or dressing
+Name=QH26
+Start=74
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Have difficulty washing all over or dressing
+Name=QH26_VS1
+Value=1;No difficulty washing or dressing
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot wash or dress at all
+Value=8;Don't know
+
+[Item]
+Label=Covered by health insurance
+Name=QH27
+Start=75
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Covered by health insurance
+Name=QH27_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Type of health insurance
+Name=QH28
+Start=76
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Type of health insurance
+Name=QH28_VS1
+Value='A   ';NHIF
+Value='B   ';Private/commercial
+Value='C   ';Community-based
+Value='X   ';Other
+
+[Item]
+Label=Admitted to overnight stay in medical facility in last 12 months
+Name=QH29
+Start=80
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Admitted to overnight stay in medical facility in last 12 months
+Name=QH29_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Eligibility for in-patient module
+Name=QH30
+Start=81
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for in-patient module
+Name=QH30_VS1
+Value=0;Not eligible
+Value=1:50
+
+[Item]
+Label=Received outpatient medical care in last 4 weeks
+Name=QH31
+Start=83
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Received outpatient medical care in last 4 weeks
+Name=QH31_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Paid money for last outpatient care
+Name=QH32
+Start=84
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Paid money for last outpatient care
+Name=QH32_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Eligibility for outpatient module
+Name=QH33
+Start=85
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligibility for outpatient module
+Name=QH33_VS1
+Value=0;Not eligible
+Value=1:50
+
+[Item]
+Label=Age corrected from individual questionnaire
+Name=ML07I
+Start=87
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Age corrected from individual questionnaire
+Name=ML07I_VS1
+Value=0:94
+Value=95;95+
+Value=98;Don't know
+
+[Item]
+Label=Flag for age correction
+Name=ML07F
+Start=89
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Flag for age correction
+Name=ML07F_VS1
+Value=0;No data from individual questionnaire
+Value=1;Month and year
+Value=2;Month and age -y imp
+Value=3;Year and age - m imp
+Value=4;Y & age - y ignored
+Value=5;Year - a, m imp
+Value=6;Age - y, m imp
+Value=7;Month - a, y imp
+Value=8;None - all imp
+
+[Item]
+Label=Pregnancy status from individual questionnaire
+Name=MLPREG
+Start=90
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Pregnancy status from individual questionnaire
+Name=MLPREG_VS1
+Value=1;Yes
+Value=0;No, don't know
+
+[Record]
+Label=Household Characteristics
+Name=QHSEC02
+RecordTypeValue='H02'
+Required=No
+RecordLen=159
+
+[Item]
+Label=Source of drinking water
+Name=QH101
+Start=12
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Source of drinking water
+Name=QH101_VS1
+Value=10;---PIPED WATER---
+Value=11;Piped into dwelling
+Value=12;Piped to yard/plot
+Value=13;Piped to neighbour
+Value=14;Public tap/standpipe
+Value=20;---TUBE WELL OR BOREHOLE---
+Value=21;Tube well or borehole
+Value=30;---DUG WELL---
+Value=31;Protected well
+Value=32;Unprotected well
+Value=40;---WATER FROM SPRING---
+Value=41;Protected spring
+Value=42;Unprotected spring
+Value=50;---OTHER SOURCES---
+Value=51;Rainwater
+Value=61;Tanker truck
+Value=71;Cart with small tank
+Value=81;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+Value=91;Bottled water
+Value=96;Other
+
+[Item]
+Label=Source of water for cooking/handwashing
+Name=QH102
+Start=14
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Source of water for cooking/handwashing
+Name=QH102_VS1
+Value=10;---PIPED WATER---
+Value=11;Piped into dwelling
+Value=12;Piped to yard/plot
+Value=13;Piped to neighbor
+Value=14;Public tap/standpipe
+Value=20;---TUBE WELL OR BOREHOLE---
+Value=21;Tube well or borehole
+Value=30;---DUG WELL---
+Value=31;Protected well
+Value=32;Unprotected well
+Value=40;---WATER FROM SPRING---
+Value=41;Protected spring
+Value=42;Unprotected spring
+Value=50;---OTHER SOURCES---
+Value=51;Rainwater
+Value=61;Tanker truck
+Value=71;Cart with small tank
+Value=81;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+Value=96;Other
+
+[Item]
+Label=Location of source for water
+Name=QH103
+Start=16
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Location of source for water
+Name=QH103_VS1
+Value=1;In own dwelling
+Value=2;In own yard/plot
+Value=3;Elsewhere
+
+[Item]
+Label=Time to water and back (mins)
+Name=QH104
+Start=17
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Time to water and back (mins)
+Name=QH104_VS1
+Value=0:9000;Minutes
+Value=9998;Don't know
+
+[Item]
+Label=Line number of person who collects water
+Name=QH105
+Start=21
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line number of person who collects water
+Name=QH105_VS1
+Value=0;Not a household member
+Value=1:50
+
+[Item]
+Label=Household did not have sufficient amount of water
+Name=QH106
+Start=23
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household did not have sufficient amount of water
+Name=QH106_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Do anything to water to make safe to drink
+Name=QH107
+Start=24
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Do anything to water to make safe to drink
+Name=QH107_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=What do you usually do to make water safe to drink
+Name=QH108
+Start=25
+Len=9
+DataType=Alpha
+
+[ValueSet]
+Label=What do you usually do to make water safe to drink
+Name=QH108_VS1
+Value='A        ';Boil
+Value='B        ';Add bleach/chlorine
+Value='C        ';Strain through a cloth
+Value='D        ';Use water filter (ceramic/sand/composite/etc)
+Value='E        ';Solar disinfection
+Value='F        ';Let it stand and settle
+Value='G        ';Cover the water container
+Value='X        ';Other
+Value='Z        ';Don't know
+
+[Item]
+Label=Type of toilet facility
+Name=QH109
+Start=34
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Type of toilet facility
+Name=QH109_VS1
+Value=10;---FLUSH OR POUR FLUSH TOILET---
+Value=11;Flush to piped sewer system
+Value=12;Flush to septic tank
+Value=13;Flush to pit latrine
+Value=14;Flush to somewhere else
+Value=15;Flush, don't know where
+Value=20;---PIT LATRINE---
+Value=21;Ventilated improved pit latrine
+Value=22;Pit latrine with slab
+Value=23;Pit latrine without slab/open pit
+Value=30;---OTHER TOILET FACILITIES---
+Value=31;Composting toilet
+Value=41;Bucket toilet
+Value=51;Hanging toilet/hanging latrine
+Value=61;No facility/bush/field
+Value=96;Other
+
+[Item]
+Label=Share facilities with other households
+Name=QH110
+Start=36
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Share facilities with other households
+Name=QH110_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Number of households sharing toilet
+Name=QH111
+Start=37
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Number of households sharing toilet
+Name=QH111_VS1
+Value=2:9
+Value=95;10 or more households
+Value=98;Don't know
+
+[Item]
+Label=Location of toilet facility
+Name=QH112
+Start=39
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Location of toilet facility
+Name=QH112_VS1
+Value=1;In own dwelling
+Value=2;In own yard/plot
+Value=3;Elsewhere
+
+[Item]
+Label=Septic tank has been emptied
+Name=QH114
+Start=40
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Septic tank has been emptied
+Name=QH114_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Septic tank emptied by a service provider
+Name=QH115
+Start=41
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Septic tank emptied by a service provider
+Name=QH115_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Where septic tanked emptied to
+Name=QH116
+Start=42
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Where septic tanked emptied to
+Name=QH116_VS1
+Value=1;Treatment plant
+Value=2;Buried in a covered pit
+Value=3;Uncovered pit/bush/field/open ground
+Value=4;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+Value=6;Other
+Value=8;Don't know
+
+[Item]
+Label=Type of cookstove
+Name=QH117
+Start=43
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Type of cookstove
+Name=QH117_VS1
+Value=1;Electric stove
+Value=2;Solar cooker
+Value=3;Liquefied petroleum gas (LPG)/cooking gas stove
+Value=4;Piped natural gas stove
+Value=5;Biogas stove
+Value=6;Liquid fuel stove
+Value=7;Manufactured solid fuel stove (Jiko)
+Value=8;Traditional solid fuel stove
+Value=9;Three stone stove/open fire
+Value=95;No food cooked in household
+Value=96;Other
+
+[Item]
+Label=Stove has a chimney
+Name=QH118
+Start=45
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Stove has a chimney
+Name=QH118_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Stove has a fan
+Name=QH119
+Start=46
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Stove has a fan
+Name=QH119_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Type of cooking fuel
+Name=QH120
+Start=47
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Type of cooking fuel
+Name=QH120_VS1
+Value=1;Alcohol/ethanol
+Value=2;Gasoline/diesel
+Value=3;Kerosene/paraffin
+Value=4;Coal/lignite
+Value=5;Charcoal
+Value=6;Wood
+Value=7;Straw/shrubs/grass
+Value=8;Agricultural crop
+Value=9;Animal dung/waste
+Value=10;Processed biomass (pellets) or woodchips
+Value=11;Garbage/plastic
+Value=12;Sawdust
+Value=96;Other
+
+[Item]
+Label=Food cooked in the house / in separate building / outdoors
+Name=QH121
+Start=49
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Food cooked in the house / in separate building / outdoors
+Name=QH121_VS1
+Value=1;In the house
+Value=2;In a separate building
+Value=3;Outdoors
+Value=6;Other
+
+[Item]
+Label=Household has separate room used as kitchen
+Name=QH122
+Start=50
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household has separate room used as kitchen
+Name=QH122_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Heat source for home
+Name=QH123
+Start=51
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Heat source for home
+Name=QH123_VS1
+Value=1;Manufactured space heater
+Value=2;Traditional space heater
+Value=3;Manufactured cookstove
+Value=4;Traditional cookstove (jiko)
+Value=5;Three stone stove/open fire
+Value=6;Fireplace
+Value=95;No heating in household
+Value=96;Other
+
+[Item]
+Label=Heat in home has a chimney
+Name=QH124
+Start=53
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Heat in home has a chimney
+Name=QH124_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=Type of fuel for home heat
+Name=QH125
+Start=54
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Type of fuel for home heat
+Name=QH125_VS1
+Value=1;Electricity
+Value=2;Piped natural gas
+Value=3;Solar air heater
+Value=4;Liquefied petroleum gas (LPG)/cooking gas
+Value=5;Biogas
+Value=6;Alcohol/ethanol
+Value=7;Gasoline/diesel
+Value=8;Kerosene/paraffin
+Value=9;Coal/lignite
+Value=10;Charcoal
+Value=11;Wood
+Value=12;Straw/shrubs/grass
+Value=13;Agricultural crop
+Value=14;Animal dung/waste
+Value=15;Processed biomass (pellets) or woodchips
+Value=16;Garbage/plastic
+Value=17;Sawdust
+Value=96;Other
+
+[Item]
+Label=Type of light at home
+Name=QH126
+Start=56
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Type of light at home
+Name=QH126_VS1
+Value=1;Electricity
+Value=2;Solar lantern
+Value=3;Rechargeable flashlight, torch, or lantern
+Value=4;Battery powered flashlight, torch or lantern
+Value=5;Biogas lamp
+Value=6;Gasoline lamp
+Value=7;Kerosene or paraffin lamp
+Value=8;Charcoal
+Value=9;Wood
+Value=10;Straw/shrubs/grass
+Value=11;Agricultural crop
+Value=12;Animal dung/waste
+Value=13;Oil lamp
+Value=14;Candle
+Value=95;No lighting in household
+Value=96;Other
+
+[Item]
+Label=Number of rooms used for sleeping
+Name=QH127
+Start=58
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Number of rooms used for sleeping
+Name=QH127_VS1
+Value=1:24
+
+[Item]
+Label=Is the home owned, rented or not paying rent
+Name=QH127A
+Start=60
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Is the home owned, rented or not paying rent
+Name=QH127A_VS1
+Value=1;Owns
+Value=2;Pays rent/lease
+Value=3;No rent with consent of owner
+Value=4;No rent, squatting
+
+[Item]
+Label=Is the land owned
+Name=QH127B
+Start=61
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Is the land owned
+Name=QH127B_VS1
+Value=1;Owns
+Value=2;Pays rent/lease
+Value=3;No rent with consent of owner
+Value=4;No rent, squatting
+
+[Item]
+Label=Livestock, herds or farm animals
+Name=QH128
+Start=62
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Livestock, herds or farm animals
+Name=QH128_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Cows/bulls
+Name=QH129A
+Start=63
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Cows/bulls
+Name=QH129A_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Other cattle
+Name=QH129B
+Start=65
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Other cattle
+Name=QH129B_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Horses/donkeys/mules
+Name=QH129C
+Start=67
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Horses/donkeys/mules
+Name=QH129C_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Goats
+Name=QH129D
+Start=69
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Goats
+Name=QH129D_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Sheep
+Name=QH129E
+Start=71
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Sheep
+Name=QH129E_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Chickens or other poultry
+Name=QH129F
+Start=73
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Chickens or other poultry
+Name=QH129F_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Pigs
+Name=QH129G
+Start=75
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Pigs
+Name=QH129G_VS1
+Value=0;None
+Value=1:94
+Value=95;95 or more
+Value=98;Unknown
+
+[Item]
+Label=Own land usable for agriculture
+Name=QH130A
+Start=77
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Own land usable for agriculture
+Name=QH130A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Size of agricultural land
+Name=QH130B_ITEM
+Start=78
+Len=9
+DataType=Numeric
+
+[Item]
+Label=Size of agricultural land unit
+Name=QH130BU
+Start=78
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Size of agricultural land unit
+Name=QH130BU_VS1
+Value=1;Acres
+Value=2;Hectares
+Value=3;Plot size (sq ft)
+Value=9;Don't know
+
+[Item]
+Label=Size of agricultural land number
+Name=QH130BN
+Start=79
+Len=8
+ItemType=SubItem
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Size of agricultural land number
+Name=QH130BN_VS1
+Value=0.1:999994.0
+Value=995.0;995 acres/hectares or more
+Value=999995.0;999995 sq. ft or more
+Value=999999.8;Don't know
+
+[Item]
+Label=Own non-agricultural land
+Name=QH131A
+Start=87
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Own non-agricultural land
+Name=QH131A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Size of non-agricultural land
+Name=QH131B_ITEM
+Start=88
+Len=9
+DataType=Numeric
+
+[Item]
+Label=Size of non-agricultural land unit
+Name=QH131BU
+Start=88
+Len=1
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Size of non-agricultural land unit
+Name=QH131BU_VS1
+Value=1;Acres
+Value=2;Hectares
+Value=3;Plot size (sq ft)
+Value=9;Don't know
+
+[Item]
+Label=Size of non-agricultural land number
+Name=QH131BN
+Start=89
+Len=8
+ItemType=SubItem
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Size of non-agricultural land number
+Name=QH131BN_VS1
+Value=0.1:999994.0
+Value=995.0;995 acres/hectares or more
+Value=999995.0;999995 sq. ft or more
+Value=999999.8;Don't know
+
+[Item]
+Label=Electricity
+Name=QH132A
+Start=97
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Electricity
+Name=QH132A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Radio
+Name=QH132B
+Start=98
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Radio
+Name=QH132B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Television
+Name=QH132C
+Start=99
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Television
+Name=QH132C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Telephone (non-mobile)
+Name=QH132D
+Start=100
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Telephone (non-mobile)
+Name=QH132D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Computer
+Name=QH132E
+Start=101
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Computer
+Name=QH132E_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Refrigerator
+Name=QH132F
+Start=102
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Refrigerator
+Name=QH132F_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Solar Panel
+Name=QH132G
+Start=103
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Solar Panel
+Name=QH132G_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Table
+Name=QH132H
+Start=104
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Table
+Name=QH132H_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Chair
+Name=QH132I
+Start=105
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Chair
+Name=QH132I_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Sofa
+Name=QH132J
+Start=106
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Sofa
+Name=QH132J_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Bed
+Name=QH132K
+Start=107
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Bed
+Name=QH132K_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Cupboard
+Name=QH132L
+Start=108
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Cupboard
+Name=QH132L_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Clock
+Name=QH132M
+Start=109
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Clock
+Name=QH132M_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Microwave oven
+Name=QH132N
+Start=110
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Microwave oven
+Name=QH132N_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=DVD player
+Name=QH132O
+Start=111
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=DVD player
+Name=QH132O_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Cassette or CD player
+Name=QH132P
+Start=112
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Cassette or CD player
+Name=QH132P_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Watch
+Name=QH133A
+Start=113
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Watch
+Name=QH133A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Mobile telephone
+Name=QH133B
+Start=114
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Mobile telephone
+Name=QH133B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Bicycle
+Name=QH133C
+Start=115
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Bicycle
+Name=QH133C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Motorcycle or scooter
+Name=QH133D
+Start=116
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Motorcycle or scooter
+Name=QH133D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Animal-drawn cart
+Name=QH133E
+Start=117
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Animal-drawn cart
+Name=QH133E_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Car or Truck
+Name=QH133F
+Start=118
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Car or Truck
+Name=QH133F_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Boat with a motor
+Name=QH133G
+Start=119
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Boat with a motor
+Name=QH133G_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Bank account
+Name=QH134
+Start=120
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Bank account
+Name=QH134_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Household receives social assistance from: National government
+Name=QH134AA
+Start=121
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household receives social assistance from: National government
+Name=QH134AA_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Household receives social assistance from: County government
+Name=QH134AB
+Start=122
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household receives social assistance from: County government
+Name=QH134AB_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Household receives social assistance from: NGOs/CBOs/other charitable organizations
+Name=QH134AC
+Start=123
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household receives social assistance from: NGOs/CBOs/other charitable organizations
+Name=QH134AC_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Household receives social assistance from: Church/mosque/other religious organization
+Name=QH134AD
+Start=124
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household receives social assistance from: Church/mosque/other religious organization
+Name=QH134AD_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Household receives social assistance from: Friends/relatives/neighbors
+Name=QH134AE
+Start=125
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household receives social assistance from: Friends/relatives/neighbors
+Name=QH134AE_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Reason for social assistance
+Name=QH134C
+Start=126
+Len=11
+DataType=Alpha
+
+[ValueSet]
+Label=Reason for social assistance
+Name=QH134C_VS1
+Value='A          ';Orphaned children 18 years or younger
+Value='B          ';Elderly person
+Value='C          ';Person with severe disability
+Value='D          ';Urban food subsidy
+Value='E          ';Food aid for persons in arid and semi-arid lands
+Value='F          ';Health voucher
+Value='G          ';Food/cash for work
+Value='H          ';School feeding
+Value='I          ';Hunger safety net programme
+Value='J          ';COVID-19 relief
+Value='X          ';Other
+
+[Item]
+Label=Household registered to a mobile money platform
+Name=QH134D
+Start=137
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Household registered to a mobile money platform
+Name=QH134D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Mobile phone used financial transactions
+Name=QH135
+Start=138
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Mobile phone used financial transactions
+Name=QH135_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Last 12 months a HH member killed in road accident
+Name=QH135A
+Start=139
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 12 months a HH member killed in road accident
+Name=QH135A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=How many members killed in road accident
+Name=QH135B
+Start=140
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How many members killed in road accident
+Name=QH135B_VS1
+Value=1:50
+
+[Item]
+Label=Last 12 months a HH member injured in road accident
+Name=QH135C
+Start=142
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 12 months a HH member injured in road accident
+Name=QH135C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=How many members injured in road accident
+Name=QH135D
+Start=143
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How many members injured in road accident
+Name=QH135D_VS1
+Value=1:50
+
+[Item]
+Label=Any member tested for COVID-19
+Name=QH135E
+Start=145
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Any member tested for COVID-19
+Name=QH135E_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=How many members tested for COVID-19
+Name=QH135F
+Start=146
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How many members tested for COVID-19
+Name=QH135F_VS1
+Value=1:50
+
+[Item]
+Label=Any member tested positive for COVID-19
+Name=QH135G
+Start=148
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Any member tested positive for COVID-19
+Name=QH135G_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=How many members tested positive for COVID-19
+Name=QH135H
+Start=149
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How many members tested positive for COVID-19
+Name=QH135H_VS1
+Value=1:50
+
+[Item]
+Label=Any member died from COVID-19
+Name=QH135I
+Start=151
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Any member died from COVID-19
+Name=QH135I_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=How many members died from COVID-19
+Name=QH135J
+Start=152
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How many members died from COVID-19
+Name=QH135J_VS1
+Value=1:50
+
+[Item]
+Label=Any member vaccinated against COVID-19
+Name=QH135K
+Start=154
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Any member vaccinated against COVID-19
+Name=QH135K_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+
+[Item]
+Label=How many members vaccinated against COVID-19
+Name=QH135L
+Start=155
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How many members vaccinated against COVID-19
+Name=QH135L_VS1
+Value=1:50
+
+[Item]
+Label=Frequency of smoking inside house
+Name=QH136
+Start=157
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Frequency of smoking inside house
+Name=QH136_VS1
+Value=1;Daily
+Value=2;Weekly
+Value=3;Monthly
+Value=4;Less often than once a month
+Value=5;Never
+
+[Item]
+Label=Owns mosquito nets for sleeping
+Name=QH137
+Start=158
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Owns mosquito nets for sleeping
+Name=QH137_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Number of mosquito nets
+Name=QH138
+Start=159
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Number of mosquito nets
+Name=QH138_VS1
+Value=1:6
+Value=7;7+
+
+[Record]
+Label=Mosquito Nets
+Name=QHSEC03
+RecordTypeValue='H03'
+Required=No
+MaxRecords=7
+RecordLen=31
+
+[Item]
+Label=Net number
+Name=QH139
+Start=12
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Net number
+Name=QH139_VS1
+Value=1:7
+
+[Item]
+Label=Shown Net
+Name=QH140
+Start=13
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Shown Net
+Name=QH140_VS1
+Value=1;Observed
+Value=2;Not observed
+
+[Item]
+Label=How long ago household obtain net
+Name=QH141
+Start=14
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=How long ago household obtain net
+Name=QH141_VS1
+Value=0:36
+Value=95;More than 36 months ago
+Value=98;Not sure
+
+[Item]
+Label=Net brand name
+Name=QH142
+Start=16
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Net brand name
+Name=QH142_VS1
+Value=10;---LONG-LASTING INSECTICIDE-TREATED NET (LLIN)---
+Value=11;Olyset (Supanet extra)
+Value=12;Permanet (Supanet extra)
+Value=13;Net protect
+Value=14;Yorkool
+Value=15;Dawa Plus
+Value=16;Duranet
+Value=17;Magnet
+Value=18;Other/Don't know brand (LLIN)
+Value=90;---OTHER---
+Value=96;Other type (NOT LLIN)
+Value=98;Don't know type
+
+[Item]
+Label=Obtained net from campaign, antenatal or immunization visit
+Name=QH143
+Start=18
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Obtained net from campaign, antenatal or immunization visit
+Name=QH143_VS1
+Value=1;Yes, mass distribution campaign
+Value=2;Yes, ANC
+Value=3;Yes, child welfare visit
+Value=4;No
+
+[Item]
+Label=Place where net was obtained
+Name=QH144
+Start=19
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Place where net was obtained
+Name=QH144_VS1
+Value=1;Government health facility
+Value=2;Private health facility
+Value=3;Pharmacy
+Value=4;Shop/market
+Value=5;CHW
+Value=6;Religious institution
+Value=7;School
+Value=96;Other
+Value=98;Don't know
+
+[Item]
+Label=Anyone sleep under this net last night
+Name=QH145
+Start=21
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Anyone sleep under this net last night
+Name=QH145_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Not sure
+
+[Item]
+Label=Line No. of 1st person who slept under net
+Name=QH146A
+Start=22
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line No. of 1st person who slept under net
+Name=QH146A_VS1
+Value=1:50
+
+[Item]
+Label=Line No. of 2nd person who slept under net
+Name=QH146B
+Start=24
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line No. of 2nd person who slept under net
+Name=QH146B_VS1
+Value=0;No more
+Value=1:50
+
+[Item]
+Label=Line No. of 3rd person who slept under net
+Name=QH146C
+Start=26
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line No. of 3rd person who slept under net
+Name=QH146C_VS1
+Value=0;No more
+Value=1:50
+
+[Item]
+Label=Line No. of 4th person who slept under net
+Name=QH146D
+Start=28
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line No. of 4th person who slept under net
+Name=QH146D_VS1
+Value=0;No more
+Value=1:50
+
+[Item]
+Label=Reason net was not used
+Name=QH147
+Start=30
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Reason net was not used
+Name=QH147_VS1
+Value=1;Too hot
+Value=2;Don't like net shape/color/size
+Value=3;Don't like smell
+Value=4;Unable to hang net
+Value=5;Slept outdoors
+Value=6;Usual user didn't sleep here last night
+Value=7;No Mosquitoes/no malaria
+Value=8;Extra net/saving for later
+Value=9;Net too small/short
+Value=10;Net brought bedbugs
+Value=96;Other
+
+[Record]
+Label=Household food consumption
+Name=QHSEC04A
+RecordTypeValue='H4A'
+Required=No
+RecordLen=65
+
+[Item]
+Label=Last 7 days, HH did not have food
+Name=QH148A
+Start=12
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH did not have food
+Name=QH148A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Last 7 days, how many days did the HH: rely on less preferred food
+Name=QH148BA
+Start=13
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, how many days did the HH: rely on less preferred food
+Name=QH148BA_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, how many days did the HH: borrow food
+Name=QH148BB
+Start=14
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, how many days did the HH: borrow food
+Name=QH148BB_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, how many days did the HH: reduce number of meals
+Name=QH148BC
+Start=15
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, how many days did the HH: reduce number of meals
+Name=QH148BC_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, how many days did the HH: reduce portion sizes
+Name=QH148BD
+Start=16
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, how many days did the HH: reduce portion sizes
+Name=QH148BD_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, how many days did the HH: reduce quantities for adults
+Name=QH148BE
+Start=17
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, how many days did the HH: reduce quantities for adults
+Name=QH148BE_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, HH consumed: cereals and grains
+Name=QH148CA
+Start=18
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: cereals and grains
+Name=QH148CA_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: cereal and grains
+Name=QH148CBA
+Start=19
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: cereal and grains
+Name=QH148CBA_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: roots and tubers
+Name=QH148CB
+Start=21
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: roots and tubers
+Name=QH148CB_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: roots and tubers
+Name=QH148CBB
+Start=22
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: roots and tubers
+Name=QH148CBB_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: pulses and nuts
+Name=QH148CC
+Start=24
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: pulses and nuts
+Name=QH148CC_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: pulses and nuts
+Name=QH148CBC
+Start=25
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: pulses and nuts
+Name=QH148CBC_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: orange vegetables
+Name=QH148CD
+Start=27
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: orange vegetables
+Name=QH148CD_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: orange vegetables
+Name=QH148CBD
+Start=28
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: orange vegetables
+Name=QH148CBD_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: green leafy vegetables
+Name=QH148CE
+Start=30
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: green leafy vegetables
+Name=QH148CE_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: green leafy vegetables
+Name=QH148CBE
+Start=31
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: green leafy vegetables
+Name=QH148CBE_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: other vegetables
+Name=QH148CF
+Start=33
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: other vegetables
+Name=QH148CF_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: other vegetables
+Name=QH148CBF
+Start=34
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: other vegetables
+Name=QH148CBF_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: orange fruits
+Name=QH148CG
+Start=36
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: orange fruits
+Name=QH148CG_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: orange fruits
+Name=QH148CBG
+Start=37
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: orange fruits
+Name=QH148CBG_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: other fruits
+Name=QH148CH
+Start=39
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: other fruits
+Name=QH148CH_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: other fruits
+Name=QH148CBH
+Start=40
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: other fruits
+Name=QH148CBH_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: meat
+Name=QH148CI
+Start=42
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: meat
+Name=QH148CI_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: meat
+Name=QH148CBI
+Start=43
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: meat
+Name=QH148CBI_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: organ meats
+Name=QH148CJ
+Start=45
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: organ meats
+Name=QH148CJ_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: organ meats
+Name=QH148CBJ
+Start=46
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: organ meats
+Name=QH148CBJ_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: fish or shellfish
+Name=QH148CK
+Start=48
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: fish or shellfish
+Name=QH148CK_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: fish or shellfish
+Name=QH148CBK
+Start=49
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: fish or shellfish
+Name=QH148CBK_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: eggs
+Name=QH148CL
+Start=51
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: eggs
+Name=QH148CL_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: eggs
+Name=QH148CBL
+Start=52
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: eggs
+Name=QH148CBL_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: milk and dairy products
+Name=QH148CM
+Start=54
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: milk and dairy products
+Name=QH148CM_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: milk and dairy products
+Name=QH148CBM
+Start=55
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: milk and dairy products
+Name=QH148CBM_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: oil, fat, butter
+Name=QH148CN
+Start=57
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: oil, fat, butter
+Name=QH148CN_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: oil, fat, butter
+Name=QH148CBN
+Start=58
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: oil, fat, butter
+Name=QH148CBN_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: sugar or sweet things
+Name=QH148CO
+Start=60
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: sugar or sweet things
+Name=QH148CO_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: sugar or sweet things
+Name=QH148CBO
+Start=61
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: sugar or sweet things
+Name=QH148CBO_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Item]
+Label=Last 7 days, HH consumed: condiments and spices
+Name=QH148CP
+Start=63
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, HH consumed: condiments and spices
+Name=QH148CP_VS1
+Value=0:7
+
+[Item]
+Label=Last 7 days, main source of food of: condiments and spices
+Name=QH148CBP
+Start=64
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Last 7 days, main source of food of: condiments and spices
+Name=QH148CBP_VS1
+Value=21;Own production (crops, animal)
+Value=22;Fishing, hunting, gathering
+Value=23;Loaned, borrowed
+Value=24;Purchased
+Value=25;Begged
+Value=26;Exchanged for labor
+Value=27;Gift from family, friends
+Value=28;Food aid from civil society, NGO, government
+Value=96;Other
+
+[Record]
+Label=Additional household characteristics
+Name=QHSEC04
+RecordTypeValue='H04'
+Required=No
+RecordLen=27
+
+[Item]
+Label=Observed place for handwashing
+Name=QH149
+Start=12
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Observed place for handwashing
+Name=QH149_VS1
+Value=1;Observed, fixed place
+Value=2;Observed, mobile
+Value=3;Not observed, not in dwelling/yard/plot
+Value=4;Not observed, no permission to see
+Value=5;Not observed, other reason
+
+[Item]
+Label=Observed presence of water
+Name=QH150
+Start=13
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Observed presence of water
+Name=QH150_VS1
+Value=1;Water is available
+Value=2;Water is not available
+
+[Item]
+Label=Observed presence of soap, detergent or other cleansing agent
+Name=QH151
+Start=14
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=Observed presence of soap, detergent or other cleansing agent
+Name=QH151_VS1
+Value='A  ';Soap or detergent (bar, liquid, powder, paste)
+Value='B  ';Ash, mud, sand
+Value='Y  ';None
+
+[Item]
+Label=Main floor material
+Name=QH152
+Start=17
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Main floor material
+Name=QH152_VS1
+Value=10;---NATURAL FLOOR---
+Value=11;Earth/sand
+Value=12;Dung
+Value=20;---RUDIMENTARY FLOOR---
+Value=21;Wood planks
+Value=22;Palm/bamboo
+Value=30;---FINISHED FLOOR---
+Value=31;Parquet or polished wood
+Value=32;Vinyl or asphalt strips
+Value=33;Ceramic tiles
+Value=34;Cement
+Value=35;Carpet
+Value=96;Other
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Main roof material
+Name=QH153
+Start=19
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Main roof material
+Name=QH153_VS1
+Value=10;---NATURAL ROOFING---
+Value=11;No roof
+Value=12;Thatch/grass/makuti
+Value=13;Sod/mud/dung
+Value=20;---RUDIMENTARY ROOFING---
+Value=21;Rustic mat
+Value=22;Palm/bamboo
+Value=23;Wood planks
+Value=24;Cardboard
+Value=25;Tin cans
+Value=30;---FINISHED ROOFING---
+Value=31;Iron sheets/Metal
+Value=32;Wood
+Value=33;Calamine/cement fiber
+Value=34;Ceramic tiles
+Value=35;Cement
+Value=36;Roofing shingles
+Value=37;Asbestos sheet
+Value=96;Other
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Main wall material
+Name=QH154
+Start=21
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Main wall material
+Name=QH154_VS1
+Value=10;---NATURAL WALLS---
+Value=11;No walls
+Value=12;Cane/palm/trunks
+Value=13;Dirt
+Value=20;---RUDIMENTARY WALLS---
+Value=21;Bamboo with mud
+Value=22;Stone with mud
+Value=23;Uncovered adobe
+Value=24;Plywood
+Value=25;Cardboard
+Value=26;Reused wood
+Value=27;Iron sheets
+Value=30;---FINISHED WALLS---
+Value=31;Cement
+Value=32;Stone with lime/cement
+Value=33;Bricks
+Value=34;Cement blocks
+Value=35;Covered adobe
+Value=36;Wood planks/shingles
+Value=96;Other
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Test salt for iodine
+Name=QH306A
+Start=23
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Test salt for iodine
+Name=QH306A_VS1
+Value=1;Iodine present
+Value=2;No iodine
+Value=3;No salt in household
+Value=4;Household doesn't use salt
+Value=6;Salt not tested
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=End of household interview
+Name=QH307
+Start=24
+Len=4
+DataType=Alpha
+
+[Item]
+Label=End of household interview (hour)
+Name=QH307H
+Start=24
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=End of household interview (hour)
+Name=QH307H_VS1
+Value=0:23
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=End of household interview (minutes)
+Name=QH307M
+Start=26
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=End of household interview (minutes)
+Name=QH307M_VS1
+Value=0:59
+Value=99;Missing
+Name=MISSING,Special
+
+[Record]
+Label=Inpatient health expenditures
+Name=QHSEC05
+RecordTypeValue='H05'
+Required=No
+MaxRecords=20
+RecordLen=52
+
+[Item]
+Label=Index for QHSEC05
+Name=QH200
+Start=12
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Line number of member for health expenditure
+Name=QH203
+Start=14
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Total inpatient costs for overnight stay
+Name=QH204
+Start=16
+Len=7
+DataType=Numeric
+
+[ValueSet]
+Label=Total inpatient costs for overnight stay
+Name=QH204_VS1
+Link=128133496
+Value=1:9999997;Cost
+Value=0;No cost/free
+Value=9999998;Don't know
+
+[Item]
+Label=Amount met: in cash
+Name=QH205A
+Start=23
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: in cash
+Name=QH205A_VS1
+Link=128133848
+Value=1:999997;Cost
+Value=0;No cost/free
+Value=999998;Don't know
+
+[Item]
+Label=Amount met: NHIF
+Name=QH205B
+Start=29
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: NHIF
+Name=QH205B_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: Private insurance
+Name=QH205C
+Start=35
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: Private insurance
+Name=QH205C_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: In kind
+Name=QH205D
+Start=41
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: In kind
+Name=QH205D_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: By other means
+Name=QH205E
+Start=47
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: By other means
+Name=QH205E_VS1
+Link=128133848
+
+[Record]
+Label=Outpatient health expenditures
+Name=QHSEC06
+RecordTypeValue='H06'
+Required=No
+MaxRecords=20
+RecordLen=52
+
+[Item]
+Label=Index for QHSEC06
+Name=QH300
+Start=12
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Line number of member for outpatient health expenditure
+Name=QH303
+Start=14
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Total outpatient costs
+Name=QH304
+Start=16
+Len=7
+DataType=Numeric
+
+[ValueSet]
+Label=Total outpatient costs
+Name=QH304_VS1
+Link=128133496
+
+[Item]
+Label=Amount met: in cash
+Name=QH305A
+Start=23
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: in cash
+Name=QH305A_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: NHIF
+Name=QH305B
+Start=29
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: NHIF
+Name=QH305B_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: Private insurance
+Name=QH305C
+Start=35
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: Private insurance
+Name=QH305C_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: In kind
+Name=QH305D
+Start=41
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: In kind
+Name=QH305D_VS1
+Link=128133848
+
+[Item]
+Label=Amount met: By other means
+Name=QH305E
+Start=47
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=Amount met: By other means
+Name=QH305E_VS1
+Link=128133848
+
+[Record]
+Label=Biomarker Identification
+Name=QBSECOVER
+RecordTypeValue='B00'
+Required=No
+RecordLen=32
+
+[Item]
+Label=Date of household interview
+Name=QBINT
+Start=12
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Day of household interview
+Name=QBINTD
+Start=12
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Day of household interview
+Name=QBINTD_VS1
+Value=1:31
+
+[Item]
+Label=Month of household interview
+Name=QBINTM
+Start=14
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Month of household interview
+Name=QBINTM_VS1
+Value=1:12
+
+[Item]
+Label=Year of household interview
+Name=QBINTY
+Start=16
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Year of household interview
+Name=QBINTY_VS1
+Value=2021:2022
+
+[Item]
+Label=Number of visits for biomarker questionnaire
+Name=QBVISITS
+Start=20
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Number of visits for biomarker questionnaire
+Name=QBVISITS_VS1
+Value=1:3
+
+[Item]
+Label=Eligible children in the household
+Name=QBCHILD
+Start=21
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Eligible children in the household
+Name=QBCHILD_VS1
+Value=0:15
+
+[Item]
+Label=Record biomarker notes
+Name=QBFINISH
+Start=23
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Date of household interview (CMC)
+Name=QBINTC
+Start=24
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Date of biomarker questionnaire Century Day Code (CDC)
+Name=QBINTCD
+Start=28
+Len=5
+DataType=Numeric
+
+[ValueSet]
+Label=Date of biomarker questionnaire Century Day Code (CDC)
+Name=QBINTCD_VS1
+Value='     ';Not applicable
+Name=NOTAPPL,Special
+
+[Record]
+Label=Height, Weight, Hemoglobin (children)
+Name=QBSEC01
+RecordTypeValue='B01'
+Required=No
+MaxRecords=20
+RecordLen=163
+
+[Item]
+Label=Column number
+Name=QBCOL1
+Start=12
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Column number
+Name=QBCOL1_VS1
+Value=1:20
+
+[Item]
+Label=Line number in household schedule
+Name=QB102
+Start=14
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line number in household schedule
+Name=QB102_VS1
+Value=1:50
+
+[Item]
+Label=Date of birth
+Name=QB103_ITEM
+Start=16
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Day of birth
+Name=QB103D
+Start=16
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Day of birth
+Name=QB103D_VS1
+Value=1:31
+Value=98;Don't know
+
+[Item]
+Label=Month of birth
+Name=QB103M
+Start=18
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Month of birth
+Name=QB103M_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+Value=98;Don?t know month
+
+[Item]
+Label=Year of birth
+Name=QB103Y
+Start=20
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Year of birth
+Name=QB103Y_VS1
+Value=2015;2015
+Value=2016;2016
+Value=2017;2017
+Value=2018;2018
+Value=2019;2019
+Value=2020;2020
+Value=2021;2021
+Value=2022;2022
+Value=9998;Don?t know year
+
+[Item]
+Label=Age of child
+Name=QB104
+Start=24
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Age of child
+Name=QB104_VS1
+Value=0:5
+
+[Item]
+Label=Weight in kilograms
+Name=QB106
+Start=25
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms
+Name=QB106_VS1
+Value=0.50:40.00
+Value=99.94;Not present
+Value=99.95;Refused
+Value=99.96;Other
+
+[Item]
+Label=Weight in kilograms - working field for re-entering
+Name=QB106W
+Start=30
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms - working field for re-entering
+Name=QB106W_VS1
+Value=0.50:40.00
+Value=99.94;Not present
+Value=99.95;Refused
+Value=99.96;Other
+
+[Item]
+Label=Child minimally dressed
+Name=QB107
+Start=35
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Child minimally dressed
+Name=QB107_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Height in centimeters
+Name=QB108
+Start=36
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters
+Name=QB108_VS1
+Value=20.0:140.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Height in centimeters - working field for re-entering
+Name=QB108W
+Start=41
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters - working field for re-entering
+Name=QB108W_VS1
+Value=20.0:140.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Height: lying or standing
+Name=QB109
+Start=46
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Height: lying or standing
+Name=QB109_VS1
+Value=1;Lying
+Value=2;Standing
+
+[Item]
+Label=Correct measurement procedure used
+Name=QB110
+Start=47
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Correct measurement procedure used
+Name=QB110_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Reason correct measurement wasn't used (anchor field)
+Name=QB111
+Start=48
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Child's hair had braids or ornaments
+Name=QB112
+Start=49
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Child's hair had braids or ornaments
+Name=QB112_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Fieldworker number for H/W
+Name=QB113
+Start=50
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Fieldworker number for assistant to H/W
+Name=QB114
+Start=54
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Date of measurement
+Name=QB115
+Start=58
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Day of measurement
+Name=QB115D
+Start=58
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Day of measurement
+Name=QB115D_VS1
+Value=1:31
+
+[Item]
+Label=Month of measurement
+Name=QB115M
+Start=60
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Month of measurement
+Name=QB115M_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Year of measurement
+Name=QB115Y
+Start=62
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Year of measurement
+Name=QB115Y_VS1
+Value=2022;2022
+
+[Item]
+Label=Remeasure - Reason
+Name=QBRTYPE
+Start=66
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Remeasure - Reason
+Name=QBRTYPE_VS1
+Value=1;Random
+Value=2;Z-Scores
+Value=3;Both
+
+[Item]
+Label=Remeasure - Weight in kilograms
+Name=QBWEIGHT
+Start=67
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Remeasure - Weight in kilograms
+Name=QBWEIGHT_VS1
+Value=0.50:40.00
+Value=99.94;Not present
+Value=99.95;Refused
+Value=99.96;Other
+
+[Item]
+Label=Remeasure - Height in centimeters
+Name=QBHEIGHT
+Start=72
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Remeasure - Height in centimeters
+Name=QBHEIGHT_VS1
+Value=20.0:140.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Remeasure - Height: lying or standing
+Name=QBLYNSTN
+Start=77
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Remeasure - Height: lying or standing
+Name=QBLYNSTN_VS1
+Value=1;Lying
+Value=2;Standing
+
+[Item]
+Label=Day of remeasure
+Name=QBRDAY
+Start=78
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Day of remeasure
+Name=QBRDAY_VS1
+Value=1:31
+
+[Item]
+Label=Month of remeasure
+Name=QBRMONTH
+Start=80
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Month of remeasure
+Name=QBRMONTH_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Year of remeasure
+Name=QBRYEAR
+Start=82
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Year of remeasure
+Name=QBRYEAR_VS1
+Value=2020;2020
+Value=2021;2021
+Value=2022;2022
+
+[Item]
+Label=Fieldworker for H/W remeasure
+Name=QBRMEAS
+Start=86
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Child's CMC of birth
+Name=QCCMC
+Start=90
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Child's Century Day Code (CDC) of birth
+Name=QCCDC
+Start=94
+Len=5
+DataType=Numeric
+
+[Item]
+Label=Child's Century Day Code (CDC) of measurement
+Name=QCCDCM
+Start=99
+Len=5
+DataType=Numeric
+
+[ValueSet]
+Label=Child's Century Day Code (CDC) of measurement
+Name=QCCDCM_VS1
+Value='     ';Not applicable
+Name=NOTAPPL,Special
+
+[Item]
+Label=Date flag for child's date of birth
+Name=QCFLG
+Start=104
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Date flag for child's date of birth
+Name=QCFLG_VS1
+Value=0;Month, year and day
+Value=1;Month and year
+Value=2;Month and age -y imp
+Value=3;Year and age - m imp
+Value=4;Y & age - y ignored
+Value=5;Year - a, m imp
+Value=6;Age - y, m imp
+Value=7;Month - a, y imp
+Value=8;None - all imp
+
+[Item]
+Label=Imputed day of birth from birth history
+Name=QCDBR
+Start=105
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Imputed month of birth
+Name=QCMBR
+Start=107
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Imputed month of birth
+Name=QCMBR_VS1
+Value=1:12
+
+[Item]
+Label=Child's year of birth
+Name=QCYBR
+Start=109
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Child's year of birth
+Name=QCYBR_VS1
+Value=2010:2020
+
+[Item]
+Label=Mother's line number from individual questionnaire
+Name=QCMLN
+Start=113
+Len=3
+DataType=Numeric
+
+[ValueSet]
+Label=Mother's line number from individual questionnaire
+Name=QCMLN_VS1
+Value=1:50
+Value=993;Mother not de facto member
+Value=994;Incomplete interview
+Value=995;Not in household
+Value=999;Missing
+
+[Item]
+Label=Birth order of child
+Name=QCBO
+Start=116
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Birth order of child
+Name=QCBO_VS1
+Value=1:24
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Birth interval
+Name=QCBI
+Start=118
+Len=3
+DataType=Numeric
+
+[ValueSet]
+Label=Birth interval
+Name=QCBI_VS1
+Value=8:420
+Value=999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Mother's highest educational level
+Name=QCED1
+Start=121
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Mother's highest educational level
+Name=QCED1_VS1
+Value=0;No education
+Value=1;Primary
+Value=2;Secondary/"A" level
+Value=3;Middle level college (certificate/diploma)
+Value=4;University
+Value=5;Vocational
+Value=6;Informal education (madrasa/adult basic)
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Mother's highest grade at that level
+Name=QCED2
+Start=122
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Mother's highest grade at that level
+Name=QCED2_VS1
+Value=0:8
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Mother's highest educational level (CS for preliminary & final report)
+Name=QCED3
+Start=124
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Mother's highest educational level (CS for preliminary & final report)
+Name=QCED3_VS1
+Value=0;No education
+Value=1;Primary
+Value=2;Secondary/"A" level
+Value=3;Middle level college (certificate/diploma)
+Value=4;University
+Value=5;Vocational
+Value=6;Informal education (madrasa/adult basic)
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Ht/A Standard deviations (according to WHO)
+Name=QCZSHA
+Start=125
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Ht/A Standard deviations (according to WHO)
+Name=QCZSHA_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Wt/A Standard deviations  (according to WHO)
+Name=QCZSWA
+Start=129
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Wt/A Standard deviations  (according to WHO)
+Name=QCZSWA_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Wt/Ht Standard deviations  (according to WHO)
+Name=QCZSWH
+Start=133
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Wt/Ht Standard deviations  (according to WHO)
+Name=QCZSWH_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=BMI Standard deviations  (according to WHO)
+Name=QCZSBM
+Start=137
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=BMI Standard deviations  (according to WHO)
+Name=QCZSBM_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Age in months used during data entry
+Name=QCAGEM
+Start=141
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Child name
+Name=QCNAME
+Start=143
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Auxiliary to decide if Biomarkers for children are recorded at this time
+Name=QCAUXIL
+Start=163
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Auxiliary to decide if Biomarkers for children are recorded at this time
+Name=QCAUXIL_VS1
+Value=1;Yes
+Value=2;No
+
+[Record]
+Label=Height, Weight, Hemoglobin (women)
+Name=QBSEC02
+RecordTypeValue='B02'
+Required=No
+MaxRecords=20
+RecordLen=120
+
+[Item]
+Label=Column number
+Name=QBCOL2
+Start=12
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Column number
+Name=QBCOL2_VS1
+Value=1:20
+
+[Item]
+Label=Line number in household schedule
+Name=QB202
+Start=14
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line number in household schedule
+Name=QB202_VS1
+Value=1;Head of household
+Value=2:50
+
+[Item]
+Label=Weight in kilograms
+Name=QB205
+Start=16
+Len=6
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms
+Name=QB205_VS1
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[Item]
+Label=Weight in kilograms - working field for re-entering
+Name=QB205W
+Start=22
+Len=6
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms - working field for re-entering
+Name=QB205W_VS1
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[Item]
+Label=Was woman wearing only lightweight clothing
+Name=QB206
+Start=28
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Was woman wearing only lightweight clothing
+Name=QB206_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Height in centimeters
+Name=QB207
+Start=29
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters
+Name=QB207_VS1
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Height in centimeters - working field for re-entering
+Name=QB207W
+Start=34
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters - working field for re-entering
+Name=QB207W_VS1
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Measurement interfered with braided or ornament
+Name=QB208
+Start=39
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Measurement interfered with braided or ornament
+Name=QB208_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Fieldworker number for H/W
+Name=QB209
+Start=40
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Fieldworker number for assistant to H/W
+Name=QB210
+Start=44
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Date of measurement
+Name=QB211
+Start=48
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Day of measurement
+Name=QB211D
+Start=48
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Day of measurement
+Name=QB211D_VS1
+Value=1:31
+
+[Item]
+Label=Month of measurement
+Name=QB211M
+Start=50
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Month of measurement
+Name=QB211M_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Year of measurement
+Name=QB211Y
+Start=52
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Year of measurement
+Name=QB211Y_VS1
+Value=2022;2022
+
+[Item]
+Label=CMC of birth of woman
+Name=QWCMC
+Start=56
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Date flag for woman's date of birth
+Name=QWFLG
+Start=60
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Date flag for woman's date of birth
+Name=QWFLG_VS1
+Value=1;Month and year
+Value=2;Month and age -y imp
+Value=3;Year and age - m imp
+Value=4;Y & age - y ignored
+Value=5;Year - a, m imp
+Value=6;Age - y, m imp
+Value=7;Month - a, y imp
+Value=8;None - all imp
+
+[Item]
+Label=Imputed month of birth
+Name=QWMBR
+Start=61
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Imputed month of birth
+Name=QWMBR_VS1
+Value=1:12
+
+[Item]
+Label=Woman's year of birth
+Name=QWYBR
+Start=63
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Respondent smoke practices
+Name=QWSMK
+Start=67
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Respondent smoke practices
+Name=QWSMK_VS1
+Value=0;Doesn't smoke
+Value=1:79
+Value=80;80+
+Value=94;Smokes pipes, cigars, etc
+Value=99;Missing
+
+[Item]
+Label=Respondent pregnancy status
+Name=QWPRG
+Start=69
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Respondent pregnancy status
+Name=QWPRG_VS1
+Value=0;No
+Value=1;Yes
+
+[Item]
+Label=Months of pregnancy
+Name=QWMOS
+Start=70
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Months of pregnancy
+Name=QWMOS_VS1
+Value=0:10
+
+[Item]
+Label=Body mass index for respondent
+Name=QWBM
+Start=72
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Body mass index for respondent
+Name=QWBM_VS1
+Value=0:9997
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Result of individual interview
+Name=QWRESI
+Start=76
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Result of individual interview
+Name=QWRESI_VS1
+Value=1;Completed
+Value=2;Not at home
+Value=3;Postponed
+Value=4;Refused
+Value=5;Partly completed
+Value=6;Incapacitated
+Value=7;Other
+
+[Item]
+Label=Woman's highest educational level
+Name=QWED1
+Start=77
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Woman's highest educational level
+Name=QWED1_VS1
+Link=127158312
+
+[Item]
+Label=Woman's highest year of education
+Name=QWED2
+Start=78
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Woman's highest year of education
+Name=QWED2_VS1
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Highest educational level (CS for preliminary & final report)
+Name=QWED3
+Start=80
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Highest educational level (CS for preliminary & final report)
+Name=QWED3_VS1
+Link=127158312
+
+[Item]
+Label=Ht/A Standard deviations (according to WHO) (women 15-19)
+Name=QWZSHA
+Start=81
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Ht/A Standard deviations (according to WHO) (women 15-19)
+Name=QWZSHA_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Wt/A Standard deviations  (according to WHO) (women 15-19)
+Name=QWZSWA
+Start=85
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Wt/A Standard deviations  (according to WHO) (women 15-19)
+Name=QWZSWA_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Wt/Ht Standard deviations  (according to WHO) (women 15-19)
+Name=QWZSWH
+Start=89
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Wt/Ht Standard deviations  (according to WHO) (women 15-19)
+Name=QWZSWH_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=BMI Standard deviations  (according to WHO) (women 15-19)
+Name=QWZSBM
+Start=93
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=BMI Standard deviations  (according to WHO) (women 15-19)
+Name=QWZSBM_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Age in months used to calculate z-scores (women 15-19)
+Name=QWAGEM
+Start=97
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Woman name
+Name=QWNAME
+Start=100
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Auxiliary to decide if Biomarkers for women are recorded at this time
+Name=QWAUXIL
+Start=120
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Auxiliary to decide if Biomarkers for women are recorded at this time
+Name=QWAUXIL_VS1
+Value=1;Yes
+Value=2;No
+
+[Record]
+Label=Height, Weight, Hemoglobin (men)
+Name=QBSEC03
+RecordTypeValue='B03'
+Required=No
+MaxRecords=20
+RecordLen=117
+
+[Item]
+Label=Line number
+Name=QBCOL3
+Start=12
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line number
+Name=QBCOL3_VS1
+Value=1:20
+
+[Item]
+Label=Line number in household schedule
+Name=QB302
+Start=14
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Line number in household schedule
+Name=QB302_VS1
+Value=1;Head of household
+Value=2:50
+
+[Item]
+Label=Weight in kilograms
+Name=QB305
+Start=16
+Len=6
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms
+Name=QB305_VS1
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[Item]
+Label=Weight in kilograms - working field for re-entering
+Name=QB305W
+Start=22
+Len=6
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight in kilograms - working field for re-entering
+Name=QB305W_VS1
+Value=15.00:220.00
+Value=999.94;Not present
+Value=999.95;Refused
+Value=999.96;Other
+
+[Item]
+Label=Was man wearing only lightweight clothing
+Name=QB306
+Start=28
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Was man wearing only lightweight clothing
+Name=QB306_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Height in centimeters
+Name=QB307
+Start=29
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters
+Name=QB307_VS1
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Height in centimeters - working field for re-entering
+Name=QB307W
+Start=34
+Len=5
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height in centimeters - working field for re-entering
+Name=QB307W_VS1
+Value=80.0:240.0
+Value=999.4;Not present
+Value=999.5;Refused
+Value=999.6;Other
+
+[Item]
+Label=Measurement interfered with braided or ornament
+Name=QB308
+Start=39
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Measurement interfered with braided or ornament
+Name=QB308_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Fieldworker number for H/W
+Name=QB309
+Start=40
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Fieldworker number for assistant to H/W
+Name=QB310
+Start=44
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Date of measurement
+Name=QB311
+Start=48
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Day of measurement
+Name=QB311D
+Start=48
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Day of measurement
+Name=QB311D_VS1
+Value=1:31
+
+[Item]
+Label=Month of measurement
+Name=QB311M
+Start=50
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Month of measurement
+Name=QB311M_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Year of measurement
+Name=QB311Y
+Start=52
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Year of measurement
+Name=QB311Y_VS1
+Value=2022;2022
+
+[Item]
+Label=CMC of birth of man
+Name=QMCMC
+Start=56
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Date flag for man's date of birth
+Name=QMFLG
+Start=60
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Date flag for man's date of birth
+Name=QMFLG_VS1
+Value=1;Month and year
+Value=2;Month and age -y imp
+Value=3;Year and age - m imp
+Value=4;Y & age - y ignored
+Value=5;Year - a, m imp
+Value=6;Age - y, m imp
+Value=7;Month - a, y imp
+Value=8;None - all imp
+
+[Item]
+Label=Imputed month of birth
+Name=QMMBR
+Start=61
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Imputed month of birth
+Name=QMMBR_VS1
+Value=1:12
+
+[Item]
+Label=Man's year of birth
+Name=QMYBR
+Start=63
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Respondent smoke practices
+Name=QMSMK
+Start=67
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Respondent smoke practices
+Name=QMSMK_VS1
+Value=0;Doesn't smoke
+Value=1:79
+Value=80;80+
+Value=94;Smokes pipes, cigars, etc
+Value=99;Missing
+
+[Item]
+Label=Body mass index for respondent
+Name=QMBM
+Start=69
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Body mass index for respondent
+Name=QMBM_VS1
+Value=0:9997
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Result of individual interview
+Name=QMRESI
+Start=73
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Result of individual interview
+Name=QMRESI_VS1
+Value=1;Completed
+Value=2;Not at home
+Value=3;Postponed
+Value=4;Refused
+Value=5;Partly completed
+Value=6;Incapacitated
+Value=7;Other
+
+[Item]
+Label=Man's highest educational level
+Name=QMED1
+Start=74
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Man's highest educational level
+Name=QMED1_VS1
+Value=0;No education
+Value=1;Primary
+Value=2;Secondary
+Value=3;Higher
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Man's highest year of education
+Name=QMED2
+Start=75
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=Man's highest year of education
+Name=QMED2_VS1
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Highest educational level (CS for preliminary & final report)
+Name=QMED3
+Start=77
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Highest educational level (CS for preliminary & final report)
+Name=QMED3_VS1
+Value=0;Labels to be populated according to country
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Ht/A Standard deviations (according to WHO) (men 15-19)
+Name=QMZSHA
+Start=78
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Ht/A Standard deviations (according to WHO) (men 15-19)
+Name=QMZSHA_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Wt/A Standard deviations  (according to WHO) (men 15-19)
+Name=QMZSWA
+Start=82
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Wt/A Standard deviations  (according to WHO) (men 15-19)
+Name=QMZSWA_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Wt/Ht Standard deviations  (according to WHO) (men 15-19)
+Name=QMZSWH
+Start=86
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=Wt/Ht Standard deviations  (according to WHO) (men 15-19)
+Name=QMZSWH_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=BMI Standard deviations  (according to WHO) (men 15-19)
+Name=QMZSBM
+Start=90
+Len=4
+DataType=Numeric
+
+[ValueSet]
+Label=BMI Standard deviations  (according to WHO) (men 15-19)
+Name=QMZSBM_VS1
+Value=-999:999
+Value=9996;Height out of plausible limits
+Value=9997;Age in days out of plausible limits
+Value=9998;Flagged cases
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Age in months used to calculate z-scores (men 15-19)
+Name=QMAGEM
+Start=94
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Man name
+Name=QMNAME
+Start=97
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Auxiliary to decide if Biomarkers for men are recorded at this time
+Name=QMAUXIL
+Start=117
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Auxiliary to decide if Biomarkers for men are recorded at this time
+Name=QMAUXIL_VS1
+Value=1;Yes
+Value=2;No

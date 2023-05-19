@@ -1,0 +1,36 @@
+﻿
+Language = EN
+100 Cluster %d added
+101 Cluster %d couldn't be added
+110 A valid name for the supervisor/interviewer is required
+111 Make sure that the team number agrees with the supervisor/interviewer code
+120 Code %04d not defined as a fieldworker in the CAPI system
+121 Sex %d for %s in CAPI survey diferent than sex defined in fieldworker questionnaire
+150 This cluster is not part of the sample
+151 Total number of households different from those defined in the clusters file (%d)
+152 Household %d duplicated, already entered in postion %d
+153 The name of the household head is mandatory and must start in the first position
+998 Codes given for alpha variable not acceptable
+
+Language = RU
+100 Кластер %d добавлен
+101 Кластер %d не может быть добавлен
+110 Требуется действительное имя супервайзера/интервьюера
+111 Убедитесь, что номер команды совпадает с кодом супервайзера/интервьюера
+120 Код %04d не определен как полевой работник в системе CAPI
+121 Пол %d для %s в опросе CAPI отличается от пола, определенного в анкете для полевых работников
+150 Этот кластер не входит в выборку
+151 Общее количество домохозяйств, отличных от тех, которые указаны в файле кластеров (%d)
+152 Домохозяйство %d продублировано, уже введено в позицию %d
+153 Имя главы домохозяйства является обязательным и должно начинаться с первой позиции
+998 Коды, указанные для альфа-переменной, неприемлемы
+
+{ common strings used by application }
+  RU ( "Do you want to enter more fieldwork personnel?" ) Вы хотите ввести больше полевого персонала?
+  RU ( "1-Yes" ) 1-Да
+  RU ( "2-No" ) 2-Нет
+  RU ( "Do you want to enter another fieldwork questionnaire?" ) Вы хотите ввести еще одну анкету для полевых исследований?
+  RU ( "Is %s the correct name for this fieldworker?" ) Является ли %s правильным именем для этого полевого работника?"
+  RU ( "Mother's tongue is not spoken by interviewer, is that correct?" ) Интервьюер не говорит на родном языке, верно?
+  RU ( "Do you want to enter households for another cluster?" ) Вы хотите ввести домохозяйства для другого кластера?
+  RU ( "Do you want to change the total number of households?" ) Вы хотите изменить общее количество домохозяйств?

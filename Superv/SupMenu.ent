@@ -1,0 +1,38 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=SupMenu
+Name=SupMenu
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+[External Dictionaries]
+File=..\Dicts\CLUSTERS.dcf
+File=..\Dicts\Interv.dcf
+File=..\Dicts\EligIndv.dcf
+File=..\Dicts\md5.dcf
+File=..\Dicts\TJHH80.dcf
+File=..\Dicts\TJIN80.dcf
+File=..\Dicts\CONTSUP.dcf
+File=..\Dicts\HHFORINT.dcf
+[AppCode]
+File=.\SupMenu.apc
+Include=..\Library\HTMLFunctions.apc
+Include=..\Library\DPCollect.apc
+Include=..\Library\MenuFunctions.apc
+[Message]
+File=.\SupMenu.mgf
+[Help]
+File=.\SupMenu.qsf
+[Forms]
+File=..\Entry\Menu.fmf
+[Dictionary Types]
+Dict-Type=..\Dicts\Menu.dcf,Input,..\Entry\Menu.fmf
+Dict-Type=..\Dicts\CLUSTERS.dcf,External
+Dict-Type=..\Dicts\Interv.dcf,External
+Dict-Type=..\Dicts\EligIndv.dcf,External
+Dict-Type=..\Dicts\md5.dcf,External
+Dict-Type=..\Dicts\TJHH80.dcf,External
+Dict-Type=..\Dicts\TJIN80.dcf,External
+Dict-Type=..\Dicts\CONTSUP.dcf,External
+Dict-Type=..\Dicts\HHFORINT.dcf,External

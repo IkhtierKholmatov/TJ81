@@ -1,0 +1,50 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=Classes Dictionary
+Name=INTTEMP
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=412DE29EEF2626C82E5DE1482FA3A9A6F625D3CB42B418E46DB9177998BD6A1D
+
+[Level]
+Label=Classes Level
+Name=CLASSES_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Xcode1
+Name=XCODE1
+Start=1
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=Classes Record
+Name=CLASSES_REC
+RecordTypeValue=''
+RecordLen=93
+
+[Item]
+Label=Xteam
+Name=XTEAM
+Start=4
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Xname
+Name=XNAME
+Start=34
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Xrole
+Name=XROLE
+Start=64
+Len=30
+DataType=Alpha

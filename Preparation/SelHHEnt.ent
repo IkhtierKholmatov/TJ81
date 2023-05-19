@@ -1,0 +1,25 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=SELHHENT
+Name=SELHHENT
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+[External Dictionaries]
+File=..\Dicts\Clusters.dcf
+[AppCode]
+File=.\SelHHEnt.apc
+[Message]
+File=.\Preparation.mgf
+[Help]
+File=.\SelHHEnt.qsf
+[Forms]
+File=.\SampleSel.fmf
+[Dictionary Types]
+Dict-Type=..\Dicts\SampSel.dcf,Input,.\SampleSel.fmf
+Dict-Type=..\Dicts\Clusters.dcf,External

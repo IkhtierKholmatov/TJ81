@@ -1,0 +1,25 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=LSTQUEST
+Name=LSTQUEST
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+[External Dictionaries]
+File=..\Dicts\TJHH80.dcf
+File=..\Dicts\TJIN80.dcf
+[AppCode]
+File=.\lstquest.apc
+Include=..\Library\DPCollect.apc
+Include=..\Library\HTMLFunctions.apc
+[Message]
+File=.\lstquest.mgf
+[Help]
+File=.\lstquest.qsf
+[Forms]
+File=.\Cnull.fmf
+[Dictionary Types]
+Dict-Type=..\dicts\Cnull.dcf,Input,.\Cnull.fmf
+Dict-Type=..\Dicts\TJHH80.dcf,External
+Dict-Type=..\Dicts\TJIN80.dcf,External

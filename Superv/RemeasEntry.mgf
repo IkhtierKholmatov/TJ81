@@ -1,0 +1,56 @@
+﻿language = EN  
+0025 %s %04d not registered in the fieldwork personnel data file
+0030 The anthropometrist measurer must be different from assitant
+0035 Health specialist that measure child the first time %d different for health specialist that took the remeasurement
+0036 Health specialist should be the same as the one registerd to collect height and weight for remeasurement %d 
+0100 No child selected for remeasurement
+0200 Date of remeasurement greater than current date (%02d/%02d/%04d)
+0201 Date of remeasurement has to be greater or equal to date registered for the first measurement (%02d/%02d/%04d)
+0435 Response inconsistent with year of birth
+0442 Weight is different from the weight entered previously
+0451 Height %5.1f smaller than weight %6.2f; they should possibly be reversed!
+0452 Height is different from the height entered previoulsy
+0460 Children under 2 are usually measured lying down, children 2+ measured standing up
+0462 Inconsistency between age (%d), how child was measured(%d) and answer to this question
+0463 It is necessary to write a reason
+2145 Date of birth out of range or combination of day/month/year incorrect
+
+language = RU  
+0025 %s %04d не зарегистрирован в файле данных полевого персонала
+0030 Антропометрист-измеритель должен отличаться от ассистента.
+0035 Медицинский работник, который измерял ребенка в первый раз %d отличается от медицинского специалиста, проводившего повторное измерение
+0036 Медицинский специалист должен быть таким же, как тот, который зарегистрирован для сбора данных о росте и весе для повторного измерения %d 
+0100 Ни один ребенок не выбран для повторного измерения
+0200 Дата повторного измерения больше текущей даты (%02d/%02d/%04d)
+0201 Дата повторного измерения должна быть больше или равна дате первого измерения (%02d/%02d/%04d).
+0435 Ответ не соответствует году рождения
+0442 Вес отличается от веса, введенного ранее
+0451 Высота %5.1f меньше веса %6.2f; они, возможно, должны быть обращены вспять!
+0452 Высота отличается от высоты, введенной ранее
+0460 Детей до 2 лет обычно измеряют лежа, детей старше 2 лет измеряют стоя.
+0462 Несоответствие между возрастом (%d), способом измерения ребенка (%d) и ответом на этот вопрос
+0463 Hадо написать причину
+2145 Дата рождения вне допустимого диапазона или неверное сочетание дня/месяца/года
+
+{ common strings used by application }
+  RU ( "Return to selection" ) Вернуться к выбору
+  RU ( "STANDING UP" ) ВСТАВАТЬ
+  RU ( "LYING DOWN" ) ЛЕЖА
+  RU ( "Weight" ) Масса
+  RU ( "Height" ) Высота
+  RU ( "Continue" ) Продолжать
+  RU ( "Initial weight" ) Начальный вес
+  RU ( "Initial height" ) Начальная высота
+  RU ( "Measure lying/standing" ) Измерить лежа/стоя
+  RU ( "Correct measure" ) Правильная мера
+  RU ( "Remeasurement date" ) Дата повторного измерения
+  RU ( "Reason not measured properly" ) Причина неправильного измерения
+  RU ( "Fieldworker" ) Полевой работник
+  RU ( "Assistant" ) Ассистент
+  RU ( "End of Remeasurement, do you want to:" ) Конец повторного измерения, вы хотите:
+  RU ( "Review Remeasurement" ) Обзор повторное измерение
+  RU ( "Finalize Remeasurement" ) Завершить повторное измерение
+  RU ( "Please use this information to complete the Referral form \n\n" ) Пожалуйста, используйте эту информацию для заполнения реферальной формы \n\n
+  RU ( "Name: %s \nAge in Months: %02d \n" ) Имя: %s \nВозраст в месяцах: %02d \n
+  RU ( "Weight: %6.2f \nHeight: %6.1f \nWeight-for-height (Z-score): %6.2f" ) Вес: %6.2f \nРост: %6.1f \nВес к росту (Z-оценка): %6.2f
+  

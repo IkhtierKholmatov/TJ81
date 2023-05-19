@@ -1,0 +1,23 @@
+﻿language = EN  
+010 Duplicate individual %02d in household %d
+
+language = RU  
+010 Повторяющееся лицо %02d в домашнем хозяйстве %d
+
+{ common strings used by the application }
+  RU ( "-Incomplete" ) -Незавершено
+  RU ( "-Partial" ) -Частично
+  RU ( "-Complete" ) -Завершено
+  RU ( "W-" ) Ж-
+  RU ( "M-" ) М-
+  RU ( "Not visited" ) Не посещено
+  RU ( "Status for cluster: %s" ) Статус кластера: %s
+  RU ( "Interviews collected in cluster" ) Интервью, собранные в кластер
+  RU ( "HH" ) ДХ
+  RU ( "Address/Name" ) Адрес\Имя
+  RU ( "Result" ) Результат
+  RU ( "Visits" ) Визиты
+  RU ( "Biomarkers" ) Биомаркер
+  RU ( "There are no households for the cluster in this machine" ) В этой машине нет домохозяйств для кластера
+  RU ( "Individual %02d in household %04d is part of a household that belongs to another interviewer" ) Лицо %02d в домохозяйстве %04d является частью домохозяйства, принадлежащего другому интервьюеру
+

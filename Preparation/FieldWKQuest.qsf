@@ -1,0 +1,285 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.5
+
+[LANGUAGES]
+EN=English
+ES=Español
+
+[QUESTION]
+Field=FIELDWKQ.FW101
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 RECORD FIELDWORKER NUMBER\cf2\fs16\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 REGISTRE EL CODIGO DEL TRABAJADOR DE CAMPO\cf2\fs16\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW102
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 In what [PROVINCE/REGION/STATE] do you  live? \cf2\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 En que [PROVINCIA/REGION/ESTADO] vive usted? \cf2\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW103
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 Do you live in a city, town, or rural area?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Vive usted en una ciudad, pueblo, o area rural?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW104
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 How old are you?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cual es su edad actual?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW105
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 Are you male or female?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Es usted un hombre o una mujer?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW106
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What is your current marital status? \par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cual es su estado civil actual? \par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW107
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 How many living children do you have?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cuantos hijos vivos tiene usted?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW108
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 Have you ever had a child who died?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Ha tenido algun hijo que murio?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW109
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What is the highest level of school you attended: primary, secondary, or higher?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cual es el nivel mas alto de estudios al que usted asisitio: primaria, secundaria, o superior?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW110
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What is the highest [GRADE/FORM/YEAR] you  completed at that level?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cual es el [GRADO/A\'d1O] que usted completo en ese nivel?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW111
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What is your religion?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cual es su religion?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW112
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What is your ethnicity?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 A que grupo etnico pertenece usted?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW113
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What languages can you speak?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Que lenguajes habla usted?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW114
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 What is your mother tongue/native language (language spoken at home growing up)?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Cual es su lengua materna o lenguaje nativo (lenguaje hablado en casa cuando estaba creciendo)?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW115A
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 a [DHS] prior to this survey?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 una [ENDES] antes de esta encuesta?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW115B
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 an [MIS] prior to this survey?\par
+EN=
+EN=\pard\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 una [MIS] antes de esta encuesta?\par
+ES=\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW115C
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 any other survey prior to this survey?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 alguna otra encuesta antes de esta encuesta?\par
+ES=
+ES=\pard\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW116
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 Were you already working for [NAME OF IMPLEMENTING AGENCY 1 or NAME OF IMPLEMENTING AGENCY 2] at the time you were employed to work on this DHS?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Estaba usted trabajando para [NOMBRE DE LA INSTITUCION IMPLEMENTADORA 1 o NOMBRE DE LA INSTITUCION IMPLEMENTADORA 2] al momento que fue contratado para trabajar en esta ENDES?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW117
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 Are you a permanent or temporary employee of [NAME OF IMPLEMENTING AGENCY 1 or NAME OF IMPLEMENTING AGENCY 2]?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Es usted un empleado permanente o temporal de [NOMBRE DE LA INSTITUCION IMPLEMENTADORA 1 o NOMBRE DE LA INSTITUCION IMPLEMENTADORA 2]?\par
+ES=}
+
+[QUESTION]
+Field=FIELDWKQ.FW118
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs20 Tiene algun comentario que desea escribir?\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\fs20 Tiene algun comentario que desea escribir?\par
+ES=}
+
+[QUESTION]
+Field=FW115_BLOCK
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\i\fs22 Have you ever worked on:\i0\fs16\par
+EN=}
+ES={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ES={\colortbl ;\red0\green0\blue0;}
+ES={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+ES=\pard\cf1\i\fs22 Ha usted trabajado en:\i0\fs16\par
+ES=}
+

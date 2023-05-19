@@ -1,0 +1,34 @@
+﻿Language = EN
+900 Households available for selection %d less than required (urban=%d rural=%d)
+910 Number of households listed %d inconsistent with households in the sample file %d
+915 Households were already selected for cluster: %d
+920 Cluster %d not defined in sample file, Resolve the problem with the survey manager
+
+Language = RU
+900 Домохозяйств, доступных для выбора, на %d меньше, чем необходимо (городские=%d сельские=%d)
+910 Количество домохозяйств в списке %d не соответствует количеству домохозяйств в файле выборки %d
+915 домохозяйств уже выбрано для кластера: %d
+920 Кластер %d не определен в файле выборки. Решите проблему с руководителем.
+
+{ commons strings used by the application }
+  RU ( "Households Eligible for Selection for Cluster: %d" ) Домохозяйства, имеющие право на участие в кластере:
+  RU ( "Include only true households" ) Включать только настоящие домохозяйства
+  RU ( "Number" ) Номер 
+  RU ( "Name of Household Head" ) Имя главы домохозяйства
+  RU ( "Address" ) Адрес
+  RU ( "Interviewer" ) Интервьюер
+  RU ( "Households Selected for Cluster: %d" ) Домохозяйства, выбранные для кластера: %d
+  RU ( "Households to be visited" ) Домохозяйства для посещения
+  RU ( "Anemia" ) Анемия
+  RU ( "Males" ) Мужчины
+  RU ( "Int" ) Инт
+  RU ( "Households expected for selection: %d" ) Ожидается домохозяйств для выборки: %d
+  RU ( "households available for selection %d" ) домохозяйств, доступных для выборки %d
+  RU ( "entries not classified as households %d" ) записи, не классифицированные как домохозяйства %d
+  RU ( "Do you want to select households anyway?" ) Вы все равно хотите выбрать домохозяйства?
+  RU ( "Yes" ) Да
+  RU ( "No" ) Нет
+  RU ( "Households selected in cluster: %d" ) Домохозяйства, выбранные в кластере: %d
+  RU ( "households listed for selection %d" ) домохозяйства перечислены для выборки %d
+  RU ( "There are no households available for the cluster" ) В кластере нет доступных домохозяйств
+  

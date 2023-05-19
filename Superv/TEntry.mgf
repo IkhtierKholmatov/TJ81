@@ -1,0 +1,22 @@
+﻿language = EN
+ 0001 Cluster %04d not found in the sample design file
+ 0005 There are no barcodes to delete,  pick another option
+ 0485 Bar Code duplicated with the one found in line number %d
+ 0486 Invalid line number, it is expected %d
+ 0494 For missing put one "?" in first position only (%5s)
+ 0495 Invalid sequence of characters in Bar Code (%5s)
+ 0496 Invalid check field (last character) for Bar Code (%5s)
+ 9994 E Special answers inconsistent
+ 9980 E Please select from the categories within the major groups
+ 
+ language = RU
+ 0001 Кластер %04d не найден в файле примера проекта
+ 0005 Нет штрих-кодов для удаления, выберите другой вариант
+ 0485 Штрих-код дублируется со штрих-кодом, найденным в строке номер %d
+ 0486 Недопустимый номер строки, ожидается %d
+ 0494 За недостающие поставить один "?" только в первой позиции (%5s)
+ 0495 Недопустимая последовательность символов в штрих-коде (%5s)
+ 0496 Неверное поле проверки (последний символ) для штрих-кода (%5s)
+ 9994 E Специальные ответы несовместимы
+ 9980 E Пожалуйста, выберите из категорий в основных группах
+

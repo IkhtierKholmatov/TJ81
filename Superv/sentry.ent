@@ -1,0 +1,25 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=SENTRY
+Name=SENTRY
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+[External Dictionaries]
+File=..\Dicts\SampSel.dcf
+[AppCode]
+File=.\sentry.apc
+[Message]
+File=.\sentry.mgf
+[Help]
+File=.\sentry.qsf
+[Forms]
+File=.\contsup.fmf
+[Dictionary Types]
+Dict-Type=..\dicts\contsup.dcf,Input,.\contsup.fmf
+Dict-Type=..\Dicts\SampSel.dcf,External

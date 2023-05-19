@@ -1,0 +1,21 @@
+﻿Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages
+
+Language = RU
+99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
+
+{ common strings used by application }
+  RU ( "CHILDREN SELECTED FOR REMEASUREMENT IN CLUSTER: %s" ) ДЕТИ, ВЫБРАННЫЕ ДЛЯ ПОВТОРНОГО ИЗМЕРЕНИЯ В КЛАСТЕРЕ: %s
+  RU ( "Pay special attention to 'height difference'" ) Обратите особое внимание на 'разницу в росте'
+  RU ( "HH" ) ДХ
+  RU ( "Line" ) Линия
+  RU ( "Child Name" ) Имя ребенка
+  RU ( "Household Address" ) Адрес домохозяйства
+  RU ( "Date Remeasure" ) Дата повторного измерения
+  RU ( "Date of Birth" ) дата рождения
+  RU ( "Weight" ) Весь
+  RU ( "Height" ) Рост
+  RU ( "Lying/Stand" ) Лежа/Стоя
+  RU ( "Diff-Height" ) Разница-Высота
+  RU ( "Acceptable" ) Допустимый
+  RU ( "Unacceptable" ) Недопустимый

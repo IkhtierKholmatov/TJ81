@@ -1,0 +1,18 @@
+﻿language = EN
+010 Enter a valid number of households
+015 Household %03d removed from supervisor sample file. Make sure it is deleted from the interviewer data before continuing.
+
+language = RU
+010 Введите действительное количество домохозяйств
+015 Домохозяйство %03d удалено из файла выборки супервайзера. Прежде чем продолжить, убедитесь, что он удален из данных интервьюера.
+
+{ common strings used by the application }
+  RU ( "Number of households" ) Количество домохозяйств
+  RU ( "Correct?" ) Правильно?
+  RU ( "Yes" ) Да
+  RU ( "No" ) Нет
+  RU ( "HH#" ) ДХ
+  RU ( "Int" ) Инт
+  RU ( "HH" ) ДХ
+  RU ( "Indv" ) Индив
+  RU ( "H&W" ) P/В

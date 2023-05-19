@@ -1,0 +1,24 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=RemeasLst
+Name=RemeasLst
+AppType=DataEntry
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+[External Dictionaries]
+File=..\Dicts\Remeasure.dcf
+[AppCode]
+File=.\RemeasLst.apc
+Include=..\Library\HTMLFunctions.apc
+[Message]
+File=.\RemeasLst.mgf
+[Help]
+File=.\RemeasSel.qsf
+[Forms]
+File=.\Cnull.fmf
+[Dictionary Types]
+Dict-Type=..\Dicts\Remeasure.dcf,External
+Dict-Type=..\dicts\Cnull.dcf,Input,.\Cnull.fmf

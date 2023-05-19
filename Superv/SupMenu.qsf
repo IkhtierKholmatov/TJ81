@@ -1,0 +1,178 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.7
+languages:
+  - name: EN
+    label: English
+  - name: RU
+    label: Russian
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: MENU_DICT.WINTRO
+    conditions:
+      - questionText:
+          EN: |
+            <p style="text-align:center;"><span style="font-size:16px;color:#ff00ff;font-family:'Arial', sans-serif;">Welcome to the&#160;</span></p>
+            <p style="text-align:center;"><span style="font-size:16px;color:#0000ff;font-family:'Arial', sans-serif;">Demographic &amp; Health Survey&#160;</span></p>
+            <p style="text-align:center;"><span style="font-size:16px;color:#ff00ff;font-family:'Arial', sans-serif;">Supervisor&apos;s Menu&#160;</span></p>
+            <p style="text-align:center;"><span style="font-size:10px;color:#000000;font-family:'Arial', sans-serif;">Press any key to continue&#160;</span></p>
+            
+          RU: |
+            <p style="text-align:center;"><span style="font-size:16px;color:#ff00ff;font-family:'Arial', sans-serif;">Добро пожаловать</span></p>
+            <p style="text-align:center;"><span style="font-size:16px;color:#0000ff;font-family:'Arial', sans-serif;">Медико демографическое исследование</span></p>
+            <p style="text-align:center;"><span style="font-size:16px;color:#ff00ff;font-family:'Arial', sans-serif;">Меню супервайзера&nbsp;</span></p>
+            <p style="text-align:center;"><span style="font-size:10px;color:#000000;font-family:'Arial', sans-serif;">Нажмите любую класвишу для продолжения</span></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WSUPER
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Select your name from the list displayed in the window&#160;</span></p>
+            
+          RU: |
+            <p><font color="#0000ff" face="Arial, sans-serif"><span style="font-size: 14px;">Выберите свое имя из списка, отображаемого в окне</span></font><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">&nbsp;</span></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WINTNUM
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Select the name of the interviewer you will be working with this time&#160;</span></p>
+            
+          RU: |
+            <p><font color="#0000ff" face="Arial, sans-serif"><span style="font-size: 14px;">Выберите имя интервьюера, с которым вы будете работать на этот раз</span></font><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">&nbsp;</span></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WCLUSTER
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Enter the cluster number on which you wish to work&#160;</span></p>
+            
+          RU: |
+            <p><font color="#0000ff" face="Arial, sans-serif"><span style="font-size: 14px;">Enter the cluster number on which you wish to work&nbsp;</span></font><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">&nbsp;</span></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WFINAL
+    conditions:
+      - questionText:
+          EN: |
+            <p style="text-align:center;"><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">SUPERVISOR MENU &#160;</span></p>
+            <p style="text-align:center;"><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Cluster: ~~WCLUSTER~~   Supervisor:~~WSUPER~~-~~SupName~~&#160;</span></p>
+            <p style="text-align:center;"><span style="font-size:14px;color:#ff00ff;font-family:'Arial', sans-serif;">Press the ENTER key and Select an option from the list to be displayed&#160;</span></p>
+            
+          RU: |
+            <p style="text-align:center;"><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">МЕНЮ СУПЕРВАЙЗЕРА&nbsp;&nbsp;</span></p>
+            <p style="text-align:center;"><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Кластер: ~~WCLUSTER~~   Супервайзер:~~WSUPER~~-~~SupName~~&nbsp;</span></p>
+            <p style="text-align:center;">&nbsp;<font color="#ff00ff" face="Arial, sans-serif"><span style="font-size: 14px;">Нажмите клавишу ENTER и выберите параметр из списка для отображения.</span></font><span style="font-size: 14px; color: rgb(255, 0, 255); font-family: Arial, sans-serif;">&nbsp;</span></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WCORRECT
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Is this household &quot;~~WADDRESS~~&quot; the correct household?&#160;</span></p>
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">If no or not sure, select option 2 and return to the main menu&#160;</span></p>
+            
+          RU: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Правильно ли имя домохозяйства: "~~WADDRESS~~" ?&nbsp;</span></p>
+            <p><font color="#0000ff" face="Arial, sans-serif"><span style="font-size: 14px;">Если нет или не уверены, выберите вариант 2 и вернитесь в главное меню.</span></font><span style="font-size: 14px; color: rgb(0, 0, 255); font-family: Arial, sans-serif;">&nbsp;</span><br></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WFINAL2
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">INDIVIDUAL MENU&#160;</span></p>
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Select an option from the menu for eligible women and men <span style="color:#ff0000;">(press any key to display the menu)&#160;</span></span></p>
+            
+          RU: |
+            <p><font color="#0000ff" face="Arial, sans-serif"><span style="font-size: 14px;">МЕНЮ ИНДИВИДУАЛЬНОЕ</span></font><br></p>
+            <p><font face="Arial, sans-serif"><span style="font-size: 14px;"><font color="#0000ff">Выберите вариант из меню для подходящих женщин и мужчин </font><font color="#ff0000">(нажмите любую клавишу, чтобы отобразить меню)</font></span></font><span style="font-size: 14px; font-family: Arial, sans-serif;"><font color="#ff0000">&nbsp;</font></span><br></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WCORRECT2
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Is "~~WNAME~~" the correct person?&nbsp;</span></p>
+            
+          RU: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">"~~WNAME~~" правильный выбранный индивид?&nbsp;</span></p>
+            <p>&nbsp;</p>
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+  - name: MENU_DICT.WPREF
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:14px;color:#0000ff;font-family:'Arial', sans-serif;">Select the prefecture in which you are working&#160;</span></p>
+            
+          RU: |
+            
+        helpText:
+          EN: |
+            
+          RU: |
+            
+...

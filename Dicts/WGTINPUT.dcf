@@ -1,0 +1,85 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=WGTINPUT
+Name=WGTINPUT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=79A9E984FFF846ABDB9E67321D75130EE87A280D2CCDC8C478E83891D88AAD05
+
+[Level]
+Label=WGTINPUT Level
+Name=WGTINPUT_LEVEL
+
+[IdItems]
+
+[Item]
+Label=WGTINPUT Identification
+Name=WTCLUST
+Start=1
+Len=4
+DataType=Numeric
+
+[Record]
+Label=WGTINPUT Record
+Name=WGTINPUT_REC
+RecordTypeValue=''
+RecordLen=37
+
+[Item]
+Label=Households found
+Name=WTHHTOT
+Start=5
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Households complete
+Name=WTHHCOMP
+Start=7
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Women found
+Name=WTWTOT
+Start=9
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Women complete
+Name=WTWCOMP
+Start=11
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Households found
+Name=WTMHTOT
+Start=13
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Households complete
+Name=WTMHCOMP
+Start=15
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Women found
+Name=WTMTOT
+Start=16
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Women complete
+Name=WTMCOMP
+Start=17
+Len=3
+DataType=Numeric
