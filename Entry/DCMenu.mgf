@@ -139,3 +139,13 @@ Language=RU
   RU ( "Files for interviewer %04d cleaned")  Файлы для интервьюера %04d очищены
   RU ( "File %s not present on tablet") Файл %s отсутствует на планшете 
   RU ( "PLease confirm you wish to clean files") Пожалуйста, подтвердите, что хотите очистить файлы    
+
+  RU ( "Files restored for interviewer %s ") Файлы интервьюера %s восстановлены 
+  RU ( "Data will be backed up to %s") Данные будут скопированы в резерв в %s
+  RU ( "Duplicate household cases detected in data. The system will attempt to continue but you may find that not all households are available. You should remove the duplicate cases as soon as possible") Обнаружены повторяющиеся случаи в домашних хозяйствах. Система попытается продолжить, но вы можете обнаружить, что не все домохозяйства доступны. Вы должны удалить повторяющиеся случаи как можно скорее
+  RU ( "Are you sure you wish to remove shared household data from the interviewer tablet ?\n To access individual interviews from already shared households you will need to receive shared data again ") Вы уверены, что хотите удалить общие данные домохозяйства с планшета интервьюера?\n Чтобы получить доступ к индивидуальным интервью из уже общих домохозяйств, вам потребуется снова получить общие данные
+  RU ( "PLease confirm you wish to clean interviewer files for interviewer %04d") Пожалуйста, подтвердите, что вы хотите очистить файлы интервьюера для интервьюера %04d
+  RU ( "Files for interviewer %04d cleaned") Файлы для интервьюера %04d очищены
+  RU ( "PLease confirm you wish to clean files") Пожалуйста, подтвердите, что хотите очистить файлы
+  RU ( "Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem") Частичное=%d, результат=%d, используйте вариант 7 Обмен данными-> 7 Исправить результат в домохозяйстве для решения проблемы
+  

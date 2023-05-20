@@ -15,7 +15,7 @@ Name=AFORMCOVER
 Label=Individual identification
 QuestionTextHeight=85
 Level=1
-Size=860,465
+Size=704,465
   
 Item=QCLUSTER
 Item=QNUMBER
@@ -40,8 +40,8 @@ Box=37,232,679,440,Raised
   
 [Text]
 Name=FT000000000000
-Position=202,32,539,56
-Text=Demographic and Health Surveys
+Position=202,32,639,56
+Text=Медико-Демографическое обследование
 Form=1
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 Color=16711935
@@ -49,8 +49,8 @@ Color=16711935
   
 [Text]
 Name=FT000066000
-Position=254,62,498,86
-Text=Individual Questionnaire
+Position=254,62,559,86
+Text=Индивидуальный вопросник
 Form=1
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 Color=16711680
@@ -112,8 +112,8 @@ Box=558,48,808,375,Etched
   
 [Text]
 Name=TEXT8
-Position=241,8,624,32
-Text=Section 1 - Respondent's Background
+Position=241,8,642,32
+Text=Раздел 1. Информация о респонденте
 Form=3
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -147,56 +147,56 @@ Box=97,37,369,491,Etched
   
 [Text]
 Name=FT000109
-Position=113,10,363,34
-Text=Section 2 - Reproduction
+Position=113,10,356,34
+Text=Раздел 2- Репродукция
 Form=4
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=TEXT30
-Position=163,118,250,134
-Text=Sons at home
+Position=163,118,260,134
+Text=Сыновья дома
 Form=4
 Color=16711680
  
   
 [Text]
 Name=TEXT34
-Position=163,144,283,160
-Text=Daughters at home
+Position=163,144,249,160
+Text=Дочери дома
 Form=4
 Color=8388863
  
   
 [Text]
 Name=TEXT35
-Position=163,197,264,213
-Text=Sons elsewhere
+Position=152,197,315,213
+Text=Сыновья в другом месте
 Form=4
 Color=16711680
  
   
 [Text]
 Name=TEXT36
-Position=163,225,297,241
-Text=Daughters elsewhere
+Position=156,225,308,241
+Text=Дочери в другом месте
 Form=4
 Color=8388863
  
   
 [Text]
 Name=TEXT37
-Position=163,279,229,295
-Text=Boys dead
+Position=163,279,284,295
+Text=Умершие сыновья
 Form=4
 Color=16711680
  
   
 [Text]
 Name=TEXT38
-Position=163,306,228,322
-Text=Girls dead
+Position=163,306,274,322
+Text=Умершие дочери
 Form=4
 Color=8388863
  
@@ -220,15 +220,15 @@ Item=Q212W000
   
 [Text]
 Name=TEXT011
-Position=282,2,510,24
-Text=Section 2 - Reproduction
+Position=282,2,509,24
+Text=Раздел 2 - Репродукция
 Form=5
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=TEXT033000
-Position=17,440,953,460
+Position=17,440,1025,467
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -236,7 +236,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000
-Position=15,462,951,482
+Position=15,462,1023,489
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -270,15 +270,15 @@ Box=497,33,736,254,Etched
   
 [Text]
 Name=TEXT018
-Position=170,3,451,25
-Text=Section 2 - Reproduction(cont)
+Position=170,3,466,25
+Text=Раздел 2 - Репродукция (прод.)
 Form=6
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=TEXT033000000
-Position=4,313,940,333
+Position=4,313,1012,340
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -286,7 +286,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000000
-Position=3,336,939,356
+Position=3,336,1011,363
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -307,8 +307,8 @@ Item=Q301OT
   
 [Text]
 Name=TEXT12
-Position=219,10,475,34
-Text=Section 3 - Contraception
+Position=219,10,479,34
+Text=Раздел 3 - Контрацепция
 Form=7
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -337,15 +337,15 @@ Box=342,44,614,266,Etched
   
 [Text]
 Name=FT000148
-Position=188,10,485,32
-Text=Section 3 - Contraception (cont.)
+Position=188,10,493,32
+Text=Раздел 3 - Контрацепция (прод.)
 Form=8
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=TEXT033000002
-Position=7,315,943,335
+Position=7,315,1015,342
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -353,7 +353,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000002
-Position=7,341,943,361
+Position=7,341,1015,368
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -367,7 +367,7 @@ QuestionTextHeight=184
 Level=1
 Size=1081,554
   
-Item=AWSEC3Y_ROSTER
+Item=QWSEC3Y_ROSTER
 Item=QINTROUSE
 Item=QCAL1001
 Item=QCAL2
@@ -375,15 +375,15 @@ Item=QCAL2
   
 [Text]
 Name=TEXT030000
-Position=309,1,698,23
-Text=Section 3 - Episodes of Contraception Use
+Position=309,1,788,23
+Text=Раздел 3 - Эпизоды использования контрацепции
 Form=9
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=TEXT033000001
-Position=2,352,938,372
+Position=2,352,1010,379
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -391,7 +391,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000001
-Position=2,374,938,394
+Position=2,374,1010,401
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -399,7 +399,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT9
-Position=7,509,943,529
+Position=7,509,1015,536
 Text=123456789012345678901234567890123456789012345678901234567890123456789012
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -407,7 +407,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT10
-Position=5,482,941,502
+Position=5,482,1013,509
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -446,8 +446,8 @@ Box=346,71,498,255,Etched
   
 [Text]
 Name=TEXT13
-Position=170,31,544,55
-Text=Section 3 - Contraception Use (Cont.)
+Position=170,31,493,55
+Text=Раздел 3- Конрацепция (прод.)
 Form=10
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -458,7 +458,7 @@ Name=AWFORM04
 Label=Prenatal and postnatal care
 QuestionTextHeight=172
 Level=1
-Size=1111,2476
+Size=1110,2275
   
 Item=Q403
 Item=QWSEC04_ROSTER
@@ -466,8 +466,8 @@ Item=QWSEC04_ROSTER
   
 [Text]
 Name=TEXT1
-Position=254,10,673,34
-Text=Section 4 - Pregnancy and Postnatal Care
+Position=254,10,751,34
+Text=Раздел 4 - Беременность и послеродовой уход
 Form=11
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -476,9 +476,9 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM05
 Label=Immunization and health
-QuestionTextHeight=154
+QuestionTextHeight=236
 Level=1
-Size=957,1369
+Size=957,1433
   
 Item=QWSEC05_ROSTER
 Item=Q502
@@ -486,8 +486,8 @@ Item=Q502
   
 [Text]
 Name=TEXT7
-Position=381,10,686,34
-Text=Section 5 - Child Immunization
+Position=381,10,703,34
+Text=Раздел 5 – Иммунизация детей
 Form=12
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -498,7 +498,7 @@ Name=AWFORM6A
 Label=Child Health
 QuestionTextHeight=153
 Level=1
-Size=943,1079
+Size=943,988
   
 Item=Q602
 Item=QWSEC6A_ROSTER
@@ -506,8 +506,8 @@ Item=QWSEC6A_ROSTER
   
 [Text]
 Name=TEXT18
-Position=378,7,591,29
-Text=Section 6 - Child Health
+Position=378,7,656,29
+Text=Раздел 6 - Здоровье ребенка
 Form=13
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -516,7 +516,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM6B
 Label=Child Feeding and Women's Feeding
-QuestionTextHeight=129
+QuestionTextHeight=209
 Level=1
 Size=946,871
   
@@ -602,8 +602,8 @@ Box=651,76,921,796,Etched
   
 [Text]
 Name=TEXT14
-Position=133,7,331,31
-Text=Section 6 - Nutrition
+Position=133,7,457,31
+Text=Раздел 6 - Здоровье и питание
 Form=14
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -683,8 +683,8 @@ Box=457,215,739,408,Etched
   
 [Text]
 Name=TEXT15
-Position=298,7,664,29
-Text=Section 7 - Marriage and Sexual Activity
+Position=298,7,703,29
+Text=Раздел 7 - Брак и сексуальная активность
 Form=15
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -727,8 +727,8 @@ Box=236,240,428,466,Etched
   
 [Text]
 Name=TEXT000
-Position=150,11,439,33
-Text=Section 8 - Fertility Preferences
+Position=150,11,644,33
+Text=Раздел 8 - Предпочтения в вопросах деторождения
 Form=16
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -792,8 +792,8 @@ Box=581,44,764,375,Etched
   
 [Text]
 Name=FT000295
-Position=46,10,550,32
-Text=Section 9 - Husband's Background and Woman's Work
+Position=46,10,485,32
+Text=Раздел 9 - Информация о мужа и работе жены
 Form=17
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -857,8 +857,8 @@ Box=594,46,793,430,Etched
   
 [Text]
 Name=TEXT33
-Position=304,8,513,30
-Text=Section 10 -  HIV / AIDS
+Position=304,8,515,30
+Text=Раздел 10 - ВИЧ/СПИД
 Form=18
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -900,8 +900,8 @@ Box=330,36,539,378,Etched
   
 [Text]
 Name=TEXT033
-Position=132,7,426,29
-Text=Section 11 - Other Health Issues
+Position=132,7,499,29
+Text=Раздел 11 - Другие вопросы здоровья
 Form=19
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -999,8 +999,8 @@ Box=734,302,1001,449,Etched
   
 [Text]
 Name=TEXT001
-Position=265,18,511,40
-Text=Domestic Violence Module
+Position=265,18,536,40
+Text=Модуль домашнего насилия
 Form=20
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -1020,8 +1020,8 @@ Item=Q1116M
   
 [Text]
 Name=TEXT015
-Position=408,53,600,77
-Text=Calendar Summary
+Position=408,53,520,77
+Text=календарь
 Form=21
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -1043,8 +1043,8 @@ Box=25,17,540,110,Etched
   
 [Text]
 Name=TEXT22
-Position=199,30,279,46
-Text=Language of
+Position=199,30,233,46
+Text=Язык
 Form=22
  
 [EndForm]
@@ -1089,7 +1089,7 @@ Max=1
   
 [Field]
 Name=QCLUSTER
-Position=75,133,128,153
+Position=44,133,97,153
 Item=QCLUSTER,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1098,14 +1098,14 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=75,111,119,127
-Text=Cluster
+Position=51,111,104,127
+Text=Кластер
 Form=1
  
   
 [Field]
 Name=QQTYPET
-Position=566,133,671,153
+Position=573,133,678,153
 Item=QQTYPET,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1116,7 +1116,7 @@ Form=1
   
 [Field]
 Name=QNUMBER
-Position=144,133,197,153
+Position=136,133,189,153
 Item=QNUMBER,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1125,14 +1125,14 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=143,111,210,127
-Text=Household
+Position=122,111,224,127
+Text=Домохозяйство
 Form=1
  
   
 [Field]
 Name=QLINE
-Position=220,133,247,153
+Position=255,133,282,153
 Item=QLINE,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1141,8 +1141,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=221,111,249,127
-Text=Line
+Position=240,111,326,127
+Text=Номер линии
 Form=1
  
   
@@ -1157,14 +1157,14 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=351,110,495,126
-Text=Sel. domestic violence
+Position=339,110,525,126
+Text=Отбор надомашнее насилие
 Form=1
  
   
 [Field]
 Name=QQTYPE
-Position=538,133,552,153
+Position=547,133,561,153
 Item=QQTYPE,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1172,8 +1172,8 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=536,110,674,126
-Text=Type of questionnaire
+Position=542,110,648,126
+Text=Тип вопросника
  
   
 [Field]
@@ -1187,14 +1187,14 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=288,167,351,183
-Text=Individual
+Position=288,167,368,183
+Text=Индивидуал
 Form=1
  
   
 [Field]
 Name=QCORRECT
-Position=587,188,601,208
+Position=611,188,625,208
 Item=QCORRECT,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -1202,8 +1202,8 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=560,169,614,185
-Text=Correct?
+Position=588,169,669,185
+Text=Правильно?
  
   
 [Field]
@@ -1217,8 +1217,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=522,310,592,326
-Text=Int Number
+Position=516,310,612,326
+Text=Номер интерв.
 Form=1
  
   
@@ -1232,13 +1232,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=522,385,558,401
-Text=Team
+Position=516,385,573,401
+Text=Команда
  
   
 [Field]
 Name=QSUPERV
-Position=616,410,669,430
+Position=616,409,669,429
 Item=QSUPERV,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1247,8 +1247,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=522,410,590,426
-Text=Supervisor
+Position=516,410,603,426
+Text=Супервайзер
 Form=1
  
   
@@ -1260,10 +1260,10 @@ Required=Yes
 Type=SubItem
 TypeName=QCONTVIST
 Max=5
-DisplaySize=87,249,461,425
+DisplaySize=71,240,487,430
 Orientation=Vertical
 ColumnWidth=63
-StubColumnWidth=47
+StubColumnWidth=74
 HeadingRowHeight=0
 FreeMovement=Yes
 DefaultMovement=Horizontal
@@ -1300,8 +1300,8 @@ Text=5
 Width=28
   
 [HeaderText]
-Position=11,4,47,28
-Text=Col.
+Position=11,4,74,28
+Text=Столбец
  
 [Field]
 Name=QVLINE
@@ -1313,8 +1313,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,47,16
-Text=Col.
+Text=Столбец
  
 [EndColumn]
   
@@ -1322,8 +1321,8 @@ Text=Col.
 Width=51
   
 [HeaderText]
-Position=10,27,47,51
-Text=Date
+Position=35,27,74,51
+Text=Дата
  
 [Field]
 Name=QVDAY
@@ -1370,8 +1369,8 @@ Text=QVYEAR
 Width=29
   
 [HeaderText]
-Position=7,5,47,29
-Text=Time
+Position=24,5,74,29
+Text=Время
  
 [Field]
 Name=QVHOUR
@@ -1405,8 +1404,8 @@ Text=QVMINUTE
 Width=28
   
 [HeaderText]
-Position=0,4,47,28
-Text=Result
+Position=0,4,74,28
+Text=Результат
  
 [Field]
 Name=QVRESULT
@@ -1417,8 +1416,7 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Position=0,0,70,16
-Text=Result
+Text=Результат
  
 [EndColumn]
   
@@ -1427,7 +1425,7 @@ Text=Result
   
 [Field]
 Name=QINTD
-Position=530,255,557,275
+Position=524,255,551,275
 Item=QINTD,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1436,14 +1434,14 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=531,238,555,254
-Text=Day
+Position=522,238,555,254
+Text=День
 Form=1
  
   
 [Field]
 Name=QINTM
-Position=569,255,596,275
+Position=573,255,600,275
 Item=QINTM,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1452,14 +1450,14 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=568,238,607,254
-Text=Month
+Position=569,238,611,254
+Text=Месяц
 Form=1
  
   
 [Field]
 Name=QINTY
-Position=616,256,669,276
+Position=620,256,673,276
 Item=QINTY,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -1468,8 +1466,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=624,238,653,254
-Text=Year
+Position=630,238,653,254
+Text=Год
 Form=1
  
   
@@ -1484,8 +1482,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=522,337,561,353
-Text=Result
+Position=516,337,583,353
+Text=Результат
 Form=1
  
   
@@ -1500,8 +1498,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=522,359,555,375
-Text=Visits
+Position=516,359,565,375
+Text=Визиты
 Form=1
  
 [EndGroup]
@@ -2033,7 +2031,7 @@ Text=Q204
   
 [Field]
 Name=Q205A
-Position=312,194,339,214
+Position=321,195,348,215
 Item=Q205A,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -2047,7 +2045,7 @@ Text=Q205A
   
 [Field]
 Name=Q205B
-Position=312,222,339,242
+Position=321,222,348,242
 Item=Q205B,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -2189,21 +2187,21 @@ Position=110,501,154,517
 Text=Q212W
  
 [Block]
-Name=A203_BLOCK
+Name=Q203_BLOCK
 Label=Sons and daughters at home
 DisplayTogether=Yes
 Position=2
 Length=2
   
 [Block]
-Name=A205_BLOCK
+Name=Q205_BLOCK
 Label=Sons and daughters away
 DisplayTogether=Yes
 Position=6
 Length=2
   
 [Block]
-Name=A207_BLOCK
+Name=Q207_BLOCK
 Label=Boys and girls who died
 DisplayTogether=Yes
 Position=10
@@ -2783,9 +2781,9 @@ Position=0,0,36,24
 Text=Line
  
 [Field]
-Name=QBLINE
+Name=QPLINE
 Position=1,0,28,20
-Item=QBLINE,TJIN80
+Item=QPLINE,TJIN80
 UseEnterKey=Yes
 Protected=Yes
 DataCaptureType=TextBox
@@ -3242,7 +3240,7 @@ Required=No
 Type=SubItem
 TypeName=QWSEC31_GRP
 Max=15
-DisplaySize=262,48,398,498
+DisplaySize=262,48,403,506
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
@@ -3338,9 +3336,11 @@ Text=Merthod
 Name=Q301N
 Position=13,0,40,20
 Item=Q301N,TJIN80
+Protected=Yes
 DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,53,16
 Text=Merthod
  
 [EndColumn]
@@ -3552,7 +3552,7 @@ Form=9
   
   
 [Grid]
-Name=AWSEC3Y_ROSTER
+Name=QWSEC3Y_ROSTER
 Label=History of use of methods
 Form=9
 Required=No
@@ -3562,7 +3562,7 @@ Max=30
 DisplaySize=0,26,1056,337
 Orientation=Vertical
 ColumnWidth=90
-StubColumnWidth=58
+StubColumnWidth=62
 HeadingRowHeight=24
 FreeMovement=No
  
@@ -3724,8 +3724,8 @@ Width=10
 Width=40
   
 [HeaderText]
-Position=0,0,58,40
-Text=No. episode
+Position=0,0,62,40
+Text=Номер эпизода
  
 [Field]
 Name=Q317N
@@ -3737,8 +3737,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,34,16
-Text=No. episode
+Text=Номер эпизода
  
 [EndColumn]
   
@@ -3746,7 +3745,7 @@ Text=No. episode
 Width=28
   
 [HeaderText]
-Position=10,4,58,28
+Position=14,4,62,28
 Text=Q317A
  
 [Field]
@@ -3781,7 +3780,7 @@ Text=Year of start of episode of use
 Width=28
   
 [HeaderText]
-Position=10,4,58,28
+Position=14,4,62,28
 Text=Q317B
  
 [Field]
@@ -3801,7 +3800,7 @@ Text=Q317B
 Width=28
   
 [HeaderText]
-Position=10,4,58,28
+Position=14,4,62,28
 Text=Q317C
  
 [Field]
@@ -3821,7 +3820,7 @@ Text=Q317C
 Width=28
   
 [HeaderText]
-Position=10,4,58,28
+Position=14,4,62,28
 Text=Q317D
  
 [Field]
@@ -3841,7 +3840,7 @@ Text=Q317D
 Width=28
   
 [HeaderText]
-Position=11,4,58,28
+Position=15,4,62,28
 Text=Q317E
  
 [Field]
@@ -3872,7 +3871,7 @@ Text=Q317EY
 Width=28
   
 [HeaderText]
-Position=11,4,58,28
+Position=15,4,62,28
 Text=Q317F
  
 [Field]
@@ -3892,7 +3891,7 @@ Text=Q317F
 Width=28
   
 [HeaderText]
-Position=9,4,58,28
+Position=13,4,62,28
 Text=Q317G
  
 [Field]
@@ -3923,7 +3922,7 @@ Text=Q317GY
 Width=28
   
 [HeaderText]
-Position=10,4,58,28
+Position=14,4,62,28
 Text=Q317H
  
 [Field]
@@ -3980,7 +3979,7 @@ Form=9
   
 [Group]
 Required=Yes
-Name=AWSEC3D_FORM
+Name=QWSEC3D_FORM
 Label=Contraceptive use - Continuation
 Form=10
 Max=1
@@ -4257,9 +4256,9 @@ Required=No
 Type=Record
 TypeName=QWSEC04
 Max=6
-DisplaySize=84,39,1086,2451
+DisplaySize=83,50,1085,2250
 Orientation=Vertical
-ColumnWidth=204
+ColumnWidth=269
 StubColumnWidth=108
 HeadingRowHeight=0
 FreeMovement=No
@@ -4668,51 +4667,51 @@ Text=Q417
 [EndColumn]
   
 [Column]
-Width=172
+Width=177
   
 [Text]
-Position=0,146,73,162
-Text=g) Bleeding
+Position=0,146,110,162
+Text=g) Кровотечение
  
   
 [Text]
-Position=0,123,80,139
-Text=f) Breastfeed
+Position=0,123,173,139
+Text=f) Грудное вскармливание
  
   
 [Text]
-Position=0,99,54,115
-Text=e) Foods
+Position=0,99,80,115
+Text=e) Продукты
  
   
 [Text]
-Position=0,76,78,92
-Text=d) Heartbeat
+Position=0,76,113,92
+Text=d) Сердцебиение
  
   
 [Text]
-Position=0,52,52,68
-Text=c) Blood
+Position=0,52,55,68
+Text=c) Кровь
  
   
 [Text]
-Position=0,27,50,43
-Text=b) Urine
+Position=0,27,51,43
+Text=b) Моча
  
   
 [Text]
-Position=0,2,34,18
-Text=a) BP
+Position=0,2,148,18
+Text=а) Кровяное давление
  
   
 [HeaderText]
-Position=50,74,108,98
-Text=A418
+Position=69,0,108,177
+Text=Q418
 VerticalAlignment=Middle
  
 [Field]
 Name=Q418A
-Position=116,0,130,20
+Position=174,0,188,20
 Item=Q418A,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4723,7 +4722,7 @@ Text=Q418A
  
 [Field]
 Name=Q418B
-Position=116,24,130,44
+Position=174,24,188,44
 Item=Q418B,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4734,7 +4733,7 @@ Text=Q418B
  
 [Field]
 Name=Q418C
-Position=116,48,130,68
+Position=174,48,188,68
 Item=Q418C,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4745,7 +4744,7 @@ Text=Q418C
  
 [Field]
 Name=Q418D
-Position=116,72,130,92
+Position=174,72,188,92
 Item=Q418D,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4756,7 +4755,7 @@ Text=Q418D
  
 [Field]
 Name=Q418E
-Position=116,96,130,116
+Position=174,96,188,116
 Item=Q418E,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4767,7 +4766,7 @@ Text=Q418E
  
 [Field]
 Name=Q418F
-Position=116,120,130,140
+Position=174,120,188,140
 Item=Q418F,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4778,7 +4777,7 @@ Text=Q418F
  
 [Field]
 Name=Q418G
-Position=116,144,130,164
+Position=174,144,188,164
 Item=Q418G,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -4786,26 +4785,6 @@ DataCaptureType=RadioButton
   
 [Text]
 Text=Q418G
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=50,4,108,28
-Text=Q426
- 
-[Field]
-Name=Q426
-Position=117,0,131,20
-Item=Q426,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-  
-[Text]
-Text=Q426
  
 [EndColumn]
   
@@ -4855,6 +4834,26 @@ VerticalAlignment=Middle
 Width=28
   
 [HeaderText]
+Position=69,4,108,28
+Text=Q426
+ 
+[Field]
+Name=Q426
+Position=116,0,130,20
+Item=Q426,TJIN80
+UseEnterKey=Yes
+DataCaptureType=RadioButton
+  
+[Text]
+Position=0,0,34,16
+Text=Q426
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
 Position=50,4,108,28
 Text=Q427
  
@@ -4893,26 +4892,6 @@ Text=Q428
 [EndColumn]
   
 [Column]
-Width=28
-  
-[HeaderText]
-Position=50,4,108,28
-Text=Q430
- 
-[Field]
-Name=Q430
-Position=117,0,131,20
-Item=Q430,TJIN80
-UseEnterKey=Yes
-FieldLabelType=DictionaryName
-DataCaptureType=RadioButton
-  
-[Text]
-Text=Q430
- 
-[EndColumn]
-  
-[Column]
 Width=30
   
 [HeaderText]
@@ -4930,6 +4909,26 @@ DataCaptureType=RadioButton
 Position=60,0,108,30
 Text=Q430A
 VerticalAlignment=Middle
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=50,4,108,28
+Text=Q430
+ 
+[Field]
+Name=Q430
+Position=117,0,131,20
+Item=Q430,TJIN80
+UseEnterKey=Yes
+FieldLabelType=DictionaryName
+DataCaptureType=RadioButton
+  
+[Text]
+Text=Q430
  
 [EndColumn]
   
@@ -5686,36 +5685,36 @@ Text=Q472
 [EndColumn]
   
 [Column]
-Width=130
+Width=124
   
 [Text]
-Position=0,3,46,19
-Text=a) Cord
+Position=0,3,80,19
+Text=a) Пуповина
  
   
 [Text]
-Position=0,29,97,45
-Text=b) Temperature
+Position=0,29,101,45
+Text=b) Температура
  
   
 [Text]
-Position=0,56,125,72
-Text=c) Medical attention
+Position=0,56,159,72
+Text=c) Медицинская помощь
  
   
 [Text]
-Position=0,78,173,94
-Text=d) Talk about breastfeeding
+Position=0,77,225,93
+Text=d) Разговор о грудном вскармлив.
  
   
 [Text]
-Position=0,99,159,115
-Text=e) Observe breastfeeding
+Position=0,99,211,115
+Text=e) Наблюдал кормление грудью
  
   
 [HeaderText]
-Position=70,15,108,115
-Text=A473
+Position=69,0,108,124
+Text=Q473
 VerticalAlignment=Middle
  
 [Field]
@@ -5779,23 +5778,23 @@ Text=Q473E
 Width=76
   
 [Text]
-Position=1,52,120,68
-Text=c) Family Planning
+Position=1,52,158,68
+Text=e) Планирование семьи
  
   
 [Text]
-Position=1,27,74,43
-Text=b) Bleeding
+Position=1,27,111,43
+Text=b) Кровотечение
  
   
 [Text]
-Position=0,0,112,16
-Text=a) Blood Pressure
+Position=0,0,148,16
+Text=a) Кровяное давление
  
   
 [HeaderText]
-Position=50,26,108,50
-Text=A474
+Position=69,0,108,76
+Text=Q474
 VerticalAlignment=Middle
  
 [Field]
@@ -6021,101 +6020,87 @@ Position=17
 Length=2
   
 [Block]
-Name=A418_BLOCK
+Name=Q418_BLOCK
 Label=Antenatal care
 DisplayTogether=Yes
 Position=21
 Length=7
   
 [Block]
-Name=QNB1_BLOCK
-Label=Time for first bath
-DisplayTogether=Yes
-Position=43
-Length=0
-  
-[Block]
-Name=QCH3_BLOCK
-Label=Time to apply clorhexidine
-DisplayTogether=Yes
-Position=44
-Length=0
-  
-[Block]
 Name=Q443_BLOCK
 Label=Weight at birth
 DisplayTogether=Yes
-Position=47
+Position=45
 Length=2
   
 [Block]
 Name=Q447_BLOCK
 Label=Time spent in facility after delivery
 DisplayTogether=Yes
-Position=50
+Position=48
 Length=2
   
 [Block]
 Name=Q449_BLOCK
 Label=Time for first check-up after delivery
 DisplayTogether=Yes
-Position=54
+Position=52
 Length=2
   
 [Block]
 Name=Q453_BLOCK
 Label=Time for child check-up after delivery
 DisplayTogether=Yes
-Position=59
+Position=57
 Length=2
   
 [Block]
 Name=Q456_BLOCK
 Label=Time of first checkup of respondent after discharge
 DisplayTogether=Yes
-Position=64
+Position=62
 Length=2
   
 [Block]
 Name=Q461_BLOCK
 Label=Time after birth child check-up took place
 DisplayTogether=Yes
-Position=70
+Position=68
 Length=2
   
 [Block]
 Name=Q465_BLOCK
 Label=Respondent first check-up after home delivery
 DisplayTogether=Yes
-Position=76
+Position=74
 Length=2
   
 [Block]
 Name=Q470_BLOCK
 Label=Time for child check-up after home delivery
 DisplayTogether=Yes
-Position=82
+Position=80
 Length=2
   
 [Block]
-Name=A473_BLOCK
+Name=Q473_BLOCK
 Label=Tests first two days after delivery
 DisplayTogether=Yes
-Position=87
+Position=85
 Length=5
   
 [Block]
-Name=A474_BLOCK
+Name=Q474_BLOCK
 Label=Other tests first two days after delivery
 DisplayTogether=Yes
-Position=93
+Position=91
 Length=3
   
 [Block]
 Name=Q482_BLOCK
 Label=Time when child was put to breast
 DisplayTogether=Yes
-Position=101
+Position=99
 Length=2
   
 [EndGrid]
@@ -6152,10 +6137,10 @@ Required=No
 Type=Record
 TypeName=QWSEC05
 Max=6
-DisplaySize=59,61,932,1344
+DisplaySize=59,61,932,1408
 Orientation=Vertical
-ColumnWidth=269
-StubColumnWidth=64
+ColumnWidth=529
+StubColumnWidth=69
 HeadingRowHeight=24
 FreeMovement=No
  
@@ -6203,7 +6188,7 @@ Width=10
 Width=35
   
 [HeaderText]
-Position=5,0,64,35
+Position=10,0,69,35
 Text=QCOL51
  
 [Field]
@@ -6225,7 +6210,7 @@ Text=QCOL51
 Width=52
   
 [HeaderText]
-Position=25,14,64,38
+Position=30,14,69,38
 Text=Q503
 VerticalAlignment=Middle
  
@@ -6245,7 +6230,7 @@ Text=Q503N
  
 [Field]
 Name=Q503
-Position=234,24,261,44
+Position=233,24,260,44
 Item=Q503,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -6262,7 +6247,7 @@ Text=Q503
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q504
  
 [Field]
@@ -6282,7 +6267,7 @@ Text=Q504
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q505
  
 [Field]
@@ -6302,7 +6287,7 @@ Text=Q505
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q507
  
 [Field]
@@ -6322,7 +6307,7 @@ Text=Q507
 Width=28
   
 [HeaderText]
-Position=25,0,64,28
+Position=30,0,69,28
 Text=Q508
  
 [Field]
@@ -6364,7 +6349,7 @@ Text=Q508Y
 Width=28
   
 [HeaderText]
-Position=17,0,64,28
+Position=22,0,69,28
 Text=D509B
  
 [Field]
@@ -6406,7 +6391,7 @@ Text=Y509B
 Width=28
   
 [HeaderText]
-Position=17,0,64,28
+Position=22,0,69,28
 Text=D509H
  
 [Field]
@@ -6448,7 +6433,7 @@ Text=Y509H
 Width=28
   
 [HeaderText]
-Position=10,0,64,28
+Position=15,0,69,28
 Text=D509P0
  
 [Field]
@@ -6490,7 +6475,7 @@ Text=Y509P0
 Width=28
   
 [HeaderText]
-Position=10,0,64,28
+Position=15,0,69,28
 Text=D509P1
  
 [Field]
@@ -6532,7 +6517,7 @@ Text=Y509P1
 Width=28
   
 [HeaderText]
-Position=10,0,64,28
+Position=15,0,69,28
 Text=D509P2
  
 [Field]
@@ -6574,7 +6559,7 @@ Text=Y509P2
 Width=28
   
 [HeaderText]
-Position=10,0,64,28
+Position=15,0,69,28
 Text=D509P3
  
 [Field]
@@ -6613,10 +6598,10 @@ Text=Y509P3
 [EndColumn]
   
 [Column]
-Width=39
+Width=33
   
 [HeaderText]
-Position=10,0,64,39
+Position=15,0,69,33
 Text=D509P4
 VerticalAlignment=Middle
  
@@ -6654,50 +6639,7 @@ Text=Polio 4 year
 Width=28
   
 [HeaderText]
-Position=4,0,64,28
-Text=D509IPV
- 
-[Field]
-Name=D509IPV
-Position=75,0,102,20
-Item=D509IPV,TJIN80
-UseEnterKey=Yes
-FieldLabelType=DictionaryName
-DataCaptureType=ComboBox
-  
-[Text]
-Position=0,0,55,16
-Text=D509IPV
- 
-[Field]
-Name=M509IPV
-Position=110,0,137,20
-Item=M509IPV,TJIN80
-UseEnterKey=Yes
-FieldLabelType=DictionaryName
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509IPV
- 
-[Field]
-Name=Y509IPV
-Position=143,0,196,20
-Item=Y509IPV,TJIN80
-UseEnterKey=Yes
-FieldLabelType=DictionaryName
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509IPV
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=10,0,64,28
+Position=15,0,69,28
 Text=D509D1
  
 [Field]
@@ -6739,7 +6681,7 @@ Text=Y509D1
 Width=28
   
 [HeaderText]
-Position=10,4,64,28
+Position=15,4,69,28
 Text=D509D2
  
 [Field]
@@ -6778,10 +6720,10 @@ Text=Y509D2
 [EndColumn]
   
 [Column]
-Width=28
+Width=30
   
 [HeaderText]
-Position=10,0,64,28
+Position=15,0,69,30
 Text=D509D3
  
 [Field]
@@ -6820,10 +6762,347 @@ Text=Y509D3
 [EndColumn]
   
 [Column]
+Width=28
+  
+[HeaderText]
+Position=15,0,69,28
+Text=D509R1
+ 
+[Field]
+Name=D509R1
+Position=75,0,102,20
+Item=D509R1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=D509R1
+ 
+[Field]
+Name=M509R1
+Position=110,0,137,20
+Item=M509R1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509R1
+ 
+[Field]
+Name=Y509R1
+Position=143,0,196,20
+Item=Y509R1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509R1
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=15,0,69,28
+Text=D509R2
+ 
+[Field]
+Name=D509R2
+Position=75,0,102,20
+Item=D509R2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=D509R2
+ 
+[Field]
+Name=M509R2
+Position=110,0,137,20
+Item=M509R2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509R2
+ 
+[Field]
+Name=Y509R2
+Position=143,0,196,20
+Item=Y509R2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509R2
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=2,4,69,28
+Text=D509IPV1
+ 
+[Field]
+Name=D509IPV
+Position=75,0,102,20
+Item=D509IPV,TJIN80
+UseEnterKey=Yes
+FieldLabelType=DictionaryName
+DataCaptureType=ComboBox
+  
+[Text]
+Position=0,0,55,16
+Text=D509IPV
+ 
+[Field]
+Name=M509IPV
+Position=110,0,137,20
+Item=M509IPV,TJIN80
+UseEnterKey=Yes
+FieldLabelType=DictionaryName
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509IPV
+ 
+[Field]
+Name=Y509IPV
+Position=143,0,196,20
+Item=Y509IPV,TJIN80
+UseEnterKey=Yes
+FieldLabelType=DictionaryName
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509IPV
+ 
+[EndColumn]
+  
+[Column]
 Width=32
   
 [HeaderText]
-Position=10,0,64,32
+Position=2,0,69,32
+Text=D509IPV2
+ 
+[Field]
+Name=D509IPV2
+Position=75,0,102,20
+Item=D509IPV2,TJIN80
+UseEnterKey=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Position=0,0,63,16
+Text=D509IPV1
+ 
+[Field]
+Name=M509IPV2
+Position=110,0,137,20
+Item=M509IPV2,TJIN80
+UseEnterKey=Yes
+DataCaptureType=RadioButton
+  
+[Text]
+Position=0,0,65,16
+Text=M509IPV1
+ 
+[Field]
+Name=Y509IPV2
+Position=143,0,196,20
+Item=Y509IPV2,TJIN80
+UseEnterKey=Yes
+DataCaptureType=RadioButton
+  
+[Text]
+Position=0,0,63,16
+Text=Y509IPV1
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=15,0,69,28
+Text=D509N1
+ 
+[Field]
+Name=D509N1
+Position=75,0,102,20
+Item=D509N1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=D509N1
+ 
+[Field]
+Name=M509N1
+Position=110,0,137,20
+Item=M509N1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509N1
+ 
+[Field]
+Name=Y509N1
+Position=143,0,196,20
+Item=Y509N1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509N1
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=15,0,69,28
+Text=D509N2
+ 
+[Field]
+Name=D509N2
+Position=75,0,102,20
+Item=D509N2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=D509N2
+ 
+[Field]
+Name=M509N2
+Position=110,0,137,20
+Item=M509N2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509N2
+ 
+[Field]
+Name=Y509N2
+Position=143,0,196,20
+Item=Y509N2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509N2
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=15,0,69,28
+Text=D509N3
+ 
+[Field]
+Name=D509N3
+Position=75,0,102,20
+Item=D509N3,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=D509N3
+ 
+[Field]
+Name=M509N3
+Position=110,0,137,20
+Item=M509N3,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509N3
+ 
+[Field]
+Name=Y509N3
+Position=143,0,196,20
+Item=Y509N3,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509N3
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=13,0,69,28
+Text=D509M1
+ 
+[Field]
+Name=D509M1
+Position=75,0,102,20
+Item=D509M1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=D509M1
+ 
+[Field]
+Name=M509M1
+Position=110,0,137,20
+Item=M509M1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=M509M1
+ 
+[Field]
+Name=Y509M1
+Position=143,0,196,20
+Item=Y509M1,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=Y509M1
+ 
+[EndColumn]
+  
+[Column]
+Width=32
+  
+[HeaderText]
+Position=15,0,69,32
 Text=D509D4
  
 [Field]
@@ -6866,259 +7145,7 @@ Text=Y509D4
 Width=28
   
 [HeaderText]
-Position=10,0,64,28
-Text=D509N1
- 
-[Field]
-Name=D509N1
-Position=75,0,102,20
-Item=D509N1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=D509N1
- 
-[Field]
-Name=M509N1
-Position=110,0,137,20
-Item=M509N1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509N1
- 
-[Field]
-Name=Y509N1
-Position=143,0,196,20
-Item=Y509N1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509N1
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=10,0,64,28
-Text=D509N2
- 
-[Field]
-Name=D509N2
-Position=75,0,102,20
-Item=D509N2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=D509N2
- 
-[Field]
-Name=M509N2
-Position=110,0,137,20
-Item=M509N2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509N2
- 
-[Field]
-Name=Y509N2
-Position=143,0,196,20
-Item=Y509N2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509N2
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=10,0,64,28
-Text=D509N3
- 
-[Field]
-Name=D509N3
-Position=75,0,102,20
-Item=D509N3,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=D509N3
- 
-[Field]
-Name=M509N3
-Position=110,0,137,20
-Item=M509N3,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509N3
- 
-[Field]
-Name=Y509N3
-Position=143,0,196,20
-Item=Y509N3,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509N3
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=10,0,64,28
-Text=D509R1
- 
-[Field]
-Name=D509R1
-Position=75,0,102,20
-Item=D509R1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=D509R1
- 
-[Field]
-Name=M509R1
-Position=110,0,137,20
-Item=M509R1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509R1
- 
-[Field]
-Name=Y509R1
-Position=143,0,196,20
-Item=Y509R1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509R1
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=10,0,64,28
-Text=D509R2
- 
-[Field]
-Name=D509R2
-Position=75,0,102,20
-Item=D509R2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=D509R2
- 
-[Field]
-Name=M509R2
-Position=110,0,137,20
-Item=M509R2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509R2
- 
-[Field]
-Name=Y509R2
-Position=143,0,196,20
-Item=Y509R2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509R2
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=8,0,64,28
-Text=D509M1
- 
-[Field]
-Name=D509M1
-Position=75,0,102,20
-Item=D509M1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=D509M1
- 
-[Field]
-Name=M509M1
-Position=110,0,137,20
-Item=M509M1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=M509M1
- 
-[Field]
-Name=Y509M1
-Position=143,0,196,20
-Item=Y509M1,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Y509M1
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=17,0,64,28
+Position=22,0,69,28
 Text=D509V
  
 [Field]
@@ -7160,7 +7187,7 @@ Text=Y509V1
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q510
  
 [Field]
@@ -7180,7 +7207,7 @@ Text=Q510
 Width=52
   
 [HeaderText]
-Position=25,28,64,52
+Position=30,28,69,52
 Text=Q512
  
 [Field]
@@ -7213,7 +7240,7 @@ Text=Q512W
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q513
  
 [Field]
@@ -7233,7 +7260,7 @@ Text=Q513
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q514
  
 [Field]
@@ -7253,7 +7280,7 @@ Text=Q514
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q515
  
 [Field]
@@ -7273,7 +7300,7 @@ Text=Q515
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q516
  
 [Field]
@@ -7293,7 +7320,7 @@ Text=Q516
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q517
  
 [Field]
@@ -7313,7 +7340,7 @@ Text=Q517
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q518
  
 [Field]
@@ -7333,7 +7360,7 @@ Text=Q518
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q519
  
 [Field]
@@ -7353,7 +7380,7 @@ Text=Q519
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q520
  
 [Field]
@@ -7373,7 +7400,7 @@ Text=Q520
 Width=28
   
 [HeaderText]
-Position=16,4,64,28
+Position=21,4,69,28
 Text=Q520A
  
 [Field]
@@ -7394,7 +7421,7 @@ Text=Q520A
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q521
  
 [Field]
@@ -7414,7 +7441,7 @@ Text=Q521
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q522
  
 [Field]
@@ -7434,7 +7461,27 @@ Text=Q522
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=21,4,69,28
+Text=Q522A
+ 
+[Field]
+Name=Q522A
+Position=182,0,196,20
+Item=Q522A,TJIN80
+UseEnterKey=Yes
+DataCaptureType=RadioButton
+  
+[Text]
+Position=0,0,42,16
+Text=Q522A
+ 
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=30,4,69,28
 Text=Q523
  
 [Field]
@@ -7454,7 +7501,7 @@ Text=Q523
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q524
  
 [Field]
@@ -7474,7 +7521,7 @@ Text=Q524
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q525
  
 [Field]
@@ -7494,7 +7541,7 @@ Text=Q525
 Width=28
   
 [HeaderText]
-Position=25,4,64,28
+Position=30,4,69,28
 Text=Q526
  
 [Field]
@@ -7514,7 +7561,7 @@ Text=Q526
 Width=28
   
 [HeaderText]
-Position=25,0,64,28
+Position=30,0,69,28
 Text=Q527
  
 [Field]
@@ -7534,27 +7581,7 @@ Text=Q527
 Width=28
   
 [HeaderText]
-Position=25,0,64,28
-Text=Q528
- 
-[Field]
-Name=Q528
-Position=182,0,196,20
-Item=Q528,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=Q528
- 
-[EndColumn]
-  
-[Column]
-Width=28
-  
-[HeaderText]
-Position=25,0,64,28
+Position=30,0,69,28
 Text=Q529
  
 [Field]
@@ -7574,7 +7601,7 @@ Text=Q529
 Width=28
   
 [HeaderText]
-Position=26,4,64,28
+Position=31,4,69,28
 Text=FA01
  
 [Field]
@@ -7592,7 +7619,7 @@ Text=FA01
 Width=28
   
 [HeaderText]
-Position=26,4,64,28
+Position=31,4,69,28
 Text=FA02
  
 [Field]
@@ -7610,7 +7637,7 @@ Text=FA02
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA03A
  
 [Field]
@@ -7632,7 +7659,7 @@ Text=FA03A
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA03B
  
 [Field]
@@ -7654,7 +7681,7 @@ Text=FA03B
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA04A
  
 [Field]
@@ -7676,7 +7703,7 @@ Text=FA04A
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA04B
  
 [Field]
@@ -7698,7 +7725,7 @@ Text=FA04B
 Width=28
   
 [HeaderText]
-Position=26,4,64,28
+Position=31,4,69,28
 Text=FA05
  
 [Field]
@@ -7720,7 +7747,7 @@ Text=FA05
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA06A
  
 [Field]
@@ -7741,7 +7768,7 @@ Text=FA06A
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA06B
  
 [Field]
@@ -7763,7 +7790,7 @@ Text=FA06B
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA06C
  
 [Field]
@@ -7785,7 +7812,7 @@ Text=FA06C
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA07A
  
 [Field]
@@ -7807,7 +7834,7 @@ Text=FA07A
 Width=28
   
 [HeaderText]
-Position=17,4,64,28
+Position=22,4,69,28
 Text=FA07B
  
 [Field]
@@ -7829,7 +7856,7 @@ Text=FA07B
 Width=28
   
 [HeaderText]
-Position=26,4,64,28
+Position=31,4,69,28
 Text=FA08
  
 [Field]
@@ -7899,74 +7926,74 @@ Name=Q509P4_BLOCK
 Label=Polio 4 date
 DisplayTogether=Yes
 Position=34
-Length=0
-  
-[Block]
-Name=Q509IPV_BLOCK
-Label=IPV date
-DisplayTogether=Yes
-Position=35
-Length=6
+Length=3
   
 [Block]
 Name=Q509D1_BLOCK
 Label=Pentavalent 1 date
 DisplayTogether=Yes
-Position=42
+Position=38
 Length=3
   
 [Block]
 Name=Q509D2_BLOCK
 Label=Pentavalent 2 date
 DisplayTogether=Yes
-Position=46
+Position=42
 Length=3
   
 [Block]
 Name=Q509D3_BLOCK
 Label=Pentavalent 3 date
 DisplayTogether=Yes
-Position=50
-Length=3
-  
-[Block]
-Name=Q509D4_BLOCK
-Label=Pentavalent 4 date
-DisplayTogether=Yes
-Position=54
-Length=3
-  
-[Block]
-Name=Q509N1_BLOCK
-Label=Pneumococcal 1 date
-DisplayTogether=Yes
-Position=58
-Length=3
-  
-[Block]
-Name=Q509N2_BLOCK
-Label=Pneumococcal 2 date
-DisplayTogether=Yes
-Position=62
-Length=3
-  
-[Block]
-Name=Q509N3_BLOCK
-Label=Pneumococcal 3 date
-DisplayTogether=Yes
-Position=66
+Position=46
 Length=3
   
 [Block]
 Name=Q509R1_BLOCK
 Label=Rotavirus 1 date
 DisplayTogether=Yes
-Position=70
+Position=50
 Length=3
   
 [Block]
 Name=Q509R2_BLOCK
 Label=Rotavirus 2 date
+DisplayTogether=Yes
+Position=54
+Length=3
+  
+[Block]
+Name=Q509IPV1_BLOCK
+Label=IPV 1 date
+DisplayTogether=Yes
+Position=58
+Length=3
+  
+[Block]
+Name=Q509IPV2_BLOCK
+Label=IPV 2 date
+DisplayTogether=Yes
+Position=62
+Length=3
+  
+[Block]
+Name=Q509N1_BLOCK
+Label=Pneumococcal 1 date
+DisplayTogether=Yes
+Position=66
+Length=3
+  
+[Block]
+Name=Q509N2_BLOCK
+Label=Pneumococcal 2 date
+DisplayTogether=Yes
+Position=70
+Length=3
+  
+[Block]
+Name=Q509N3_BLOCK
+Label=Pneumococcal 3 date
 DisplayTogether=Yes
 Position=74
 Length=3
@@ -7979,11 +8006,46 @@ Position=78
 Length=3
   
 [Block]
-Name=Q509V_BLOCK
-Label=Last Vitamin A date
+Name=Q509D4_BLOCK
+Label=Pentavalent 4 date
 DisplayTogether=Yes
 Position=82
 Length=3
+  
+[Block]
+Name=Q509V_BLOCK
+Label=Last Vitamin A date
+DisplayTogether=Yes
+Position=86
+Length=3
+  
+[Block]
+Name=FA03_BLOCK
+Label=Name and surname
+DisplayTogether=Yes
+Position=113
+Length=2
+  
+[Block]
+Name=FA04_BLOCK
+Label=Name and surname of the mother
+DisplayTogether=Yes
+Position=116
+Length=2
+  
+[Block]
+Name=FA06_BLOCK
+Label=Name, address an telephone vaccination facility
+DisplayTogether=Yes
+Position=120
+Length=3
+  
+[Block]
+Name=FA07_BLOCK
+Label=Firsn and last name of doctor
+DisplayTogether=Yes
+Position=124
+Length=2
   
 [EndGrid]
  
@@ -8019,7 +8081,7 @@ Required=No
 Type=Record
 TypeName=QWSEC6A
 Max=6
-DisplaySize=5,39,918,1054
+DisplaySize=5,39,918,963
 Orientation=Vertical
 ColumnWidth=282
 StubColumnWidth=59
@@ -8122,15 +8184,15 @@ Text=Q603
 [EndColumn]
   
 [Column]
-Width=28
+Width=30
   
 [Text]
-Position=0,0,81,16
-Text=a) Pills/syrup
+Position=0,0,120,16
+Text=a) Таблетки/сироп
  
   
 [HeaderText]
-Position=11,0,59,28
+Position=11,0,59,30
 Text=Q604A
 VerticalAlignment=Middle
  
@@ -8169,46 +8231,26 @@ Text=Q605
 [EndColumn]
   
 [Column]
-Width=28
-  
-[HeaderText]
-Position=20,4,59,28
-Text=Q606
- 
-[Field]
-Name=Q606
-Position=195,0,209,20
-Item=Q606,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-  
-[Text]
-Text=Q606
- 
-[EndColumn]
-  
-[Column]
 Width=76
   
 [Text]
-Position=0,0,61,16
-Text=a) Weight
+Position=0,0,40,16
+Text=a) Вес
  
   
 [Text]
-Position=0,26,60,42
-Text=b) Length
+Position=0,26,90,42
+Text=b) Длина/рост
  
   
 [Text]
-Position=0,49,82,65
-Text=c) Upper arm
+Position=0,49,147,65
+Text=c) Верхняя часть руки
  
   
 [HeaderText]
-Position=21,26,59,50
-Text=A607
+Position=20,0,59,76
+Text=Q607
 VerticalAlignment=Middle
  
 [Field]
@@ -8367,26 +8409,26 @@ Text=Q614
 [EndColumn]
   
 [Column]
-Width=100
+Width=94
   
 [Text]
-Position=0,2,77,18
-Text=a) Rehydron
+Position=0,2,78,18
+Text=a) Регидрон
  
   
 [Text]
-Position=0,30,41,46
-Text=c) Zinc
+Position=0,30,48,46
+Text=c) Цинк
  
   
 [Text]
-Position=0,55,125,71
-Text=d) Home-made fluid
+Position=0,55,160,87
+Text=d) Жидкость домашнего приготов.
  
   
 [HeaderText]
-Position=21,0,59,100
-Text=A615
+Position=20,0,59,94
+Text=Q615
 VerticalAlignment=Middle
  
 [Field]
@@ -8706,24 +8748,24 @@ Text=Q631
 [EndColumn]
   
 [Block]
-Name=A604_BLOCK
+Name=Q604_BLOCK
 Label=Micronutrients given
 DisplayTogether=Yes
 Position=3
 Length=1
   
 [Block]
-Name=A607_BLOCK
+Name=Q607_BLOCK
 Label=Past 3 months health care
 DisplayTogether=Yes
-Position=7
+Position=6
 Length=3
   
 [Block]
-Name=A615_BLOCK
+Name=Q615_BLOCK
 Label=Diarrhea treatment
 DisplayTogether=Yes
-Position=17
+Position=16
 Length=3
   
 [EndGrid]
@@ -8785,26 +8827,26 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,119,77,135
-Text=a) Water
+Position=23,119,72,135
+Text=a) Вода
  
   
 [Field]
 Name=Q636B
-Position=126,146,140,166
+Position=140,146,154,166
 Item=Q636B,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,149,92,165
-Text=b) Formula
+Position=23,149,136,165
+Text=b) Детская смечь
  
   
 [Field]
 Name=Q636BN
-Position=162,146,176,166
+Position=165,146,179,166
 Item=Q636BN,TJIN80
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -8813,20 +8855,20 @@ Form=14
   
 [Field]
 Name=Q636C
-Position=126,173,140,193
+Position=139,173,153,193
 Item=Q636C,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,176,64,192
-Text=c) Milk
+Position=23,176,88,192
+Text=c) Молоко
  
   
 [Field]
 Name=Q636CN
-Position=162,173,176,193
+Position=166,173,180,193
 Item=Q636CN,TJIN80
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -8851,34 +8893,34 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,237,75,253
-Text=f) Cocoa
+Position=23,237,74,253
+Text=f) Какао
  
   
 [Field]
 Name=Q636G
-Position=126,261,140,281
+Position=146,261,160,281
 Item=Q636G,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,264,103,280
-Text=g) Fruit juice
+Position=23,264,140,280
+Text=g) Фруктовый сок
  
   
 [Field]
 Name=Q636H
-Position=126,291,140,311
+Position=201,291,215,311
 Item=Q636H,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,294,78,310
-Text=h) Sodas
+Position=23,294,193,310
+Text=h) Газированные напитки
  
   
 [Field]
@@ -8890,13 +8932,13 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=23,324,102,340
-Text=i) Tea/coffee
+Position=23,324,100,340
+Text=i) Чай/Кофе
  
   
 [Field]
 Name=Q636IA
-Position=207,321,221,341
+Position=202,321,216,341
 Item=Q636IA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8912,26 +8954,26 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=24,352,104,368
-Text=j) Broth/soup
+Position=24,352,110,368
+Text=j) Бульон/суп
  
   
 [Field]
 Name=Q636K
-Position=126,382,140,402
+Position=156,382,170,402
 Item=Q636K,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=24,385,120,401
-Text=k) Other liquids
+Position=24,385,150,401
+Text=k) Другие жидкости
  
   
 [Field]
 Name=Q636KA
-Position=207,382,221,402
+Position=203,382,217,402
 Item=Q636KA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8976,8 +9018,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,116,322,132
-Text=a) Yogurt
+Position=265,116,324,132
+Text=a) Йогурт
  
   
 [Field]
@@ -8998,8 +9040,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=281,145,358,161
-Text=Yogurt drink
+Position=281,145,371,161
+Text=Йогурт кол-во
  
   
 [Field]
@@ -9020,8 +9062,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,174,331,190
-Text=b) Bread...
+Position=265,174,326,190
+Text=b) Хлеб...
  
   
 [Field]
@@ -9033,8 +9075,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,204,352,220
-Text=c) Pumpkin ...
+Position=265,204,333,220
+Text=c) Тыкву...
  
   
 [Field]
@@ -9046,8 +9088,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,234,338,250
-Text=d) Potato ...
+Position=265,234,367,250
+Text=d) Картофель...
  
   
 [Field]
@@ -9059,8 +9101,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,264,363,280
-Text=e) Green veg ...
+Position=265,264,396,280
+Text=e) Темно зеленый...
  
   
 [Field]
@@ -9072,8 +9114,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,294,339,310
-Text=f) Other veg
+Position=265,294,368,310
+Text=f) Другие овощи
  
   
 [Field]
@@ -9085,8 +9127,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,324,427,340
-Text=g) Persimmon, apricots ...
+Position=265,324,334,340
+Text=g) Хурма...
  
   
 [Field]
@@ -9098,8 +9140,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,354,345,370
-Text=h) Other fruit
+Position=265,354,381,370
+Text=h) Другие фрукты
  
   
 [Field]
@@ -9111,8 +9153,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,383,303,399
-Text=i) Fish
+Position=265,385,324,401
+Text=i) Рыбу...
  
   
 [Field]
@@ -9124,8 +9166,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,412,374,428
-Text=j) Organ meats ...
+Position=265,412,393,428
+Text=j) Печень, сердце...
  
   
 [Field]
@@ -9137,8 +9179,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,442,357,458
-Text=k) Sausages ...
+Position=265,442,407,458
+Text=к) Колбаса, сосиски...
  
   
 [Field]
@@ -9150,8 +9192,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,472,348,488
-Text=l) Other meat
+Position=265,472,370,488
+Text=l) Другое мясо...
  
   
 [Field]
@@ -9163,8 +9205,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,502,315,518
-Text=m) Eggs
+Position=265,502,318,518
+Text=m) Яйца
  
   
 [Field]
@@ -9176,8 +9218,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,531,374,547
-Text=n) Beans, peas ...
+Position=265,531,344,547
+Text=n) Фасоль...
  
   
 [Field]
@@ -9189,8 +9231,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,558,352,574
-Text=o) Nuts, seeds
+Position=265,558,350,574
+Text=o) Семечки...
  
   
 [Field]
@@ -9202,8 +9244,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,585,328,601
-Text=p) Cheese
+Position=265,585,364,601
+Text=p) Сыр, курут...
  
   
 [Field]
@@ -9215,8 +9257,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,611,384,627
-Text=r) Cakes/cookies ...
+Position=265,611,395,627
+Text=r) Торты, печенье...
  
   
 [Field]
@@ -9228,8 +9270,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,637,405,653
-Text=s) Candy, chocolate ...
+Position=265,637,418,653
+Text=s) Шоколад, конфеты...
  
   
 [Field]
@@ -9241,8 +9283,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,660,328,676
-Text=t) Chips ...
+Position=265,660,401,676
+Text=t) Чипсы, сухарики...
  
   
 [Field]
@@ -9254,8 +9296,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,707,353,723
-Text=v) Other foods
+Position=265,707,395,723
+Text=v) Другая твердая...
  
   
 [Field]
@@ -9362,8 +9404,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,119,735,135
-Text=a) Bread ...
+Position=665,119,791,135
+Text=a) Хлеб, лепешка...
  
   
 [Field]
@@ -9375,8 +9417,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,147,753,163
-Text=b) Pumpkin ...
+Position=665,147,734,163
+Text=b) Тыкву...
  
   
 [Field]
@@ -9388,8 +9430,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,177,733,193
-Text=c) Potato...
+Position=665,177,766,193
+Text=c) Картофель...
  
   
 [Field]
@@ -9401,8 +9443,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,207,763,223
-Text=d) Green veg ...
+Position=665,207,792,223
+Text=d) Темно-зеленый..
  
   
 [Field]
@@ -9414,8 +9456,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,237,743,253
-Text=e) Other veg
+Position=665,237,780,253
+Text=e) Другие овощи..
  
   
 [Field]
@@ -9427,8 +9469,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,266,823,282
-Text=f) Persimmon, apricots ...
+Position=665,266,730,282
+Text=f) Хурма...
  
   
 [Field]
@@ -9440,8 +9482,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,297,745,313
-Text=g) Other fruit
+Position=665,297,781,313
+Text=g) Другие фрукты
  
   
 [Field]
@@ -9453,8 +9495,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,329,707,345
-Text=h) Fish
+Position=665,329,725,345
+Text=h) Рыба..
  
   
 [Field]
@@ -9466,8 +9508,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,356,774,372
-Text=i) Organ meats ...
+Position=665,356,738,372
+Text=i) Печень...
  
   
 [Field]
@@ -9479,8 +9521,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,382,808,398
-Text=j) Susages, hot dogs ...
+Position=665,382,804,398
+Text=j) Колбаса, сосиски...
  
   
 [Field]
@@ -9492,8 +9534,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,408,751,424
-Text=k) Other meat
+Position=665,408,761,424
+Text=k) Другое мясо
  
   
 [Field]
@@ -9505,8 +9547,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,433,707,449
-Text=l) Eggs
+Position=665,433,710,449
+Text=l) Яйцо
  
   
 [Field]
@@ -9518,8 +9560,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,458,778,474
-Text=m) Beans, peas ...
+Position=665,458,756,474
+Text=m) Фасоль,....
  
   
 [Field]
@@ -9531,8 +9573,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,488,768,504
-Text=n) Nuts, seeds ...
+Position=665,488,750,504
+Text=n) Семечки...
  
   
 [Field]
@@ -9544,8 +9586,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=666,520,724,536
-Text=o) Milk ...
+Position=666,520,744,536
+Text=o) Молоко...
  
   
 [Field]
@@ -9557,8 +9599,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,548,787,564
-Text=q) Cakes/cookies ...
+Position=665,548,798,564
+Text=q) Торты, печенье...
  
   
 [Field]
@@ -9570,8 +9612,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,574,804,590
-Text=r) Candy, chocolate ...
+Position=665,574,755,590
+Text=r) Конфеты,...
  
   
 [Field]
@@ -9583,8 +9625,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,597,730,613
-Text=s) Chips ...
+Position=665,597,734,613
+Text=s) Чипсы...
  
   
 [Field]
@@ -9596,8 +9638,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,622,741,638
-Text=t) Fruit juice
+Position=665,622,790,638
+Text=t) Фруктовый сок...
  
   
 [Field]
@@ -9609,8 +9651,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,645,784,661
-Text=u) Sugary drinks ...
+Position=665,645,788,661
+Text=u) Газир. напитки..
  
   
 [Field]
@@ -9622,8 +9664,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=667,670,761,686
-Text=v) Tea, coffe ...
+Position=667,670,786,686
+Text=v) Чай с сахаром..
  
   
 [Field]
@@ -9635,8 +9677,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,721,762,737
-Text=x) Other liquids
+Position=665,721,792,737
+Text=x) Другие жидкости
  
   
 [Field]
@@ -9657,8 +9699,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=666,747,796,763
-Text=y) Other drinks/foods
+Position=666,747,764,763
+Text=y) Другие пищи
  
   
 [Field]
@@ -10216,7 +10258,7 @@ Position=22
 Length=2
   
 [Block]
-Name=A738_BLOCK
+Name=Q738_BLOCK
 Label=Presence of persons
 DisplayTogether=Yes
 Position=37
@@ -10558,14 +10600,14 @@ Position=2
 Length=2
   
 [Block]
-Name=A814_BLOCK
+Name=Q814_BLOCK
 Label=Ideal number of children by gender
 DisplayTogether=Yes
 Position=8
 Length=3
   
 [Block]
-Name=A815_BLOCK
+Name=Q815_BLOCK
 Label=Family planning advertisement
 DisplayTogether=Yes
 Position=12
@@ -11114,14 +11156,14 @@ Position=633,245,641,261
 Text=E
  
 [Block]
-Name=A931_BLOCK
+Name=Q931_BLOCK
 Label=Presence of persons
 DisplayTogether=Yes
 Position=27
 Length=4
   
 [Block]
-Name=A932_BLOCK
+Name=Q932_BLOCK
 Label=Justification for women mistreatment
 DisplayTogether=Yes
 Position=32
@@ -11597,7 +11639,6 @@ Position=402,263,440,279
 Text=Q1035
  
   
-  
 [Field]
 Name=Q1040
 Position=748,57,762,77
@@ -11730,13 +11771,6 @@ DisplayTogether=Yes
 Position=28
 Length=2
   
-[Block]
-Name=Q1039_BLOCK
-Label=Things happened because result of HIV testing
-DisplayTogether=Yes
-Position=37
-Length=0
-  
 [EndGroup]
   
 [Group]
@@ -11778,6 +11812,7 @@ Text=Q1102
 Name=CD01
 Position=274,137,288,157
 Item=CD01,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=19
   
@@ -11790,6 +11825,7 @@ Text=CD01
 Name=CD02
 Position=274,167,288,187
 Item=CD02,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=19
   
@@ -11802,6 +11838,7 @@ Text=CD02
 Name=CD03
 Position=274,198,288,218
 Item=CD03,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=19
   
@@ -11814,6 +11851,7 @@ Text=CD03
 Name=CD06
 Position=274,227,288,247
 Item=CD06,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=19
   
@@ -11826,6 +11864,7 @@ Text=CD06
 Name=CD07
 Position=274,255,288,275
 Item=CD07,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=19
   
@@ -11838,26 +11877,13 @@ Text=CD07
 Name=CD08
 Position=274,286,288,306
 Item=CD08,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=19
   
 [Text]
 Position=104,287,136,303
 Text=CD08
- 
-  
-[Field]
-Name=Q1104
-Position=509,81,523,101
-Item=Q1104,TJIN80
-UseEnterKey=Yes
-FieldLabelType=DictionaryName
-DataCaptureType=TextBox
-Form=19
-  
-[Text]
-Position=339,84,377,100
-Text=Q1104
  
   
 [Field]
@@ -11872,6 +11898,20 @@ Form=19
 [Text]
 Position=339,54,377,70
 Text=Q1103
+ 
+  
+[Field]
+Name=Q1104
+Position=509,81,523,101
+Item=Q1104,TJIN80
+UseEnterKey=Yes
+FieldLabelType=DictionaryName
+DataCaptureType=TextBox
+Form=19
+  
+[Text]
+Position=339,84,377,100
+Text=Q1104
  
   
 [Field]
@@ -12319,16 +12359,6 @@ Text=DV08   a
  
   
 [Field]
-Name=DV08A2
-Position=230,178,244,198
-Item=DV08A2,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-Form=20
-  
-  
-[Field]
 Name=DV08B1
 Position=208,202,222,222
 Item=DV08B1,TJIN80
@@ -12370,6 +12400,16 @@ Text=c
 Name=DV08C2
 Position=230,224,244,244
 Item=DV08C2,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=RadioButton
+Form=20
+  
+  
+[Field]
+Name=DV08A2
+Position=230,178,244,198
+Item=DV08A2,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
 DataCaptureType=RadioButton
@@ -12944,9 +12984,67 @@ Position=752,249,784,265
 Text=DV35
  
   
+  
+[Field]
+Name=DV36A
+Position=958,313,972,333
+Item=DV36A,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=RadioButton
+Form=20
+  
+[Text]
+Position=746,315,798,331
+Text=DV36   a
+ 
+  
+[Field]
+Name=DV36B
+Position=958,335,972,355
+Item=DV36B,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=RadioButton
+Form=20
+  
+[Text]
+Position=790,340,798,356
+Text=b
+ 
+  
+[Field]
+Name=DV36C
+Position=958,357,972,377
+Item=DV36C,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=RadioButton
+Form=20
+  
+[Text]
+Position=791,362,798,378
+Text=c
+ 
+  
+[Field]
+Name=DV37
+Position=956,384,975,404
+Item=DV37,TJIN80
+UseEnterKey=Yes
+FieldLabelType=DictionaryName
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=20
+  
+[Text]
+Position=746,387,778,403
+Text=DV37
+ 
+  
 [Field]
 Name=DVFIN
-Position=964,309,978,329
+Position=959,413,973,433
 Item=DVFIN,TJIN80
 UseEnterKey=Yes
 ValidationMethod=NoConfirm
@@ -12956,66 +13054,8 @@ DataCaptureType=TextBox
 Form=20
   
 [Text]
-Position=752,313,791,329
+Position=747,417,786,433
 Text=DVFIN
- 
-  
-  
-[Field]
-Name=DV36A
-Position=964,338,978,358
-Item=DV36A,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-Form=20
-  
-[Text]
-Position=752,340,804,356
-Text=DV36   a
- 
-  
-[Field]
-Name=DV36B
-Position=964,360,978,380
-Item=DV36B,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-Form=20
-  
-[Text]
-Position=796,365,804,381
-Text=b
- 
-  
-[Field]
-Name=DV36C
-Position=964,382,978,402
-Item=DV36C,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-Form=20
-  
-[Text]
-Position=797,387,804,403
-Text=c
- 
-  
-[Field]
-Name=DV37
-Position=962,409,981,429
-Item=DV37,TJIN80
-UseEnterKey=Yes
-FieldLabelType=DictionaryName
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
-Form=20
-  
-[Text]
-Position=752,412,784,428
-Text=DV37
  
 [Block]
 Name=DV10_BLOCK
@@ -13028,7 +13068,7 @@ Length=3
 Name=DV36_BLOCK
 Label=Interruption because of other persons
 DisplayTogether=Yes
-Position=71
+Position=70
 Length=3
   
 [EndGroup]
@@ -13121,10 +13161,25 @@ Form=21
   
 [Group]
 Required=Yes
-Name=ALANG_FORM
+Name=QLANG_FORM
 Label=Language of interview
 Form=22
 Max=1
+  
+[Field]
+Name=QLANGI
+Position=221,76,248,96
+Item=QLANGI,TJIN80
+UseEnterKey=Yes
+UpperCase=Yes
+DataCaptureType=RadioButton
+Form=22
+  
+[Text]
+Position=206,53,271,69
+Text=интервью
+Form=37
+ 
   
 [Field]
 Name=QLANGQ
@@ -13137,23 +13192,8 @@ DataCaptureType=RadioButton
 Form=22
   
 [Text]
-Position=45,52,134,68
-Text=Questionnaire
-Form=37
- 
-  
-[Field]
-Name=QLANGI
-Position=221,76,248,96
-Item=QLANGI,TJIN80
-UseEnterKey=Yes
-UpperCase=Yes
-DataCaptureType=RadioButton
-Form=22
-  
-[Text]
-Position=206,53,265,69
-Text=Interview
+Position=45,52,116,68
+Text=Вопросник
 Form=37
  
   
@@ -13167,8 +13207,8 @@ DataCaptureType=RadioButton
 Form=22
   
 [Text]
-Position=325,53,400,69
-Text=Respondent
+Position=325,53,402,69
+Text=респондент
 Form=37
  
   
@@ -13182,15 +13222,15 @@ DataCaptureType=RadioButton
 Form=22
   
 [Text]
-Position=456,36,524,68
-Text=Translator \nUsed
+Position=448,36,534,68
+Text=Переводчик \nиспользован
 Form=37
  
 [EndGroup]
   
 [Group]
 Required=Yes
-Name=ASECGPS_FORM
+Name=QSECGPS_FORM
 Label=Form to take coordinates
 Form=23
 Max=1
@@ -13283,8 +13323,8 @@ DataCaptureType=TextBox
 Form=23
   
 [Text]
-Position=183,306,353,322
-Text=End of Individual Interview
+Position=183,306,292,322
+Text=Конец интервью
  
 [EndGroup]
   

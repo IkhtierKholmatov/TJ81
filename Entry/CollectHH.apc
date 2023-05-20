@@ -50,9 +50,9 @@
         getlabel( QHSEC04   ), 
         getlabel( QBSECOVER ), 
         getlabel( QBSEC01   ), 
-        getlabel( QBSEC02   ), 
+        getlabel( QBSEC02   )); //, 
         {getlabel( QBSEC03   ), } {Men were not selected in TJ23}
-        tr("Cancel") );
+        //tr("Cancel") );
       if     sec =  1 & totocc(QHSECOVER_FORM) then move to QHSECOVER_FORM advance
       elseif sec =  2 & totocc(QHSEC01X_FORM)  then move to QHSEC01X_FORM  advance
       elseif sec =  3 & totocc(QHSEC01_FORM)   then move to QHSEC01_FORM   advance
@@ -66,9 +66,10 @@
       elseif sec = 12 & totocc(QBSEC01_FORM)   then move to QBSEC01_FORM   advance 
       elseif sec = 13 & totocc(QBSEC02_FORM)   then move to QBSEC02_FORM   advance 
       {elseif sec = 14 & totocc(QBSEC03_FORM)   then move to QBSEC03_FORM   advance } {Men were not selected in TJ23}
-	  elseif sec = 15 then    // do nothing
 	  else
-	    errmsg( 0005 );
+	  //sec = 15 then    // do nothing
+	  // else
+	    // errmsg( 0005 );
       endif;
     else
       sec = accept( tr("Go to section:"),

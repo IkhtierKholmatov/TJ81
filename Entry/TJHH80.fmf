@@ -35,12 +35,12 @@ Item=QHTYPE
 Item=QHTEAM
   
 Box=26,160,683,205,Raised
-Box=441,248,685,448,Raised
+Box=470,249,714,449,Raised
   
 [Text]
 Name=FT000000
-Position=167,35,504,59
-Text=Demographic and Health Surveys
+Position=167,35,447,59
+Text=Медико-Демографический
 Form=1
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 Color=16711935
@@ -48,16 +48,16 @@ Color=16711935
   
 [Text]
 Name=FT000002
-Position=490,116,534,132
-Text=Cluster
+Position=490,116,543,132
+Text=Кластер
 Form=1
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=FT000003
-Position=558,116,678,132
-Text=Household number
+Position=558,116,705,132
+Text=Номер домохозяйства
 Form=1
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -72,8 +72,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
   
 [Text]
 Name=TEXT001
-Position=219,64,474,88
-Text=Household Questionnaire
+Position=219,64,489,88
+Text=Вопросник домохозяйств
 Form=1
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 Color=16711808
@@ -96,7 +96,7 @@ Name=AHFORM01X
 Label=Names of household members
 QuestionTextHeight=139
 Level=1
-Size=714,747
+Size=886,747
   
 Item=AHSEC1X_ROSTER
 Item=QHMEMBER
@@ -108,8 +108,8 @@ Item=QH07C
   
 [Text]
 Name=TEXT10
-Position=205,8,480,32
-Text=Household members listing
+Position=205,8,530,32
+Text=\nСписок членов домохозяйства
 Form=3
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -128,8 +128,8 @@ Item=QHWOMEN
   
 [Text]
 Name=TEXT11
-Position=310,15,518,39
-Text=Household Schedule
+Position=310,15,541,39
+Text=Список домохозяйств
 Form=4
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -140,7 +140,7 @@ Name=AHFORMCD
 Label=Child Discipline
 QuestionTextHeight=172
 Level=1
-Size=407,487
+Size=458,537
   
 Item=QCDI2
 Item=QCDI3A
@@ -156,14 +156,14 @@ Item=QCDI3J
 Item=QCDI3K
 Item=QCDI4
 Item=QCDINAME
-Item=ACDI3
+Item=QCDI3
   
 Box=34,91,380,462,Etched
   
 [Text]
 Name=TEXT7
-Position=138,14,292,38
-Text=Child Discipline
+Position=138,14,355,38
+Text=\nДетская дисциплина
 Form=5
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0178 0003 0002 0001 0034 Arial
  
@@ -276,8 +276,8 @@ Box=1284,59,1452,558,Etched
   
 [Text]
 Name=FT000025
-Position=293,11,559,35
-Text=Household Characteristics
+Position=293,11,613,35
+Text=Характеристика домохозяйств
 Form=6
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -288,7 +288,7 @@ Name=AHFORM04
 Label=Additional household characteristics
 QuestionTextHeight=122
 Level=1
-Size=883,445
+Size=885,445
   
 Item=QH149
 Item=QH150
@@ -320,16 +320,16 @@ Box=241,83,444,161,Etched
   
 [Text]
 Name=TEXT13
-Position=11,24,748,48
-Text=Additional Household Characteristics - Food Insecurity - End HH Interview
+Position=80,5,612,77
+Text=Дополнительные характеристики домохозяйства, \nОтсутствие продовольственной безопасности,\n Окончание интервью с домохозяйством
 Form=7
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0178 0003 0002 0001 0034 Arial
  
   
 [Text]
 Name=TEXT12
-Position=585,191,717,210
-Text=GPS Coordinates
+Position=585,191,724,210
+Text=Координаты GPS
 Form=7
 Font=-016 0000 0000 0000 0700 0000 0000 0000 0178 0003 0002 0001 0034 Arial
 Color=8388863
@@ -391,15 +391,15 @@ Name=ABFORM01
 Label=Weight, Height and Hemoglobin Measurement for Children age 0-5
 QuestionTextHeight=158
 Level=1
-Size=893,1314
+Size=1031,993
   
 Item=QBSEC01_ROSTER
   
   
 [Text]
 Name=TEXT059
-Position=143,7,810,31
-Text=Weight, Height and Hemoglobin Measurement for Children Age 0-4
+Position=143,7,826,31
+Text=Измерение веса, роста и гемоглобина у детей в возрасте 0–4 лет
 Form=9
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -410,7 +410,7 @@ Name=ABFORM02
 Label=Weight, Height and Hemoglobin Measurement for Women
 QuestionTextHeight=118
 Level=1
-Size=1288,1075
+Size=1288,833
   
 Item=QBSEC02_ROSTER
 Item=QBFINISH
@@ -418,8 +418,8 @@ Item=QBFINISH
   
 [Text]
 Name=TEXT060
-Position=274,7,913,31
-Text=Weight, Height and Hemoglobin Measurement for Women 15-49
+Position=274,7,882,31
+Text=Измерение веса, роста и гемоглобина у женщин 15-49 лет
 Form=10
 Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
@@ -450,7 +450,7 @@ Form=1
   
 [Field]
 Name=QHNUMBER
-Position=602,138,659,158
+Position=602,136,659,156
 Item=QHNUMBER,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -462,7 +462,7 @@ Form=1
   
 [Field]
 Name=QHREGION
-Position=103,172,118,192
+Position=103,172,160,192
 Item=QHREGION,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -472,8 +472,8 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=48,176,93,192
-Text=Region
+Position=48,176,94,192
+Text=Регион
  
   
 [Field]
@@ -485,8 +485,8 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=169,176,245,192
-Text=Urban/Rural
+Position=169,176,243,192
+Text=Город/село
  
   
 [Field]
@@ -503,7 +503,7 @@ Form=1
   
 [Field]
 Name=QHINTNUM
-Position=602,300,659,320
+Position=631,301,688,321
 Item=QHINTNUM,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -513,13 +513,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=452,302,577,318
-Text=Interviewer number
+Position=481,303,616,319
+Text=Номер интервьюера
  
   
 [Field]
 Name=QHTEAM
-Position=630,373,659,393
+Position=659,374,688,394
 Item=QHTEAM,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -527,13 +527,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=452,375,488,391
-Text=Team
+Position=481,376,538,392
+Text=Команда
  
   
 [Field]
 Name=QHSUPERV
-Position=602,397,659,417
+Position=631,398,688,418
 Item=QHSUPERV,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -543,8 +543,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=452,399,520,415
-Text=Supervisor
+Position=481,400,568,416
+Text=Супервайзер
  
   
 [Grid]
@@ -555,10 +555,10 @@ Required=Yes
 Type=SubItem
 TypeName=QHCONTVISIT
 Max=5
-DisplaySize=27,255,434,425
+DisplaySize=27,255,463,444
 Orientation=Vertical
 ColumnWidth=71
-StubColumnWidth=40
+StubColumnWidth=74
 HeadingRowHeight=6
 FreeMovement=Yes
 DefaultMovement=Horizontal
@@ -600,8 +600,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=4,0,40,28
-Text=Col.
+Position=23,4,74,28
+Text=Столб.
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -615,8 +615,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,57,16
-Text=Col.
+Text=Столб.
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -625,10 +624,11 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=54
   
 [HeaderText]
-Position=1,0,38,54
-Text=Date
+Position=17,15,56,39
+Text=Дата
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
+VerticalAlignment=Middle
  
 [Field]
 Name=QHVDAY
@@ -681,8 +681,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=0,0,40,28
-Text=Time
+Position=12,4,62,28
+Text=Время
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
@@ -722,8 +722,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=32
   
 [HeaderText]
-Position=5,0,40,32
-Text=Res.
+Position=0,8,74,32
+Text=Результат
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -736,8 +736,7 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Position=0,0,80,16
-Text=Res.
+Text=Результат
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -747,7 +746,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
   
 [Field]
 Name=QHINTD
-Position=528,274,557,294
+Position=555,275,584,295
 Item=QHINTD,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -757,13 +756,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=530,255,554,271
-Text=Day
+Position=553,256,586,272
+Text=День
  
   
 [Field]
 Name=QHINTM
-Position=564,274,593,294
+Position=594,275,623,295
 Item=QHINTM,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -773,13 +772,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=562,255,601,271
-Text=Month
+Position=590,256,632,272
+Text=Месяц
  
   
 [Field]
 Name=QHINTY
-Position=602,275,659,295
+Position=631,276,688,296
 Item=QHINTY,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -789,13 +788,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=614,255,643,271
-Text=Year
+Position=645,256,668,272
+Text=Год
  
   
 [Field]
 Name=QHRESULT
-Position=644,323,659,343
+Position=673,324,688,344
 Item=QHRESULT,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -805,13 +804,13 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=452,324,491,340
-Text=Result
+Position=481,325,556,341
+Text=Результать
  
   
 [Field]
 Name=QHVISITS
-Position=644,347,659,367
+Position=673,348,688,368
 Item=QHVISITS,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -821,13 +820,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=452,347,588,363
-Text=Total number of visits
+Position=481,348,649,364
+Text=Общее кол-во посещений
  
   
 [Field]
 Name=QH100H
-Position=595,420,624,440
+Position=624,421,653,441
 Item=QH100H,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -837,13 +836,13 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=452,423,484,439
-Text=Time
+Position=481,424,523,440
+Text=Время
  
   
 [Field]
 Name=QH100M
-Position=630,420,659,440
+Position=659,421,688,441
 Item=QH100M,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -893,7 +892,7 @@ Required=No
 Type=Record
 TypeName=QHSEC01X
 Max=50
-DisplaySize=6,33,680,659
+DisplaySize=6,33,861,659
 Orientation=Horizontal
 FieldRowHeight=29
 HeadingRowHeight=0
@@ -1204,11 +1203,11 @@ Width=10
 [EndColumn]
   
 [Column]
-Width=37
+Width=54
   
 [HeaderText]
-Position=1,16,37,40
-Text=Line
+Position=0,0,54,24
+Text=Строка
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -1222,8 +1221,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,69,16
-Text=Line
+Text=Строка
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -1232,8 +1230,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=351
   
 [HeaderText]
-Position=153,16,198,40
-Text=Name
+Position=118,0,233,24
+Text=Имя и фамилия
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
@@ -1267,17 +1265,17 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 [EndColumn]
   
 [Column]
-Width=37
+Width=67
   
 [HeaderText]
-Position=4,16,33,40
-Text=Rel
+Position=0,0,67,24
+Text=Род. отн.
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
 [Field]
 Name=QHRELAT
-Position=0,0,29,20
+Position=16,0,45,20
 Item=QHRELAT,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -1285,22 +1283,23 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Text=Rel
+Text=Род. отн.
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+HorizontalAlignment=Center
  
 [EndColumn]
   
 [Column]
-Width=33
+Width=39
   
 [HeaderText]
-Position=0,16,33,40
-Text=Sex
+Position=6,0,39,24
+Text=Пол
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
 Name=QHSEX
-Position=6,0,21,20
+Position=8,0,23,20
 Item=QHSEX,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -1308,22 +1307,22 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Text=Sex
+Text=Пол
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
   
 [Column]
-Width=41
+Width=91
   
 [HeaderText]
-Position=0,0,41,40
-Text=Live here
+Position=0,0,91,24
+Text=Проживание
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
 Name=QHLIVES
-Position=9,0,24,20
+Position=27,0,42,20
 Item=QHLIVES,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -1331,23 +1330,23 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Text=Live here
+Text=Проживание
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
   
 [Column]
-Width=52
+Width=103
   
 [HeaderText]
-Position=0,16,52,40
-Text=Stayed
+Position=13,0,89,24
+Text=Оставатся
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
 [Field]
 Name=QHSTAYED
-Position=10,0,25,20
+Position=25,0,40,20
 Item=QHSTAYED,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -1355,23 +1354,23 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Text=Stayed
+Text=Оставатся
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
 [EndColumn]
   
 [Column]
-Width=37
+Width=61
   
 [HeaderText]
-Position=4,16,37,40
-Text=Age
+Position=0,0,61,24
+Text=Возраст
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
 Name=QHAGE
-Position=0,0,29,20
+Position=7,0,36,20
 Item=QHAGE,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -1379,18 +1378,17 @@ UpperCase=Yes
 DataCaptureType=ComboBox
   
 [Text]
-Position=0,0,24,16
-Text=Age
+Text=Возраст
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
   
 [Column]
-Width=40
+Width=45
   
 [HeaderText]
-Position=0,16,40,40
-Text=More
+Position=11,0,45,24
+Text=Еще
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -1403,7 +1401,7 @@ UpperCase=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Text=More
+Text=Еще
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -1819,11 +1817,11 @@ Width=10
 [EndColumn]
   
 [Column]
-Width=40
+Width=54
   
 [HeaderText]
-Position=4,0,40,24
-Text=Line
+Position=0,0,54,24
+Text=Строка
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -1837,8 +1835,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,34,16
-Text=Line
+Text=Строка
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -1847,8 +1844,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=289
   
 [HeaderText]
-Position=122,0,167,24
-Text=Name
+Position=127,0,161,24
+Text=Имя
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
@@ -1863,9 +1860,9 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,34,16
-Text=Name
+Text=Имя
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+HorizontalAlignment=Center
  
 [EndColumn]
   
@@ -2408,7 +2405,7 @@ Max=1
   
 [Field]
 Name=QCDI2
-Position=90,58,119,78
+Position=123,58,152,78
 Item=QCDI2,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -2416,13 +2413,13 @@ DataCaptureType=ComboBox
 Form=5
   
 [Text]
-Position=31,59,84,75
-Text=Line No.
+Position=31,59,117,75
+Text=Номер линии
  
   
 [Field]
 Name=QCDINAME
-Position=192,58,382,78
+Position=218,58,408,78
 Item=QCDINAME,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -2432,14 +2429,14 @@ DataCaptureType=TextBox
 Form=5
   
 [Text]
-Position=145,59,182,75
-Text=Name
+Position=183,59,209,75
+Text=Имя
  
   
 [Field]
-Name=ACDI3
+Name=QCDI3
 Position=98,99,116,119
-Item=ACDI3,TJHH80
+Item=QCDI3,TJHH80
 UseEnterKey=Yes
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -3277,6 +3274,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Name=QH132G
 Position=866,218,881,238
 Item=QH132G,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3289,6 +3287,7 @@ Text=g
 Name=QH132H
 Position=866,245,881,265
 Item=QH132H,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3301,6 +3300,7 @@ Text=h
 Name=QH132I
 Position=866,271,881,291
 Item=QH132I,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3313,6 +3313,7 @@ Text=i
 Name=QH132J
 Position=866,299,881,319
 Item=QH132J,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3325,6 +3326,7 @@ Text=j
 Name=QH132K
 Position=866,326,881,346
 Item=QH132K,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3337,6 +3339,7 @@ Text=k
 Name=QH132L
 Position=866,353,881,373
 Item=QH132L,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3349,6 +3352,7 @@ Text=l
 Name=QH132M
 Position=866,379,881,399
 Item=QH132M,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3361,6 +3365,7 @@ Text=m
 Name=QH132N
 Position=866,405,881,425
 Item=QH132N,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3373,6 +3378,7 @@ Text=n
 Name=QH132O
 Position=866,433,881,453
 Item=QH132O,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3385,6 +3391,7 @@ Text=o
 Name=QH132P
 Position=866,460,881,480
 Item=QH132P,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3397,6 +3404,7 @@ Text=p
 Name=QH132Q
 Position=866,487,881,507
 Item=QH132Q,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -3409,6 +3417,7 @@ Text=q
 Name=QH132R
 Position=866,515,881,535
 Item=QH132R,TJHH80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=6
   
@@ -4070,7 +4079,7 @@ Text=Domestic violence
   
 [Field]
 Name=QHLANGQ
-Position=507,137,536,157
+Position=483,137,512,157
 Item=QHLANGQ,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -4080,14 +4089,14 @@ DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=475,116,564,132
-Text=Questionnaire
+Position=467,116,538,132
+Text=Вопросник
 Form=7
  
   
 [Field]
 Name=QHLANGI
-Position=603,137,632,157
+Position=593,137,622,157
 Item=QHLANGI,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -4096,14 +4105,14 @@ DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=586,100,670,132
-Text=Language of \nInterview
+Position=552,116,655,132
+Text=Язык интервью
 Form=9
  
   
 [Field]
 Name=QHLANGR
-Position=699,137,728,157
+Position=694,137,723,157
 Item=QHLANGR,TJHH80
 UseEnterKey=Yes
 Verify=No
@@ -4112,8 +4121,8 @@ DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=681,116,756,132
-Text=Respondent
+Position=675,116,753,132
+Text=Респондент
 Form=9
  
   
@@ -4128,8 +4137,8 @@ DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=780,98,844,130
-Text=Translator\nUsed
+Position=772,115,852,131
+Text=Переводчик
 Form=9
  
   
@@ -4222,8 +4231,8 @@ DataCaptureType=TextBox
 Form=7
   
 [Text]
-Position=482,403,655,419
-Text=End of household interview
+Position=482,403,606,419
+Text=Окончание опроса
  
 [EndGroup]
   
@@ -4465,130 +4474,130 @@ Required=No
 Type=Record
 TypeName=QBSEC01
 Max=20
-DisplaySize=0,43,868,1289
+DisplaySize=0,68,1006,968
 Orientation=Vertical
-ColumnWidth=80
-StubColumnWidth=69
+ColumnWidth=86
+StubColumnWidth=91
 HeadingRowHeight=24
 FreeMovement=No
  
 [Text]
-Position=28,0,80,24
-Text=Child 1
+Position=11,0,86,24
+Text=Ребенок 1
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 2
+Position=11,0,86,24
+Text=Ребенок 2
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 3
+Position=11,0,86,24
+Text=Ребенок 3
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 4
+Position=11,0,86,24
+Text=Ребенок 4
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 5
+Position=11,0,86,24
+Text=Ребенок 5
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 6
+Position=11,0,86,24
+Text=Ребенок 6
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 7
+Position=11,0,86,24
+Text=Ребенок 7
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 8
+Position=11,0,86,24
+Text=Ребенок 8
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=28,0,80,24
-Text=Child 9
+Position=11,0,86,24
+Text=Ребенок 9
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 10
+Position=4,0,86,24
+Text=Ребенок 10
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=22,0,80,24
-Text=Child 11
+Position=5,0,86,24
+Text=Ребенок 11
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 12
+Position=4,0,86,24
+Text=Ребенок 12
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 13
+Position=4,0,86,24
+Text=Ребенок 13
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 14
+Position=4,0,86,24
+Text=Ребенок 14
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 15
+Position=4,0,86,24
+Text=Ребенок 15
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 16
+Position=4,0,86,24
+Text=Ребенок 16
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 17
+Position=4,0,86,24
+Text=Ребенок 17
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 18
+Position=4,0,86,24
+Text=Ребенок 18
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 19
+Position=4,0,86,24
+Text=Ребенок 19
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
 [Text]
-Position=21,0,80,24
-Text=Child 20
+Position=4,0,86,24
+Text=Ребенок 20
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
   
@@ -4596,7 +4605,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=10
   
 [HeaderText]
-Position=40,0,69,24
+Position=62,0,91,24
 Text=503
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -4606,8 +4615,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=4,4,69,28
-Text=Column
+Position=28,4,91,28
+Text=Столбец
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -4621,8 +4630,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,4,65,28
-Text=Column
+Text=Столбец
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -4631,8 +4639,8 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=4,4,69,28
-Text=QB102
+Position=42,4,91,28
+Text=Линия
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [Field]
@@ -4646,8 +4654,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,42,16
-Text=QB102
+Text=Линия
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
 [EndColumn]
@@ -4656,7 +4663,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=3,4,69,28
+Position=25,4,91,28
 Text=QCAUXIL
  
 [Field]
@@ -4678,7 +4685,7 @@ Text=QCAUXIL
 Width=74
   
 [HeaderText]
-Position=4,25,69,49
+Position=26,25,91,49
 Text=QB103
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 VerticalAlignment=Middle
@@ -4731,7 +4738,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
+Position=43,4,91,28
 Text=QB104
  
 [Field]
@@ -4752,7 +4759,7 @@ Text=QB104
 Width=53
   
 [HeaderText]
-Position=4,0,69,53
+Position=26,0,91,53
 Text=QB106
 VerticalAlignment=Middle
  
@@ -4790,7 +4797,7 @@ Text=Weight in kilograms - working field for re-entering
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
+Position=43,4,91,28
 Text=QB107
  
 [Field]
@@ -4810,7 +4817,7 @@ Text=QB107
 Width=54
   
 [HeaderText]
-Position=4,0,69,54
+Position=26,0,91,54
 Text=QB108
  
 [Field]
@@ -4846,7 +4853,7 @@ Text=Height in centimeters - working field for re-entering
 Width=28
   
 [HeaderText]
-Position=4,4,69,28
+Position=26,4,91,28
 Text=QB109
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -4869,7 +4876,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=22,4,69,28
+Position=44,4,91,28
 Text=QB110
  
 [Field]
@@ -4889,7 +4896,7 @@ Text=QB110
 Width=28
   
 [HeaderText]
-Position=23,4,69,28
+Position=45,4,91,28
 Text=QB111
  
 [Field]
@@ -4911,7 +4918,7 @@ Text=QB111
 Width=28
   
 [HeaderText]
-Position=22,4,69,28
+Position=44,4,91,28
 Text=QB112
  
 [Field]
@@ -4931,7 +4938,7 @@ Text=QB112
 Width=28
   
 [HeaderText]
-Position=4,4,69,28
+Position=26,4,91,28
 Text=QB113
  
 [Field]
@@ -4952,7 +4959,7 @@ Text=QB113
 Width=34
   
 [HeaderText]
-Position=22,0,69,34
+Position=44,0,91,34
 Text=QB114
  
 [Field]
@@ -4972,7 +4979,7 @@ Text=QB114
 Width=76
   
 [HeaderText]
-Position=22,26,69,50
+Position=44,26,91,50
 Text=QB115
 VerticalAlignment=Middle
  
@@ -5015,7 +5022,7 @@ Text=QB115Y
 Width=28
   
 [HeaderText]
-Position=4,4,69,28
+Position=26,4,91,28
 Text=QB118
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -5039,7 +5046,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=33
   
 [HeaderText]
-Position=4,0,69,33
+Position=26,0,91,33
 Text=QB120
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -5062,7 +5069,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
+Position=43,4,91,28
 Text=QB121
  
 [Field]
@@ -5079,10 +5086,10 @@ Text=QB121
 [EndColumn]
   
 [Column]
-Width=64
+Width=28
   
 [HeaderText]
-Position=21,0,69,64
+Position=43,0,91,24
 Text=QB122
 VerticalAlignment=Top
  
@@ -5099,19 +5106,28 @@ DataCaptureType=ComboBox
 Text=QB122
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
+[EndColumn]
+  
+[Column]
+Width=120
+  
+[HeaderText]
+Position=0,0,91,120
+Text=Уровень гемоглобина (г/дл) - рабочее поле для повторного ввода
+VerticalAlignment=Top
+ 
 [Field]
 Name=QB122W
-Position=15,24,72,44
+Position=15,39,72,59
 Item=QB122W,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-FieldLabelType=DictionaryLabel
 DataCaptureType=ComboBox
   
 [Text]
-Position=0,0,339,16
-Text=Hemoglobin level (g/dl) - working field for re-entering
+Text=Уровень гемоглобина (г/дл) - рабочее поле для повторного ввода
+VerticalAlignment=Top
  
 [EndColumn]
   
@@ -5119,7 +5135,7 @@ Text=Hemoglobin level (g/dl) - working field for re-entering
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
+Position=43,4,91,28
 Text=QB123
  
 [Field]
@@ -5149,20 +5165,6 @@ DisplayTogether=Yes
 Position=19
 Length=3
   
-[Block]
-Name=ABM115_BLOCK
-Label=Malaria symptoms
-DisplayTogether=Yes
-Position=28
-Length=0
-  
-[Block]
-Name=QBM128_BLOCK
-Label=Date measurement for malaria
-DisplayTogether=Yes
-Position=30
-Length=0
-  
 [EndGrid]
  
 [EndGroup]
@@ -5182,7 +5184,7 @@ Required=No
 Type=Record
 TypeName=QBSEC02
 Max=20
-DisplaySize=18,38,1016,1050
+DisplaySize=18,38,1016,808
 Orientation=Vertical
 ColumnWidth=93
 StubColumnWidth=69
@@ -5190,103 +5192,103 @@ HeadingRowHeight=24
 FreeMovement=No
  
 [Text]
-Position=25,0,93,24
-Text=Woman 1
+Position=12,0,93,24
+Text=Женщина 1
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 2
+Position=12,0,93,24
+Text=Женщина 2
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 3
+Position=12,0,93,24
+Text=Женщина 3
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 4
+Position=12,0,93,24
+Text=Женщина 4
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 5
+Position=12,0,93,24
+Text=Женщина 5
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 6
+Position=12,0,93,24
+Text=Женщина 6
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 7
+Position=12,0,93,24
+Text=Женщина 7
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 8
+Position=12,0,93,24
+Text=Женщина 8
  
   
 [Text]
-Position=25,0,93,24
-Text=Woman 9
+Position=12,0,93,24
+Text=Женщина 9
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 10
+Position=5,0,93,24
+Text=Женщина 10
  
   
 [Text]
-Position=19,0,93,24
-Text=Woman 11
+Position=6,0,93,24
+Text=Женщина 11
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 12
+Position=5,0,93,24
+Text=Женщина 12
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 13
+Position=5,0,93,24
+Text=Женщина 13
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 14
+Position=5,0,93,24
+Text=Женщина 14
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 15
+Position=5,0,93,24
+Text=Женщина 15
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 16
+Position=5,0,93,24
+Text=Женщина 16
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 17
+Position=5,0,93,24
+Text=Женщина 17
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 18
+Position=5,0,93,24
+Text=Женщина 18
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 19
+Position=5,0,93,24
+Text=Женщина 19
  
   
 [Text]
-Position=18,0,93,24
-Text=Woman 20
+Position=5,0,93,24
+Text=Женщина 20
  
   
 [Column]
@@ -5297,8 +5299,8 @@ Width=10
 Width=28
   
 [HeaderText]
-Position=8,4,69,28
-Text=QBCOL2
+Position=6,4,69,28
+Text=Столбец
  
 [Field]
 Name=QBCOL2
@@ -5311,8 +5313,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,53,16
-Text=QBCOL2
+Text=Столбец
  
 [EndColumn]
   
@@ -5320,8 +5321,8 @@ Text=QBCOL2
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
-Text=QB202
+Position=20,4,69,28
+Text=Линия
  
 [Field]
 Name=QB202
@@ -5334,8 +5335,7 @@ UpperCase=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,42,16
-Text=QB202
+Text=Линия
  
 [EndColumn]
   

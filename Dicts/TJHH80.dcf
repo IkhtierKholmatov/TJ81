@@ -37,31 +37,22 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Household identification
+Label=Household identification|Идентификация домохозяйств 
 Name=QHSECOVER
 RecordTypeValue='H00'
-RecordLen=305
+RecordLen=308
 
 [Item]
 Label=Region
 Name=QHREGION
 Start=12
-Len=1
+Len=4
 DataType=Numeric
-
-[ValueSet]
-Label=Region
-Name=QHREGION_VS1
-Value=1;Region 1|Область 1
-Value=2;Region 2|Область 2
-Value=3;Region 3|Область 3
-Value=4;Region 4|Область 4
-Value=5;Region 5|Область 5
 
 [Item]
 Label=Locality
 Name=QHLOCAL
-Start=13
+Start=16
 Len=1
 DataType=Numeric
 
@@ -76,14 +67,14 @@ Value=4;Rural|Деревенский
 [Item]
 Label=Address
 Name=QHADDRESS1
-Start=14
+Start=17
 Len=40
 DataType=Alpha
 
 [Item]
 Label=Type of place of residence
 Name=QHTYPE
-Start=54
+Start=57
 Len=1
 DataType=Numeric
 
@@ -96,14 +87,14 @@ Value=2;Rural|Деревенский
 [Item]
 Label=Address
 Name=QHADDRESS
-Start=55
+Start=58
 Len=40
 DataType=Alpha
 
 [Item]
 Label=Group to control visits
 Name=QHCONTVISIT
-Start=95
+Start=98
 Len=14
 DataType=Alpha
 Occurrences=5
@@ -111,7 +102,7 @@ Occurrences=5
 [Item]
 Label=Visit line number
 Name=QHVLINE
-Start=95
+Start=98
 Len=1
 ItemType=SubItem
 DataType=Numeric
@@ -119,7 +110,7 @@ DataType=Numeric
 [Item]
 Label=Day of visit
 Name=QHVDAY
-Start=96
+Start=99
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -127,7 +118,7 @@ DataType=Numeric
 [Item]
 Label=Month of visit
 Name=QHVMONTH
-Start=98
+Start=101
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -135,7 +126,7 @@ DataType=Numeric
 [Item]
 Label=Year of visit
 Name=QHVYEAR
-Start=100
+Start=103
 Len=4
 ItemType=SubItem
 DataType=Numeric
@@ -143,7 +134,7 @@ DataType=Numeric
 [Item]
 Label=Hour of visit
 Name=QHVHOUR
-Start=104
+Start=107
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -151,7 +142,7 @@ DataType=Numeric
 [Item]
 Label=Minute of visit
 Name=QHVMINUTE
-Start=106
+Start=109
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -159,7 +150,7 @@ DataType=Numeric
 [Item]
 Label=Result of visit
 Name=QHVRESULT
-Start=108
+Start=111
 Len=1
 ItemType=SubItem
 DataType=Numeric
@@ -180,7 +171,7 @@ Value=9;Other|ДРУГОЕ
 [Item]
 Label=Interview day
 Name=QHINTD
-Start=165
+Start=168
 Len=2
 DataType=Numeric
 
@@ -192,7 +183,7 @@ Value=1:31
 [Item]
 Label=Interview month
 Name=QHINTM
-Start=167
+Start=170
 Len=2
 DataType=Numeric
 
@@ -204,7 +195,7 @@ Value=1:12
 [Item]
 Label=Interview year
 Name=QHINTY
-Start=169
+Start=172
 Len=4
 DataType=Numeric
 
@@ -216,14 +207,14 @@ Value=2023
 [Item]
 Label=Interviewer number
 Name=QHINTNUM
-Start=173
+Start=176
 Len=4
 DataType=Numeric
 
 [Item]
 Label=Result of household interview
 Name=QHRESULT
-Start=177
+Start=180
 Len=1
 DataType=Numeric
 
@@ -243,7 +234,7 @@ Value=9;Other|ДРУГОЕ
 [Item]
 Label=Number of household visits
 Name=QHVISITS
-Start=178
+Start=181
 Len=1
 DataType=Numeric
 
@@ -255,7 +246,7 @@ Value=1:5
 [Item]
 Label=Consent agreement
 Name=QHCONSENT
-Start=179
+Start=182
 Len=1
 DataType=Numeric
 
@@ -268,7 +259,7 @@ Value=2;Respondent does not agree to be interviewed|РЕСПОНДЕНТ НЕ С
 [Item]
 Label=Total members in household
 Name=QHMEMBER
-Start=180
+Start=183
 Len=2
 DataType=Numeric
 
@@ -280,7 +271,7 @@ Value=1:50
 [Item]
 Label=Eligible women in household
 Name=QHWOMEN
-Start=182
+Start=185
 Len=2
 DataType=Numeric
 
@@ -292,7 +283,7 @@ Value=0:15
 [Item]
 Label=Line of household respondent
 Name=QHRESP
-Start=184
+Start=187
 Len=2
 DataType=Numeric
 
@@ -304,21 +295,21 @@ Value=1:50
 [Item]
 Label=Team number
 Name=QHTEAM
-Start=186
+Start=189
 Len=2
 DataType=Numeric
 
 [Item]
 Label=Supervisor number
 Name=QHSUPERV
-Start=188
+Start=191
 Len=4
 DataType=Numeric
 
 [Item]
 Label=Language of questionnaire
 Name=QHLANGQ
-Start=192
+Start=195
 Len=2
 DataType=Numeric
 
@@ -332,7 +323,7 @@ Value=3;Tajik|ТАДЖИКСКИЙ
 [Item]
 Label=Language of interview
 Name=QHLANGI
-Start=194
+Start=197
 Len=2
 DataType=Numeric
 
@@ -346,7 +337,7 @@ Value=3;Tajik|ТАДЖИКСКИЙ
 [Item]
 Label=Language of respondent
 Name=QHLANGR
-Start=196
+Start=199
 Len=2
 DataType=Numeric
 
@@ -360,7 +351,7 @@ Value=3;Tajik|ТАДЖИКСКИЙ
 [Item]
 Label=Translator used
 Name=QHTRANS
-Start=198
+Start=201
 Len=1
 DataType=Numeric
 
@@ -373,14 +364,14 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Time household interview begins
 Name=QH100
-Start=199
+Start=202
 Len=4
 DataType=Alpha
 
 [Item]
 Label=Hour interview begins
 Name=QH100H
-Start=199
+Start=202
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -388,7 +379,7 @@ DataType=Numeric
 [Item]
 Label=Minutes interview begins
 Name=QH100M
-Start=201
+Start=204
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -401,14 +392,14 @@ Value=0:59
 [Item]
 Label=End of household interview
 Name=QH156
-Start=203
+Start=206
 Len=4
 DataType=Alpha
 
 [Item]
 Label=End of household interview (hour)
 Name=QH156H
-Start=203
+Start=206
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -421,7 +412,7 @@ Value=6:22
 [Item]
 Label=End of household interview (minutes)
 Name=QH156M
-Start=205
+Start=208
 Len=2
 ItemType=SubItem
 DataType=Numeric
@@ -434,7 +425,7 @@ Value=0:59
 [Item]
 Label=Babies in the household
 Name=QH07A
-Start=207
+Start=210
 Len=1
 DataType=Numeric
 
@@ -447,7 +438,7 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Other non-family members in household
 Name=QH07B
-Start=208
+Start=211
 Len=1
 DataType=Numeric
 
@@ -460,7 +451,7 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Other temporary visitors in household
 Name=QH07C
-Start=209
+Start=212
 Len=1
 DataType=Numeric
 
@@ -473,14 +464,14 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Line number of woman eligible for domestic violence
 Name=QHNUMDV
-Start=210
+Start=213
 Len=2
 DataType=Numeric
 
 [Item]
 Label=Date of household interview (CMC)
 Name=QHINTC
-Start=212
+Start=215
 Len=4
 DataType=Numeric
 
@@ -493,7 +484,7 @@ Name=NOTAPPL,Special
 [Item]
 Label=Date of household interview Century Day Code (CDC)
 Name=QHINTCD
-Start=216
+Start=219
 Len=5
 DataType=Numeric
 
@@ -506,35 +497,35 @@ Name=NOTAPPL,Special
 [Item]
 Label=Household weight (6 decimals)
 Name=QHWEIGHT
-Start=221
+Start=224
 Len=8
 DataType=Numeric
 
 [Item]
 Label=Household weight - men's subsample (6 decimals)
 Name=QMWEIGHT
-Start=229
+Start=232
 Len=8
 DataType=Numeric
 
 [Item]
 Label=Sampling errors stratum
 Name=QHSTRATA
-Start=237
+Start=240
 Len=4
 DataType=Numeric
 
 [Item]
 Label=Wealth index factor (5 decimals)
 Name=QHWLTHF
-Start=241
+Start=244
 Len=8
 DataType=Numeric
 
 [Item]
 Label=Wealth index quintile
 Name=QHWLTHI
-Start=249
+Start=252
 Len=1
 DataType=Numeric
 
@@ -550,7 +541,7 @@ Value=5;Highest
 [Item]
 Label=Wealth index factor for urban/rural (5 decimals)
 Name=QHWLTFUR
-Start=250
+Start=253
 Len=8
 DataType=Numeric
 
@@ -563,7 +554,7 @@ Name=NOTAPPL,Special
 [Item]
 Label=Wealth index quintile for urban/rural
 Name=QHWLTIUR
-Start=258
+Start=261
 Len=1
 DataType=Numeric
 
@@ -579,14 +570,14 @@ Value=5;Highest
 [Item]
 Label=Cluster altitude in meters
 Name=QHALTIT
-Start=259
+Start=262
 Len=4
 DataType=Numeric
 
 [Item]
 Label=Eligibility for hemoglobin
 Name=QHELIHEM
-Start=263
+Start=266
 Len=1
 DataType=Numeric
 
@@ -599,7 +590,7 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Total de jure children 5-14 in household for child labor
 Name=QCHL22
-Start=264
+Start=267
 Len=2
 DataType=Numeric
 
@@ -611,7 +602,7 @@ Value=0:50
 [Item]
 Label=Any household member involved in traffic accidents in last 12 months
 Name=QHAI1
-Start=266
+Start=269
 Len=1
 DataType=Numeric
 
@@ -624,7 +615,7 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Any household member involved in accidents other than traffic in last 12 months
 Name=QHAI17
-Start=267
+Start=270
 Len=1
 DataType=Numeric
 
@@ -637,14 +628,14 @@ Value=2;No
 [Item]
 Label=Interview notes
 Name=QHFINISH
-Start=268
+Start=271
 Len=1
 DataType=Alpha
 
 [Item]
 Label=Auxiliary for HH coordinates
 Name=GHAUX
-Start=269
+Start=272
 Len=1
 DataType=Numeric
 
@@ -657,7 +648,7 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Introduction
 Name=GHINTRO
-Start=270
+Start=273
 Len=1
 DataType=Numeric
 
@@ -670,7 +661,7 @@ Value=2;No|НЕТ|НЕТ
 [Item]
 Label=Latitude in degrees
 Name=GHLATITUDE
-Start=271
+Start=274
 Len=12
 DataType=Numeric
 Decimal=6
@@ -679,7 +670,7 @@ DecimalChar=Yes
 [Item]
 Label=Pole north-south for latitude
 Name=GHLATPOLE
-Start=283
+Start=286
 Len=1
 DataType=Alpha
 
@@ -692,7 +683,7 @@ Value='S';South
 [Item]
 Label=Longitude in degrees
 Name=GHLONGITUDE
-Start=284
+Start=287
 Len=12
 DataType=Numeric
 Decimal=6
@@ -701,7 +692,7 @@ DecimalChar=Yes
 [Item]
 Label=East-west longitude
 Name=GHLNGPOLE
-Start=296
+Start=299
 Len=1
 DataType=Alpha
 
@@ -714,26 +705,26 @@ Value='W';West
 [Item]
 Label=Altitude in meters
 Name=GHALTITUDE
-Start=297
+Start=300
 Len=5
 DataType=Numeric
 
 [Item]
 Label=Number of satellites
 Name=GHSATELLIT
-Start=302
+Start=305
 Len=2
 DataType=Numeric
 
 [Item]
 Label=Accuracy (between 1-50) 1-the best 50-the weakest
 Name=GHACCURACY
-Start=304
+Start=307
 Len=2
 DataType=Numeric
 
 [Record]
-Label=Household members list
+Label=Household members list|Список домохозяйств
 Name=QHSEC01X
 RecordTypeValue='H1X'
 Required=No
@@ -1260,7 +1251,7 @@ Value=1;Yes|ДА|ДА
 Value=0;No, don't know|Нет, не знаю
 
 [Record]
-Label=Household Characteristics
+Label=Household Characteristics|Характеристика домохозяйств
 Name=QHSEC02
 RecordTypeValue='H02'
 Required=No
@@ -2108,14 +2099,14 @@ Value=1;Yes|ДА|ДА
 Value=2;|НЕТ|НЕТ
 
 [Item]
-Label=Satellite antenna/dish
+Label=Satellite antenna/dish/cable
 Name=QH132R
 Start=98
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Satellite antenna/dish
+Label=Satellite antenna/dish/cable
 Name=QH132R_VS1
 Value=1;Yes|ДА|ДА
 Value=2;|НЕТ|НЕТ
@@ -2580,7 +2571,7 @@ Value=3;HAS NO EFFECT|НИКАК НЕ УЛУЧШИЛИ
 Value=8;DON’T KNOW|НЕ ЗНАЮ
 
 [Record]
-Label=Additional household characteristics
+Label=Additional household characteristics|Допольнительное характеристика домохозяйств
 Name=QHSEC04
 RecordTypeValue='H04'
 Required=No
@@ -2725,7 +2716,7 @@ Value=4;Household doesn't use salt|ДОМОХОЗЯЙСТВО НЕ ИСПОЛЬ�
 Value=6;Salt not tested|СОЛЬ НЕ ТЕСТИРОВАНА
 
 [Record]
-Label=Child discipline
+Label=Child discipline|Детская дисциплина
 Name=QHSECCD
 RecordTypeValue='HCD'
 Required=No
@@ -2916,13 +2907,13 @@ DataType=Alpha
 
 [Item]
 Label=Intro for child discipline
-Name=ACDI3
+Name=QCDI3
 Start=54
 Len=1
 DataType=Alpha
 
 [Record]
-Label=Biomarker Identification
+Label=Biomarker Identification|Идентификация биомаркеров
 Name=QBSECOVER
 RecordTypeValue='B00'
 Required=No
@@ -3037,7 +3028,7 @@ Value='     ';Not applicable
 Name=NOTAPPL,Special
 
 [Record]
-Label=Height, Weight, Hemoglobin (children)
+Label=Height, Weight, Hemoglobin (children)|Рост, Вес, Гемоглобин (дети)
 Name=QBSEC01
 RecordTypeValue='B01'
 Required=No
@@ -3812,7 +3803,7 @@ Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
 
 [Record]
-Label=Height, Weight, Hemoglobin (women)
+Label=Height, Weight, Hemoglobin (women)|Рост, Вес, Гемоглобин (женщины)
 Name=QBSEC02
 RecordTypeValue='B02'
 Required=No
@@ -3952,14 +3943,14 @@ Value=999.5;Refused|ОТКАЗАНО
 Value=999.6;Other|ДРУГОЕ
 
 [Item]
-Label=Measurement interfered with braided or ornament|
+Label=Measurement interfered with braided or ornament
 Name=QB208
 Start=41
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Measurement interfered with braided or ornament|
+Label=Measurement interfered with braided or ornament
 Name=QB208_VS1
 Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
@@ -3986,7 +3977,7 @@ Len=8
 DataType=Alpha
 
 [Item]
-Label=Day of measurement|
+Label=Day of measurement
 Name=QB211D
 Start=50
 Len=2
@@ -3994,12 +3985,12 @@ ItemType=SubItem
 DataType=Numeric
 
 [ValueSet]
-Label=Day of measurement|
+Label=Day of measurement
 Name=QB211D_VS1
 Value=1:31
 
 [Item]
-Label=Month of measurement|
+Label=Month of measurement
 Name=QB211M
 Start=52
 Len=2
@@ -4007,7 +3998,7 @@ ItemType=SubItem
 DataType=Numeric
 
 [ValueSet]
-Label=Month of measurement|
+Label=Month of measurement
 Name=QB211M_VS1
 Value=1;January|Январь
 Value=2;February|Февраль
@@ -4023,7 +4014,7 @@ Value=11;November|Ноябрь
 Value=12;December|Декабрь
 
 [Item]
-Label=Year of measurement|
+Label=Year of measurement
 Name=QB211Y
 Start=54
 Len=4
@@ -4031,7 +4022,7 @@ ItemType=SubItem
 DataType=Numeric
 
 [ValueSet]
-Label=Year of measurement|
+Label=Year of measurement
 Name=QB211Y_VS1
 Value=2020;2020|2020
 Value=2021;2021|2021
@@ -4041,14 +4032,14 @@ Value=2024;2024|2024
 Value=2025;2025|2025
 
 [Item]
-Label=Read consent statement to respondent (Anemia)|
+Label=Read consent statement to respondent (Anemia)
 Name=QB215
 Start=58
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Read consent statement to respondent (Anemia)|
+Label=Read consent statement to respondent (Anemia)
 Name=QB215_VS1
 Value=1;Granted|РАЗРЕШЕНО
 Value=2;Respondent refused|ОТКАЗАНО
@@ -4062,27 +4053,27 @@ Len=4
 DataType=Numeric
 
 [Item]
-Label=Line no. of parent/caretaker|
+Label=Line no. of parent/caretaker
 Name=QB217
 Start=63
 Len=2
 DataType=Numeric
 
 [ValueSet]
-Label=Line no. of parent/caretaker|
+Label=Line no. of parent/caretaker
 Name=QB217_VS1
 Value=0;Not listed in household|Не указан в домашнем хозяйстве
 Value=1:50
 
 [Item]
-Label=Read consent statement to parent/caretaker (Anemia)|
+Label=Read consent statement to parent/caretaker (Anemia)
 Name=QB219
 Start=65
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Read consent statement to parent/caretaker (Anemia)|
+Label=Read consent statement to parent/caretaker (Anemia)
 Name=QB219_VS1
 Value=1;Granted|РАЗРЕШЕНО
 Value=2;Parent/Other responsible adult refused|РОДИТЕЛЬ/ОТВЕТСТВЕННЫЙ ВЗРОСЛЫЙ ОТКАЗАЛ
@@ -4096,14 +4087,14 @@ Len=4
 DataType=Numeric
 
 [Item]
-Label=Read consent statement to respondent (Anemia)|
+Label=Read consent statement to respondent (Anemia)
 Name=QB223
 Start=70
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Read consent statement to respondent (Anemia)|
+Label=Read consent statement to respondent (Anemia)
 Name=QB223_VS1
 Value=1;Granted|РАЗРЕШЕНО
 Value=2;Minor respondent refused|НЕСОВЕРШЕННОЛЕТНИЙ РЕСПОНДЕНТ ОТКАЗАЛСЯ
@@ -4117,7 +4108,7 @@ Len=4
 DataType=Numeric
 
 [Item]
-Label=Hemoglobin level (g/dl)|
+Label=Hemoglobin level (g/dl)
 Name=QB225
 Start=75
 Len=4
@@ -4126,7 +4117,7 @@ Decimal=1
 DecimalChar=Yes
 
 [ValueSet]
-Label=Hemoglobin level (g/dl)|
+Label=Hemoglobin level (g/dl)
 Name=QB225_VS1
 Value=2.0:26.0
 Value=99.4;Not present|ОТСУТСТВУЕТ
@@ -4134,7 +4125,7 @@ Value=99.5;Refused|ОТКАЗАНО
 Value=99.6;Other|ДРУГОЕ
 
 [Item]
-Label=Hemoglobin level (g/dl) - working field for re-entering|
+Label=Hemoglobin level (g/dl) - working field for re-entering
 Name=QB225W
 Start=79
 Len=4
@@ -4143,7 +4134,7 @@ Decimal=1
 DecimalChar=Yes
 
 [ValueSet]
-Label=Hemoglobin level (g/dl) - working field for re-entering|
+Label=Hemoglobin level (g/dl) - working field for re-entering
 Name=QB225W_VS1
 Value=2.0:26.0
 Value=99.4;Not present|ОТСУТСТВУЕТ
@@ -4209,14 +4200,14 @@ Len=4
 DataType=Numeric
 
 [Item]
-Label=Respondent smoke practices|
+Label=Respondent smoke practices
 Name=QWSMK
 Start=95
 Len=2
 DataType=Numeric
 
 [ValueSet]
-Label=Respondent smoke practices|
+Label=Respondent smoke practices
 Name=QWSMK_VS1
 Value=0;Doesn't smoke
 Value=1:79
@@ -4225,27 +4216,27 @@ Value=94;Smokes pipes, cigars, etc
 Value=99;Missing
 
 [Item]
-Label=Respondent pregnancy status|
+Label=Respondent pregnancy status
 Name=QWPRG
 Start=97
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Respondent pregnancy status|
+Label=Respondent pregnancy status
 Name=QWPRG_VS1
 Value=0;No|НЕТ|НЕТ
 Value=1;Yes|ДА|ДА
 
 [Item]
-Label=Months of pregnancy|
+Label=Months of pregnancy
 Name=QWMOS
 Start=98
 Len=2
 DataType=Numeric
 
 [ValueSet]
-Label=Months of pregnancy|
+Label=Months of pregnancy
 Name=QWMOS_VS1
 Value=0:10
 
@@ -4378,14 +4369,14 @@ Len=20
 DataType=Alpha
 
 [Item]
-Label=Auxiliary to decide if Biomarkers for women are recorded at this time|
+Label=Auxiliary to decide if Biomarkers for women are recorded at this time
 Name=QWAUXIL
 Start=140
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Auxiliary to decide if Biomarkers for women are recorded at this time|
+Label=Auxiliary to decide if Biomarkers for women are recorded at this time
 Name=QWAUXIL_VS1
 Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ

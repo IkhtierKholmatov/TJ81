@@ -44,7 +44,7 @@ PROC GLOBAL
       strtitle = tr("Select Household to assign. Select the red 'X' button to finish selection and return to the main menu");
     endif;
     showhhlist = show(strtitle,  SAMREC2000,  XNUMBER, XADDRESS,  XNAME, {XMALE,} XRESULT, XINTCODE, 
-     title( tr("Seq.No"), tr("Address"), tr("Name"),  {tr("Male/L-S"),} tr("Result"), tr("RA") ) where XNUMBER <> notappl );
+     title( tr("Seq.No"), tr("Address"), tr("Name"),  {tr("Male/L-S"),} tr("Result"), tr("Interwiever") ) where XNUMBER <> notappl );
   end;
 
   function initcont ();

@@ -11,23 +11,23 @@ languages:
 styles:
   - name: Normal
     className: normal
-    css: |-
+    css: |
       font-family: Arial;font-size: 16px;
   - name: Instruction
     className: instruction
-    css: |-
+    css: |
       font-family: Arial;font-size: 14px;color: #0000FF;
   - name: Heading 1
     className: heading1
-    css: |-
+    css: |
       font-family: Arial;font-size: 36px;
   - name: Heading 2
     className: heading2
-    css: |-
+    css: |
       font-family: Arial;font-size: 24px;
   - name: Heading 3
     className: heading3
-    css: |-
+    css: |
       font-family: Arial;font-size: 18px;
 questions:
   - name: TJHH80.QHADDRESS
@@ -35,879 +35,1209 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">Enter correct address for new household.&#160;</span></p>
+          RU: |
+            <p><span style="color: rgb(0, 0, 255); font-size: 18px;">Введите правильный адрес для нового домохозяйства.</span><br></p><p><p></p></p>
   - name: TJHH80.QHVRESULT
     conditions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">VISIT ~~QHVLINE~~, ENTER 1 TO START INTERVIEW OR RECORD THE RESULT OF THE INTERVIEW.&#160;</span></p>
+          RU: |
+            <p><span style="font-size: 18px; color: rgb(0, 0, 255);">ПОСЕТИТЕ ~~QHVLINE~~, ВВЕДИТЕ 1, ЧТОБЫ НАЧАТЬ ИНТЕРВЬЮ ИЛИ ЗАПИСАТЬ РЕЗУЛЬТАТЫ ИНТЕРВЬЮ.</span><br></p><p><p></p></p>
   - name: TJHH80.QHCONSENT
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>Hello.  My name is _______________________________________. I am working with Agency on Statistics under the President of the Republic of Tajikistan.  We are conducting a survey about health and other topics all over Tajikistan. The information we collect will help the government to plan health services. Your household was selected for the survey. I would like to ask you some questions about your household. The questions usually take about 15 to 20 minutes. All of the answers you give will be confidential and will not be shared with anyone other than members of our survey team. You don&#39;t have to be in the survey, but we hope you will agree to answer the questions since your views are important. If I ask you any question you don&#39;t want to answer, just let me know and I will go on to the next question or you can stop the interview at any time. In case you need more information about the survey, you may contact the person listed on this card. </p><p><span class="instruction">GIVE CARD WITH CONTACT INFORMATION</span></p><p>Do you have any questions?</p><p>May I begin the interview now?</p>
-          RU: |-
+          RU: |
             <p>Здравствуйте.  Меня зовут _______________________________________.  Я работаю в Агентстве по статистике при президенте республики Таджикистан. Мы проводим исследование по вопросам здоровья и другим темам по всему Таджикистану.  Информация, которую мы собираем, поможет правительству планировать услуги здравоохранения.  Ваше домохозяйство было выбрано для исследования. Я хотела бы задать вам несколько вопросов о вашем домохозяйстве. Вопросы обычно занимают 20-30 минут.  Все ваши ответы конфиденциальны и не будут разглашаться никому, кроме членов нашей команды по проведению исследования. Участие в исследовании является добровольным, но мы надеемся, что вы согласитесь ответить на вопросы, поскольку ваше мнение важно. Если вы не захотите отвечать на какой-либо вопрос, который я задам вам, просто сообщите мне об этом, и я перейду к следующему вопросу, или вы можете прервать интервью в любой момент. Если вам понадобится дополнительная информация об исследовании, вы можете обратиться к лицу, указанному на этой карточке.</p><p><span class="instruction">ДАЙТЕ КАРТОЧКУ С КОНТАКТНОЙ ИНФОРМАЦИЕЙ</span></p><p>У вас есть какие-либо вопросы? </p><p>Можно мне сейчас начать интервью?</p>
   - name: TJHH80.QHFIRSTN
     conditions:
       - logic: curocc() = 1
         questionText:
           EN: |
-            <p><span style="font-size:21px;color:#000000;font-family:'Arial', sans-serif;">Please give me the names of the persons who usually live in your household and guests of the household who stayed here last night, starting with the head of the household.&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD THE FIRST NAME OF THE HEAD OF THE HOUSEHOLD&#160;</span></p>
-            <p>&#160;</p>
+            <p>2.  Please give me the names of the persons who usually live in your household and guests of the household who stayed here last night, starting with the head of the household.</p><p><span class="instruction">RECORD THE FIRST NAME OF THE HEAD OF THE HOUSEHOLD</span></p>
+          RU: |
+            <p>2.  Назовите, пожалуйста, имена всех людей, которые обычно проживают в вашем домохозяйстве, и гостей домохозяйства, которые оставались здесь прошлой ночью, начиная с главы домохозяйства.</p><p><span class="instruction">ЗАПИШИТЕ ИМЯ ГЛАВЫ ДОМОХОЗЯЙСТВА</span></p>
       - logic: curocc() in 2:50
         questionText:
-          EN: |-
-            <p><span class="instruction">155.  RECORD FIRST NAME OF HOUSEHOLD MEMBER</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ЗАПИШИТЕ ИМЯ ЧЛЕНА ДОМОХОЗЯЙСТВА</span></p>
+          EN: |
+            <p><span class="instruction">2.  RECORD FIRST NAME OF HOUSEHOLD MEMBER</span></p>
+          RU: |
+            <p><span class="instruction">2.  ЗАПИШИТЕ ИМЯ ЧЛЕНА ДОМОХОЗЯЙСТВА</span></p>
   - name: TJHH80.QHLASTN
     conditions:
       - logic: curocc() = 1
         questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD THE LAST NAME OF THE HEAD OF THE HOUSEHOLD&#160;</span></p>
+            <p><span class="instruction">2.  RECORD THE LAST NAME OF THE HEAD OF THE HOUSEHOLD</span></p>
+          RU: |
+            <p><span class="instruction">2.  ЗАПИШИТЕ ФАМИЛИЮ ГЛАВЫ ДОМОХОЗЯЙСТВА</span></p>
       - logic: curocc() in 2:50
         questionText:
-          EN: |-
-            <p><span class="instruction">155.  RECORD THE LAST NAME OF HOUSEHOLD MEMBER</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ЗАПИШИТЕ ФАМИЛИЮ ЧЛЕНА ДОМОХОЗЯЙСТВА</span></p>
+          EN: |
+            <p><span class="instruction">2.  RECORD THE LAST NAME OF HOUSEHOLD MEMBER</span></p>
+          RU: |
+            <p><span class="instruction">2.  ЗАПИШИТЕ ФАМИЛИЮ ЧЛЕНА ДОМОХОЗЯЙСТВА</span></p>
   - name: TJHH80.QHRELAT
     conditions:
       - logic: curocc() = 1
         questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">ENTER 1 FOR HEAD OF HOUSEHOLD&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">3.  ENTER 1 FOR HEAD OF HOUSEHOLD</span></p>
+          RU: |
+            <p><span class="instruction">3.  ВВЕДИТЕ 1 ДЛЯ ГЛАВЫ ДОМОХОЗЯЙСТВА</span></p>
       - logic: curocc() in 2:50
         questionText:
-          EN: |-
+          EN: |
             <p>3.  What is the relationship of ~~QHFIRSTN~~ ~~QHLASTN~~ to the head of the household?</p>
-          RU: |-
+          RU: |
             <p>3.  Кем приходится ~~QHFIRSTN~~ ~~QHLASTN~~ по отношению к главе домохозяйства?</p>
   - name: TJHH80.QHSEX
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>4.  Is ~~QHFIRSTN~~ ~~QHLASTN~~ male or female?</p>
-          RU: |-
+          RU: |
             <p>4.  ~~QHFIRSTN~~ ~~QHLASTN~~ мужского или женского пола?</p>
   - name: TJHH80.QHLIVES
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>5.  Does ~~QHFIRSTN~~ ~~QHLASTN~~ usually live here?</p>
-          RU: |-
+          RU: |
             <p>5.  ~~QHFIRSTN~~ ~~QHLASTN~~ обычно проживает здесь?</p>
   - name: TJHH80.QHSTAYED
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>6.  Did ~~QHFIRSTN~~ ~~QHLASTN~~ stay here last night?</p>
-          RU: |-
+          RU: |
             <p>6.  ~~QHFIRSTN~~ ~~QHLASTN~~ провел(а) здесь прошлую ночь?</p>
   - name: TJHH80.QHAGE
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>7.  How old is ~~QHFIRSTN~~ ~~QHLASTN~~?</p><p><span class="instruction">IF 95 OR MORE, RECORD &#39;95&#39;</span></p>
-          RU: |-
+          RU: |
             <p>7.  Сколько лет ~~QHFIRSTN~~ ~~QHLASTN~~?</p><p><span class="instruction">ЕСЛИ 95 ИЛИ СТАРШЕ, ЗАПИШИТЕ &#39;95&#39;.</span></p>
   - name: TJHH80.QHMORE
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>7-1.  Are there any other persons living in this household?</p>
-          RU: |-
+          RU: |
             <p>7-1.  Проживают ли в этом домохозяйстве какие либо другие люди?</p>
   - name: TJHH80.QHRESP
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD THE LINE NUMBER OF THE RESPONDENT TO THE HOUSEHOLD QUESTIONNAIRE.&#160;</span></p>
+            <p><span class="instruction">-.  RECORD THE LINE NUMBER OF THE RESPONDENT TO THE HOUSEHOLD QUESTIONNAIRE. </span></p>
+          RU: |
+            <p><span class="instruction">-.  ЗАПИШИТЕ НОМЕР СТРОКИ РЕСПОНДЕНТА В ВОПРОСНИКЕ ДОМОХОЗЯЙСТВА.</span></p>
   - name: TJHH80.QH07A
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>7A).  Just to make sure that I have a complete listing: are there any other people such as small children or infants that we have not listed?</p>
-          RU: |-
+          RU: |
             <p>7A).  Просто чтобы убедиться в полноте записи списка: находятся ли здесь какие-либо другие люди, например, маленькие дети или младенцы, которых мы не внесли в список?</p>
   - name: TJHH80.QH07B
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>7B).  Are there any other people who may not be members of your family, such as domestic servants, lodgers, or friends who usually live here?</p>
-          RU: |-
+          RU: |
             <p>7B).  Находятся ли здесь какие-либо другие люди, которые могут не быть членами вашей семьи, например, домашняя прислуга, квартиранты или друзья, которые обычно проживают здесь?</p>
   - name: TJHH80.QH07C
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>7C).  Are there any guests or temporary visitors staying here, or anyone else who stayed here last night, who have not been listed?</p>
-          RU: |-
+          RU: |
             <p>7C).  Находятся ли здесь гости или временные постители стоящие здесь, или кто-либо еще, кто провел здесь прошлую ночь, кого мы не внесли в список?</p>
   - name: TJHH80.QH08
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>8.  What is ~~QH02~~&#39;s current marital status?</p>
-          RU: |-
+          RU: |
             <p>8.  Каково семейное положение ~~QH02~~  в настоящее время?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>8.  What is your current marital status?</p>
-          RU: |-
+          RU: |
             <p>8.  Каково ваше семейное положение  в настоящее время?</p>
   - name: TJHH80.QH12
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>12.  Is ~~QH02~~&#39;s biological mother alive?</p>
-          RU: |-
+          RU: |
             <p>12.  Жива ли биологическая мать ~~QH02~~?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>12.  Is your biological mother alive?</p>
-          RU: |-
+          RU: |
             <p>12.  Ваша биологическая мать жива?</p>
   - name: TJHH80.QH13
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>13.  Does ~~QH02~~&#39;s biological mother usually live in this household or was she a guest last night?</p><p>IF YES: What is her name?</p><p><span class="instruction">RECORD MOTHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
-          RU: |-
+          RU: |
             <p>13.  Биологическая мать ~~QH02~~ обычно проживает в этом домохозяйстве или она была гостьей прошлой ночью?</p><p>ЕСЛИ ДА: Как ее зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ МАТЕРИ. </span></p><p><span class="instruction">ЕСЛИ НЕТ, ЗАПИШИТЕ &#39;00&#39;.</span></p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>13.  Does your biological mother usually live in this household or was she a guest last night?</p><p>IF YES: What is her name?</p><p><span class="instruction">RECORD MOTHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
-          RU: |-
+          RU: |
             <p>13.  Ваша биологическая мать обычно проживает в этом домохозяйстве или она была гостьей прошлой ночью?</p><p>ЕСЛИ ДА:  Как ее зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ МАТЕРИ</span></p><p><span class="instruction">ЕСЛИ НЕТ: ЗАПИШИТЕ &#39;00&#39;</span></p>
   - name: TJHH80.QH14
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>14.  Is ~~QH02~~&#39;s biological father alive?</p>
-          RU: |-
+          RU: |
             <p>14.  Жив ли биологический отец ~~QH02~~?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>14.  Is your biological father alive?</p>
-          RU: |-
+          RU: |
             <p>14.  Ваш биологический отец жив?</p>
   - name: TJHH80.QH15
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>15.  Does ~~QH02~~&#39;s biological father usually live in this household or was he a guest last night?</p><p>IF YES: What is his name?</p><p><span class="instruction">RECORD FATHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
-          RU: |-
+          RU: |
             <p>15.  Биологический отец ~~QH02~~ обычно проживает в этом домохозяйстве или он был гостем прошлой ночью?</p><p>ЕСЛИ ДА: Как его зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ ОТЦА. </span></p><p><span class="instruction">ЕСЛИ НЕТ, ЗАПИШИТЕ &#39;00&#39;.</span></p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>15.  Does your biological father usually live in this household or was he a guest last night?</p><p>IF YES: What is his name?</p><p><span class="instruction">RECORD FATHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
-          RU: |-
+          RU: |
             <p>15.  Ваш биологический отец обычно проживает в этом домохозяйстве или он был гостем прошлой ночью?</p><p>ЕСЛИ ДА: Как его зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ ОТЦА. </span></p><p><span class="instruction">ЕСЛИ НЕТ, ЗАПИШИТЕ &#39;00&#39;.</span></p>
   - name: TJHH80.QH16
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>16.  Has ~~QH02~~ ever attended school or any early childhood education program?</p>
-          RU: |-
+          RU: |
             <p>16.  ~~QH02~~ когда-либо посещал(а) учебное заведение или какую-либо программу раннего детского образования?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>16.  Have you ever attended school or any early childhood education program?</p>
-          RU: |-
+          RU: |
             <p>16.  Вы когда-либо посещали учебное заведение или какую-либо программу раннего детского образования?</p>
+  - name: TJHH80.QH16A
+    conditions:
+      - logic: QH01 <> QHRESP
+        questionText:
+          EN: |
+            <p>16A.  What is the total number of completed years of schooling ~~QH02~~ has had, including school and other institutions?</p>
+          RU: |
+            <p>16A.  Сколько всего полных лет ~~QH02~~ учил(ся/ась), включая среднюю школу и плюс другие учебные учреждения?</p>
+      - logic: QH01 = QHRESP
+        questionText:
+          EN: |
+            <p>16A.&nbsp;What is the total number of completed years of schooling you had, including school and other institutions?<br></p><p><p></p></p>
+          RU: |
+            <p>16A.&nbsp;Сколько всего полных лет учил(ся/ась), включая среднюю школу и плюс другие учебные учреждения?<br></p>
   - name: TJHH80.QH17A
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>17A.  What is the highest level of school ~~QH02~~ has attended?</p>
-          RU: |-
+          RU: |
             <p>17A.  Какой наивысший уровень учебного заведения ~~QH02~~ посещал(а)?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>17A.  What is the highest level of school you have attended?</p>
-          RU: |-
+          RU: |
             <p>17A.  Какой наивысший уровень учебного заведения вы посещали?</p>
   - name: TJHH80.QH17B
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>17B.  What is the highest grade ~~QH02~~ completed at that level?</p>
-          RU: |-
+          RU: |
             <p>17B.  Какой самый высокий класс/курс ~~QH02~~ закончил(а) на этом уровне?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>17B.  What is the highest grade you completed at that level?</p>
-          RU: |-
+          RU: |
             <p>17B.  Какой самый высокий класс/курс  вы закончили на этом уровне?</p>
+  - name: TJHH80.QH17C
+    conditions:
+      - logic: QH01 <> QHRESP
+        questionText:
+          EN: |
+            <p>17C. How many classes did ~~QH02~~ completed in general school before ~~QH02~~ enrolled in uchilishe, colledge or technikum?<br></p><p></p><p></p><p></p>
+          RU: |
+            <p>17C.&nbsp;Сколько классов средней школы ~~QH02~~&nbsp;закончил(а) до того, как ~~QH02~~ поступил(а) в училище, колледж или техникум?<br></p><p></p><p></p><p></p>
+      - logic: QH01 = QHRESP
+        questionText:
+          EN: |
+            <p>17C.&nbsp;How many classes did you completed in general school before you enrolled in uchilishe, colledge or technikum?<br></p><p><p></p></p>
+          RU: |
+            <p>17C.&nbsp;Сколько классов средней школы вы закончили до того, как вы поступили в училище, колледж или техникум?<br></p><p><p></p></p>
+  - name: TJHH80.QH17D
+    conditions:
+      - logic: QH01 <> QHRESP
+        questionText:
+          EN: |
+            <p>17D.&nbsp;Did ~~QH02~~&nbsp;receive attestat for completing general school?</p>
+          RU: |
+            <p>17D.&nbsp;У ~~QH02~~&nbsp;есть аттестат о среднем образовании?<br></p>
+      - logic: QH01 = QHRESP
+        questionText:
+          EN: |
+            <p>17D.&nbsp;Did you receive attestat for completing general school?<br></p><p><p></p></p>
+          RU: |
+            <p>17D.&nbsp;&nbsp;У вас есть аттестат о среднем образовании?<br></p>
   - name: TJHH80.QH18
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>18.  Did ~~QH02~~ attend school or any early childhood education program at any time during the 2022-2023 school year?</p>
-          RU: |-
+          RU: |
             <p>18.  ~~QH02~~ посещал(а) учебное заведение или какую-либо программу раннего детского образования в любое время в течение 2022-2023 учебного года?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>18.  Did you attend school or any early childhood education program at any time during the 2022-2023 school year?</p>
-          RU: |-
+          RU: |
             <p>18.  Вы посещали учебное заведение или какую-либо программу раннего детского образования в любое время в течение 2022-2023 учебного года?</p>
   - name: TJHH80.QH19A
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>19.  During [this/that] school year, what level and class/course [is/was] ~~QH02~~ attending?</p>
-          RU: |-
+          RU: |
             <p>19.  В течение [этого/того] учебного года, какой уровень и класс/курс ~~QH02~~ [посещает/посещал(а)]?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>19.  During [this/that] school year, what level [are/were] you attending?</p>
-          RU: |-
+          RU: |
             <p>19.  В течение [этого/того] учебного года, какой уровень  вы [посещаете/посещали]?</p>
   - name: TJHH80.QH19B
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>19.  During [this/that] school year, what class/course [is/was] ~~QH02~~ attending?</p>
-          RU: |-
+          RU: |
             <p>19.  В течение [этого/того] учебного года, какой класс/курс  вы [посещаете/посещали]?</p>
       - logic: QH01 = QHRESP
         questionText:
-          EN: |-
+          EN: |
             <p>19.  During [this/that] school year, what class/course [are/were] you attending?</p>
-          RU: |-
+          RU: |
             <p>19.  В течение [этого/того] учебного года, какой класс/курс  вы [посещаете/посещали]?</p>
+  - name: TJHH80.QH20
+    conditions:
+      - questionText:
+          EN: |
+            <p>20.  Does ~~QH02~~ have a birth certificate?</p><p><span class="instruction">IF NO, PROBE:</span></p><p>Has ~~QH02~~&#39;s birth ever been registered with the civil authority?</p>
+          RU: |
+            <p>20.  У ~~QH02~~ есть свидетельство о рождении?</p><p><span class="instruction">ЕСЛИ НЕТ, УТОЧНИТЕ:</span></p><p>Рождение ~~QH02~~ было когда-либо зарегистрировано в органах государственной власти?</p>
+  - name: TJHH80.QCDI3
+    conditions:
+      - questionText:
+          EN: |
+            43. Adults use certain ways to teach children the right behaviour or to address a behaviour problem. I will read various methods that are used. Please tell me if <u>you or anyone other adult in the household</u> has used this method with ~~QCDINAME~~ in the past month.<p></p>
+          RU: |
+            43.&nbsp;Взрослые используют определенные способы, чтобы научить детей правильному поведению или решить проблему поведения. Я зачитаю вам различные используемые методы. Пожалуйста, скажите мне, если вы или любой другой взрослый в домохозяйстве применял этот метод по отношению ~~QCDINAME~~&nbsp;в течение прошлого месяца.<p></p>
   - name: TJHH80.QCDI3A
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43a2).  Took away privileges, forbade something ~~QCDINAME~~ liked or did not allow her to leave the house.</p>
-          RU: |-
+          RU: |
             <p>43a2).  Лишали привилегий, запрещали то, что ~~QCDINAME~~ нравится, или не разрешали ей выходить из дома.  </p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43a1).  Took away privileges, forbade something ~~QCDINAME~~ liked or did not allow him to leave the house.</p>
-          RU: |-
+          RU: |
             <p>43a1).  Лишали привилегий, запрещали то, что ~~QCDINAME~~ нравится, или не разрешали ему выходить из дома.  </p>
   - name: TJHH80.QCDI3B
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>43b).  Explained why ~~QCDINAME~~&#39;s behaviour was wrong.</p>
-          RU: |-
+          RU: |
             <p>43b).  Разъясняли, почему ~~QCDINAME~~ поведение было неправильным.</p>
   - name: TJHH80.QCDI3C
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43c2).  Shook her.</p>
-          RU: |-
+          RU: |
             <p>43c2).  Трясли ее.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43c1).  Shook him.</p>
-          RU: |-
+          RU: |
             <p>43c1).  Трясли его.</p>
   - name: TJHH80.QCDI3D
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43d2).  Shouted, yelled at or screamed at her.</p>
-          RU: |-
+          RU: |
             <p>43d2).  Кричали, визжали или орали на нее.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43d1).  Shouted, yelled at or screamed at him.</p>
-          RU: |-
+          RU: |
             <p>43d1).  Кричали, визжали или орали на него.</p>
   - name: TJHH80.QCDI3E
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43e2).  Gave her something else to do.</p>
-          RU: |-
+          RU: |
             <p>43e2).  Дали ей заняться чем-нибудь другим.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43e1).  Gave him something else to do.</p>
-          RU: |-
+          RU: |
             <p>43e1).  Дали ему заняться чем-нибудь другим.</p>
   - name: TJHH80.QCDI3F
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43f2).  Spanked, hit or slapped her on the bottom with bare hand.</p>
-          RU: |-
+          RU: |
             <p>43f2).  Шлепали, били или стукали ее по ягодицам ладонью.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43f1).  Spanked, hit or slapped him on the bottom with bare hand.</p>
-          RU: |-
+          RU: |
             <p>43f1).  Шлепали, били или стукали его по ягодицам ладонью.</p>
   - name: TJHH80.QCDI3G
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43g2).  Hit her on the bottom or elsewhere on the body with something like a belt, hairbrush, stick, or other hard object.</p>
-          RU: |-
+          RU: |
             <p>43g2).  Били ее по ягодицам или другим частям тела ременем, расческой, палкой или другим твердым предметом.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43g1).  Hit him on the bottom or elsewhere on the body with something like a belt, hairbrush, stick, or other hard object.</p>
-          RU: |-
+          RU: |
             <p>43g1).  Били его по ягодицам или другим частям тела ременем, расческой, палкой или другим твердым предметом.</p>
   - name: TJHH80.QCDI3H
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43h2).  Called her dumb, lazy, or another name like that.</p>
-          RU: |-
+          RU: |
             <p>43h2).  Обзывали ее тупицей, лентяйкой или другим подобным именем.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43h1).  Called him dumb, lazy, or another name like that.</p>
-          RU: |-
+          RU: |
             <p>43h1).  Обзывали его тупицей, лентяем или другим подобным именем.</p>
   - name: TJHH80.QCDI3I
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43i2).  Hit or slapped her on the face, head, or ears.</p>
-          RU: |-
+          RU: |
             <p>43i2).  Били или шлепали ее по лицу, голове или ушам.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43i1).  Hit or slapped him on the face, head, or ears.</p>
-          RU: |-
+          RU: |
             <p>43i1).  Били или шлепали его по лицу, голове или ушам.</p>
   - name: TJHH80.QCDI3J
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43j2).  Hit or slapped her on the hand, arm, or leg.</p>
-          RU: |-
+          RU: |
             <p>43j2).  Били или шлепали ее по кисти, руке, или ноге.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43j1).  Hit or slapped him on the hand, arm, or leg.</p>
-          RU: |-
+          RU: |
             <p>43j1).  Били или шлепали его по кисти, руке, или ноге.</p>
   - name: TJHH80.QCDI3K
     conditions:
       - logic: xsex <> 1
         questionText:
-          EN: |-
+          EN: |
             <p>43k2).  Beat her up, that is hit her over and over as hard as one could.</p>
-          RU: |-
+          RU: |
             <p>43k2).  Избивали ее, то есть били ее изо всей силы снова и снова.</p>
       - logic: xsex = 1
         questionText:
-          EN: |-
+          EN: |
             <p>43k1).  Beat him up, that is hit him over and over as hard as one could.</p>
-          RU: |-
+          RU: |
             <p>43k1).  Избивали его, то есть били его изо всей силы снова и снова.</p>
   - name: TJHH80.QCDI4
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>44.  Do you believe that in order to bring up, raise or educate a child properly, the child needs to be physically punished?</p>
-          RU: |-
+          RU: |
             <p>44.  Считаете ли вы, что для того, чтобы воспитать,  вырастить или обучить ребенка правильно, ребенка нужно физически наказывать?</p>
   - name: TJHH80.QH101
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>101.  What is the main source of drinking water for members of your household?</p>
-          RU: |-
+          RU: |
             <p>101.  Что является основным источником питьевой воды для членов вашей семьи?</p>
   - name: TJHH80.QH102
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>102.  What is the main source of water used by your household for other purposes such as cooking and handwashing?</p>
-          RU: |-
+          RU: |
             <p>102.  Что является основным источником воды, используемым вашим домохозяйством для других целей, таких как приготовление пищи и мытье рук?</p>
   - name: TJHH80.QH103
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>103.  Where is that water source located?</p>
-          RU: |-
+          RU: |
             <p>103.  Где находится этот источник воды?</p>
   - name: TJHH80.QH104
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>104.  How long does it take to go there, get water, and come back?</p>
-          RU: |-
+          RU: |
             <p>104.  Сколько времени требуется, чтобы пойти туда, набрать воды и вернуться?</p>
   - name: TJHH80.QH105
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>105.  Who usually goes to this source to collect the water for your household?</p><p><span class="instruction">RECORD THE PERSON’S NAME AND LINE NUMBER FROM THE HOUSEHOLD SCHEDULE. IF THE PERSON IS NOT LISTED IN THE HOUSEHOLD ROSTER, RECORD ‘00’. </span></p>
-          RU: |-
+          RU: |
             <p>105.  Кто обычно ходит к этому источнику, чтобы набрать воды для вашего домохозяйства?</p><p><span class="instruction">ЗАПИШИТЕ ИМЯ ЧЕЛОВЕКА И НОМЕР ЛИНИИ ИЗ СПИСКА ДОМОХОЗЯЙСТВА. ЕСЛИ ЧЕЛОВЕК НЕ ЗАПИСАН В СПИСКЕ ДОМОХОЗЯЙСТВА, ЗАПИШИТЕ &#39;00&#39;.</span></p>
   - name: TJHH80.QH106
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>106.  In the last month, has there been any time when your household did not have sufficient quantities of drinking water when needed?</p>
-          RU: |-
+          RU: |
             <p>106.  В течение последнего месяца были ли случаи, когда в вашем домохозяйстве не было достаточного количества питьевой воды, когда это было необходимо?</p>
   - name: TJHH80.QH107
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>107.  Do you do anything to the water to make it safer to drink?</p>
-          RU: |-
+          RU: |
             <p>107.  Вы делаете что-нибудь с водой, чтобы сделать ее более безопасной для питья?</p>
   - name: TJHH80.QH108
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>108.  What do you usually do to make the water safer to drink?</p><p>Anything else?</p><p><span class="instruction">RECORD ALL MENTIONED.</span></p>
-          RU: |-
+          RU: |
             <p>108.  Что вы обычно делаете, чтобы сделать воду более безопасной для питья?</p><p>Что-нибудь еще?</p><p><span class="instruction">ЗАПИШИТЕ ВСЕ УПОМЯНУТОЕ.</span></p>
   - name: TJHH80.QH109
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>109.  What kind of toilet facility do members of your household usually use?</p><p><span class="instruction">IF NOT POSSIBLE TO DETERMINE, ASK PERMISSION TO OBSERVE THE FACILITY.</span></p>
-          RU: |-
+          RU: |
             <p>109.  Каким туалетом обычно пользуются члены вашего домохозяйства?</p><p><span class="instruction">ЕСЛИ НЕВОЗМОЖНО ОПРЕДЕЛИТЬ, ПОПРОСИТЕ РАЗРЕШЕНИЯ ОСМОТРЕТЬ ТУАЛЕТ.</span></p>
   - name: TJHH80.QH110
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>110.  Do you share this toilet facility with other households?</p>
-          RU: |-
+          RU: |
             <p>110.  Вы пользуетесь этим туалетом совместно с другими домохозяйствами?</p>
   - name: TJHH80.QH111
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>111.  Including your own household, how many households use this toilet facility?</p>
-          RU: |-
+          RU: |
             <p>111.  Включая ваше домохозяйство, сколько домохозяйств пользуются этим туалетом?</p>
   - name: TJHH80.QH112
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>112.  Where is this toilet facility located?</p>
-          RU: |-
+          RU: |
             <p>112.  Где находится этот туалет?</p>
   - name: TJHH80.QH114
     conditions:
       - logic: faciltype = 1
         questionText:
-          EN: |-
+          EN: |
             <p>114a).  Has your septic tank ever been emptied?</p>
-          RU: |-
+          RU: |
             <p>114a).  Ваш септик когда-нибудь был опорожнен?</p>
       - logic: faciltype = 2
         questionText:
-          EN: |-
+          EN: |
             <p>114b).  Has your pit latrine ever been emptied?</p>
-          RU: |-
+          RU: |
             <p>114b).  Ваша ямная уборная когда-нибудь была опорожнена?</p>
       - logic: faciltype = 3
         questionText:
-          EN: |-
+          EN: |
             <p>114c).  Has your composting toilet ever been emptied?</p>
-          RU: |-
+          RU: |
             <p>114c).  Ваш компостный туалет когда-нибудь был опорожнен?</p>
   - name: TJHH80.QH115
     conditions:
       - logic: faciltype = 1
         questionText:
-          EN: |-
+          EN: |
             <p>115a).  The last time the septic tank was emptied, was it emptied by a service provider?</p>
-          RU: |-
+          RU: |
             <p>115a).  В последний раз, когда септик был опорожнен, его опорожнял поставщик услуг?</p>
       - logic: faciltype = 2
         questionText:
-          EN: |-
+          EN: |
             <p>115b).  The last time the pit latrine was emptied, was it emptied by a service provider?</p>
-          RU: |-
+          RU: |
             <p>115b).  В последний раз, когда ямная уборная была опорожнена, ее опорожнял поставщик услуг?</p>
       - logic: faciltype = 3
         questionText:
-          EN: |-
+          EN: |
             <p>115c).  The last time the composting toilet was emptied, was it emptied by a service provider?</p>
-          RU: |-
+          RU: |
             <p>115c).  В последний раз, когда компостный туалет был опорожнен, его опорожнял поставщик услуг?</p>
   - name: TJHH80.QH116
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>116.  Where were the contents emptied to?</p>
-          RU: |-
+          RU: |
             <p>116.  Куда было вылито содержимое?</p>
   - name: TJHH80.QH117
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>117.  In your household, what type of cookstove is mainly used for cooking?</p>
-          RU: |-
+          RU: |
             <p>117.  Какой тип кухонной плиты в основном используется для приготовления пищи в вашем домохозяйстве?</p>
   - name: TJHH80.QH118
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>118.  Does the stove have a chimney?</p>
-          RU: |-
+          RU: |
             <p>118.  У плиты есть дымоход?</p>
   - name: TJHH80.QH120
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>120.  What type of fuel or energy source is used in this cookstove?</p>
-          RU: |-
+          RU: |
             <p>120.  Какой тип топлива или источника энергии используется в этой плите?</p>
   - name: TJHH80.QH121
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>121.  Is the cooking usually done in the house, in a separate building, or outdoors?</p>
-          RU: |-
+          RU: |
             <p>121.  Пища в основном готовится дома, в отдельном здании, или на открытом воздухе?</p>
   - name: TJHH80.QH122
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>122.  Do you have a separate room which is used as a kitchen?</p>
-          RU: |-
+          RU: |
             <p>122.  У вас есть отдельная комната, которая используется как кухня?</p>
   - name: TJHH80.QH123
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>123.  What does this household use to heat the home when needed?</p><p>IF THE RESPONDENT SAYS ELECTRICITY OR GAS, ASK: What type of heater is the (electricity/gas) used in?</p>
-          RU: |-
+          RU: |
             <p>123.  Что это домохозяйство использует для отопления дома, когда это необходимо?</p><p>ЕСЛИ РЕСПОНДЕНТ ГОВОРИТ ЭЛЕКТРИЧЕСТВО ИЛИ ГАЗ, СПРОСИТЕ: В каком типе обогревателя используется (электричество/газ)?</p>
   - name: TJHH80.QH124
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>124.  Does it have a chimney?</p>
-          RU: |-
+          RU: |
             <p>124.  Там есть дымоход?</p>
   - name: TJHH80.QH125
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>125.  What type of fuel or energy source is used in this heater?</p>
-          RU: |-
+          RU: |
             <p>125.  Какой вид топлива или источника энергии используется в этом обогревателе?</p>
   - name: TJHH80.QH126
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>126.  At night, what does your household mainly use to light the home?</p>
-          RU: |-
+          RU: |
             <p>126.  Что ваше домохозяйство в основном использует ночью для освещения дома?</p>
   - name: TJHH80.QH127
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>127.  How many rooms in this household are used for sleeping?</p>
-          RU: |-
+          RU: |
             <p>127.  Сколько комнат в этом домохозяйстве используются для сна?</p>
   - name: TJHH80.QH128
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>128.  Does this household own any livestock, herds, other farm animals, or poultry?</p>
-          RU: |-
+          RU: |
             <p>128.  Это домохозяйство владеет домашним скотом, стадами, другими сельскохозяйственными животными или домашней птицей?</p>
   - name: QH129_BLOCK
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129.  How many of the following animals does this household own?</p><p><span class="instruction">IF NONE, RECORD &#39;00&#39;.</span></p><p><span class="instruction">IF MORE THAN 95, RECORD &#39;95&#39;.</span></p><p><span class="instruction">IF UNKNOWN, RECORD &#39;98&#39;.</span></p>
-          RU: |-
+          RU: |
             <p>129.  Сколько из перечисленных животных находятся во владении данного домохозяйства?</p><p><span class="instruction">ЕСЛИ НИ ОДНОГО, ЗАПИШИТЕ &#39;00&#39;.</span></p><p><span class="instruction">ЕСЛИ 95 ИЛИ БОЛЕЕ, ЗАПИШИТЕ &#39;95&#39;.</span></p><p><span class="instruction">ЕСЛИ НЕ ИЗВЕСТНО, ЗАПИШИТЕ &#39;98&#39;.</span></p>
   - name: TJHH80.QH129A
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129a).  Milk cows or bulls?</p>
-          RU: |-
+          RU: |
             <p>129a).  Дойные коровы или быки?</p>
   - name: TJHH80.QH129B
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129b).  Other cattle?</p>
-          RU: |-
+          RU: |
             <p>129b).  Другой крупный рогатый скот?</p>
   - name: TJHH80.QH129C
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129c).  Horses, donkeys, or mules?</p>
-          RU: |-
+          RU: |
             <p>129c).  Лошади, ослы или мулы?</p>
   - name: TJHH80.QH129D
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129d).  Goats?</p>
-          RU: |-
+          RU: |
             <p>129d).  Козы?</p>
   - name: TJHH80.QH129E
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129e).  Sheep?</p>
-          RU: |-
+          RU: |
             <p>129e).  Овцы?</p>
   - name: TJHH80.QH129F
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>129f).  Chickens or other poultry?</p>
-          RU: |-
+          RU: |
             <p>129f).  Куры или другая домашняя птица?</p>
+  - name: TJHH80.QH129G
+    conditions:
+      - questionText:
+          EN: |
+            <p>129g).  Rabbits?</p>
+          RU: |
+            <p>129g).  Кролики?</p>
+  - name: TJHH80.QH129H
+    conditions:
+      - questionText:
+          EN: |
+            <p>129h).  Animals for fur?</p>
+          RU: |
+            <p>129h).  Животные на мех?</p>
+  - name: TJHH80.QH129I
+    conditions:
+      - questionText:
+          EN: |
+            <p>129i).  Beehives?</p>
+          RU: |
+            <p>129i).  Ульи?</p>
   - name: TJHH80.QH130
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>130.  Does any member of this household using any agricultural land?</p>
-          RU: |-
+          RU: |
             <p>130.  Кто-либо из членов этого домохозяйства пользуется какой-либо сельскохозяйственной землей?</p>
   - name: TJHH80.QH131
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>131.  How many ares of agricultural land do members of this household use?</p><p><span class="instruction">IF 9500 OR MORE, RECORD &#39;9950&#39;.</span></p>
-          RU: |-
+          RU: |
             <p>131.  Сколько соток сельскохозяйственной земли находятся в использовании членов этого домохозяйства?</p><p><span class="instruction">ЕСЛИ 9500 ИЛИ БОЛЬШЕ, ЗАПИШИТЕ  &#39;9995&#39;</span></p>
   - name: QH132_BLOCK
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132.  Does your household have:</p>
-          RU: |-
+          RU: |
             <p>132.  В вашем домохозяйстве есть:</p>
   - name: TJHH80.QH132A
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132a).  Electricity?</p>
-          RU: |-
+          RU: |
             <p>132a).  Электричество?</p>
   - name: TJHH80.QH132B
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132b).  A radio?</p>
-          RU: |-
+          RU: |
             <p>132b).  Радио?</p>
   - name: TJHH80.QH132C
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132c).  A television?</p>
-          RU: |-
+          RU: |
             <p>132c).  Телевизор?</p>
   - name: TJHH80.QH132D
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132d).  A non-mobile telephone?</p>
-          RU: |-
+          RU: |
             <p>132d).  Стационарный телефон?</p>
   - name: TJHH80.QH132E
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132e).  A computer?</p>
-          RU: |-
+          RU: |
             <p>132e).  Компьютер?</p>
   - name: TJHH80.QH132F
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>132f).  A refrigerator?</p>
-          RU: |-
+          RU: |
             <p>132f).  Холодильник?</p>
+  - name: TJHH80.QH132G
+    conditions:
+      - questionText:
+          EN: |
+            <p>132g).  A washing machine?</p>
+          RU: |
+            <p>132g).  Стиральная машина?</p>
+  - name: TJHH80.QH132H
+    conditions:
+      - questionText:
+          EN: |
+            <p>132h).  A vacuum cleaner?</p>
+          RU: |
+            <p>132h).  Пылесос?</p>
+  - name: TJHH80.QH132I
+    conditions:
+      - questionText:
+          EN: |
+            <p>132i).  A microwave?</p>
+          RU: |
+            <p>132i).  Микроволновая печь?</p>
+  - name: TJHH80.QH132J
+    conditions:
+      - questionText:
+          EN: |
+            <p>132j).  A video camera?</p>
+          RU: |
+            <p>132j).  Видеокамера?</p>
+  - name: TJHH80.QH132K
+    conditions:
+      - questionText:
+          EN: |
+            <p>132k).  A table or a hon-tohta?</p>
+          RU: |
+            <p>132k).  Стол или хон-тохта?</p>
+  - name: TJHH80.QH132L
+    conditions:
+      - questionText:
+          EN: |
+            <p>132l).  A chair?</p>
+          RU: |
+            <p>132l).  Кресло?</p>
+  - name: TJHH80.QH132M
+    conditions:
+      - questionText:
+          EN: |
+            <p>132m).  A sofa?</p>
+          RU: |
+            <p>132m).  Диван?</p>
+  - name: TJHH80.QH132N
+    conditions:
+      - questionText:
+          EN: |
+            <p>132n).  A bed?</p>
+          RU: |
+            <p>132n).  Кровать?</p>
+  - name: TJHH80.QH132O
+    conditions:
+      - questionText:
+          EN: |
+            <p>132o).  A wall unit, or a buffet, or a curio cabinet?</p>
+          RU: |
+            <p>132o).  Стенка или буфет или сервант?</p>
+  - name: TJHH80.QH132P
+    conditions:
+      - questionText:
+          EN: |
+            <p>132p).  An air conditioner?</p>
+          RU: |
+            <p>132p).  Кондиционер?</p>
+  - name: TJHH80.QH132Q
+    conditions:
+      - questionText:
+          EN: |
+            <p>132q).  A DVD player?</p>
+          RU: |
+            <p>132q).  Видео проигрыватель ДВД?</p>
+  - name: TJHH80.QH132R
+    conditions:
+      - questionText:
+          EN: |
+            <p>132r).  A satellite antenna or a cable TV channels?</p>
+          RU: |
+            <p>132r).  Cпутниковая антенна или кабельные телеканалы?</p>
+  - name: TJHH80.QH132S
+    conditions:
+      - questionText:
+          EN: |
+            <p>132s).  A freezer?</p>
+          RU: |
+            <p>132s).  Морозильник?</p>
+  - name: TJHH80.QH132T
+    conditions:
+      - questionText:
+          EN: |
+            <p>132t).  An electric fan?</p>
+          RU: |
+            <p>132t).  Электрический вентилятор?</p>
+  - name: TJHH80.QH132U
+    conditions:
+      - questionText:
+          EN: |
+            <p>132u).  A sewing machine?</p>
+          RU: |
+            <p>132u).  Швейная машинка?</p>
+  - name: TJHH80.QH132V
+    conditions:
+      - questionText:
+          EN: |
+            <p>132v).  In-door heater?</p>
+          RU: |
+            <p>132v).  Обогреватель?</p>
+  - name: TJHH80.QH132W
+    conditions:
+      - questionText:
+          EN: |
+            <p>132w).  A mini-generator like &quot;dvizhok&quot;?</p>
+          RU: |
+            <p>132w).  Мини-генератор как движок?</p>
+  - name: TJHH80.QH132X
+    conditions:
+      - questionText:
+          EN: |
+            <p>132x).  A fuel or wood stock?</p>
+          RU: |
+            <p>132x).  Запас топлива или дров?</p>
+  - name: TJHH80.QH132Y
+    conditions:
+      - questionText:
+          EN: |
+            <p>132y).  A carpet?</p>
+          RU: |
+            <p>132y).  Ковер?</p>
+  - name: TJHH80.QH132Z
+    conditions:
+      - questionText:
+          EN: |
+            <p>132z).  A connection to the Internet?</p>
+          RU: |
+            <p>132z).  Связь с интернетом?</p>
+  - name: TJHH80.QH132TT
+    conditions:
+      - questionText:
+          EN: |
+            <p>132tt).  A dishwashing machine?</p>
+          RU: |
+            <p>132tt).  Посудомоечная машина?</p>
+  - name: TJHH80.QH132UU
+    conditions:
+      - questionText:
+          EN: |
+            <p>132uu).  A clothes dryer machine?</p>
+          RU: |
+            <p>132uu).&nbsp;Cпутниковая антенна или кабельные телеканалы?</p>
+  - name: TJHH80.QH132VV
+    conditions:
+      - questionText:
+          EN: |
+            <p>132vv).  Electric water heater like a Termix?</p>
+          RU: |
+            <p>132vv).  Электрический водонагреватель, как Термикс?</p>
   - name: QH133_BLOCK
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133.  Does any member of this household own:</p>
-          RU: |-
+          RU: |
             <p>133.  Кто-либо из членов этого домохозяйства владеет:</p>
   - name: TJHH80.QH133A
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133a).  A watch?</p>
-          RU: |-
+          RU: |
             <p>133a).  Часами?</p>
   - name: TJHH80.QH133B
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133b).  A mobile phone?</p>
-          RU: |-
+          RU: |
             <p>133b).  Мобильным телефоном?</p>
   - name: TJHH80.QH133C
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133c).  A bicycle?</p>
-          RU: |-
+          RU: |
             <p>133c).  Велосипедом?</p>
   - name: TJHH80.QH133D
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133d).  A motorcycle or motor scooter?</p>
-          RU: |-
+          RU: |
             <p>133d).  Мотоциклом или скутером?</p>
   - name: TJHH80.QH133E
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133e).  An animal-drawn cart?</p>
-          RU: |-
+          RU: |
             <p>133e).  Гужевой повозкой как арба? </p>
   - name: TJHH80.QH133F
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133f).  A car?</p>
-          RU: |-
+          RU: |
             <p>133f).  Легковым автомобилем?</p>
   - name: TJHH80.QH133G
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133g).  A boat with a motor?</p>
-          RU: |-
+          RU: |
             <p>133g).  Лодкой с мотором?</p>
   - name: TJHH80.QH133H
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>133h).  A truck?</p>
-          RU: |-
+          RU: |
             <p>133h).  Грузовой машиной?</p>
+  - name: TJHH80.QH133I
+    conditions:
+      - questionText:
+          EN: |
+            <p>133i).  A tractor?</p>
+          RU: |
+            <p>133i).  Трактором?</p>
+  - name: TJHH80.QH133J
+    conditions:
+      - questionText:
+          EN: |
+            <p>133j).  A combine-harvester?</p>
+          RU: |
+            <p>133j).  Комбайном?</p>
+  - name: TJHH80.QH133K
+    conditions:
+      - questionText:
+          EN: |
+            <p>133k).  Any agricultural equipment, such as a plow, a trailer, a mower or similar?</p>
+          RU: |
+            <p>133k).  Сельскохозяйственным оборудованием, как например плугом, прицепом, сенокосилкой и подобным?</p>
   - name: TJHH80.QH134
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>134.  Does any member of this household have an account in a bank or other financial institution?</p>
-          RU: |-
+          RU: |
             <p>134.  У кого-либо из членов этого домохозяйства есть счет в банке или в другом финансовом учреждении?</p>
+  - name: TJHH80.QH134AA
+    conditions:
+      - questionText:
+          EN: |
+            <p>134AA.  How many of them are women?</p>
+          RU: |
+            <p>134AA.  Сколько из них женщин?</p>
+  - name: TJHH80.QH134AB
+    conditions:
+      - questionText:
+          EN: |
+            <p>134AB.  How many of them are men?</p>
+          RU: |
+            <p>134AB.  сколько из них мужчин?</p>
   - name: TJHH80.QH135
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>135.  Does any member of this household use a mobile phone to make financial transactions such as sending or receiving money, paying bills, purchasing goods or services, or receiving wages? </p>
-          RU: |-
+          RU: |
             <p>135.  Кто-либо из членов этого домохозяйства использует мобильный телефон для совершения финансовых операций, таких как отправка или получение денег, оплата счетов, покупка товаров или услуг, или получение заработной платы?</p>
   - name: TJHH80.QH136
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>136.  How often does anyone smoke inside your house? Would you say daily, weekly, monthly, less often than once a month, or never?</p>
-          RU: |-
+          RU: |
             <p>136.  Как часто кто-нибудь курит внутри вашего дома? Скажете ли вы, что ежедневно, еженедельно, ежемесячно, реже чем раз в месяц, или никогда?</p>
+  - name: TJHH80.QH136A
+    conditions:
+      - questionText:
+          EN: |
+            <p>136A.  In the past 12 month, has any member of the household worked abroad for three or more months at a time, including those currently working abroad?</p>
+          RU: |
+            <p>136A.  В течение последних 12 месяцев, кто-либо из членов вашего домохозяйства работал за границей в течение трех и более месяцев подряд, включая тех, кто сейчас работает за границей?</p>
+  - name: TJHH80.QH136BA
+    conditions:
+      - questionText:
+          EN: |
+            <p>136AA.  How many of them are women?</p>
+          RU: |
+            <p>136AA.  Сколько из них женщин?</p>
+  - name: TJHH80.QH136BB
+    conditions:
+      - questionText:
+          EN: |
+            <p>136AB.  How many of them are men?</p>
+          RU: |
+            <p>136AB.  сколько из них мужчин?</p>
+  - name: TJHH80.QH136C
+    conditions:
+      - questionText:
+          EN: |
+            <p>136С.  During the last time, when the household member worked abroad for three or more months, in which country did  this person work, or still working?</p>
+          RU: |
+            <p>136С.  В последний раз, когда член домохозяйства работал за границей в течение трех или более месяцев, в какой стране этот человек работал или продолжает работать?</p>
+  - name: TJHH80.QH136D
+    conditions:
+      - questionText:
+          EN: |
+            <p>136D.  Over the past 12 months, have you or any member of your household received money and/or parcels from abroad?</p>
+          RU: |
+            <p>136D.  За последние 12 месяцев получали ли вы или члены вашего домохозяйства деньги и, или посылки из-за границы? </p>
+  - name: TJHH80.QH136E
+    conditions:
+      - questionText:
+          EN: |
+            <p>136E.  From which country did you or your household receive money and, or parcels at the most recent time?</p>
+          RU: |
+            <p>136E.  Из какой страны вы или ваше домохозяйство получили деньги и, или посылки в самый последний раз?</p>
+  - name: TJHH80.QH136F
+    conditions:
+      - questionText:
+          EN: |
+            <p>136F.  In your opinion, over the past 12 months, how have remittances from abroad affected your family’s financial situation, would you say substantially improved, slightly improved or has no effect?</p>
+          RU: |
+            <p>136F.  По вашему мнению, как повлияли денежные переводы из-за границы на финансовое положение вашей семьи в течении последних 12 месяцев, сказали ли бы вы что значительно улучшили, немного улучшили, или никак не повлияли?</p>
   - name: TJHH80.QH149
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>149.  We would like to learn about the places that households use to wash their hands. Can you please show me where members of your household most often wash their hands?</p>
-          RU: |-
+          RU: |
             <p>149.  Мы хотели бы узнать о местах, которые домохозяйства используют для мытья рук. Пожалуйста, покажите мне, где члены вашего домохозяйства чаще всего моют руки?</p>
   - name: TJHH80.QH150
     conditions:
       - questionText:
-          EN: |-
-            <p><span class="instruction">155.  OBSERVE PRESENCE OF WATER AT THE PLACE FOR HANDWASHING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ПОСМОТРИТЕ ИМЕЕТСЯ ЛИ В НАЛИЧИИ ВОДА В МЕСТЕ, ОТВЕДЕННОМ ДЛЯ МЫТЬЯ РУК.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          EN: |
+            <p><span class="instruction">150.  OBSERVE PRESENCE OF WATER AT THE PLACE FOR HANDWASHING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
+          RU: |
+            <p><span class="instruction">150.  ПОСМОТРИТЕ ИМЕЕТСЯ ЛИ В НАЛИЧИИ ВОДА В МЕСТЕ, ОТВЕДЕННОМ ДЛЯ МЫТЬЯ РУК.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
   - name: TJHH80.QH151
     conditions:
       - questionText:
-          EN: |-
-            <p><span class="instruction">155.  OBSERVE PRESENCE OF SOAP, DETERGENT, OR OTHER CLEANSING AGENT AT THE PLACE OF HANDWASHING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ПОСМОТРИТЕ ЕСТЬ ЛИ В НАЛИЧИИ МЫЛО,  МОЮЩЕЕ СРЕДСТВО ИЛИ ДРУГОЕ ОЧИЩАЮЩЕЕ СРЕДСТВО В МЕСТЕ, ОТВЕДЕННОМ ДЛЯ МЫТЬЯ РУК.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          EN: |
+            <p><span class="instruction">151.  OBSERVE PRESENCE OF SOAP, DETERGENT, OR OTHER CLEANSING AGENT AT THE PLACE OF HANDWASHING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
+          RU: |
+            <p><span class="instruction">151.  ПОСМОТРИТЕ ЕСТЬ ЛИ В НАЛИЧИИ МЫЛО,  МОЮЩЕЕ СРЕДСТВО ИЛИ ДРУГОЕ ОЧИЩАЮЩЕЕ СРЕДСТВО В МЕСТЕ, ОТВЕДЕННОМ ДЛЯ МЫТЬЯ РУК.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
   - name: TJHH80.QH152
     conditions:
       - questionText:
-          EN: |-
-            <p><span class="instruction">155.  OBSERVE MAIN MATERIAL OF THE FLOOR OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ ПОЛА В ДОМЕ.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          EN: |
+            <p><span class="instruction">152.  OBSERVE MAIN MATERIAL OF THE FLOOR OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
+          RU: |
+            <p><span class="instruction">152.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ ПОЛА В ДОМЕ.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
   - name: TJHH80.QH153
     conditions:
       - questionText:
-          EN: |-
-            <p><span class="instruction">155.  OBSERVE MAIN MATERIAL OF THE ROOF OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ КРЫШИ ДОМА.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          EN: |
+            <p><span class="instruction">153.  OBSERVE MAIN MATERIAL OF THE ROOF OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
+          RU: |
+            <p><span class="instruction">153.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ КРЫШИ ДОМА.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
   - name: TJHH80.QH154
     conditions:
       - questionText:
-          EN: |-
-            <p><span class="instruction">155.  OBSERVE MAIN MATERIAL OF THE EXTERIOR WALLS OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
-          RU: |-
-            <p><span class="instruction">155.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ ВНЕШНИХ СТЕН ДОМА.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          EN: |
+            <p><span class="instruction">154.  OBSERVE MAIN MATERIAL OF THE EXTERIOR WALLS OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
+          RU: |
+            <p><span class="instruction">154.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ ВНЕШНИХ СТЕН ДОМА.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
   - name: TJHH80.QH155
     conditions:
       - questionText:
-          EN: |-
+          EN: |
             <p>155.  I would like to check whether the salt used in your household is iodized. May I have a sample of the salt used to cook meals in your household?</p><p><span class="instruction">TEST SALT FOR IODINE.</span></p>
-          RU: |-
+          RU: |
             <p>155.  Я хотела бы проверить, иодирована ли соль, используемая в вашем домохозяйстве. Могу ли я получить немного соли, которую используют для приготовления пищи в вашем домохозяйстве?</p><p><span class="instruction">ПРОВЕДИТЕ ТЕСТ СОЛИ НА НАЛИЧИЕ ЙОДА.</span></p>
   - name: TJHH80.QHLANGQ
     conditions:
@@ -919,33 +1249,45 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER THE LANGUAGE OF THE INTERVIEW&#160;</span></p>
+          RU: |
+            <p><span style="font-size: 24px; color: rgb(0, 0, 255);">ВВЕДИТЕ ЯЗЫК ИНТЕРВЬЮ</span><br></p><p><p></p></p>
   - name: TJHH80.QHLANGR
     conditions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER THE NATIVE LANGUAGE OF THE RESPONDENT&#160;</span></p>
+          RU: |
+            <p><font color="#0000ff"><span style="font-size: 24px;">ВВЕДИТЕ РОДНОЙ ЯЗЫК РЕСПОНДЕНТА</span></font><br></p>
   - name: TJHH80.QHTRANS
     conditions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER WHETHER A TRANSLATOR WAS USED DURING THE INTERVIEW&#160;</span></p>
+          RU: |
+            <p><br></p><p><span style="color: rgb(0, 0, 255); font-size: 21px;">ENTER WHETHER A TRANSLATOR WAS USED DURING THE INTERVIEW&nbsp;</span><br></p>
   - name: TJHH80.GHAUX
     conditions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">Coordinates for the household were already collected, do you want to replace the current coordinates?&#160;</span></p>
+          RU: |
+            <p><span style="font-size: 18px; color: rgb(0, 0, 255);">Координаты для дома уже собраны, заменить текущие координаты?</span><br></p><p><p></p></p>
   - name: TJHH80.GHINTRO
     conditions:
       - logic: capturecoor = 0
         questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">Are you sure that you want to replace the current coordinates?&#160;</span></p>
+          RU: |
+            <p><span style="font-size: 21px; color: rgb(0, 0, 255);">Вы уверены, что хотите заменить текущие координаты?</span><br></p><p><p></p></p>
       - logic: capturecoor = 1
         questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">As part of the CC DHS/MIS survey, it is necessary to take coordinates for households in the sample.  Please make sure that the dongle is connected to the tablet and step in the household front door (away from blocking buildings/trees).&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;">Are you ready to capture the coordinates?&#160;</span></p>
+            <p><span style="font-size:21px;color:#0000ff;">As part of the TJ DHS survey, it is necessary to take coordinates for households in the sample.  Please make sure that the dongle is connected to the tablet and step in the household front door (away from blocking buildings/trees).&nbsp;</span></p>
+            <p>&nbsp;</p>
+            <p><span style="font-size:21px;color:#0000ff;">Are you ready to capture the coordinates?&nbsp;</span></p>
+          RU: |
+            <p><font color="#0000ff"><span style="font-size: 18px;">В рамках обследования МДИ РТ необходимо взять координаты домохозяйств в выборке. Убедитесь, что ключ подключен к планшету, и войдите в парадную дверь дома (вдали от блокирующих зданий/деревьев).</span></font></p><p><font color="#0000ff"><br></font></p><p><font color="#0000ff">Вы готовы захватить координаты?</font></p><p></p>
   - name: TJHH80.QHFINISH
     conditions:
       - questionText:
@@ -954,6 +1296,8 @@ questions:
             <p>&#160;</p>
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">A WINDOW WILL BE DISPLAYED TO WRITE ANY NOTES.  AFTER THAT THE QUESTIONNAIRE WILL BE SAVED AUTOMATICALLY.&#160;</span></p>
             <p>&#160;</p>
+          RU: |
+            <p><span style="font-size: 18px;"><font color="#0000ff">КОНЕЦ АНКЕТЫ ДЛЯ ДОМОХОЗЯЙСТВА.</font></span></p><p><font color="#0000ff"><br></font></p><p><span style="font-size: 18px;"><font color="#0000ff">ОТОБРАЖАЕТСЯ ОКНО ДЛЯ НАПИСАНИЯ ЛЮБЫХ ЗАМЕЧАНИЙ. ПОСЛЕ ЭТОГО АНКЕТА БУДЕТ СОХРАНЕНА АВТОМАТИЧЕСКИ.</font></span></p><p></p>
   - name: TJHH80.QBINTD
     conditions:
       - questionText:
@@ -993,7 +1337,7 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD DAY&#160;</span></p>
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">D</span></p><p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;"><br></span></p>
   - name: TJHH80.QB103M
     conditions:
       - questionText:
@@ -1114,12 +1458,6 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
-  - name: TJHH80.QBM112
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD BAR CODE ASSIGNED TO ~~QCNAME~~ FOR MALARIA LAB&#160;</span></p>
-            <p>&#160;</p>
   - name: TJHH80.QB122
     conditions:
       - questionText:
@@ -1133,110 +1471,11 @@ questions:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER HEMOGLOBIN LEVEL FOR ~~QCNAME~~.&#160;</span></p>
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.x and enter the decimal point)&#160;</span></p>
-  - name: TJHH80.QBM114
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD THE RESULT OF THE MALARIA RDT &#160;</span></p>
-            <p>&#160;</p>
-  - name: ABM115_BLOCK
-    conditions:
-      - questionText:
-          EN: |
-            <p><br></p>
-  - name: TJHH80.QBM115A
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">a) EXTREME WEAKNESS?&#160;</span></p>
-            <p>&#160;</p>
-  - name: TJHH80.QBM115B
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">b) HEART PROBLEMS?&#160;</span></p>
-  - name: TJHH80.QBM115C
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">c) LOSS OF CONSCIOUSNESS?&#160;</span></p>
-  - name: TJHH80.QBM115D
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">d) RAPID OR DIFFICULT BREATHING?&#160;</span></p>
-  - name: TJHH80.QBM115E
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">e) SEIZURES?&#160;</span></p>
-  - name: TJHH80.QBM115F
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">f) ABNORMAL BLEEDING?&#160;</span></p>
-  - name: TJHH80.QBM115G
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">g) JAUNDICE OR YELLOW SKIN?&#160;</span></p>
-  - name: TJHH80.QBM115H
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">h) DARK URINE?&#160;</span></p>
-  - name: TJHH80.QBM117
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD HEMOGLOBIN RESULT&#160;</span></p>
-            <p>&#160;</p>
-  - name: TJHH80.QBM119
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD IF ~~QCNAME~~ IN THE PAST 2 WEEKS OR IS TAKING [FIRST LINE MEDICATION] GIVEN BY A DOCTOR&#160;</span></p>
-            <p>&#160;</p>
-  - name: TJHH80.QBM122
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD IF PARENT/RESPONSIBLE ADULT ACCEPTED OR REFUSED [FIRST LINE OF MEDICATION] FOR CHILD&#160;</span></p>
-            <p>&#160;</p>
-  - name: TJHH80.QBM123
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER FOR ACCEPTANCE OF MALARIA MEDICINE.&#160;</span></p>
-            <p>&#160;</p>
   - name: TJHH80.QB123
     conditions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">CHECK 122: HEMOGLOBIN RESULT&#160;</span></p>
-  - name: QBM128_BLOCK
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#000000;"> <span style="color:#008040;">RECORD THE DATE OF MEASUREMENT&#160;</span></span></p>
-  - name: TJHH80.QBM128D
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD DAY&#160;</span></p>
-            <p>&#160;</p>
-  - name: TJHH80.QBM128M
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD MONTH&#160;</span></p>
-            <p>&#160;</p>
-  - name: TJHH80.QBM128Y
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD YEAR&#160;</span></p>
-            <p>&#160;</p>
   - name: TJHH80.QB202
     conditions:
       - questionText:
@@ -1338,21 +1577,6 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
-  - name: TJHH80.QBWHIV1
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER HIV TEST CONSENT WAS GRANTED BY RESPONDENT&#160;</span></p>
-  - name: TJHH80.QBWHIV2
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD FIELDWORKER NUMBER OF BIOMARKER MEASURER.&#160;</span></p>
-  - name: TJHH80.QBWHIV3
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER RESPONDENT GRANTED CONSENT FOR ADDITIONAL TESTING&#160;</span></p>
   - name: TJHH80.QB217
     conditions:
       - questionText:
@@ -1380,31 +1604,6 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
-  - name: TJHH80.QBWHIV4
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER HIV TEST CONSENT WAS GRANTED BY CARETAKER FOR ~~QWNAME~~&#160;</span></p>
-  - name: TJHH80.QBWHIV5
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD FIELDWORKER NUMBER OF BIOMARKER MEASURER.&#160;</span></p>
-  - name: TJHH80.QBWHIV6
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER HIV TEST CONSENT WAS GRANTED BY ~~QWNAME~~&#160;</span></p>
-  - name: TJHH80.QBWHIV7
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER CONSENT FOR ADDITIONAL TESTING WAS GRANTED BY CARETAKER FOR ~~QWNAME~~&#160;</span></p>
-  - name: TJHH80.QBWHIV8
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER CONSENT FOR ADDITIONAL TESTING WAS GRANTED BY ~~QWNAME~~&#160;</span></p>
   - name: TJHH80.QB225
     conditions:
       - questionText:
@@ -1423,11 +1622,6 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">CHECK 225: HEMOGLOBIN RESULT&#160;</span></p>
-  - name: TJHH80.QBWHIV9
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD BAR CODE ASSIGNED TO ~~QWNAME~~&apos;S DBS SAMPLE&#160;</span></p>
   - name: TJHH80.QBFINISH
     conditions:
       - questionText:
@@ -1441,6 +1635,11 @@ questions:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD &quot;OTHER&quot; ANSWER&#160;</span></p>
             <p>&#160;</p>
+  - name: ABM115_BLOCK
+    conditions:
+      - questionText:
+          EN: |
+            <p><br></p>
   - name: ACHL12_BLOCK
     conditions:
       - questionText:
@@ -1453,6 +1652,11 @@ questions:
             <p><span style="font-size:21px;color:#008080;font-family:'Arial', sans-serif;">Now I would like to ask you some questions about food. During the last 12 months, was there a time when: &#160;</span></p>
             <p>&#160;</p>
   - name: QB311_BLOCK
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#000000;"> <span style="color:#008040;">RECORD THE DATE OF MEASUREMENT&#160;</span></span></p>
+  - name: QBM128_BLOCK
     conditions:
       - questionText:
           EN: |
@@ -1596,6 +1800,101 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">CHECK 325: HEMOGLOBIN RESULT&#160;</span></p>
+  - name: TJHH80.QBM112
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD BAR CODE ASSIGNED TO ~~QCNAME~~ FOR MALARIA LAB&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM114
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD THE RESULT OF THE MALARIA RDT &#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM115A
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">a) EXTREME WEAKNESS?&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM115B
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">b) HEART PROBLEMS?&#160;</span></p>
+  - name: TJHH80.QBM115C
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">c) LOSS OF CONSCIOUSNESS?&#160;</span></p>
+  - name: TJHH80.QBM115D
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">d) RAPID OR DIFFICULT BREATHING?&#160;</span></p>
+  - name: TJHH80.QBM115E
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">e) SEIZURES?&#160;</span></p>
+  - name: TJHH80.QBM115F
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">f) ABNORMAL BLEEDING?&#160;</span></p>
+  - name: TJHH80.QBM115G
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">g) JAUNDICE OR YELLOW SKIN?&#160;</span></p>
+  - name: TJHH80.QBM115H
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">h) DARK URINE?&#160;</span></p>
+  - name: TJHH80.QBM117
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD HEMOGLOBIN RESULT&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM119
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD IF ~~QCNAME~~ IN THE PAST 2 WEEKS OR IS TAKING [FIRST LINE MEDICATION] GIVEN BY A DOCTOR&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM122
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD IF PARENT/RESPONSIBLE ADULT ACCEPTED OR REFUSED [FIRST LINE OF MEDICATION] FOR CHILD&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM123
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER FOR ACCEPTANCE OF MALARIA MEDICINE.&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM128D
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD DAY&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM128M
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD MONTH&#160;</span></p>
+            <p>&#160;</p>
+  - name: TJHH80.QBM128Y
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD YEAR&#160;</span></p>
+            <p>&#160;</p>
   - name: TJHH80.QBMHIV1
     conditions:
       - questionText:
@@ -1641,6 +1940,51 @@ questions:
       - questionText:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD BAR CODE ASSIGNED TO ~~QMNAME~~&apos;S DBS SAMPLE&#160;</span></p>
+  - name: TJHH80.QBWHIV1
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER HIV TEST CONSENT WAS GRANTED BY RESPONDENT&#160;</span></p>
+  - name: TJHH80.QBWHIV2
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD FIELDWORKER NUMBER OF BIOMARKER MEASURER.&#160;</span></p>
+  - name: TJHH80.QBWHIV3
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER RESPONDENT GRANTED CONSENT FOR ADDITIONAL TESTING&#160;</span></p>
+  - name: TJHH80.QBWHIV4
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER HIV TEST CONSENT WAS GRANTED BY CARETAKER FOR ~~QWNAME~~&#160;</span></p>
+  - name: TJHH80.QBWHIV5
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD FIELDWORKER NUMBER OF BIOMARKER MEASURER.&#160;</span></p>
+  - name: TJHH80.QBWHIV6
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER HIV TEST CONSENT WAS GRANTED BY ~~QWNAME~~&#160;</span></p>
+  - name: TJHH80.QBWHIV7
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER CONSENT FOR ADDITIONAL TESTING WAS GRANTED BY CARETAKER FOR ~~QWNAME~~&#160;</span></p>
+  - name: TJHH80.QBWHIV8
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER CONSENT FOR ADDITIONAL TESTING WAS GRANTED BY ~~QWNAME~~&#160;</span></p>
+  - name: TJHH80.QBWHIV9
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD BAR CODE ASSIGNED TO ~~QWNAME~~&apos;S DBS SAMPLE&#160;</span></p>
   - name: TJHH80.QH119
     conditions:
       - questionText:

@@ -152,3 +152,19 @@ language = RU
   RU ( "Select a household to review from the list:" ) Выбор домохозяйство для просмотра:
   RU ( "Received Fieldworker Questionnaire from interviewer %04d" ) Получен опросник полевого работника от интервьюера %04d
   RU ( "Received Test file from interviewer %04d" ) Получен тестовый файл от интервьюера %04d  
+  RU ( "Household %03d interviewed by interview %04d selected for reinterview\nConfirm selection for this household? (%d households already selected)" )  Домохозяйство %03d, с которым провел интервьюер %04d, выбрано для повторного интервью\nПодтвердить выбор для этого домохозяйства? (уже выбрано %d домохозяйств)
+  RU ( "Select anothe household for reinterview ? (%d households already selected)")," ) Выбрать другое домохозяйство для повторного опроса? (уже выбрано %d домохозяйств)"),
+  RU ( "No more households available for selection at this time" ) В настоящее время больше нет доступных для выбора домохозяйств
+  RU ( "PLease confirm you wish to remove interviewer files for interviewer %04d" ) Пожалуйста, подтвердите, что хотите удалить файлы интервьюера для интервьюера %04d
+  RU ( "Yes, remove" ) Да, удалить
+  RU ( "No, do not remove" ) Нет, не удалять
+  RU ( "Files for interviewer %04d removed" ) Файлы для интервьюера %04d удалены
+  RU ( "File for interviewer %04d not present on tablet" ) Файл для интервьюера %04d отсутствует на планшете
+  RU ( "PLease confirm you wish to clean interviewer files for interviewer %04d" ) Пожалуйста, подтвердите, что вы хотите очистить файлы интервьюера для интервьюера %04d
+  RU ( "Yes, clean" ) Да, очистить
+  RU ( "No, do not clean" ) Нет, не чистить
+  RU ( "Files for interviewer %04d cleaned" ) Файлы для интервьюера %04d очищены
+  RU ( "Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem" ) Частичное=%d, результат=%d, используйте вариант 7 Обмен данными-> 7 Исправить результат в домохозяйстве для решения проблемы
+	     RU ( "" ) 
+		   RU ( "" ) 
+		   

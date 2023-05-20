@@ -43,8 +43,8 @@ PROC GLOBAL
   numeric  CurrDate, TransDate;
   numeric hhtoget;
   config   CSWebURL, CSWebUser, CSWebPIN, CSWebSurvey;
-  string SyncCloudID_CC81 = "e7b8a288802849cfb4c1b28d5428b641";
-  string SyncCloudPIN_CC81 = "A2Q1erBXZuMS9_";
+  string SyncCloudID_CC81 = "8c4788efbd38471fa36c3293331a784d";
+  string SyncCloudPIN_CC81 = "Kq2CRjYuXxgP";
   list string ListUpgrades, IntUpgrades;
   list string dirstocheck;
                                           { 2nd dimension: 1-Code
@@ -1340,14 +1340,14 @@ PROC GLOBAL
           inc(tries);
           if !SREINTERV(hhidx) & !count(SALLHH where SREINTERV & SINTNUM = SINTNUM(hhidx)) then
             SREINTERV(hhidx) = 1;
-            choice = errmsg("Household %03d interviewed by RA %04d selected for reinterview\nConfirm selection for this household? (%d households already selected)", SNUMBER(hhidx), SINTNUM(hhidx), xreint) 
-                     select ("Yes", continue, "No", continue, "Cancel Selection", continue);
+            choice = errmsg(tr("Household %03d interviewed by interview %04d selected for reinterview\nConfirm selection for this household? (%d households already selected)"), SNUMBER(hhidx), SINTNUM(hhidx), xreint) 
+                     select (tr("Yes"), continue, tr("No"), continue, "Cancel Selection", continue);
             if choice = 1 then
               writecase(CONTSUP);
               inc(xreint);
               tries = 0;
-              choice = errmsg("Select anothe household for reinterview ? (%d households already selected)", xreint) 
-                       select ("Yes", continue, "No", continue);
+              choice = errmsg(tr("Select anothe household for reinterview ? (%d households already selected)"), xreint) 
+                       select (tr("Yes"), continue, tr("No"), continue);
               if choice <> 1 then
                 break;
               endif;
@@ -1357,7 +1357,7 @@ PROC GLOBAL
           endif;
         enddo;  
         if xreint < 5  & tries > 20 then
-          errmsg("No more households available for selection at this time");
+          errmsg(tr("No more households available for selection at this time"));
         endif;
       endif;
     endif;
@@ -2212,24 +2212,24 @@ postproc
       SyncServer( Bluetooth );
     elseif option = 6 then
       if getint() then
-        x = errmsg("PLease confirm you wish to remove interviewer files for interviewer %04d", intcode) select ("Yes, remove", continue, "No, do not remove", continue);
+        x = errmsg(tr("PLease confirm you wish to remove interviewer files for interviewer %04d"), intcode) select (tr("Yes, remove"), continue, tr("No, do not remove"), continue);
         if x = 1 then
           FileDelete(receive + "\H" + xfilenum + ".DAT");
           FileDelete(receive + "\I" + xfilenum + ".DAT");
-          errmsg("Files for interviewer %04d removed", intcode);
+          errmsg(tr("Files for interviewer %04d removed"), intcode);
         endif;
       endif;
     elseif option = 7 then
       if getint() then
         fname = receive + "\H" + xfilenum + ".DAT";
         if !FileEXist(fname) | FileEmpty(fname) then
-          errmsg("File for interviewer %04d not present on tablet", intcode);
+          errmsg(tr("File for interviewer %04d not present on tablet"), intcode);
         else
-          x = errmsg("PLease confirm you wish to clean interviewer files for interviewer %04d", intcode) 
-          select ("Yes, clean", continue, "No, do not clean", continue);
+          x = errmsg(tr("PLease confirm you wish to clean interviewer files for interviewer %04d"), intcode) 
+          select (tr("Yes, clean"), continue, tr("No, do not clean"), continue);
           if x = 1 then
             fixdata(fname, 1);
-            errmsg("Files for interviewer %04d cleaned", intcode);
+            errmsg(tr("Files for interviewer %04d cleaned"), intcode);
           endif;
         endif;
       endif;
@@ -2313,5 +2313,5 @@ postproc
               ::         -> 9; 
   endrecode; 
   if x = 9 then
-    errmsg("Partial=%d, Zresult=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem",partial,vresult);
+    errmsg(tr("Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem"),partial,vresult);
   endif;

@@ -12,11 +12,10 @@ File=..\Dicts\Menu.dcf
   
 [Form]
 Name=WFSEC01
-Label=WSEC01
+Label=WFSEC01
 QuestionTextHeight=117
 Level=1
 Size=786,384
-Color=8454143
   
 Item=WINTNUM
 Item=WCLUSTER

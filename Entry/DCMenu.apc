@@ -932,7 +932,7 @@
           endif;
         endif;
         if task <> 5 then
-          ifok = showarray(heading, caselist, title ( tr("HH"), tr("Name"), tr("Int."), tr("Status") , tr("Male/LS"))  );
+          ifok = showarray(heading, caselist, title ( tr("HH"), tr("Name"), tr("Int."), tr("Status"){ , tr("Male/LS")})  );
           if y = 1 & !cancelled & !ifok then
             errmsg( 096 );
           else
@@ -1254,7 +1254,7 @@
       SyncFile( GET, fname, data );
       fname = receive + "\?" + xcluster + xintnum + ".cslog";// paradata
       SyncFile( GET, fname, data );
-      errmsg("Files restored for interviewer %s ", xintnum);
+      errmsg(tr("Files restored for interviewer %s "), xintnum);
       // now get any new upgrades 
       fname = upgrades + "/" + upgrname + "*.zip";
       SyncFile( GET, fname, upgrades );
@@ -1337,7 +1337,7 @@ PreProc
     // check menu not already running
     if !isAndroid then
       if CheckProcess("CSEntry.exe") > 1 then
-        errmsg("The CAPI menu or interview program is already running on your tablet. Check for the JFHPS icon on the task bar at the bottom of the screen and click on it");
+        //errmsg(tr("The CAPI menu or interview program is already running on your tablet. Check for the JFHPS icon on the task bar at the bottom of the screen and click on it"));
         stop(-1);
       endif;
     endif;
@@ -1393,7 +1393,7 @@ PreProc
       backup = "/storage/emulated/0/Documents/CSPRO_BACKUP"; { !! }
       if !DirExist(backup) then
         x = dircreate(backup);
-        errmsg("Data will be backed up to %s", backup);
+        errmsg(tr("Data will be backed up to %s"), backup);
       endif;
     endif;
 
@@ -1759,7 +1759,6 @@ postproc
       { fix identifiers (cluster, household, interviewers) or delete women  }
       elseif option = 6 then
         RunDataRepair( "DHSRepair.xml");
-
       { get and apply system updates from supervisor }
       elseif option = 5 then
         receiveupgr()
@@ -1785,7 +1784,7 @@ postproc
       elseif option = 10 then 
     // clear shared data from work folder
     // used to fix issues with duplicated cases
-        x = errmsg("Are you sure you wish to remove shared household data from the interviewer tablet ?\n To access individual interviews from already shared households you will need to receive shared data again ") select (tr("No"), continue, tr("Yes, remove"), continue);
+        x = errmsg(tr("Are you sure you wish to remove shared household data from the interviewer tablet ?\n To access individual interviews from already shared households you will need to receive shared data again ")) select (tr("No"), continue, tr("Yes, remove"), continue);
         if x = 2 then
           FileDelete(work + "\H" + xcluster + "????.DAT");
           FileDelete(work + "\H" + xcluster + "????.DAT.sts");
@@ -1798,11 +1797,11 @@ postproc
         if !FileEXist(fname) | FileEmpty(fname) then
           errmsg(tr("File for interviewer %04d not present on tablet"), intcode);
         else
-          x = errmsg("PLease confirm you wish to clean interviewer files for interviewer %04d", intcode) 
+          x = errmsg(tr("PLease confirm you wish to clean interviewer files for interviewer %04d"), intcode) 
           select (tr("Yes, clean"), continue, tr("No, do not clean"), continue);
           if x = 1 then
             fixdata(fname, 1);
-            errmsg("Files for interviewer %04d cleaned", intcode);
+            errmsg(tr("Files for interviewer %04d cleaned"), intcode);
           endif;
         endif;
         FileDelete(work + "\ALLHH.*");
@@ -1812,11 +1811,11 @@ postproc
       elseif option = 12 then 
     // clean data file by removing corrupted lines with blanks in id and record fields
         fname = data + "\H" + xfilenum + ".DAT";
-        errmsg("fname=%s", fname);
+        //errmsg("fname=%s", fname);
         if !FileEXist(fname) | FileEmpty(fname) then
           errmsg(tr("File %s not present on tablet"), fname);
         else
-          x = errmsg("PLease confirm you wish to clean files") 
+          x = errmsg(tr("PLease confirm you wish to clean files")) 
           select (tr("Yes, clean"), continue, tr("No, do not clean"), continue);
           if x = 1 then
             backupf(); // back up file before removing blanks
@@ -1932,7 +1931,7 @@ postproc
       endrecode; 
 	  
       if x = 9 then
-        errmsg("Partial=%d, Zresult=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem",partial,zresult);
+        errmsg(tr("Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem"),partial,zresult);
       endif;
     elseif action = 2 then
       AppName = "LISTELIG";
@@ -1964,7 +1963,7 @@ preproc
     WCORRECT2 = notappl;
     WNAME     = "";
     if FindDups( dirstocheck, xcluster, 1  ) then
-      errmsg("Duplicate household cases detected in data. The system will attempt to continue but you may find that not all households are available. You should remove the duplicate cases as soon as possible");
+      errmsg(tr("Duplicate household cases detected in data. The system will attempt to continue but you may find that not all households are available. You should remove the duplicate cases as soon as possible"));
     endif;
     concathh();
     WrkElig( 2, WNUMBER, IntSex );           { generates file with HH from all interviewers and others }
@@ -2032,5 +2031,5 @@ postproc
                 ::         -> 9;
     endrecode; 
     if x = 9 then
-      errmsg("Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem",partial,ZSTATUSC);
+      errmsg(tr("Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem"),partial,ZSTATUSC);
     endif;
