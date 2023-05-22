@@ -43,8 +43,8 @@ PROC GLOBAL
   numeric  CurrDate, TransDate;
   numeric hhtoget;
   config   CSWebURL, CSWebUser, CSWebPIN, CSWebSurvey;
-  string SyncCloudID_CC81 = "8c4788efbd38471fa36c3293331a784d";
-  string SyncCloudPIN_CC81 = "Kq2CRjYuXxgP";
+  string SyncCloudID_CC81 = "e7b8a288802849cfb4c1b28d5428b641";
+  string SyncCloudPIN_CC81 = "A2Q1erBXZuMS9_";
   list string ListUpgrades, IntUpgrades;
   list string dirstocheck;
                                           { 2nd dimension: 1-Code

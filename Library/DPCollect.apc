@@ -1,4 +1,4 @@
-  string strval;
+﻿  string strval;
 
   FILE PartialFile;
   { function to partially save data on demand }
@@ -82,10 +82,12 @@
   function maxgrade( xlevel )
     numeric z;
     recode xlevel -> z;
-           0   -> 2; { !!! Preschool maximum }
-           1   -> 7; { !!! Primary maximum }
-           2   -> 6; { !!! Secondary maximum }
-           3   -> 5; { !!! Higher }
+           0   -> 4;  { !!! Preschool maximum }
+           1   -> 11; { !!! General school maximum }
+           2   -> 4;  { !!! Professional primary maximum }
+           3   -> 4;  { !!! Profesional Middle 2 from GS=11 and 4 from GS=9 maximum}
+           4   -> 7;  { !!! Higher (Bachelor 4 and Masters 2-3) maximum }	
+           5   -> 3;  { !!! Postgrade }			   
     endrecode;
     maxgrade = z;
   end;

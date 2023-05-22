@@ -363,9 +363,9 @@ questions:
     conditions:
       - questionText:
           EN: |
-            43. Adults use certain ways to teach children the right behaviour or to address a behaviour problem. I will read various methods that are used. Please tell me if <u>you or anyone other adult in the household</u> has used this method with ~~QCDINAME~~ in the past month.<p></p>
+            <p>43. Adults use certain ways to teach children the right behaviour or to address a behaviour problem. I will read various methods that are used. Please tell me if <u>you or anyone other adult in the household</u> has used this method with ~~QCDINAME~~ in the past month.</p><p></p><p><span style="color: rgb(0, 0, 255);">PRESS ENTER TO CONTINUE</span><br></p><p></p>
           RU: |
-            43.&nbsp;Взрослые используют определенные способы, чтобы научить детей правильному поведению или решить проблему поведения. Я зачитаю вам различные используемые методы. Пожалуйста, скажите мне, если вы или любой другой взрослый в домохозяйстве применял этот метод по отношению ~~QCDINAME~~&nbsp;в течение прошлого месяца.<p></p>
+            <p>43.&nbsp;Взрослые используют определенные способы, чтобы научить детей правильному поведению или решить проблему поведения. Я зачитаю вам различные используемые методы. Пожалуйста, скажите мне, если вы или любой другой взрослый в домохозяйстве применял этот метод по отношению ~~QCDINAME~~&nbsp;в течение прошлого месяца.</p><p></p><p><font color="#0000ff">НАЖМИТЕ ВВОД, ЧТОБЫ ПРОДОЛЖИТЬ</font><br></p><p></p>
   - name: TJHH80.QCDI3A
     conditions:
       - logic: xsex <> 1
@@ -732,9 +732,9 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p>129.  How many of the following animals does this household own?</p><p><span class="instruction">IF NONE, RECORD &#39;00&#39;.</span></p><p><span class="instruction">IF MORE THAN 95, RECORD &#39;95&#39;.</span></p><p><span class="instruction">IF UNKNOWN, RECORD &#39;98&#39;.</span></p>
+            <p>129.  How many of the following animals does this household own?</p><p><span class="instruction">IF NONE, RECORD '00'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">IF MORE THAN 95, RECORD '95'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">IF UNKNOWN, RECORD '98'.</span></p>
           RU: |
-            <p>129.  Сколько из перечисленных животных находятся во владении данного домохозяйства?</p><p><span class="instruction">ЕСЛИ НИ ОДНОГО, ЗАПИШИТЕ &#39;00&#39;.</span></p><p><span class="instruction">ЕСЛИ 95 ИЛИ БОЛЕЕ, ЗАПИШИТЕ &#39;95&#39;.</span></p><p><span class="instruction">ЕСЛИ НЕ ИЗВЕСТНО, ЗАПИШИТЕ &#39;98&#39;.</span></p>
+            <p>129.  Сколько из перечисленных животных находятся во владении данного домохозяйства?</p><p><span class="instruction">ЕСЛИ НИ ОДНОГО, ЗАПИШИТЕ '00'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">ЕСЛИ 95 ИЛИ БОЛЕЕ, ЗАПИШИТЕ '95'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">ЕСЛИ НЕ ИЗВЕСТНО, ЗАПИШИТЕ '98'.</span></p>
   - name: TJHH80.QH129A
     conditions:
       - questionText:
@@ -1014,7 +1014,7 @@ questions:
           EN: |
             <p>132uu).  A clothes dryer machine?</p>
           RU: |
-            <p>132uu).&nbsp;Cпутниковая антенна или кабельные телеканалы?</p>
+            <p>132uu).&nbsp;Сушильная машина для одежды электрическая?</p>
   - name: TJHH80.QH132VV
     conditions:
       - questionText:
@@ -1264,7 +1264,7 @@ questions:
           EN: |
             <p><span style="font-size:21px;color:#0000ff;">ENTER WHETHER A TRANSLATOR WAS USED DURING THE INTERVIEW&#160;</span></p>
           RU: |
-            <p><br></p><p><span style="color: rgb(0, 0, 255); font-size: 21px;">ENTER WHETHER A TRANSLATOR WAS USED DURING THE INTERVIEW&nbsp;</span><br></p>
+            <p><br></p><p><font color="#0000ff"><span style="font-size: 21px;">ПЕРЕВОДЧИК ИСПОЛЬЗОВАН</span></font><br></p>
   - name: TJHH80.GHAUX
     conditions:
       - questionText:
@@ -1302,22 +1302,30 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">Record the day of the visit&#160;</span></p>
+            <p> .  Record the day of the visit </p>
+          RU: |
+            <p> .  Запишите день посещения</p>
   - name: TJHH80.QBINTM
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">Record the month of the visit&#160;</span></p>
+            <p> .  Record the month of the visit </p>
+          RU: |
+            <p> .  Запишите месяц посещения</p>
   - name: TJHH80.QBINTY
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">Record the year of the visit&#160;</span></p>
+            <p> .  Record the year of the visit </p>
+          RU: |
+            <p> .  Запишите год посещения</p>
   - name: TJHH80.QBVISITS
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">Register the number of visits necessary to complete the biomarker questionnaire&#160;</span></p>
+            <p> .  Register the number of visits necessary to complete the biomarker questionnaire </p>
+          RU: |
+            <p> .  Зарегистрируйте количество посещений, необходимых для заполнения анкеты по биомаркерам.</p>
   - name: TJHH80.QB102
     conditions:
       - questionText:
@@ -1327,296 +1335,373 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">Do you want to enter biomarker measurements for ~~QCNAME~~?&#160;</span></p>
+            <p> .  Do you want to enter biomarker measurements for ~~QCNAME~~? </p>
+          RU: |
+            <p> .  Вы хотите ввести измерения биомаркеров для ~~QCNAME~~?</p>
   - name: QB103_BLOCK
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#000000;font-family:'Arial', sans-serif;"> <span style="color:#408080;">What is ~~QCNAME~~&apos;s date of birth?&#160;</span></span></p>
+            <p>103.  What is ~~QCNAME~~’s date of birth?</p>
+          RU: |
+            <p>103.  Назовите ~~QCNAME~~ дату рождения?</p>
   - name: TJHH80.QB103D
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">D</span></p><p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;"><br></span></p>
+            <p><span class="instruction">103.  RECORD DAY </span></p>
+          RU: |
+            <p><span class="instruction">103.  ЗАПИСЬ ДЕНЬ</span></p>
   - name: TJHH80.QB103M
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD MONTH&#160;</span></p>
+            <p><span class="instruction">103.  RECORD MONTH </span></p>
+          RU: |
+            <p><span class="instruction">103.  ЗАПИСЬ МЕСЯЦ</span></p>
   - name: TJHH80.QB103Y
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD YEAR&#160;</span></p>
+            <p><span class="instruction">103.  RECORD YEAR </span></p>
+          RU: |
+            <p><span class="instruction">103.  ЗАПИСЬ ГОД</span></p>
   - name: TJHH80.QB104
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#000000;font-family:'Arial', sans-serif;">How old was ~~QCNAME~~ at ~~QCNAME~~&apos;s last birthday? &#160;</span></p>
+            <p>104.  How old was ~~QCNAME~~ at ~~QCNAME~~&#39;s last birthday?</p>
+          RU: |
+            <p>104.  Сколько лет исполнилось ~~QCNAME~~ в последний день рождения ~~QCNAME~~?</p>
   - name: TJHH80.QB106
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD ~~QCNAME~~&apos;S WEIGHT IN KILOGRAMS.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.xx and enter the decimal point)&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">106.  RECORD ~~QCNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xx.xx and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">106.  ЗАПИШИТЕ ВЕС ~~QCNAME~~ В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичную точку)</p>
   - name: TJHH80.QB106W
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER ~~QCNAME~~&apos;S WEIGHT IN KILOGRAMS.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.xx and enter the decimal point)&#160;</span></p>
+            <p><span class="instruction">106.  RE-ENTER ~~QCNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xx.xx and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">106.  ПОВТОРИТЕ ВЕС ~~QCNAME~~ В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичную точку)</p>
   - name: TJHH80.QB107
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">WAS THE CHILD MINIMALLY DRESSED?&#160;</span></p>
+            <p><span class="instruction">107.  WAS THE CHILD MINIMALLY DRESSED?</span></p>
+          RU: |
+            <p><span class="instruction">107.  РЕБЕНОК БЫЛ МИНИМАЛЬНО ОДЕТ?</span></p>
   - name: TJHH80.QB108
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD ~~QCNAME~~&apos;S HEIGHT IN CENTIMETERS.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xxx.x and enter the decimal point)&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">108.  RECORD ~~QCNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">108.  ЗАПИШИТЕ РОСТ ~~QCNAME~~ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
   - name: TJHH80.QB108W
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER ~~QCNAME~~&apos;S HEIGHT IN CENTIMETERS.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xxx.x and enter the decimal point)&#160;</span></p>
+            <p><span class="instruction">108.  RE-ENTER ~~QCNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">108.  ПОВТОРИТЕ РОСТ ~~QCNAME~~ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
   - name: TJHH80.QB109
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER ~~QCNAME~~&apos;S WAS MEASURED LYING DOWN OR STANDING UP.&#160;</span></p>
+            <p><span class="instruction">109.  WAS THE CHILD MEASURED LYING DOWN OR STANDING UP?</span></p>
+          RU: |
+            <p><span class="instruction">109.  РЕБЕНКА ИЗМЕРЯЛИ ЛЕЖА ИЛИ СТОЯ?</span></p>
   - name: TJHH80.QB110
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">CHECK 104 AND 109: BASED ON CHILD&apos;S AGE, WAS CORRECT MEASUREMENT PROCEDURE FOLLOWED?&#160;</span></p>
+            <p><span class="instruction">110.  CHECK 104 AND 109: BASED ON CHILD&#39;S AGE, WAS CORRECT MEASUREMENT PROCEDURE FOLLOWED? </span></p>
+          RU: |
+            <p><span class="instruction">110.  ПРОВЕРЬТЕ 104 И 109: СОБЛЮДАЛИ ЛИ ПРАВИЛЬНУЮ ПРОЦЕДУРУ ИЗМЕРЕНИЯ В ЗАВИСИМОСТИ ОТ ВОЗРАСТА РЕБЕНКА?</span></p>
   - name: TJHH80.QB111
     conditions:
       - logic: chage = 0
         questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">PRESS ENTER AND RECORD THE REASON WHY ~~QCNAME~~ WAS MEASURED STANDING UP&#160;</span></p>
+            <p><span class="instruction">111.  PRESS ENTER AND RECORD THE REASON WHY ~~QCNAME~~ WAS MEASURED STANDING UP </span></p>
+          RU: |
+            <p><span class="instruction">111.  НАЖМИТЕ ВВОД И НАПИШИТЕ ПРИЧИНУ, ПОЧЕМУ ~~QCNAME~~ БЫЛО ИЗМЕРЕНО СТОЯ</span></p>
       - logic: chage = 1
         questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">PRESS ENTER AND RECORD THE REASON WHY ~~QCNAME~~ WAS MEASURED LYING DOWN&#160;</span></p>
+            <p><span class="instruction">111.  PRESS ENTER AND RECORD THE REASON WHY ~~QCNAME~~ WAS MEASURED LYING DOWN</span></p>
+          RU: |
+            <p><span class="instruction">111.  НАЖМИТЕ ВВОД И НАПИШИТЕ ПРИЧИНУ, ПОЧЕМУ ~~QCNAME~~ БЫЛО ИЗМЕРЕНО ЛЕЖА</span></p>
   - name: TJHH80.QB112
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">WAS THE RECORDED MEASUREMENT INTERFERED WITH BY BRAIDED OR ORNAMENTED HAIR?&#160;</span></p>
+            <p><span class="instruction">112.  WAS THE RECORDED MEASUREMENT INTERFERED WITH BY BRAIDED OR ORNAMENTED HAIR? </span></p>
+          RU: |
+            <p><span class="instruction">112.  ЗАПЛЕТЕНЫЕ ВОЛОСЫ ИЛИ УКРАШЕНИЯ В ВОЛОСАХ ПОВЛИЯЛИ НА ЗАПИСАННОЕ ИЗМЕРЕНИЕ?</span></p>
   - name: TJHH80.QB113
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">ENTER FIELDWORKER NUMBER OF THE BIOMARKER MEASURER.&#160;</span></p>
+            <p><span class="instruction">113.  ENTER BIOMARKER NUMBER OF MEASURER.</span></p>
+          RU: |
+            <p><span class="instruction">113.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРИТЕЛЯ.</span></p>
   - name: TJHH80.QB114
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF ASSISTANT MEASURER.&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;">IF NO ASSISTANT MEASURER, ENTER 9999.&#160;</span></p>
+            <p><span class="instruction">114.  ENTER BIOMARKER NUMBER OF ASSISTANT MEASURER.</span></p><p><span class="instruction">IF NO ASSISTANT MEASURER, ENTER 9999. </span></p>
+          RU: |
+            <p><span class="instruction">114.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ПОМОЩНИКА ИЗМЕРИТЕЛЯ.</span></p><p><span class="instruction">ЕСЛИ ПОМОЩНИК ИЗМЕРИТЕЛЯ НЕТ, ВВЕДИТЕ 9999.</span></p>
   - name: QB115_BLOCK
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#000000;"> <span style="color:#008040;">RECORD THE DATE OF MEASUREMENT&#160;</span></span></p>
+            <p><span class="instruction">115.  RECORD TODAY&#39;S DATE</span></p>
+          RU: |
+            <p><span class="instruction">115.  СЕГОДНЯШНЯЯ ДАТА:</span></p>
   - name: TJHH80.QB115D
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD DAY&#160;</span></p>
+            <p><span class="instruction">115.  RECORD DAY </span></p>
+          RU: |
+            <p><span class="instruction">115.  ЗАПИСЬ ДЕНЬ</span></p>
   - name: TJHH80.QB115M
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD MONTH&#160;</span></p>
+            <p><span class="instruction">115.  RECORD MONTH </span></p>
+          RU: |
+            <p><span class="instruction">115.  ЗАПИСЬ МЕСЯЦ</span></p>
   - name: TJHH80.QB115Y
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD YEAR&#160;</span></p>
+            <p><span class="instruction">115.  RECORD YEAR </span></p>
+          RU: |
+            <p><span class="instruction">115.  ЗАПИСЬ ГОД</span></p>
   - name: TJHH80.QB118
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD LINE NUMBER OF PARENT/OTHER ADULT RESPONSIBLE FOR ~~QCNAME~~.&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD &apos;0&apos; IF NOT LISTED&#160;</span></p>
+            <p><span class="instruction">118.  RECORD LINE NUMBER OF PARENT/OTHER ADULT RESPONSIBLE FOR ~~QCNAME~~.  </span></p><p><span class="instruction">RECORD &#39;0&#39; IF NOT LISTED </span></p>
+          RU: |
+            <p><span class="instruction">118.  ЗАПИШИТЕ ИМЯ РОДИТЕЛЯ/ОТВЕТСТВЕННОГО ВЗРОСЛОГО ЗА РЕБЕНКА .</span></p><p><span class="instruction">ЗАПИСАТЬ &#39;0&#39;, ЕСЛИ НЕ УКАЗАН</span></p>
   - name: TJHH80.QB120
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER CONSENT FOR ANEMIA TESTING WAS GRANTED FOR ~~QCNAME~~&#160;</span></p>
+            <p><span class="instruction">120.  RECORD WHETHER CONSENT FOR ANEMIA TESTING WAS GRANTED FOR ~~QCNAME~~</span></p>
+          RU: |
+            <p><span class="instruction">120.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ НА ТЕСТИРОВАНИЕ НА АНЕМИЮ ДЛЯ ~~QCNAME~~</span></p>
   - name: TJHH80.QB121
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
+            <p><span class="instruction">121.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
+          RU: |
+            <p><span class="instruction">121.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
   - name: TJHH80.QB122
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD HEMOGLOBIN LEVEL FOR ~~QCNAME~~.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.x and enter the decimal point)&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">122.  RECORD HEMOGLOBIN LEVEL HERE FOR ~~QCNAME~~ AND IN THE ANTHROPOMETRY AND ANEMIA PAMPHLET.</span></p><p>(Use format xx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">122.  ЗАПИШИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ЗДЕСЬ И В БРОШЮРЕ ПО АНТРОПОМЕТРИИ И АНЕМИИ.</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
   - name: TJHH80.QB122W
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER HEMOGLOBIN LEVEL FOR ~~QCNAME~~.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.x and enter the decimal point)&#160;</span></p>
+            <p><span class="instruction">122W.  RE-ENTER HEMOGLOBIN LEVEL FOR ~~QCNAME~~. </span></p><p>(Use format xx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">122W.  ПОВТОРИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ДЛЯ ~~QCNAME~~.</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
   - name: TJHH80.QB123
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">CHECK 122: HEMOGLOBIN RESULT&#160;</span></p>
+            <p><span class="instruction">123.  CHECK 122: HEMOGLOBIN RESULT </span></p>
+          RU: |
+            <p><span class="instruction">123.  ПРОВЕРЬТЕ 122: РЕЗУЛЬТАТ ГЕМОГЛОБИНА</span></p>
   - name: TJHH80.QB202
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD LINE NUMBER OF WOMAN&#160;</span></p>
+            <p><span class="instruction">202.  RECORD LINE NUMBER OF WOMAN </span></p>
+          RU: |
+            <p><span class="instruction">202.  ЗАПИСЬ НОМЕР ЖЕНЩИНЫ</span></p>
   - name: TJHH80.QWAUXIL
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">Do you want to enter biomarker measurements for ~~QWNAME~~?&#160;</span></p>
-            <p>&#160;</p>
+            <p>123.  Do you want to enter biomarker measurements for ~~QWNAME~~? </p>
+          RU: |
+            <p>123.  Вы хотите ввести измерения биомаркеров для ~~QWNAME~~?</p>
   - name: TJHH80.QB203
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER AGE OF ~~QWNAME~~ IS 15-17 YEARS, OR 18-49 YEARS&#160;</span></p>
+            <p><span class="instruction">203.  RECORD WHETHER AGE OF ~~QWNAME~~ IS 15-17 YEARS, OR 18-49 YEARS </span></p>
+          RU: |
+            <p><span class="instruction">203.  ЗАПИШИТЕ, ЯВЛЯЕТСЯ ЛИ ВОЗРАСТ ~~QWNAME~~ 15-17 ЛЕТ ИЛИ 18-49 ЛЕТ</span></p>
   - name: TJHH80.QB204
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD ~~QWNAME~~&apos;S MARITAL STATUS&#160;</span></p>
+            <p><span class="instruction">204.  RECORD ~~QWNAME~~&#39;S MARITAL STATUS </span></p>
+          RU: |
+            <p><span class="instruction">204.  ЗАПИСАТЬСЯ О СЕМЕЙНОМ ПОЛОЖЕНИИ ~~QWNAME~~</span></p>
   - name: TJHH80.QB205
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD ~~QWNAME~~&apos;S WEIGHT IN KILOGRAMS.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xxx.xx and enter the decimal point)&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">205.  RECORD ~~QWNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xxx.xx and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">205.  ЗАПИШИТЕ ВЕС ~~QWNAME~~ В КИЛОГРАММАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
   - name: TJHH80.QB205W
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER ~~QWNAME~~&apos;S WEIGHT IN KILOGRAMS&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.x and enter the decimal point)&#160;</span></p>
+            <p><span class="instruction">205W.  RE-ENTER ~~QWNAME~~&#39;S WEIGHT IN KILOGRAMS </span></p><p>(Use format xx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">205W.  ПОВТОРИТЕ ВЕС ~~QWNAME~~ В КИЛОГРАММАХ</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
   - name: TJHH80.QB206
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">WAS THE WOMAN WEARING ONLY LIGHTWEIGHT CLOTHING?&#160;</span></p>
+            <p><span class="instruction">206.  WAS THE WOMAN WEARING ONLY LIGHTWEIGHT CLOTHING? </span></p>
+          RU: |
+            <p><span class="instruction">206.  НА ЖЕНЩИНЕ БЫЛА ТОЛЬКО ЛЕГКАЯ ОДЕЖДА?</span></p>
   - name: TJHH80.QB207
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD ~~QWNAME~~&apos;S HEIGHT IN CENTIMETERS.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xxx.x and enter the decimal point)&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">207.  RECORD ~~QWNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">207.  ЗАПИШИТЕ РОСТ ~~QWNAME~~ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
   - name: TJHH80.QB207W
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER ~~QWNAME~~&apos;S HEIGHT IN CENTIMETERS&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xxx.x and enter the decimal point)&#160;</span></p>
+            <p><span class="instruction">207W.  RE-ENTER ~~QWNAME~~&#39;S HEIGHT IN CENTIMETERS </span></p><p>(Use format xxx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">207W.  ПОВТОРИТЕ РОСТ ~~QWNAME~~ В САНТИМЕТРАХ</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
   - name: TJHH80.QB208
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">WAS THE RECORDED MEASUREMENT INTERFERED WITH BY BRAIDED OR ORNAMENTED HAIR?&#160;</span></p>
+            <p><span class="instruction">208.  WAS THE RECORDED MEASUREMENT INTERFERED WITH BY BRAIDED OR ORNAMENTED HAIR?</span></p>
+          RU: |
+            <p><span class="instruction">208.  ЗАПЛЕТЕНЫЕ ВОЛОСЫ ИЛИ УКРАШЕНИЯ В ВОЛОСАХ  ПОВЛИЯЛИ НА ЗАПИСАННОЕ ИЗМЕРЕНИЕ?</span></p>
   - name: TJHH80.QB209
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD FIELDWORKER NUMBER OF BIOMARKER MEASURER.&#160;</span></p>
+            <p><span class="instruction">209.  ENTER BIOMARKER NUMBER OF MEASURER.</span></p>
+          RU: |
+            <p><span class="instruction">209.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРИТЕЛЯ.</span></p>
   - name: TJHH80.QB210
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF ASSISTANT MEASURER.&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;">IF NO ASSISTANT MEASURER, ENTER 9999.&#160;</span></p>
+            <p><span class="instruction">210.  ENTER BIOMARKER NUMBER OF ASSISTANT MEASURER.</span></p><p><span class="instruction">IF NO ASSISTANT MEASURER, ENTER 9999. </span></p>
+          RU: |
+            <p><span class="instruction">210.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ПОМОЩНИКА ИЗМЕРИТЕЛЯ.</span></p><p><span class="instruction">ЕСЛИ ПОМОЩНИК ИЗМЕРИТЕЛЯ НЕТ, ВВЕДИТЕ 9999.</span></p>
   - name: QB211_BLOCK
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#000000;"> <span style="color:#008040;">RECORD THE DATE OF MEASUREMENT&#160;</span></span></p>
+            <p><span class="instruction">211.  RECORD TODAY&#39;S DATE</span></p>
+          RU: |
+            <p><span class="instruction">211.  СЕГОДНЯШНЯЯ ДАТА:</span></p>
   - name: TJHH80.QB211D
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD DAY&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">211.  RECORD DAY </span></p>
+          RU: |
+            <p><span class="instruction">211.  ЗАПИСЬ ДЕНЬ</span></p>
   - name: TJHH80.QB211M
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD MONTH&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">211.  RECORD MONTH </span></p>
+          RU: |
+            <p><span class="instruction">211.  ЗАПИСЬ МЕСЯЦ</span></p>
   - name: TJHH80.QB211Y
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD YEAR&#160;</span></p>
+            <p><span class="instruction">211.  RECORD YEAR </span></p>
+          RU: |
+            <p><span class="instruction">211.  ЗАПИСЬ ГОД</span></p>
   - name: TJHH80.QB215
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER CONSENT WAS GRANTED FOR ANEMIA TESTING BY RESPONDENT&#160;</span></p>
+            <p><span class="instruction">215.  RECORD WHETHER CONSENT WAS GRANTED FOR ANEMIA TESTING BY RESPONDENT </span></p>
+          RU: |
+            <p><span class="instruction">215.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ РЕСПОНДЕНТА НА ТЕСТИРОВАНИЕ НА АНЕМИЮ</span></p>
   - name: TJHH80.QB216
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
+            <p><span class="instruction">216.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
+          RU: |
+            <p><span class="instruction">216.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
   - name: TJHH80.QB217
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD LINE NUMBER OF PARENT/OTHER ADULT RESPONSIBLE FOR ~~QWNAME~~&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD &apos;0&apos; IF NOT LISTED&#160;</span></p>
+            <p><span class="instruction">217.  RECORD LINE NUMBER OF PARENT/OTHER ADULT RESPONSIBLE FOR ~~QWNAME~~ </span></p><p><span class="instruction">RECORD &#39;0&#39; IF NOT LISTED </span></p>
+          RU: |
+            <p><span class="instruction">217.  НОМЕР РОДИТЕЛЯ/ДРУГОГО ВЗРОСЛОГО, ОТВЕТСТВЕННОГО ЗА ~~QWNAME~~</span></p><p><span class="instruction">ЗАПИСАТЬ '0', ЕСЛИ НЕ УКАЗАН</span></p>
   - name: TJHH80.QB219
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER ANEMIA TEST CONSENT WAS GRANTED BY CARETAKER FOR ~~QWNAME~~&#160;</span></p>
+            <p><span class="instruction">219.  RECORD WHETHER ANEMIA TEST CONSENT WAS GRANTED BY CARETAKER FOR ~~QWNAME~~</span></p>
+          RU: |
+            <p><span class="instruction">219.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ НА ТЕСТ НА АНЕМИЮ ДЛЯ ~~QWNAME~~</span></p>
   - name: TJHH80.QB220
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
+            <p><span class="instruction">220.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
+          RU: |
+            <p><span class="instruction">220.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
   - name: TJHH80.QB223
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD WHETHER ANEMIA TEST CONSENT WAS GRANTED BY ~~QWNAME~~&#160;</span></p>
+            <p><span class="instruction">223.  RECORD WHETHER ANEMIA TEST CONSENT WAS GRANTED BY ~~QWNAME~~</span></p>
+          RU: |
+            <p><span class="instruction">223.  ЗАПИШИТЕ, ДАЛО ЛИ ~~QWNAME~~ СОГЛАСИЕ НА ТЕСТ НА АНЕМИЮ</span></p>
   - name: TJHH80.QB224
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER FIELDWORKER NUMBER OF HEMOGLOBIN MEASURER.&#160;</span></p>
+            <p><span class="instruction">224.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
+          RU: |
+            <p><span class="instruction">224.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
   - name: TJHH80.QB225
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD ~~QWNAME~~&apos;S HEMOGLOBIN LEVEL.&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.x and enter the decimal point)&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction">225.  RECORD ~~QWNAME~~&#39;S HEMOGLOBIN LEVEL. </span></p><p>(Use format xx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">225.  ЗАПИСАТЬ ~~QWNAME~~ УРОВЕНЬ ГЕМОГЛОБИНА.</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
   - name: TJHH80.QB225W
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RE-ENTER ~~QWNAME~~&apos;S HEMOGLOBIN LEVEL&#160;</span></p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">(Use format xx.x and enter the decimal point)&#160;</span></p>
+            <p><span class="instruction">225W.  RE-ENTER ~~QWNAME~~&#39;S HEMOGLOBIN LEVEL </span></p><p>(Use format xx.x and enter the decimal point) </p>
+          RU: |
+            <p><span class="instruction">225W.  ПОВТОРИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ~~QWNAME~~</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
   - name: TJHH80.QB226
     conditions:
       - questionText:
@@ -1626,15 +1711,9 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">END OF BIOMARKER QUESTIONNAIRE.&#160;</span></p>
-            <p>&#160;</p>
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">A WINDOW WILL BE DISPLAYED TO WRITE ANY NOTES.  AFTER THAT THE QUESTIONNAIRE WILL BE SAVED AUTOMATICALLY.&#160;</span></p>
-  - name: OTHERS.OTHRESP
-    conditions:
-      - questionText:
-          EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">RECORD &quot;OTHER&quot; ANSWER&#160;</span></p>
-            <p>&#160;</p>
+            <p><span class="instruction"> .  END OF BIOMARKER QUESTIONNAIRE. </span></p><p> </p><p><span class="instruction">A WINDOW WILL BE DISPLAYED TO WRITE ANY NOTES. AFTER THAT THE QUESTIONNAIRE WILL BE SAVED AUTOMATICALLY. </span></p>
+          RU: |
+            <p><span class="instruction"> .  КОНЕЦ АНКЕТЫ БИОМАРКЕРОВ.</span></p><p> </p><p><span class="instruction">ОТОБРАЖАЕТСЯ ОКНО ДЛЯ НАПИСАНИЯ ЛЮБЫХ ЗАМЕЧАНИЙ. ПОСЛЕ ЭТОГО АНКЕТА БУДЕТ СОХРАНЕНА АВТОМАТИЧЕСКИ.</span></p>  - name: OTHERS.OTHRESP
   - name: ABM115_BLOCK
     conditions:
       - questionText:

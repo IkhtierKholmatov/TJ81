@@ -7323,9 +7323,13 @@ PROC Q515
 
 PROC Q517
   if $ <> 1 then
-    skip to Q521
+    skip to Q520
   endif;
 
+PROC Q520
+  if $ <> 1 then
+    skip to Q521
+  endif;
 PROC Q521
   if $ <> 1 then
     skip to Q522A
@@ -7358,6 +7362,14 @@ PROC FA01
   if $ <> 1 then
     skip to next QCOL51;
   endif;
+PROC FA02
+  if demode() = add & $ = 1 then
+    if android then
+      TakePictureA( FA02 )
+    else	  
+      TakePictureW( FA02 )
+    endif;	  
+  endif; 
 PROC QWSEC6A_FORM
 preproc
   SaveData();

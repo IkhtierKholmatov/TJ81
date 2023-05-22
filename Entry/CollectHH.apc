@@ -257,7 +257,7 @@ preproc
   { Set the applications minimum and maximum parameters }
   maxmemb  = maxocc(QHSEC01);     { maximum number of household members }
   maxbio   = maxocc(QBSEC01);     { maximum entries for several multiple records in HH }
-  alphalst = "ABCDEFGHIJKLMNOPQRSTUVWXYZЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮҚҲҶЯӢЁҒ";
+  alphalst = "ABCDEFGHIJKLMNOPQRSTUVWXYZЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮҚҲҶЯӢЁҒabcdefghijklmnopqrstuvwxyzйцукенгшщзхъфывапролджэячсмитьбюқҳҷяӣёғ";
 
   MinAgeH   = 15;       { Min Age for household head }
   MinAgeS   = 12;       { Min Age for spouse }
@@ -635,8 +635,11 @@ postproc
   endif;
 
 PROC QHLASTN
-  { Check that response is alphabetic and starts in the first column }
-  if !pos( $[1:1], strip(alphalst) ) then
+
+  { Check that response is alphabetic and starts in the first column } {Modified for TJ23 to let enter blank in surname, but only characters if there is a surname}
+  if pos( $[1:1], " ") then
+	skip to QHRELAT;
+  elseif !pos( $[1:1], strip(alphalst) ) then
     errmsg( 89991 ) select( tr("Last name"), $ );
   endif;
   
@@ -996,10 +999,12 @@ preproc
 	skip to QH18  	
   endif;
   
+{Deleted original skip}
+{
 postproc
   if $ <> 1 then
     skip to QH20
-  endif;
+  endif;}
 PROC QH18
 {Skips modified for TJ23}
 preproc
@@ -1109,9 +1114,9 @@ PROC QH103
   endif;
 
 PROC QH104
-  if $ in 1:900 & $%10 <> 0 & $%10 <> 5 then
+  {if $ in 1:900 & $%10 <> 0 & $%10 <> 5 then
     warning( 9993 ) select( tr("Minutes"), $, tr("Continue"), continue );
-  endif;
+  endif;}
 
 PROC QH105
 onfocus
@@ -1382,6 +1387,11 @@ preproc
 	
 PROC GHAUX
 preproc
+skip to QHFINISH;
+
+{No HH level GPS capture required for TJ23}
+{
+preproc
   SaveData();
   capturecoor = ( visualvalue(GHLATITUDE) = notappl );
   if capturecoor then
@@ -1396,7 +1406,7 @@ postproc
   if $ <> 1 then
     advance to QHFINISH
   endif;  
-  
+}  
 PROC GHINTRO
 onfocus
   capturecoor = ( visualvalue(GHLATITUDE) = notappl );
