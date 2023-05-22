@@ -37,7 +37,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Household identification|Идентификация домохозяйств 
+Label=Household identification|Идентификация домохозяйств
 Name=QHSECOVER
 RecordTypeValue='H00'
 RecordLen=308
@@ -1067,7 +1067,8 @@ DataType=Numeric
 [ValueSet]
 Label=Total number of completed years of schooling
 Name=QH16A_VS1
-Value=1:30
+Value=0;None|НИЧЕГО
+Value=1:27
 
 [Item]
 Label=Education attainment
@@ -1120,7 +1121,7 @@ DataType=Numeric
 [ValueSet]
 Label=Number of classes completed
 Name=QH17C_VS1
-Value=8:11
+Value=9:11
 
 [Item]
 Label=Received attestat
@@ -1725,9 +1726,9 @@ DataType=Numeric
 [ValueSet]
 Label=Cows/bulls
 Name=QH129A_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1740,9 +1741,9 @@ DataType=Numeric
 [ValueSet]
 Label=Other cattle
 Name=QH129B_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1755,9 +1756,9 @@ DataType=Numeric
 [ValueSet]
 Label=Horses/donkeys/mules
 Name=QH129C_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1770,9 +1771,9 @@ DataType=Numeric
 [ValueSet]
 Label=Goats
 Name=QH129D_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1785,9 +1786,9 @@ DataType=Numeric
 [ValueSet]
 Label=Sheep
 Name=QH129E_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1800,9 +1801,9 @@ DataType=Numeric
 [ValueSet]
 Label=Chickens or other poultry
 Name=QH129F_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1815,9 +1816,9 @@ DataType=Numeric
 [ValueSet]
 Label=Rabbits
 Name=QH129G_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -1830,9 +1831,9 @@ DataType=Numeric
 [ValueSet]
 Label=Fur animals
 Name=QH129H_VS1
-Value=0;None|Никто
+Value=0;None|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
 Value=98;Unknown|НЕ ЗНАЮ
 
 [Item]
@@ -2420,6 +2421,7 @@ DataType=Numeric
 [ValueSet]
 Label=Number of women with bank account
 Name=QH134AA_VS1
+Value=0;None|НИЧЕГО
 Value=1:50
 Value=98;Don't know|НЕ ЗНАЮ
 
@@ -2433,6 +2435,7 @@ DataType=Numeric
 [ValueSet]
 Label=Number of men with bank account
 Name=QH134AB_VS1
+Value=0;None|НИЧЕГО
 Value=1:50
 Value=98;Don't know|НЕ ЗНАЮ
 
@@ -2459,11 +2462,11 @@ DataType=Numeric
 [ValueSet]
 Label=Frequency of smoking inside house
 Name=QH136_VS1
-Value=1;Daily|РОССИЯ
-Value=2;Weekly|КАЗАХСТАН
-Value=3;Monthly|ДРУГОЕ БЫВШИЙ СССР
-Value=4;Less often than once a month|БЛИЖНИЙ ВОСТОК/ДУБАЙ
-Value=5;Never|ЕВРОПА
+Value=1;Daily|ЕЖЕДНЕВНО
+Value=2;Weekly|ЕЖЕНЕДЕЛЬНО
+Value=3;Monthly|ЕЖЕМЕСЯЧНО
+Value=4;Less often than once a month|РЕЖЕ, ЧЕМ  РАЗ В МЕСЯЦ
+Value=5;Never|НИКОГДА
 
 [Item]
 Label=Worked abroad last 12 months
@@ -2489,6 +2492,7 @@ DataType=Numeric
 [ValueSet]
 Label=Number of women working abroad
 Name=QH136BA_VS1
+Value=0;None|НИЧЕГО
 Value=1:50
 Value=98;Don't know|НЕ ЗНАЮ
 
@@ -2502,6 +2506,7 @@ DataType=Numeric
 [ValueSet]
 Label=Number of men working abroad
 Name=QH136BB_VS1
+Value=0;None|НИЧЕГО
 Value=1:50
 Value=98;Don't know|НЕ ЗНАЮ
 
