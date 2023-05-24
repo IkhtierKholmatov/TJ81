@@ -118,7 +118,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AHFORM01
 Label=Household schedule
-QuestionTextHeight=135
+QuestionTextHeight=163
 Level=1
 Size=1110,702
   
@@ -172,7 +172,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0178 0003 0002 0001 0034 Arial
 [Form]
 Name=AHFORM02
 Label=Household characteristics
-QuestionTextHeight=160
+QuestionTextHeight=227
 Level=1
 Size=1477,589
   
@@ -286,7 +286,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AHFORM04
 Label=Additional household characteristics
-QuestionTextHeight=122
+QuestionTextHeight=158
 Level=1
 Size=885,445
   
@@ -408,7 +408,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=ABFORM02
 Label=Weight, Height and Hemoglobin Measurement for Women
-QuestionTextHeight=118
+QuestionTextHeight=122
 Level=1
 Size=1288,833
   
@@ -558,7 +558,7 @@ Max=5
 DisplaySize=27,255,463,444
 Orientation=Vertical
 ColumnWidth=71
-StubColumnWidth=74
+StubColumnWidth=85
 HeadingRowHeight=6
 FreeMovement=Yes
 DefaultMovement=Horizontal
@@ -600,7 +600,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=23,4,74,28
+Position=34,4,85,28
 Text=Столб.
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -624,7 +624,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=54
   
 [HeaderText]
-Position=17,15,56,39
+Position=23,15,62,39
 Text=Дата
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
@@ -681,14 +681,14 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=28
   
 [HeaderText]
-Position=12,4,62,28
-Text=Время
+Position=6,4,79,28
+Text=QHVHOUR
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
 [Field]
 Name=QHVHOUR
-Position=0,0,29,20
+Position=34,0,63,20
 Item=QHVHOUR,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -701,9 +701,20 @@ Position=0,0,66,16
 Text=QHVHOUR
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
+[EndColumn]
+  
+[Column]
+Width=28
+  
+[HeaderText]
+Position=0,4,85,28
+Text=QHVMINUTE
+Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+HorizontalAlignment=Center
+ 
 [Field]
 Name=QHVMINUTE
-Position=33,0,62,20
+Position=34,0,63,20
 Item=QHVMINUTE,TJHH80
 UseEnterKey=Yes
 Protected=Yes
@@ -722,7 +733,7 @@ Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 Width=32
   
 [HeaderText]
-Position=0,8,74,32
+Position=11,8,85,32
 Text=Результат
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -2349,31 +2360,6 @@ HorizontalAlignment=Center
 [EndColumn]
   
 [Column]
-Width=43
-  
-[HeaderText]
-Position=6,16,37,40
-Text=19B
-Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
-HorizontalAlignment=Center
- 
-[Field]
-Name=QH19B
-Position=4,0,33,20
-Item=QH19B,TJHH80
-UseEnterKey=Yes
-Verify=No
-UpperCase=Yes
-DataCaptureType=ComboBox
-  
-[Text]
-Text=19B
-Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
-HorizontalAlignment=Center
- 
-[EndColumn]
-  
-[Column]
 Width=27
   
 [HeaderText]
@@ -2394,6 +2380,31 @@ DataCaptureType=RadioButton
 [Text]
 Position=4,16,26,40
 Text=20
+Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+HorizontalAlignment=Center
+ 
+[EndColumn]
+  
+[Column]
+Width=43
+  
+[HeaderText]
+Position=6,16,37,40
+Text=19B
+Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+HorizontalAlignment=Center
+ 
+[Field]
+Name=QH19B
+Position=4,0,33,20
+Item=QH19B,TJHH80
+UseEnterKey=Yes
+Verify=No
+UpperCase=Yes
+DataCaptureType=ComboBox
+  
+[Text]
+Text=19B
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
  
@@ -4792,10 +4803,10 @@ Item=QB106,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
-Position=0,0,42,16
+Position=0,0,44,16
 Text=QB106
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -4807,7 +4818,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,319,16
@@ -4849,9 +4860,10 @@ Item=QB108,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB108
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -4863,7 +4875,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,327,16
@@ -5122,9 +5134,10 @@ Item=QB122,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB122
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -5145,9 +5158,10 @@ Item=QB122W,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,248,16
 Text=Уровень гемоглобина (г/дл) - рабочее поле для повторного ввода
 VerticalAlignment=Top
  
@@ -5440,9 +5454,10 @@ UseEnterKey=Yes
 HideInCaseTree=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB205
  
 [Field]
@@ -5453,10 +5468,10 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
-Position=0,0,323,16
+Position=0,0,319,16
 Text=Weight in kilograms - working field for re-entering
  
 [EndColumn]
@@ -5496,9 +5511,10 @@ UseEnterKey=Yes
 HideInCaseTree=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB207
  
 [Field]
@@ -5509,7 +5525,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,327,16
@@ -5781,9 +5797,10 @@ UseEnterKey=Yes
 HideInCaseTree=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB225
  
 [Field]
@@ -5794,7 +5811,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,339,16

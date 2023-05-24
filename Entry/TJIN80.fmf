@@ -60,7 +60,7 @@ Color=16711680
 [Form]
 Name=AWFORMCON
 Label=Consent
-QuestionTextHeight=346
+QuestionTextHeight=424
 Level=1
 Size=442,121
   
@@ -71,7 +71,7 @@ Item=QCONSENT
 [Form]
 Name=AWFORM01
 Label=Respondent's background
-QuestionTextHeight=126
+QuestionTextHeight=237
 Level=1
 Size=833,400
   
@@ -122,7 +122,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM2A
 Label=Reproduction
-QuestionTextHeight=106
+QuestionTextHeight=186
 Level=1
 Size=394,553
   
@@ -205,9 +205,9 @@ Color=8388863
 [Form]
 Name=AWFORM2B
 Label=Pregnancy history
-QuestionTextHeight=136
+QuestionTextHeight=202
 Level=1
-Size=1144,531
+Size=1144,475
   
 Item=Q214
 Item=QWSEC2B_ROSTER1
@@ -228,7 +228,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000
-Position=17,440,1025,467
+Position=13,384,949,404
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -236,7 +236,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000
-Position=15,462,1023,489
+Position=11,406,947,426
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -246,7 +246,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
 [Form]
 Name=AWFORM2D
 Label=Reproduction (Continued)
-QuestionTextHeight=82
+QuestionTextHeight=99
 Level=1
 Size=967,635
   
@@ -278,7 +278,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000000
-Position=4,313,1012,340
+Position=4,313,940,333
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -286,7 +286,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000000
-Position=3,336,1011,363
+Position=3,336,939,356
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -296,7 +296,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
 [Form]
 Name=AWFORM3A
 Label=Contraceptive table
-QuestionTextHeight=106
+QuestionTextHeight=124
 Level=1
 Size=500,564
   
@@ -317,7 +317,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM3B
 Label=Contraceptive Practice
-QuestionTextHeight=134
+QuestionTextHeight=182
 Level=1
 Size=968,411
   
@@ -345,7 +345,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000002
-Position=7,315,1015,342
+Position=7,279,943,299
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -353,7 +353,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000002
-Position=7,341,1015,368
+Position=7,305,943,325
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -363,7 +363,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
 [Form]
 Name=AWFORM3E
 Label=Contraceptive use history
-QuestionTextHeight=184
+QuestionTextHeight=207
 Level=1
 Size=1081,554
   
@@ -383,7 +383,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000001
-Position=2,352,1010,379
+Position=2,352,938,372
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -391,7 +391,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000001
-Position=2,374,1010,401
+Position=2,374,938,394
 Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -399,7 +399,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT9
-Position=7,509,1015,536
+Position=7,509,943,529
 Text=123456789012345678901234567890123456789012345678901234567890123456789012
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -407,7 +407,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT10
-Position=5,482,1013,509
+Position=5,482,941,502
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -417,7 +417,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
 [Form]
 Name=AWFORM3D
 Label=Contraceptive use - Continuation
-QuestionTextHeight=133
+QuestionTextHeight=189
 Level=1
 Size=693,282
   
@@ -456,7 +456,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM04
 Label=Prenatal and postnatal care
-QuestionTextHeight=172
+QuestionTextHeight=223
 Level=1
 Size=1110,2275
   
@@ -476,7 +476,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM05
 Label=Immunization and health
-QuestionTextHeight=236
+QuestionTextHeight=410
 Level=1
 Size=957,1433
   
@@ -496,7 +496,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM6A
 Label=Child Health
-QuestionTextHeight=153
+QuestionTextHeight=224
 Level=1
 Size=943,988
   
@@ -518,7 +518,7 @@ Name=AWFORM6B
 Label=Child Feeding and Women's Feeding
 QuestionTextHeight=209
 Level=1
-Size=946,871
+Size=1028,871
   
 Item=Q635N
 Item=Q635
@@ -595,10 +595,10 @@ Item=Q643_FIX
 Item=Q637S
 Item=Q643R
   
-Box=18,76,245,789,Etched
-Box=256,76,511,787,Etched
-Box=517,75,633,794,Etched
-Box=651,76,921,796,Etched
+Box=18,76,333,789,Etched
+Box=340,76,595,787,Etched
+Box=602,75,726,794,Etched
+Box=733,76,1003,796,Etched
   
 [Text]
 Name=TEXT14
@@ -610,21 +610,21 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT6
-Position=101,88,238,104
+Position=191,88,328,104
 Text=Given | Times | Sweet
 Form=14
  
   
 [Text]
 Name=TEXT108
-Position=416,90,502,106
+Position=499,90,585,106
 Text=Given | Times
 Form=14
  
   
 [Text]
 Name=TEXT23
-Position=821,94,907,110
+Position=904,94,990,110
 Text=Given | Times
 Form=14
  
@@ -633,7 +633,7 @@ Form=14
 [Form]
 Name=AWFORM07
 Label=Marriage and Sexual activity
-QuestionTextHeight=151
+QuestionTextHeight=182
 Level=1
 Size=1014,435
   
@@ -735,8 +735,8 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT2
-Position=256,193,286,209
-Text=A814
+Position=256,193,287,209
+Text=Q814
 Form=16
  
 [EndForm]
@@ -744,7 +744,7 @@ Form=16
 [Form]
 Name=AWFORM09
 Label=Husband background and woman's work
-QuestionTextHeight=94
+QuestionTextHeight=135
 Level=1
 Size=742,416
   
@@ -802,7 +802,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM10
 Label=HIV /AIDS
-QuestionTextHeight=123
+QuestionTextHeight=195
 Level=1
 Size=818,464
   
@@ -2239,7 +2239,7 @@ Required=No
 Type=Record
 TypeName=QWSEC2B
 Max=24
-DisplaySize=10,36,678,403
+DisplaySize=10,36,678,346
 Orientation=Horizontal
 FieldRowHeight=28
 HeadingRowHeight=0
@@ -2610,7 +2610,7 @@ Length=2
   
 [Field]
 Name=Q222A
-Position=86,413,100,433
+Position=82,357,96,377
 Item=Q222A,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -2618,20 +2618,20 @@ DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=40,414,80,430
+Position=36,358,76,374
 Text=Q222A
  
   
 [Field]
 Name=Q222B
-Position=187,413,201,433
+Position=183,357,197,377
 Item=Q222B,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=129,414,169,430
+Position=125,358,165,374
 Text=Q222B
  
   
@@ -2643,7 +2643,7 @@ Required=No
 Type=Record
 TypeName=QWSEC2B
 Max=24
-DisplaySize=688,35,1119,403
+DisplaySize=688,35,1119,343
 Orientation=Horizontal
 FieldRowHeight=28
 HeadingRowHeight=24
@@ -2978,7 +2978,7 @@ Length=2
   
 [Field]
 Name=Q212W000
-Position=306,413,333,433
+Position=302,357,329,377
 Item=Q212W,TJIN80
 UseEnterKey=Yes
 Mirror=Yes
@@ -2987,13 +2987,13 @@ DataCaptureType=TextBox
 Form=5
   
 [Text]
-Position=248,414,292,430
+Position=244,358,288,374
 Text=Q212W
  
   
 [Field]
 Name=QCAL1
-Position=14,486,951,506
+Position=10,430,947,450
 Item=QCAL1,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -3512,7 +3512,7 @@ Form=8
   
 [Field]
 Name=QCAL1002
-Position=6,366,943,386
+Position=6,330,943,350
 Item=QCAL1,TJIN80
 Mirror=Yes
 DataCaptureType=TextBox
@@ -5129,9 +5129,10 @@ Position=46,0,112,20
 Item=Q443N,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=Q443N
  
 [Field]
@@ -8042,7 +8043,7 @@ Length=3
   
 [Block]
 Name=FA07_BLOCK
-Label=Firsn and last name of doctor
+Label=First and last name of doctor
 DisplayTogether=Yes
 Position=124
 Length=2
@@ -8814,13 +8815,13 @@ DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=23,88,53,104
-Text=A636
+Position=23,88,54,104
+Text=Q636
  
   
 [Field]
 Name=Q636A
-Position=126,116,140,136
+Position=203,116,217,136
 Item=Q636A,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8833,7 +8834,7 @@ Text=a) Вода
   
 [Field]
 Name=Q636B
-Position=140,146,154,166
+Position=203,146,217,166
 Item=Q636B,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8846,7 +8847,7 @@ Text=b) Детская смечь
   
 [Field]
 Name=Q636BN
-Position=165,146,179,166
+Position=249,146,263,166
 Item=Q636BN,TJIN80
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -8855,7 +8856,7 @@ Form=14
   
 [Field]
 Name=Q636C
-Position=139,173,153,193
+Position=203,173,217,193
 Item=Q636C,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8868,7 +8869,7 @@ Text=c) Молоко
   
 [Field]
 Name=Q636CN
-Position=166,173,180,193
+Position=249,173,263,193
 Item=Q636CN,TJIN80
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -8877,7 +8878,7 @@ Form=14
   
 [Field]
 Name=Q636CA
-Position=207,173,221,193
+Position=296,173,310,193
 Item=Q636CA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8886,7 +8887,7 @@ Form=14
   
 [Field]
 Name=Q636F
-Position=126,231,140,251
+Position=203,231,217,251
 Item=Q636F,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8899,7 +8900,7 @@ Text=f) Какао
   
 [Field]
 Name=Q636G
-Position=146,261,160,281
+Position=203,261,217,281
 Item=Q636G,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8912,7 +8913,7 @@ Text=g) Фруктовый сок
   
 [Field]
 Name=Q636H
-Position=201,291,215,311
+Position=203,291,217,311
 Item=Q636H,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8925,7 +8926,7 @@ Text=h) Газированные напитки
   
 [Field]
 Name=Q636I
-Position=126,321,140,341
+Position=203,321,217,341
 Item=Q636I,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8938,7 +8939,7 @@ Text=i) Чай/Кофе
   
 [Field]
 Name=Q636IA
-Position=202,321,216,341
+Position=249,321,263,341
 Item=Q636IA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8947,7 +8948,7 @@ Form=14
   
 [Field]
 Name=Q636J
-Position=126,352,140,372
+Position=203,352,217,372
 Item=Q636J,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8960,7 +8961,7 @@ Text=j) Бульон/суп
   
 [Field]
 Name=Q636K
-Position=156,382,170,402
+Position=203,382,217,402
 Item=Q636K,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8973,7 +8974,7 @@ Text=k) Другие жидкости
   
 [Field]
 Name=Q636KA
-Position=203,382,217,402
+Position=249,382,263,402
 Item=Q636KA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -8997,7 +8998,7 @@ Text=Q636Z
   
 [Field]
 Name=Q637_INTRO
-Position=307,86,321,106
+Position=390,86,404,106
 Item=Q637_INTRO,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -9005,26 +9006,26 @@ DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=265,89,295,105
-Text=A637
+Position=348,89,379,105
+Text=Q637
  
   
 [Field]
 Name=Q637A
-Position=433,113,447,133
+Position=516,113,530,133
 Item=Q637A,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,116,324,132
+Position=348,116,407,132
 Text=a) Йогурт
  
   
 [Field]
 Name=Q637AN
-Position=471,113,485,133
+Position=554,113,568,133
 Item=Q637AN,TJIN80
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -9033,20 +9034,20 @@ Form=14
   
 [Field]
 Name=Q637AY
-Position=433,142,447,162
+Position=516,142,530,162
 Item=Q637AY,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=281,145,371,161
+Position=364,145,454,161
 Text=Йогурт кол-во
  
   
 [Field]
 Name=Q637AYA
-Position=471,142,485,162
+Position=554,142,568,162
 Item=Q637AYA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -9055,248 +9056,248 @@ Form=14
   
 [Field]
 Name=Q637B
-Position=433,171,447,191
+Position=516,171,530,191
 Item=Q637B,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,174,326,190
+Position=348,174,409,190
 Text=b) Хлеб...
  
   
 [Field]
 Name=Q637C
-Position=433,201,447,221
+Position=516,201,530,221
 Item=Q637C,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,204,333,220
+Position=348,204,416,220
 Text=c) Тыкву...
  
   
 [Field]
 Name=Q637D
-Position=433,231,447,251
+Position=516,231,530,251
 Item=Q637D,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,234,367,250
+Position=348,234,450,250
 Text=d) Картофель...
  
   
 [Field]
 Name=Q637E
-Position=433,261,447,281
+Position=516,261,530,281
 Item=Q637E,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,264,396,280
+Position=348,264,479,280
 Text=e) Темно зеленый...
  
   
 [Field]
 Name=Q637F
-Position=433,291,447,311
+Position=516,291,530,311
 Item=Q637F,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,294,368,310
+Position=348,294,451,310
 Text=f) Другие овощи
  
   
 [Field]
 Name=Q637G
-Position=433,321,447,341
+Position=516,321,530,341
 Item=Q637G,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,324,334,340
+Position=348,324,417,340
 Text=g) Хурма...
  
   
 [Field]
 Name=Q637H
-Position=433,351,447,371
+Position=516,351,530,371
 Item=Q637H,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,354,381,370
+Position=348,354,464,370
 Text=h) Другие фрукты
  
   
 [Field]
 Name=Q637I
-Position=433,380,447,400
+Position=516,380,530,400
 Item=Q637I,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,385,324,401
+Position=348,385,407,401
 Text=i) Рыбу...
  
   
 [Field]
 Name=Q637J
-Position=433,409,447,429
+Position=516,409,530,429
 Item=Q637J,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,412,393,428
+Position=348,412,476,428
 Text=j) Печень, сердце...
  
   
 [Field]
 Name=Q637K
-Position=433,439,447,459
+Position=516,439,530,459
 Item=Q637K,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,442,407,458
+Position=348,442,490,458
 Text=к) Колбаса, сосиски...
  
   
 [Field]
 Name=Q637L
-Position=433,469,447,489
+Position=516,469,530,489
 Item=Q637L,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,472,370,488
+Position=348,472,453,488
 Text=l) Другое мясо...
  
   
 [Field]
 Name=Q637M
-Position=433,499,447,519
+Position=516,499,530,519
 Item=Q637M,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,502,318,518
+Position=348,502,401,518
 Text=m) Яйца
  
   
 [Field]
 Name=Q637N
-Position=433,528,447,548
+Position=516,528,530,548
 Item=Q637N,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,531,344,547
+Position=348,531,427,547
 Text=n) Фасоль...
  
   
 [Field]
 Name=Q637O
-Position=433,555,447,575
+Position=516,555,530,575
 Item=Q637O,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,558,350,574
+Position=348,558,433,574
 Text=o) Семечки...
  
   
 [Field]
 Name=Q637P
-Position=433,581,447,601
+Position=516,581,530,601
 Item=Q637P,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,585,364,601
+Position=348,585,447,601
 Text=p) Сыр, курут...
  
   
 [Field]
 Name=Q637R
-Position=433,608,447,628
+Position=516,608,530,628
 Item=Q637R,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,611,395,627
+Position=348,611,478,627
 Text=r) Торты, печенье...
  
   
 [Field]
 Name=Q637S
-Position=433,634,447,654
+Position=516,634,530,654
 Item=Q637S,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,637,418,653
+Position=348,637,501,653
 Text=s) Шоколад, конфеты...
  
   
 [Field]
 Name=Q637T
-Position=433,657,447,677
+Position=516,657,530,677
 Item=Q637T,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,660,401,676
+Position=348,660,484,676
 Text=t) Чипсы, сухарики...
  
   
 [Field]
 Name=Q637V
-Position=433,704,447,724
+Position=516,704,530,724
 Item=Q637V,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=265,707,395,723
+Position=348,707,478,723
 Text=v) Другая твердая...
  
   
@@ -9317,7 +9318,7 @@ Text=Q637Z
   
 [Field]
 Name=Q639
-Position=606,88,620,108
+Position=689,88,703,108
 Item=Q639,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -9325,13 +9326,13 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=525,91,556,107
+Position=608,91,639,107
 Text=Q639
  
   
 [Field]
 Name=Q640
-Position=606,122,620,142
+Position=689,122,703,142
 Item=Q640,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -9339,13 +9340,13 @@ DataCaptureType=ComboBox
 Form=14
   
 [Text]
-Position=525,125,556,141
+Position=608,125,639,141
 Text=Q640
  
   
 [Field]
 Name=Q641
-Position=606,152,620,172
+Position=689,152,703,172
 Item=Q641,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -9353,13 +9354,13 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=525,155,556,171
+Position=608,155,639,171
 Text=Q641
  
   
 [Field]
 Name=Q642
-Position=594,190,621,210
+Position=677,190,704,210
 Item=Q642,TJIN80
 UseEnterKey=Yes
 FieldLabelType=DictionaryName
@@ -9367,13 +9368,13 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=526,193,557,209
+Position=609,193,640,209
 Text=Q642
  
   
 [Field]
 Name=Q643_FIX
-Position=703,90,717,110
+Position=786,90,800,110
 Item=Q643_FIX,TJIN80
 UseEnterKey=Yes
 Protected=Yes
@@ -9383,7 +9384,7 @@ Form=14
   
 [Field]
 Name=Q643_INTRO
-Position=728,89,742,109
+Position=811,89,825,109
 Item=Q643_INTRO,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -9391,299 +9392,299 @@ DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=665,90,695,106
-Text=A643
+Position=748,90,779,106
+Text=Q643
  
   
 [Field]
 Name=Q643A
-Position=831,116,845,136
+Position=914,116,928,136
 Item=Q643A,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,119,791,135
+Position=748,119,874,135
 Text=a) Хлеб, лепешка...
  
   
 [Field]
 Name=Q643B
-Position=831,144,845,164
+Position=914,144,928,164
 Item=Q643B,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,147,734,163
+Position=748,147,817,163
 Text=b) Тыкву...
  
   
 [Field]
 Name=Q643C
-Position=831,174,845,194
+Position=914,174,928,194
 Item=Q643C,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,177,766,193
+Position=748,177,849,193
 Text=c) Картофель...
  
   
 [Field]
 Name=Q643D
-Position=831,204,845,224
+Position=914,204,928,224
 Item=Q643D,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,207,792,223
+Position=748,207,875,223
 Text=d) Темно-зеленый..
  
   
 [Field]
 Name=Q643E
-Position=831,234,845,254
+Position=914,234,928,254
 Item=Q643E,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,237,780,253
+Position=748,237,863,253
 Text=e) Другие овощи..
  
   
 [Field]
 Name=Q643F
-Position=831,264,845,284
+Position=914,264,928,284
 Item=Q643F,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,266,730,282
+Position=748,266,813,282
 Text=f) Хурма...
  
   
 [Field]
 Name=Q643G
-Position=831,294,845,314
+Position=914,294,928,314
 Item=Q643G,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,297,781,313
+Position=748,297,864,313
 Text=g) Другие фрукты
  
   
 [Field]
 Name=Q643H
-Position=831,326,845,346
+Position=914,326,928,346
 Item=Q643H,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,329,725,345
+Position=748,329,808,345
 Text=h) Рыба..
  
   
 [Field]
 Name=Q643I
-Position=831,353,845,373
+Position=914,353,928,373
 Item=Q643I,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,356,738,372
+Position=748,356,821,372
 Text=i) Печень...
  
   
 [Field]
 Name=Q643J
-Position=831,379,845,399
+Position=914,379,928,399
 Item=Q643J,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,382,804,398
+Position=748,382,887,398
 Text=j) Колбаса, сосиски...
  
   
 [Field]
 Name=Q643K
-Position=831,405,845,425
+Position=914,405,928,425
 Item=Q643K,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,408,761,424
+Position=748,408,844,424
 Text=k) Другое мясо
  
   
 [Field]
 Name=Q643L
-Position=831,430,845,450
+Position=914,430,928,450
 Item=Q643L,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,433,710,449
+Position=748,433,793,449
 Text=l) Яйцо
  
   
 [Field]
 Name=Q643M
-Position=831,455,845,475
+Position=914,455,928,475
 Item=Q643M,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,458,756,474
+Position=748,458,839,474
 Text=m) Фасоль,....
  
   
 [Field]
 Name=Q643N
-Position=831,485,845,505
+Position=914,485,928,505
 Item=Q643N,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,488,750,504
+Position=748,488,833,504
 Text=n) Семечки...
  
   
 [Field]
 Name=Q643O
-Position=831,515,845,535
+Position=914,515,928,535
 Item=Q643O,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=666,520,744,536
+Position=749,520,827,536
 Text=o) Молоко...
  
   
 [Field]
 Name=Q643Q
-Position=831,545,845,565
+Position=914,545,928,565
 Item=Q643Q,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,548,798,564
+Position=748,548,881,564
 Text=q) Торты, печенье...
  
   
 [Field]
 Name=Q643R
-Position=831,571,845,591
+Position=914,571,928,591
 Item=Q643R,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,574,755,590
+Position=748,574,838,590
 Text=r) Конфеты,...
  
   
 [Field]
 Name=Q643S
-Position=831,594,845,614
+Position=914,594,928,614
 Item=Q643S,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,597,734,613
+Position=748,597,817,613
 Text=s) Чипсы...
  
   
 [Field]
 Name=Q643T
-Position=831,619,845,639
+Position=914,619,928,639
 Item=Q643T,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,622,790,638
+Position=748,622,873,638
 Text=t) Фруктовый сок...
  
   
 [Field]
 Name=Q643U
-Position=831,642,845,662
+Position=914,642,928,662
 Item=Q643U,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,645,788,661
+Position=748,645,871,661
 Text=u) Газир. напитки..
  
   
 [Field]
 Name=Q643V
-Position=831,667,845,687
+Position=914,667,928,687
 Item=Q643V,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=667,670,786,686
+Position=748,670,867,686
 Text=v) Чай с сахаром..
  
   
 [Field]
 Name=Q643X
-Position=831,718,845,738
+Position=914,718,928,738
 Item=Q643X,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=665,721,792,737
+Position=748,721,875,737
 Text=x) Другие жидкости
  
   
 [Field]
 Name=Q643XA
-Position=889,719,903,739
+Position=914,719,928,739
 Item=Q643XA,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
@@ -9692,14 +9693,14 @@ Form=14
   
 [Field]
 Name=Q643Y
-Position=831,743,845,763
+Position=914,743,928,763
 Item=Q643Y,TJIN80
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=666,747,764,763
+Position=748,747,846,763
 Text=y) Другие пищи
  
   

@@ -50,12 +50,15 @@
   array calrow(24);              { Row of calendar for pregnancy }
   array birthrow(80);            { number of pregnancy in calendar row, i.e pregnancy 07 is in row 60 }
   array string womevents(20,3);  { women events }
-  array string months_array(12) = "Dec","Nov","Oct","Sep","Aug","Jul","Jun","May","Apr","Mar","Feb","Jan";
+  array string months_array(12);
+// = "Dec","Nov","Oct","Sep","Aug","Jul","Jun","May","Apr","Mar","Feb","Jan";
   array string cal_array(72,7);  { used to display calendar from toolbar }
-  array string BloodCat(6) = "Acceptable range", "At the high end of acceptable range",
-                             "Above acceptable range", "Moderately high", "High", "Very high";
-  array string BloodCon(6) = "24 months", "12 months", "2 months",
-                             "1 month", "7 days", "Today";
+  array string BloodCat(6);
+// = "Acceptable range", "At the high end of acceptable range",
+ //                            "Above acceptable range", "Moderately high", "High", "Very high";
+  array string BloodCon(6);
+// = "24 months", "12 months", "2 months",
+ //                            "1 month", "7 days", "Today";
   numeric disp1, disp2;          { used for current episode indicators to display calendar }
 
   numeric i, n, j, t, x, y, b, m, p, err, InEntry, android, capturecoor, gpsopen;
@@ -245,7 +248,7 @@
   function string GetPicture()
     string picfile;
     list string PictureList;
-    picfile = "C:/Users/" + GetUserName() + "/Pictures/Camera Roll";
+    picfile = "C:/Users/" + GetUserName() + "/OneDrive/Pictures/Camera Roll";  //New default location Windows 11
     dirlist( PictureList, picfile, "WIN*.JPG" );
     do j = 1 while j <= PictureList.length()
       Textstr2 = PictureList(j);
@@ -3351,6 +3354,33 @@ preproc
   orderstr(4) = tr("fourth twin");
   orderstr(5) = tr("fifth twin");
 
+//Added by Ikhtier
+   months_array(1) =tr("Dec");
+   months_array(2) =tr("Nov");
+   months_array(3) =tr("Oct");
+   months_array(4) =tr("Sep");
+   months_array(5) =tr("Aug");
+   months_array(6) =tr("Jul");
+   months_array(7) =tr("Jun");
+   months_array(8) =tr("May");
+   months_array(9) =tr("Apr");
+   months_array(10)=tr("Mar");
+   months_array(11)=tr("Feb");
+   months_array(12)=tr("Jan");
+   
+   BloodCat(1) =tr("Acceptable range");
+   BloodCat(2) =tr("At the high end of acceptable range");
+   BloodCat(3) =tr("Above acceptable range");
+   BloodCat(4) =tr("Moderately high");
+   BloodCat(5) =tr("High");
+   BloodCat(6) =tr("Very high");
+   
+   BloodCon(1) = tr("24 months");
+   BloodCon(2) = tr("12 months");
+   BloodCon(3) = tr("2 months");
+   BloodCon(4) = tr("1 month");
+   BloodCon(5) = tr("7 days");
+   BloodCon(6) = tr("Today");
   { converts parameter to numbers  }
   xintnum  = tonumber( sysparm()[1:4] );    { interviewer number }
   xsupnum  = tonumber( sysparm()[5:4] );    { supervisor number }
@@ -3724,7 +3754,6 @@ preproc
     n = totocc( QVISITS_ROSTER );
     $ = QVHOUR( n );
   endif;
-
 PROC Q101M
 preproc
   if InEntry then
@@ -3733,6 +3762,13 @@ preproc
   endif;
   
 PROC Q102
+preproc
+if Q101H in 0:5,23 then
+	errmsg( 90000, Q101H, $ ) 
+	select( tr("Check tablet time" ), $);
+  endif;
+
+postproc
   if $ <> 96 then
     skip to Q104
   endif;
@@ -4546,8 +4582,10 @@ postproc
 
 PROC Q224
 preproc
-  if Q223 <> 1 then
+  if Q223 in 2,3 then
     skip to next QPLINE
+  elseif Q223 in 4 then
+	skip to Q228B
   endif;	
 
 onfocus
@@ -4746,6 +4784,8 @@ postproc
     udc(QPLINE) = di - adeath
   endif;
 
+PROC Q228A
+skip to next QPLINE
 PROC Q232
 preproc
   if !calendid then
@@ -7267,7 +7307,7 @@ onfocus
     vaccinations.add(GetLabel(Q509IPV), "P" );    // Polio IPV 1
   endif;
   if D509IPV2 in 0,66 then
-    vaccinations.add(GetLabel(Q509IPV), "Q" );    // Polio IPV 2
+    vaccinations.add(GetLabel(Q509IPV2), "Q" );    // Polio IPV 2
   endif; 
 {  if ZZZD509R3 in 0,66 then
     vaccinations.add(GetLabel(ZZZQ509R3), "Q" );    // Rotavirus 3
@@ -7362,14 +7402,6 @@ PROC FA01
   if $ <> 1 then
     skip to next QCOL51;
   endif;
-PROC FA02
-  if demode() = add & $ = 1 then
-    if android then
-      TakePictureA( FA02 )
-    else	  
-      TakePictureW( FA02 )
-    endif;	  
-  endif; 
 PROC QWSEC6A_FORM
 preproc
   SaveData();
@@ -9418,7 +9450,9 @@ preproc
 
 { @@@ taking GPS coordinates for individual }
 PROC GIAUX
-preproc
+skip to QFINAL;
+
+{preproc
   capturecoor = ( visualvalue(GILATITUDE) = notappl );
   if capturecoor then
     skip to GIINTRO
@@ -9432,7 +9466,7 @@ postproc
   if $ <> 1 then
     advance to QFINAL
   endif;  
-  
+ } 
 PROC GIINTRO
 onfocus
   capturecoor = ( visualvalue(GILATITUDE) = notappl );

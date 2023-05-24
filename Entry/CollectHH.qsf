@@ -34,23 +34,29 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">Enter correct address for new household.&#160;</span></p>
+            <p>Enter correct address for new household. </p>
           RU: |
-            <p><span style="color: rgb(0, 0, 255); font-size: 18px;">Введите правильный адрес для нового домохозяйства.</span><br></p><p><p></p></p>
+            <p>Введите правильный адрес для нового домохозяйства.</p>
+          TJ: |
+            <p>Суроғаи хонаи навро дуруст ворид кунед.</p>
   - name: TJHH80.QHVRESULT
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">VISIT ~~QHVLINE~~, ENTER 1 TO START INTERVIEW OR RECORD THE RESULT OF THE INTERVIEW.&#160;</span></p>
+            <p><span class="instruction">VISIT ~~QHVLINE~~, ENTER 1 TO START INTERVIEW OR RECORD THE RESULT OF THE INTERVIEW. </span></p>
           RU: |
-            <p><span style="font-size: 18px; color: rgb(0, 0, 255);">ПОСЕТИТЕ ~~QHVLINE~~, ВВЕДИТЕ 1, ЧТОБЫ НАЧАТЬ ИНТЕРВЬЮ ИЛИ ЗАПИСАТЬ РЕЗУЛЬТАТЫ ИНТЕРВЬЮ.</span><br></p><p><p></p></p>
+            <p><span class="instruction">ПОСЕТИТЕ ~~QHVLINE~~, ВВЕДИТЕ 1, ЧТОБЫ НАЧАТЬ ИНТЕРВЬЮ ИЛИ ЗАПИСАТЬ РЕЗУЛЬТАТЫ ИНТЕРВЬЮ.</span></p>
+          TJ: |
+            <p><span class="instruction">БА ~~QHVLINE~~ БОЗИРЕД, 1-РО ВОРИД КУНЕД БАРОИ ОҒОЗИ МУСОҲИБА Ё САБТ КАРДАНИ НАТИҶАИ МУСОҲИБА.</span></p>
   - name: TJHH80.QHCONSENT
     conditions:
       - questionText:
           EN: |
-            <p>Hello.  My name is _______________________________________. I am working with Agency on Statistics under the President of the Republic of Tajikistan.  We are conducting a survey about health and other topics all over Tajikistan. The information we collect will help the government to plan health services. Your household was selected for the survey. I would like to ask you some questions about your household. The questions usually take about 15 to 20 minutes. All of the answers you give will be confidential and will not be shared with anyone other than members of our survey team. You don&#39;t have to be in the survey, but we hope you will agree to answer the questions since your views are important. If I ask you any question you don&#39;t want to answer, just let me know and I will go on to the next question or you can stop the interview at any time. In case you need more information about the survey, you may contact the person listed on this card. </p><p><span class="instruction">GIVE CARD WITH CONTACT INFORMATION</span></p><p>Do you have any questions?</p><p>May I begin the interview now?</p>
+            <p>Hello.  My name is _______________________________________. I am working with Agency on Statistics under the President of the Republic of Tajikistan.  We are conducting a survey about health and other topics all over Tajikistan. The information we collect will help the government to plan health services. Your household was selected for the survey. I would like to ask you some questions about your household. The questions usually take about 15 to 20 minutes. All of the answers you give will be confidential and will not be shared with anyone other than members of our survey team. You don't have to be in the survey, but we hope you will agree to answer the questions since your views are important. If I ask you any question you don't want to answer, just let me know and I will go on to the next question or you can stop the interview at any time. In case you need more information about the survey, you may contact the person listed on this card. </p><p><span class="instruction">GIVE CARD WITH CONTACT INFORMATION</span></p><p>Do you have any questions?</p><p>May I begin the interview now?</p>
           RU: |
             <p>Здравствуйте.  Меня зовут _______________________________________.  Я работаю в Агентстве по статистике при президенте республики Таджикистан. Мы проводим исследование по вопросам здоровья и другим темам по всему Таджикистану.  Информация, которую мы собираем, поможет правительству планировать услуги здравоохранения.  Ваше домохозяйство было выбрано для исследования. Я хотела бы задать вам несколько вопросов о вашем домохозяйстве. Вопросы обычно занимают 20-30 минут.  Все ваши ответы конфиденциальны и не будут разглашаться никому, кроме членов нашей команды по проведению исследования. Участие в исследовании является добровольным, но мы надеемся, что вы согласитесь ответить на вопросы, поскольку ваше мнение важно. Если вы не захотите отвечать на какой-либо вопрос, который я задам вам, просто сообщите мне об этом, и я перейду к следующему вопросу, или вы можете прервать интервью в любой момент. Если вам понадобится дополнительная информация об исследовании, вы можете обратиться к лицу, указанному на этой карточке.</p><p><span class="instruction">ДАЙТЕ КАРТОЧКУ С КОНТАКТНОЙ ИНФОРМАЦИЕЙ</span></p><p>У вас есть какие-либо вопросы? </p><p>Можно мне сейчас начать интервью?</p>
+          TJ: |
+            <p>Салом. Номи ман _______________________________________. Ман дар Агентии омори назди Президенти Ҷумҳурии Тоҷикистон кор мекунам. Мо дар саросари Тоҷикистон оид ба саломатӣ ва дигар мавзӯъҳо тањќиќот мегузаронем. Маълумоте, ки мо ҷамъ меорем, ба Њукумат дар самти ба нақша гирифтани хизматрасонињои тиббӣ кӯмак мекунад. Хонаводаи шумо барои таҳқиқот интихоб шудааст. Мехостам ба шумо дар бораи хонаводаатон чанд савол диҳам. Саволҳо одатан 20-30 дақиқа вақтро мегиранд. Ҳамаи ҷавобҳои шумо махфӣ мебошанд ва ба ғайр аз аъзои гурӯҳи таҳқиқотии мо ба касе дода намешаванд. Иштирок дар таҳқиқот ихтиёрӣ аст, аммо мо умедворем, ки шумо барои посух додан ба саволҳо розӣ мешавед, зеро андешаи шумо муҳим аст. Агар шумо намехоҳед ба ягон саволе, ки ман ба шумо медиҳам, ҷавоб диҳед, танҳо ба ман хабар диҳед ва ман ба саволи навбатӣ мегузарам, ё шумо метавонед мусоҳибаро дар вақти дилхоҳ қатъ кунед. Агар ба шумо дар бораи таҳқиқот маълумоти иловагӣ лозим бошад, шумо метавонед бо шахси дар ин корт нишондодашуда муроҷиат намоед.</p><p><span class="instruction">КОРТИ МАЪЛУМОТИ ТАМОСРО ДИҲЕД</span></p><p>Оё шумо ягон савол доред?</p><p>Ман метавонам мусоҳибаро ҳозир оғоз кунам?</p>
   - name: TJHH80.QHFIRSTN
     conditions:
       - logic: curocc() = 1
@@ -59,12 +65,16 @@ questions:
             <p>2.  Please give me the names of the persons who usually live in your household and guests of the household who stayed here last night, starting with the head of the household.</p><p><span class="instruction">RECORD THE FIRST NAME OF THE HEAD OF THE HOUSEHOLD</span></p>
           RU: |
             <p>2.  Назовите, пожалуйста, имена всех людей, которые обычно проживают в вашем домохозяйстве, и гостей домохозяйства, которые оставались здесь прошлой ночью, начиная с главы домохозяйства.</p><p><span class="instruction">ЗАПИШИТЕ ИМЯ ГЛАВЫ ДОМОХОЗЯЙСТВА</span></p>
+          TJ: |
+            <p>2.  Лутфан номи ҳамаи одамонеро, ки одатан дар хонаводаи шумо зиндагӣ мекунанд ва меҳмонони хонавода, ки шаби гузашта дар ин ҷо монданд, сар карда аз сардори хонавода номбар кунед.</p><p><span class="instruction">НОМИ САРДОРИ ХОНАВОДАРО НАВИСЕД</span></p>
       - logic: curocc() in 2:50
         questionText:
           EN: |
             <p><span class="instruction">2.  RECORD FIRST NAME OF HOUSEHOLD MEMBER</span></p>
           RU: |
             <p><span class="instruction">2.  ЗАПИШИТЕ ИМЯ ЧЛЕНА ДОМОХОЗЯЙСТВА</span></p>
+          TJ: |
+            <p><span class="instruction">2.  НОМИ АЪЗОЁНИ ХОНАВОДАРО НАВИСЕД</span></p>
   - name: TJHH80.QHLASTN
     conditions:
       - logic: curocc() = 1
@@ -73,12 +83,16 @@ questions:
             <p><span class="instruction">2.  RECORD THE LAST NAME OF THE HEAD OF THE HOUSEHOLD</span></p>
           RU: |
             <p><span class="instruction">2.  ЗАПИШИТЕ ФАМИЛИЮ ГЛАВЫ ДОМОХОЗЯЙСТВА</span></p>
+          TJ: |
+            <p><span class="instruction">2.  НАСАБИ САРДОРИ ХОНАВОДАРО НАВИСЕД</span></p>
       - logic: curocc() in 2:50
         questionText:
           EN: |
             <p><span class="instruction">2.  RECORD THE LAST NAME OF HOUSEHOLD MEMBER</span></p>
           RU: |
             <p><span class="instruction">2.  ЗАПИШИТЕ ФАМИЛИЮ ЧЛЕНА ДОМОХОЗЯЙСТВА</span></p>
+          TJ: |
+            <p><span class="instruction">2.  НАСАБИ АЪЗОЁНИ ХОНАВОДАРО НАВИСЕД</span></p>
   - name: TJHH80.QHRELAT
     conditions:
       - logic: curocc() = 1
@@ -87,12 +101,16 @@ questions:
             <p><span class="instruction">3.  ENTER 1 FOR HEAD OF HOUSEHOLD</span></p>
           RU: |
             <p><span class="instruction">3.  ВВЕДИТЕ 1 ДЛЯ ГЛАВЫ ДОМОХОЗЯЙСТВА</span></p>
+          TJ: |
+            <p><span class="instruction">3.  БАРОИ САРДОРИ ХОНАВОДА 1 ҚАЙД КУНЕД</span></p>
       - logic: curocc() in 2:50
         questionText:
           EN: |
             <p>3.  What is the relationship of ~~QHFIRSTN~~ ~~QHLASTN~~ to the head of the household?</p>
           RU: |
             <p>3.  Кем приходится ~~QHFIRSTN~~ ~~QHLASTN~~ по отношению к главе домохозяйства?</p>
+          TJ: |
+            <p>3.  ~~QHFIRSTN~~ ~~QHLASTN~~ дар муносибат бо сардори хонавода кӣ мебошад?</p>
   - name: TJHH80.QHSEX
     conditions:
       - questionText:
@@ -100,6 +118,8 @@ questions:
             <p>4.  Is ~~QHFIRSTN~~ ~~QHLASTN~~ male or female?</p>
           RU: |
             <p>4.  ~~QHFIRSTN~~ ~~QHLASTN~~ мужского или женского пола?</p>
+          TJ: |
+            <p>4.  ~~QHFIRSTN~~ ~~QHLASTN~~ ҷинси мард ё зан?</p>
   - name: TJHH80.QHLIVES
     conditions:
       - questionText:
@@ -107,6 +127,8 @@ questions:
             <p>5.  Does ~~QHFIRSTN~~ ~~QHLASTN~~ usually live here?</p>
           RU: |
             <p>5.  ~~QHFIRSTN~~ ~~QHLASTN~~ обычно проживает здесь?</p>
+          TJ: |
+            <p>5.  ~~QHFIRSTN~~ ~~QHLASTN~~ одатан дар ин ҷо зиндагӣ мекунад?</p>
   - name: TJHH80.QHSTAYED
     conditions:
       - questionText:
@@ -114,6 +136,8 @@ questions:
             <p>6.  Did ~~QHFIRSTN~~ ~~QHLASTN~~ stay here last night?</p>
           RU: |
             <p>6.  ~~QHFIRSTN~~ ~~QHLASTN~~ провел(а) здесь прошлую ночь?</p>
+          TJ: |
+            <p>6.  ~~QHFIRSTN~~ ~~QHLASTN~~ шаби гузашта дар ин ҷо монда буд?</p>
   - name: TJHH80.QHAGE
     conditions:
       - questionText:
@@ -121,6 +145,8 @@ questions:
             <p>7.  How old is ~~QHFIRSTN~~ ~~QHLASTN~~?</p><p><span class="instruction">IF 95 OR MORE, RECORD &#39;95&#39;</span></p>
           RU: |
             <p>7.  Сколько лет ~~QHFIRSTN~~ ~~QHLASTN~~?</p><p><span class="instruction">ЕСЛИ 95 ИЛИ СТАРШЕ, ЗАПИШИТЕ &#39;95&#39;.</span></p>
+          TJ: |
+            <p>7.  ~~QHFIRSTN~~ ~~QHLASTN~~  чандсола аст?</p><p><span class="instruction">АГАР 95 СОЛА Ё АЗ ИН КАЛОНТАР БОШАД,  &#39;95&#39; НАВИСЕД.</span></p>
   - name: TJHH80.QHMORE
     conditions:
       - questionText:
@@ -128,6 +154,8 @@ questions:
             <p>7-1.  Are there any other persons living in this household?</p>
           RU: |
             <p>7-1.  Проживают ли в этом домохозяйстве какие либо другие люди?</p>
+          TJ: |
+            <p>7-1.  Оё дар ин хонавода ягон одамони дигар зиндагӣ мекунанд?</p>
   - name: TJHH80.QHRESP
     conditions:
       - questionText:
@@ -135,6 +163,8 @@ questions:
             <p><span class="instruction">-.  RECORD THE LINE NUMBER OF THE RESPONDENT TO THE HOUSEHOLD QUESTIONNAIRE. </span></p>
           RU: |
             <p><span class="instruction">-.  ЗАПИШИТЕ НОМЕР СТРОКИ РЕСПОНДЕНТА В ВОПРОСНИКЕ ДОМОХОЗЯЙСТВА.</span></p>
+          TJ: |
+            <p><span class="instruction">-.  РАҚАМИ САТРИ МУСОҲИБРО ДАР САВОЛНОМАИ ХОНАВОДА ҚАЙД НАМОЕД.</span></p>
   - name: TJHH80.QH07A
     conditions:
       - questionText:
@@ -142,6 +172,8 @@ questions:
             <p>7A).  Just to make sure that I have a complete listing: are there any other people such as small children or infants that we have not listed?</p>
           RU: |
             <p>7A).  Просто чтобы убедиться в полноте записи списка: находятся ли здесь какие-либо другие люди, например, маленькие дети или младенцы, которых мы не внесли в список?</p>
+          TJ: |
+            <p>7A).  Танҳо барои боварӣ ҳосил кардан дар пуррагии сабти рӯйхат: оё дар инҷо ҳастанд ягон одамони дигар, ба мисли кӯдакони хурдсол ё навзодоне, ки мо онҳоро ба рўйхат ворид накардаем?</p>
   - name: TJHH80.QH07B
     conditions:
       - questionText:
@@ -149,6 +181,8 @@ questions:
             <p>7B).  Are there any other people who may not be members of your family, such as domestic servants, lodgers, or friends who usually live here?</p>
           RU: |
             <p>7B).  Находятся ли здесь какие-либо другие люди, которые могут не быть членами вашей семьи, например, домашняя прислуга, квартиранты или друзья, которые обычно проживают здесь?</p>
+          TJ: |
+            <p>7B).  Оё дар инҷо ҳастанд одамони дигаре, ки аъзои оилаи шумо нестанд, масалан хизматгори хона, иҷоранишинҳо ё дустоне, ки одатан дар ин ҷо зиндагӣ мекунанд?</p>
   - name: TJHH80.QH07C
     conditions:
       - questionText:
@@ -156,6 +190,8 @@ questions:
             <p>7C).  Are there any guests or temporary visitors staying here, or anyone else who stayed here last night, who have not been listed?</p>
           RU: |
             <p>7C).  Находятся ли здесь гости или временные постители стоящие здесь, или кто-либо еще, кто провел здесь прошлую ночь, кого мы не внесли в список?</p>
+          TJ: |
+            <p>7C).  Оё дар ин ҷо ҳастанд меҳмонон ва ё муваққатан ташрифовардагон, ки ин ҷо истодаанд ё ягон нафари дигаре, ки шаби гузашта дар ин ҷо мондаанд ва мо онҳоро ба рўйхат ворид накардаем?</p>
   - name: TJHH80.QH08
     conditions:
       - logic: QH01 <> QHRESP
@@ -164,12 +200,16 @@ questions:
             <p>8.  What is ~~QH02~~&#39;s current marital status?</p>
           RU: |
             <p>8.  Каково семейное положение ~~QH02~~  в настоящее время?</p>
+          TJ: |
+            <p>8.  Вазъи оилавии ~~QH02~~ айни замон чӣ гуна аст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>8.  What is your current marital status?</p>
           RU: |
             <p>8.  Каково ваше семейное положение  в настоящее время?</p>
+          TJ: |
+            <p>8.  Вазъияти оилавии шумо айни замон чӣ гуна аст?</p>
   - name: TJHH80.QH12
     conditions:
       - logic: QH01 <> QHRESP
@@ -178,12 +218,16 @@ questions:
             <p>12.  Is ~~QH02~~&#39;s biological mother alive?</p>
           RU: |
             <p>12.  Жива ли биологическая мать ~~QH02~~?</p>
+          TJ: |
+            <p>12.  Оё модари биологии ~~QH02~~ зинда аст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>12.  Is your biological mother alive?</p>
           RU: |
             <p>12.  Ваша биологическая мать жива?</p>
+          TJ: |
+            <p>12.  Модари биологии шумо зинда аст?</p>
   - name: TJHH80.QH13
     conditions:
       - logic: QH01 <> QHRESP
@@ -192,12 +236,16 @@ questions:
             <p>13.  Does ~~QH02~~&#39;s biological mother usually live in this household or was she a guest last night?</p><p>IF YES: What is her name?</p><p><span class="instruction">RECORD MOTHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
           RU: |
             <p>13.  Биологическая мать ~~QH02~~ обычно проживает в этом домохозяйстве или она была гостьей прошлой ночью?</p><p>ЕСЛИ ДА: Как ее зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ МАТЕРИ. </span></p><p><span class="instruction">ЕСЛИ НЕТ, ЗАПИШИТЕ &#39;00&#39;.</span></p>
+          TJ: |
+            <p>13.  Модари биологии ~~QH02~~ одатан дар ин хонавода зиндагӣ мекунад ва ё ин ки вай шаби гузашта меҳмон буд?</p><p>АГАР ҲА: Номи вай чист?</p><p><span class="instruction">РАҚАМИ САТРИ МОДАРРО НАВИСЕД.</span></p><p><span class="instruction">АГАР НЕ, &#39;00&#39; НАВИСЕД.</span></p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>13.  Does your biological mother usually live in this household or was she a guest last night?</p><p>IF YES: What is her name?</p><p><span class="instruction">RECORD MOTHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
           RU: |
             <p>13.  Ваша биологическая мать обычно проживает в этом домохозяйстве или она была гостьей прошлой ночью?</p><p>ЕСЛИ ДА:  Как ее зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ МАТЕРИ</span></p><p><span class="instruction">ЕСЛИ НЕТ: ЗАПИШИТЕ &#39;00&#39;</span></p>
+          TJ: |
+            <p>13.  Модари биологии шумо одатан дар ин хонавода зиндагӣ мекунад ва ё шаби гузашта меҳмон буд?</p><p>АГАР ҲА: Номи вай чист?</p><p><span class="instruction">РАҚАМИ САТРИ МОДАРРО НАВИСЕД.</span></p><p><span class="instruction">АГАР НЕ, &#39;00&#39; НАВИСЕД.</span></p>
   - name: TJHH80.QH14
     conditions:
       - logic: QH01 <> QHRESP
@@ -206,12 +254,16 @@ questions:
             <p>14.  Is ~~QH02~~&#39;s biological father alive?</p>
           RU: |
             <p>14.  Жив ли биологический отец ~~QH02~~?</p>
+          TJ: |
+            <p>14.  Оё падари биологии ~~QH02~~  зинда аст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>14.  Is your biological father alive?</p>
           RU: |
             <p>14.  Ваш биологический отец жив?</p>
+          TJ: |
+            <p>14.  Падари биологии шумо зинда аст?</p>
   - name: TJHH80.QH15
     conditions:
       - logic: QH01 <> QHRESP
@@ -220,12 +272,16 @@ questions:
             <p>15.  Does ~~QH02~~&#39;s biological father usually live in this household or was he a guest last night?</p><p>IF YES: What is his name?</p><p><span class="instruction">RECORD FATHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
           RU: |
             <p>15.  Биологический отец ~~QH02~~ обычно проживает в этом домохозяйстве или он был гостем прошлой ночью?</p><p>ЕСЛИ ДА: Как его зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ ОТЦА. </span></p><p><span class="instruction">ЕСЛИ НЕТ, ЗАПИШИТЕ &#39;00&#39;.</span></p>
+          TJ: |
+            <p>15.  Падари биологии ~~QH02~~ одатан дар ин хонавода зиндагӣ мекунад ё шаби гузашта вай меҳмон буд?</p><p>АГАР ҲА: Номи вай чист?</p><p><span class="instruction">РАҚАМИ САТРИ ПАДАРРО НАВИСЕД.</span></p><p><span class="instruction">АГАР НЕ, &#39;00&#39; НАВИСЕД.</span></p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>15.  Does your biological father usually live in this household or was he a guest last night?</p><p>IF YES: What is his name?</p><p><span class="instruction">RECORD FATHER&#39;S LINE NUMBER</span></p><p><span class="instruction">IF NO: RECORD &#39;00&#39;</span></p>
           RU: |
             <p>15.  Ваш биологический отец обычно проживает в этом домохозяйстве или он был гостем прошлой ночью?</p><p>ЕСЛИ ДА: Как его зовут?</p><p><span class="instruction">ЗАПИШИТЕ НОМЕР ЛИНИИ ОТЦА. </span></p><p><span class="instruction">ЕСЛИ НЕТ, ЗАПИШИТЕ &#39;00&#39;.</span></p>
+          TJ: |
+            <p>15.  Падари биологии шумо одатан дар ин хонавода зиндагӣ мекунад ё шаби гузашта меҳмон буд?</p><p>АГАР ҲА: Номи вай чист?</p><p><span class="instruction">РАҚАМИ САТРИ ПАДАРРО НАВИСЕД.</span></p><p><span class="instruction">АГАР НЕ, &#39;00&#39; НАВИСЕД.</span></p>
   - name: TJHH80.QH16
     conditions:
       - logic: QH01 <> QHRESP
@@ -234,12 +290,16 @@ questions:
             <p>16.  Has ~~QH02~~ ever attended school or any early childhood education program?</p>
           RU: |
             <p>16.  ~~QH02~~ когда-либо посещал(а) учебное заведение или какую-либо программу раннего детского образования?</p>
+          TJ: |
+            <p>16.  Оё ~~QH02~~ ягон вақт ба муассисаи таълимӣ ё ин ки ягон барномаи таълимии синни барвақтӣ рафтааст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>16.  Have you ever attended school or any early childhood education program?</p>
           RU: |
             <p>16.  Вы когда-либо посещали учебное заведение или какую-либо программу раннего детского образования?</p>
+          TJ: |
+            <p>16.  Оё шумо ягон бор ба муассисаи таълимӣ ё ин ки ягон барномаи таълимии синни барвақтӣ рафтаед?</p>
   - name: TJHH80.QH16A
     conditions:
       - logic: QH01 <> QHRESP
@@ -248,12 +308,16 @@ questions:
             <p>16A.  What is the total number of completed years of schooling ~~QH02~~ has had, including school and other institutions?</p>
           RU: |
             <p>16A.  Сколько всего полных лет ~~QH02~~ учил(ся/ась), включая среднюю школу и плюс другие учебные учреждения?</p>
+          TJ: |
+            <p>16A.  ~~QH02~~ дар маҷмӯъ чанд соли пурра таҳсил кардааст, аз ҷумла дар мактаби миёна ва дигар муассисаҳои таълимӣ?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
-            <p>16A.&nbsp;What is the total number of completed years of schooling you had, including school and other institutions?<br></p><p><p></p></p>
+            <p>16A.  What is the total number of completed years of schooling you had, including school and other institutions?</p>
           RU: |
-            <p>16A.&nbsp;Сколько всего полных лет учил(ся/ась), включая среднюю школу и плюс другие учебные учреждения?<br></p>
+            <p>16A.  Сколько всего полных лет учил(ся/ась), включая среднюю школу и плюс другие учебные учреждения?</p>
+          TJ: |
+            <p>16A.  дар маҷмӯъ чанд соли пурра таҳсил кардааст, аз ҷумла дар мактаби миёна ва дигар муассисаҳои таълимӣ?</p>
   - name: TJHH80.QH17A
     conditions:
       - logic: QH01 <> QHRESP
@@ -262,12 +326,16 @@ questions:
             <p>17A.  What is the highest level of school ~~QH02~~ has attended?</p>
           RU: |
             <p>17A.  Какой наивысший уровень учебного заведения ~~QH02~~ посещал(а)?</p>
+          TJ: |
+            <p>17A.  Дараҷаи баландтарини муассисаи таълимӣ, ки ~~QH02~~ таҳсил кардааст, кадом аст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>17A.  What is the highest level of school you have attended?</p>
           RU: |
             <p>17A.  Какой наивысший уровень учебного заведения вы посещали?</p>
+          TJ: |
+            <p>17A.  Сатҳи баландтарини муассисаи таълимие, ки шумо таҳсил кардаед, кадом аст?</p>
   - name: TJHH80.QH17B
     conditions:
       - logic: QH01 <> QHRESP
@@ -276,40 +344,52 @@ questions:
             <p>17B.  What is the highest grade ~~QH02~~ completed at that level?</p>
           RU: |
             <p>17B.  Какой самый высокий класс/курс ~~QH02~~ закончил(а) на этом уровне?</p>
+          TJ: |
+            <p>17B.  Баландтарин синф/курс, ки ~~QH02~~ дар ин сатҳ хатм кардааст, кадом аст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>17B.  What is the highest grade you completed at that level?</p>
           RU: |
             <p>17B.  Какой самый высокий класс/курс  вы закончили на этом уровне?</p>
+          TJ: |
+            <p>17B.  Баландтарин синф/курс, ки шумо дар ин сатҳ хатм кардаед, кадом аст?</p>
   - name: TJHH80.QH17C
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
           EN: |
-            <p>17C. How many classes did ~~QH02~~ completed in general school before ~~QH02~~ enrolled in uchilishe, colledge or technikum?<br></p><p></p><p></p><p></p>
+            <p>17C.  How many classes did ~~QH02~~ completed in general school before ~~QH02~~ enrolled in uchilishe, colledge or technikum?</p>
           RU: |
-            <p>17C.&nbsp;Сколько классов средней школы ~~QH02~~&nbsp;закончил(а) до того, как ~~QH02~~ поступил(а) в училище, колледж или техникум?<br></p><p></p><p></p><p></p>
+            <p>17C.  Сколько классов средней школы ~~QH02~~ закончил(а) до того, как ~~QH02~~ поступил(а) в училище, колледж или техникум?</p>
+          TJ: |
+            <p>17C.  То дохил шудан ба омўзишгоҳ, коллеҷ ё техникум ~~QH02~~ чанд соли мактаби миёнаро ~~QH02~~ хатм кардааст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
-            <p>17C.&nbsp;How many classes did you completed in general school before you enrolled in uchilishe, colledge or technikum?<br></p><p><p></p></p>
+            <p>17C.  How many classes did you completed in general school before you enrolled in uchilishe, colledge or technikum?</p>
           RU: |
-            <p>17C.&nbsp;Сколько классов средней школы вы закончили до того, как вы поступили в училище, колледж или техникум?<br></p><p><p></p></p>
+            <p>17C.  Сколько классов средней школы вы закончили до того, как вы поступили в училище, колледж или техникум?</p>
+          TJ: |
+            <p>17C.  Пеш аз дохил шудан ба омўзишгоҳ, коллеҷ ё техникум шумо чанд соли мактаби миёнаро хатм кардед?</p>
   - name: TJHH80.QH17D
     conditions:
       - logic: QH01 <> QHRESP
         questionText:
           EN: |
-            <p>17D.&nbsp;Did ~~QH02~~&nbsp;receive attestat for completing general school?</p>
+            <p>17D.  Did ~~QH02~~ receive attestat for completing general school?</p>
           RU: |
-            <p>17D.&nbsp;У ~~QH02~~&nbsp;есть аттестат о среднем образовании?<br></p>
+            <p>17D.  У ~~QH02~~ есть аттестат о среднем образовании?</p>
+          TJ: |
+            <p>17D.  Оё ~~QH02~~ шаҳодатномаи хатми мактаби миёна дорад?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
-            <p>17D.&nbsp;Did you receive attestat for completing general school?<br></p><p><p></p></p>
+            <p>17D.  Did you receive attestat for completing general school?</p>
           RU: |
-            <p>17D.&nbsp;&nbsp;У вас есть аттестат о среднем образовании?<br></p>
+            <p>17D.  У вас есть аттестат о среднем образовании?</p>
+          TJ: |
+            <p>17D.  Оё шумо шаҳодатномаи хатми мактаби миёна доред?</p>
   - name: TJHH80.QH18
     conditions:
       - logic: QH01 <> QHRESP
@@ -318,12 +398,16 @@ questions:
             <p>18.  Did ~~QH02~~ attend school or any early childhood education program at any time during the 2022-2023 school year?</p>
           RU: |
             <p>18.  ~~QH02~~ посещал(а) учебное заведение или какую-либо программу раннего детского образования в любое время в течение 2022-2023 учебного года?</p>
+          TJ: |
+            <p>18.  ~~QH02~~ дар давоми соли хониши 2022-2023 ба муассисаи таълимӣ ё ягон барномаи таълимии синни барвақтӣ рафтааст?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>18.  Did you attend school or any early childhood education program at any time during the 2022-2023 school year?</p>
           RU: |
             <p>18.  Вы посещали учебное заведение или какую-либо программу раннего детского образования в любое время в течение 2022-2023 учебного года?</p>
+          TJ: |
+            <p>18.  Шумо дар давоми соли хониши 2022-2023 ба муассисаи таълимӣ ё ягон барномаи таълимии синни барвақтӣ рафтаед?</p>
   - name: TJHH80.QH19A
     conditions:
       - logic: QH01 <> QHRESP
@@ -332,12 +416,25 @@ questions:
             <p>19.  During [this/that] school year, what level and class/course [is/was] ~~QH02~~ attending?</p>
           RU: |
             <p>19.  В течение [этого/того] учебного года, какой уровень и класс/курс ~~QH02~~ [посещает/посещал(а)]?</p>
+          TJ: |
+            <p>19.  Дар давоми [ин/ё он] соли хониш, ~~QH02~~ дар кадом сатҳ ва синф/курс  [меравад/рафтааст]?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>19.  During [this/that] school year, what level [are/were] you attending?</p>
           RU: |
             <p>19.  В течение [этого/того] учебного года, какой уровень  вы [посещаете/посещали]?</p>
+          TJ: |
+            <p>19.  Дар давоми [ин/ё он] соли хониш, шумо дар кадом сатҳ  [меравед/рафта будед]?</p>
+  - name: TJHH80.QH20
+    conditions:
+      - questionText:
+          EN: |
+            <p>20.  Does ~~QH02~~ have a birth certificate?</p><p><span class="instruction">IF NO, PROBE:</span></p><p>Has ~~QH02~~&#39;s birth ever been registered with the civil authority?</p>
+          RU: |
+            <p>20.  У ~~QH02~~ есть свидетельство о рождении?</p><p><span class="instruction">ЕСЛИ НЕТ, УТОЧНИТЕ:</span></p><p>Рождение ~~QH02~~ было когда-либо зарегистрировано в органах государственной власти?</p>
+          TJ: |
+            <p>20.  Оё ~~QH02~~ шаҳодатномаи таваллуд дорад?</p><p><span class="instruction">АГАР НЕ, МУАЙЯН КУНЕД:</span></p><p>Оё таваллуди ~~QH02~~ ягон вақт дар мақомоти давлатӣ ба қайд гирифта шудааст?</p>
   - name: TJHH80.QH19B
     conditions:
       - logic: QH01 <> QHRESP
@@ -346,26 +443,25 @@ questions:
             <p>19.  During [this/that] school year, what class/course [is/was] ~~QH02~~ attending?</p>
           RU: |
             <p>19.  В течение [этого/того] учебного года, какой класс/курс  вы [посещаете/посещали]?</p>
+          TJ: |
+            <p>19.  Дар давоми [ин/ё он] соли хониш, шумо дар кадом синф/курс [меравед/рафта будед]?</p>
       - logic: QH01 = QHRESP
         questionText:
           EN: |
             <p>19.  During [this/that] school year, what class/course [are/were] you attending?</p>
           RU: |
             <p>19.  В течение [этого/того] учебного года, какой класс/курс  вы [посещаете/посещали]?</p>
-  - name: TJHH80.QH20
-    conditions:
-      - questionText:
-          EN: |
-            <p>20.  Does ~~QH02~~ have a birth certificate?</p><p><span class="instruction">IF NO, PROBE:</span></p><p>Has ~~QH02~~&#39;s birth ever been registered with the civil authority?</p>
-          RU: |
-            <p>20.  У ~~QH02~~ есть свидетельство о рождении?</p><p><span class="instruction">ЕСЛИ НЕТ, УТОЧНИТЕ:</span></p><p>Рождение ~~QH02~~ было когда-либо зарегистрировано в органах государственной власти?</p>
+          TJ: |
+            <p>19.  Дар давоми [ин/ё он] соли хониш, шумо дар кадом синф/курс [меравед/рафта будед]?</p>
   - name: TJHH80.QCDI3
     conditions:
       - questionText:
           EN: |
-            <p>43. Adults use certain ways to teach children the right behaviour or to address a behaviour problem. I will read various methods that are used. Please tell me if <u>you or anyone other adult in the household</u> has used this method with ~~QCDINAME~~ in the past month.</p><p></p><p><span style="color: rgb(0, 0, 255);">PRESS ENTER TO CONTINUE</span><br></p><p></p>
+            <p>43.  Adults use certain ways to teach children the right behaviour or to address a behaviour problem. I will read various methods that are used. Please tell me if you or anyone other adult in the household has used this method with ~~QCDINAME~~ in the past month.</p><p><span class="instruction">PRESS ENTER TO CONTINUE</span></p>
           RU: |
-            <p>43.&nbsp;Взрослые используют определенные способы, чтобы научить детей правильному поведению или решить проблему поведения. Я зачитаю вам различные используемые методы. Пожалуйста, скажите мне, если вы или любой другой взрослый в домохозяйстве применял этот метод по отношению ~~QCDINAME~~&nbsp;в течение прошлого месяца.</p><p></p><p><font color="#0000ff">НАЖМИТЕ ВВОД, ЧТОБЫ ПРОДОЛЖИТЬ</font><br></p><p></p>
+            <p>43.  Взрослые используют определенные способы, чтобы научить детей правильному поведению или решить проблему поведения. Я зачитаю вам различные используемые методы. Пожалуйста, скажите мне, если вы или любой другой взрослый в домохозяйстве применял этот метод по отношению  ~~QCDINAME~~ в течение прошлого месяца.</p><p><span class="instruction">НАЖМИТЕ ВВОД, ЧТОБЫ ПРОДОЛЖИТЬ</span></p>
+          TJ: |
+            <p>43.  Калонсолон усулҳои муайянеро истифода мебаранд, ки ба кӯдакон рафтори дурустро таълим диҳанд ё мушкилоти рафтори онҳоро ҳал кунанд. Ман ба шумо усулҳои гуногуни истифодашударо хонда медиҳам. Лутфан ба ман бигӯед, ки агар шумо ё ягон шахси калонсоли хонавода дар давоми як моҳи охир ин усулро нисбат ба ~~QCDINAME~~ истифода бурда бошед.</p><p><span class="instruction">БАРОИ ДАВОМ ДОРАД ENTER-РО ПАХШ КУНЕД</span></p>
   - name: TJHH80.QCDI3A
     conditions:
       - logic: xsex <> 1
@@ -374,12 +470,16 @@ questions:
             <p>43a2).  Took away privileges, forbade something ~~QCDINAME~~ liked or did not allow her to leave the house.</p>
           RU: |
             <p>43a2).  Лишали привилегий, запрещали то, что ~~QCDINAME~~ нравится, или не разрешали ей выходить из дома.  </p>
+          TJ: |
+            <p>43a2).  ~~QCDINAME~~-ро аз имтиёзҳо маҳрум кардед, аз он чизе, ки ӯ дӯст медорад манъ кардед, ё ба ӯ  иҷозат надодед, ки аз хона берун барояд.</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43a1).  Took away privileges, forbade something ~~QCDINAME~~ liked or did not allow him to leave the house.</p>
           RU: |
             <p>43a1).  Лишали привилегий, запрещали то, что ~~QCDINAME~~ нравится, или не разрешали ему выходить из дома.  </p>
+          TJ: |
+            <p>43a1).  ~~QCDINAME~~-ро аз имтиёзҳо маҳрум кардед, аз он чизе, ки ӯ дӯст медошт манъ кардед, ё ин ки ба ӯ иҷозат надодед, ки аз хона берун равад.</p>
   - name: TJHH80.QCDI3B
     conditions:
       - questionText:
@@ -387,6 +487,8 @@ questions:
             <p>43b).  Explained why ~~QCDINAME~~&#39;s behaviour was wrong.</p>
           RU: |
             <p>43b).  Разъясняли, почему ~~QCDINAME~~ поведение было неправильным.</p>
+          TJ: |
+            <p>43b).  Фаҳмондед, ки чаро рафтори ~~QCDINAME~~ нодуруст буд.</p>
   - name: TJHH80.QCDI3C
     conditions:
       - logic: xsex <> 1
@@ -395,12 +497,16 @@ questions:
             <p>43c2).  Shook her.</p>
           RU: |
             <p>43c2).  Трясли ее.</p>
+          TJ: |
+            <p>43c2).  Такондед ўро </p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43c1).  Shook him.</p>
           RU: |
             <p>43c1).  Трясли его.</p>
+          TJ: |
+            <p>43c1).  Такондед ўро </p>
   - name: TJHH80.QCDI3D
     conditions:
       - logic: xsex <> 1
@@ -409,12 +515,16 @@ questions:
             <p>43d2).  Shouted, yelled at or screamed at her.</p>
           RU: |
             <p>43d2).  Кричали, визжали или орали на нее.</p>
+          TJ: |
+            <p>43d2).  Ба сўи ў дод, аррос ва ё фарёд задед.</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43d1).  Shouted, yelled at or screamed at him.</p>
           RU: |
             <p>43d1).  Кричали, визжали или орали на него.</p>
+          TJ: |
+            <p>43d1).  Ба сўи ў дод, аррос ва ё фарёд задед.</p>
   - name: TJHH80.QCDI3E
     conditions:
       - logic: xsex <> 1
@@ -423,12 +533,16 @@ questions:
             <p>43e2).  Gave her something else to do.</p>
           RU: |
             <p>43e2).  Дали ей заняться чем-нибудь другим.</p>
+          TJ: |
+            <p>43e2).  Ба ў имконияти ба дигар кор машғул шуданро додед</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43e1).  Gave him something else to do.</p>
           RU: |
             <p>43e1).  Дали ему заняться чем-нибудь другим.</p>
+          TJ: |
+            <p>43e1).  Ба ў имконияти ба дигар кор машғул шуданро додед</p>
   - name: TJHH80.QCDI3F
     conditions:
       - logic: xsex <> 1
@@ -437,12 +551,16 @@ questions:
             <p>43f2).  Spanked, hit or slapped her on the bottom with bare hand.</p>
           RU: |
             <p>43f2).  Шлепали, били или стукали ее по ягодицам ладонью.</p>
+          TJ: |
+            <p>43f2).  Ӯро бо панҷаи дастонат торсакӣ, лату куб ба камарбанди кӯдак задед</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43f1).  Spanked, hit or slapped him on the bottom with bare hand.</p>
           RU: |
             <p>43f1).  Шлепали, били или стукали его по ягодицам ладонью.</p>
+          TJ: |
+            <p>43f1).  Ӯро бо панҷаи дастонат торсакӣ, лату куб ба камарбанди кӯдак задед</p>
   - name: TJHH80.QCDI3G
     conditions:
       - logic: xsex <> 1
@@ -451,12 +569,16 @@ questions:
             <p>43g2).  Hit her on the bottom or elsewhere on the body with something like a belt, hairbrush, stick, or other hard object.</p>
           RU: |
             <p>43g2).  Били ее по ягодицам или другим частям тела ременем, расческой, палкой или другим твердым предметом.</p>
+          TJ: |
+            <p>43g2).  Ба камарбанд ва ё дигар узвҳои бадан бо тасма, шона, чуб ва ё дигар ашёи сахт  задед.</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43g1).  Hit him on the bottom or elsewhere on the body with something like a belt, hairbrush, stick, or other hard object.</p>
           RU: |
             <p>43g1).  Били его по ягодицам или другим частям тела ременем, расческой, палкой или другим твердым предметом.</p>
+          TJ: |
+            <p>43g1).  Ба камарбанд ва ё дигар узвҳои бадан бо тасма, шона, чуб ва ё дигар ашёи сахт  задед.</p>
   - name: TJHH80.QCDI3H
     conditions:
       - logic: xsex <> 1
@@ -465,12 +587,16 @@ questions:
             <p>43h2).  Called her dumb, lazy, or another name like that.</p>
           RU: |
             <p>43h2).  Обзывали ее тупицей, лентяйкой или другим подобным именем.</p>
+          TJ: |
+            <p>43h2).  Ӯро беақл, танбал ё бо дигар номҳои ба ҳамин монанд номидед.</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43h1).  Called him dumb, lazy, or another name like that.</p>
           RU: |
             <p>43h1).  Обзывали его тупицей, лентяем или другим подобным именем.</p>
+          TJ: |
+            <p>43h1).  Ӯро беақл, танбал ё бо дигар номҳои ба ҳамин монанд номидед.</p>
   - name: TJHH80.QCDI3I
     conditions:
       - logic: xsex <> 1
@@ -479,12 +605,16 @@ questions:
             <p>43i2).  Hit or slapped her on the face, head, or ears.</p>
           RU: |
             <p>43i2).  Били или шлепали ее по лицу, голове или ушам.</p>
+          TJ: |
+            <p>43i2).  Ба рўй, сар ва гушҳои ў  задед ё куфтед</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43i1).  Hit or slapped him on the face, head, or ears.</p>
           RU: |
             <p>43i1).  Били или шлепали его по лицу, голове или ушам.</p>
+          TJ: |
+            <p>43i1).  Ба рўй, сар ва гушҳои ў  задед ё куфтед</p>
   - name: TJHH80.QCDI3J
     conditions:
       - logic: xsex <> 1
@@ -493,12 +623,16 @@ questions:
             <p>43j2).  Hit or slapped her on the hand, arm, or leg.</p>
           RU: |
             <p>43j2).  Били или шлепали ее по кисти, руке, или ноге.</p>
+          TJ: |
+            <p>43j2).  Ба оринҷ, даст ё пойҳои ў задед ё куфтед.</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43j1).  Hit or slapped him on the hand, arm, or leg.</p>
           RU: |
             <p>43j1).  Били или шлепали его по кисти, руке, или ноге.</p>
+          TJ: |
+            <p>43j1).  Ба оринҷ, даст ё пойҳои ў задед ё куфтед.</p>
   - name: TJHH80.QCDI3K
     conditions:
       - logic: xsex <> 1
@@ -507,12 +641,16 @@ questions:
             <p>43k2).  Beat her up, that is hit her over and over as hard as one could.</p>
           RU: |
             <p>43k2).  Избивали ее, то есть били ее изо всей силы снова и снова.</p>
+          TJ: |
+            <p>43k2).  Ӯро задед, аниқтараш  ӯро бо тамоми қувва такрор ба такрор задед.</p>
       - logic: xsex = 1
         questionText:
           EN: |
             <p>43k1).  Beat him up, that is hit him over and over as hard as one could.</p>
           RU: |
             <p>43k1).  Избивали его, то есть били его изо всей силы снова и снова.</p>
+          TJ: |
+            <p>43k1).  Ӯро задед, аниқтараш  ӯро бо тамоми қувва такрор ба такрор задед.</p>
   - name: TJHH80.QCDI4
     conditions:
       - questionText:
@@ -520,6 +658,8 @@ questions:
             <p>44.  Do you believe that in order to bring up, raise or educate a child properly, the child needs to be physically punished?</p>
           RU: |
             <p>44.  Считаете ли вы, что для того, чтобы воспитать,  вырастить или обучить ребенка правильно, ребенка нужно физически наказывать?</p>
+          TJ: |
+            <p>44.  Ба фикри шумо, барои дуруст тарбия кардан, калон кардан ё таълими дуруст додани кӯдак ба кӯдак ҷазои ҷисмонӣ додан лозим аст?</p>
   - name: TJHH80.QH101
     conditions:
       - questionText:
@@ -527,6 +667,8 @@ questions:
             <p>101.  What is the main source of drinking water for members of your household?</p>
           RU: |
             <p>101.  Что является основным источником питьевой воды для членов вашей семьи?</p>
+          TJ: |
+            <p>101.  Манбаи асосии оби нӯшокӣ барои аъзоёни оилаи шумо кадом аст?</p>
   - name: TJHH80.QH102
     conditions:
       - questionText:
@@ -534,6 +676,8 @@ questions:
             <p>102.  What is the main source of water used by your household for other purposes such as cooking and handwashing?</p>
           RU: |
             <p>102.  Что является основным источником воды, используемым вашим домохозяйством для других целей, таких как приготовление пищи и мытье рук?</p>
+          TJ: |
+            <p>102.  Манбаи асосии обе, ки хонаводаи шумо барои дигар мақсадҳо, аз қабили пухтупаз ва шустани дастҳо истифода мебарад, кадом аст?</p>
   - name: TJHH80.QH103
     conditions:
       - questionText:
@@ -541,6 +685,8 @@ questions:
             <p>103.  Where is that water source located?</p>
           RU: |
             <p>103.  Где находится этот источник воды?</p>
+          TJ: |
+            <p>103.  Ин манбаи об дар куҷо ҷойгир аст?</p>
   - name: TJHH80.QH104
     conditions:
       - questionText:
@@ -548,6 +694,8 @@ questions:
             <p>104.  How long does it take to go there, get water, and come back?</p>
           RU: |
             <p>104.  Сколько времени требуется, чтобы пойти туда, набрать воды и вернуться?</p>
+          TJ: |
+            <p>104.  Барои ба он ҷо рафтану об гирифтан ва баргаштан чанд вақт лозим аст?</p>
   - name: TJHH80.QH105
     conditions:
       - questionText:
@@ -555,6 +703,8 @@ questions:
             <p>105.  Who usually goes to this source to collect the water for your household?</p><p><span class="instruction">RECORD THE PERSON’S NAME AND LINE NUMBER FROM THE HOUSEHOLD SCHEDULE. IF THE PERSON IS NOT LISTED IN THE HOUSEHOLD ROSTER, RECORD ‘00’. </span></p>
           RU: |
             <p>105.  Кто обычно ходит к этому источнику, чтобы набрать воды для вашего домохозяйства?</p><p><span class="instruction">ЗАПИШИТЕ ИМЯ ЧЕЛОВЕКА И НОМЕР ЛИНИИ ИЗ СПИСКА ДОМОХОЗЯЙСТВА. ЕСЛИ ЧЕЛОВЕК НЕ ЗАПИСАН В СПИСКЕ ДОМОХОЗЯЙСТВА, ЗАПИШИТЕ &#39;00&#39;.</span></p>
+          TJ: |
+            <p>105.  Одатан кӣ ба ин манбаи об барои гирифтани об барои хонаводаатон меравад?</p><p><span class="instruction">НОМИ ШАХС ВА РАҚАМИ САТРРО АЗ РУЙХАТИ ХОНАВОДА ҚАЙД КУНЕД. АГАР ШАХС ДАР РЎЙХАТИ ХОНАВОДА НАБОШАД, &#39;00&#39;-РО ДАРҶ КУНЕД.</span></p>
   - name: TJHH80.QH106
     conditions:
       - questionText:
@@ -562,6 +712,8 @@ questions:
             <p>106.  In the last month, has there been any time when your household did not have sufficient quantities of drinking water when needed?</p>
           RU: |
             <p>106.  В течение последнего месяца были ли случаи, когда в вашем домохозяйстве не было достаточного количества питьевой воды, когда это было необходимо?</p>
+          TJ: |
+            <p>106.  Оё дар давоми як моҳи охир ҳолатҳое буданд, ки дар  хонаводаи шумо ба қадри кифоя оби ошомиданӣ дар вақтҳои зарурӣ намерасид?</p>
   - name: TJHH80.QH107
     conditions:
       - questionText:
@@ -569,6 +721,8 @@ questions:
             <p>107.  Do you do anything to the water to make it safer to drink?</p>
           RU: |
             <p>107.  Вы делаете что-нибудь с водой, чтобы сделать ее более безопасной для питья?</p>
+          TJ: |
+            <p>107.  Оё шумо ба об коре мекунед, то нӯшидани он бехатар шавад?</p>
   - name: TJHH80.QH108
     conditions:
       - questionText:
@@ -576,6 +730,8 @@ questions:
             <p>108.  What do you usually do to make the water safer to drink?</p><p>Anything else?</p><p><span class="instruction">RECORD ALL MENTIONED.</span></p>
           RU: |
             <p>108.  Что вы обычно делаете, чтобы сделать воду более безопасной для питья?</p><p>Что-нибудь еще?</p><p><span class="instruction">ЗАПИШИТЕ ВСЕ УПОМЯНУТОЕ.</span></p>
+          TJ: |
+            <p>108.  Шумо одатан чӣ кор мекунед, то обро барои нӯшидан бехатар намоед?</p><p>Боз чи кори дигар?</p><p><span class="instruction">ҲАМАИ ОН ЧИЗИ ГУФТАШУДАРО НАВИСЕД</span></p>
   - name: TJHH80.QH109
     conditions:
       - questionText:
@@ -583,6 +739,8 @@ questions:
             <p>109.  What kind of toilet facility do members of your household usually use?</p><p><span class="instruction">IF NOT POSSIBLE TO DETERMINE, ASK PERMISSION TO OBSERVE THE FACILITY.</span></p>
           RU: |
             <p>109.  Каким туалетом обычно пользуются члены вашего домохозяйства?</p><p><span class="instruction">ЕСЛИ НЕВОЗМОЖНО ОПРЕДЕЛИТЬ, ПОПРОСИТЕ РАЗРЕШЕНИЯ ОСМОТРЕТЬ ТУАЛЕТ.</span></p>
+          TJ: |
+            <p>109.  Аъзоёни хонаводаи шумо одатан аз кадом намуди ҳоҷатхона истифода мебаранд?</p><p><span class="instruction">АГАР МУАЙЯН КАРДАН ҒАЙРИИМКОН БОШАД, ИҶОЗАИ ДИДАНИ ҲОҶАТХОНАРО ХОҲИШ НАМОЕД.</span></p>
   - name: TJHH80.QH110
     conditions:
       - questionText:
@@ -590,6 +748,8 @@ questions:
             <p>110.  Do you share this toilet facility with other households?</p>
           RU: |
             <p>110.  Вы пользуетесь этим туалетом совместно с другими домохозяйствами?</p>
+          TJ: |
+            <p>110.  Оё шумо ин ҳоҷатхонаро бо дигар хонаводаҳо дар якҷоягӣ истифода менамоед?</p>
   - name: TJHH80.QH111
     conditions:
       - questionText:
@@ -597,6 +757,8 @@ questions:
             <p>111.  Including your own household, how many households use this toilet facility?</p>
           RU: |
             <p>111.  Включая ваше домохозяйство, сколько домохозяйств пользуются этим туалетом?</p>
+          TJ: |
+            <p>111.  Бо назардошти хонаводаи шумо чанд хонавода аз ин ҳоҷатхона истифода мебаранд?</p>
   - name: TJHH80.QH112
     conditions:
       - questionText:
@@ -604,6 +766,8 @@ questions:
             <p>112.  Where is this toilet facility located?</p>
           RU: |
             <p>112.  Где находится этот туалет?</p>
+          TJ: |
+            <p>112.  Ин ҳоҷатхона дар куҷо ҷойгир аст?</p>
   - name: TJHH80.QH114
     conditions:
       - logic: faciltype = 1
@@ -612,18 +776,24 @@ questions:
             <p>114a).  Has your septic tank ever been emptied?</p>
           RU: |
             <p>114a).  Ваш септик когда-нибудь был опорожнен?</p>
+          TJ: |
+            <p>114a).  Оё септики шумо ягон бор холӣ шудааст?</p>
       - logic: faciltype = 2
         questionText:
           EN: |
             <p>114b).  Has your pit latrine ever been emptied?</p>
           RU: |
             <p>114b).  Ваша ямная уборная когда-нибудь была опорожнена?</p>
+          TJ: |
+            <p>114b).  Оё чуқурии ҳоҷатхонаи шумо ягон бор холӣ карда шудааст?</p>
       - logic: faciltype = 3
         questionText:
           EN: |
             <p>114c).  Has your composting toilet ever been emptied?</p>
           RU: |
             <p>114c).  Ваш компостный туалет когда-нибудь был опорожнен?</p>
+          TJ: |
+            <p>114c).  Оё ҳоҷатхонаи поругаштаи шумо ягон бор холӣ шудааст?</p>
   - name: TJHH80.QH115
     conditions:
       - logic: faciltype = 1
@@ -632,18 +802,24 @@ questions:
             <p>115a).  The last time the septic tank was emptied, was it emptied by a service provider?</p>
           RU: |
             <p>115a).  В последний раз, когда септик был опорожнен, его опорожнял поставщик услуг?</p>
+          TJ: |
+            <p>115a).  Бори охир септик кай холӣ карда шуда буд, оё онро хизматрасон холӣ кард?</p>
       - logic: faciltype = 2
         questionText:
           EN: |
             <p>115b).  The last time the pit latrine was emptied, was it emptied by a service provider?</p>
           RU: |
             <p>115b).  В последний раз, когда ямная уборная была опорожнена, ее опорожнял поставщик услуг?</p>
+          TJ: |
+            <p>115b).  Бори охир чуқурии ҳоҷатхона кай холӣ карда шуда буд, оё онро хизматрасон холӣ кард?</p>
       - logic: faciltype = 3
         questionText:
           EN: |
             <p>115c).  The last time the composting toilet was emptied, was it emptied by a service provider?</p>
           RU: |
             <p>115c).  В последний раз, когда компостный туалет был опорожнен, его опорожнял поставщик услуг?</p>
+          TJ: |
+            <p>115c).  Бори охир  ҳоҷатхонаи поругашта кай холӣ карда шуда буд, оё онро хизматрасон холӣ кард?</p>
   - name: TJHH80.QH116
     conditions:
       - questionText:
@@ -651,6 +827,8 @@ questions:
             <p>116.  Where were the contents emptied to?</p>
           RU: |
             <p>116.  Куда было вылито содержимое?</p>
+          TJ: |
+            <p>116.  Ахлоти дохилӣ дар куҷо партофта шуд?</p>
   - name: TJHH80.QH117
     conditions:
       - questionText:
@@ -658,6 +836,8 @@ questions:
             <p>117.  In your household, what type of cookstove is mainly used for cooking?</p>
           RU: |
             <p>117.  Какой тип кухонной плиты в основном используется для приготовления пищи в вашем домохозяйстве?</p>
+          TJ: |
+            <p>117.  Барои пухтупаз дар хонаводаи шумо асосан кадом навъи оташдон истифода мешавад?</p>
   - name: TJHH80.QH118
     conditions:
       - questionText:
@@ -665,6 +845,8 @@ questions:
             <p>118.  Does the stove have a chimney?</p>
           RU: |
             <p>118.  У плиты есть дымоход?</p>
+          TJ: |
+            <p>118.  Оташдон дудкаш дорад?</p>
   - name: TJHH80.QH120
     conditions:
       - questionText:
@@ -672,6 +854,8 @@ questions:
             <p>120.  What type of fuel or energy source is used in this cookstove?</p>
           RU: |
             <p>120.  Какой тип топлива или источника энергии используется в этой плите?</p>
+          TJ: |
+            <p>120.  Дар ин оташдон кадом навъи сӯзишворӣ ё манбаи энергия истифода мешавад?</p>
   - name: TJHH80.QH121
     conditions:
       - questionText:
@@ -679,6 +863,8 @@ questions:
             <p>121.  Is the cooking usually done in the house, in a separate building, or outdoors?</p>
           RU: |
             <p>121.  Пища в основном готовится дома, в отдельном здании, или на открытом воздухе?</p>
+          TJ: |
+            <p>121.  Оё ғизо асосан дар хона, дар бинои алоҳида ё дар ҳавои кушод тайёр карда мешавад?</p>
   - name: TJHH80.QH122
     conditions:
       - questionText:
@@ -686,6 +872,8 @@ questions:
             <p>122.  Do you have a separate room which is used as a kitchen?</p>
           RU: |
             <p>122.  У вас есть отдельная комната, которая используется как кухня?</p>
+          TJ: |
+            <p>122.  Оё шумо як ҳуҷраи алоҳида доред, ки ҳамчун ошхона истифода мешавад?</p>
   - name: TJHH80.QH123
     conditions:
       - questionText:
@@ -693,6 +881,8 @@ questions:
             <p>123.  What does this household use to heat the home when needed?</p><p>IF THE RESPONDENT SAYS ELECTRICITY OR GAS, ASK: What type of heater is the (electricity/gas) used in?</p>
           RU: |
             <p>123.  Что это домохозяйство использует для отопления дома, когда это необходимо?</p><p>ЕСЛИ РЕСПОНДЕНТ ГОВОРИТ ЭЛЕКТРИЧЕСТВО ИЛИ ГАЗ, СПРОСИТЕ: В каком типе обогревателя используется (электричество/газ)?</p>
+          TJ: |
+            <p>123.  Ин хонавода дар мавридҳои зарурӣ барои гарм кардани хона аз чӣ истифода мебарад?</p><p>АГАР ҶАВОБДИҲАНДА БАРҚ Ё ГАЗ ГУЯД, ПУРСЕД: Кадом намуди гармкунак (барқї/газї) истифода мешавад?</p>
   - name: TJHH80.QH124
     conditions:
       - questionText:
@@ -700,6 +890,8 @@ questions:
             <p>124.  Does it have a chimney?</p>
           RU: |
             <p>124.  Там есть дымоход?</p>
+          TJ: |
+            <p>124.  Дар он ҷо дудкаш ҳаст?</p>
   - name: TJHH80.QH125
     conditions:
       - questionText:
@@ -707,6 +899,8 @@ questions:
             <p>125.  What type of fuel or energy source is used in this heater?</p>
           RU: |
             <p>125.  Какой вид топлива или источника энергии используется в этом обогревателе?</p>
+          TJ: |
+            <p>125.  Дар ин гармкунак кадом навъи сӯзишворӣ ё манбаи энергия истифода мешавад?</p>
   - name: TJHH80.QH126
     conditions:
       - questionText:
@@ -714,6 +908,8 @@ questions:
             <p>126.  At night, what does your household mainly use to light the home?</p>
           RU: |
             <p>126.  Что ваше домохозяйство в основном использует ночью для освещения дома?</p>
+          TJ: |
+            <p>126.  Хонаводаи шумо асосан шабона барои равшан кардани хона аз чӣ истифода мебарад?</p>
   - name: TJHH80.QH127
     conditions:
       - questionText:
@@ -721,6 +917,8 @@ questions:
             <p>127.  How many rooms in this household are used for sleeping?</p>
           RU: |
             <p>127.  Сколько комнат в этом домохозяйстве используются для сна?</p>
+          TJ: |
+            <p>127.  Дар ин хонавода чанд ҳуҷра барои хоб истифода мешавад?</p>
   - name: TJHH80.QH128
     conditions:
       - questionText:
@@ -728,13 +926,17 @@ questions:
             <p>128.  Does this household own any livestock, herds, other farm animals, or poultry?</p>
           RU: |
             <p>128.  Это домохозяйство владеет домашним скотом, стадами, другими сельскохозяйственными животными или домашней птицей?</p>
+          TJ: |
+            <p>128.  Оё ин хонавода чорвои хонагӣ, пода, дигар ҳайвоноти хоҷагии кишоварзӣ ё паррандаи хонагӣ дорад?</p>
   - name: QH129_BLOCK
     conditions:
       - questionText:
           EN: |
-            <p>129.  How many of the following animals does this household own?</p><p><span class="instruction">IF NONE, RECORD '00'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">IF MORE THAN 95, RECORD '95'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">IF UNKNOWN, RECORD '98'.</span></p>
+            <p>129.  How many of the following animals does this household own?</p><p><span class="instruction">IF NONE, RECORD &#39;00&#39;.</span></p><p><span class="instruction">IF MORE THAN 95, RECORD &#39;95&#39;.</span></p><p><span class="instruction">IF UNKNOWN, RECORD &#39;98&#39;.</span></p>
           RU: |
-            <p>129.  Сколько из перечисленных животных находятся во владении данного домохозяйства?</p><p><span class="instruction">ЕСЛИ НИ ОДНОГО, ЗАПИШИТЕ '00'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">ЕСЛИ 95 ИЛИ БОЛЕЕ, ЗАПИШИТЕ '95'.&nbsp;</span><span style="color: rgb(0, 0, 255); font-size: 14px;">ЕСЛИ НЕ ИЗВЕСТНО, ЗАПИШИТЕ '98'.</span></p>
+            <p>129.  Сколько из перечисленных животных находятся во владении данного домохозяйства?</p><p><span class="instruction">ЕСЛИ НИ ОДНОГО, ЗАПИШИТЕ &#39;00&#39;.</span></p><p><span class="instruction">ЕСЛИ 95 ИЛИ БОЛЕЕ, ЗАПИШИТЕ &#39;95&#39;.</span></p><p><span class="instruction">ЕСЛИ НЕ ИЗВЕСТНО, ЗАПИШИТЕ &#39;98&#39;.</span></p>
+          TJ: |
+            <p>129.  Аз ҳайвоноти номбаршуда чантояш дар хонавода вуҷуд дорад?</p><p><span class="instruction">АГАР ЯГОНТО НАБОШАД &#39;00&#39; НАВИСЕД.</span></p><p><span class="instruction">АГАР 95 ВА ЗИЁДА БОШАД, &#39;95&#39; НАВИСЕД.</span></p><p><span class="instruction">АГАР НОМАЪЛУМ БОШАД, &#39;98&#39; НАВИСЕД.</span></p>
   - name: TJHH80.QH129A
     conditions:
       - questionText:
@@ -742,6 +944,8 @@ questions:
             <p>129a).  Milk cows or bulls?</p>
           RU: |
             <p>129a).  Дойные коровы или быки?</p>
+          TJ: |
+            <p>129a).  Говҳои ширдеҳ ё буқаҳо?</p>
   - name: TJHH80.QH129B
     conditions:
       - questionText:
@@ -749,6 +953,8 @@ questions:
             <p>129b).  Other cattle?</p>
           RU: |
             <p>129b).  Другой крупный рогатый скот?</p>
+          TJ: |
+            <p>129b).  Дигар ҳайвони калони шохдор?</p>
   - name: TJHH80.QH129C
     conditions:
       - questionText:
@@ -756,6 +962,8 @@ questions:
             <p>129c).  Horses, donkeys, or mules?</p>
           RU: |
             <p>129c).  Лошади, ослы или мулы?</p>
+          TJ: |
+            <p>129c).  Аспҳо, харҳо ё хачирҳо?</p>
   - name: TJHH80.QH129D
     conditions:
       - questionText:
@@ -763,6 +971,8 @@ questions:
             <p>129d).  Goats?</p>
           RU: |
             <p>129d).  Козы?</p>
+          TJ: |
+            <p>129d).  Бузҳо?</p>
   - name: TJHH80.QH129E
     conditions:
       - questionText:
@@ -770,6 +980,8 @@ questions:
             <p>129e).  Sheep?</p>
           RU: |
             <p>129e).  Овцы?</p>
+          TJ: |
+            <p>129e).  Гусфандон?</p>
   - name: TJHH80.QH129F
     conditions:
       - questionText:
@@ -777,6 +989,8 @@ questions:
             <p>129f).  Chickens or other poultry?</p>
           RU: |
             <p>129f).  Куры или другая домашняя птица?</p>
+          TJ: |
+            <p>129f).  Мурғҳо ё дигар паррандаҳои хонагӣ?</p>
   - name: TJHH80.QH129G
     conditions:
       - questionText:
@@ -784,6 +998,8 @@ questions:
             <p>129g).  Rabbits?</p>
           RU: |
             <p>129g).  Кролики?</p>
+          TJ: |
+            <p>129g).  Харгушҳо?</p>
   - name: TJHH80.QH129H
     conditions:
       - questionText:
@@ -791,6 +1007,8 @@ questions:
             <p>129h).  Animals for fur?</p>
           RU: |
             <p>129h).  Животные на мех?</p>
+          TJ: |
+            <p>129h).  Ҳайвонот барои муина?</p>
   - name: TJHH80.QH129I
     conditions:
       - questionText:
@@ -798,6 +1016,8 @@ questions:
             <p>129i).  Beehives?</p>
           RU: |
             <p>129i).  Ульи?</p>
+          TJ: |
+            <p>129i).  Оилаи занбурҳо?</p>
   - name: TJHH80.QH130
     conditions:
       - questionText:
@@ -805,6 +1025,8 @@ questions:
             <p>130.  Does any member of this household using any agricultural land?</p>
           RU: |
             <p>130.  Кто-либо из членов этого домохозяйства пользуется какой-либо сельскохозяйственной землей?</p>
+          TJ: |
+            <p>130.  Оё ягон узви ин хонавода ягон намуди замини кишоварзиро истифода мебарад?</p>
   - name: TJHH80.QH131
     conditions:
       - questionText:
@@ -812,6 +1034,8 @@ questions:
             <p>131.  How many ares of agricultural land do members of this household use?</p><p><span class="instruction">IF 9500 OR MORE, RECORD &#39;9950&#39;.</span></p>
           RU: |
             <p>131.  Сколько соток сельскохозяйственной земли находятся в использовании членов этого домохозяйства?</p><p><span class="instruction">ЕСЛИ 9500 ИЛИ БОЛЬШЕ, ЗАПИШИТЕ  &#39;9995&#39;</span></p>
+          TJ: |
+            <p>131.   Чанд сотих замини кишоварзӣ дар истифодаи аъзоёни ин хонавода мебошад?</p><p><span class="instruction">АГАР 9500 ВА ЗИЁДА БОШАД, &#39;9995&#39; НАВИСЕД</span></p>
   - name: QH132_BLOCK
     conditions:
       - questionText:
@@ -819,6 +1043,8 @@ questions:
             <p>132.  Does your household have:</p>
           RU: |
             <p>132.  В вашем домохозяйстве есть:</p>
+          TJ: |
+            <p>132.  Дар хонаводаи шумо инҳо мавҷуд аст:</p>
   - name: TJHH80.QH132A
     conditions:
       - questionText:
@@ -826,12 +1052,16 @@ questions:
             <p>132a).  Electricity?</p>
           RU: |
             <p>132a).  Электричество?</p>
+          TJ: |
+            <p>132a).  Қувваи барқ?</p>
   - name: TJHH80.QH132B
     conditions:
       - questionText:
           EN: |
             <p>132b).  A radio?</p>
           RU: |
+            <p>132b).  Радио?</p>
+          TJ: |
             <p>132b).  Радио?</p>
   - name: TJHH80.QH132C
     conditions:
@@ -840,6 +1070,8 @@ questions:
             <p>132c).  A television?</p>
           RU: |
             <p>132c).  Телевизор?</p>
+          TJ: |
+            <p>132c).  Телевизор?</p>
   - name: TJHH80.QH132D
     conditions:
       - questionText:
@@ -847,6 +1079,8 @@ questions:
             <p>132d).  A non-mobile telephone?</p>
           RU: |
             <p>132d).  Стационарный телефон?</p>
+          TJ: |
+            <p>132d).  Телефони хонагӣ?</p>
   - name: TJHH80.QH132E
     conditions:
       - questionText:
@@ -854,6 +1088,8 @@ questions:
             <p>132e).  A computer?</p>
           RU: |
             <p>132e).  Компьютер?</p>
+          TJ: |
+            <p>132e).  Компютер?</p>
   - name: TJHH80.QH132F
     conditions:
       - questionText:
@@ -861,6 +1097,8 @@ questions:
             <p>132f).  A refrigerator?</p>
           RU: |
             <p>132f).  Холодильник?</p>
+          TJ: |
+            <p>132f).  Яхдон?</p>
   - name: TJHH80.QH132G
     conditions:
       - questionText:
@@ -868,6 +1106,8 @@ questions:
             <p>132g).  A washing machine?</p>
           RU: |
             <p>132g).  Стиральная машина?</p>
+          TJ: |
+            <p>132g).  Мошинаи ҷомашўӣ?</p>
   - name: TJHH80.QH132H
     conditions:
       - questionText:
@@ -875,6 +1115,8 @@ questions:
             <p>132h).  A vacuum cleaner?</p>
           RU: |
             <p>132h).  Пылесос?</p>
+          TJ: |
+            <p>132h).  Чангкашак?</p>
   - name: TJHH80.QH132I
     conditions:
       - questionText:
@@ -882,12 +1124,16 @@ questions:
             <p>132i).  A microwave?</p>
           RU: |
             <p>132i).  Микроволновая печь?</p>
+          TJ: |
+            <p>132i).  Оташдони микроволновӣ?</p>
   - name: TJHH80.QH132J
     conditions:
       - questionText:
           EN: |
             <p>132j).  A video camera?</p>
           RU: |
+            <p>132j).  Видеокамера?</p>
+          TJ: |
             <p>132j).  Видеокамера?</p>
   - name: TJHH80.QH132K
     conditions:
@@ -896,6 +1142,8 @@ questions:
             <p>132k).  A table or a hon-tohta?</p>
           RU: |
             <p>132k).  Стол или хон-тохта?</p>
+          TJ: |
+            <p>132k).  Миз ё хон-тохта?</p>
   - name: TJHH80.QH132L
     conditions:
       - questionText:
@@ -903,12 +1151,16 @@ questions:
             <p>132l).  A chair?</p>
           RU: |
             <p>132l).  Кресло?</p>
+          TJ: |
+            <p>132l).  Курсӣ?</p>
   - name: TJHH80.QH132M
     conditions:
       - questionText:
           EN: |
             <p>132m).  A sofa?</p>
           RU: |
+            <p>132m).  Диван?</p>
+          TJ: |
             <p>132m).  Диван?</p>
   - name: TJHH80.QH132N
     conditions:
@@ -917,6 +1169,8 @@ questions:
             <p>132n).  A bed?</p>
           RU: |
             <p>132n).  Кровать?</p>
+          TJ: |
+            <p>132n).  Кроват?</p>
   - name: TJHH80.QH132O
     conditions:
       - questionText:
@@ -924,6 +1178,8 @@ questions:
             <p>132o).  A wall unit, or a buffet, or a curio cabinet?</p>
           RU: |
             <p>132o).  Стенка или буфет или сервант?</p>
+          TJ: |
+            <p>132o).  Ҷевон, буфет ё сервант?</p>
   - name: TJHH80.QH132P
     conditions:
       - questionText:
@@ -931,6 +1187,8 @@ questions:
             <p>132p).  An air conditioner?</p>
           RU: |
             <p>132p).  Кондиционер?</p>
+          TJ: |
+            <p>132p).  Кондитсионер?</p>
   - name: TJHH80.QH132Q
     conditions:
       - questionText:
@@ -938,6 +1196,8 @@ questions:
             <p>132q).  A DVD player?</p>
           RU: |
             <p>132q).  Видео проигрыватель ДВД?</p>
+          TJ: |
+            <p>132q).  Видео плеери DVD?</p>
   - name: TJHH80.QH132R
     conditions:
       - questionText:
@@ -945,6 +1205,8 @@ questions:
             <p>132r).  A satellite antenna or a cable TV channels?</p>
           RU: |
             <p>132r).  Cпутниковая антенна или кабельные телеканалы?</p>
+          TJ: |
+            <p>132r).  Антеннаи моҳворагӣ ё телевизионҳои кабелӣ?</p>
   - name: TJHH80.QH132S
     conditions:
       - questionText:
@@ -952,6 +1214,8 @@ questions:
             <p>132s).  A freezer?</p>
           RU: |
             <p>132s).  Морозильник?</p>
+          TJ: |
+            <p>132s).  Яхдон?</p>
   - name: TJHH80.QH132T
     conditions:
       - questionText:
@@ -959,6 +1223,8 @@ questions:
             <p>132t).  An electric fan?</p>
           RU: |
             <p>132t).  Электрический вентилятор?</p>
+          TJ: |
+            <p>132t).  Шамолдиҳаки барқӣ?</p>
   - name: TJHH80.QH132U
     conditions:
       - questionText:
@@ -966,6 +1232,8 @@ questions:
             <p>132u).  A sewing machine?</p>
           RU: |
             <p>132u).  Швейная машинка?</p>
+          TJ: |
+            <p>132u).  Мошинаи дарздузӣ?</p>
   - name: TJHH80.QH132V
     conditions:
       - questionText:
@@ -973,6 +1241,8 @@ questions:
             <p>132v).  In-door heater?</p>
           RU: |
             <p>132v).  Обогреватель?</p>
+          TJ: |
+            <p>132v).  Гармкунак?</p>
   - name: TJHH80.QH132W
     conditions:
       - questionText:
@@ -980,6 +1250,8 @@ questions:
             <p>132w).  A mini-generator like &quot;dvizhok&quot;?</p>
           RU: |
             <p>132w).  Мини-генератор как движок?</p>
+          TJ: |
+            <p>132w).  Мини-генератор ба монанди движок?</p>
   - name: TJHH80.QH132X
     conditions:
       - questionText:
@@ -987,6 +1259,8 @@ questions:
             <p>132x).  A fuel or wood stock?</p>
           RU: |
             <p>132x).  Запас топлива или дров?</p>
+          TJ: |
+            <p>132x).  Захираи сӯзишворӣ ё ҳезум?</p>
   - name: TJHH80.QH132Y
     conditions:
       - questionText:
@@ -994,6 +1268,8 @@ questions:
             <p>132y).  A carpet?</p>
           RU: |
             <p>132y).  Ковер?</p>
+          TJ: |
+            <p>132y).  Қолин?</p>
   - name: TJHH80.QH132Z
     conditions:
       - questionText:
@@ -1001,6 +1277,8 @@ questions:
             <p>132z).  A connection to the Internet?</p>
           RU: |
             <p>132z).  Связь с интернетом?</p>
+          TJ: |
+            <p>132z).  Алоқаи интернетӣ?</p>
   - name: TJHH80.QH132TT
     conditions:
       - questionText:
@@ -1008,13 +1286,17 @@ questions:
             <p>132tt).  A dishwashing machine?</p>
           RU: |
             <p>132tt).  Посудомоечная машина?</p>
+          TJ: |
+            <p>132tt).  Мошини зарфшӯйӣ?</p>
   - name: TJHH80.QH132UU
     conditions:
       - questionText:
           EN: |
             <p>132uu).  A clothes dryer machine?</p>
           RU: |
-            <p>132uu).&nbsp;Сушильная машина для одежды электрическая?</p>
+            <p>132uu).  Сушильная машина для одежды электрическая?</p>
+          TJ: |
+            <p>132uu).  Мошини хушккунаки барқӣ барои либос?</p>
   - name: TJHH80.QH132VV
     conditions:
       - questionText:
@@ -1022,6 +1304,8 @@ questions:
             <p>132vv).  Electric water heater like a Termix?</p>
           RU: |
             <p>132vv).  Электрический водонагреватель, как Термикс?</p>
+          TJ: |
+            <p>132vv).  Обгармкунаки барқӣ ба монанди Термикс?</p>
   - name: QH133_BLOCK
     conditions:
       - questionText:
@@ -1029,6 +1313,8 @@ questions:
             <p>133.  Does any member of this household own:</p>
           RU: |
             <p>133.  Кто-либо из членов этого домохозяйства владеет:</p>
+          TJ: |
+            <p>133.  Оё ягон аъзои ин хонавода дорад:</p>
   - name: TJHH80.QH133A
     conditions:
       - questionText:
@@ -1036,6 +1322,8 @@ questions:
             <p>133a).  A watch?</p>
           RU: |
             <p>133a).  Часами?</p>
+          TJ: |
+            <p>133a).  Соатҳои дастӣ?</p>
   - name: TJHH80.QH133B
     conditions:
       - questionText:
@@ -1043,6 +1331,8 @@ questions:
             <p>133b).  A mobile phone?</p>
           RU: |
             <p>133b).  Мобильным телефоном?</p>
+          TJ: |
+            <p>133b).  Телефонҳои мобилӣ?</p>
   - name: TJHH80.QH133C
     conditions:
       - questionText:
@@ -1050,6 +1340,8 @@ questions:
             <p>133c).  A bicycle?</p>
           RU: |
             <p>133c).  Велосипедом?</p>
+          TJ: |
+            <p>133c).  Дучарха?</p>
   - name: TJHH80.QH133D
     conditions:
       - questionText:
@@ -1057,6 +1349,8 @@ questions:
             <p>133d).  A motorcycle or motor scooter?</p>
           RU: |
             <p>133d).  Мотоциклом или скутером?</p>
+          TJ: |
+            <p>133d).  Мотосикл ё скутер?</p>
   - name: TJHH80.QH133E
     conditions:
       - questionText:
@@ -1064,6 +1358,8 @@ questions:
             <p>133e).  An animal-drawn cart?</p>
           RU: |
             <p>133e).  Гужевой повозкой как арба? </p>
+          TJ: |
+            <p>133e).  Аробаи аспӣ мисли ароба?</p>
   - name: TJHH80.QH133F
     conditions:
       - questionText:
@@ -1071,6 +1367,8 @@ questions:
             <p>133f).  A car?</p>
           RU: |
             <p>133f).  Легковым автомобилем?</p>
+          TJ: |
+            <p>133f).  Мошини сабукрав?</p>
   - name: TJHH80.QH133G
     conditions:
       - questionText:
@@ -1078,6 +1376,8 @@ questions:
             <p>133g).  A boat with a motor?</p>
           RU: |
             <p>133g).  Лодкой с мотором?</p>
+          TJ: |
+            <p>133g).  Киштии мотордор?</p>
   - name: TJHH80.QH133H
     conditions:
       - questionText:
@@ -1085,6 +1385,8 @@ questions:
             <p>133h).  A truck?</p>
           RU: |
             <p>133h).  Грузовой машиной?</p>
+          TJ: |
+            <p>133h).  Мошини боркаш?</p>
   - name: TJHH80.QH133I
     conditions:
       - questionText:
@@ -1092,6 +1394,8 @@ questions:
             <p>133i).  A tractor?</p>
           RU: |
             <p>133i).  Трактором?</p>
+          TJ: |
+            <p>133i).  Трактор?</p>
   - name: TJHH80.QH133J
     conditions:
       - questionText:
@@ -1099,6 +1403,8 @@ questions:
             <p>133j).  A combine-harvester?</p>
           RU: |
             <p>133j).  Комбайном?</p>
+          TJ: |
+            <p>133j).  Комбайн?</p>
   - name: TJHH80.QH133K
     conditions:
       - questionText:
@@ -1106,6 +1412,8 @@ questions:
             <p>133k).  Any agricultural equipment, such as a plow, a trailer, a mower or similar?</p>
           RU: |
             <p>133k).  Сельскохозяйственным оборудованием, как например плугом, прицепом, сенокосилкой и подобным?</p>
+          TJ: |
+            <p>133k).  Таҷҳизоти хоҷагии қишлоқ аз қабили плуг, ядак, алафдаравкунак ва ба монанди инњо?</p>
   - name: TJHH80.QH134
     conditions:
       - questionText:
@@ -1113,6 +1421,8 @@ questions:
             <p>134.  Does any member of this household have an account in a bank or other financial institution?</p>
           RU: |
             <p>134.  У кого-либо из членов этого домохозяйства есть счет в банке или в другом финансовом учреждении?</p>
+          TJ: |
+            <p>134.  Оё касе аз аъзоёни ин хонавода дар бонк ё дигар муассисаи молиявӣ суратҳисоб дорад?</p>
   - name: TJHH80.QH134AA
     conditions:
       - questionText:
@@ -1120,6 +1430,8 @@ questions:
             <p>134AA.  How many of them are women?</p>
           RU: |
             <p>134AA.  Сколько из них женщин?</p>
+          TJ: |
+            <p>134AA.  Чанд нафари онҳо занон?</p>
   - name: TJHH80.QH134AB
     conditions:
       - questionText:
@@ -1127,6 +1439,8 @@ questions:
             <p>134AB.  How many of them are men?</p>
           RU: |
             <p>134AB.  сколько из них мужчин?</p>
+          TJ: |
+            <p>134AB.  чанд нафарашон мардонанд?</p>
   - name: TJHH80.QH135
     conditions:
       - questionText:
@@ -1134,6 +1448,8 @@ questions:
             <p>135.  Does any member of this household use a mobile phone to make financial transactions such as sending or receiving money, paying bills, purchasing goods or services, or receiving wages? </p>
           RU: |
             <p>135.  Кто-либо из членов этого домохозяйства использует мобильный телефон для совершения финансовых операций, таких как отправка или получение денег, оплата счетов, покупка товаров или услуг, или получение заработной платы?</p>
+          TJ: |
+            <p>135.  Оё ягон узви ин хонавода телефони мобилиро барои амалиётҳои молиявӣ, аз қабили ирсол ё гирифтани пул, пардохти суратҳисобҳо, харидани мол ё хидмат ё гирифтани музди меҳнат истифода мебарад?</p>
   - name: TJHH80.QH136
     conditions:
       - questionText:
@@ -1141,6 +1457,8 @@ questions:
             <p>136.  How often does anyone smoke inside your house? Would you say daily, weekly, monthly, less often than once a month, or never?</p>
           RU: |
             <p>136.  Как часто кто-нибудь курит внутри вашего дома? Скажете ли вы, что ежедневно, еженедельно, ежемесячно, реже чем раз в месяц, или никогда?</p>
+          TJ: |
+            <p>136.  Чанд маротиба дар дохили хонаи шумо касе сигор мекашад? Оё шумо гуфта метавонед, ки ҳаррӯз, ҳарҳафта, моҳона, камтар аз як маротиба дар як моҳ ё ҳеҷ гоҳ?</p>
   - name: TJHH80.QH136A
     conditions:
       - questionText:
@@ -1148,6 +1466,8 @@ questions:
             <p>136A.  In the past 12 month, has any member of the household worked abroad for three or more months at a time, including those currently working abroad?</p>
           RU: |
             <p>136A.  В течение последних 12 месяцев, кто-либо из членов вашего домохозяйства работал за границей в течение трех и более месяцев подряд, включая тех, кто сейчас работает за границей?</p>
+          TJ: |
+            <p>136A.  Дар 12 моҳи охир, оё ягон аъзои хонаводаи шумо  се моҳ ё бештар аз он дар хориҷа кор кардааст, аз ҷумла онҳое, ки ҳоло дар хориҷа кор мекунанд?</p>
   - name: TJHH80.QH136BA
     conditions:
       - questionText:
@@ -1159,9 +1479,11 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p>136AB.  How many of them are men?</p>
+            <p>136BB.  How many of them are men?</p>
           RU: |
-            <p>136AB.  сколько из них мужчин?</p>
+            <p>136BB.  сколько из них мужчин?</p>
+          TJ: |
+            <p>136BB.  чанд нафарашон мардонанд?</p>
   - name: TJHH80.QH136C
     conditions:
       - questionText:
@@ -1176,6 +1498,8 @@ questions:
             <p>136D.  Over the past 12 months, have you or any member of your household received money and/or parcels from abroad?</p>
           RU: |
             <p>136D.  За последние 12 месяцев получали ли вы или члены вашего домохозяйства деньги и, или посылки из-за границы? </p>
+          TJ: |
+            <p>136D.  Оё дар 12 моҳи охир шумо ё аъзои хонаводаи шумо аз хориҷа пул ва, ё баста гирифтаед?</p>
   - name: TJHH80.QH136E
     conditions:
       - questionText:
@@ -1183,6 +1507,8 @@ questions:
             <p>136E.  From which country did you or your household receive money and, or parcels at the most recent time?</p>
           RU: |
             <p>136E.  Из какой страны вы или ваше домохозяйство получили деньги и, или посылки в самый последний раз?</p>
+          TJ: |
+            <p>136E.  Шумо ё хонаводаи шумо охирин маротиба аз кадом кишвар пул ва, ё баста гирифтаед?</p>
   - name: TJHH80.QH136F
     conditions:
       - questionText:
@@ -1190,6 +1516,8 @@ questions:
             <p>136F.  In your opinion, over the past 12 months, how have remittances from abroad affected your family’s financial situation, would you say substantially improved, slightly improved or has no effect?</p>
           RU: |
             <p>136F.  По вашему мнению, как повлияли денежные переводы из-за границы на финансовое положение вашей семьи в течении последних 12 месяцев, сказали ли бы вы что значительно улучшили, немного улучшили, или никак не повлияли?</p>
+          TJ: |
+            <p>136F.  Ба назари Шумо, дар 12 моҳи охир маблағҳои интиқолӣ аз хориҷа ба вазъи молии хонаводаатон чӣ гуна таъсир гузоштанд, оё метавонед гуфта, ки хеле беҳтар шуд, каме беҳтар шуд ва ё умуман таъсир накард?</p>
   - name: TJHH80.QH149
     conditions:
       - questionText:
@@ -1197,6 +1525,8 @@ questions:
             <p>149.  We would like to learn about the places that households use to wash their hands. Can you please show me where members of your household most often wash their hands?</p>
           RU: |
             <p>149.  Мы хотели бы узнать о местах, которые домохозяйства используют для мытья рук. Пожалуйста, покажите мне, где члены вашего домохозяйства чаще всего моют руки?</p>
+          TJ: |
+            <p>149.  Мехостем дар бораи ҷойҳое, ки хонавода барои шустани даст истифода мебаранд, маълумот гирем. Лутфан ба ман нишон диҳед, ки аъзоёни хонаводаи шумо бештар дар куҷо дастони худро  мешӯянд?</p>
   - name: TJHH80.QH150
     conditions:
       - questionText:
@@ -1204,6 +1534,8 @@ questions:
             <p><span class="instruction">150.  OBSERVE PRESENCE OF WATER AT THE PLACE FOR HANDWASHING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
           RU: |
             <p><span class="instruction">150.  ПОСМОТРИТЕ ИМЕЕТСЯ ЛИ В НАЛИЧИИ ВОДА В МЕСТЕ, ОТВЕДЕННОМ ДЛЯ МЫТЬЯ РУК.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          TJ: |
+            <p><span class="instruction">150.  БУБИНЕД, КИ ДАР ҶОЙИ БАРОИ ДАСТШУӢ МУАЙЯНШУДА, ОБ МАВҶУД АСТ.</span></p><p><span class="instruction">МУШОҲИДАРО ҚАЙД КУНЕД.</span></p>
   - name: TJHH80.QH151
     conditions:
       - questionText:
@@ -1211,6 +1543,8 @@ questions:
             <p><span class="instruction">151.  OBSERVE PRESENCE OF SOAP, DETERGENT, OR OTHER CLEANSING AGENT AT THE PLACE OF HANDWASHING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
           RU: |
             <p><span class="instruction">151.  ПОСМОТРИТЕ ЕСТЬ ЛИ В НАЛИЧИИ МЫЛО,  МОЮЩЕЕ СРЕДСТВО ИЛИ ДРУГОЕ ОЧИЩАЮЩЕЕ СРЕДСТВО В МЕСТЕ, ОТВЕДЕННОМ ДЛЯ МЫТЬЯ РУК.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          TJ: |
+            <p><span class="instruction">151.  БУБИНЕД, КИ ДАР ҶОЙИ БАРОИ ДАСТШУӢ МУАЙЯНШУДА, СОБУН, МАВОДИ ШУСТУШУӢ Ё ДИГАР НАМУДИ МАВОДҲОИ ШУСТУШУӢ МАВҶУД АСТ.</span></p><p><span class="instruction">МУШОҲИДАРО ҚАЙД КУНЕД.</span></p>
   - name: TJHH80.QH152
     conditions:
       - questionText:
@@ -1218,6 +1552,8 @@ questions:
             <p><span class="instruction">152.  OBSERVE MAIN MATERIAL OF THE FLOOR OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
           RU: |
             <p><span class="instruction">152.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ ПОЛА В ДОМЕ.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          TJ: |
+            <p><span class="instruction">152.  БУБИНЕД, КИ  МАҲСУЛОТИ АСОСИИ ФАРШИ ХОНА АЗ ЧИСТ.</span></p><p><span class="instruction">МУШОҲИДАРО ҚАЙД КУНЕД.</span></p>
   - name: TJHH80.QH153
     conditions:
       - questionText:
@@ -1225,6 +1561,8 @@ questions:
             <p><span class="instruction">153.  OBSERVE MAIN MATERIAL OF THE ROOF OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
           RU: |
             <p><span class="instruction">153.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ КРЫШИ ДОМА.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          TJ: |
+            <p><span class="instruction">153.  БУБИНЕД, КИ  МАҲСУЛОТИ АСОСИИ БОМИ ХОНА ЧИСТ.</span></p><p><span class="instruction">МУШОҲИДАРО ҚАЙД КУНЕД.</span></p>
   - name: TJHH80.QH154
     conditions:
       - questionText:
@@ -1232,6 +1570,8 @@ questions:
             <p><span class="instruction">154.  OBSERVE MAIN MATERIAL OF THE EXTERIOR WALLS OF THE DWELLING.</span></p><p><span class="instruction">RECORD OBSERVATION.</span></p>
           RU: |
             <p><span class="instruction">154.  ПОСМОТРИТЕ КАКОЙ ОСНОВНОЙ МАТЕРИАЛ ВНЕШНИХ СТЕН ДОМА.</span></p><p><span class="instruction">ЗАПИШИТЕ НАБЛЮДЕНИЕ.</span></p>
+          TJ: |
+            <p><span class="instruction">154.  БУБИНЕД, КИ  МАҲСУЛОТИ АСОСИИ ДЕВОРҲОИ БЕРУНАИ ХОНА АЗ ЧИСТ.</span></p><p><span class="instruction">МУШОҲИДАРО ҚАЙД КУНЕД.</span></p>
   - name: TJHH80.QH155
     conditions:
       - questionText:
@@ -1239,6 +1579,8 @@ questions:
             <p>155.  I would like to check whether the salt used in your household is iodized. May I have a sample of the salt used to cook meals in your household?</p><p><span class="instruction">TEST SALT FOR IODINE.</span></p>
           RU: |
             <p>155.  Я хотела бы проверить, иодирована ли соль, используемая в вашем домохозяйстве. Могу ли я получить немного соли, которую используют для приготовления пищи в вашем домохозяйстве?</p><p><span class="instruction">ПРОВЕДИТЕ ТЕСТ СОЛИ НА НАЛИЧИЕ ЙОДА.</span></p>
+          TJ: |
+            <p>155.  Мехостам тафтиш кунам, ки намаки дар хонаводаи шумо истифодашаванда йоднок аст ё не. Оё ман метавонам каме аз намаке, ки дар хонаи шумо барои пухтупаз истифода мешавад, гирам?</p><p><span class="instruction">НАМАКРО БАРОИ МАВҶУДИЯТИ ЙОД ОЗМОЕД.</span></p>
   - name: TJHH80.QHLANGQ
     conditions:
       - questionText:
@@ -1248,23 +1590,29 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER THE LANGUAGE OF THE INTERVIEW&#160;</span></p>
+            <p><span class="instruction">ENTER THE LANGUAGE OF THE INTERVIEW </span></p>
           RU: |
-            <p><span style="font-size: 24px; color: rgb(0, 0, 255);">ВВЕДИТЕ ЯЗЫК ИНТЕРВЬЮ</span><br></p><p><p></p></p>
+            <p><span class="instruction">ЯЗЫК ИНТЕРВЬЮ</span></p>
+          TJ: |
+            <p><span class="instruction">ЗАБОНИ МУСОХИБА</span></p>
   - name: TJHH80.QHLANGR
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER THE NATIVE LANGUAGE OF THE RESPONDENT&#160;</span></p>
+            <p><span class="instruction">ENTER THE NATIVE LANGUAGE OF THE RESPONDENT </span></p>
           RU: |
-            <p><font color="#0000ff"><span style="font-size: 24px;">ВВЕДИТЕ РОДНОЙ ЯЗЫК РЕСПОНДЕНТА</span></font><br></p>
+            <p><span class="instruction">РОДНОЙ ЯЗЫК	РЕСПОНДЕНТА</span></p>
+          TJ: |
+            <p><span class="instruction">ЗАБОНИ МОДАРИИ МУСОБИЦА</span></p>
   - name: TJHH80.QHTRANS
     conditions:
       - questionText:
           EN: |
-            <p><span style="font-size:21px;color:#0000ff;">ENTER WHETHER A TRANSLATOR WAS USED DURING THE INTERVIEW&#160;</span></p>
+            <p><span class="instruction">ENTER WHETHER A TRANSLATOR WAS USED DURING THE INTERVIEW </span></p>
           RU: |
-            <p><br></p><p><font color="#0000ff"><span style="font-size: 21px;">ПЕРЕВОДЧИК ИСПОЛЬЗОВАН</span></font><br></p>
+            <p><span class="instruction">ПЕРЕВОДЧИК ИСПОЛЬЗОВАН</span></p>
+          TJ: |
+            <p><span class="instruction">ТАРҶУМАН ИСТИФОДА ШУДААСТ</span></p>
   - name: TJHH80.GHAUX
     conditions:
       - questionText:
@@ -1305,6 +1653,8 @@ questions:
             <p> .  Record the day of the visit </p>
           RU: |
             <p> .  Запишите день посещения</p>
+          TJ: |
+            <p> .  Рӯзи ташрифро нависед</p>
   - name: TJHH80.QBINTM
     conditions:
       - questionText:
@@ -1312,6 +1662,8 @@ questions:
             <p> .  Record the month of the visit </p>
           RU: |
             <p> .  Запишите месяц посещения</p>
+          TJ: |
+            <p> .  Моҳи ташрифро нависед</p>
   - name: TJHH80.QBINTY
     conditions:
       - questionText:
@@ -1319,13 +1671,17 @@ questions:
             <p> .  Record the year of the visit </p>
           RU: |
             <p> .  Запишите год посещения</p>
+          TJ: |
+            <p> .  Соли ташрифро нависед</p>
   - name: TJHH80.QBVISITS
     conditions:
       - questionText:
           EN: |
             <p> .  Register the number of visits necessary to complete the biomarker questionnaire </p>
           RU: |
-            <p> .  Зарегистрируйте количество посещений, необходимых для заполнения анкеты по биомаркерам.</p>
+            <p> .  Зарегистрируйте число посещений, нужных чтобы закончить вопросник по биомаркерам.</p>
+          TJ: |
+            <p> .  Шумораи ташрифҳои заруриро барои пур кардани саволномаи биомаркер нависед</p>
   - name: TJHH80.QB102
     conditions:
       - questionText:
@@ -1338,55 +1694,71 @@ questions:
             <p> .  Do you want to enter biomarker measurements for ~~QCNAME~~? </p>
           RU: |
             <p> .  Вы хотите ввести измерения биомаркеров для ~~QCNAME~~?</p>
+          TJ: |
+            <p> .  Оё шумо мехоҳед ченкуниҳои биомаркериро барои ~~QCNAME~~ амалї кунед?</p>
   - name: QB103_BLOCK
     conditions:
       - questionText:
           EN: |
             <p>103.  What is ~~QCNAME~~’s date of birth?</p>
           RU: |
-            <p>103.  Назовите ~~QCNAME~~ дату рождения?</p>
+            <p>103.  Назовите дату рождения ~~QCNAME~~?</p>
+          TJ: |
+            <p>103.  Санаи таваллуди ~~QCNAME~~ -ро гуед?</p>
   - name: TJHH80.QB103D
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">103.  RECORD DAY </span></p>
           RU: |
-            <p><span class="instruction">103.  ЗАПИСЬ ДЕНЬ</span></p>
+            <p><span class="instruction">103.  ЗАПИШИТЕ ДЕНЬ</span></p>
+          TJ: |
+            <p><span class="instruction">103.  РЎЗРО НАВИСЕД</span></p>
   - name: TJHH80.QB103M
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">103.  RECORD MONTH </span></p>
           RU: |
-            <p><span class="instruction">103.  ЗАПИСЬ МЕСЯЦ</span></p>
+            <p><span class="instruction">103.  ЗАПИШИТЕ МЕСЯЦ</span></p>
+          TJ: |
+            <p><span class="instruction">103.  МОЊРО НАВИСЕД</span></p>
   - name: TJHH80.QB103Y
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">103.  RECORD YEAR </span></p>
           RU: |
-            <p><span class="instruction">103.  ЗАПИСЬ ГОД</span></p>
+            <p><span class="instruction">103.  ЗАПИШИТЕ ГОД</span></p>
+          TJ: |
+            <p><span class="instruction">103.  СОЛРО НАВИСЕД</span></p>
   - name: TJHH80.QB104
     conditions:
       - questionText:
           EN: |
             <p>104.  How old was ~~QCNAME~~ at ~~QCNAME~~&#39;s last birthday?</p>
           RU: |
-            <p>104.  Сколько лет исполнилось ~~QCNAME~~ в последний день рождения ~~QCNAME~~?</p>
+            <p>104.  Сколько лет исполнилось ~~QCNAME~~ в ~~QCNAME~~ последний день рождения ?</p>
+          TJ: |
+            <p>104.  ~~QCNAME~~ дар зодрӯзи охирини ~~QCNAME~~ чандсола шуда буд?</p>
   - name: TJHH80.QB106
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">106.  RECORD ~~QCNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xx.xx and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">106.  ЗАПИШИТЕ ВЕС ~~QCNAME~~ В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичную точку)</p>
+            <p><span class="instruction">106.  ЗАПИШИТЕ ~~QCNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">106.  ВАЗНИ ~~QCNAME~~-РО БО КИЛОГРАММ НАВИСЕД.</span></p><p>(Формати xx.xx-ро истифода баред ва нишондодњои даҳї ворид кунед)</p>
   - name: TJHH80.QB106W
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">106.  RE-ENTER ~~QCNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xx.xx and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">106.  ПОВТОРИТЕ ВЕС ~~QCNAME~~ В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичную точку)</p>
+            <p><span class="instruction">106.  ПОВТОРНО ВВЕДИТЕ ~~QCNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">106.  ВАЗНИ ~~QCNAME~~-РО БА КИЛОГРАММА АЗ НАВ ДОХИЛ КУНЕД.</span></p><p>(Формати xx.xx-ро истифода баред ва нишондодњои дањї ворид кунед)</p>
   - name: TJHH80.QB107
     conditions:
       - questionText:
@@ -1394,20 +1766,26 @@ questions:
             <p><span class="instruction">107.  WAS THE CHILD MINIMALLY DRESSED?</span></p>
           RU: |
             <p><span class="instruction">107.  РЕБЕНОК БЫЛ МИНИМАЛЬНО ОДЕТ?</span></p>
+          TJ: |
+            <p><span class="instruction">107.  ОЁ КУДАК АККАЛАН ЛИБОС ПУШИДА БУД?</span></p>
   - name: TJHH80.QB108
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">108.  RECORD ~~QCNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">108.  ЗАПИШИТЕ РОСТ ~~QCNAME~~ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
+            <p><span class="instruction">108.  ЗАПИШИТЕ ~~QCNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">108.  ЌАДИ ~~QCNAME~~-РО БА СЕНТИМЕТР НАВИСЕД.</span></p><p>(Формати xx.xx-ро истифода баред ва нишондодњои даҳї ворид кунед)</p>
   - name: TJHH80.QB108W
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">108.  RE-ENTER ~~QCNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">108.  ПОВТОРИТЕ РОСТ ~~QCNAME~~ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
+            <p><span class="instruction">108.  ПОВТОРНО ВВЕДИТЕ ~~QCNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичное значение)</p>
+          TJ: |
+            <p>108.  КАДИ ~~QCNAME~~-ро БО СЕНТИМЕТР АЗ НАВ ДОХИЛ КУНЕД.</p><p>(Формати xx.xx-ро истифода баред ва нишондодњои даҳї ворид кунед)</p>
   - name: TJHH80.QB109
     conditions:
       - questionText:
@@ -1415,6 +1793,8 @@ questions:
             <p><span class="instruction">109.  WAS THE CHILD MEASURED LYING DOWN OR STANDING UP?</span></p>
           RU: |
             <p><span class="instruction">109.  РЕБЕНКА ИЗМЕРЯЛИ ЛЕЖА ИЛИ СТОЯ?</span></p>
+          TJ: |
+            <p><span class="instruction">109.  ОЁ КУДАКРО ХОБОНИДА Ё РОСТ ЧЕН КАРДЕД?</span></p>
   - name: TJHH80.QB110
     conditions:
       - questionText:
@@ -1422,6 +1802,8 @@ questions:
             <p><span class="instruction">110.  CHECK 104 AND 109: BASED ON CHILD&#39;S AGE, WAS CORRECT MEASUREMENT PROCEDURE FOLLOWED? </span></p>
           RU: |
             <p><span class="instruction">110.  ПРОВЕРЬТЕ 104 И 109: СОБЛЮДАЛИ ЛИ ПРАВИЛЬНУЮ ПРОЦЕДУРУ ИЗМЕРЕНИЯ В ЗАВИСИМОСТИ ОТ ВОЗРАСТА РЕБЕНКА?</span></p>
+          TJ: |
+            <p><span class="instruction">110.  104 ВА 109-РО САНЉЕД: ОЁ ТАРТИБИ ДУРУСТИ ЧЕНКУНИРО ВОБАСТА БА СИНУ СОЛИ КУДАК РИОЯ ШУДААСТ?</span></p>
   - name: TJHH80.QB111
     conditions:
       - logic: chage = 0
@@ -1429,20 +1811,26 @@ questions:
           EN: |
             <p><span class="instruction">111.  PRESS ENTER AND RECORD THE REASON WHY ~~QCNAME~~ WAS MEASURED STANDING UP </span></p>
           RU: |
-            <p><span class="instruction">111.  НАЖМИТЕ ВВОД И НАПИШИТЕ ПРИЧИНУ, ПОЧЕМУ ~~QCNAME~~ БЫЛО ИЗМЕРЕНО СТОЯ</span></p>
+            <p><span class="instruction">111.  НАЖМИТЕ ВВОД И ЗАПИШИТЕ ПРИЧИНУ, ПОЧЕМУ ~~QCNAME~~ БЫЛ ИЗМЕРЕН СТОЯ</span></p>
+          TJ: |
+            <p><span class="instruction">111.  ВОРИДКУНИРО ПАХШ НАМОЕД ВА САБАБИ РОСТ АНДОЗАГИРЇ ШУДАНИ ~~QCNAME~~-РО НАВИСЕД.</span></p>
       - logic: chage = 1
         questionText:
           EN: |
             <p><span class="instruction">111.  PRESS ENTER AND RECORD THE REASON WHY ~~QCNAME~~ WAS MEASURED LYING DOWN</span></p>
           RU: |
-            <p><span class="instruction">111.  НАЖМИТЕ ВВОД И НАПИШИТЕ ПРИЧИНУ, ПОЧЕМУ ~~QCNAME~~ БЫЛО ИЗМЕРЕНО ЛЕЖА</span></p>
+            <p><span class="instruction">111.  НАЖМИТЕ ВВОД И ЗАПИШИТЕ ПРИЧИНУ, ПОЧЕМУ ~~QCNAME~~ БЫЛ ИЗМЕРЕН ЛЕЖА</span></p>
+          TJ: |
+            <p><span class="instruction">111.  ВОРИДКУНИРО ПАХШ НАМОЕД ВА САБАБИ ХОБОНИДА АНДОЗАГИРЇ ШУДАНИ ~~QCNAME~~-РО НАВИСЕД.</span></p>
   - name: TJHH80.QB112
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">112.  WAS THE RECORDED MEASUREMENT INTERFERED WITH BY BRAIDED OR ORNAMENTED HAIR? </span></p>
           RU: |
-            <p><span class="instruction">112.  ЗАПЛЕТЕНЫЕ ВОЛОСЫ ИЛИ УКРАШЕНИЯ В ВОЛОСАХ ПОВЛИЯЛИ НА ЗАПИСАННОЕ ИЗМЕРЕНИЕ?</span></p>
+            <p><span class="instruction">112.  ЗАПЛЕТЕННЫЕ ВОЛОСЫ ИЛИ УКРАШЕНИЯ В ВОЛОСАХ ПОВЛИЯЛИ НА ЗАПИСАННОЕ ИЗМЕРЕНИЕ?</span></p>
+          TJ: |
+            <p><span class="instruction">112.  ОЁ БА АНДОЗАГИРИЊОИ САБТШУДА МЎИ БОФТА Ё ОРОИШОТИ МУЙ ХАЛАЛ МЕРАСОНАД?</span></p>
   - name: TJHH80.QB113
     conditions:
       - questionText:
@@ -1450,76 +1838,98 @@ questions:
             <p><span class="instruction">113.  ENTER BIOMARKER NUMBER OF MEASURER.</span></p>
           RU: |
             <p><span class="instruction">113.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРИТЕЛЯ.</span></p>
+          TJ: |
+            <p><span class="instruction">113.  РАЌАМИ БИОМАРКЕРИ ЧЕНКУНАНДАРО ВОРИД КУНЕД.</span></p>
   - name: TJHH80.QB114
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">114.  ENTER BIOMARKER NUMBER OF ASSISTANT MEASURER.</span></p><p><span class="instruction">IF NO ASSISTANT MEASURER, ENTER 9999. </span></p>
           RU: |
-            <p><span class="instruction">114.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ПОМОЩНИКА ИЗМЕРИТЕЛЯ.</span></p><p><span class="instruction">ЕСЛИ ПОМОЩНИК ИЗМЕРИТЕЛЯ НЕТ, ВВЕДИТЕ 9999.</span></p>
+            <p><span class="instruction">114.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ПОМОЩНИКА ИЗМЕРИТЕЛЯ.</span></p><p><span class="instruction">ЕСЛИ ПОМОЩНИКА ИЗМЕРИТЕЛЯ НЕТ, ВВЕДИТЕ 9999.</span></p>
+          TJ: |
+            <p><span class="instruction">114.  РАЌАМИ ЁРДАМЧИИ БИОМАРКЕРИ ЧЕНКУНАНДАРО ВОРИД КУНЕД.</span></p><p><span class="instruction">АГАР ЁРДАМЧИИ ЧЕНКУНАНДА НАБОШАД, 9999-РО ВОРИД КУНЕД.</span></p>
   - name: QB115_BLOCK
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">115.  RECORD TODAY&#39;S DATE</span></p>
           RU: |
-            <p><span class="instruction">115.  СЕГОДНЯШНЯЯ ДАТА:</span></p>
+            <p><span class="instruction">115.  ЗАПИШИТЕ СЕГОДНЯШНЮЮ ДАТУ:</span></p>
+          TJ: |
+            <p><span class="instruction">115.  САНАИ ИМРЎЗАРО НАВИСЕД</span></p>
   - name: TJHH80.QB115D
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">115.  RECORD DAY </span></p>
           RU: |
-            <p><span class="instruction">115.  ЗАПИСЬ ДЕНЬ</span></p>
+            <p><span class="instruction">115.  ЗАПИШИТЕ ДЕНЬ</span></p>
+          TJ: |
+            <p><span class="instruction">115.  РЎЗРО НАВИСЕД</span></p>
   - name: TJHH80.QB115M
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">115.  RECORD MONTH </span></p>
           RU: |
-            <p><span class="instruction">115.  ЗАПИСЬ МЕСЯЦ</span></p>
+            <p><span class="instruction">115.  ЗАПИШИТЕ МЕСЯЦ</span></p>
+          TJ: |
+            <p><span class="instruction">115.  МОЊРО НАВИСЕД</span></p>
   - name: TJHH80.QB115Y
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">115.  RECORD YEAR </span></p>
           RU: |
-            <p><span class="instruction">115.  ЗАПИСЬ ГОД</span></p>
+            <p><span class="instruction">115.  ЗАПИШИТЕ ГОД</span></p>
+          TJ: |
+            <p><span class="instruction">115.  СОЛРО НАВИСЕД</span></p>
   - name: TJHH80.QB118
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">118.  RECORD LINE NUMBER OF PARENT/OTHER ADULT RESPONSIBLE FOR ~~QCNAME~~.  </span></p><p><span class="instruction">RECORD &#39;0&#39; IF NOT LISTED </span></p>
           RU: |
-            <p><span class="instruction">118.  ЗАПИШИТЕ ИМЯ РОДИТЕЛЯ/ОТВЕТСТВЕННОГО ВЗРОСЛОГО ЗА РЕБЕНКА .</span></p><p><span class="instruction">ЗАПИСАТЬ &#39;0&#39;, ЕСЛИ НЕ УКАЗАН</span></p>
+            <p><span class="instruction">118.  ЗАПИШИТЕ НОМЕР ЛИНИИ РОДИТЕЛЯ/ДРУГОГО ОТВЕТСТВЕННОГО ВЗРОСЛОГО ДЛЯ ~~QCNAME~~ .</span></p><p><span class="instruction">ЗАПИШИТЕ &#39;0&#39;, ЕСЛИ НЕ УКАЗАН В СПИСКЕ</span></p>
+          TJ: |
+            <p><span class="instruction">118.  РАЌАМИ САТРИ ВОЛИДАЙН/ДИГАР ШАХСИ БОЛИЃИ МАСЪУЛИ ~~QCNAME~~ НАВИСЕД</span></p><p><span class="instruction">АГАР ДАР РӮЙХАТ НАБОШАД &#39;0&#39; -РО НАВИСЕД</span></p>
   - name: TJHH80.QB120
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">120.  RECORD WHETHER CONSENT FOR ANEMIA TESTING WAS GRANTED FOR ~~QCNAME~~</span></p>
           RU: |
-            <p><span class="instruction">120.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ НА ТЕСТИРОВАНИЕ НА АНЕМИЮ ДЛЯ ~~QCNAME~~</span></p>
+            <p><span class="instruction">120.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ НА ТЕСТИРОВАНИЕ НА АНЕМИЮ  ПОЛУЧЕНО ДЛЯ ~~QCNAME~~</span></p>
+          TJ: |
+            <p><span class="instruction">120.  ҚАЙД КУНЕД, ОЁ БАРОИ ТАШХИСИ КАМХУНИИ ~~QCNAME~~  ИЉОЗАТ ДОДА ШУДААСТ</span></p>
   - name: TJHH80.QB121
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">121.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
           RU: |
-            <p><span class="instruction">121.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+            <p><span class="instruction">121.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+          TJ: |
+            <p><span class="instruction">121.  РАЌАМИ БИОМАРКЕРИ ЧЕНКУНАНДАИ ГЕМОГЛОБИНРО НАВИСЕД</span></p>
   - name: TJHH80.QB122
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">122.  RECORD HEMOGLOBIN LEVEL HERE FOR ~~QCNAME~~ AND IN THE ANTHROPOMETRY AND ANEMIA PAMPHLET.</span></p><p>(Use format xx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">122.  ЗАПИШИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ЗДЕСЬ И В БРОШЮРЕ ПО АНТРОПОМЕТРИИ И АНЕМИИ.</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
+            <p><span class="instruction">122.  ЗАПИШИТЕ УРОВЕНЬ ГЕМОГЛОБИНА  ДЛЯ (ИМЯ РЕБЕКА) ЗДЕСЬ И В БРОШЮРЕ ПО АНТРОПОМЕТРИИ И АНЕМИИ.</span></p><p>(Используйте формат xx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">122.  ДАР ИН ҶО ВА ДАР КИТОБЧАИ АНТРОПОМЕТРЇ ВА КАМХУНЇ ДАРАҶАИ ГЕМОГЛОБИНИ (ИМЯ РЕБЕКА)-РО НАВИСЕД.</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандањои даҳиро ворид кунед)</p>
   - name: TJHH80.QB122W
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">122W.  RE-ENTER HEMOGLOBIN LEVEL FOR ~~QCNAME~~. </span></p><p>(Use format xx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">122W.  ПОВТОРИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ДЛЯ ~~QCNAME~~.</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
+            <p><span class="instruction">122W.  ПОВТОРНО ВВЕДИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ДЛЯ ~~QCNAME~~.</span></p><p>(Используйте формат xx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">122W.  ДАРАЉАИ ГЕМОГЛОБИНИ (ИМЯ РЕБЕКА)-РО АЗ НАВ ВОРИД НАМОЕД.</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандањои даҳиро ворид кунед)</p>
   - name: TJHH80.QB123
     conditions:
       - questionText:
@@ -1527,13 +1937,17 @@ questions:
             <p><span class="instruction">123.  CHECK 122: HEMOGLOBIN RESULT </span></p>
           RU: |
             <p><span class="instruction">123.  ПРОВЕРЬТЕ 122: РЕЗУЛЬТАТ ГЕМОГЛОБИНА</span></p>
+          TJ: |
+            <p><span class="instruction">123.  122-РО САНЉЕД: НАТИЧАИ ГЕМОГЛОБИН</span></p>
   - name: TJHH80.QB202
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">202.  RECORD LINE NUMBER OF WOMAN </span></p>
           RU: |
-            <p><span class="instruction">202.  ЗАПИСЬ НОМЕР ЖЕНЩИНЫ</span></p>
+            <p><span class="instruction">202.  ЗАПИШИТЕ НОМЕР ЖЕНЩИНЫ</span></p>
+          TJ: |
+            <p><span class="instruction">202.  РАЌАМИ САТРИ ЗАНРО НАВИСЕД</span></p>
   - name: TJHH80.QWAUXIL
     conditions:
       - questionText:
@@ -1541,34 +1955,44 @@ questions:
             <p>123.  Do you want to enter biomarker measurements for ~~QWNAME~~? </p>
           RU: |
             <p>123.  Вы хотите ввести измерения биомаркеров для ~~QWNAME~~?</p>
+          TJ: |
+            <p>123.  Оё шумо мехоҳед ченакҳои биомаркерро барои ~~QWNAME~~ ворид кунед?</p>
   - name: TJHH80.QB203
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">203.  RECORD WHETHER AGE OF ~~QWNAME~~ IS 15-17 YEARS, OR 18-49 YEARS </span></p>
           RU: |
-            <p><span class="instruction">203.  ЗАПИШИТЕ, ЯВЛЯЕТСЯ ЛИ ВОЗРАСТ ~~QWNAME~~ 15-17 ЛЕТ ИЛИ 18-49 ЛЕТ</span></p>
+            <p><span class="instruction">203.  ЗАПИШИТЕ, ЯВЛЯЕТСЯ ЛИ ВОЗРАСТ ~~QWNAME~~ 15-17 ЛЕТ, ИЛИ 18-49 ЛЕТ</span></p>
+          TJ: |
+            <p><span class="instruction">203.  КАЙД КУНЕД, СИНИ ~~QWNAME~~ 15-17 СОЛА Ё 18-49 СОЛА АСТ</span></p>
   - name: TJHH80.QB204
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">204.  RECORD ~~QWNAME~~&#39;S MARITAL STATUS </span></p>
           RU: |
-            <p><span class="instruction">204.  ЗАПИСАТЬСЯ О СЕМЕЙНОМ ПОЛОЖЕНИИ ~~QWNAME~~</span></p>
+            <p><span class="instruction">204.  ЗАПИШИТЕ ~~QWNAME~~ СЕМЕЙНОЕ ПОЛОЖЕНИЕ</span></p>
+          TJ: |
+            <p><span class="instruction">204.  ВАЗЪИ ОИЛАВИИ ~~QWNAME~~-РО НАВИСЕД</span></p>
   - name: TJHH80.QB205
     conditions:
       - questionText:
           EN: |
-            <p><span class="instruction">205.  RECORD ~~QWNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xxx.xx and enter the decimal point) </p>
+            <p><span class="instruction">205.  RECORD ~~QWNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">205.  ЗАПИШИТЕ ВЕС ~~QWNAME~~ В КИЛОГРАММАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
+            <p><span class="instruction">205.  ЗАПИШИТЕ ~~QWNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p>(Используйте формат xxx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">205.  ВАЗНИ ~~QWNAME~~-РО БО КИЛЛОГРАММ НАВИСЕД</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандањои даҳиро ворид кунед)</p>
   - name: TJHH80.QB205W
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">205W.  RE-ENTER ~~QWNAME~~&#39;S WEIGHT IN KILOGRAMS </span></p><p>(Use format xx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">205W.  ПОВТОРИТЕ ВЕС ~~QWNAME~~ В КИЛОГРАММАХ</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
+            <p><span class="instruction">205W.  ПОВТОРНО ВВЕДИТЕ ~~QWNAME~~ ВЕС В КИЛОГРАММАХ</span></p><p>(Используйте формат xx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">205W.  ВАЗНИ ~~QWNAME~~-РО БО КИЛЛОГРАММ АЗ НАВ ВОРИД НАМОЕД</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандањои даҳиро ворид кунед)</p>
   - name: TJHH80.QB206
     conditions:
       - questionText:
@@ -1576,27 +2000,35 @@ questions:
             <p><span class="instruction">206.  WAS THE WOMAN WEARING ONLY LIGHTWEIGHT CLOTHING? </span></p>
           RU: |
             <p><span class="instruction">206.  НА ЖЕНЩИНЕ БЫЛА ТОЛЬКО ЛЕГКАЯ ОДЕЖДА?</span></p>
+          TJ: |
+            <p><span class="instruction">206.  ОЁ ЗАН ТАНХО ЛИБОСИ САБУК ПУШИДА БУД?</span></p>
   - name: TJHH80.QB207
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">207.  RECORD ~~QWNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">207.  ЗАПИШИТЕ РОСТ ~~QWNAME~~ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
+            <p><span class="instruction">207.  ЗАПИШИТЕ ~~QWNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">207.  ЌАДИ ~~QWNAME~~-РО БО САНТИМЕТР НАВИСЕД</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандањои даҳиро ворид кунед)</p>
   - name: TJHH80.QB207W
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">207W.  RE-ENTER ~~QWNAME~~&#39;S HEIGHT IN CENTIMETERS </span></p><p>(Use format xxx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">207W.  ПОВТОРИТЕ РОСТ ~~QWNAME~~ В САНТИМЕТРАХ</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
+            <p><span class="instruction">207W.  ПОВТОРНО ВВЕДИТЕ ~~QWNAME~~ РОСТ В САНТИМЕТРАХ</span></p><p>(Используйте формат xxx.x и введите десятичную точку)</p>
+          TJ: |
+            <p><span class="instruction">207W.  ЌАДИ ~~QWNAME~~-РО БО САНТИМЕТР АЗ НАВ ВОРИД НАМОЕД</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандањои даҳиро ворид кунед)</p>
   - name: TJHH80.QB208
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">208.  WAS THE RECORDED MEASUREMENT INTERFERED WITH BY BRAIDED OR ORNAMENTED HAIR?</span></p>
           RU: |
-            <p><span class="instruction">208.  ЗАПЛЕТЕНЫЕ ВОЛОСЫ ИЛИ УКРАШЕНИЯ В ВОЛОСАХ  ПОВЛИЯЛИ НА ЗАПИСАННОЕ ИЗМЕРЕНИЕ?</span></p>
+            <p><span class="instruction">208.  ЗАПЛЕТЕННЫЕ ВОЛОСЫ ИЛИ УКРАШЕНИЯ В ВОЛОСАХ  ПОВЛИЯЛИ НА ЗАПИСАННОЕ ИЗМЕРЕНИЕ?</span></p>
+          TJ: |
+            <p><span class="instruction">208.  ОЁ БА АНДОЗАГИРИЊОИ САБТШУДА МЎИ БОФТА Ё ОРОИШОТИ МУЙ ХАЛАЛ МЕРАСОНАД?</span></p>
   - name: TJHH80.QB209
     conditions:
       - questionText:
@@ -1604,6 +2036,8 @@ questions:
             <p><span class="instruction">209.  ENTER BIOMARKER NUMBER OF MEASURER.</span></p>
           RU: |
             <p><span class="instruction">209.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРИТЕЛЯ.</span></p>
+          TJ: |
+            <p><span class="instruction">209.  РАЌАМИ БИОМАРКЕРИ ЧЕНКУНАНДАРО ВОРИД КУНЕД.</span></p>
   - name: TJHH80.QB210
     conditions:
       - questionText:
@@ -1611,97 +2045,125 @@ questions:
             <p><span class="instruction">210.  ENTER BIOMARKER NUMBER OF ASSISTANT MEASURER.</span></p><p><span class="instruction">IF NO ASSISTANT MEASURER, ENTER 9999. </span></p>
           RU: |
             <p><span class="instruction">210.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ПОМОЩНИКА ИЗМЕРИТЕЛЯ.</span></p><p><span class="instruction">ЕСЛИ ПОМОЩНИК ИЗМЕРИТЕЛЯ НЕТ, ВВЕДИТЕ 9999.</span></p>
+          TJ: |
+            <p><span class="instruction">210.  РАЌАМИ ЁРДАМЧИИ БИОМАРКЕРИ ЧЕНКУНАНДАРО ВОРИД КУНЕД.</span></p><p><span class="instruction">АГАР ЁРДАМЧИИ ЧЕНКУНАНДА НАБОШАД, 9999-РО ВОРИД КУНЕД.</span></p>
   - name: QB211_BLOCK
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">211.  RECORD TODAY&#39;S DATE</span></p>
           RU: |
-            <p><span class="instruction">211.  СЕГОДНЯШНЯЯ ДАТА:</span></p>
+            <p><span class="instruction">211.  ЗАПИШИТЕ СЕГОДНЯШЮЮ ДАТУ:</span></p>
+          TJ: |
+            <p><span class="instruction">211.  САНАИ ИМРЎЗАРО НАВИСЕД</span></p>
   - name: TJHH80.QB211D
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">211.  RECORD DAY </span></p>
           RU: |
-            <p><span class="instruction">211.  ЗАПИСЬ ДЕНЬ</span></p>
+            <p><span class="instruction">211.  ЗАПИШИТЕ ДЕНЬ</span></p>
+          TJ: |
+            <p><span class="instruction">211.  РЎЗРО НАВИСЕД</span></p>
   - name: TJHH80.QB211M
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">211.  RECORD MONTH </span></p>
           RU: |
-            <p><span class="instruction">211.  ЗАПИСЬ МЕСЯЦ</span></p>
+            <p><span class="instruction">211.  ЗАПИШИТЕ МЕСЯЦ</span></p>
+          TJ: |
+            <p><span class="instruction">211.  МОЊРО НАВИСЕД</span></p>
   - name: TJHH80.QB211Y
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">211.  RECORD YEAR </span></p>
           RU: |
-            <p><span class="instruction">211.  ЗАПИСЬ ГОД</span></p>
+            <p><span class="instruction">211.  ЗАПИШИТЕ ГОД</span></p>
+          TJ: |
+            <p><span class="instruction">211.  СОЛРО НАВИСЕД</span></p>
   - name: TJHH80.QB215
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">215.  RECORD WHETHER CONSENT WAS GRANTED FOR ANEMIA TESTING BY RESPONDENT </span></p>
           RU: |
-            <p><span class="instruction">215.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ РЕСПОНДЕНТА НА ТЕСТИРОВАНИЕ НА АНЕМИЮ</span></p>
+            <p><span class="instruction">215.  ЗАПИШИТЕ, БЫЛО ЛИ ПОЛУЧЕНО СОГЛАСИЕ РЕСПОНДЕНТА НА ТЕСТИРОВАНИЕ НА АНЕМИЮ</span></p>
+          TJ: |
+            <p><span class="instruction">215.  ҚАЙД КУНЕД, ОЁ БАРОИ ТАШХИСИ КАМХУНЇ   ИЉОЗАИ ПОСУХДИЊАНДА ГИРИФТА ШУДА БУД</span></p>
   - name: TJHH80.QB216
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">216.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
           RU: |
-            <p><span class="instruction">216.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+            <p><span class="instruction">216.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+          TJ: |
+            <p><span class="instruction">216.  РАЌАМИ БИОМАРКЕРИ ЧЕНКУНАНДАИ ГЕМОГЛОБИНРО НАВИСЕД</span></p>
   - name: TJHH80.QB217
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">217.  RECORD LINE NUMBER OF PARENT/OTHER ADULT RESPONSIBLE FOR ~~QWNAME~~ </span></p><p><span class="instruction">RECORD &#39;0&#39; IF NOT LISTED </span></p>
           RU: |
-            <p><span class="instruction">217.  НОМЕР РОДИТЕЛЯ/ДРУГОГО ВЗРОСЛОГО, ОТВЕТСТВЕННОГО ЗА ~~QWNAME~~</span></p><p><span class="instruction">ЗАПИСАТЬ '0', ЕСЛИ НЕ УКАЗАН</span></p>
+            <p><span class="instruction">217.  ЗАПИШИТЕ НОМЕР РОДИТЕЛЯ/ДРУГОГО ВЗРОСЛОГО, ОТВЕТСТВЕННОГО ЗА ~~QWNAME~~</span></p><p><span class="instruction">ЗАПИСАТЬ &#39;0&#39;, ЕСЛИ НЕ УКАЗАН В СПИСКЕ</span></p>
+          TJ: |
+            <p><span class="instruction">217.  РАЌАМИ ВОЛИДАЙН/ДИГАР ШАХСИ БОЛИЃИ МАСЪУЛИ  ~~QWNAME~~-РО НАВИСЕД</span></p><p><span class="instruction">АГАР ДАР РӮЙХАТ НАБОШАД &#39;0&#39; -РО НАВИСЕД</span></p>
   - name: TJHH80.QB219
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">219.  RECORD WHETHER ANEMIA TEST CONSENT WAS GRANTED BY CARETAKER FOR ~~QWNAME~~</span></p>
           RU: |
-            <p><span class="instruction">219.  ЗАПИШИТЕ, БЫЛО ЛИ СОГЛАСИЕ НА ТЕСТ НА АНЕМИЮ ДЛЯ ~~QWNAME~~</span></p>
+            <p><span class="instruction">219.  ЗАПИШИТЕ, ДАЛ ЛИ ОТВЕТСТВЕННЫЙ ВЗРОСЛЫЙ СОГЛАСИЕ НА ТЕСТ НА АНЕМИЮ ДЛЯ ~~QWNAME~~</span></p>
+          TJ: |
+            <p><span class="instruction">219.  НАВИСЕД, ОЁ ШАХСИ БОЛИЃИ МАСЪУЛ ИЉОЗАИ ТАШХИСИ КАМХУНЇ БАРОИ ~~QWNAME~~ ДОДААСТ.</span></p>
   - name: TJHH80.QB220
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">220.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
           RU: |
-            <p><span class="instruction">220.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+            <p><span class="instruction">220.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+          TJ: |
+            <p><span class="instruction">220.  РАЌАМИ БИОМАРКЕРИ ЧЕНКУНАНДАИ ГЕМОГЛОБИНРО НАВИСЕД</span></p>
   - name: TJHH80.QB223
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">223.  RECORD WHETHER ANEMIA TEST CONSENT WAS GRANTED BY ~~QWNAME~~</span></p>
           RU: |
-            <p><span class="instruction">223.  ЗАПИШИТЕ, ДАЛО ЛИ ~~QWNAME~~ СОГЛАСИЕ НА ТЕСТ НА АНЕМИЮ</span></p>
+            <p><span class="instruction">223.  ЗАПИШИТЕ, ДАЛА ЛИ ~~QWNAME~~ СОГЛАСИЕ НА ТЕСТ НА АНЕМИЮ</span></p>
+          TJ: |
+            <p><span class="instruction">223.  НАВИСЕД, ~~QWNAME~~ БАРОИ ТАШХИСИ КАМХУНЇ РОЗИГЇ ДОДА ШУД?</span></p>
   - name: TJHH80.QB224
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">224.  ENTER  BIOMARKER NUMBER OF HEMOGLOBIN MEASURER.</span></p>
           RU: |
-            <p><span class="instruction">224.  ПОСТАВЬТЕ СВОЮ ПОДПИСЬ И ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+            <p><span class="instruction">224.  ВВЕДИТЕ НОМЕР БИОМАРКЕРА ИЗМЕРЯЮЩЕГО ГЕМОГЛОБИН.</span></p>
+          TJ: |
+            <p><span class="instruction">224.  РАЌАМИ БИОМАРКЕРИ ЧЕНКУНАНДАИ ГЕМОГЛОБИНРО НАВИСЕД</span></p>
   - name: TJHH80.QB225
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">225.  RECORD ~~QWNAME~~&#39;S HEMOGLOBIN LEVEL. </span></p><p>(Use format xx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">225.  ЗАПИСАТЬ ~~QWNAME~~ УРОВЕНЬ ГЕМОГЛОБИНА.</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
+            <p><span class="instruction">225.  ЗАПИШИТЕ ~~QWNAME~~ УРОВЕНЬ ГЕМОГЛОБИНА.</span></p><p>(Используйте формат xx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">225.   ДАРАЉАИ ГЕМОГЛОБИНИ ~~QWNAME~~-РО НАВИСЕД .</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандаи даҳиро ворид кунед)</p>
   - name: TJHH80.QB225W
     conditions:
       - questionText:
           EN: |
             <p><span class="instruction">225W.  RE-ENTER ~~QWNAME~~&#39;S HEMOGLOBIN LEVEL </span></p><p>(Use format xx.x and enter the decimal point) </p>
           RU: |
-            <p><span class="instruction">225W.  ПОВТОРИТЕ УРОВЕНЬ ГЕМОГЛОБИНА ~~QWNAME~~</span></p><p>(Используйте формат xx.x и введите десятичную точку)</p>
+            <p><span class="instruction">225W.  ПОВТОРНО ВВЕДИТЕ ~~QWNAME~~ УРОВЕНЬ ГЕМОГЛОБИНА</span></p><p>(Используйте формат xx.x и введите десятичное значение)</p>
+          TJ: |
+            <p><span class="instruction">225W.   ДАРАЉАИ ГЕМОГЛОБИНИ ~~QWNAME~~-РО АЗ НАВ НАВИСЕД .</span></p><p>(Формати xx.x-ро истифода баред ва нишондињандаи даҳиро ворид кунед)</p>
   - name: TJHH80.QB226
     conditions:
       - questionText:
@@ -1713,7 +2175,9 @@ questions:
           EN: |
             <p><span class="instruction"> .  END OF BIOMARKER QUESTIONNAIRE. </span></p><p> </p><p><span class="instruction">A WINDOW WILL BE DISPLAYED TO WRITE ANY NOTES. AFTER THAT THE QUESTIONNAIRE WILL BE SAVED AUTOMATICALLY. </span></p>
           RU: |
-            <p><span class="instruction"> .  КОНЕЦ АНКЕТЫ БИОМАРКЕРОВ.</span></p><p> </p><p><span class="instruction">ОТОБРАЖАЕТСЯ ОКНО ДЛЯ НАПИСАНИЯ ЛЮБЫХ ЗАМЕЧАНИЙ. ПОСЛЕ ЭТОГО АНКЕТА БУДЕТ СОХРАНЕНА АВТОМАТИЧЕСКИ.</span></p>  - name: OTHERS.OTHRESP
+            <p><span class="instruction"> .  КОНЕЦ ВОПРОСНИКА БИОМАРКЕРОВ.</span></p><p> </p><p><span class="instruction">ПОЯВИТСЯ ОКНО ДЛЯ НАПИСАНИЯ ЛЮБЫХ ЗАМЕЧАНИЙ. ПОСЛЕ ЭТОГО ВОПРОСНИК БУДЕТ СОХРАНЕН АВТОМАТИЧЕСКИ.</span></p>
+          TJ: |
+            <p><span class="instruction"> .  ОХИРИ САВОЛНОМАИ БИОМАРКЕРОН.</span></p><p> </p><p><span class="instruction">БАРОИ НАВИШТАНИ ДИЛХОЊ ЭРОДЊО РАВЗАНАЕ ПАЙДО МЕГАРДАД. БАЪД АЗ ИН САВОЛНОМА БА ТАРЗИ АВТОМАТЇ ЗАХИРА МЕШАВАД.</span></p>
   - name: ABM115_BLOCK
     conditions:
       - questionText:

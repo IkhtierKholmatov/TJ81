@@ -37,7 +37,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Household identification|Идентификация домохозяйств
+Label=Household identification
 Name=QHSECOVER
 RecordTypeValue='H00'
 RecordLen=308
@@ -59,10 +59,10 @@ DataType=Numeric
 [ValueSet]
 Label=Locality
 Name=QHLOCAL_VS1
-Value=1;Large city|Большой город
-Value=2;Small city|Маленький город
-Value=3;Town|Город
-Value=4;Rural|Деревенский
+Value=1;Large city|Большой город|Большой город
+Value=2;Small city|Маленький город|Маленький город
+Value=3;Town|Город|Город
+Value=4;Rural|Деревенский|Деревенский
 
 [Item]
 Label=Address
@@ -81,8 +81,8 @@ DataType=Numeric
 [ValueSet]
 Label=Type of place of residence
 Name=QHTYPE_VS1
-Value=1;Urban|Урбан
-Value=2;Rural|Деревенский
+Value=1;Urban|Урбан|Урбан
+Value=2;Rural|Деревенский|Деревенский
 
 [Item]
 Label=Address
@@ -158,15 +158,15 @@ DataType=Numeric
 [ValueSet]
 Label=Result of visit
 Name=QHVRESULT_VS1
-Value=1;Begin household interview|Начать домашнее интервью
-Value=2;No household member at home or no competent respondent at time of visit|ВО ВРЕМЯ ПОСЕЩЕНИЯ НИКОГО ИЗ ЧЛЕНОВ ДОМОХОЗЯЙСТВА НЕТ ДОМА ИЛИ НЕТ ДОМА КОМПЕТЕНТНОГО РЕСПОНДЕНТА
-Value=3;Entire household absent for extended period of time|ВСЕ ДОМОХОЗЯЙСТВО ОТСУТСТВУЕТ В ТЕЧЕНИЕ ДЛИТЕЛЬНОГО ВРЕМЕНИ
-Value=4;Postponed|ОТЛОЖЕНО
-Value=5;Refused|ОТКАЗАНО
-Value=6;Dwelling vacant or address not a dwelling|ЖИЛИЩЕ ПУСТУЕТ ИЛИ АДРЕС НЕ ЯВЛЯЕТСЯ ЖИЛИЩЕМ
-Value=7;Dwelling destroyed|ЖИЛИЩЕ РАЗРУШЕНО
-Value=8;Dwelling not found|ЖИЛИЩЕ НЕ НАЙДЕНО
-Value=9;Other|ДРУГОЕ
+Value=1;Begin household interview|Начать домашнее интервью|Начать домашнее интервью
+Value=2;No household member at home or no competent respondent at time of visit|ВО ВРЕМЯ ПОСЕЩЕНИЯ НИКОГО ИЗ ЧЛЕНОВ ДОМОХОЗЯЙСТВА НЕТ ДОМА ИЛИ НЕТ ДОМА КОМПЕТЕНТНОГО РЕСПОНДЕНТА|ВО ВРЕМЯ ПОСЕЩЕНИЯ НИКОГО ИЗ ЧЛЕНОВ ДОМОХОЗЯЙСТВА НЕТ ДОМА ИЛИ НЕТ ДОМА КОМПЕТЕНТНОГО РЕСПОНДЕНТА
+Value=3;Entire household absent for extended period of time|ВСЕ ДОМОХОЗЯЙСТВО ОТСУТСТВУЕТ В ТЕЧЕНИЕ ДЛИТЕЛЬНОГО ВРЕМЕНИ|ВСЕ ДОМОХОЗЯЙСТВО ОТСУТСТВУЕТ В ТЕЧЕНИЕ ДЛИТЕЛЬНОГО ВРЕМЕНИ
+Value=4;Postponed|ОТЛОЖЕНО|ОТЛОЖЕНО
+Value=5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=6;Dwelling vacant or address not a dwelling|ЖИЛИЩЕ ПУСТУЕТ ИЛИ АДРЕС НЕ ЯВЛЯЕТСЯ ЖИЛИЩЕМ|ЖИЛИЩЕ ПУСТУЕТ ИЛИ АДРЕС НЕ ЯВЛЯЕТСЯ ЖИЛИЩЕМ
+Value=7;Dwelling destroyed|ЖИЛИЩЕ РАЗРУШЕНО|ЖИЛИЩЕ РАЗРУШЕНО
+Value=8;Dwelling not found|ЖИЛИЩЕ НЕ НАЙДЕНО|ЖИЛИЩЕ НЕ НАЙДЕНО
+Value=9;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Interview day
@@ -221,15 +221,15 @@ DataType=Numeric
 [ValueSet]
 Label=Result of household interview
 Name=QHRESULT_VS1
-Value=1;Completed|ЗАПОЛНЕНО
-Value=2;No household member at home or no competent respondent at home at time of visit|ВО ВРЕМЯ ПОСЕЩЕНИЯ НИКОГО ИЗ ЧЛЕНОВ ДОМОХОЗЯЙСТВА НЕТ ДОМА ИЛИ НЕТ ДОМА КОМПЕТЕНТНОГО РЕСПОНДЕНТА
-Value=3;Entire household absent for extended period of time|ВСЕ ДОМОХОЗЯЙСТВО ОТСУТСТВУЕТ В ТЕЧЕНИЕ ДЛИТЕЛЬНОГО ВРЕМЕНИ
-Value=4;Postponed|ОТЛОЖЕНО
-Value=5;Refused|ОТКАЗАНО
-Value=6;Dwelling vacant or address not a dwelling|ЖИЛИЩЕ ПУСТУЕТ ИЛИ АДРЕС НЕ ЯВЛЯЕТСЯ ЖИЛИЩЕМ
-Value=7;Dwelling destroyed|ЖИЛИЩЕ РАЗРУШЕНО
-Value=8;Dwelling not found|ЖИЛИЩЕ НЕ НАЙДЕНО
-Value=9;Other|ДРУГОЕ
+Value=1;Completed|ЗАПОЛНЕНО|ЗАПОЛНЕНО
+Value=2;No household member at home or no competent respondent at home at time of visit|ВО ВРЕМЯ ПОСЕЩЕНИЯ НИКОГО ИЗ ЧЛЕНОВ ДОМОХОЗЯЙСТВА НЕТ ДОМА ИЛИ НЕТ ДОМА КОМПЕТЕНТНОГО РЕСПОНДЕНТА|ВО ВРЕМЯ ПОСЕЩЕНИЯ НИКОГО ИЗ ЧЛЕНОВ ДОМОХОЗЯЙСТВА НЕТ ДОМА ИЛИ НЕТ ДОМА КОМПЕТЕНТНОГО РЕСПОНДЕНТА
+Value=3;Entire household absent for extended period of time|ВСЕ ДОМОХОЗЯЙСТВО ОТСУТСТВУЕТ В ТЕЧЕНИЕ ДЛИТЕЛЬНОГО ВРЕМЕНИ|ВСЕ ДОМОХОЗЯЙСТВО ОТСУТСТВУЕТ В ТЕЧЕНИЕ ДЛИТЕЛЬНОГО ВРЕМЕНИ
+Value=4;Postponed|ОТЛОЖЕНО|ОТЛОЖЕНО
+Value=5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=6;Dwelling vacant or address not a dwelling|ЖИЛИЩЕ ПУСТУЕТ ИЛИ АДРЕС НЕ ЯВЛЯЕТСЯ ЖИЛИЩЕМ|ЖИЛИЩЕ ПУСТУЕТ ИЛИ АДРЕС НЕ ЯВЛЯЕТСЯ ЖИЛИЩЕМ
+Value=7;Dwelling destroyed|ЖИЛИЩЕ РАЗРУШЕНО|ЖИЛИЩЕ РАЗРУШЕНО
+Value=8;Dwelling not found|ЖИЛИЩЕ НЕ НАЙДЕНО|ЖИЛИЩЕ НЕ НАЙДЕНО
+Value=9;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Number of household visits
@@ -253,8 +253,8 @@ DataType=Numeric
 [ValueSet]
 Label=Consent agreement
 Name=QHCONSENT_VS1
-Value=1;Respondent agrees to be interviewed|РЕСПОНДЕНТ СОГЛАСЕН НА ИНТЕРВЬЮ
-Value=2;Respondent does not agree to be interviewed|РЕСПОНДЕНТ НЕ СОГЛАСЕН НА ИНТЕРВЬЮ
+Value=1;Respondent agrees to be interviewed|РЕСПОНДЕНТ СОГЛАСЕН НА ИНТЕРВЬЮ|РЕСПОНДЕНТ СОГЛАСЕН НА ИНТЕРВЬЮ
+Value=2;Respondent does not agree to be interviewed|РЕСПОНДЕНТ НЕ СОГЛАСЕН НА ИНТЕРВЬЮ|РЕСПОНДЕНТ НЕ СОГЛАСЕН НА ИНТЕРВЬЮ
 
 [Item]
 Label=Total members in household
@@ -316,9 +316,9 @@ DataType=Numeric
 [ValueSet]
 Label=Language of questionnaire
 Name=QHLANGQ_VS1
-Value=1;English|Английский
-Value=2;Russian|РУССКИЙ
-Value=3;Tajik|ТАДЖИКСКИЙ
+Value=1;English|Английский|Английский
+Value=2;Russian|РУССКИЙ|РУССКИЙ
+Value=3;Tajik|ТАДЖИКСКИЙ|ТАДЖИКСКИЙ
 
 [Item]
 Label=Language of interview
@@ -330,9 +330,9 @@ DataType=Numeric
 [ValueSet]
 Label=Language of interview
 Name=QHLANGI_VS1
-Value=1;English|Английский
-Value=2;Russian|РУССКИЙ
-Value=3;Tajik|ТАДЖИКСКИЙ
+Value=1;English|Английский|Английский
+Value=2;Russian|РУССКИЙ|РУССКИЙ
+Value=3;Tajik|ТАДЖИКСКИЙ|ТАДЖИКСКИЙ
 
 [Item]
 Label=Language of respondent
@@ -342,11 +342,11 @@ Len=2
 DataType=Numeric
 
 [ValueSet]
-Label=Language of respondent|L
+Label=Language of respondent
 Name=QHLANGR_VS1
-Value=1;English|Английский
-Value=2;Russian|РУССКИЙ
-Value=3;Tajik|ТАДЖИКСКИЙ
+Value=1;English|Английский|Английский
+Value=2;Russian|РУССКИЙ|РУССКИЙ
+Value=3;Tajik|ТАДЖИКСКИЙ|ТАДЖИКСКИЙ
 
 [Item]
 Label=Translator used
@@ -403,11 +403,6 @@ Start=206
 Len=2
 ItemType=SubItem
 DataType=Numeric
-
-[ValueSet]
-Label=End of household interview (hour)
-Name=QH156H_VS1
-Value=6:22
 
 [Item]
 Label=End of household interview (minutes)
@@ -724,7 +719,7 @@ Len=2
 DataType=Numeric
 
 [Record]
-Label=Household members list|Список домохозяйств
+Label=Household members list
 Name=QHSEC01X
 RecordTypeValue='H1X'
 Required=No
@@ -758,7 +753,7 @@ Len=12
 DataType=Alpha
 
 [Item]
-Label=Relationship|Relation
+Label=Relationship
 Name=QHRELAT
 Start=38
 Len=2
@@ -767,18 +762,18 @@ DataType=Numeric
 [ValueSet]
 Label=Relationship
 Name=QHRELAT_VS1
-Value=1;Head|ГЛАВА
-Value=2;Wife or husband|ЖЕНА ИЛИ МУЖ
-Value=3;Son or daughter|СЫН ИЛИ ДОЧЬ
-Value=4;Son-in-law or daughter-in-law|МУЖ ДОЧЕРИ ИЛИ ЖЕНА СЫНА
-Value=5;Grandchild|ВНУК/ ВНУЧКА
-Value=6;Parent|РОДИТЕЛЬ
-Value=7;Parent-in-law|РОДИТЕЛЬ СУПРУГИ(А)
-Value=8;Brother or sister|БРАТ ИЛИ СЕСТРА
-Value=9;Other relative|ДРУГОЙ РОДСТВЕННИК
-Value=10;Adopted/foster/step child|ПРИЕМНЫЙ/ ВОСПИТАННИК/ ПАДЧЕРИЦА/ ПАСЫНОК
-Value=11;Not related|НЕ РОДСТВЕННИК
-Value=98;Don't know|НЕ ЗНАЮ
+Value=1;Head|ГЛАВА|ГЛАВА
+Value=2;Wife or husband|ЖЕНА ИЛИ МУЖ|ЖЕНА ИЛИ МУЖ
+Value=3;Son or daughter|СЫН ИЛИ ДОЧЬ|СЫН ИЛИ ДОЧЬ
+Value=4;Son-in-law or daughter-in-law|МУЖ ДОЧЕРИ ИЛИ ЖЕНА СЫНА|МУЖ ДОЧЕРИ ИЛИ ЖЕНА СЫНА
+Value=5;Grandchild|ВНУК/ ВНУЧКА|ВНУК/ ВНУЧКА
+Value=6;Parent|РОДИТЕЛЬ|РОДИТЕЛЬ
+Value=7;Parent-in-law|РОДИТЕЛЬ СУПРУГИ(А)|РОДИТЕЛЬ СУПРУГИ(А)
+Value=8;Brother or sister|БРАТ ИЛИ СЕСТРА|БРАТ ИЛИ СЕСТРА
+Value=9;Other relative|ДРУГОЙ РОДСТВЕННИК|ДРУГОЙ РОДСТВЕННИК
+Value=10;Adopted/foster/step child|ПРИЕМНЫЙ/ ВОСПИТАННИК/ ПАДЧЕРИЦА/ ПАСЫНОК|ПРИЕМНЫЙ/ ВОСПИТАННИК/ ПАДЧЕРИЦА/ ПАСЫНОК
+Value=11;Not related|НЕ РОДСТВЕННИК|НЕ РОДСТВЕННИК
+Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Usually lives here
@@ -816,8 +811,8 @@ DataType=Numeric
 [ValueSet]
 Label=Sex
 Name=QHSEX_VS1
-Value=1;Male|МУЖСКОЙ
-Value=2;Female|ЖЕНСКИЙ
+Value=1;Male|МУЖСКОЙ|МУЖСКОЙ
+Value=2;Female|ЖЕНСКИЙ|ЖЕНСКИЙ
 
 [Item]
 Label=Age
@@ -830,18 +825,18 @@ DataType=Numeric
 Label=Age
 Name=QHAGE_VS1
 Value=0:94
-Value=95;95+|95+
+Value=95;95+|95+|95+
 Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
-Label=Any other person living in household|Any other person living in household
+Label=Any other person living in household
 Name=QHMORE
 Start=45
 Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Any other person living in household|Any other person living in household
+Label=Any other person living in household
 Name=QHMORE_VS1
 Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
@@ -883,18 +878,18 @@ DataType=Numeric
 [ValueSet]
 Label=Relationship to head
 Name=QH03_VS1
-Value=1;Head|ГЛАВА
-Value=2;Wife or husband|ЖЕНА ИЛИ МУЖ
-Value=3;Son or daughter|СЫН ИЛИ ДОЧЬ
-Value=4;Son-in-law or daughter-in-law|МУЖ ДОЧЕРИ ИЛИ ЖЕНА СЫНА
-Value=5;Grandchild|ВНУК/ ВНУЧКА
-Value=6;Parent|РОДИТЕЛЬ
-Value=7;Parent-in-law|РОДИТЕЛЬ СУПРУГИ(А)
-Value=8;Brother or sister|БРАТ ИЛИ СЕСТРА
-Value=9;Other relative|ДРУГОЙ РОДСТВЕННИК
-Value=10;Adopted/foster/step child|ПРИЕМНЫЙ/ ВОСПИТАННИК/ ПАДЧЕРИЦА/ ПАСЫНОК
-Value=11;Not related|НЕ РОДСТВЕННИК
-Value=98;Don't know|НЕ ЗНАЮ
+Value=1;Head|ГЛАВА|ГЛАВА
+Value=2;Wife or husband|ЖЕНА ИЛИ МУЖ|ЖЕНА ИЛИ МУЖ
+Value=3;Son or daughter|СЫН ИЛИ ДОЧЬ|СЫН ИЛИ ДОЧЬ
+Value=4;Son-in-law or daughter-in-law|МУЖ ДОЧЕРИ ИЛИ ЖЕНА СЫНА|МУЖ ДОЧЕРИ ИЛИ ЖЕНА СЫНА
+Value=5;Grandchild|ВНУК/ ВНУЧКА|ВНУК/ ВНУЧКА
+Value=6;Parent|РОДИТЕЛЬ|РОДИТЕЛЬ
+Value=7;Parent-in-law|РОДИТЕЛЬ СУПРУГИ(А)|РОДИТЕЛЬ СУПРУГИ(А)
+Value=8;Brother or sister|БРАТ ИЛИ СЕСТРА|БРАТ ИЛИ СЕСТРА
+Value=9;Other relative|ДРУГОЙ РОДСТВЕННИК|ДРУГОЙ РОДСТВЕННИК
+Value=10;Adopted/foster/step child|ПРИЕМНЫЙ/ ВОСПИТАННИК/ ПАДЧЕРИЦА/ ПАСЫНОК|ПРИЕМНЫЙ/ ВОСПИТАННИК/ ПАДЧЕРИЦА/ ПАСЫНОК
+Value=11;Not related|НЕ РОДСТВЕННИК|НЕ РОДСТВЕННИК
+Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Sex of household member
@@ -906,8 +901,8 @@ DataType=Numeric
 [ValueSet]
 Label=Sex of household member
 Name=QH04_VS1
-Value=1;Male|МУЖСКОЙ
-Value=2;Female|ЖЕНСКИЙ
+Value=1;Male|МУЖСКОЙ|МУЖСКОЙ
+Value=2;Female|ЖЕНСКИЙ|ЖЕНСКИЙ
 
 [Item]
 Label=Usual resident
@@ -959,10 +954,10 @@ DataType=Numeric
 [ValueSet]
 Label=Marital status
 Name=QH08_VS1
-Value=1;Married or living together|В БРАКЕ ИЛИ ПРОЖИВАЕТ СОВМЕСТНО
-Value=2;Divorced/separated|РАЗВЕДЕН(А)/РАЗДЕЛЬНО
-Value=3;Widowed|ВДОВЕЦ/ ВДОВА
-Value=4;Never-married and never lived together|НИКОГДА НЕ СОСТОЯЛ(А) В БРАКЕ НИКОГДА НЕ ПРОЖИВАЛ(А) СОВМЕСТНО
+Value=1;Married or living together|В БРАКЕ ИЛИ ПРОЖИВАЕТ СОВМЕСТНО|В БРАКЕ ИЛИ ПРОЖИВАЕТ СОВМЕСТНО
+Value=2;Divorced/separated|РАЗВЕДЕН(А)/РАЗДЕЛЬНО|РАЗВЕДЕН(А)/РАЗДЕЛЬНО
+Value=3;Widowed|ВДОВЕЦ/ ВДОВА|ВДОВЕЦ/ ВДОВА
+Value=4;Never-married and never lived together|НИКОГДА НЕ СОСТОЯЛ(А) В БРАКЕ НИКОГДА НЕ ПРОЖИВАЛ(А) СОВМЕСТНО|НИКОГДА НЕ СОСТОЯЛ(А) В БРАКЕ НИКОГДА НЕ ПРОЖИВАЛ(А) СОВМЕСТНО
 
 [Item]
 Label=Eligibility for interview
@@ -974,7 +969,7 @@ DataType=Numeric
 [ValueSet]
 Label=Eligibility for interview
 Name=QH09_VS1
-Value=0;Not eligible|Не имеют права
+Value=0;Not eligible|Не имеют права|Не имеют права
 Value=1:50
 
 [Item]
@@ -987,7 +982,7 @@ DataType=Numeric
 [ValueSet]
 Label=Eligibility for children for biomarkers
 Name=QH11_VS1
-Value=0;Not eligible|Не имеют права
+Value=0;Not eligible|Не имеют права|Не имеют права
 Value=1:50
 
 [Item]
@@ -1014,7 +1009,7 @@ DataType=Numeric
 [ValueSet]
 Label=Mother's line number
 Name=QH13_VS1
-Value=0;Mother not in household|Мать не в доме
+Value=0;Mother not in household|Мать не в доме|Мать не в доме
 Value=1:50
 
 [Item]
@@ -1041,7 +1036,7 @@ DataType=Numeric
 [ValueSet]
 Label=Father's line number
 Name=QH15_VS1
-Value=0;Father not in household|Отец не в семье
+Value=0;Father not in household|Отец не в семье|Отец не в семье
 Value=1:50
 
 [Item]
@@ -1067,7 +1062,7 @@ DataType=Numeric
 [ValueSet]
 Label=Total number of completed years of schooling
 Name=QH16A_VS1
-Value=0;None|НИЧЕГО
+Value=0;None|НИЧЕГО|НИЧЕГО
 Value=1:27
 
 [Item]
@@ -1088,13 +1083,13 @@ DataType=Numeric
 [ValueSet]
 Label=Level of education attended
 Name=QH17A_VS1
-Value=0;Early childhood education program|ДОШКОЛЬНЫЙ
-Value=1;General School (1-11)|СРЕДНЯЯ ШКОЛА(1-11)
-Value=2;Professional primary|ПРОФЕССИОНАЛЬНЫЙ НАЧАЛЬНЫЙ
-Value=3;Professional middle|ПРОФЕССИОНАЛЬНЫЙ СРЕДНИЙ
-Value=4;Higher|ВЫСШЕЕ
-Value=5;Post graduate|ПОСЛЕВУЗОВСКОЕ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=0;Early childhood education program|ДОШКОЛЬНЫЙ|ДОШКОЛЬНЫЙ
+Value=1;General School (1-11)|СРЕДНЯЯ ШКОЛА(1-11)|СРЕДНЯЯ ШКОЛА(1-11)
+Value=2;Professional primary|ПРОФЕССИОНАЛЬНЫЙ НАЧАЛЬНЫЙ|ПРОФЕССИОНАЛЬНЫЙ НАЧАЛЬНЫЙ
+Value=3;Professional middle|ПРОФЕССИОНАЛЬНЫЙ СРЕДНИЙ|ПРОФЕССИОНАЛЬНЫЙ СРЕДНИЙ
+Value=4;Higher|ВЫСШЕЕ|ВЫСШЕЕ
+Value=5;Post graduate|ПОСЛЕВУЗОВСКОЕ|ПОСЛЕВУЗОВСКОЕ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Highest grade completed
@@ -1107,7 +1102,7 @@ DataType=Numeric
 [ValueSet]
 Label=Highest grade completed
 Name=QH17B_VS1
-Value=0;Less than 1 year completed|ЗАКОНЧЕНО МЕНЕЕ 1 ГОДА
+Value=0;Less than 1 year completed|ЗАКОНЧЕНО МЕНЕЕ 1 ГОДА|ЗАКОНЧЕНО МЕНЕЕ 1 ГОДА
 Value=1:11
 Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
@@ -1167,13 +1162,13 @@ DataType=Numeric
 [ValueSet]
 Label=Level of education attending
 Name=QH19A_VS1
-Value=0;Early childhood education program|ДОШКОЛЬНЫЙ
-Value=1;General School (1-11)|СРЕДНЯЯ ШКОЛА(1-11)
-Value=2;Professional primary|ПРОФЕССИОНАЛЬНЫЙ НАЧАЛЬНЫЙ
-Value=3;Professional middle|ПРОФЕССИОНАЛЬНЫЙ СРЕДНИЙ
-Value=4;Higher|ВЫСШЕЕ
-Value=5;Post graduate|ПОСЛЕВУЗОВСКОЕ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=0;Early childhood education program|ДОШКОЛЬНЫЙ|ДОШКОЛЬНЫЙ
+Value=1;General School (1-11)|СРЕДНЯЯ ШКОЛА(1-11)|СРЕДНЯЯ ШКОЛА(1-11)
+Value=2;Professional primary|ПРОФЕССИОНАЛЬНЫЙ НАЧАЛЬНЫЙ|ПРОФЕССИОНАЛЬНЫЙ НАЧАЛЬНЫЙ
+Value=3;Professional middle|ПРОФЕССИОНАЛЬНЫЙ СРЕДНИЙ|ПРОФЕССИОНАЛЬНЫЙ СРЕДНИЙ
+Value=4;Higher|ВЫСШЕЕ|ВЫСШЕЕ
+Value=5;Post graduate|ПОСЛЕВУЗОВСКОЕ|ПОСЛЕВУЗОВСКОЕ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Grade attending
@@ -1199,10 +1194,10 @@ DataType=Numeric
 [ValueSet]
 Label=Birth certificate/registered
 Name=QH20_VS1
-Value=1;Has certificate|ЕСТЬ СВИДЕТЕЛЬ-СТВО
-Value=2;Registered|ЗАРЕГИ-СТРИРОВАН
-Value=3;Neither|НИ ТО НИ ДРУГОЕ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=1;Has certificate|ЕСТЬ СВИДЕТЕЛЬ-СТВО|ЕСТЬ СВИДЕТЕЛЬ-СТВО
+Value=2;Registered|ЗАРЕГИ-СТРИРОВАН|ЗАРЕГИ-СТРИРОВАН
+Value=3;Neither|НИ ТО НИ ДРУГОЕ|НИ ТО НИ ДРУГОЕ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Age corrected from individual questionnaire
@@ -1215,7 +1210,7 @@ DataType=Numeric
 Label=Age corrected from individual questionnaire
 Name=ML07I_VS1
 Value=0:94
-Value=95;95+|95+
+Value=95;95+|95+|95+
 Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
@@ -1249,10 +1244,10 @@ DataType=Numeric
 Label=Pregnancy status from individual questionnaire
 Name=MLPREG_VS1
 Value=1;Yes|ДА|ДА
-Value=0;No, don't know|Нет, не знаю
+Value=0;No, don't know|Нет, не знаю|Нет, не знаю
 
 [Record]
-Label=Household Characteristics|Характеристика домохозяйств
+Label=Household Characteristics
 Name=QHSEC02
 RecordTypeValue='H02'
 Required=No
@@ -1268,26 +1263,26 @@ DataType=Numeric
 [ValueSet]
 Label=Source of drinking water
 Name=QH101_VS1
-Value=10;---PIPED WATER---|---ВОПРОВОДНАЯ ВОДА---
-Value=11;Piped into dwelling|ВОДОПРОВОД В ДОМЕ
-Value=12;Piped to yard/plot|ВОДОПРОВОД ВО ДВОРЕ/УЧАСТКЕ
-Value=13;Piped to neighbor|ВОДОПРОВОД У СОСЕДА
-Value=14;Public tap/standpipe|ОБЩЕСТВЕННЫЙ КРАН/КОЛОНКА
-Value=20;---TUBE WELL OR BOREHOLE---|---ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА---
-Value=21;Tube well or borehole|ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА
-Value=30;---DUG WELL---|---ВЫРЫТЫЙ КОЛОДЕЦ---
-Value=31;Protected well|ЗАЩИЩЕННЫЙ КОЛОДЕЦ
-Value=32;Unprotected well|НЕЗАЩИЩЕННЫЙ КОЛОДЕЦ
-Value=40;---WATER FROM SPRING---|---РОДНИКОВАЯ ВОДА---
-Value=41;Protected spring|ЗАЩИЩЕННЫЙ РОДНИК
-Value=42;Unprotected spring|НЕЗАЩИЩЕННЫЙ РОДНИК
-Value=50;---OTHER SOURCES---|---ДРУГИЕ ИСТОЧНИКИ---
-Value=51;Rainwater|ДОЖДЕВАЯ ВОДА
-Value=61;Tanker truck|АВТОЦИСТЕРНА
-Value=71;Cart with small tank|ТЕЛЕЖКА С МАЛЕНЬКИМ БАКОМ
-Value=81;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)
-Value=91;Bottled water|БУТЫЛОЧНАЯ ВОДА
-Value=96;Other|ДРУГОЕ
+Value=10;---PIPED WATER---|---ВОПРОВОДНАЯ ВОДА---|---ВОПРОВОДНАЯ ВОДА---
+Value=11;Piped into dwelling|ВОДОПРОВОД В ДОМЕ|ВОДОПРОВОД В ДОМЕ
+Value=12;Piped to yard/plot|ВОДОПРОВОД ВО ДВОРЕ/УЧАСТКЕ|ВОДОПРОВОД ВО ДВОРЕ/УЧАСТКЕ
+Value=13;Piped to neighbor|ВОДОПРОВОД У СОСЕДА|ВОДОПРОВОД У СОСЕДА
+Value=14;Public tap/standpipe|ОБЩЕСТВЕННЫЙ КРАН/КОЛОНКА|ОБЩЕСТВЕННЫЙ КРАН/КОЛОНКА
+Value=20;---TUBE WELL OR BOREHOLE---|---ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА---|---ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА---
+Value=21;Tube well or borehole|ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА|ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА
+Value=30;---DUG WELL---|---ВЫРЫТЫЙ КОЛОДЕЦ---|---ВЫРЫТЫЙ КОЛОДЕЦ---
+Value=31;Protected well|ЗАЩИЩЕННЫЙ КОЛОДЕЦ|ЗАЩИЩЕННЫЙ КОЛОДЕЦ
+Value=32;Unprotected well|НЕЗАЩИЩЕННЫЙ КОЛОДЕЦ|НЕЗАЩИЩЕННЫЙ КОЛОДЕЦ
+Value=40;---WATER FROM SPRING---|---РОДНИКОВАЯ ВОДА---|---РОДНИКОВАЯ ВОДА---
+Value=41;Protected spring|ЗАЩИЩЕННЫЙ РОДНИК|ЗАЩИЩЕННЫЙ РОДНИК
+Value=42;Unprotected spring|НЕЗАЩИЩЕННЫЙ РОДНИК|НЕЗАЩИЩЕННЫЙ РОДНИК
+Value=50;---OTHER SOURCES---|---ДРУГИЕ ИСТОЧНИКИ---|---ДРУГИЕ ИСТОЧНИКИ---
+Value=51;Rainwater|ДОЖДЕВАЯ ВОДА|ДОЖДЕВАЯ ВОДА
+Value=61;Tanker truck|АВТОЦИСТЕРНА|АВТОЦИСТЕРНА
+Value=71;Cart with small tank|ТЕЛЕЖКА С МАЛЕНЬКИМ БАКОМ|ТЕЛЕЖКА С МАЛЕНЬКИМ БАКОМ
+Value=81;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)
+Value=91;Bottled water|БУТЫЛОЧНАЯ ВОДА|БУТЫЛОЧНАЯ ВОДА
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Source of water for cooking/handwashing
@@ -1299,25 +1294,25 @@ DataType=Numeric
 [ValueSet]
 Label=Source of water for cooking/handwashing
 Name=QH102_VS1
-Value=10;---PIPED WATER---|---ВОПРОВОДНАЯ ВОДА---
-Value=11;Piped into dwelling|ВОДОПРОВОД В ДОМЕ
-Value=12;Piped to yard/plot|ВОДОПРОВОД ВО ДВОРЕ/УЧАСТКЕ
-Value=13;Piped to neighbor|ВОДОПРОВОД У СОСЕДА
-Value=14;Public tap/standpipe|ОБЩЕСТВЕННЫЙ КРАН/КОЛОНКА
-Value=20;---TUBE WELL OR BOREHOLE---|---ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА---
-Value=21;Tube well or borehole|ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА
-Value=30;---DUG WELL---|---ВЫРЫТЫЙ КОЛОДЕЦ---
-Value=31;Protected well|ЗАЩИЩЕННЫЙ КОЛОДЕЦ
-Value=32;Unprotected well|НЕЗАЩИЩЕННЫЙ КОЛОДЕЦ
-Value=40;---WATER FROM SPRING---|---РОДНИКОВАЯ ВОДА---
-Value=41;Protected spring|ЗАЩИЩЕННЫЙ РОДНИК
-Value=42;Unprotected spring|НЕЗАЩИЩЕННЫЙ РОДНИК
-Value=50;---OTHER SOURCES---|---ДРУГИЕ ИСТОЧНИКИ---
-Value=51;Rainwater|ДОЖДЕВАЯ ВОДА
-Value=61;Tanker truck|АВТОЦИСТЕРНА
-Value=71;Cart with small tank|ТЕЛЕЖКА С МАЛЕНЬКИМ БАКОМ
-Value=81;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)
-Value=96;Other|ДРУГОЕ
+Value=10;---PIPED WATER---|---ВОПРОВОДНАЯ ВОДА---|---ВОПРОВОДНАЯ ВОДА---
+Value=11;Piped into dwelling|ВОДОПРОВОД В ДОМЕ|ВОДОПРОВОД В ДОМЕ
+Value=12;Piped to yard/plot|ВОДОПРОВОД ВО ДВОРЕ/УЧАСТКЕ|ВОДОПРОВОД ВО ДВОРЕ/УЧАСТКЕ
+Value=13;Piped to neighbor|ВОДОПРОВОД У СОСЕДА|ВОДОПРОВОД У СОСЕДА
+Value=14;Public tap/standpipe|ОБЩЕСТВЕННЫЙ КРАН/КОЛОНКА|ОБЩЕСТВЕННЫЙ КРАН/КОЛОНКА
+Value=20;---TUBE WELL OR BOREHOLE---|---ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА---|---ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА---
+Value=21;Tube well or borehole|ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА|ТРУБНЫЙ КОЛОДЕЦ ИЛИ СКВАЖИНА
+Value=30;---DUG WELL---|---ВЫРЫТЫЙ КОЛОДЕЦ---|---ВЫРЫТЫЙ КОЛОДЕЦ---
+Value=31;Protected well|ЗАЩИЩЕННЫЙ КОЛОДЕЦ|ЗАЩИЩЕННЫЙ КОЛОДЕЦ
+Value=32;Unprotected well|НЕЗАЩИЩЕННЫЙ КОЛОДЕЦ|НЕЗАЩИЩЕННЫЙ КОЛОДЕЦ
+Value=40;---WATER FROM SPRING---|---РОДНИКОВАЯ ВОДА---|---РОДНИКОВАЯ ВОДА---
+Value=41;Protected spring|ЗАЩИЩЕННЫЙ РОДНИК|ЗАЩИЩЕННЫЙ РОДНИК
+Value=42;Unprotected spring|НЕЗАЩИЩЕННЫЙ РОДНИК|НЕЗАЩИЩЕННЫЙ РОДНИК
+Value=50;---OTHER SOURCES---|---ДРУГИЕ ИСТОЧНИКИ---|---ДРУГИЕ ИСТОЧНИКИ---
+Value=51;Rainwater|ДОЖДЕВАЯ ВОДА|ДОЖДЕВАЯ ВОДА
+Value=61;Tanker truck|АВТОЦИСТЕРНА|АВТОЦИСТЕРНА
+Value=71;Cart with small tank|ТЕЛЕЖКА С МАЛЕНЬКИМ БАКОМ|ТЕЛЕЖКА С МАЛЕНЬКИМ БАКОМ
+Value=81;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Location of source for water
@@ -1329,9 +1324,9 @@ DataType=Numeric
 [ValueSet]
 Label=Location of source for water
 Name=QH103_VS1
-Value=1;In own dwelling|СОБСТВЕННОМ ДОМЕ
-Value=2;In own yard/plot|СОБСТВЕННОМ ДВОРЕ/УЧАСТКЕ
-Value=3;Elsewhere|ДРУГОМ МЕСТЕ
+Value=1;In own dwelling|СОБСТВЕННОМ ДОМЕ|СОБСТВЕННОМ ДОМЕ
+Value=2;In own yard/plot|СОБСТВЕННОМ ДВОРЕ/УЧАСТКЕ|СОБСТВЕННОМ ДВОРЕ/УЧАСТКЕ
+Value=3;Elsewhere|ДРУГОМ МЕСТЕ|ДРУГОМ МЕСТЕ
 
 [Item]
 Label=Time to water and back (mins)
@@ -1343,7 +1338,7 @@ DataType=Numeric
 [ValueSet]
 Label=Time to water and back (mins)
 Name=QH104_VS2
-Value=0:900;Minutes|МИНУТЫ
+Value=0:900;Minutes|МИНУТЫ|МИНУТЫ
 Value=998;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
@@ -1356,7 +1351,7 @@ DataType=Numeric
 [ValueSet]
 Label=Line number of person who collects water
 Name=QH105_VS1
-Value=0;Not a household member|Не член семьи
+Value=0;Not a household member|Не член семьи|Не член семьи
 Value=1:50
 
 [Item]
@@ -1397,12 +1392,12 @@ DataType=Alpha
 [ValueSet]
 Label=What do you usually do to make water safe to drink
 Name=QH108_VS1
-Value='A       ';Boil|КИПЯЧЕНИЕ
-Value='C       ';Strain through a cloth|ПРОЦЕЖИВАНИЕ ЧЕРЕЗ ТКАНЬ
-Value='D       ';Use water filter (ceramic/sand/composite/etc)|ИСПОЛЬЗОВАНИЕ ФИЛЬТРА ДЛЯ ВОДЫ (КЕРАМИЧЕСКИЙ/ПЕСОЧНЫЙ/ КОМПОЗИТНЫЙ/И Т.Д.)
-Value='F       ';Let it stand and settle|ОТСТАИВАНИЕ И ОСАЖДЕНИЕ
-Value='X       ';Other|ДРУГОЕ
-Value='Z       ';Don't know|НЕ ЗНАЮ
+Value='A       ';Boil|КИПЯЧЕНИЕ|КИПЯЧЕНИЕ
+Value='C       ';Strain through a cloth|ПРОЦЕЖИВАНИЕ ЧЕРЕЗ ТКАНЬ|ПРОЦЕЖИВАНИЕ ЧЕРЕЗ ТКАНЬ
+Value='D       ';Use water filter (ceramic/sand/composite/etc)|ИСПОЛЬЗОВАНИЕ ФИЛЬТРА ДЛЯ ВОДЫ (КЕРАМИЧЕСКИЙ/ПЕСОЧНЫЙ/ КОМПОЗИТНЫЙ/И Т.Д.)|ИСПОЛЬЗОВАНИЕ ФИЛЬТРА ДЛЯ ВОДЫ (КЕРАМИЧЕСКИЙ/ПЕСОЧНЫЙ/ КОМПОЗИТНЫЙ/И Т.Д.)
+Value='F       ';Let it stand and settle|ОТСТАИВАНИЕ И ОСАЖДЕНИЕ|ОТСТАИВАНИЕ И ОСАЖДЕНИЕ
+Value='X       ';Other|ДРУГОЕ|ДРУГОЕ
+Value='Z       ';Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Type of toilet facility
@@ -1414,21 +1409,21 @@ DataType=Numeric
 [ValueSet]
 Label=Type of toilet facility
 Name=QH109_VS1
-Value=10;---FLUSH OR POUR FLUSH TOILET---|---ТУАЛЕТ СО СМЫВОМ ИЛИ СЛИВОМ---
-Value=11;Flush to piped sewer system|СМЫВ В КАНАЛИЗАЦИОННУЮ СИСТЕМУ
-Value=12;Flush to septic tank|СМЫВ В СЕПТИК
-Value=13;Flush to pit latrine|СМЫВ В ЯМНУЮ УБОРНУЮ
-Value=14;Flush to somewhere else|СМЫВ КУДА-ЛИБО ЕЩЕ
-Value=15;Flush, don't know where|СМЫВ, НЕ ЗНАЮ КУДА
-Value=20;---PIT LATRINE---|---ЯМНАЯ УБОРНАЯ---
-Value=21;Ventilated improved pit latrine|ВЕНТИЛЯЦИОННАЯ УЛУЧШЕННАЯ ЯМНАЯ УБОРНАЯ
-Value=22;Pit latrine with slab|ЯМНАЯ УБОРНАЯ С НАСТИЛОМ
-Value=23;Pit latrine without slab/open pit|ЯМНАЯ УБОРНАЯ БЕЗ НАСТИЛА/ ОТКРЫТАЯ ЯМА
-Value=30;---OTHER TOILET FACILITIES---|---ПРОЧИЕ ТУАЛЕТНЫЕ УСЛУГИ---
-Value=31;Composting toilet|КОМПОСТНЫЙ ТУАЛЕТ
-Value=41;Bucket toilet|ВЕДРО-ТУАЛЕТ
-Value=61;No facility/bush/field|НЕТ ТУАЛЕТА/КУСТ/ПОЛЕ
-Value=96;Other|ДРУГОЕ
+Value=10;---FLUSH OR POUR FLUSH TOILET---|---ТУАЛЕТ СО СМЫВОМ ИЛИ СЛИВОМ---|---ТУАЛЕТ СО СМЫВОМ ИЛИ СЛИВОМ---
+Value=11;Flush to piped sewer system|СМЫВ В КАНАЛИЗАЦИОННУЮ СИСТЕМУ|СМЫВ В КАНАЛИЗАЦИОННУЮ СИСТЕМУ
+Value=12;Flush to septic tank|СМЫВ В СЕПТИК|СМЫВ В СЕПТИК
+Value=13;Flush to pit latrine|СМЫВ В ЯМНУЮ УБОРНУЮ|СМЫВ В ЯМНУЮ УБОРНУЮ
+Value=14;Flush to somewhere else|СМЫВ КУДА-ЛИБО ЕЩЕ|СМЫВ КУДА-ЛИБО ЕЩЕ
+Value=15;Flush, don't know where|СМЫВ, НЕ ЗНАЮ КУДА|СМЫВ, НЕ ЗНАЮ КУДА
+Value=20;---PIT LATRINE---|---ЯМНАЯ УБОРНАЯ---|---ЯМНАЯ УБОРНАЯ---
+Value=21;Ventilated improved pit latrine|ВЕНТИЛЯЦИОННАЯ УЛУЧШЕННАЯ ЯМНАЯ УБОРНАЯ|ВЕНТИЛЯЦИОННАЯ УЛУЧШЕННАЯ ЯМНАЯ УБОРНАЯ
+Value=22;Pit latrine with slab|ЯМНАЯ УБОРНАЯ С НАСТИЛОМ|ЯМНАЯ УБОРНАЯ С НАСТИЛОМ
+Value=23;Pit latrine without slab/open pit|ЯМНАЯ УБОРНАЯ БЕЗ НАСТИЛА/ ОТКРЫТАЯ ЯМА|ЯМНАЯ УБОРНАЯ БЕЗ НАСТИЛА/ ОТКРЫТАЯ ЯМА
+Value=30;---OTHER TOILET FACILITIES---|---ПРОЧИЕ ТУАЛЕТНЫЕ УСЛУГИ---|---ПРОЧИЕ ТУАЛЕТНЫЕ УСЛУГИ---
+Value=31;Composting toilet|КОМПОСТНЫЙ ТУАЛЕТ|КОМПОСТНЫЙ ТУАЛЕТ
+Value=41;Bucket toilet|ВЕДРО-ТУАЛЕТ|ВЕДРО-ТУАЛЕТ
+Value=61;No facility/bush/field|НЕТ ТУАЛЕТА/КУСТ/ПОЛЕ|НЕТ ТУАЛЕТА/КУСТ/ПОЛЕ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Share facilities with other households
@@ -1454,7 +1449,7 @@ DataType=Numeric
 Label=Number of households sharing toilet
 Name=QH111_VS1
 Value=2:9
-Value=95;10 or more households|10 ИЛИ БОЛЕЕ ДОМОХОЗЯЙСТВ
+Value=95;10 or more households|10 ИЛИ БОЛЕЕ ДОМОХОЗЯЙСТВ|10 ИЛИ БОЛЕЕ ДОМОХОЗЯЙСТВ
 Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
@@ -1465,11 +1460,11 @@ Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Location of toilet facility|Emplacement des toilettes
+Label=Location of toilet facility
 Name=QH112_VS1
-Value=1;In own dwelling|СОБСТВЕННОМ ДОМЕ
-Value=2;In own yard/plot|СОБСТВЕННОМ ДВОРЕ/УЧАСТКЕ
-Value=3;Elsewhere|ДРУГОМ МЕСТЕ
+Value=1;In own dwelling|СОБСТВЕННОМ ДОМЕ|СОБСТВЕННОМ ДОМЕ
+Value=2;In own yard/plot|СОБСТВЕННОМ ДВОРЕ/УЧАСТКЕ|СОБСТВЕННОМ ДВОРЕ/УЧАСТКЕ
+Value=3;Elsewhere|ДРУГОМ МЕСТЕ|ДРУГОМ МЕСТЕ
 
 [Item]
 Label=Septic tank has been emptied
@@ -1509,12 +1504,12 @@ DataType=Numeric
 [ValueSet]
 Label=Where septic tanked emptied to
 Name=QH116_VS1
-Value=1;Treatment plant|ОЧИСТНОЕ СООРУЖЕНИЕ
-Value=2;Buried in a covered pit|ЗАКОПАН В ЗАКРЫТОЙ ЯМЕ
-Value=3;Uncovered pit/bush/field/open ground|ОТКРЫТАЯ ЯМА/КУСТ/ПОЛЕ ОТКРЫТЫЙ ГРУНТ
-Value=4;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)
-Value=6;Other|ДРУГОЕ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=1;Treatment plant|ОЧИСТНОЕ СООРУЖЕНИЕ|ОЧИСТНОЕ СООРУЖЕНИЕ
+Value=2;Buried in a covered pit|ЗАКОПАН В ЗАКРЫТОЙ ЯМЕ|ЗАКОПАН В ЗАКРЫТОЙ ЯМЕ
+Value=3;Uncovered pit/bush/field/open ground|ОТКРЫТАЯ ЯМА/КУСТ/ПОЛЕ ОТКРЫТЫЙ ГРУНТ|ОТКРЫТАЯ ЯМА/КУСТ/ПОЛЕ ОТКРЫТЫЙ ГРУНТ
+Value=4;Surface water (river/dam/lake/pond/stream/canal/irrigation channel)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)|ПОВЕРХНОСТНАЯ ВОДА (РЕКА/ДАМБА/ ОЗЕРО/ПРУД/РУЧЕЙ/КАНАЛ/ОРОСИТЕЛЬНЫЙ КАНАЛ)
+Value=6;Other|ДРУГОЕ|ДРУГОЕ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Type of cookstove
@@ -1526,17 +1521,17 @@ DataType=Numeric
 [ValueSet]
 Label=Type of cookstove
 Name=QH117_VS1
-Value=1;Electric stove|ЭЛЕКТРИЧЕСКАЯ ПЛИТА
-Value=3;Liquified petroleum gas (LPG)/cooking gas stove|ПЛИТА НА СЖИЖЕННОМ НЕФТЯНОМ ГАЗЕ/НА ГАЗЕ
-Value=4;Piped natural gas stove|ГАЗОВАЯ ПЛИТА НА ПРИРОДНОМ ГАЗЕ ПОДАВАЕМОМ ПО ТРУБЕ
-Value=5;Biogas stove|БИОГАЗОВАЯ ПЛИТА
-Value=6;Liquid fuel stove|ПЛИТА НА ЖИДКОМ ТОПЛИВЕ
-Value=7;Manufactured solid fuel stove|ПЛИТА НА ТВЕРДОМ ТОПЛИВЕ ЗАВОДСКОГО ПРОИЗВОДСТВА
-Value=8;Traditional solid fuel stove|ПЛИТА НА ТВЕРДОМ ТОПЛИВЕ ТРАДИЦИОННАЯ
-Value=9;Three stone stove/open fire|ПЛИТА ИЗ ТРЕХ КАМНЕЙ ИЛИ КИРПИЧЕЙ/НА ОТКРЫТОМ ОГНЕ
-Value=10;Microwave stove|МИКРОВОЛНОВАЯ ПЕЧЬ
-Value=95;No food cooked in household|В ДОМОХОЗЯЙСТВЕ ПИЩА НЕ ГОТОВИТСЯ
-Value=96;Other|ДРУГОЕ
+Value=1;Electric stove|ЭЛЕКТРИЧЕСКАЯ ПЛИТА|ЭЛЕКТРИЧЕСКАЯ ПЛИТА
+Value=3;Liquified petroleum gas (LPG)/cooking gas stove|ПЛИТА НА СЖИЖЕННОМ НЕФТЯНОМ ГАЗЕ/НА ГАЗЕ|ПЛИТА НА СЖИЖЕННОМ НЕФТЯНОМ ГАЗЕ/НА ГАЗЕ
+Value=4;Piped natural gas stove|ГАЗОВАЯ ПЛИТА НА ПРИРОДНОМ ГАЗЕ ПОДАВАЕМОМ ПО ТРУБЕ|ГАЗОВАЯ ПЛИТА НА ПРИРОДНОМ ГАЗЕ ПОДАВАЕМОМ ПО ТРУБЕ
+Value=5;Biogas stove|БИОГАЗОВАЯ ПЛИТА|БИОГАЗОВАЯ ПЛИТА
+Value=6;Liquid fuel stove|ПЛИТА НА ЖИДКОМ ТОПЛИВЕ|ПЛИТА НА ЖИДКОМ ТОПЛИВЕ
+Value=7;Manufactured solid fuel stove|ПЛИТА НА ТВЕРДОМ ТОПЛИВЕ ЗАВОДСКОГО ПРОИЗВОДСТВА|ПЛИТА НА ТВЕРДОМ ТОПЛИВЕ ЗАВОДСКОГО ПРОИЗВОДСТВА
+Value=8;Traditional solid fuel stove|ПЛИТА НА ТВЕРДОМ ТОПЛИВЕ ТРАДИЦИОННАЯ|ПЛИТА НА ТВЕРДОМ ТОПЛИВЕ ТРАДИЦИОННАЯ
+Value=9;Three stone stove/open fire|ПЛИТА ИЗ ТРЕХ КАМНЕЙ ИЛИ КИРПИЧЕЙ/НА ОТКРЫТОМ ОГНЕ|ПЛИТА ИЗ ТРЕХ КАМНЕЙ ИЛИ КИРПИЧЕЙ/НА ОТКРЫТОМ ОГНЕ
+Value=10;Microwave stove|МИКРОВОЛНОВАЯ ПЕЧЬ|МИКРОВОЛНОВАЯ ПЕЧЬ
+Value=95;No food cooked in household|В ДОМОХОЗЯЙСТВЕ ПИЩА НЕ ГОТОВИТСЯ|В ДОМОХОЗЯЙСТВЕ ПИЩА НЕ ГОТОВИТСЯ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Stove has a chimney
@@ -1562,18 +1557,18 @@ DataType=Numeric
 [ValueSet]
 Label=Type of cooking fuel
 Name=QH120_VS1
-Value=2;Gasoline/diesel|БЕНЗИН/ДИЗЕЛЬ
-Value=3;Kerosene/paraffin|КЕРОСИН
-Value=4;Coal/lignite|УГОЛЬ/ЛИГНИТ
-Value=5;Charcoal|ДРЕВЕСНЫЙ УГОЛЬ
-Value=6;Wood|ДЕРЕВО
-Value=7;Straw/shrubs/grass|СОЛОМА/КУСТАРНИК/ТРАВА
-Value=8;Agricultural crop|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ
-Value=9;Animal dung/waste|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ
-Value=10;Processed biomass (pellets) or woodchips|ПЕРЕРАБОТАННАЯ БИОМАССА (ГРАНУЛЫ) ИЛИ ЩЕПКИ
-Value=11;Garbage/plastic|МУСОР/ПЛАСТМАССА
-Value=12;Sawdust|ОПИЛКИ
-Value=96;Other|ДРУГОЕ
+Value=2;Gasoline/diesel|БЕНЗИН/ДИЗЕЛЬ|БЕНЗИН/ДИЗЕЛЬ
+Value=3;Kerosene/paraffin|КЕРОСИН|КЕРОСИН
+Value=4;Coal/lignite|УГОЛЬ/ЛИГНИТ|УГОЛЬ/ЛИГНИТ
+Value=5;Charcoal|ДРЕВЕСНЫЙ УГОЛЬ|ДРЕВЕСНЫЙ УГОЛЬ
+Value=6;Wood|ДЕРЕВО|ДЕРЕВО
+Value=7;Straw/shrubs/grass|СОЛОМА/КУСТАРНИК/ТРАВА|СОЛОМА/КУСТАРНИК/ТРАВА
+Value=8;Agricultural crop|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ
+Value=9;Animal dung/waste|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ
+Value=10;Processed biomass (pellets) or woodchips|ПЕРЕРАБОТАННАЯ БИОМАССА (ГРАНУЛЫ) ИЛИ ЩЕПКИ|ПЕРЕРАБОТАННАЯ БИОМАССА (ГРАНУЛЫ) ИЛИ ЩЕПКИ
+Value=11;Garbage/plastic|МУСОР/ПЛАСТМАССА|МУСОР/ПЛАСТМАССА
+Value=12;Sawdust|ОПИЛКИ|ОПИЛКИ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Food cooked in the house / in separate building / outdoors
@@ -1585,10 +1580,10 @@ DataType=Numeric
 [ValueSet]
 Label=Food cooked in the house / in separate building / outdoors
 Name=QH121_VS1
-Value=1;In the house|ДОМА
-Value=2;In a separate building|В ОТДЕЛЬНОМ ЗДАНИИ
-Value=3;Outdoors|НА ОТКРЫТОМ ВОЗДУХЕ
-Value=6;Other|ДРУГОЕ
+Value=1;In the house|ДОМА|ДОМА
+Value=2;In a separate building|В ОТДЕЛЬНОМ ЗДАНИИ|В ОТДЕЛЬНОМ ЗДАНИИ
+Value=3;Outdoors|НА ОТКРЫТОМ ВОЗДУХЕ|НА ОТКРЫТОМ ВОЗДУХЕ
+Value=6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Household has separate room used as kitchen
@@ -1613,15 +1608,15 @@ DataType=Numeric
 [ValueSet]
 Label=Heat source for home
 Name=QH123_VS1
-Value=1;Central heating|ЦЕНТРАЛЬНОЕ ОТОПЛЕНИЕ
-Value=2;Manufactured space heater|ОБОГРЕВАТЕЛЬ ЗАВОДСКОГО ПРОИЗВОДСТВА
-Value=3;Traditional space heater|ТРАДИЦИОННЫЙ ОБОГРЕВАТЕЛЬ
-Value=4;Manufactured cookstove|ПЕЧЬ ЗАВОДСКОГО ПРОИЗВОДСТВА
-Value=5;Traditional cookstove|ТРАДИЦИОННАЯ ПЕЧЬ
-Value=6;Three stone stove/open fire|ПЕЧЬ ИЗ ТРЕХ КИРПИЧЕЙ/ОТКРЫТЫЙ ОГОНЬ
-Value=7;Airconditioner winter-summer|КОНДИЦИОНЕР ЗИМА-ЛЕТО
-Value=95;No space heating in household|В ДОМОХОЗЯЙСТВЕ НЕТ ОТОПЛЕНИЯ/НЕТ НАДОБНОСТИ
-Value=96;Other|ДРУГОЕ
+Value=1;Central heating|ЦЕНТРАЛЬНОЕ ОТОПЛЕНИЕ|ЦЕНТРАЛЬНОЕ ОТОПЛЕНИЕ
+Value=2;Manufactured space heater|ОБОГРЕВАТЕЛЬ ЗАВОДСКОГО ПРОИЗВОДСТВА|ОБОГРЕВАТЕЛЬ ЗАВОДСКОГО ПРОИЗВОДСТВА
+Value=3;Traditional space heater|ТРАДИЦИОННЫЙ ОБОГРЕВАТЕЛЬ|ТРАДИЦИОННЫЙ ОБОГРЕВАТЕЛЬ
+Value=4;Manufactured cookstove|ПЕЧЬ ЗАВОДСКОГО ПРОИЗВОДСТВА|ПЕЧЬ ЗАВОДСКОГО ПРОИЗВОДСТВА
+Value=5;Traditional cookstove|ТРАДИЦИОННАЯ ПЕЧЬ|ТРАДИЦИОННАЯ ПЕЧЬ
+Value=6;Three stone stove/open fire|ПЕЧЬ ИЗ ТРЕХ КИРПИЧЕЙ/ОТКРЫТЫЙ ОГОНЬ|ПЕЧЬ ИЗ ТРЕХ КИРПИЧЕЙ/ОТКРЫТЫЙ ОГОНЬ
+Value=7;Airconditioner winter-summer|КОНДИЦИОНЕР ЗИМА-ЛЕТО|КОНДИЦИОНЕР ЗИМА-ЛЕТО
+Value=95;No space heating in household|В ДОМОХОЗЯЙСТВЕ НЕТ ОТОПЛЕНИЯ/НЕТ НАДОБНОСТИ|В ДОМОХОЗЯЙСТВЕ НЕТ ОТОПЛЕНИЯ/НЕТ НАДОБНОСТИ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Heat in home has a chimney
@@ -1647,22 +1642,22 @@ DataType=Numeric
 [ValueSet]
 Label=Type of fuel for home heat
 Name=QH125_VS1
-Value=1;Electricity|ЭЛЕКТРИЧЕСТВО
-Value=2;Piped natural gas|ПРИРОДНЫЙ ГАЗ ПО ТРУБЕ
-Value=4;Liquefied petroleum gas (LPG)/cooking gas|СЖИЖЕННЫЙ НЕФТЯНОЙ ГАЗ/ГАЗ ДЛЯ ПРИГОТОВЛЕНИЯ ПИЩИ
-Value=5;Biogas|БИОГАЗ
-Value=7;Gasoline/diesel|БЕНЗИН/ДИЗЕЛЬ
-Value=8;Kerosene|КЕРОСИН
-Value=9;Coal/lignite|УГОЛЬ/ЛИГНИТ
-Value=10;Charcoal|ДРЕВЕСНЫЙ УГОЛЬ
-Value=11;Wood|ДЕРЕВО
-Value=12;Straw/shrubs/grass|СОЛОМА/КУСТАРНИК/ТРАВА
-Value=13;Agricultural crop|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ
-Value=14;Animal dung/waste|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ
-Value=15;Processed biomass (pellets) or woodchips|ПЕРЕРАБОТАННАЯ БИОМАССА (ГРАНУЛЫ) ИЛИ ЩЕПКИ
-Value=16;Garbage/plastic|МУСОР/ПЛАСТМАССА
-Value=17;Sawdust|ОПИЛКИ
-Value=96;Other|ДРУГОЕ
+Value=1;Electricity|ЭЛЕКТРИЧЕСТВО|ЭЛЕКТРИЧЕСТВО
+Value=2;Piped natural gas|ПРИРОДНЫЙ ГАЗ ПО ТРУБЕ|ПРИРОДНЫЙ ГАЗ ПО ТРУБЕ
+Value=4;Liquefied petroleum gas (LPG)/cooking gas|СЖИЖЕННЫЙ НЕФТЯНОЙ ГАЗ/ГАЗ ДЛЯ ПРИГОТОВЛЕНИЯ ПИЩИ|СЖИЖЕННЫЙ НЕФТЯНОЙ ГАЗ/ГАЗ ДЛЯ ПРИГОТОВЛЕНИЯ ПИЩИ
+Value=5;Biogas|БИОГАЗ|БИОГАЗ
+Value=7;Gasoline/diesel|БЕНЗИН/ДИЗЕЛЬ|БЕНЗИН/ДИЗЕЛЬ
+Value=8;Kerosene|КЕРОСИН|КЕРОСИН
+Value=9;Coal/lignite|УГОЛЬ/ЛИГНИТ|УГОЛЬ/ЛИГНИТ
+Value=10;Charcoal|ДРЕВЕСНЫЙ УГОЛЬ|ДРЕВЕСНЫЙ УГОЛЬ
+Value=11;Wood|ДЕРЕВО|ДЕРЕВО
+Value=12;Straw/shrubs/grass|СОЛОМА/КУСТАРНИК/ТРАВА|СОЛОМА/КУСТАРНИК/ТРАВА
+Value=13;Agricultural crop|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ
+Value=14;Animal dung/waste|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ
+Value=15;Processed biomass (pellets) or woodchips|ПЕРЕРАБОТАННАЯ БИОМАССА (ГРАНУЛЫ) ИЛИ ЩЕПКИ|ПЕРЕРАБОТАННАЯ БИОМАССА (ГРАНУЛЫ) ИЛИ ЩЕПКИ
+Value=16;Garbage/plastic|МУСОР/ПЛАСТМАССА|МУСОР/ПЛАСТМАССА
+Value=17;Sawdust|ОПИЛКИ|ОПИЛКИ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Type of light at home
@@ -1674,22 +1669,22 @@ DataType=Numeric
 [ValueSet]
 Label=Type of light at home
 Name=QH126_VS1
-Value=1;Electricity|ЭЛЕКТРИЧЕСТВО
-Value=2;Solar lantern|ФОНАРЬ НА СОЛНЕЧНОЙ БАТАРЕЕ
-Value=3;Rechargeable flashlight, torch, or lantern|ПЕРЕЗАРЯЖАЕМЫЙ ФОНАРИК, ФАКЕЛ ИЛИ ФОНАРЬ
-Value=4;Battery powered flashlight, torch or lantern|ФОНАРИК, ФАКЕЛ ИЛИ ФОНАРЬ НА БАТАРЕЙКАХ
-Value=5;Biogas lamp|БИОГАЗОВАЯ ЛАМПА
-Value=6;Gasoline lamp|БЕНЗИНОВАЯ ЛАМПА
-Value=7;Kerosene lamp|КЕРОСИНОВАЯ ЛАМПА
-Value=8;Charcoal|ДРЕВЕСНЫЙ УГОЛЬ
-Value=9;Wood|ДЕРЕВО
-Value=10;Straw/shrubs/grass|СОЛОМА/КУСТАРНИК/ТРАВА
-Value=11;Agricultural crop|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ
-Value=12;Animal dung/waste|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ
-Value=13;Oil lamp|МАСЛЯНАЯ ЛАМПА
-Value=14;Candle|СВЕЧА
-Value=95;No lighting in household|В ДОМОХОЗЯЙСТВЕ НЕТ ОСВЕЩЕНИЯ
-Value=96;Other|ДРУГОЕ
+Value=1;Electricity|ЭЛЕКТРИЧЕСТВО|ЭЛЕКТРИЧЕСТВО
+Value=2;Solar lantern|ФОНАРЬ НА СОЛНЕЧНОЙ БАТАРЕЕ|ФОНАРЬ НА СОЛНЕЧНОЙ БАТАРЕЕ
+Value=3;Rechargeable flashlight, torch, or lantern|ПЕРЕЗАРЯЖАЕМЫЙ ФОНАРИК, ФАКЕЛ ИЛИ ФОНАРЬ|ПЕРЕЗАРЯЖАЕМЫЙ ФОНАРИК, ФАКЕЛ ИЛИ ФОНАРЬ
+Value=4;Battery powered flashlight, torch or lantern|ФОНАРИК, ФАКЕЛ ИЛИ ФОНАРЬ НА БАТАРЕЙКАХ|ФОНАРИК, ФАКЕЛ ИЛИ ФОНАРЬ НА БАТАРЕЙКАХ
+Value=5;Biogas lamp|БИОГАЗОВАЯ ЛАМПА|БИОГАЗОВАЯ ЛАМПА
+Value=6;Gasoline lamp|БЕНЗИНОВАЯ ЛАМПА|БЕНЗИНОВАЯ ЛАМПА
+Value=7;Kerosene lamp|КЕРОСИНОВАЯ ЛАМПА|КЕРОСИНОВАЯ ЛАМПА
+Value=8;Charcoal|ДРЕВЕСНЫЙ УГОЛЬ|ДРЕВЕСНЫЙ УГОЛЬ
+Value=9;Wood|ДЕРЕВО|ДЕРЕВО
+Value=10;Straw/shrubs/grass|СОЛОМА/КУСТАРНИК/ТРАВА|СОЛОМА/КУСТАРНИК/ТРАВА
+Value=11;Agricultural crop|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ|СЕЛЬСКОХОЗЯЙСТВЕННЫЕ КУЛЬТУРЫ
+Value=12;Animal dung/waste|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ|НАВОЗ/ОТХОДЫ ЖИВОТНЫХ
+Value=13;Oil lamp|МАСЛЯНАЯ ЛАМПА|МАСЛЯНАЯ ЛАМПА
+Value=14;Candle|СВЕЧА|СВЕЧА
+Value=95;No lighting in household|В ДОМОХОЗЯЙСТВЕ НЕТ ОСВЕЩЕНИЯ|В ДОМОХОЗЯЙСТВЕ НЕТ ОСВЕЩЕНИЯ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Number of rooms used for sleeping
@@ -1726,10 +1721,10 @@ DataType=Numeric
 [ValueSet]
 Label=Cows/bulls
 Name=QH129A_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Other cattle
@@ -1741,10 +1736,10 @@ DataType=Numeric
 [ValueSet]
 Label=Other cattle
 Name=QH129B_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Horses/donkeys/mules
@@ -1756,10 +1751,10 @@ DataType=Numeric
 [ValueSet]
 Label=Horses/donkeys/mules
 Name=QH129C_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Goats
@@ -1771,10 +1766,10 @@ DataType=Numeric
 [ValueSet]
 Label=Goats
 Name=QH129D_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Sheep
@@ -1786,10 +1781,10 @@ DataType=Numeric
 [ValueSet]
 Label=Sheep
 Name=QH129E_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Chickens or other poultry
@@ -1801,10 +1796,10 @@ DataType=Numeric
 [ValueSet]
 Label=Chickens or other poultry
 Name=QH129F_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Rabbits
@@ -1816,10 +1811,10 @@ DataType=Numeric
 [ValueSet]
 Label=Rabbits
 Name=QH129G_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Fur animals
@@ -1831,10 +1826,10 @@ DataType=Numeric
 [ValueSet]
 Label=Fur animals
 Name=QH129H_VS1
-Value=0;None|НИ ОДНОГО
+Value=0;None|НИ ОДНОГО|НИ ОДНОГО
 Value=1:94
-Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|ЕСЛИ 95 ИЛИ БОЛЕЕ|ЕСЛИ 95 ИЛИ БОЛЕЕ
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Beehives
@@ -1846,10 +1841,10 @@ DataType=Numeric
 [ValueSet]
 Label=Beehives
 Name=QH129I_VS1
-Value=0;None|Никто
+Value=0;None|Никто|Никто
 Value=1:94
-Value=95;95 or more|9500 ИЛИ БОЛЕЕ СОТОК
-Value=98;Unknown|НЕ ЗНАЮ
+Value=95;95 or more|95 ИЛИ БОЛЕЕ СОТОК|95 ИЛИ БОЛЕЕ СОТОК
+Value=98;Unknown|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Own land usable for agriculture
@@ -1875,7 +1870,7 @@ DataType=Numeric
 Label=Ares for agricultural land
 Name=QH131_VS1
 Value=1:9994
-Value=9995;95 or more hectares|9500 ИЛИ БОЛЕЕ СОТОК
+Value=9995;9500 or more hectares|9500 ИЛИ БОЛЕЕ СОТОК|9500 ИЛИ БОЛЕЕ СОТОК
 Value=9998;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
@@ -1967,7 +1962,7 @@ DataType=Numeric
 Label=Washing machine
 Name=QH132G_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Vacuum cleaner
@@ -1980,7 +1975,7 @@ DataType=Numeric
 Label=Vacuum cleaner
 Name=QH132H_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Microwave
@@ -1993,7 +1988,7 @@ DataType=Numeric
 Label=Microwave
 Name=QH132I_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Video camera/
@@ -2006,7 +2001,7 @@ DataType=Numeric
 Label=Video camera/
 Name=QH132J_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Table/
@@ -2019,7 +2014,7 @@ DataType=Numeric
 Label=Table/
 Name=QH132K_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Chair
@@ -2032,7 +2027,7 @@ DataType=Numeric
 Label=Chair
 Name=QH132L_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Sofa/divan
@@ -2045,7 +2040,7 @@ DataType=Numeric
 Label=Sofa/divan
 Name=QH132M_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Bed
@@ -2058,7 +2053,7 @@ DataType=Numeric
 Label=Bed
 Name=QH132N_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Buffet/curio cabinet/wall unit
@@ -2071,7 +2066,7 @@ DataType=Numeric
 Label=Buffet/curio cabinet/wall unit
 Name=QH132O_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Air conditioner
@@ -2084,7 +2079,7 @@ DataType=Numeric
 Label=Air conditioner
 Name=QH132P_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=DVD Player
@@ -2097,7 +2092,7 @@ DataType=Numeric
 Label=DVD Player
 Name=QH132Q_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Satellite antenna/dish/cable
@@ -2110,7 +2105,7 @@ DataType=Numeric
 Label=Satellite antenna/dish/cable
 Name=QH132R_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Freezer
@@ -2123,7 +2118,7 @@ DataType=Numeric
 Label=Freezer
 Name=QH132S_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Electric fan
@@ -2136,7 +2131,7 @@ DataType=Numeric
 Label=Electric fan
 Name=QH132T_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Sewing machine
@@ -2149,7 +2144,7 @@ DataType=Numeric
 Label=Sewing machine
 Name=QH132U_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=In-door heater
@@ -2162,7 +2157,7 @@ DataType=Numeric
 Label=In-door heater
 Name=QH132V_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Mini-generator ("dvizhok")
@@ -2175,7 +2170,7 @@ DataType=Numeric
 Label=Mini-generator ("dvizhok")
 Name=QH132W_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Fuel or wood stock
@@ -2188,7 +2183,7 @@ DataType=Numeric
 Label=Fuel or wood stock
 Name=QH132X_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Carpet (handmade or machine made)
@@ -2201,7 +2196,7 @@ DataType=Numeric
 Label=Carpet (handmade or machine made)
 Name=QH132Y_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Connection to the Internet
@@ -2214,7 +2209,7 @@ DataType=Numeric
 Label=Connection to the Internet
 Name=QH132Z_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Dish washing machine
@@ -2227,7 +2222,7 @@ DataType=Numeric
 Label=Dish washing machine
 Name=QH132TT_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Clothes dryer machine
@@ -2240,7 +2235,7 @@ DataType=Numeric
 Label=Clothes dryer machine
 Name=QH132UU_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Electric water heater /Termix
@@ -2253,7 +2248,7 @@ DataType=Numeric
 Label=Electric water heater /Termix
 Name=QH132VV_VS1
 Value=1;Yes|ДА|ДА
-Value=2;|НЕТ|НЕТ
+Value=2;НЕТ|НЕТ|НЕТ
 
 [Item]
 Label=Watch
@@ -2421,9 +2416,9 @@ DataType=Numeric
 [ValueSet]
 Label=Number of women with bank account
 Name=QH134AA_VS1
-Value=0;None|НИЧЕГО
+Value=0;None|НИЧЕГО|НИЧЕГО
 Value=1:50
-Value=98;Don't know|НЕ ЗНАЮ
+Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Number of men with bank account
@@ -2435,9 +2430,9 @@ DataType=Numeric
 [ValueSet]
 Label=Number of men with bank account
 Name=QH134AB_VS1
-Value=0;None|НИЧЕГО
+Value=0;None|НИЧЕГО|НИЧЕГО
 Value=1:50
-Value=98;Don't know|НЕ ЗНАЮ
+Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Mobile phone used financial transactions
@@ -2462,11 +2457,11 @@ DataType=Numeric
 [ValueSet]
 Label=Frequency of smoking inside house
 Name=QH136_VS1
-Value=1;Daily|ЕЖЕДНЕВНО
-Value=2;Weekly|ЕЖЕНЕДЕЛЬНО
-Value=3;Monthly|ЕЖЕМЕСЯЧНО
-Value=4;Less often than once a month|РЕЖЕ, ЧЕМ  РАЗ В МЕСЯЦ
-Value=5;Never|НИКОГДА
+Value=1;Daily|ЕЖЕДНЕВНО|ЕЖЕДНЕВНО
+Value=2;Weekly|ЕЖЕНЕДЕЛЬНО|ЕЖЕНЕДЕЛЬНО
+Value=3;Monthly|ЕЖЕМЕСЯЧНО|ЕЖЕМЕСЯЧНО
+Value=4;Less often than once a month|РЕЖЕ, ЧЕМ  РАЗ В МЕСЯЦ|РЕЖЕ, ЧЕМ  РАЗ В МЕСЯЦ
+Value=5;Never|НИКОГДА|НИКОГДА
 
 [Item]
 Label=Worked abroad last 12 months
@@ -2480,7 +2475,7 @@ Label=Worked abroad last 12 months
 Name=QH136A_VS1
 Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Number of women working abroad
@@ -2492,9 +2487,9 @@ DataType=Numeric
 [ValueSet]
 Label=Number of women working abroad
 Name=QH136BA_VS1
-Value=0;None|НИЧЕГО
+Value=0;None|НИЧЕГО|НИЧЕГО
 Value=1:50
-Value=98;Don't know|НЕ ЗНАЮ
+Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Number of men working abroad
@@ -2506,9 +2501,9 @@ DataType=Numeric
 [ValueSet]
 Label=Number of men working abroad
 Name=QH136BB_VS1
-Value=0;None|НИЧЕГО
+Value=0;None|НИЧЕГО|НИЧЕГО
 Value=1:50
-Value=98;Don't know|НЕ ЗНАЮ
+Value=98;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Country they have worked/work
@@ -2520,13 +2515,13 @@ DataType=Numeric
 [ValueSet]
 Label=Country they have worked/work
 Name=QH136C_VS1
-Value=1;Russia|РОССИЯ
-Value=2;Kazakhstan|КАЗАХСТАН
-Value=3;Other former USSR|ДРУГОЕ БЫВШИЙ СССР
-Value=4;Middle east/Dubai|БЛИЖНИЙ ВОСТОК/ДУБАЙ
-Value=5;Europe|ЕВРОПА
-Value=6;Other faraway abroad|ДРУГОЕ ДАЛЬНЕЕ ЗАРУБЕЖЬЕ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=1;Russia|РОССИЯ|РОССИЯ
+Value=2;Kazakhstan|КАЗАХСТАН|КАЗАХСТАН
+Value=3;Other former USSR|ДРУГОЕ БЫВШИЙ СССР|ДРУГОЕ БЫВШИЙ СССР
+Value=4;Middle east/Dubai|БЛИЖНИЙ ВОСТОК/ДУБАЙ|БЛИЖНИЙ ВОСТОК/ДУБАЙ
+Value=5;Europe|ЕВРОПА|ЕВРОПА
+Value=6;Other faraway abroad|ДРУГОЕ ДАЛЬНЕЕ ЗАРУБЕЖЬЕ|ДРУГОЕ ДАЛЬНЕЕ ЗАРУБЕЖЬЕ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Received money/parcels from abroad last 12 months
@@ -2540,7 +2535,7 @@ Label=Received money/parcels from abroad last 12 months
 Name=QH136D_VS1
 Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Country from they received money/parcels
@@ -2552,13 +2547,13 @@ DataType=Numeric
 [ValueSet]
 Label=Country from they received money/parcels
 Name=QH136E_VS1
-Value=1;Russia|РОССИЯ
-Value=2;Kazakhstan|КАЗАХСТАН
-Value=3;Other former USSR|ДРУГОЕ БЫВШИЙ СССР
-Value=4;Middle east/Dubai|БЛИЖНИЙ ВОСТОК/ДУБАЙ
-Value=5;Europe|ЕВРОПА
-Value=6;Other faraway abroad|ДРУГОЕ ДАЛЬНЕЕ ЗАРУБЕЖЬЕ
-Value=8;Don't know|НЕ ЗНАЮ
+Value=1;Russia|РОССИЯ|РОССИЯ
+Value=2;Kazakhstan|КАЗАХСТАН|КАЗАХСТАН
+Value=3;Other former USSR|ДРУГОЕ БЫВШИЙ СССР|ДРУГОЕ БЫВШИЙ СССР
+Value=4;Middle east/Dubai|БЛИЖНИЙ ВОСТОК/ДУБАЙ|БЛИЖНИЙ ВОСТОК/ДУБАЙ
+Value=5;Europe|ЕВРОПА|ЕВРОПА
+Value=6;Other faraway abroad|ДРУГОЕ ДАЛЬНЕЕ ЗАРУБЕЖЬЕ|ДРУГОЕ ДАЛЬНЕЕ ЗАРУБЕЖЬЕ
+Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Financial situation status due remittances
@@ -2570,13 +2565,13 @@ DataType=Numeric
 [ValueSet]
 Label=Financial situation status due remittances
 Name=QH136F_VS1
-Value=1;SUBSTANTIALLY IMPROVED|ЗНАЧИТЕЛЬНО УЛУЧШИЛИ
-Value=2;SLIGHTLY IMPROVED|НЕМНОГО УЛУЧШИЛИ
-Value=3;HAS NO EFFECT|НИКАК НЕ УЛУЧШИЛИ
-Value=8;DON’T KNOW|НЕ ЗНАЮ
+Value=1;SUBSTANTIALLY IMPROVED|ЗНАЧИТЕЛЬНО УЛУЧШИЛИ|ЗНАЧИТЕЛЬНО УЛУЧШИЛИ
+Value=2;SLIGHTLY IMPROVED|НЕМНОГО УЛУЧШИЛИ|НЕМНОГО УЛУЧШИЛИ
+Value=3;HAS NO EFFECT|НИКАК НЕ УЛУЧШИЛИ|НИКАК НЕ УЛУЧШИЛИ
+Value=8;DON’T KNOW|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Record]
-Label=Additional household characteristics|Допольнительное характеристика домохозяйств
+Label=Additional household characteristics
 Name=QHSEC04
 RecordTypeValue='H04'
 Required=No
@@ -2592,11 +2587,11 @@ DataType=Numeric
 [ValueSet]
 Label=Observed place for handwashing
 Name=QH149_VS1
-Value=1;Observed, fixed place|ОСМОТРЕНО, ФИКСИРОВАННОЕ МЕСТО
-Value=2;Observed, mobile|ОСМОТРЕНО, МОБИЛЬНОЕ
-Value=3;Not observed, not in dwelling/yard/plot|НЕ ОСМОТРЕНО, НЕ В ДОМЕ/ДВОРЕ/УЧАСТКЕ
-Value=4;Not observed, no permission to see|НЕ ОСМОТРЕНО, НЕ РАЗРЕШИЛИ ПОСМОТРЕТЬ
-Value=5;Not observed, other reason|НЕ ОСМОТРЕНО, ДРУГАЯ ПРИЧИНА
+Value=1;Observed, fixed place|ОСМОТРЕНО, ФИКСИРОВАННОЕ МЕСТО|ОСМОТРЕНО, ФИКСИРОВАННОЕ МЕСТО
+Value=2;Observed, mobile|ОСМОТРЕНО, МОБИЛЬНОЕ|ОСМОТРЕНО, МОБИЛЬНОЕ
+Value=3;Not observed, not in dwelling/yard/plot|НЕ ОСМОТРЕНО, НЕ В ДОМЕ/ДВОРЕ/УЧАСТКЕ|НЕ ОСМОТРЕНО, НЕ В ДОМЕ/ДВОРЕ/УЧАСТКЕ
+Value=4;Not observed, no permission to see|НЕ ОСМОТРЕНО, НЕ РАЗРЕШИЛИ ПОСМОТРЕТЬ|НЕ ОСМОТРЕНО, НЕ РАЗРЕШИЛИ ПОСМОТРЕТЬ
+Value=5;Not observed, other reason|НЕ ОСМОТРЕНО, ДРУГАЯ ПРИЧИНА|НЕ ОСМОТРЕНО, ДРУГАЯ ПРИЧИНА
 
 [Item]
 Label=Observed presence of water
@@ -2608,8 +2603,8 @@ DataType=Numeric
 [ValueSet]
 Label=Observed presence of water
 Name=QH150_VS1
-Value=1;Water is available|ВОДА ИМЕЕТСЯ
-Value=2;Water is not available|ВОДА НЕ ИМЕЕТСЯ
+Value=1;Water is available|ВОДА ИМЕЕТСЯ|ВОДА ИМЕЕТСЯ
+Value=2;Water is not available|ВОДА НЕ ИМЕЕТСЯ|ВОДА НЕ ИМЕЕТСЯ
 
 [Item]
 Label=Observed presence of soap, detergent or other cleansing agent
@@ -2621,9 +2616,9 @@ DataType=Alpha
 [ValueSet]
 Label=Observed presence of soap, detergent or other cleansing agent
 Name=QH151_VS1
-Value='A  ';Soap or detergent (bar, liquid, powder, paste)|МЫЛО ИЛИ МОЮЩЕЕ СТРЕДСТВО  (КУСОК МЫЛА, ЖИДКОСТЬ, ПОРОШОК, ПАСТА)
-Value='B  ';Ash, mud, sand|ПЕПЕЛ, ГЛИНА, ПЕСОК
-Value='Y  ';None|НИЧЕГО
+Value='A  ';Soap or detergent (bar, liquid, powder, paste)|МЫЛО ИЛИ МОЮЩЕЕ СТРЕДСТВО  (КУСОК МЫЛА, ЖИДКОСТЬ, ПОРОШОК, ПАСТА)|МЫЛО ИЛИ МОЮЩЕЕ СТРЕДСТВО  (КУСОК МЫЛА, ЖИДКОСТЬ, ПОРОШОК, ПАСТА)
+Value='B  ';Ash, mud, sand|ПЕПЕЛ, ГЛИНА, ПЕСОК|ПЕПЕЛ, ГЛИНА, ПЕСОК
+Value='Y  ';None|НИЧЕГО|НИЧЕГО
 
 [Item]
 Label=Main floor material
@@ -2635,17 +2630,17 @@ DataType=Numeric
 [ValueSet]
 Label=Main floor material
 Name=QH152_VS1
-Value=10;---NATURAL FLOOR---|---ПОЛ ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---
-Value=11;Earth/sand/Mud|ЗЕМЛЯ/ПЕСОК/ГЛИНА
-Value=20;---RUDIMENTARY FLOOR---|---ПРОСТЕЙШИЙ ПОЛ---
-Value=21;Wood planks|ДОЩАТЫЙ
-Value=30;---FINISHED FLOOR---|---ОТДЕЛАННЫЙ ПОЛ---
-Value=31;Parquet or polished wood|ПАРКЕТ ИЛИ ПОЛИРОВАННОЕ ДЕРЕВО
-Value=32;Vinyl/linoleum|ВИНИЛ/ ЛИНОЛЕУМ
-Value=33;Ceramic tiles|КЕРАМИЧЕСКИЕ ПЛИТКИ
-Value=34;Cement|ЦЕМЕНТ
-Value=35;Carpet|КОВРОВОЕ ПОКРЫТИЕ
-Value=96;Other|ДРУГОЕ
+Value=10;---NATURAL FLOOR---|---ПОЛ ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---|---ПОЛ ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---
+Value=11;Earth/sand/Mud|ЗЕМЛЯ/ПЕСОК/ГЛИНА|ЗЕМЛЯ/ПЕСОК/ГЛИНА
+Value=20;---RUDIMENTARY FLOOR---|---ПРОСТЕЙШИЙ ПОЛ---|---ПРОСТЕЙШИЙ ПОЛ---
+Value=21;Wood planks|ДОЩАТЫЙ|ДОЩАТЫЙ
+Value=30;---FINISHED FLOOR---|---ОТДЕЛАННЫЙ ПОЛ---|---ОТДЕЛАННЫЙ ПОЛ---
+Value=31;Parquet or polished wood|ПАРКЕТ ИЛИ ПОЛИРОВАННОЕ ДЕРЕВО|ПАРКЕТ ИЛИ ПОЛИРОВАННОЕ ДЕРЕВО
+Value=32;Vinyl/linoleum|ВИНИЛ/ ЛИНОЛЕУМ|ВИНИЛ/ ЛИНОЛЕУМ
+Value=33;Ceramic tiles|КЕРАМИЧЕСКИЕ ПЛИТКИ|КЕРАМИЧЕСКИЕ ПЛИТКИ
+Value=34;Cement|ЦЕМЕНТ|ЦЕМЕНТ
+Value=35;Carpet|КОВРОВОЕ ПОКРЫТИЕ|КОВРОВОЕ ПОКРЫТИЕ
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Main roof material
@@ -2657,23 +2652,23 @@ DataType=Numeric
 [ValueSet]
 Label=Main roof material
 Name=QH153_VS1
-Value=10;---NATURAL ROOFING---|---КРЫША ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---
-Value=11;No roof|НЕТ КРЫШИ
-Value=12;Straw|СОЛОМА
-Value=13;Sod|ДЕРН
-Value=14;Earth/mud|ЗЕМЛЯ/ГЛИНА
-Value=20;---RUDIMENTARY ROOFING---|---ПРОСТЕЙШАЯ КРЫША---
-Value=23;Wood planks|ДОЩАТАЯ
-Value=24;Cardboard|КАРТОН
-Value=30;---FINISHED ROOFING---|---ОТДЕЛАННАЯ КРЫША---
-Value=31;Metal|МЕТАЛЛ
-Value=32;Wood|ДЕРЕВО
-Value=33;Shiffer/cement fiber/asbest|ШИФЕР/ФИБРОЦЕМЕНТ/АСБЕСТ
-Value=34;Ceramic tiles|КЕРАМИЧЕСКИЕ ПЛИТКИ
-Value=35;Cement|ЦЕМЕНТ
-Value=36;Roofing shingles|КРОВЕЛЬНАЯ ЧЕРЕПИЦА МЯГКАЯ
-Value=37;Tol/ruberoid|ТОЛЬ(РУБЕРОИД)
-Value=96;Other|ДРУГОЕ
+Value=10;---NATURAL ROOFING---|---КРЫША ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---|---КРЫША ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---
+Value=11;No roof|НЕТ КРЫШИ|НЕТ КРЫШИ
+Value=12;Straw|СОЛОМА|СОЛОМА
+Value=13;Sod|ДЕРН|ДЕРН
+Value=14;Earth/mud|ЗЕМЛЯ/ГЛИНА|ЗЕМЛЯ/ГЛИНА
+Value=20;---RUDIMENTARY ROOFING---|---ПРОСТЕЙШАЯ КРЫША---|---ПРОСТЕЙШАЯ КРЫША---
+Value=23;Wood planks|ДОЩАТАЯ|ДОЩАТАЯ
+Value=24;Cardboard|КАРТОН|КАРТОН
+Value=30;---FINISHED ROOFING---|---ОТДЕЛАННАЯ КРЫША---|---ОТДЕЛАННАЯ КРЫША---
+Value=31;Metal|МЕТАЛЛ|МЕТАЛЛ
+Value=32;Wood|ДЕРЕВО|ДЕРЕВО
+Value=33;Shiffer/cement fiber/asbest|ШИФЕР/ФИБРОЦЕМЕНТ/АСБЕСТ|ШИФЕР/ФИБРОЦЕМЕНТ/АСБЕСТ
+Value=34;Ceramic tiles|КЕРАМИЧЕСКИЕ ПЛИТКИ|КЕРАМИЧЕСКИЕ ПЛИТКИ
+Value=35;Cement|ЦЕМЕНТ|ЦЕМЕНТ
+Value=36;Roofing shingles|КРОВЕЛЬНАЯ ЧЕРЕПИЦА МЯГКАЯ|КРОВЕЛЬНАЯ ЧЕРЕПИЦА МЯГКАЯ
+Value=37;Tol/ruberoid|ТОЛЬ(РУБЕРОИД)|ТОЛЬ(РУБЕРОИД)
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Main wall material
@@ -2685,24 +2680,24 @@ DataType=Numeric
 [ValueSet]
 Label=Main wall material
 Name=QH154_VS1
-Value=10;---NATURAL WALLS---|---СТЕНЫ ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---
-Value=11;No walls|НЕТ СТЕН
-Value=12;Trunks|СТВОЛЫ
-Value=13;Dirt|ЗЕМЛЯ
-Value=20;---RUDIMENTARY WALLS---|---ПРОСТЕЙШИЕ СТЕНЫ---
-Value=22;Stone with mud|КАМНИ С ГЛИНОЙ
-Value=23;Uncovered adobe|НЕОШТУКАТУРЕННЫЙ САМАН
-Value=24;Plywood|ФАНЕРА
-Value=25;Cardboard|КАРТОН
-Value=26;Reused wood|ПОВТОРНО ИСПОЛЬЗОВАННАЯ ДРЕВЕСИНА
-Value=30;---FINISHED WALLS---|---ОТДЕЛАННЫЕ СТЕНЫ---
-Value=31;Cement|ЦЕМЕНТ МОНОЛИТ
-Value=32;Stone with lime/cement|КАМНИ С ИЗВЕСТЬЮ/ЦЕМЕНТОМ
-Value=33;Bricks|КИРПИЧИ
-Value=34;Cement blocks|ЦЕМЕНТНЫЕ БЛОКИ
-Value=35;Covered adobe|ОШТУКАТУРЕННЫЙ САМАН
-Value=36;Wood planks/shingles|ДЕРЕВЯННЫЕ ДОСКИ/ЧЕРЕПИЦА
-Value=96;Other|ДРУГОЕ
+Value=10;---NATURAL WALLS---|---СТЕНЫ ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---|---СТЕНЫ ИЗ ПРИРОДНЫХ МАТЕРИАЛОВ---
+Value=11;No walls|НЕТ СТЕН|НЕТ СТЕН
+Value=12;Trunks|СТВОЛЫ|СТВОЛЫ
+Value=13;Dirt|ЗЕМЛЯ|ЗЕМЛЯ
+Value=20;---RUDIMENTARY WALLS---|---ПРОСТЕЙШИЕ СТЕНЫ---|---ПРОСТЕЙШИЕ СТЕНЫ---
+Value=22;Stone with mud|КАМНИ С ГЛИНОЙ|КАМНИ С ГЛИНОЙ
+Value=23;Uncovered adobe|НЕОШТУКАТУРЕННЫЙ САМАН|НЕОШТУКАТУРЕННЫЙ САМАН
+Value=24;Plywood|ФАНЕРА|ФАНЕРА
+Value=25;Cardboard|КАРТОН|КАРТОН
+Value=26;Reused wood|ПОВТОРНО ИСПОЛЬЗОВАННАЯ ДРЕВЕСИНА|ПОВТОРНО ИСПОЛЬЗОВАННАЯ ДРЕВЕСИНА
+Value=30;---FINISHED WALLS---|---ОТДЕЛАННЫЕ СТЕНЫ---|---ОТДЕЛАННЫЕ СТЕНЫ---
+Value=31;Cement|ЦЕМЕНТ МОНОЛИТ|ЦЕМЕНТ МОНОЛИТ
+Value=32;Stone with lime/cement|КАМНИ С ИЗВЕСТЬЮ/ЦЕМЕНТОМ|КАМНИ С ИЗВЕСТЬЮ/ЦЕМЕНТОМ
+Value=33;Bricks|КИРПИЧИ|КИРПИЧИ
+Value=34;Cement blocks|ЦЕМЕНТНЫЕ БЛОКИ|ЦЕМЕНТНЫЕ БЛОКИ
+Value=35;Covered adobe|ОШТУКАТУРЕННЫЙ САМАН|ОШТУКАТУРЕННЫЙ САМАН
+Value=36;Wood planks/shingles|ДЕРЕВЯННЫЕ ДОСКИ/ЧЕРЕПИЦА|ДЕРЕВЯННЫЕ ДОСКИ/ЧЕРЕПИЦА
+Value=96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Test salt for iodine
@@ -2714,14 +2709,14 @@ DataType=Numeric
 [ValueSet]
 Label=Test salt for iodine
 Name=QH155_VS1
-Value=1;Iodine present|ЙОД ЕСТЬ
-Value=2;No iodine|ЙОДА НЕТ
-Value=3;No salt in household|ДОМОХОЗЯЙСТВО ИСПОЛЬЗУЕТ СОЛЬ, НО СОЛИ НЕТ В ДОМОХОЗЯЙСТВЕ
-Value=4;Household doesn't use salt|ДОМОХОЗЯЙСТВО НЕ ИСПОЛЬЗУЕТ СОЛЬ
-Value=6;Salt not tested|СОЛЬ НЕ ТЕСТИРОВАНА
+Value=1;Iodine present|ЙОД ЕСТЬ|ЙОД ЕСТЬ
+Value=2;No iodine|ЙОДА НЕТ|ЙОДА НЕТ
+Value=3;No salt in household|ДОМОХОЗЯЙСТВО ИСПОЛЬЗУЕТ СОЛЬ, НО СОЛИ НЕТ В ДОМОХОЗЯЙСТВЕ|ДОМОХОЗЯЙСТВО ИСПОЛЬЗУЕТ СОЛЬ, НО СОЛИ НЕТ В ДОМОХОЗЯЙСТВЕ
+Value=4;Household doesn't use salt|ДОМОХОЗЯЙСТВО НЕ ИСПОЛЬЗУЕТ СОЛЬ|ДОМОХОЗЯЙСТВО НЕ ИСПОЛЬЗУЕТ СОЛЬ
+Value=6;Salt not tested|СОЛЬ НЕ ТЕСТИРОВАНА|СОЛЬ НЕ ТЕСТИРОВАНА
 
 [Record]
-Label=Child discipline|Детская дисциплина
+Label=Child discipline
 Name=QHSECCD
 RecordTypeValue='HCD'
 Required=No
@@ -2894,7 +2889,7 @@ Label=Child should be punished to bring him/her up, raise or educate
 Name=QCDI4_VS1
 Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
-Value=8;Don't know/no opinion|НЕ ИМЕЕТ МНЕНИЯ
+Value=8;Don't know/no opinion|НЕ ИМЕЕТ МНЕНИЯ|НЕ ИМЕЕТ МНЕНИЯ
 
 [Item]
 Label=Child disciplone sample weight (6 decimals)
@@ -2918,7 +2913,7 @@ Len=1
 DataType=Alpha
 
 [Record]
-Label=Biomarker Identification|Идентификация биомаркеров
+Label=Biomarker Identification
 Name=QBSECOVER
 RecordTypeValue='B00'
 Required=No
@@ -2955,18 +2950,18 @@ DataType=Numeric
 [ValueSet]
 Label=Month of household interview
 Name=QBINTM_VS1
-Value=1;January|Январь
-Value=2;February|Февраль
-Value=3;March|Март
-Value=4;April|Апрель
-Value=5;May|Май
-Value=6;June|Июнь
-Value=7;July|Июль
-Value=8;August|Август
-Value=9;September|Сентябрь
-Value=10;October|Октябрь
-Value=11;November|Ноябрь
-Value=12;December|Декабрь
+Value=1;January|Январь|Январь
+Value=2;February|Февраль|Февраль
+Value=3;March|Март|Март
+Value=4;April|Апрель|Апрель
+Value=5;May|Май|Май
+Value=6;June|Июнь|Июнь
+Value=7;July|Июль|Июль
+Value=8;August|Август|Август
+Value=9;September|Сентябрь|Сентябрь
+Value=10;October|Октябрь|Октябрь
+Value=11;November|Ноябрь|Ноябрь
+Value=12;December|Декабрь|Декабрь
 
 [Item]
 Label=Year of household interview
@@ -2979,7 +2974,7 @@ DataType=Numeric
 [ValueSet]
 Label=Year of household interview
 Name=QBINTY_VS1
-Value=2020:2025
+Value=2023
 
 [Item]
 Label=Number of visits for biomarker questionnaire
@@ -3033,7 +3028,7 @@ Value='     ';Not applicable
 Name=NOTAPPL,Special
 
 [Record]
-Label=Height, Weight, Hemoglobin (children)|Рост, Вес, Гемоглобин (дети)
+Label=Height, Weight, Hemoglobin (children)
 Name=QBSEC01
 RecordTypeValue='B01'
 Required=No
@@ -3096,19 +3091,19 @@ DataType=Numeric
 [ValueSet]
 Label=Month of birth
 Name=QB103M_VS1
-Value=1;January|Январь
-Value=2;February|Февраль
-Value=3;March|Март
-Value=4;April|Апрель
-Value=5;May|Май
-Value=6;June|Июнь
-Value=7;July|Июль
-Value=8;August|Август
-Value=9;September|Сентябрь
-Value=10;October|Октябрь
-Value=11;November|Ноябрь
-Value=12;December|Декабрь
-Value=98;Don’t know month|НЕ ЗНАЮ
+Value=1;January|Январь|Январь
+Value=2;February|Февраль|Февраль
+Value=3;March|Март|Март
+Value=4;April|Апрель|Апрель
+Value=5;May|Май|Май
+Value=6;June|Июнь|Июнь
+Value=7;July|Июль|Июль
+Value=8;August|Август|Август
+Value=9;September|Сентябрь|Сентябрь
+Value=10;October|Октябрь|Октябрь
+Value=11;November|Ноябрь|Ноябрь
+Value=12;December|Декабрь|Декабрь
+Value=98;Don’t know month|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Year of birth
@@ -3121,13 +3116,13 @@ DataType=Numeric
 [ValueSet]
 Label=Year of birth
 Name=QB103Y_VS1
-Value=2018;2018|2018
-Value=2019;2019|2019
-Value=2020;2020|2020
-Value=2021;2021|2021
-Value=2022;2022|2022
-Value=2023;2023|2023
-Value=9998;Don’t know year|Не знаю год
+Value=2018;2018|2018|2018
+Value=2019;2019|2019|2019
+Value=2020;2020|2020|2020
+Value=2021;2021|2021|2021
+Value=2022;2022|2022|2022
+Value=2023;2023|2023|2023
+Value=9998;Don’t know year|Не знаю год|Не знаю год
 
 [Item]
 Label=Age of child
@@ -3154,9 +3149,9 @@ DecimalChar=Yes
 Label=Weight in kilograms
 Name=QB106_VS1
 Value=0.50:40.00
-Value=99.94;Not present|ОТСУТСТВУЕТ
-Value=99.95;Refused|ОТКАЗАНО
-Value=99.96;Other|ДРУГОЕ
+Value=99.94;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.95;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Weight in kilograms - working field for re-entering
@@ -3171,9 +3166,9 @@ DecimalChar=Yes
 Label=Weight in kilograms - working field for re-entering
 Name=QB106W_VS1
 Value=0.50:40.00
-Value=99.94;Not present|ОТСУТСТВУЕТ
-Value=99.95;Refused|ОТКАЗАНО
-Value=99.96;Other|ДРУГОЕ
+Value=99.94;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.95;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Child minimally dressed
@@ -3201,9 +3196,9 @@ DecimalChar=Yes
 Label=Height in centimeters
 Name=QB108_VS1
 Value=20.0:140.0
-Value=999.4;Not present|ОТСУТСТВУЕТ
-Value=999.5;Refused|ОТКАЗАНО
-Value=999.6;Other|ДРУГОЕ
+Value=999.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Height in centimeters - working field for re-entering
@@ -3218,9 +3213,9 @@ DecimalChar=Yes
 Label=Height in centimeters - working field for re-entering
 Name=QB108W_VS1
 Value=20.0:140.0
-Value=999.4;Not present|ОТСУТСТВУЕТ
-Value=999.5;Refused|ОТКАЗАНО
-Value=999.6;Other|ДРУГОЕ
+Value=999.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Height: lying or standing
@@ -3232,8 +3227,8 @@ DataType=Numeric
 [ValueSet]
 Label=Height: lying or standing
 Name=QB109_VS1
-Value=1;Lying|ЛЕЖА
-Value=2;Standing|СТОЯ
+Value=1;Lying|ЛЕЖА|ЛЕЖА
+Value=2;Standing|СТОЯ|СТОЯ
 
 [Item]
 Label=Correct measurement procedure used
@@ -3313,19 +3308,19 @@ DataType=Numeric
 [ValueSet]
 Label=Month of measurement
 Name=QB115M_VS1
-Value=1;January|Январь
-Value=2;February|Февраль
-Value=3;March|Март
-Value=4;April|Апрель
-Value=5;May|Май
-Value=6;June|Июнь
-Value=7;July|Июль
-Value=8;August|Август
-Value=9;September|Сентябрь
-Value=10;October|Октябрь
-Value=11;November|Ноябрь
-Value=12;December|Декабрь
-Value=98;Don’t know month|НЕ ЗНАЮ
+Value=1;January|Январь|Январь
+Value=2;February|Февраль|Февраль
+Value=3;March|Март|Март
+Value=4;April|Апрель|Апрель
+Value=5;May|Май|Май
+Value=6;June|Июнь|Июнь
+Value=7;July|Июль|Июль
+Value=8;August|Август|Август
+Value=9;September|Сентябрь|Сентябрь
+Value=10;October|Октябрь|Октябрь
+Value=11;November|Ноябрь|Ноябрь
+Value=12;December|Декабрь|Декабрь
+Value=98;Don’t know month|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Year of measurement
@@ -3338,11 +3333,11 @@ DataType=Numeric
 [ValueSet]
 Label=Year of measurement
 Name=QB115Y_VS1
-Value=2020;2020|2020
-Value=2021;2021|2021
-Value=2022;2022|2022
-Value=2023;2023|2023
-Value=2024;2024|2024
+Value=2020;2020|2020|2020
+Value=2021;2021|2021|2021
+Value=2022;2022|2022|2022
+Value=2023;2023|2023|2023
+Value=2024;2024|2024|2024
 
 [Item]
 Label=Line no. of parent/caretaker
@@ -3354,7 +3349,7 @@ DataType=Numeric
 [ValueSet]
 Label=Line no. of parent/caretaker
 Name=QB118_VS1
-Value=0;Not listed in household|Не указан в домашнем хозяйстве
+Value=0;Not listed in household|Не указан в домашнем хозяйстве|Не указан в домашнем хозяйстве
 Value=1:50
 
 [Item]
@@ -3367,9 +3362,9 @@ DataType=Numeric
 [ValueSet]
 Label=Read consent statement
 Name=QB120_VS1
-Value=1;Granted|РАЗРЕШЕНО
-Value=2;Refused|ОТКАЗАНО
-Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ
+Value=1;Granted|РАЗРЕШЕНО|РАЗРЕШЕНО
+Value=2;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ|ОТСУТСТВУЕТ/ДРУГОЕ
 
 [Item]
 Label=Fieldworker number for hemoglobin
@@ -3391,9 +3386,9 @@ DecimalChar=Yes
 Label=Hemoglobin level (g/dl)
 Name=QB122_VS1
 Value=2.0:26.0
-Value=99.4;Not present|ОТСУТСТВУЕТ
-Value=99.5;Refused|ОТКАЗАНО
-Value=99.6;Other|ДРУГОЕ
+Value=99.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Hemoglobin level (g/dl) - working field for re-entering
@@ -3408,9 +3403,9 @@ DecimalChar=Yes
 Label=Hemoglobin level (g/dl) - working field for re-entering
 Name=QB122W_VS1
 Value=2.0:26.0
-Value=99.4;Not present|ОТСУТСТВУЕТ
-Value=99.5;Refused|ОТКАЗАНО
-Value=99.6;Other|ДРУГОЕ
+Value=99.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Hemoglobin result for referral
@@ -3422,8 +3417,8 @@ DataType=Numeric
 [ValueSet]
 Label=Hemoglobin result for referral
 Name=QB123_VS1
-Value=1;Below (8.0 g/dl) severe anemia|НИЖЕ 8.0 G/DL, ТЯЖЕЛАЯ АНЕМИЯ
-Value=2;(8.0 g/dl) or above|8.0 G/DL ИЛИ ВЫШЕ
+Value=1;Below (8.0 g/dl) severe anemia|НИЖЕ 8.0 G/DL, ТЯЖЕЛАЯ АНЕМИЯ|НИЖЕ 8.0 G/DL, ТЯЖЕЛАЯ АНЕМИЯ
+Value=2;(8.0 g/dl) or above|8.0 G/DL ИЛИ ВЫШЕ|8.0 G/DL ИЛИ ВЫШЕ
 
 [Item]
 Label=Remeasure - Reason
@@ -3435,9 +3430,9 @@ DataType=Numeric
 [ValueSet]
 Label=Remeasure - Reason
 Name=QBRTYPE_VS1
-Value=1;Random|Случайный
-Value=2;Z-Scores|Z-баллы
-Value=3;Both|Оба
+Value=1;Random|Случайный|Случайный
+Value=2;Z-Scores|Z-баллы|Z-баллы
+Value=3;Both|Оба|Оба
 
 [Item]
 Label=Remeasure - Weight in kilograms
@@ -3452,9 +3447,9 @@ DecimalChar=Yes
 Label=Remeasure - Weight in kilograms
 Name=QBWEIGHT_VS1
 Value=0.50:40.00
-Value=99.94;Not present|ОТСУТСТВУЕТ
-Value=99.95;Refused|ОТКАЗАНО
-Value=99.96;Other|ДРУГОЕ
+Value=99.94;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.95;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Remeasure - Height in centimeters
@@ -3469,9 +3464,9 @@ DecimalChar=Yes
 Label=Remeasure - Height in centimeters
 Name=QBHEIGHT_VS1
 Value=20.0:140.0
-Value=999.4;Not present|ОТСУТСТВУЕТ
-Value=999.5;Refused|ОТКАЗАНО
-Value=999.6;Other|ДРУГОЕ
+Value=999.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Remeasure - Height: lying or standing
@@ -3483,8 +3478,8 @@ DataType=Numeric
 [ValueSet]
 Label=Remeasure - Height: lying or standing
 Name=QBLYNSTN_VS1
-Value=1;Lying|ЛЕЖА
-Value=2;Standing|СТОЯ
+Value=1;Lying|ЛЕЖА|ЛЕЖА
+Value=2;Standing|СТОЯ|СТОЯ
 
 [Item]
 Label=Day of remeasure
@@ -3508,19 +3503,19 @@ DataType=Numeric
 [ValueSet]
 Label=Month of remeasure
 Name=QBRMONTH_VS1
-Value=1;January|Январь
-Value=2;February|Февраль
-Value=3;March|Март
-Value=4;April|Апрель
-Value=5;May|Май
-Value=6;June|Июнь
-Value=7;July|Июль
-Value=8;August|Август
-Value=9;September|Сентябрь
-Value=10;October|Октябрь
-Value=11;November|Ноябрь
-Value=12;December|Декабрь
-Value=98;Don’t know month|НЕ ЗНАЮ
+Value=1;January|Январь|Январь
+Value=2;February|Февраль|Февраль
+Value=3;March|Март|Март
+Value=4;April|Апрель|Апрель
+Value=5;May|Май|Май
+Value=6;June|Июнь|Июнь
+Value=7;July|Июль|Июль
+Value=8;August|Август|Август
+Value=9;September|Сентябрь|Сентябрь
+Value=10;October|Октябрь|Октябрь
+Value=11;November|Ноябрь|Ноябрь
+Value=12;December|Декабрь|Декабрь
+Value=98;Don’t know month|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Item]
 Label=Year of remeasure
@@ -3532,11 +3527,11 @@ DataType=Numeric
 [ValueSet]
 Label=Year of remeasure
 Name=QBRYEAR_VS1
-Value=2020;2020|2020
-Value=2021;2021|2021
-Value=2022;2022|2022
-Value=2023;2023|2023
-Value=2024;2024|2024
+Value=2020;2020|2020|2020
+Value=2021;2021|2021|2021
+Value=2022;2022|2022|2022
+Value=2023;2023|2023|2023
+Value=2024;2024|2024|2024
 
 [Item]
 Label=Fieldworker for H/W remeasure
@@ -3808,7 +3803,7 @@ Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
 
 [Record]
-Label=Height, Weight, Hemoglobin (women)|Рост, Вес, Гемоглобин (женщины)
+Label=Height, Weight, Hemoglobin (women)
 Name=QBSEC02
 RecordTypeValue='B02'
 Required=No
@@ -3837,7 +3832,7 @@ DataType=Numeric
 [ValueSet]
 Label=Line number in household schedule
 Name=QB202_VS1
-Value=1;Head of household|Шеф-повар
+Value=1;Head of household|Шеф-повар|Шеф-повар
 Value=2:50
 
 [Item]
@@ -3850,8 +3845,8 @@ DataType=Numeric
 [ValueSet]
 Label=Under age 18
 Name=QB203_VS1
-Value=1;15-17 years|15-17 ЛЕТ
-Value=2;18-49 years|18-49 ЛЕТ
+Value=1;15-17 years|15-17 ЛЕТ|15-17 ЛЕТ
+Value=2;18-49 years|18-49 ЛЕТ|18-49 ЛЕТ
 
 [Item]
 Label=Marital status
@@ -3863,8 +3858,8 @@ DataType=Numeric
 [ValueSet]
 Label=Marital status
 Name=QB204_VS1
-Value=1;Never in union|НИКОГДА НЕ БЫЛА В СОЮЗЕ
-Value=2;Other|ДРУГОЕ
+Value=1;Never in union|НИКОГДА НЕ БЫЛА В СОЮЗЕ|НИКОГДА НЕ БЫЛА В СОЮЗЕ
+Value=2;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Weight in kilograms
@@ -3879,9 +3874,9 @@ DecimalChar=Yes
 Label=Weight in kilograms
 Name=QB205_VS1
 Value=15.00:220.00
-Value=999.94;Not present|ОТСУТСТВУЕТ
-Value=999.95;Refused|ОТКАЗАНО
-Value=999.96;Other|ДРУГОЕ
+Value=999.94;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.95;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Weight in kilograms - working field for re-entering
@@ -3896,9 +3891,9 @@ DecimalChar=Yes
 Label=Weight in kilograms - working field for re-entering
 Name=QB205W_VS1
 Value=15.00:220.00
-Value=999.94;Not present|ОТСУТСТВУЕТ
-Value=999.95;Refused|ОТКАЗАНО
-Value=999.96;Other|ДРУГОЕ
+Value=999.94;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.95;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.96;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Was woman wearing only lightweight clothing
@@ -3926,9 +3921,9 @@ DecimalChar=Yes
 Label=Height in centimeters
 Name=QB207_VS1
 Value=80.0:240.0
-Value=999.4;Not present|ОТСУТСТВУЕТ
-Value=999.5;Refused|ОТКАЗАНО
-Value=999.6;Other|ДРУГОЕ
+Value=999.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Height in centimeters - working field for re-entering
@@ -3943,9 +3938,9 @@ DecimalChar=Yes
 Label=Height in centimeters - working field for re-entering
 Name=QB207W_VS1
 Value=80.0:240.0
-Value=999.4;Not present|ОТСУТСТВУЕТ
-Value=999.5;Refused|ОТКАЗАНО
-Value=999.6;Other|ДРУГОЕ
+Value=999.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Measurement interfered with braided or ornament
@@ -4005,18 +4000,18 @@ DataType=Numeric
 [ValueSet]
 Label=Month of measurement
 Name=QB211M_VS1
-Value=1;January|Январь
-Value=2;February|Февраль
-Value=3;March|Март
-Value=4;April|Апрель
-Value=5;May|Май
-Value=6;June|Июнь
-Value=7;July|Июль
-Value=8;August|Август
-Value=9;September|Сентябрь
-Value=10;October|Октябрь
-Value=11;November|Ноябрь
-Value=12;December|Декабрь
+Value=1;January|Январь|Январь
+Value=2;February|Февраль|Февраль
+Value=3;March|Март|Март
+Value=4;April|Апрель|Апрель
+Value=5;May|Май|Май
+Value=6;June|Июнь|Июнь
+Value=7;July|Июль|Июль
+Value=8;August|Август|Август
+Value=9;September|Сентябрь|Сентябрь
+Value=10;October|Октябрь|Октябрь
+Value=11;November|Ноябрь|Ноябрь
+Value=12;December|Декабрь|Декабрь
 
 [Item]
 Label=Year of measurement
@@ -4029,12 +4024,12 @@ DataType=Numeric
 [ValueSet]
 Label=Year of measurement
 Name=QB211Y_VS1
-Value=2020;2020|2020
-Value=2021;2021|2021
-Value=2022;2022|2022
-Value=2023;2023|2023
-Value=2024;2024|2024
-Value=2025;2025|2025
+Value=2020;2020|2020|2020
+Value=2021;2021|2021|2021
+Value=2022;2022|2022|2022
+Value=2023;2023|2023|2023
+Value=2024;2024|2024|2024
+Value=2025;2025|2025|2025
 
 [Item]
 Label=Read consent statement to respondent (Anemia)
@@ -4046,9 +4041,9 @@ DataType=Numeric
 [ValueSet]
 Label=Read consent statement to respondent (Anemia)
 Name=QB215_VS1
-Value=1;Granted|РАЗРЕШЕНО
-Value=2;Respondent refused|ОТКАЗАНО
-Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ
+Value=1;Granted|РАЗРЕШЕНО|РАЗРЕШЕНО
+Value=2;Respondent refused|ОТКАЗАНО|ОТКАЗАНО
+Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ|ОТСУТСТВУЕТ/ДРУГОЕ
 
 [Item]
 Label=Fieldworker number for hemoglobin
@@ -4067,7 +4062,7 @@ DataType=Numeric
 [ValueSet]
 Label=Line no. of parent/caretaker
 Name=QB217_VS1
-Value=0;Not listed in household|Не указан в домашнем хозяйстве
+Value=0;Not listed in household|Не указан в домашнем хозяйстве|Не указан в домашнем хозяйстве
 Value=1:50
 
 [Item]
@@ -4080,9 +4075,9 @@ DataType=Numeric
 [ValueSet]
 Label=Read consent statement to parent/caretaker (Anemia)
 Name=QB219_VS1
-Value=1;Granted|РАЗРЕШЕНО
-Value=2;Parent/Other responsible adult refused|РОДИТЕЛЬ/ОТВЕТСТВЕННЫЙ ВЗРОСЛЫЙ ОТКАЗАЛ
-Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ
+Value=1;Granted|РАЗРЕШЕНО|РАЗРЕШЕНО
+Value=2;Parent/Other responsible adult refused|РОДИТЕЛЬ/ОТВЕТСТВЕННЫЙ ВЗРОСЛЫЙ ОТКАЗАЛ|РОДИТЕЛЬ/ОТВЕТСТВЕННЫЙ ВЗРОСЛЫЙ ОТКАЗАЛ
+Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ|ОТСУТСТВУЕТ/ДРУГОЕ
 
 [Item]
 Label=Fieldworker number for hemoglobin
@@ -4101,9 +4096,9 @@ DataType=Numeric
 [ValueSet]
 Label=Read consent statement to respondent (Anemia)
 Name=QB223_VS1
-Value=1;Granted|РАЗРЕШЕНО
-Value=2;Minor respondent refused|НЕСОВЕРШЕННОЛЕТНИЙ РЕСПОНДЕНТ ОТКАЗАЛСЯ
-Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ
+Value=1;Granted|РАЗРЕШЕНО|РАЗРЕШЕНО
+Value=2;Minor respondent refused|НЕСОВЕРШЕННОЛЕТНИЙ РЕСПОНДЕНТ ОТКАЗАЛСЯ|НЕСОВЕРШЕННОЛЕТНИЙ РЕСПОНДЕНТ ОТКАЗАЛСЯ
+Value=3;Not present/other|ОТСУТСТВУЕТ/ДРУГОЕ|ОТСУТСТВУЕТ/ДРУГОЕ
 
 [Item]
 Label=Fieldworker number for hemoglobin
@@ -4125,9 +4120,9 @@ DecimalChar=Yes
 Label=Hemoglobin level (g/dl)
 Name=QB225_VS1
 Value=2.0:26.0
-Value=99.4;Not present|ОТСУТСТВУЕТ
-Value=99.5;Refused|ОТКАЗАНО
-Value=99.6;Other|ДРУГОЕ
+Value=99.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Hemoglobin level (g/dl) - working field for re-entering
@@ -4142,9 +4137,9 @@ DecimalChar=Yes
 Label=Hemoglobin level (g/dl) - working field for re-entering
 Name=QB225W_VS1
 Value=2.0:26.0
-Value=99.4;Not present|ОТСУТСТВУЕТ
-Value=99.5;Refused|ОТКАЗАНО
-Value=99.6;Other|ДРУГОЕ
+Value=99.4;Not present|ОТСУТСТВУЕТ|ОТСУТСТВУЕТ
+Value=99.5;Refused|ОТКАЗАНО|ОТКАЗАНО
+Value=99.6;Other|ДРУГОЕ|ДРУГОЕ
 
 [Item]
 Label=Hemoglobin result for referral
@@ -4156,8 +4151,8 @@ DataType=Numeric
 [ValueSet]
 Label=Hemoglobin result for referral
 Name=QB226_VS1
-Value=1;Below (8.0 g/dl) severe anemia|НИЖЕ 8.0 G/DL, ТЯЖЕЛАЯ АНЕМИЯ
-Value=2;(8.0 g/dl) or above|8.0 G/DL ИЛИ ВЫШЕ
+Value=1;Below (8.0 g/dl) severe anemia|НИЖЕ 8.0 G/DL, ТЯЖЕЛАЯ АНЕМИЯ|НИЖЕ 8.0 G/DL, ТЯЖЕЛАЯ АНЕМИЯ
+Value=2;(8.0 g/dl) or above|8.0 G/DL ИЛИ ВЫШЕ|8.0 G/DL ИЛИ ВЫШЕ
 
 [Item]
 Label=CMC of birth of woman

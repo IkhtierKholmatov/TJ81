@@ -225,7 +225,7 @@
       endif;
       // errmsg( 072, backup );
     else
-      errmsg( 071, backup );
+      //errmsg( 071, backup );
     endif;
   end;
   { this function will be used when the supervisor collects data to move }
@@ -1387,15 +1387,12 @@ PreProc
     // FileDelete(PathName(Application) + "*.pff");
     
     { set up backup folder }
-    if !isAndroid  then
-      backup = "E:\DATA";                              { drive and directory to backup data }
+    if isAndroid  then
+      backup = wrkpii + "/CSPRO_BACKUP"; { !! }
     else
-      backup = "/storage/emulated/0/Documents/CSPRO_BACKUP"; { !! }
-      if !DirExist(backup) then
-        x = dircreate(backup);
-        errmsg(tr("Data will be backed up to %s"), backup);
-      endif;
+      backup = "D:\DATA";                              { drive and directory to backup data }
     endif;
+    chkdir(backup);
 
     { file names for upgrades }
     upgrname = "upgdhs";              { upgrade namess coming from supervisor machine }
