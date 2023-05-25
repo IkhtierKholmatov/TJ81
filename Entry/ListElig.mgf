@@ -3,7 +3,7 @@ Language = RU
 99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
 
 { strings commonly used by application }
-  RU ( "Eligible Individuals in Cluster: %04d Household: %04d %s %s in Sub Location %s" ) Соответствующие критериям лица в кластере: %04d Домохозяйство: %04d %s %s в подразделении %s
+  RU ( "Eligible Individuals in Cluster: %04d Household: %04d %s %s in Sub Location %s" ) Соответствующие критериям лица в кластере: %04d Домохозяйство: %04d %s %s в %s
   RU ( "Eligible Individuals in Cluster: %04d Household: %04d %s" ) Соответствующие критериям лица в кластере: %04d Домохозяйство: %04d
   RU ( "Women/men eligible for individual interview" ) Женщины/мужчины, имеющие право на индивидуальное интервью
   RU ( "Children eligible for biomarkers" ) Дети, подходящие для биомаркеров

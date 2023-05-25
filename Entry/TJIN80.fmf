@@ -228,7 +228,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000
-Position=13,384,949,404
+Position=13,384,1021,411
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -236,8 +236,8 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000
-Position=11,406,947,426
-Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
+Position=11,406,1019,433
+Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
  
@@ -278,7 +278,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000000
-Position=4,313,940,333
+Position=4,313,1012,340
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -286,8 +286,8 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000000
-Position=3,336,939,356
-Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
+Position=3,336,1011,363
+Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
  
@@ -345,7 +345,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000002
-Position=7,279,943,299
+Position=7,279,1015,306
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -353,8 +353,8 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000002
-Position=7,305,943,325
-Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
+Position=7,305,1015,332
+Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
  
@@ -383,7 +383,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000001
-Position=2,352,938,372
+Position=2,352,1010,379
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -391,15 +391,15 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000001
-Position=2,374,938,394
-Text=DNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJDNOSAJJMAMFJ
+Position=2,374,1010,401
+Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
  
   
 [Text]
 Name=TEXT9
-Position=7,509,943,529
+Position=7,509,1015,536
 Text=123456789012345678901234567890123456789012345678901234567890123456789012
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -407,7 +407,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT10
-Position=5,482,941,502
+Position=5,482,1013,509
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -458,7 +458,7 @@ Name=AWFORM04
 Label=Prenatal and postnatal care
 QuestionTextHeight=223
 Level=1
-Size=1110,2275
+Size=1048,2270
   
 Item=Q403
 Item=QWSEC04_ROSTER
@@ -476,7 +476,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM05
 Label=Immunization and health
-QuestionTextHeight=410
+QuestionTextHeight=83
 Level=1
 Size=957,1433
   
@@ -1521,8 +1521,8 @@ DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=41,25,166,41
-Text=Consent Agreement
+Position=41,25,176,41
+Text=Получение согласия
  
 [EndGroup]
   
@@ -2774,11 +2774,11 @@ Width=10
 [EndColumn]
   
 [Column]
-Width=36
+Width=49
   
 [HeaderText]
-Position=0,0,36,24
-Text=Line
+Position=0,0,49,24
+Text=Линия
  
 [Field]
 Name=QPLINE
@@ -2789,8 +2789,7 @@ Protected=Yes
 DataCaptureType=TextBox
   
 [Text]
-Position=0,0,28,16
-Text=Line
+Text=Линия
  
 [EndColumn]
   
@@ -3378,8 +3377,8 @@ DataCaptureType=CheckBox
 Form=7
   
 [Text]
-Position=165,522,328,538
-Text=To capture other methods
+Position=165,522,264,538
+Text=Другие методы
  
 [EndGroup]
   
@@ -4256,10 +4255,10 @@ Required=No
 Type=Record
 TypeName=QWSEC04
 Max=6
-DisplaySize=83,50,1085,2250
+DisplaySize=21,45,1023,2245
 Orientation=Vertical
 ColumnWidth=269
-StubColumnWidth=108
+StubColumnWidth=59
 HeadingRowHeight=0
 FreeMovement=No
  
@@ -4307,7 +4306,7 @@ Width=10
 Width=28
   
 [HeaderText]
-Position=49,4,108,28
+Position=0,4,59,28
 Text=QCOL41
  
 [Field]
@@ -4329,7 +4328,7 @@ Text=QCOL41
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q404
  
 [Field]
@@ -4351,7 +4350,7 @@ Text=Q404
 Width=28
   
 [HeaderText]
-Position=60,0,108,28
+Position=0,0,59,28
 Text=Q404A
 VerticalAlignment=Middle
  
@@ -4372,7 +4371,7 @@ VerticalAlignment=Middle
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q405
  
 [Field]
@@ -4394,7 +4393,7 @@ Text=Q405
 Width=29
   
 [HeaderText]
-Position=50,0,108,29
+Position=0,0,59,29
 Text=Q406
  
 [Field]
@@ -4442,7 +4441,7 @@ Text=Q406Y
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q407
  
 [Field]
@@ -4464,7 +4463,7 @@ Text=Q407
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q408
  
 [Field]
@@ -4484,7 +4483,7 @@ Text=Q408
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q409
  
 [Field]
@@ -4504,7 +4503,7 @@ Text=Q409
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q410
  
 [Field]
@@ -4535,7 +4534,7 @@ Text=Q410U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q411
  
 [Field]
@@ -4557,7 +4556,7 @@ Text=Q411
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q412
  
 [Field]
@@ -4577,7 +4576,7 @@ Text=Q412
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q414
  
 [Field]
@@ -4597,7 +4596,7 @@ Text=Q414
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q415
  
 [Field]
@@ -4618,7 +4617,7 @@ Text=Q415
 Width=28
   
 [HeaderText]
-Position=50,0,108,28
+Position=0,0,59,28
 Text=Q416
 VerticalAlignment=Middle
  
@@ -4650,7 +4649,7 @@ Text=Q416U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q417
  
 [Field]
@@ -4705,7 +4704,7 @@ Text=а) Кровяное давление
  
   
 [HeaderText]
-Position=69,0,108,177
+Position=0,0,59,177
 Text=Q418
 VerticalAlignment=Middle
  
@@ -4792,7 +4791,7 @@ Text=Q418G
 Width=28
   
 [HeaderText]
-Position=60,0,108,28
+Position=0,0,59,28
 Text=Q426A
 VerticalAlignment=Middle
  
@@ -4813,7 +4812,7 @@ VerticalAlignment=Middle
 Width=28
   
 [HeaderText]
-Position=60,0,108,28
+Position=0,0,59,28
 Text=Q426B
 VerticalAlignment=Middle
  
@@ -4834,7 +4833,7 @@ VerticalAlignment=Middle
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q426
  
 [Field]
@@ -4854,7 +4853,7 @@ Text=Q426
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q427
  
 [Field]
@@ -4875,7 +4874,7 @@ Text=Q427
 Width=28
   
 [HeaderText]
-Position=50,0,108,28
+Position=0,0,59,28
 Text=Q428
  
 [Field]
@@ -4895,7 +4894,7 @@ Text=Q428
 Width=30
   
 [HeaderText]
-Position=60,0,108,30
+Position=0,0,59,30
 Text=Q430A
 VerticalAlignment=Middle
  
@@ -4916,7 +4915,7 @@ VerticalAlignment=Middle
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q430
  
 [Field]
@@ -4936,7 +4935,7 @@ Text=Q430
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q434
  
 [Field]
@@ -4957,7 +4956,7 @@ Text=Q434
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q435
  
 [Field]
@@ -4977,7 +4976,7 @@ Text=Q435
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q436
  
 [Field]
@@ -4997,7 +4996,7 @@ Text=Q436
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q437
  
 [Field]
@@ -5019,7 +5018,7 @@ Text=Q437
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q438
  
 [Field]
@@ -5039,7 +5038,7 @@ Text=Q438
 Width=28
   
 [HeaderText]
-Position=50,0,108,28
+Position=0,0,59,28
 Text=Q439
  
 [Field]
@@ -5059,7 +5058,7 @@ Text=Q439
 Width=28
   
 [HeaderText]
-Position=69,0,108,28
+Position=0,0,59,28
 Text=Q440
 VerticalAlignment=Middle
  
@@ -5080,7 +5079,7 @@ Text=Q440
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q441
  
 [Field]
@@ -5100,7 +5099,7 @@ Text=Q441
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q442
  
 [Field]
@@ -5120,7 +5119,7 @@ Text=Q442
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q443
  
 [Field]
@@ -5152,7 +5151,7 @@ Text=Q443U
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q447
  
 [Field]
@@ -5183,7 +5182,7 @@ Text=Q447U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q448
  
 [Field]
@@ -5203,7 +5202,7 @@ Text=Q448
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q449
  
 [Field]
@@ -5234,7 +5233,7 @@ Text=Q449U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q450
  
 [Field]
@@ -5254,7 +5253,7 @@ Text=Q450
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q452
  
 [Field]
@@ -5274,7 +5273,7 @@ Text=Q452
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q453
  
 [Field]
@@ -5305,7 +5304,7 @@ Text=Q453U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q454
  
 [Field]
@@ -5325,7 +5324,7 @@ Text=Q454
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q455
  
 [Field]
@@ -5345,7 +5344,7 @@ Text=Q455
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q456
  
 [Field]
@@ -5376,7 +5375,7 @@ Text=Q456U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q457
  
 [Field]
@@ -5396,7 +5395,7 @@ Text=Q457
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q458
  
 [Field]
@@ -5416,7 +5415,7 @@ Text=Q458
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q460
  
 [Field]
@@ -5436,7 +5435,7 @@ Text=Q460
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q461
  
 [Field]
@@ -5467,7 +5466,7 @@ Text=Q461U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q462
  
 [Field]
@@ -5487,7 +5486,7 @@ Text=Q462
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q463
  
 [Field]
@@ -5507,7 +5506,7 @@ Text=Q463
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q464
  
 [Field]
@@ -5527,7 +5526,7 @@ Text=Q464
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q465
  
 [Field]
@@ -5558,7 +5557,7 @@ Text=Q465U
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q466
  
 [Field]
@@ -5578,7 +5577,7 @@ Text=Q466
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q467
  
 [Field]
@@ -5598,7 +5597,7 @@ Text=Q467
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q469
  
 [Field]
@@ -5618,7 +5617,7 @@ Text=Q469
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q470
  
 [Field]
@@ -5649,7 +5648,7 @@ Text=Q470U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q471
  
 [Field]
@@ -5669,7 +5668,7 @@ Text=Q471
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q472
  
 [Field]
@@ -5714,7 +5713,7 @@ Text=e) Наблюдал кормление грудью
  
   
 [HeaderText]
-Position=69,0,108,124
+Position=0,0,59,124
 Text=Q473
 VerticalAlignment=Middle
  
@@ -5794,7 +5793,7 @@ Text=a) Кровяное давление
  
   
 [HeaderText]
-Position=69,0,108,76
+Position=0,0,59,76
 Text=Q474
 VerticalAlignment=Middle
  
@@ -5837,7 +5836,7 @@ Text=Q474C
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q476
  
 [Field]
@@ -5857,7 +5856,7 @@ Text=Q476
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q478
  
 [Field]
@@ -5877,7 +5876,7 @@ Text=Q478
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q479
  
 [Field]
@@ -5899,7 +5898,7 @@ Text=Q479
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q480
  
 [Field]
@@ -5919,7 +5918,7 @@ Text=Q480
 Width=29
   
 [HeaderText]
-Position=69,5,108,29
+Position=0,5,59,29
 Text=Q482
  
 [Field]
@@ -5950,7 +5949,7 @@ Text=Q482U
 Width=28
   
 [HeaderText]
-Position=50,4,108,28
+Position=0,4,59,28
 Text=Q483
  
 [Field]
@@ -5970,7 +5969,7 @@ Text=Q483
 Width=28
   
 [HeaderText]
-Position=63,4,108,28
+Position=0,4,59,28
 Text=Q485
  
 [Field]
@@ -5990,7 +5989,7 @@ Text=Q485
 Width=28
   
 [HeaderText]
-Position=69,4,108,28
+Position=0,4,59,28
 Text=Q486
  
 [Field]
@@ -6231,7 +6230,7 @@ Text=Q503N
  
 [Field]
 Name=Q503
-Position=233,24,260,44
+Position=230,22,257,42
 Item=Q503,TJIN80
 UseEnterKey=Yes
 Protected=Yes
