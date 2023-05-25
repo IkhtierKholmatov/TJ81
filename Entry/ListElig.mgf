@@ -1,6 +1,4 @@
-﻿Language = EN
-99999 Dummy message until a CSPro bug is fixed to properly handle languages
-
+﻿
 Language = RU
 99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
 
@@ -21,3 +19,6 @@ Language = RU
   RU ( "Men eligible for biomarkers" ) Мужчины, имеющие право на биомаркеры
   RU ( "The household selected was not found in this cluster" ) Выбранное домохозяйство не найдено в этом кластере
   RU ( "Date of birth") Дата рождения
+
+Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages

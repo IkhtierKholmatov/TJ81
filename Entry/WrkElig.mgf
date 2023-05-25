@@ -1,7 +1,4 @@
-﻿Language = EN
-99999 Dummy message until a CSPro bug is fixed to properly handle languages
-
-Language = Ru
+﻿Language = Ru
 99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
 
 { strings commonly used by application }
@@ -11,3 +8,6 @@ Language = Ru
   RU ( "Female" ) Женщина
   RU ( "Male" ) Мужчина
   RU ( "Not Visited" ) Не посещено
+
+Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages

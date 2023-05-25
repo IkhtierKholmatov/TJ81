@@ -1025,6 +1025,14 @@ PROC QH19A
 	  select( tr("Level attended"), QH17A, tr("Level current"), $ );
   endif;
 
+PROC QH20
+preproc
+  if !QH07 in 0:4 then
+    skip to next QH01
+  endif;
+  
+postproc  
+  skip to next QH01
 PROC QH19B
   { Verify the maximum grade for the level }
   if !LevelYears( QH19A, $ ) then
@@ -1038,14 +1046,6 @@ PROC QH19B
   endif;
   
 
-PROC QH20
-preproc
-  if !QH07 in 0:4 then
-    skip to next QH01
-  endif;
-  
-postproc  
-  skip to next QH01
 PROC QHWOMEN
 preproc
   $ = count( QHSEC01_ROSTER where QH09 <> 0 );
@@ -1872,13 +1872,13 @@ postproc
 
 PROC QB113
   { Verify that fieldworker is registered }
-  if !loadcase(FIELDWKQ, $) then
+  if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
 
 PROC QB114
   { Verify that fieldworker is registered }
-  if $ <> 9999 & ( !loadcase(FIELDWKQ, $) | $ = QB113 ) then
+  if $ <> 9999 & ( !loadcase(INTERV, $) | $ = QB113 ) then
     errmsg( 0026, $ )
       select( tr("Fieldworker"), QB113, tr("Assistant"), $ );
   endif;
@@ -1913,7 +1913,7 @@ postproc
 
 PROC QB121
   { Verify that fieldworker is registered }
-  if !loadcase(FIELDWKQ, $) then
+  if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
 
@@ -2060,13 +2060,13 @@ PROC QB207W
 
 PROC QB209
   { Verify that fieldworker is registered }
-  if !loadcase(FIELDWKQ, $) then
+  if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
 
 PROC QB210
   { Verify that fieldworker is registered }
-  if $ <> 9999 & ( !loadcase(FIELDWKQ, $) | $ = QB209 ) then
+  if $ <> 9999 & ( !loadcase(INTERV, $) | $ = QB209 ) then
     errmsg( 0026, $ )
       select( tr("Fieldworker"), QB209, tr("Assistant"), $ );
   endif;
@@ -2086,7 +2086,7 @@ preproc
 
 PROC QB216
   { Verify that fieldworker is registered }
-  if !loadcase(FIELDWKQ, $) then
+  if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
 
@@ -2108,7 +2108,7 @@ postproc
 
 PROC QB220
   { Verify that fieldworker is registered }
-  if !loadcase(FIELDWKQ, $) then
+  if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
   if QB219 <> 1 then
@@ -2117,7 +2117,7 @@ PROC QB220
 
 PROC QB224
   { Verify that fieldworker is registered }
-  if !loadcase(FIELDWKQ, $) then
+  if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
 

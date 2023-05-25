@@ -3269,6 +3269,7 @@ Name=QB113
 Start=50
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Fieldworker number for assistant to H/W
@@ -3276,6 +3277,7 @@ Name=QB114
 Start=54
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Date of measurement
@@ -3333,11 +3335,7 @@ DataType=Numeric
 [ValueSet]
 Label=Year of measurement
 Name=QB115Y_VS1
-Value=2020;2020|2020|2020
-Value=2021;2021|2021|2021
-Value=2022;2022|2022|2022
 Value=2023;2023|2023|2023
-Value=2024;2024|2024|2024
 
 [Item]
 Label=Line no. of parent/caretaker
@@ -3372,6 +3370,7 @@ Name=QB121
 Start=69
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Hemoglobin level (g/dl)
@@ -3539,6 +3538,7 @@ Name=QBRMEAS
 Start=102
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Child's CMC of birth
@@ -3961,6 +3961,7 @@ Name=QB209
 Start=42
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Fieldworker number for assistant to H/W
@@ -3968,6 +3969,7 @@ Name=QB210
 Start=46
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Date of measurement
@@ -4024,12 +4026,7 @@ DataType=Numeric
 [ValueSet]
 Label=Year of measurement
 Name=QB211Y_VS1
-Value=2020;2020|2020|2020
-Value=2021;2021|2021|2021
-Value=2022;2022|2022|2022
 Value=2023;2023|2023|2023
-Value=2024;2024|2024|2024
-Value=2025;2025|2025|2025
 
 [Item]
 Label=Read consent statement to respondent (Anemia)
@@ -4051,6 +4048,7 @@ Name=QB216
 Start=59
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Line no. of parent/caretaker
@@ -4085,6 +4083,7 @@ Name=QB220
 Start=66
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Read consent statement to respondent (Anemia)
@@ -4106,6 +4105,7 @@ Name=QB224
 Start=71
 Len=4
 DataType=Numeric
+ZeroFill=Yes
 
 [Item]
 Label=Hemoglobin level (g/dl)

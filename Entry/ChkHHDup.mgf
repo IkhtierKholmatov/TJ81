@@ -1,7 +1,4 @@
-﻿Language = EN
-99999 Dummy message until a CSPro bug is fixed to properly handle languages
-
-Language = RU
+﻿Language = RU
 99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
 
 { common strings used by application }
@@ -13,3 +10,6 @@ Language = RU
   RU ( "Result" ) Результат
   RU ( "Partial" ) Частично
   RU ( "Case=%s%s not found in file: %s, check IDs in Dict and logic" ) Случай=%s%s не найден в файле: %s, проверьте идентификаторы в словаре и логике
+
+Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages

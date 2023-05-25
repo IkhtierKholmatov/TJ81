@@ -1,6 +1,4 @@
-﻿language = EN  
-010 Duplicate individual %02d in household %d
-
+﻿
 language = RU  
 010 Повторяющееся лицо %02d в домашнем хозяйстве %d
 
@@ -21,3 +19,5 @@ language = RU
   RU ( "There are no households for the cluster in this machine" ) В этой машине нет домохозяйств для кластера
   RU ( "Individual %02d in household %04d is part of a household that belongs to another interviewer" ) Лицо %02d в домохозяйстве %04d является частью домохозяйства, принадлежащего другому интервьюеру
 
+language = EN  
+010 Duplicate individual %02d in household %d

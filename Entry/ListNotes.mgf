@@ -1,6 +1,4 @@
-﻿Language = EN
-99999 Dummy message until a CSPro bug is fixed to properly handle languages
-
+﻿
 Language = RU
 99999 Фиктивное сообщение до тех пор, пока не будет исправлена ​​ошибка CSPro для правильной обработки языков.
 
@@ -15,3 +13,6 @@ Language = RU
   RU ( "Households" ) Домохозяйства
   RU ( "Individuals" ) Индивидиум
   RU ( "No notes found in this cluster" ) В этом кластере заметок не найдено
+
+Language = EN
+99999 Dummy message until a CSPro bug is fixed to properly handle languages
