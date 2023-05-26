@@ -642,7 +642,9 @@
         btserver = TeamShare(x,1);
         if SyncConnect( Bluetooth, btserver) then
           fname = data + "\H" + xfilenum + ".DAT";
-          SyncFile( PUT, fname, btwork );
+          //SyncFile( PUT, fname, btwork );
+		  SyncFile( PUT, fname, wrkprj + btwork );
+
           SyncDisconnect();
         endif;
       else
@@ -1632,7 +1634,7 @@ postproc
                  {10}  "--------------------------------------",
                  {11}  "C Change cluster number",
                  {12}  "E Exit system (Esc)") ;
-    elseif getlanguage() = "RU" then
+    else
 	    heading = "Кластер " + xcluster + " " + intname + "("+ edit("9999", WINTNUM) + ")" + " ["+ getbluetoothname() + "] " " Sup " + edit("9999", WSUPER) + versiontxt;
         action = accept( heading,
                  { 1}  "1 Интервью домохозяйства",
@@ -1648,7 +1650,7 @@ postproc
                  {10}  "--------------------------------------",
                  {11}  "C Изменить номер кластера",
                  {12}  "E Выход (Esc)") ;
-    endif;
+    endif; 
     { instructions to complete executions of menu options }
     if !action | action = 12 then
       SaveSetting( "DCSession", "1" );

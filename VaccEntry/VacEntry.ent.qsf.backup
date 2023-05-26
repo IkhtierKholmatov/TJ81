@@ -1,0 +1,88 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 6.3
+
+[LANGUAGES]
+ENG=English
+RUS=Russian
+
+[QUESTION]
+Field=FACVACC.FV1506
+ENG={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue255;}
+ENG=\viewkind4\uc1\pard\cf1\fs24 VACCINATION RECORD FOR CHILD\b  \ul (%FVCNAME%)\ulnone  \b0 WAS FOUND AND SEEN AT THE HEALTH CENTER\par
+ENG=}
+RUS={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204{\*\fname Arial;}Arial CYR;}{\f1\fnil\fcharset0 Arial;}}
+RUS={\colortbl ;\red0\green0\blue255;}
+RUS=\viewkind4\uc1\pard\cf1\f0\fs24\'cd\'c0\'d8\'cb\'c8 \'cb\'c8 \'c2 \'cc\'c5\'c4\'d3\'d7\'d0\'c5\'c6\'c4\'c5\'cd\'c8\'c8 \'c7\'c0\'cf\'c8\'d1\'c8 \'cf\'d0\'c8\'c2\'c8\'c2\'ce\'ca \'d0\'c5\'c1\'c5\'cd\'ca\'c0\lang1033\f1  \lang1049\ul\b (%FVCNAME%)\ulnone  \b0 (\f0\'d4\'ce\'d0\'cc\'db 112 \'c8 63)\cf0\fs17\par
+RUS=}
+
+[QUESTION]
+Field=FACVACC.FV1507D
+Occurrences=1:1
+ENG={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue255;\red255\green0\blue128;}
+ENG={\*\generator Riched20 10.0.14393}\viewkind4\uc1
+ENG=\pard\cf1\fs24\lang1033 (1) COPY DATES FOR EACH VACCINE FROM THE HEALTH CENTER REGISTRY\par
+ENG=(2) WRITE '44' IIN DAY COLUMN IF THE REGISTRY SHOWS THAT THE VACCINE WAS GIVEN BUT THE DATE IS NOT RECORDED\par
+ENG=\par
+ENG=RECORD [\cf2\ul\b %vaccname%\cf1\ulnone\b0 ] DAY\par
+ENG=}
+RUS={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204{\*\fname Arial;}Arial CYR;}{\f1\fnil\fcharset0 Arial;}}
+RUS={\colortbl ;\red0\green0\blue255;\red255\green0\blue128;}
+RUS=\viewkind4\uc1\pard\cf1\f0\fs24\'cf\'c5\'d0\'c5\'cf\'c8\'d8\'c8\'d2\'c5 \'c4\'c0\'d2\'d3 \'ca\'c0\'c6\'c4\'ce\'c9 \'c2\'c0\'ca\'d6\'c8\'cd\'c0\'d6\'c8\'c8 \'c8\'c7 \'c7\'c0\'cf\'c8\'d1\'c8 \'c2 \'d4\'ce\'d0\'cc\'c0\'d5 112 \'c8 63 \par
+RUS=\'cd\'c0\'cf\'c8\'d8\'c8\'d2\'c5 \f1\lquote 44' \f0\'c2 \'c3\'d0\'c0\'d4\'c5 \f1\lquote\f0\'c4\'c5\'cd\'dc' \'c5\'d1\'cb\'c8 \'cf\'ce \'ca\'c0\'d0\'d2\'ce\'d7\'ca\'c5 \'c2\'c8\'c4\'cd\'ce, \'d7\'d2\'ce \'cf\'d0\'c8\'c2\'c8\'c2\'ca\'c0 \'d1\'c4\'c5\'cb\'c0\'cd\'c0, \'cd\'ce \'c7\'c0\'cf\'c8\'d1\'c8 \'c4\'c0\'d2\'db \'cd\'c5\'d2 .\par
+RUS=\par
+RUS=\'c7\'c0\'cf\'c8\'d8\'c8\'d2\'c5 \'c4\'c5\'cd\'dc [\cf2\b %vaccname%\cf1\b0 ]\cf0\fs17\par
+RUS=}
+
+[QUESTION]
+Field=FACVACC.FV1507D
+Occurrences=2:15
+ENG={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue255;\red255\green0\blue128;}
+ENG={\*\generator Riched20 10.0.14393}\viewkind4\uc1
+ENG=\pard\cf1\fs24\lang1033 RECORD [\cf2\ul\b %vaccname%\cf1\ulnone\b0 ] DAY\par
+ENG=}
+RUS={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204{\*\fname Arial;}Arial CYR;}}
+RUS={\colortbl ;\red0\green0\blue255;\red255\green0\blue128;}
+RUS=\viewkind4\uc1\pard\cf1\f0\fs24\'c7\'c0\'cf\'c8\'d8\'c8\'d2\'c5 \'c4\'c5\'cd\'dc [\cf2\b %vaccname%\cf1\b0 ]\cf0\fs17\par
+RUS=}
+
+[QUESTION]
+Field=FACVACC.FV1507M
+Occurrences=1:15
+ENG={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue255;}
+ENG={\*\generator Riched20 10.0.14393}\viewkind4\uc1
+ENG=\pard\cf1\fs24 RECORD %vaccname% MONTH\par
+ENG=}
+RUS={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204{\*\fname Arial;}Arial CYR;}}
+RUS={\colortbl ;\red0\green0\blue255;\red255\green0\blue128;}
+RUS=\viewkind4\uc1\pard\cf1\f0\fs24\'c7\'c0\'cf\'c8\'d8\'c8\'d2\'c5 \'cc\'c5\'d1\'df\'d6 [\cf2\b %vaccname%\cf1\b0 ]\cf0\fs17\par
+RUS=}
+
+[QUESTION]
+Field=FACVACC.FV1507Y
+Occurrences=1:15
+ENG={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue255;}
+ENG={\*\generator Riched20 10.0.14393}\viewkind4\uc1
+ENG=\pard\cf1\fs24 RECORD %vaccname% YEAR\par
+ENG=}
+RUS={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204{\*\fname Arial;}Arial CYR;}}
+RUS={\colortbl ;\red0\green0\blue255;\red255\green0\blue128;}
+RUS=\viewkind4\uc1\pard\cf1\f0\fs24\'c7\'c0\'cf\'c8\'d8\'c8\'d2\'c5 \'c3\'ce\'c4  [\cf2\b %vaccname%\cf1\b0 ]\cf0\fs17\par
+RUS=}
+
+[QUESTION]
+Field=FACVACC.FVFINAL
+ENG={\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue255;}
+ENG={\*\generator Riched20 10.0.14393}\viewkind4\uc1
+ENG=\pard\cf1\fs24\lang1033 PRESS ENTER TO FINISH ENTRY OF VACCINATION RECORD\par
+ENG=}
+RUS={\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204{\*\fname Arial;}Arial CYR;}}
+RUS={\colortbl ;\red0\green0\blue255;}
+RUS=\viewkind4\uc1\pard\cf1\f0\fs24\'cd\'c0\'c6\'cc\'c8\'d2\'c5 ENTER \'c4\'cb\'df \'c7\'c0\'c2\'c5\'d0\'d8\'c5\'cd\'c8\'df \'c2\'c2\'ce\'c4\'c0 \'c4\'c0\'cd\'cd\'db\'d5 \'c2\'c0\'ca\'d6\'c8\'cd\'d6\'c8\'c8 \'d0\'c5\'c1\'c5\'cd\'ca\'c0\cf0\fs17\par
+RUS=}
+

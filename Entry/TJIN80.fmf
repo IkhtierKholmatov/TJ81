@@ -228,7 +228,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000
-Position=13,384,1021,411
+Position=13,384,949,404
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -236,7 +236,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000
-Position=11,406,1019,433
+Position=11,406,947,426
 Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=5
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -278,7 +278,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000000
-Position=4,313,1012,340
+Position=4,313,940,333
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -286,7 +286,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000000
-Position=3,336,1011,363
+Position=3,336,939,356
 Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=6
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -345,7 +345,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000002
-Position=7,279,1015,306
+Position=7,279,943,299
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -353,7 +353,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000002
-Position=7,305,1015,332
+Position=7,305,943,325
 Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=8
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -363,7 +363,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
 [Form]
 Name=AWFORM3E
 Label=Contraceptive use history
-QuestionTextHeight=207
+QuestionTextHeight=258
 Level=1
 Size=1081,554
   
@@ -383,7 +383,7 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
   
 [Text]
 Name=TEXT033000001
-Position=2,352,1010,379
+Position=2,352,938,372
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -391,7 +391,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT042002000001
-Position=2,374,1010,401
+Position=2,374,938,394
 Text=ДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯДНОСАИИМАМФЯ
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -399,7 +399,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT9
-Position=7,509,1015,536
+Position=7,509,943,529
 Text=123456789012345678901234567890123456789012345678901234567890123456789012
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -407,7 +407,7 @@ Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
   
 [Text]
 Name=TEXT10
-Position=5,482,1013,509
+Position=5,482,941,502
 Text=----2023---+----2022---+----2021---+----2020---+----2019---+---2018----+
 Form=9
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0001 0002 0001 0049 Courier
@@ -476,7 +476,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM05
 Label=Immunization and health
-QuestionTextHeight=83
+QuestionTextHeight=112
 Level=1
 Size=957,1433
   
@@ -496,7 +496,7 @@ Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM6A
 Label=Child Health
-QuestionTextHeight=224
+QuestionTextHeight=227
 Level=1
 Size=943,988
   
@@ -516,9 +516,9 @@ Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 [Form]
 Name=AWFORM6B
 Label=Child Feeding and Women's Feeding
-QuestionTextHeight=209
+QuestionTextHeight=263
 Level=1
-Size=1028,871
+Size=1078,1204
   
 Item=Q635N
 Item=Q635
@@ -2464,12 +2464,12 @@ Name=Q218
 Position=0,0,196,20
 Item=Q218,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
 FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=166,0,204,24
+Position=166,0,200,16
 Text=Q218
 HorizontalAlignment=Center
  
@@ -6140,7 +6140,7 @@ Max=6
 DisplaySize=59,61,932,1408
 Orientation=Vertical
 ColumnWidth=529
-StubColumnWidth=69
+StubColumnWidth=72
 HeadingRowHeight=24
 FreeMovement=No
  
@@ -6188,7 +6188,7 @@ Width=10
 Width=35
   
 [HeaderText]
-Position=10,0,69,35
+Position=13,0,72,35
 Text=QCOL51
  
 [Field]
@@ -6210,7 +6210,7 @@ Text=QCOL51
 Width=52
   
 [HeaderText]
-Position=30,14,69,38
+Position=33,14,72,38
 Text=Q503
 VerticalAlignment=Middle
  
@@ -6247,7 +6247,7 @@ Text=Q503
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q504
  
 [Field]
@@ -6267,7 +6267,7 @@ Text=Q504
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q505
  
 [Field]
@@ -6287,7 +6287,7 @@ Text=Q505
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q507
  
 [Field]
@@ -6307,7 +6307,7 @@ Text=Q507
 Width=28
   
 [HeaderText]
-Position=30,0,69,28
+Position=33,0,72,28
 Text=Q508
  
 [Field]
@@ -6349,7 +6349,7 @@ Text=Q508Y
 Width=28
   
 [HeaderText]
-Position=22,0,69,28
+Position=25,0,72,28
 Text=D509B
  
 [Field]
@@ -6391,7 +6391,7 @@ Text=Y509B
 Width=28
   
 [HeaderText]
-Position=22,0,69,28
+Position=25,0,72,28
 Text=D509H
  
 [Field]
@@ -6433,7 +6433,7 @@ Text=Y509H
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509P0
  
 [Field]
@@ -6475,7 +6475,7 @@ Text=Y509P0
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509P1
  
 [Field]
@@ -6517,7 +6517,7 @@ Text=Y509P1
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509P2
  
 [Field]
@@ -6559,7 +6559,7 @@ Text=Y509P2
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509P3
  
 [Field]
@@ -6601,7 +6601,7 @@ Text=Y509P3
 Width=33
   
 [HeaderText]
-Position=15,0,69,33
+Position=18,0,72,33
 Text=D509P4
 VerticalAlignment=Middle
  
@@ -6639,7 +6639,7 @@ Text=Polio 4 year
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509D1
  
 [Field]
@@ -6681,7 +6681,7 @@ Text=Y509D1
 Width=28
   
 [HeaderText]
-Position=15,4,69,28
+Position=18,4,72,28
 Text=D509D2
  
 [Field]
@@ -6723,7 +6723,7 @@ Text=Y509D2
 Width=30
   
 [HeaderText]
-Position=15,0,69,30
+Position=18,0,72,30
 Text=D509D3
  
 [Field]
@@ -6765,7 +6765,7 @@ Text=Y509D3
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509R1
  
 [Field]
@@ -6807,7 +6807,7 @@ Text=Y509R1
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509R2
  
 [Field]
@@ -6849,7 +6849,7 @@ Text=Y509R2
 Width=28
   
 [HeaderText]
-Position=2,4,69,28
+Position=5,4,72,28
 Text=D509IPV1
  
 [Field]
@@ -6892,7 +6892,7 @@ Text=Y509IPV
 Width=32
   
 [HeaderText]
-Position=2,0,69,32
+Position=5,0,72,32
 Text=D509IPV2
  
 [Field]
@@ -6934,7 +6934,7 @@ Text=Y509IPV1
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509N1
  
 [Field]
@@ -6976,7 +6976,7 @@ Text=Y509N1
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509N2
  
 [Field]
@@ -7018,7 +7018,7 @@ Text=Y509N2
 Width=28
   
 [HeaderText]
-Position=15,0,69,28
+Position=18,0,72,28
 Text=D509N3
  
 [Field]
@@ -7060,7 +7060,7 @@ Text=Y509N3
 Width=28
   
 [HeaderText]
-Position=13,0,69,28
+Position=16,0,72,28
 Text=D509M1
  
 [Field]
@@ -7102,7 +7102,7 @@ Text=Y509M1
 Width=32
   
 [HeaderText]
-Position=15,0,69,32
+Position=18,0,72,32
 Text=D509D4
  
 [Field]
@@ -7145,7 +7145,7 @@ Text=Y509D4
 Width=28
   
 [HeaderText]
-Position=22,0,69,28
+Position=25,0,72,28
 Text=D509V
  
 [Field]
@@ -7187,7 +7187,7 @@ Text=Y509V1
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q510
  
 [Field]
@@ -7207,7 +7207,7 @@ Text=Q510
 Width=52
   
 [HeaderText]
-Position=30,28,69,52
+Position=33,28,72,52
 Text=Q512
  
 [Field]
@@ -7240,7 +7240,7 @@ Text=Q512W
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q513
  
 [Field]
@@ -7260,7 +7260,7 @@ Text=Q513
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q514
  
 [Field]
@@ -7280,7 +7280,7 @@ Text=Q514
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q515
  
 [Field]
@@ -7300,7 +7300,7 @@ Text=Q515
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q516
  
 [Field]
@@ -7320,7 +7320,7 @@ Text=Q516
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q517
  
 [Field]
@@ -7340,7 +7340,7 @@ Text=Q517
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q518
  
 [Field]
@@ -7360,7 +7360,7 @@ Text=Q518
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q519
  
 [Field]
@@ -7380,7 +7380,7 @@ Text=Q519
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q520
  
 [Field]
@@ -7400,7 +7400,7 @@ Text=Q520
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
+Position=24,4,72,28
 Text=Q520A
  
 [Field]
@@ -7421,7 +7421,7 @@ Text=Q520A
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q521
  
 [Field]
@@ -7441,7 +7441,7 @@ Text=Q521
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q522
  
 [Field]
@@ -7461,7 +7461,7 @@ Text=Q522
 Width=28
   
 [HeaderText]
-Position=21,4,69,28
+Position=24,4,72,28
 Text=Q522A
  
 [Field]
@@ -7481,7 +7481,7 @@ Text=Q522A
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q523
  
 [Field]
@@ -7501,7 +7501,7 @@ Text=Q523
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q524
  
 [Field]
@@ -7521,7 +7521,7 @@ Text=Q524
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q525
  
 [Field]
@@ -7541,7 +7541,7 @@ Text=Q525
 Width=28
   
 [HeaderText]
-Position=30,4,69,28
+Position=33,4,72,28
 Text=Q526
  
 [Field]
@@ -7561,7 +7561,7 @@ Text=Q526
 Width=28
   
 [HeaderText]
-Position=30,0,69,28
+Position=33,0,72,28
 Text=Q527
  
 [Field]
@@ -7581,7 +7581,7 @@ Text=Q527
 Width=28
   
 [HeaderText]
-Position=30,0,69,28
+Position=33,0,72,28
 Text=Q529
  
 [Field]
@@ -7601,7 +7601,7 @@ Text=Q529
 Width=28
   
 [HeaderText]
-Position=31,4,69,28
+Position=34,4,72,28
 Text=FA01
  
 [Field]
@@ -7619,7 +7619,7 @@ Text=FA01
 Width=28
   
 [HeaderText]
-Position=31,4,69,28
+Position=34,4,72,28
 Text=FA02
  
 [Field]
@@ -7637,21 +7637,19 @@ Text=FA02
 Width=28
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA03A
+Position=27,4,72,28
+Text=NAME
  
 [Field]
 Name=FA03A
 Position=0,0,196,20
 Item=FA03A,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,40,16
-Text=FA03A
+Text=NAME
  
 [EndColumn]
   
@@ -7659,65 +7657,60 @@ Text=FA03A
 Width=28
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA03B
+Position=0,4,72,28
+Text=SURNAME
  
 [Field]
 Name=FA03B
 Position=0,0,326,20
 Item=FA03B,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,42,16
-Text=FA03B
+Text=SURNAME
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA04A
+Position=18,0,72,40
+Text=MOTH. NAME
  
 [Field]
 Name=FA04A
 Position=0,0,196,20
 Item=FA04A,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,40,16
-Text=FA04A
+Text=MOTH. NAME
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA04B
+Position=0,0,72,40
+Text=MOTH. SURNAME
  
 [Field]
 Name=FA04B
 Position=0,0,326,20
 Item=FA04B,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,42,16
-Text=FA04B
+Position=0,0,116,16
+Text=MOTH. SURNAME
  
 [EndColumn]
   
@@ -7725,86 +7718,83 @@ Text=FA04B
 Width=28
   
 [HeaderText]
-Position=31,4,69,28
-Text=FA05
+Position=2,4,72,28
+Text=ADDRESS
  
 [Field]
 Name=FA05
 Position=0,0,521,20
 Item=FA05,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,32,16
-Text=FA05
+Position=0,0,65,16
+Text=ADDRESS
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA06A
+Position=7,0,72,40
+Text=NAME FACILITY
  
 [Field]
 Name=FA06A
 Position=0,0,391,20
 Item=FA06A,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,40,16
-Text=FA06A
+Position=0,0,102,16
+Text=NAME FACILITY
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA06B
+Position=2,0,72,40
+Text=ADDRESS FACILITY
  
 [Field]
 Name=FA06B
 Position=0,0,521,20
 Item=FA06B,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,42,16
-Text=FA06B
+Position=0,0,128,16
+Text=ADDRESS FACILITY
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA06C
+Position=7,0,72,40
+Text=PHONE FACILITY
  
 [Field]
 Name=FA06C
 Position=0,0,131,20
 Item=FA06C,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,41,16
-Text=FA06C
+Position=0,0,111,16
+Text=PHONE FACILITY
  
 [EndColumn]
   
@@ -7812,43 +7802,39 @@ Text=FA06C
 Width=28
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA07A
+Position=1,4,72,28
+Text=DR. NAME
  
 [Field]
 Name=FA07A
 Position=0,0,196,20
 Item=FA07A,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,40,16
-Text=FA07A
+Text=DR. NAME
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=22,4,69,28
-Text=FA07B
+Position=0,0,72,40
+Text=DR. LAST NAME
  
 [Field]
 Name=FA07B
 Position=0,0,326,20
 Item=FA07B,TJIN80
 UseEnterKey=Yes
-UpperCase=Yes
-FieldLabelType=DictionaryName
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
-Position=0,0,42,16
-Text=FA07B
+Text=DR. LAST NAME
  
 [EndColumn]
   
@@ -7856,7 +7842,7 @@ Text=FA07B
 Width=28
   
 [HeaderText]
-Position=31,4,69,28
+Position=34,4,72,28
 Text=FA08
  
 [Field]
@@ -8982,7 +8968,7 @@ Form=14
   
 [Field]
 Name=Q636Z
-Position=57,826,188,846
+Position=92,824,223,844
 Item=Q636Z,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -8991,7 +8977,7 @@ DataCaptureType=CheckBox
 Form=14
   
 [Text]
-Position=100,805,138,821
+Position=135,803,173,819
 Text=Q636Z
  
   
@@ -9302,7 +9288,7 @@ Text=v) Другая твердая...
   
 [Field]
 Name=Q637Z
-Position=269,826,465,846
+Position=364,825,560,845
 Item=Q637Z,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -9311,7 +9297,7 @@ DataCaptureType=CheckBox
 Form=14
   
 [Text]
-Position=335,805,373,821
+Position=430,804,468,820
 Text=Q637Z
  
   
@@ -9705,7 +9691,7 @@ Text=y) Другие пищи
   
 [Field]
 Name=Q643Z
-Position=659,826,920,846
+Position=740,827,1001,847
 Item=Q643Z,TJIN80
 UseEnterKey=Yes
 UpperCase=Yes
@@ -9714,7 +9700,7 @@ DataCaptureType=CheckBox
 Form=14
   
 [Text]
-Position=723,805,761,821
+Position=804,806,842,822
 Text=Q643Z
  
 [EndGroup]

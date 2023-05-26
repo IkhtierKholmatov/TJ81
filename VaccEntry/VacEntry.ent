@@ -1,0 +1,28 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=VACENTRY
+Name=VACENTRY
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CAPI=Yes
+CenterForms=Yes
+[External Dictionaries]
+File=..\Dicts\Clusters.dcf
+File=..\Dicts\TJHH80.dcf
+File=..\Dicts\TJIN80.dcf
+[AppCode]
+File=.\VacEntry.ent.apc
+Include=..\Library\DPCollect.apc
+Include=..\Library\EntryFunctions.apc
+[Message]
+File=.\VacEntry.ent.mgf
+[Help]
+File=.\VacEntry.ent.qsf
+[Forms]
+File=.\VacEntry.fmf
+[Dictionary Types]
+Dict-Type=..\Dicts\FacVacc.dcf,Input,.\VacEntry.fmf
+Dict-Type=..\Dicts\TJHH80.dcf,External
+Dict-Type=..\Dicts\Clusters.dcf,External
+Dict-Type=..\Dicts\TJIN80.dcf,External

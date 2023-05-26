@@ -1,0 +1,44 @@
+﻿language = EN
+0001 W Child's date of birth in woman's birth history (%02D/%02D/%04D) is different from date in the vaccination record (%02D/%02D/%04D)
+0002 D Invalid date
+0003 Please take the picture of the vaccination card. Click OK to proceed.
+0010 Photo was not taken
+0011 Accept photo?
+0012 Photo has been saved
+0013 Are you sure you want to delete existing photo?
+0014 Exit and discard entered questionnaire? Data will not be saved.
+0015 Save questionnaire?
+
+4470 E Date of vaccination (%02d/%02d/%04d) out of range or combination of day/month/year incorrect
+4471 E Vaccination date given (%02d/%02d/%04d) for child %02d before child's date of birth (%02d/%02d/%04d)
+
+
+ 9980 E Please select from the categories within the major groups
+ 9981 E Blanks are not allowed for alpha variables
+ 9990 E Zero is not allowed for the type of units 
+ 9992 E Date must be before date of interview
+ 9993 W Please check the value entered
+ 9994 E Special answers inconsistent
+ 9995 E Response "No/No one/Nothing" inconsistent with other responses
+ 9996 E Response "Don't know" inconsistent with other answers
+ 9997 E The response code '%s' is not used for this question
+ 9998 E Codes given for alpha variable not acceptable
+ 9999 E Code out of range, expected %s
+ 
+ 
+ language = RU
+ 4470 E Дата вакцинации (%02d/%02d/%04d) вне допустимого диапазона или неверная комбинация дня/месяца/года
+ 4471 E Указана дата вакцинации (%02d/%02d/%04d) для ребенка %02d до даты рождения ребенка (%02d/%02d/%04d)
+ 
+ 9800 E Запрещены записи до даты собеседования в столбце 1 календаря в %s, %04d
+ 9801 E Недопустимый код %1s в столбце календаря %1d в %s, %04d
+ 9802 E Рождение в %s, %04d в календаре (cmc=%04d) вне диапазона из истории рождения (ребенок%02d=%04d-%04d)
+ 9803 W Рождение в %s, %04d в календаре имеет продолжительность беременности %02d месяцев, что не соответствует заявленному в A221=%d/%02d
+ 9804 E Рождение %02d в истории беременности не имеет записи в календаре
+ 9805 E Прекращение использования, но код не указан в столбце 2, строка %02d
+ 9806 W Прекращение родов в месяцах %02d и %02d подряд. Пожалуйста, проверьте!
+ 9807 E Нет прекращения использования, но код прекращения использования указан в строке %02d
+ 9818 E Код беременности в %s, %04d в столбце 1 календаря, за которым не следует код прерывания
+ 9819 W Прерванная беременность в %s, %04d календаря имеет срок беременности %02d, что отличается от указанного в A221=%d/%02d
+ 9820 E Запуск нового метода, но код не указан в столбце 3 в %s, %04d
+  

@@ -1246,7 +1246,6 @@ Position=0,0,169,20
 Item=QHFIRSTN,TJHH80
 UseEnterKey=Yes
 Verify=No
-UpperCase=Yes
 DataCaptureType=TextBox
 Keyboard=1049
   
@@ -1261,7 +1260,6 @@ Position=174,1,343,21
 Item=QHLASTN,TJHH80
 UseEnterKey=Yes
 Verify=No
-UpperCase=Yes
 DataCaptureType=TextBox
 Keyboard=1049
   
@@ -1869,10 +1867,11 @@ Item=QH02,TJHH80
 UseEnterKey=Yes
 Protected=Yes
 Verify=No
-UpperCase=Yes
 DataCaptureType=TextBox
+Keyboard=1049
   
 [Text]
+Position=0,0,12,16
 Text=Имя
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
 HorizontalAlignment=Center
@@ -2444,9 +2443,9 @@ Position=218,58,408,78
 Item=QCDINAME,TJHH80
 UseEnterKey=Yes
 Protected=Yes
-UpperCase=Yes
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
+Keyboard=1049
 Form=5
   
 [Text]

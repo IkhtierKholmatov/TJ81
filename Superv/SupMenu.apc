@@ -1891,7 +1891,7 @@ postproc
             {14}  "D ---Other options------",
             {15}  "L- Change language",
             {16}  "E Exit system" );
-  elseif getlanguage() = "RU" then
+  else
     heading = maketext("Супервайзер %4d: %s: Кластер %s [%s] " , WSUPER, getbluetoothname(), xcluster , versiontxt) ;
     action = accept( heading,
 			{ 1}  "1 Назначение домохозяйства в кластере", 
@@ -1994,10 +1994,12 @@ postproc
                 "4: Close Cluster without running FCT",
                 "9: Cancel"
                 );
-    elseif getlanguage() = "RU" then
+    else
       option =  accept("Выберите действие", 
                 "1. Сообщить о состоянии кластера", 
-                "2: Закрыть кластер",
+                "2. Суммарный отчет",
+				"3: Закрыть кластер",
+				"4: Закрыт кластер без запуска отчета"
                 "9: Отмена"
                 );
     endif;
@@ -2049,7 +2051,7 @@ postproc
                // { 4}  "4 Send remeasurement to health specialist",
                // { 5}  "5 Receive remeasurement from health specialist",
                { 6}  "9 Return to main menu" );
-	 elseif getlanguage() = "RU" then      
+	 else 
 		option = accept( heading,
                { 1}  "1 Выберите детей для повторного измерения",
                { 2}  "2 Введите повторные измерения",
@@ -2120,7 +2122,7 @@ postproc
                 "2  Re-interview households",
                 "3. List households for reinterview",
                 "9. Main Menu");
-	 elseif getlanguage() = "RU" then
+	 else
          option = accept ("Меню повторного интервью",
                 "1. Выберите домохозяйства для повторного интервью",
                 "2  Повторный интервью домохозяйств",
@@ -2181,7 +2183,7 @@ postproc
                 "9  Remove household from supevisor control file",
                 "P  Prepare pictures files for upload to server",
                 "M. Main Menu");
-		elseif getlanguage() = "RU" then
+		else
 				option = accept ("Другие опции",
                 "1. Разделить домохозяйство",
                 "2. Просмотр журнала синхронизации Bluetooth",

@@ -16,7 +16,7 @@ Label=WSEC01
 QuestionTextHeight=117
 Level=1
 Size=883,384
-Color=14548957
+Color=13041663
   
 Item=WINTNUM
 Item=WCLUSTER
@@ -76,8 +76,8 @@ Form=1
   
 [Text]
 Name=TEXT1
-Position=767,21,858,37
-Text=25/5/2023 V003
+Position=767,21,866,37
+Text=27/5/2023   V004
 Form=1
  
 [EndForm]

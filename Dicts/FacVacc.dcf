@@ -1,0 +1,301 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=FacVacc
+Name=FACVACC
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=1213572156308688360109FEE1A5E012D525FBEAA1FA889BDB1F130CEDDC37BB
+
+[Languages]
+EN=English
+RU=Russian
+
+[Level]
+Label=Child born 2014 or later
+Name=FVCHILD
+
+[IdItems]
+
+[Item]
+Label=Cluster
+Name=FRCLUST
+Start=1
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Household
+Name=FRHNUMBER
+Start=5
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Mother's line number
+Name=FRMLINE
+Start=9
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Child's line number of birth history
+Name=FRCLINE
+Start=11
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=FacVacc record
+Name=FACVACC_REC
+RecordTypeValue=''
+RecordLen=374
+
+[Item]
+Label=Supervisor number
+Name=FRSUPERV
+Start=13
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Interviewer number
+Name=FRINTERV
+Start=17
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Household head name
+Name=FRHHNAME
+Start=21
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Mother's name
+Name=FRMNAME
+Start=41
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Child's name
+Name=FRCNAME
+Start=61
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Child's date of birth (day)
+Name=FRCDOBD
+Start=81
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Child's date of birth (month)
+Name=FRCDOBM
+Start=83
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Child's date of birth (year)
+Name=FRCDOBY
+Start=85
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Mother's name|Doctor's name
+Name=FRDNAME
+Start=89
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Mother's name|Name of facility
+Name=FRFNAME
+Start=109
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Mother's name|Address of facility
+Name=FRFADDR
+Start=129
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Mother's name|Phone number of facility
+Name=FRFPHONE
+Start=149
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Vaccination record found|Uchastok Number
+Name=FRUCHN
+Start=169
+Len=2
+DataType=Numeric
+
+[Item]
+Label=Vaccination record found
+Name=FR02
+Start=171
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Vaccination record found
+Name=FR02_VS1
+Value=1;Yes, found|Yes, seen
+Value=2;Yes, child's record found, but no vaccination card|Yes, seen, no records in the MOH form
+Value=3;No
+
+[Item]
+Label=Vaccination roster
+Name=FR03_GROUP
+Start=172
+Len=10
+DataType=Alpha
+Occurrences=20
+
+[Item]
+Label=Vaccine name
+Name=FR03N
+Start=172
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Vaccine name
+Name=FR03N_VS1
+Value=1;BCG|BCG
+Value=2;Polio at birth
+Value=3;Polio 1
+Value=4;Polio 2
+Value=5;Polio 3
+Value=6;Polio 4
+Value=7;IPV|IPV 1
+Value=8;IPV 2
+Value=9;Hepatitis B at birth
+Value=10;Penta 1
+Value=11;Penta 2
+Value=12;Penta 3
+Value=13;Penta 4
+Value=14;Rotavirus 1
+Value=15;Rotavirus 2
+Value=16;Pneumococcal 1|Pneumococcal 1
+Value=17;Pneumococcal 1|Pneumococcal 2
+Value=18;Pneumococcal 1|Pneumococcal 3
+Value=19;MR|Measles 1
+Value=20;Last Vitamin A
+
+[Item]
+Label=Vaccine date (day)
+Name=FR03D
+Start=174
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Vaccine date (day)
+Name=FR03D_VS1
+Value=0;Not given|Not recorded
+Value=1:31
+Value=44;Marked on card|No date recorded, but marked on card
+Value=98;Don't know/incomplete
+
+[Item]
+Label=Vaccine date (month)
+Name=FR03M
+Start=176
+Len=2
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Vaccine date (month)
+Name=FR03M_VS1
+Value=0;Not given|Not recorded
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+Value=44;Marked on card|Not recorded, but marked on card
+Value=98;Don't know/incomplete
+
+[Item]
+Label=Vaccine date (year)
+Name=FR03Y
+Start=178
+Len=4
+ItemType=SubItem
+DataType=Numeric
+
+[ValueSet]
+Label=Vaccine date (year)
+Name=FR03Y_VS1
+Value=0;Not given|Not recorded
+Value=2017;2017|2017
+Value=2018;2018|2018
+Value=2019;2019|2019
+Value=2020;2020|2020
+Value=2021;2021|2021
+Value=2022;2022|2022
+Value=2023;2023|2023
+Value=4444;Marked on card|Not recorded, but marked on card
+Value=9998;Don't know/Incomplete
+
+[Item]
+Label=Consent to take photo of vaccination passport|Photographie prise du carnet de vaccination
+Name=FR04
+Start=372
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Consent to take photo of vaccination passport|Photographie prise du carnet de vaccination
+Name=FR04_VS1
+Value=1;Yes, consent granted|Photographie prise|ФОТОГРАФИЯ СДЕЛАНА
+Value=2;No|ФОТОГРАФИЯ НЕ СДЕЛАНА, РАЗРЕШЕНИЕ НЕ ПОЛУЧЕНО
+
+[Item]
+Label=Photograph taken of vaccination passport|Photographie prise du carnet de vaccination
+Name=FR05
+Start=373
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=Photograph taken of vaccination passport|Photographie prise du carnet de vaccination
+Name=FR05_VS1
+Value=1;Photograph taken|Photographie prise|ФОТОГРАФИЯ СДЕЛАНА
+Value=2;Photograph not taken|ФОТОГРАФИЯ НЕ СДЕЛАНА, РАЗРЕШЕНИЕ НЕ ПОЛУЧЕНО
+
+[Item]
+Label=Handle to finish questionnaire
+Name=FRFINAL
+Start=374
+Len=1
+DataType=Alpha

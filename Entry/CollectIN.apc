@@ -79,9 +79,9 @@
   numeric relprev, anyviol, nhhold, showcard, showID;
   numeric DaysMonth = 30.4375, WeeksMonth = 0.23;
   numeric idx, durpreg;
-  numeric drinks_popup   = 0;	// used in handling A636
-  numeric foods_popup    = 0;	// used in handling A637
-  numeric foods_popupW   = 0;	// used in handling A643 for foods
+  numeric drinks_popup   = 0;	// used in handling Q636
+  numeric foods_popup    = 0;	// used in handling Q637
+  numeric foods_popupW   = 0;	// used in handling Q643 for foods
   numeric other_drinks   = 0;   // toggle for "other" drinks for children
   numeric other_foods    = 0;   // toggle for "other" foods for children
   numeric other_foodsW   = 0;   // toggle for "other" foods for women
@@ -1135,34 +1135,34 @@
     endif;
   end;
 
-  { function to handle the drinks popup for A636 }
+  { function to handle the drinks popup for Q636 }
   function drinkgroups()
     foodfield = getsymbol();
 	drinks_popup = 1;
 	move to Q636Z;
   end;
 
-  { function to handle the foods popup for A637 }
+  { function to handle the foods popup for Q637 }
   function foodgroups()
     foodfield = getsymbol();
 	foods_popup = 1;
 	move to Q637Z;
   end;
   
-  { function to handle the food and drinks popup for A643 }
+  { function to handle the food and drinks popup for Q643 }
   function foodgroupsW()
     foodfield = getsymbol();
 	foods_popupW = 1;
 	move to Q643Z;
   end;
 
-  { function to display the relevant food and drinks popup for A636, A637, or A643 }
+  { function to display the relevant food and drinks popup for Q636, Q637, or Q643 }
   function fooddrinks()
     foodfield = getsymbol();
     if accept(tr("Display food or drink categories"),tr("Yes"),tr("No")) = 1 then
-      if     pos("A636",foodfield) & length(foodfield) = 5 & foodfield[5:1] in "A":"X" then drinkgroups()
-      elseif pos("A637",foodfield) & length(foodfield) = 5 & foodfield[5:1] in "A":"X" then foodgroups()
-      elseif pos("A643",foodfield) & length(foodfield) = 5 & foodfield[5:1] in "A":"X" then foodgroupsW()
+      if     pos("Q636",foodfield) & length(foodfield) = 5 & foodfield[5:1] in "A":"X" then drinkgroups()
+      elseif pos("Q637",foodfield) & length(foodfield) = 5 & foodfield[5:1] in "A":"X" then foodgroups()
+      elseif pos("Q643",foodfield) & length(foodfield) = 5 & foodfield[5:1] in "A":"X" then foodgroupsW()
 	  else   display(tr("No food or drink categories exist for this question"))
 	  endif;
 	endif;
@@ -3381,6 +3381,7 @@ preproc
    BloodCon(4) = tr("1 month");
    BloodCon(5) = tr("7 days");
    BloodCon(6) = tr("Today");
+   
   { converts parameter to numbers  }
   xintnum  = tonumber( sysparm()[1:4] );    { interviewer number }
   xsupnum  = tonumber( sysparm()[5:4] );    { supervisor number }
@@ -6613,7 +6614,7 @@ PROC Q480
 
 PROC Q482_BLOCK
 preproc
-  { filter for A481 }
+  { filter for Q481 }
   if Q480 = 2 & Q224(Q404) = 1 then
     skip to Q486
   elseif Q480 = 2 then
@@ -7240,7 +7241,7 @@ preproc
   endif;
 
 postproc
-  { if any vaccinations given, including Vitamin A skip Q529, otherwise A530 }
+  { if any vaccinations given, including Vitamin A skip Q529, otherwise Q530 }
   if $ <> 1 then
     if vacgiven(D509B ) | vacgiven(D509H ) | vacgiven(D509P0) |
        vacgiven(D509P1) | vacgiven(D509P2) | vacgiven(D509P3) | vacgiven(D509P4) |
@@ -8562,7 +8563,7 @@ preproc
   { if currently using }
   elseif Q307N <> notappl then
     skip to Q813
-  { A808 filter }
+  { Q808 filter }
   elseif Q805U = 1 & Q805N in 0:23 |
          Q805U = 2 & Q805N in 0:1  then
     skip to Q812
@@ -8925,7 +8926,7 @@ preproc
 
 PROC Q1010
   if $ <> 1 then
-    skip to Q1015
+    skip to Q1014
   endif;	
 
 PROC Q1014

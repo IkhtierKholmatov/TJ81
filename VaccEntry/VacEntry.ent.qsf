@@ -1,0 +1,123 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.7
+languages:
+  - name: ENG
+    label: English
+  - name: RUS
+    label: Russian
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: FACVACC.FR02
+    conditions:
+      - questionText:
+          ENG: |
+            <p><font color="#0000ff">HAVE YOU LOCATED THE VACCINATION RECORDS OF&nbsp;</font><span style="color: rgb(0, 0, 255); font-weight: 700; text-decoration-line: underline;">~~FRCNAME~~</span><font color="#0000ff">&nbsp;IN THE HEALTH FACILITY (FORMS 024, 063 AND 064)?&nbsp;</font></p>
+          RUS: |
+            <p><font color="#0000ff" face="Arial CYR">ВЫ НАШЛИ ЗАПИСИ ВАКЦИНАЦИЙ&nbsp;</font><span style="color: rgb(0, 0, 255); font-weight: 700; text-decoration-line: underline;">~~FRCNAME~~</span><font color="#0000ff" face="Arial CYR">&nbsp;В МЕДИЦИНСКОМ УЧРЕЖДЕНИИ (ФОРМЫ 024, 063 И 064)?</font><br></p>
+        helpText:
+          ENG: |
+            
+          RUS: |
+            
+  - name: FACVACC.FR03D
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ENG: |
+            <p><span style="font-size:16px;color:#0000ff;">(1) COPY DATES FOR EACH VACCINE FROM THE HEALTH CENTER REGISTRY&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">(2) WRITE &apos;44&apos; IIN DAY COLUMN IF THE REGISTRY SHOWS THAT THE VACCINE WAS GIVEN BUT THE DATE IS NOT RECORDED&#160;</span></p>
+            <p>&#160;</p>
+            <p><span style="font-size:16px;color:#0000ff;">RECORD [<span style="font-weight:bold;text-decoration:underline;color:#ff0080;">~~vaccname~~</span>] DAY&#160;</span></p>
+          RUS: |
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">ПЕРЕПИШИТЕ ДАТУ КАЖДОЙ ВАКЦИНАЦИИ ИЗ ЗАПИСИ В ФОРМАХ 112 И 63 &#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">НАПИШИТЕ <span style="font-family:'Arial';">&lsquo;44&apos; </span>В ГРАФЕ <span style="font-family:'Arial';">&lsquo;</span>ДЕНЬ&apos; ЕСЛИ ПО КАРТОЧКЕ ВИДНО, ЧТО ПРИВИВКА СДЕЛАНА, НО ЗАПИСИ ДАТЫ НЕТ .&#160;</span></p>
+            <p>&#160;</p>
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">ЗАПИШИТЕ ДЕНЬ [<span style="font-weight:bold;color:#ff0080;">~~vaccname~~</span>]&#160;</span></p>
+        helpText:
+          ENG: |
+            
+          RUS: |
+            
+      - logic: curocc() in 2:15
+        questionText:
+          ENG: |
+            <p><span style="font-size:16px;color:#0000ff;">RECORD [<span style="font-weight:bold;text-decoration:underline;color:#ff0080;">~~vaccname~~</span>] DAY&#160;</span></p>
+          RUS: |
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">ЗАПИШИТЕ ДЕНЬ [<span style="font-weight:bold;color:#ff0080;">~~vaccname~~</span>]&#160;</span></p>
+        helpText:
+          ENG: |
+            
+          RUS: |
+            
+  - name: FACVACC.FR03M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span style="font-size:16px;color:#0000ff;">RECORD ~~vaccname~~ MONTH&#160;</span></p>
+          RUS: |
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">ЗАПИШИТЕ МЕСЯЦ [<span style="font-weight:bold;color:#ff0080;">~~vaccname~~</span>]&#160;</span></p>
+        helpText:
+          ENG: |
+            
+          RUS: |
+            
+  - name: FACVACC.FR03Y
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span style="font-size:16px;color:#0000ff;">RECORD ~~vaccname~~ YEAR&#160;</span></p>
+          RUS: |
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">ЗАПИШИТЕ ГОД  [<span style="font-weight:bold;color:#ff0080;">~~vaccname~~</span>]&#160;</span></p>
+        helpText:
+          ENG: |
+            
+          RUS: |
+            
+  - name: FACVACC.FR04
+    conditions:
+      - questionText:
+          ENG: |
+            <font color="#0000ff">WAS CONSENT GRANTED TO TAKE PHOTO OF VACCINATION DATES FROM CHILD'S MEDICAL RECORDS KEPT AT THE MEDICAL FACILITY?</font><p></p>
+          RUS: |
+            <font color="#0000ff">РАЗРЕШЕНИЕ СДЕЛАТЬ ФОТОГРАФИЮ ДАТ ИММУНИЗАЦИЙ ИЗ ЗАПИСЕЙ (ИМЯ ИЗ FR01), ХРАНЯЩИХСЯ В МЕДУЧРЕЖДЕНИИ&nbsp; ПОЛУЧЕНО?</font><p></p>
+  - name: FACVACC.FR05
+    conditions:
+      - questionText:
+          ENG: |
+            <font color="#0000ff">PHOTOGRAPH THE MEDICAL FORMS WITH VACCINATION DATES RECORDED.</font><p></p>
+          RUS: |
+            <font color="#0000ff">СФОТОГРАФИРУЙТЕ&nbsp; МЕДИЦИНСКИЕ ФОРМЫ С ДАТАМИ ВАКЦИНАЦИЙ</font><p></p>
+  - name: FACVACC.FRFINAL
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span style="font-size:16px;color:#0000ff;">PRESS ENTER TO FINISH ENTRY OF VACCINATION RECORD&#160;</span></p>
+          RUS: |
+            <p><span style="font-size:16px;color:#0000ff;font-family:'Arial CYR';">НАЖМИТЕ ENTER ДЛЯ ЗАВЕРШЕНИЯ ВВОДА ДАННЫХ ВАКЦИНЦИИ РЕБЕНКА&#160;</span></p>
+        helpText:
+          ENG: |
+            
+          RUS: |
+            
+...
