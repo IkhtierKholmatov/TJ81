@@ -125,7 +125,7 @@ preproc
  
   { set the name for the HTML file }
   HTML_InitAlign();
-  HTMLname = "RemeasSel.HTML";
+  HTMLname = "RemeasSel.html";
   if FileExist( HTMLname ) then
     FileDelete( HTMLname )
   endif;
@@ -218,10 +218,10 @@ preproc
       getmessage( 50160 );
       hhe = ListErrMsg.add( maketext(alphaMSG, QHNUMBER) )
     endif;
-	{ count households in subsample for height & weight }
+	{{ count households in subsample for height & weight } {No males in TJ2023}
 	if QHELIGM = 1 then
 	  cnthh = cnthh + 1;
-	endif;
+	endif;}
 
     { biomarker front page questionnaire }
     chbio = count( TJHH80.QHSEC01 where QH11 <> 0 );

@@ -1,5 +1,5 @@
 ﻿[FormFile]
-Version=CSPro 7.5
+Version=CSPro 7.7
 Name=RMEASURE_FF
 Label=Remeasure
 DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
@@ -12,8 +12,9 @@ File=..\Dicts\Remeasure.dcf
 [Form]
 Name=FORM001
 Label=Record for children selected for remeasurement
+QuestionTextHeight=111
 Level=1
-Size=734,768
+Size=930,768
   
 Item=RADDRESS
 Item=R102N
@@ -45,12 +46,12 @@ Item=RZSWH
 Item=R115M
 Item=R115Y
   
-Box=33,59,709,158,Etched
-Box=34,164,708,743,Thick
+Box=70,74,856,173,Etched
+Box=23,179,894,758,Thick
   
 [Text]
 Name=TEXT1
-Position=136,32,522,54
+Position=267,37,653,59
 Text=Height & Weight Children Remeasurement
 Form=1
 Font=-019 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
@@ -59,8 +60,8 @@ Color=16711935
   
 [Text]
 Name=TEXT2
-Position=107,3,709,32
-Text=Demographic and Health Surveys - KENYA DHS 2022
+Position=137,8,768,37
+Text=Demographic and Health Surveys - Tajikistan DHS 2022
 Form=1
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 Color=16711680
@@ -76,126 +77,134 @@ Required=Yes
 Name=RMEASURE_FORM
 Label=Record for children selected for remeasurement
 Form=1
-LogicControl=No
 Max=1
   
 [Field]
 Name=RAUXILIAR1
-Position=46,34,61,54
+Position=83,41,98,61
 Item=RAUXILIAR1,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
   
 [Field]
 Name=RCLUSTER
-Position=174,74,231,94
+Position=211,89,268,109
 Item=RCLUSTER,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
 FieldLabelType=DictionaryLabel
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=42,77,86,93
+Position=79,92,123,108
 Text=Cluster
  
   
 [Field]
 Name=RNUMBER
-Position=174,96,231,116
+Position=211,111,268,131
 Item=RNUMBER,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
 FieldLabelType=DictionaryLabel
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=42,100,109,116
+Position=79,115,146,131
 Text=Household
  
   
 [Field]
 Name=RHEADHH
-Position=419,73,700,93
+Position=456,88,737,108
 Item=RHEADHH,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=259,75,402,91
+Position=296,90,439,106
 Text=Household head name
  
   
 [Field]
 Name=RADDRESS
-Position=450,96,871,116
+Position=428,114,849,134
 Item=RADDRESS,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
 FieldLabelType=DictionaryLabel
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=259,98,379,114
+Position=296,113,416,129
 Text=Household address
  
   
 [Field]
 Name=R102L
-Position=358,171,387,191
+Position=347,186,376,206
 Item=R102L,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,173,167,189
+Position=42,188,156,204
 Text=Child line number
  
   
 [Field]
 Name=R102N
-Position=217,196,498,216
+Position=206,211,487,231
 Item=R102N,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,195,126,211
+Position=42,210,115,226
 Text=Child name
  
   
 [Field]
 Name=RSEX
-Position=372,223,387,243
+Position=361,238,376,258
 Item=RSEX,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,226,112,242
+Position=42,241,101,257
 Text=Child sex
  
   
 [Field]
 Name=RVISITS
-Position=216,129,231,149
+Position=253,144,268,164
 Item=RVISITS,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=42,133,143,149
+Position=79,148,180,164
 Text=Number of visits
  
   
 [Field]
 Name=R103D
-Position=358,251,387,271
+Position=347,266,376,286
 Item=R103D,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
@@ -203,13 +212,13 @@ DataCaptureType=ComboBox
 Form=1
   
 [Text]
-Position=53,254,187,270
+Position=42,269,176,285
 Text=103. Day of birth: Day
  
   
 [Field]
 Name=R103M
-Position=358,275,387,295
+Position=347,290,376,310
 Item=R103M,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
@@ -217,13 +226,13 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=162,278,201,294
+Position=151,293,190,309
 Text=Month
  
   
 [Field]
 Name=R103Y
-Position=330,298,387,318
+Position=319,313,376,333
 Item=R103Y,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
@@ -231,76 +240,80 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=162,302,191,318
+Position=151,317,180,333
 Text=Year
  
   
   
 [Field]
 Name=R115D
-Position=356,636,385,656
+Position=345,651,374,671
 Item=R115D,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,636,222,652
+Position=42,651,211,667
 Text=115.  Remeasure date: Day
  
   
 [Field]
 Name=R115M
-Position=356,661,385,681
+Position=345,676,374,696
 Item=R115M,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=195,664,234,680
+Position=184,679,223,695
 Text=Month
  
   
 [Field]
 Name=R115Y
-Position=328,686,385,706
+Position=317,701,374,721
 Item=R115Y,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=194,686,223,702
+Position=183,701,212,717
 Text=Year
  
   
 [Field]
 Name=R104
-Position=370,325,385,345
+Position=359,340,374,360
 Item=R104,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,327,297,343
+Position=42,342,286,358
 Text=104. Eligibility based on age in months
  
   
 [Field]
 Name=R106
-Position=314,355,385,375
+Position=303,370,374,390
 Item=R106,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=ComboBox
 Form=1
   
 [Text]
-Position=53,356,209,372
+Position=42,371,198,387
 Text=106. Weight in kilograms
  
   
 [Field]
 Name=R106W
-Position=392,355,463,375
+Position=381,370,452,390
 Item=R106W,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -309,33 +322,33 @@ Form=1
   
 [Field]
 Name=R107
-Position=370,386,385,406
+Position=359,401,374,421
 Item=R107,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=53,389,197,405
+Position=42,404,186,420
 Text=107. Minimally dressed
  
   
 [Field]
 Name=R108
-Position=315,414,386,434
+Position=304,429,375,449
 Item=R108,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=ComboBox
 Form=1
   
 [Text]
-Position=53,417,217,433
+Position=42,432,206,448
 Text=108. Height in centimeters
  
   
 [Field]
 Name=R108W
-Position=392,414,463,434
+Position=381,429,452,449
 Item=R108W,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=ComboBox
@@ -344,102 +357,108 @@ Form=1
   
 [Field]
 Name=R109
-Position=370,442,385,462
+Position=359,457,374,477
 Item=R109,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=53,445,237,461
+Position=42,460,226,476
 Text=109. Height: lying or standing
  
   
 [Field]
 Name=R110
-Position=370,470,385,490
+Position=359,485,374,505
 Item=R110,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=53,473,292,489
+Position=42,488,281,504
 Text=110.  Correct measurement procedure
  
   
 [Field]
 Name=R111
-Position=57,524,898,544
+Position=46,539,887,559
 Item=R111,RMEASURE
 UseEnterKey=Yes
 UpperCase=Yes
+DataCaptureType=TextBox
+Keyboard=1049
 Form=1
   
 [Text]
-Position=53,499,283,515
+Position=42,514,272,530
 Text=111.  Reason not measured correctly
  
   
 [Field]
 Name=R112
-Position=370,549,385,569
+Position=359,564,374,584
 Item=R112,RMEASURE
 UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=53,552,312,568
+Position=42,567,301,583
 Text=112.  Measurement interfered with braids
  
   
 [Field]
 Name=R113
-Position=328,579,385,599
+Position=317,594,374,614
 Item=R113,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,582,193,598
+Position=42,597,182,613
 Text=113. Fieldworker code
  
   
 [Field]
 Name=R114
-Position=328,605,385,625
+Position=317,620,374,640
 Item=R114,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=53,608,176,624
+Position=42,623,165,639
 Text=114.  Assistant code
  
   
 [Field]
 Name=RZSWH
-Position=594,658,651,678
+Position=583,673,640,693
 Item=RZSWH,RMEASURE
 UseEnterKey=Yes
 Protected=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=433,661,574,677
+Position=422,676,563,692
 Text=Weight/height Z-Score
  
   
 [Field]
 Name=RAUXILIAR2
-Position=633,689,648,709
+Position=622,704,637,724
 Item=RAUXILIAR2,RMEASURE
 UseEnterKey=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=433,692,484,708
+Position=422,707,473,723
 Text=Finalize
  
 [Block]
