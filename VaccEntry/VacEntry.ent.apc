@@ -167,17 +167,14 @@ preproc
  
   { converts parameter to numbers  }
   xcluster = tonumber( sysparm()[1:4] );     { cluster number } 
-  xsuperv  = tonumber( sysparm()[5:4] );     { supervisor number }
-   xinterv  = tonumber( sysparm()[1:4] );    { interviewer number }
-  xhhnum   = tonumber( sysparm()[14:4] );    { household number }
-  xmline   = tonumber( sysparm()[18:2] );    { individual line number }
-  
-  //loading household
+  xhhnum   = tonumber( sysparm()[5:4] );    { household number }
+  xmline   = tonumber( sysparm()[9:2] );    { individual line number }
+  xcline   = tonumber( sysparm()[11:2] );    { individual line number }
+  xsuperv  = tonumber( sysparm()[13:4] );     { supervisor number }
+ 
   QHCLUST = xcluster;
   QHNUMBER = xhhnum;
-  QHSUPERV = xsuperv;
-  QHINTNUM = xinterv;
-  
+
   if !loadcase(TJHH80, QHCLUST, QHNUMBER) then
     errmsg("Error loading household data");
     stop(-1);
@@ -194,13 +191,7 @@ preproc
   endif;
   
   //getting child's column index in the vacctionation section
-  xccol = 0;
-  do i = 1 while i <= noccurs(TJIN80.QWSEC05) by 1
-    if QCOL51(i) = xcline then
-      xccol = i;
-      break;
-    endif;
-  enddo;
+  xccol = seek (Q503 = xcline);
   
   if !xccol then
     errmsg("Child not found in section 14 of mother's questionnaire");
@@ -254,13 +245,16 @@ preproc
   
 PROC FRCDOBD
 preproc
- $ = Q508D(xccol);
-PROC FRCDOBM
-preproc
- $ = Q508M(xccol);
-PROC FRCDOBY
-preproc
- $ = Q508Y(xccol);
+if Q508D(xccol) <> notappl then
+  $ = Q508D(xccol);
+  FRCDOBM = Q508M(xccol);
+  FRCDOBY = Q508Y(xccol);
+else
+  $ = Q220D(xcline);
+  FRCDOBM = Q220M(xcline);
+  FRCDOBY = Q220Y(xcline);
+endif;
+
 PROC FRDNAME
 preproc
   $ = strip(FA07A(xccol)) + " " + strip(FA07B(xccol));
