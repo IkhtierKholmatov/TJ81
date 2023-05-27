@@ -425,6 +425,39 @@ PROC GLOBAL
     close( piffile );
   end;
 
+  function VacEntry( addmode, savpart);
+    InitPFF();
+    if addmode then
+      FileWrite( piffile, "StartMode=ADD" );
+      FileWrite( piffile, "Lock=Modify, Verify" );
+    else
+      FileWrite( piffile, "Lock=Modify, Verify" );
+      if savpart then
+        FileWrite( piffile, "StartMode=ADD;" + xcase );
+      else
+        FileWrite( piffile, "StartMode=MODIFY;" + xcase );
+      endif;
+    endif;
+    FileWrite( piffile, "ShowInApplicationListing=Never" );
+    FileWrite( piffile, "Fullscreen=Yes" );
+    FileWrite( piffile, "NoFileOpen=Yes" );
+
+    FileWrite( piffile, "[Files]" );
+    FileWrite( piffile, "Application=" + "..\VaccEntry\" + AppName + ".ent" );
+    FileWrite( piffile, "InputData=" + final + "\F" + xcluster + ".dat");
+    FileWrite( piffile, "Listing=" + superv + "\" + appname + ".lst" );
+
+    FileWrite( piffile, "[ExternalFiles]" );
+    FileWrite( piffile, "CLUSTERS=" + wrkref + "\CLUSTERS.DAT" );
+    FileWrite( piffile, "TJHH80=" + work + "\ALLHH.DAT" );
+    FileWrite( piffile, "TJIN80=" + work + "\ALLIND.DAT" );
+
+    FileWrite( piffile, "[Parameters]" );
+    FileWrite( piffile, "Language=" + GetLanguage() );
+    FileWrite( piffile, "Parameter=" + xparamet );
+    FileWrite( piffile, "OnExit=.\SupMenu.pff" );
+    close( piffile );
+  end;
   { construct PFF file to run application to select children for remeasurement }
   function RemeasSel( )
     InitPFF();
@@ -1535,6 +1568,78 @@ PROC GLOBAL
       endif;
     enddo;
   end;
+  function run_VacEntry ();
+    // read woman's data and build list of children
+    array string list_ch (50,9);
+    numeric status;
+    if !anyfiles(2) then            { check if ind files have been transferred to supervisor }
+      errmsg( 080, xcluster );
+      reenter WFINAL;
+    else
+      if  FindDups( dirstocheck, xcluster, 1) | FindDups( dirstocheck, xcluster, 2) then
+        reenter WFINAL;
+      else
+        concathh();     { concatenate household questionnaires from all interviewers }
+        concatind();     { concatenate individual questionnaires from all interviewers }
+        open(TJIN80);
+        // open facility file for checking status
+        fname = final + "\F" + xcluster + ".dat";
+        if !FileExist(fname) then
+          setfile(FACVACC, fname, create); 
+        else
+          setfile(FACVACC, fname, update); 
+        endif;
+        i = 0;
+        forcase TJIN80 where QRESULT = 1 & seek(FA01 = 1) do // build list of children
+          do j = 1 until j > noccurs(QWSEC05)
+            if FA01(j) = 1 then
+              inc(i);
+              list_ch(i,1) = edit("9999",QCLUSTER);
+              list_ch(i,2) = edit("9999", QNUMBER );
+              list_ch(i,3) = edit("99",  QLINE );
+              list_ch(i,4) = QNAME;
+              list_ch(i,5) = edit("99", Q503(j) );
+              list_ch(i,6) = Q503N(j);
+              if Q508D(j) <> notappl then
+                list_ch(i,7) = maketext("%02d-%02d-%04d",Q508D(j), Q508M(j), Q508Y(j));
+              else
+                list_ch(i,7) = maketext("%02d-%02d-%04d",Q220D(Q503(j)), Q220M(Q503(j)), Q220Y(Q503(j)));
+              endif;
+              FRCLUST = QCLUSTER;
+              FRHNUMBER = QNUMBER;
+              FRMLINE = QLINE;
+              FRCLINE = Q503(j);
+              clear(FACVACC);
+              found = loadcase(FACVACC);
+              recode found :: FR04    -> string status_str     :: status  ;
+                         1 :: notappl -> tr( "Partial" )       ::  2 ;
+                         1 :: 1,2     -> tr( "Completed" )     ::  1 ;
+                           ::         -> tr( "Not entered" )   ::  0 ;
+              endrecode;
+              list_ch(i,8) = status_str;
+              list_ch(i,9) = edit("9", status);
+            endif;
+          enddo;
+        enddo;
+        // show list of children
+        numeric childsel = showarray( tr("Select a child for entry"), list_ch,
+                           title(tr( "Cluster" ), tr( "Household" ), tr( "Line number" ), tr( "Mother" ), tr( "Child line" ), tr( "Child Name" ), tr( "Date of birth" ), tr( "Status" )));
+          if childsel then
+            xcase  = strip(list_ch(childsel,1)) + strip(list_ch(childsel,2)) + strip(list_ch(childsel,3)) + strip(list_ch(childsel,5));
+            appname = "VacEntry";
+            xparamet = xcase + xsuperv;
+            status = tonumber ( list_ch(childsel, 9) );
+            recode status  -> x   ;
+                      0    -> VacEntry( 1,0); { new }
+                      2    -> VacEntry( 0,1); { partial }
+                      1    -> VacEntry( 0,0); { modify }
+                           -> 9; 
+            endrecode; 
+            RunPFFS();
+          endif;
+      endif;
+    endif;
+  end;
 
 PROC FL_MENU
 PreProc
@@ -2118,61 +2223,7 @@ postproc
     //   endif;
     endif;
   elseif action = 12 then      { facility vaccination cards }
-    // read woman's data and build list of children
-    array string list_ch (50,8);
-    if !anyfiles(2) then            { check if ind files have been transferred to supervisor }
-      errmsg( 080, xcluster );
-      reenter WFINAL;
-    else
-      if FindDups( dirstocheck, xcluster, 2) then
-        reenter WFINAL;
-      else
-        concatind();     { concatenate individual questionnaires from all interviewers }
-        open(TJIN80);
-        // open facility file for checking status
-        fname = final + "\F" + xcluster + ".dat";
-        if !FileExist(fname) then
-          setfile(FACVACC, fname, create); 
-        else
-          setfile(FACVACC, fname, update); 
-        endif;
-        i = 0;
-        forcase TJIN80 where QRESULT = 1 & seek(FA01 = 1) do // build list of children
-          inc(i);
-          do j = 1 until j > noccurs(QWSEC05)
-            if FA01(j) = 1 then
-              list_ch(i,1) = edit("9999",QCLUSTER);
-              list_ch(i,2) = edit("9999", QNUMBER );
-              list_ch(i,3) = edit("99",  QLINE );
-              list_ch(i,4) = QNAME;
-              list_ch(i,5) = edit("9", Q503(j) );
-              list_ch(i,6) = Q503N(j);
-              list_ch(i,7) = maketext("%02d-%02d-%04d",Q508D(j), Q508M(j), Q508Y(j));
-              FRCLUST = QCLUSTER;
-              FRHNUMBER = QNUMBER;
-              FRMLINE = QLINE;
-              FRCLINE = Q503(j);
-              clear(FACVACC);
-              found = loadcase(FACVACC);
-              recode found :: FR05    -> string status_str     :: numeric status  ;
-                         1 :: notappl -> tr( "Partial" )       ::  2 ;
-                         1 :: 1,2     -> tr( "Completed" )     ::  1 ;
-                           ::         -> tr( "Not entered" )   ::  0 ;
-              endrecode;
-              list_ch(i,8) = status_str;
-            endif;
-          enddo;
-        enddo;
-        // show list of children
-        numeric childsel = showarray( tr("Select a child for entry"), list_ch,
-                           title("Cluster", "Household", "Line number", "Mother's name", "Child line", "Child Name", "Date of birth", "Status"));
-          if childsel then
-            // xcase  = edit("9999", list_ch(childsel,1)) + edit("9999", list_ch(childsel,2)) + edit("99", list_ch(childsel,3)) + edit("99", list_ch(childsel,5));
-            appname = "VacEntry";
-          endif;
-      endif;
-    endif;
-  
+    run_VacEntry();
   elseif action = 13 then      { re-interview menu !!! }
     if getlanguage() = "EN" then
          option = accept ("Re-interview menu",
