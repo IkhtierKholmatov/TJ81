@@ -1886,11 +1886,12 @@ postproc
             { 9}  "9 List cluster's notes",
             {10}  "U Send upgrades to interviewers",
             {11}  "R Height and weight remeasurement",
-            {12}  "I ---Reinterview Menu---",
-            {13}  "C Change cluster number",
-            {14}  "D ---Other options------",
-            {15}  "L- Change language",
-            {16}  "E Exit system" );
+            {12}  "V Enter vaccination cards from health facility",
+            {13}  "I ---Reinterview Menu---",
+            {14}  "C Change cluster number",
+            {15}  "D ---Other options------",
+            {16}  "L- Change language",
+            {17}  "E Exit system" );
   else
     heading = maketext("Супервайзер %4d: %s: Кластер %s [%s] " , WSUPER, getbluetoothname(), xcluster , versiontxt) ;
     action = accept( heading,
@@ -1905,13 +1906,14 @@ postproc
 			{ 9}  "9 Перечислить заметки к кластера", 
 			{10}  "U Отправка обновлений интервьюерам",  
 			{11}  "R Повторное измерение роста и веса",  
-			{12}  "I ---Меню повторного интервью---", 
-			{13}  "C Изменить номер кластера" , 
-			{14}  "D ---Другие опции------",  
-			{15}  "L Поменять язык",
-			{16}  "E Выход из системы");  
+			{12}  "V Ввести карты прививок из медицинского учреждения",  
+			{13}  "I ---Меню повторного интервью---", 
+			{14}  "C Изменить номер кластера" , 
+			{15}  "D ---Другие опции------",  
+			{16}  "L Поменять язык",
+			{17}  "E Выход из системы");  
   endif;
-  if !action | action = 16 then
+  if !action | action = 17 then
     fname = superv + "\justone.txt";
     if FileExist( justone ) then
       FileDelete( justone )
@@ -2115,7 +2117,63 @@ postproc
     //     errmsg( 110, fname );
     //   endif;
     endif;
-  elseif action = 12 then      { re-interview menu !!! }
+  elseif action = 12 then      { facility vaccination cards }
+    // read woman's data and build list of children
+    array string list_ch (50,8);
+    if !anyfiles(2) then            { check if ind files have been transferred to supervisor }
+      errmsg( 080, xcluster );
+      reenter WFINAL;
+    else
+      if FindDups( dirstocheck, xcluster, 2) then
+        reenter WFINAL;
+      else
+        concatind();     { concatenate individual questionnaires from all interviewers }
+        open(TJIN80);
+        // open facility file for checking status
+        fname = final + "\F" + xcluster + ".dat";
+        if !FileExist(fname) then
+          setfile(FACVACC, fname, create); 
+        else
+          setfile(FACVACC, fname, update); 
+        endif;
+        i = 0;
+        forcase TJIN80 where QRESULT = 1 & seek(FA01 = 1) do // build list of children
+          inc(i);
+          do j = 1 until j > noccurs(QWSEC05)
+            if FA01(j) = 1 then
+              list_ch(i,1) = edit("9999",QCLUSTER);
+              list_ch(i,2) = edit("9999", QNUMBER );
+              list_ch(i,3) = edit("99",  QLINE );
+              list_ch(i,4) = QNAME;
+              list_ch(i,5) = edit("9", Q503(j) );
+              list_ch(i,6) = Q503N(j);
+              list_ch(i,7) = maketext("%02d-%02d-%04d",Q508D(j), Q508M(j), Q508Y(j));
+              FRCLUST = QCLUSTER;
+              FRHNUMBER = QNUMBER;
+              FRMLINE = QLINE;
+              FRCLINE = Q503(j);
+              clear(FACVACC);
+              found = loadcase(FACVACC);
+              recode found :: FR05    -> string status_str     :: numeric status  ;
+                         1 :: notappl -> tr( "Partial" )       ::  2 ;
+                         1 :: 1,2     -> tr( "Completed" )     ::  1 ;
+                           ::         -> tr( "Not entered" )   ::  0 ;
+              endrecode;
+              list_ch(i,8) = status_str;
+            endif;
+          enddo;
+        enddo;
+        // show list of children
+        numeric childsel = showarray( tr("Select a child for entry"), list_ch,
+                           title("Cluster", "Household", "Line number", "Mother's name", "Child line", "Child Name", "Date of birth", "Status"));
+          if childsel then
+            // xcase  = edit("9999", list_ch(childsel,1)) + edit("9999", list_ch(childsel,2)) + edit("99", list_ch(childsel,3)) + edit("99", list_ch(childsel,5));
+            appname = "VacEntry";
+          endif;
+      endif;
+    endif;
+  
+  elseif action = 13 then      { re-interview menu !!! }
     if getlanguage() = "EN" then
          option = accept ("Re-interview menu",
                 "1. Select households for re-interview",
@@ -2157,7 +2215,7 @@ postproc
         RunPFFS();
        endif;
      endif;
-  elseif action = 13 then      { change cluster number }
+  elseif action = 14 then      { change cluster number }
     reenter WCLUSTER
   // elseif action = 13 then      { change language }
   //   x =  accept(tr("Select Language"), 
@@ -2169,7 +2227,7 @@ postproc
   //   endrecode;
   //   savesetting("Language", getlanguage());
   //   reenter;
-  elseif action = 14 then      { diagnostic tools to view logs }
+  elseif action = 15 then      { diagnostic tools to view logs }
     if getlanguage() = "EN" then
 		option = accept ("Other options",
                 "1. Split a Household",
@@ -2255,7 +2313,7 @@ postproc
     else
       reenter;
     endif;
-  elseif action = 15 then
+  elseif action = 16 then
     x =  accept(tr("Select Language"), 
            "English",
            "Russian");
