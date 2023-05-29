@@ -275,9 +275,9 @@ Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Consent to take photo of vaccination passport|Photographie prise du carnet de vaccination
+Label=Consent to take photo of vaccination passport|
 Name=FR04_VS1
-Value=1;Yes, consent granted|Photographie prise|ФОТОГРАФИЯ СДЕЛАНА
+Value=1;Yes, consent granted|Photographie prise
 Value=2;No|ФОТОГРАФИЯ НЕ СДЕЛАНА, РАЗРЕШЕНИЕ НЕ ПОЛУЧЕНО
 
 [Item]
@@ -288,10 +288,10 @@ Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Photograph taken of vaccination passport|Photographie prise du carnet de vaccination
+Label=Photograph taken of vaccination passport
 Name=FR05_VS1
-Value=1;Photograph taken|Photographie prise|ФОТОГРАФИЯ СДЕЛАНА
-Value=2;Photograph not taken|ФОТОГРАФИЯ НЕ СДЕЛАНА, РАЗРЕШЕНИЕ НЕ ПОЛУЧЕНО
+Value=1;Photograph taken|ФОТОГРАФИЯ СДЕЛАНА
+Value=2;Photograph not taken|ФОТОГРАФИЯ НЕ СДЕЛАНА
 
 [Item]
 Label=Handle to finish questionnaire

@@ -303,7 +303,7 @@ Name=R106
 Position=303,370,374,390
 Item=R106,RMEASURE
 UseEnterKey=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
 Form=1
   
 [Text]
@@ -316,7 +316,7 @@ Name=R106W
 Position=381,370,452,390
 Item=R106W,RMEASURE
 UseEnterKey=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
 Form=1
   
   
@@ -338,7 +338,7 @@ Name=R108
 Position=304,429,375,449
 Item=R108,RMEASURE
 UseEnterKey=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
 Form=1
   
 [Text]
@@ -351,7 +351,7 @@ Name=R108W
 Position=381,429,452,449
 Item=R108W,RMEASURE
 UseEnterKey=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
 Form=1
   
   

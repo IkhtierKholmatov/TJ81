@@ -9007,7 +9007,7 @@ DataType=Numeric
 Label=Work through year/seasonally
 Name=Q915_VS1
 Value=1;Throughout the year|КРУГЛЫЙ ГОД|КРУГЛЫЙ ГОД
-Value=2;Seasonally/part of the year|SПОСЕЗОННО/ЧАСТЬ ГОДА|SПОСЕЗОННО/ЧАСТЬ ГОДА
+Value=2;Seasonally/part of the year|ПОСЕЗОННО/ЧАСТЬ ГОДА|SПОСЕЗОННО/ЧАСТЬ ГОДА
 Value=3;Once in a while|ИНОГДА|ИНОГДА
 
 [Item]

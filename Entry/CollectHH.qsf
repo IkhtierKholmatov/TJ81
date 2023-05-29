@@ -30,6 +30,15 @@ styles:
     css: |
       font-family: Arial;font-size: 18px;
 questions:
+  - name: TJHH80.QHTYPE
+    conditions:
+      - questionText:
+          EN: |
+            <font color="#0000ff">CLUSTER TYPE</font><p></p>
+          RU: |
+            <font color="#0000ff">ТИП КЛАСТЕРА</font><p></p>
+          TJ: |
+            <font color="#0000ff">НАВИ КЛАСТЕР</font><p></p>
   - name: TJHH80.QHADDRESS
     conditions:
       - questionText:
@@ -426,15 +435,6 @@ questions:
             <p>19.  В течение [этого/того] учебного года, какой уровень  вы [посещаете/посещали]?</p>
           TJ: |
             <p>19.  Дар давоми [ин/ё он] соли хониш, шумо дар кадом сатҳ  [меравед/рафта будед]?</p>
-  - name: TJHH80.QH20
-    conditions:
-      - questionText:
-          EN: |
-            <p>20.  Does ~~QH02~~ have a birth certificate?</p><p><span class="instruction">IF NO, PROBE:</span></p><p>Has ~~QH02~~&#39;s birth ever been registered with the civil authority?</p>
-          RU: |
-            <p>20.  У ~~QH02~~ есть свидетельство о рождении?</p><p><span class="instruction">ЕСЛИ НЕТ, УТОЧНИТЕ:</span></p><p>Рождение ~~QH02~~ было когда-либо зарегистрировано в органах государственной власти?</p>
-          TJ: |
-            <p>20.  Оё ~~QH02~~ шаҳодатномаи таваллуд дорад?</p><p><span class="instruction">АГАР НЕ, МУАЙЯН КУНЕД:</span></p><p>Оё таваллуди ~~QH02~~ ягон вақт дар мақомоти давлатӣ ба қайд гирифта шудааст?</p>
   - name: TJHH80.QH19B
     conditions:
       - logic: QH01 <> QHRESP
@@ -453,6 +453,15 @@ questions:
             <p>19.  В течение [этого/того] учебного года, какой класс/курс  вы [посещаете/посещали]?</p>
           TJ: |
             <p>19.  Дар давоми [ин/ё он] соли хониш, шумо дар кадом синф/курс [меравед/рафта будед]?</p>
+  - name: TJHH80.QH20
+    conditions:
+      - questionText:
+          EN: |
+            <p>20.  Does ~~QH02~~ have a birth certificate?</p><p><span class="instruction">IF NO, PROBE:</span></p><p>Has ~~QH02~~&#39;s birth ever been registered with the civil authority?</p>
+          RU: |
+            <p>20.  У ~~QH02~~ есть свидетельство о рождении?</p><p><span class="instruction">ЕСЛИ НЕТ, УТОЧНИТЕ:</span></p><p>Рождение ~~QH02~~ было когда-либо зарегистрировано в органах государственной власти?</p>
+          TJ: |
+            <p>20.  Оё ~~QH02~~ шаҳодатномаи таваллуд дорад?</p><p><span class="instruction">АГАР НЕ, МУАЙЯН КУНЕД:</span></p><p>Оё таваллуди ~~QH02~~ ягон вақт дар мақомоти давлатӣ ба қайд гирифта шудааст?</p>
   - name: TJHH80.QCDI3
     conditions:
       - questionText:
@@ -1745,18 +1754,18 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span class="instruction">106.  RECORD ~~QCNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xx.xx and enter the decimal point) </p>
+            <p><span class="instruction">106.  RECORD ~~QCNAME~~'S WEIGHT IN KILOGRAMS. </span></p><p><font color="#0000ff">(Use format xx.xx and enter the decimal point) </font></p>
           RU: |
-            <p><span class="instruction">106.  ЗАПИШИТЕ ~~QCNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичное значение)</p>
+            <p><span class="instruction">106.  ЗАПИШИТЕ ~~QCNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p><font color="#0000ff">(Используйте формат xx.xx и введите десятичное значение)</font></p>
           TJ: |
             <p><span class="instruction">106.  ВАЗНИ ~~QCNAME~~-РО БО КИЛОГРАММ НАВИСЕД.</span></p><p>(Формати xx.xx-ро истифода баред ва нишондодњои даҳї ворид кунед)</p>
   - name: TJHH80.QB106W
     conditions:
       - questionText:
           EN: |
-            <p><span class="instruction">106.  RE-ENTER ~~QCNAME~~&#39;S WEIGHT IN KILOGRAMS. </span></p><p>(Use format xx.xx and enter the decimal point) </p>
+            <p><span class="instruction">106.  RE-ENTER ~~QCNAME~~'S WEIGHT IN KILOGRAMS. </span></p><p><font color="#0000ff">(Use format xx.xx and enter the decimal point) </font></p>
           RU: |
-            <p><span class="instruction">106.  ПОВТОРНО ВВЕДИТЕ ~~QCNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p>(Используйте формат xx.xx и введите десятичное значение)</p>
+            <p><span class="instruction">106.  ПОВТОРНО ВВЕДИТЕ ~~QCNAME~~ ВЕС В КИЛОГРАММАХ.</span></p><p><font color="#0000ff">(Используйте формат xx.xx и введите десятичное значение)</font></p>
           TJ: |
             <p><span class="instruction">106.  ВАЗНИ ~~QCNAME~~-РО БА КИЛОГРАММА АЗ НАВ ДОХИЛ КУНЕД.</span></p><p>(Формати xx.xx-ро истифода баред ва нишондодњои дањї ворид кунед)</p>
   - name: TJHH80.QB107
@@ -1772,18 +1781,18 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p><span class="instruction">108.  RECORD ~~QCNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
+            <p><span class="instruction">108.  RECORD ~~QCNAME~~'S HEIGHT IN CENTIMETERS. </span></p><p><font color="#0000ff">(Use format xxx.x and enter the decimal point) </font></p>
           RU: |
-            <p><span class="instruction">108.  ЗАПИШИТЕ ~~QCNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичное значение)</p>
+            <p><span class="instruction">108.  ЗАПИШИТЕ ~~QCNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p><font color="#0000ff">(Используйте формат xxx.x и введите десятичное значение)</font></p>
           TJ: |
             <p><span class="instruction">108.  ЌАДИ ~~QCNAME~~-РО БА СЕНТИМЕТР НАВИСЕД.</span></p><p>(Формати xx.xx-ро истифода баред ва нишондодњои даҳї ворид кунед)</p>
   - name: TJHH80.QB108W
     conditions:
       - questionText:
           EN: |
-            <p><span class="instruction">108.  RE-ENTER ~~QCNAME~~&#39;S HEIGHT IN CENTIMETERS. </span></p><p>(Use format xxx.x and enter the decimal point) </p>
+            <p><span class="instruction">108.  RE-ENTER ~~QCNAME~~'S HEIGHT IN CENTIMETERS. </span></p><p><font color="#0000ff">(Use format xxx.x and enter the decimal point) </font></p>
           RU: |
-            <p><span class="instruction">108.  ПОВТОРНО ВВЕДИТЕ ~~QCNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p>(Используйте формат xxx.x и введите десятичное значение)</p>
+            <p><span class="instruction">108.  ПОВТОРНО ВВЕДИТЕ ~~QCNAME~~ РОСТ В САНТИМЕТРАХ.</span></p><p><font color="#0000ff">(Используйте формат xxx.x и введите десятичное значение)</font></p>
           TJ: |
             <p>108.  КАДИ ~~QCNAME~~-ро БО СЕНТИМЕТР АЗ НАВ ДОХИЛ КУНЕД.</p><p>(Формати xx.xx-ро истифода баред ва нишондодњои даҳї ворид кунед)</p>
   - name: TJHH80.QB109

@@ -128,9 +128,9 @@
     numeric isOK = 1, z;
     box xlevel => z;
            0   => 2; { Preschool maximum }
-           1   => 6; { Primary maximum }
-           2   => 4; { Secondary maximum }
-		   3   => 3; { Secondary maximum }
+           1   => 11; { Primary maximum }
+           2   => 6; { Secondary maximum } {Profesional primary}
+		   3   => 6; { Secondary maximum } {Profesional middle}
            4   => 4; { Higher maximum }
     endbox;
     if valid(xyears) & xyears > z then

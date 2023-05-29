@@ -154,7 +154,7 @@ preproc
 
   { set language at start of the program, defaulting to language passed by menu }
   setlanguage(loadsetting("Language", getlanguage()));
-
+  
   setfont( ALL, "Arial", 16, bold );
 
 

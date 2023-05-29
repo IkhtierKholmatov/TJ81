@@ -48,7 +48,7 @@ preproc
   
   { set the name for the HTML file }
   HTML_InitAlign();
-  HTMLName = "ListRI.HTML";
+  HTMLName = "ListRI.html";
 
   if FileExist( HTMLName ) then
     FileDelete( HTMLName )
@@ -131,7 +131,7 @@ preproc
       CompareHH(1,1) = edit("9999",QHNUMBER); {HH number in Main data }
       CompareHH(2,1) = tr( "Reinterview" );   {Main questionnaire }
       CompareHH(3,1) = edit("Z9",count(QHSEC01X where QHLIVES = 1));   { total usual residents }
-      CompareHH(4,1) = edit("Z9",count(QHSEC01X where QHLIVES <> 1 & QHSLEPT = 1));   { total visitors }
+      CompareHH(4,1) = edit("Z9",count(QHSEC01X where QHLIVES <> 1 & QHSTAYED = 1));   { total visitors }
       CompareHH(5,1) = edit("Z9",QHWOMEN);    {Total number of women 15-49 }
       CompareHH(6,1) = edit("Z9",count(QHSEC01X where QHAGE <= 5));    {Total number of children 0-5 }
       CompareHH(7,1) = getValuelabel (QH128);    {Has animals}
@@ -152,7 +152,7 @@ preproc
       CompareHH(1,2) = edit("9999",QHNUMBER); {HH number in Main data }
       CompareHH(2,2) = tr("Original");            {Main questionnaire }
       CompareHH(3,2) = edit("Z9",count(QHSEC01X where QHLIVES = 1));   { total usual residents }
-      CompareHH(4,2) = edit("Z9",count(QHSEC01X where QHLIVES <> 1 & QHSLEPT = 1));   { total visitors }
+      CompareHH(4,2) = edit("Z9",count(QHSEC01X where QHLIVES <> 1 & QHSTAYED = 1));   { total visitors }
       CompareHH(5,2) = edit("Z9",QHWOMEN);    {Total number of women 15-49 }
       CompareHH(6,2) = edit("Z9",count(QHSEC01X where QHAGE <= 5));    {Total number of children 0-5 }
       CompareHH(7,2) = getValuelabel (QH128);    {Has animals}

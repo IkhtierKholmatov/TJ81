@@ -9451,6 +9451,7 @@ preproc
 
 { @@@ taking GPS coordinates for individual }
 PROC GIAUX
+preproc
 skip to QFINAL;
 
 {preproc

@@ -211,7 +211,8 @@ preproc
         FileReturn( e );
         stop(1);
       endif;
-      { load transmittal sheets to make sure that all barcodes for HIV in questionnaires are defined in transmittal sheets and vice versa }
+	  {No HIV in TJ 2023}{
+	  { load transmittal sheets to make sure that all barcodes for HIV in questionnaires are defined in transmittal sheets and vice versa }
       TCLUSTER = QHCLUST;
       tbcodesHIV = 0;
       if !loadcase( TRANSMIT, TCLUSTER )  then
@@ -225,7 +226,7 @@ preproc
       do i = 1 while i <= tbcodeshiv
         barcodeHIV(i) = TBARCODE(i);
       enddo;
-
+	  }
       { !!!! if malaria or other biomarker transmittal sheet, remove this comment
       { upload transmittal sheet for malaria in case the biomarker was collected }
       transname = filename( TRANSMIT );

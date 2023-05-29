@@ -4791,10 +4791,10 @@ Item=QB106,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
-Position=0,0,42,16
+Position=0,0,44,16
 Text=QB106
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -4806,7 +4806,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,319,16
@@ -4848,9 +4848,10 @@ Item=QB108,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB108
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -4862,7 +4863,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,327,16
@@ -5121,9 +5122,10 @@ Item=QB122,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB122
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
  
@@ -5144,9 +5146,10 @@ Item=QB122W,TJHH80
 UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,248,16
 Text=Уровень гемоглобина (г/дл) - рабочее поле для повторного ввода
 VerticalAlignment=Top
  
@@ -5439,9 +5442,10 @@ UseEnterKey=Yes
 HideInCaseTree=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB205
  
 [Field]
@@ -5452,10 +5456,10 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
-Position=0,0,323,16
+Position=0,0,319,16
 Text=Weight in kilograms - working field for re-entering
  
 [EndColumn]
@@ -5495,9 +5499,10 @@ UseEnterKey=Yes
 HideInCaseTree=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB207
  
 [Field]
@@ -5508,7 +5513,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,327,16
@@ -5780,9 +5785,10 @@ UseEnterKey=Yes
 HideInCaseTree=Yes
 Verify=No
 UpperCase=Yes
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
+Position=0,0,44,16
 Text=QB225
  
 [Field]
@@ -5793,7 +5799,7 @@ UseEnterKey=Yes
 Verify=No
 UpperCase=Yes
 FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
+DataCaptureType=NumberPad
   
 [Text]
 Position=0,0,339,16

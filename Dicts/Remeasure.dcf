@@ -1,5 +1,5 @@
 ﻿[Dictionary]
-Version=CSPro 7.5
+Version=CSPro 7.7
 Label=Children selected for remeasurement
 Name=RMEASURE
 RecordTypeStart=0
@@ -8,6 +8,10 @@ Positions=Relative
 ZeroFill=No
 DecimalChar=Yes
 SecurityOptions=CB238446827C4057C6EBC6691E0CEC094C5EECAF0D5D0D068C677653514D6EC1
+
+[Languages]
+EN=English
+RU=Russian
 
 [Level]
 Label=Children selected for remeasurement
@@ -20,6 +24,7 @@ Label=Cluster
 Name=RCLUSTER
 Start=1
 Len=4
+DataType=Numeric
 ZeroFill=Yes
 
 [Item]
@@ -27,6 +32,7 @@ Label=Household
 Name=RNUMBER
 Start=5
 Len=4
+DataType=Numeric
 ZeroFill=Yes
 
 [Item]
@@ -34,19 +40,21 @@ Label=Child line number
 Name=R102L
 Start=9
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [Record]
 Label=Record for children selected for remeasurement
 Name=CASES_REC
 RecordTypeValue=''
-RecordLen=234
+RecordLen=235
 
 [Item]
 Label=Reason for selection
 Name=RTYPE
 Start=11
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Reason for selection
@@ -54,13 +62,6 @@ Name=RTYPE_EN
 Value=1;Random
 Value=2;Z-Scores
 Value=3;Both
-
-[ValueSet]
-Label=Razon para la seleccion
-Name=RTYPE_ES
-Value=1;Al azar
-Value=2;Z-Scores
-Value=3;Ambos
 
 [Item]
 Label=Textual reason for selection
@@ -88,12 +89,14 @@ Label=Child age declared in household roster
 Name=RAGE
 Start=72
 Len=2
+DataType=Numeric
 
 [Item]
 Label=Child sex declared in household roster
 Name=RSEX
 Start=74
 Len=1
+DataType=Numeric
 
 [Item]
 Label=Name of household head
@@ -107,12 +110,14 @@ Label=Biomarker/Health specialist code
 Name=RBIOMARK
 Start=95
 Len=4
+DataType=Numeric
 
 [Item]
 Label=Day of measurement in CAPI/questionnaire
 Name=RFINTD
 Start=99
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [Item]
@@ -120,6 +125,7 @@ Label=Month of measurement in CAPI/questionnaire
 Name=RFINTM
 Start=101
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [Item]
@@ -127,6 +133,7 @@ Label=Year of measurement in CAPI/questionnaire
 Name=RFINTY
 Start=103
 Len=4
+DataType=Numeric
 ZeroFill=Yes
 
 [Item]
@@ -134,6 +141,7 @@ Label=Weight in kilograms from CAPI/biomarker questionnaire
 Name=RFWEIGHT
 Start=107
 Len=6
+DataType=Numeric
 Decimal=2
 DecimalChar=Yes
 
@@ -142,6 +150,7 @@ Label=Height in centimeters from CAPI/biomarker questionnaire
 Name=RFHEIGHT
 Start=113
 Len=5
+DataType=Numeric
 Decimal=1
 DecimalChar=Yes
 
@@ -150,24 +159,21 @@ Label=Measurement lying/standing from CAPI/biomarker questionnaire
 Name=RFLYNSTN
 Start=118
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Measurement lying/standing from CAPI/biomarker questionnaire
 Name=RFLYNSTN_EN
-Value=1;Lying
-Value=2;Standing
-
-[ValueSet]
-Label=Mediion acostado/de pie del CAPI/biomarcadro
-Name=RFLYNSTN_ES
-Value=1;Acostado
-Value=2;De pie
+Value=1;Lying|ЛЕЖА
+Value=2;Standing|СТОЯ
+Value=7;Absent, Refused or Other|Отсутствует, Отказано или другое
 
 [Item]
 Label=Day of remeasurement
 Name=R115D
 Start=119
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
@@ -180,6 +186,7 @@ Label=Month of remeasurement
 Name=R115M
 Start=121
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
@@ -192,27 +199,24 @@ Label=Year of remeasurement
 Name=R115Y
 Start=123
 Len=4
+DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
 Label=Year of remeasurement
 Name=R115Y_EN
-Value=2020:2025
+Value=2023
 
 [Item]
 Label=Number of visits for remeasurement
 Name=RVISITS
 Start=127
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Number of visits for remeasurement
 Name=RVISITS_EN
-Value=1:5
-
-[ValueSet]
-Label=Numero de visitas para re-medicion
-Name=RVISITS_ES
 Value=1:5
 
 [Item]
@@ -220,113 +224,72 @@ Label=Day of birth
 Name=R103D
 Start=128
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
 Label=Day of birth
 Name=R103D_EN
 Value=1:31
-Value=98;Don't know
-
-[ValueSet]
-Label=Dia de nacimiento
-Name=R103D_ES
-Value=1:31
-Value=98;No sabe
+Value=98;Don't know|НЕ ЗНАЮ
 
 [Item]
 Label=Month of birth
 Name=R103M
 Start=130
 Len=2
+DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
 Label=Month of birth
 Name=R103M_EN
-Value=1;January
-Value=2;February
-Value=3;March
-Value=4;April
-Value=5;May
-Value=6;June
-Value=7;July
-Value=8;August
-Value=9;September
-Value=10;October
-Value=11;November
-Value=12;December
-Value=98;DK month
-
-[ValueSet]
-Label=Mes de nacimiento
-Name=R103M_ES
-Value=1;Enero
-Value=2;Febrero
-Value=3;Marzo
-Value=4;Abril
-Value=5;Mayo
-Value=6;Junio
-Value=7;Julio
-Value=8;Agosto
-Value=9;Septiembre
-Value=10;Octubre
-Value=11;Noviembre
-Value=12;Diciembre
-Value=98;No sabe
+Value=1;January|Январь
+Value=2;February|Февраль
+Value=3;March|Март
+Value=4;April|Апрель
+Value=5;May|Май
+Value=6;June|Июнь
+Value=7;July|Июль
+Value=8;August|Август
+Value=9;September|Сентябрь
+Value=10;October|Октябрь
+Value=11;November|Ноябрь
+Value=12;December|Декабрь
+Value=98;DK month|НЕ ЗНАЮ
 
 [Item]
 Label=Year of birth
 Name=R103Y
 Start=132
 Len=4
+DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
 Label=Year of birth
 Name=R103Y_EN
-Value=2015;2015
-Value=2016;2016
-Value=2017;2017
 Value=2018;2018
 Value=2019;2019
 Value=2020;2020
 Value=2021;2021
-Value=9998;Don't know year
-
-[ValueSet]
-Label=Año de nacimiento
-Name=R103Y_ES
-Value=2015;2015
-Value=2016;2016
-Value=2017;2017
-Value=2018;2018
-Value=2019;2019
-Value=2020;2020
-Value=2021;2021
-Value=9998;No sabe año
+Value=2022;2022
+Value=2023;2023
+Value=9998;Don't know year|Не знаю год
 
 [Item]
 Label=Age of child in years for eligibility
 Name=R104
 Start=136
 Len=1
-
-[ValueSet]
-Label=Age of child in years for eligibility
-Name=R104_EN
-Value=0:4
-
-[ValueSet]
-Label=Elegibilidad basada en edad en años
-Name=R104_ES
-Value=0:4
+DataType=Numeric
 
 [Item]
 Label=Weight in kilograms at remeasurement
 Name=R106
 Start=137
 Len=5
+DataType=Numeric
 Decimal=2
 DecimalChar=Yes
 
@@ -334,23 +297,16 @@ DecimalChar=Yes
 Label=Weight in kilograms at remeasurement
 Name=R106_EN
 Value=0.50:40.00
-Value=99.94;Not present
-Value=99.95;Refused
-Value=99.96;Other
-
-[ValueSet]
-Label=Peso en kilogramos por re-medicion
-Name=R106_ES
-Value=0.50:40.00
-Value=99.94;No presente
-Value=99.95;Rechazo
-Value=99.96;Otro
+Value=99.94;Not present|ОТСУТСТВУЕТ
+Value=99.95;Refused|ОТКАЗАНО
+Value=99.96;Other|ДРУГОЕ
 
 [Item]
 Label=Weight in kilograms - working field for re-entering
 Name=R106W
 Start=142
 Len=5
+DataType=Numeric
 Decimal=2
 DecimalChar=Yes
 
@@ -358,35 +314,30 @@ DecimalChar=Yes
 Label=Weight in kilograms - working field for re-entering
 Name=R106W_EN
 Value=0.50:40.00
-Value=99.94;Not present
-Value=99.95;Refused
-Value=99.96;Other
-
-[ValueSet]
-Label=Peso en kilogramos - campo de trabajo para re-medicion
-Name=R106W_ES
-Value=0.50:40.00
-Value=99.94;No presente
-Value=99.95;Rechazo
-Value=99.96;Otro
+Value=99.94;Not present|ОТСУТСТВУЕТ
+Value=99.95;Refused|ОТКАЗАНО
+Value=99.96;Other|ДРУГОЕ
 
 [Item]
 Label=Child minimally dressed
 Name=R107
 Start=147
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Child minimally dressed
 Name=R107_VS1
-Value=1;Yes
-Value=2;No
+Value=1;Yes|ДА
+Value=2;No|НЕТ
+Value=7;Absent, Refused or Other|Отсутствует, Отказано или другое
 
 [Item]
 Label=Height in centimeters at remeasurement
 Name=R108
 Start=148
 Len=5
+DataType=Numeric
 Decimal=1
 DecimalChar=Yes
 
@@ -394,23 +345,16 @@ DecimalChar=Yes
 Label=Height in centimeters at remeasurement
 Name=R108_EN
 Value=20.0:140.0
-Value=999.4;Not present
-Value=999.5;Refused
-Value=999.6;Other
-
-[ValueSet]
-Label=Talla en centimetros en la re-medicion
-Name=R108_ES
-Value=20.0:140.0
-Value=999.4;No presente
-Value=999.5;Rechazo
-Value=999.6;Otro
+Value=999.4;Not present|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ
 
 [Item]
 Label=Height in centimeters - working field for re-entering
 Name=R108W
 Start=153
 Len=5
+DataType=Numeric
 Decimal=1
 DecimalChar=Yes
 
@@ -418,47 +362,37 @@ DecimalChar=Yes
 Label=Height in centimeters - working field for re-entering
 Name=R108W_EN
 Value=20.0:140.0
-Value=999.4;Not present
-Value=999.5;Refused
-Value=999.6;Other
-
-[ValueSet]
-Label=Talla en centimetros - campo de trabajo para la re-medicion
-Name=R108W_ES
-Value=20.0:140.0
-Value=999.4;No presente
-Value=999.5;Rechazo
-Value=999.6;Otro
+Value=999.4;Not present|ОТСУТСТВУЕТ
+Value=999.5;Refused|ОТКАЗАНО
+Value=999.6;Other|ДРУГОЕ
 
 [Item]
 Label=Height: lying or standing at remeasurement
 Name=R109
 Start=158
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Height: lying or standing at remeasurement
 Name=R109_EN
-Value=1;Lying
-Value=2;Standing
-
-[ValueSet]
-Label=Talla: medido acostado/de pie en la re-medicion
-Name=R109_ES
-Value=1;Acostado
-Value=2;De pie
+Value=1;Lying|ЛЕЖА
+Value=2;Standing|СТОЯ
+Value=7;Absent, Refused or Other|Отсутствует, Отказано или другое
 
 [Item]
 Label=Correct measurement procedure used
 Name=R110
 Start=159
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Correct measurement procedure used
 Name=R110_VS1
-Value=1;Yes
-Value=2;No
+Value=1;Yes|ДА
+Value=2;No|НЕТ
+Value=7;Absent, Refused or Other|Отсутствует, Отказано или другое
 
 [Item]
 Label=Reason for incorrect measurement
@@ -472,37 +406,49 @@ Label=Child's hair had braids or ornaments
 Name=R112
 Start=220
 Len=1
+DataType=Numeric
 
 [ValueSet]
 Label=Child's hair had braids or ornaments
 Name=R112_VS1
-Value=1;Yes
-Value=2;No
+Value=1;Yes|ДА
+Value=2;No|НЕТ
+Value=7;Absent, Refused or Other|Отсутствует, Отказано или другое
 
 [Item]
 Label=Fieldworker number for H/W
 Name=R113
 Start=221
 Len=4
+DataType=Numeric
 
 [Item]
 Label=Assistant for remeasurement
 Name=R114
 Start=225
 Len=4
+DataType=Numeric
+
+[Item]
+Label=Auxiliary to select child
+Name=RAUXILIAR1
+Start=229
+Len=1
+DataType=Alpha
 
 [Item]
 Label=Auxiliary to finalize remeasurement
-Name=RAUXILIAR
-Start=229
+Name=RAUXILIAR2
+Start=230
 Len=1
 DataType=Alpha
 
 [Item]
 Label=Wt/Ht Standard deviations  (according to WHO)
 Name=RZSWH
-Start=230
+Start=231
 Len=4
+DataType=Numeric
 
 [ValueSet]
 Label=Wt/Ht Standard deviations  (according to WHO)
@@ -517,6 +463,6 @@ Name=MISSING,Special
 [Item]
 Label=Used to have a fix length record
 Name=RLAST
-Start=234
+Start=235
 Len=1
 DataType=Alpha
