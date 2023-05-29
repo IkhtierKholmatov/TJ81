@@ -14,7 +14,8 @@ OutputDir=C:\TJ81\inno
 ;set default path for source folders in the [Files] section
 SourceDir="C:\TJ81"
 ;set the name of the installation file
-OutputBaseFilename=update_tjdhs2023 
+#define FileNamePattern SetupSetting("AppName") + " " + GetDateTimeString('dd-mm-yyyy hh-nn-ss', '-', ':');
+OutputBaseFilename= "{#FileNamePattern}" 
 ;disable default creation of uninstall.exe since we don't usually want the user 
 ;to be able to uninstall the system
 Uninstallable=no
