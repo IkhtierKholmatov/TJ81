@@ -5,20 +5,19 @@ numeric c,i;
 PROC CNULL_FF
 
 clear(SAMPSEL);
-setfile(SAMPSEL, ".\PII\WORK\SAMPSEL.DAT", create);
-do c = 1 while c <= 70
-  setfile(HHFORINT, ".\PII\WORK\S"+edit("9999",c)+".DAT", create);
+setfile(SAMPSEL, ".\PII\REF\SAMPSEL.DAT", create);
+do c = 21 while c <= 32
   clear(HHFORINT);
   clear(SAMPSEL);
   XCLUSTER = c;
-  XTOTAL = 5;
+  XTOTAL = 24;
   XCLDATE = sysdate("YYYYMMDD");
   XCHANGE = 2;
   do i = 1 while i <= XTOTAL
     VNUMBER = i;
      VSTRUCT = i;
-     VADDRESS = "Address";
-     VNAME = "Name";
+     VADDRESS = "Адрес домохозяйства " + edit("99", VNUMBER);
+     VNAME = "Глава семьи " + edit("99", VNUMBER);
      VMALE = 1;
      VINTCODE = ( int(c/10)) * 1000;
      VRESULT = 0;
