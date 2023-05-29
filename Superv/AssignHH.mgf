@@ -5,8 +5,8 @@ language = EN
 015 Household number already exists for cluster, select option again
 020 A male interviewer is assigned to a household not selected for male interview
 025 Interviewer %04d was originally assigned this household, you have now changed the assignment to interviewer %04d. \nPlease be careful when re-assigning households, since if the original interviewer began an interview in this household this may create duplicated cases.\nPlease confirm you wish to re-assign this household
-100 Can't write the case %04d
-101 Case %04d had writen
+100 Case %04d had writen
+101 Can't initialize control file entry for cluster %04d, please check
 
 language = RU
 005 Эта опция не разрешена
@@ -14,8 +14,8 @@ language = RU
 015 Номер домохозяйства уже существует для кластера, выберите вариант еще раз
 020 Мужчина, проводящий собеседование, назначается в домохозяйство, не отобранное для собеседования с мужчинами
 025 Интервьюеру %04d изначально было назначено это домохозяйство, теперь вы изменили назначение на интервьюер %04d. \nПожалуйста, будьте осторожны при переназначении домохозяйств, поскольку, если первоначальный интервьюер начал интервью в этом домохозяйстве, это может привести к дублированию случаев.\nПожалуйста, подтвердите, что вы хотите переназначить это домохозяйство
-100 Не возможно записать случай %04d
-101 Случай %04d записано 
+100 Случай %04d записано 
+101 Не возможно записать случай %04d
 
 { common strings used by the application }
   RU ( "No." ) Номер.

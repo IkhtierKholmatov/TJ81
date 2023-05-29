@@ -1937,6 +1937,8 @@ postproc
 PROC QB122W
   if QB122 <> $ then
     errmsg( 0474 ) select( tr("Hemoglobin"), QB122 ); 
+  elseif $ in 99.4:99.6 then
+    skip to next QBCOL1;
   endif;
   
 PROC QBCOL2
@@ -2089,6 +2091,7 @@ PROC QB216
   if !loadcase(INTERV, $) then
     errmsg( 0025, tr("Fieldworker"), $ ) select( tr("Fieldworker"), $ );
   endif;
+  skip to QB225;
 
 PROC QB217
 onfocus
@@ -2149,6 +2152,8 @@ postproc
 PROC QB225W
   if QB225 <> $ then
     errmsg( 0474 ) select( tr("Hemoglobin"), QB225 );
+  elseif $ in 99.4:99.6 then
+    skip to next QBCOL2;
   endif;
   
 PROC QB226
