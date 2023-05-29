@@ -1025,14 +1025,6 @@ PROC QH19A
 	  select( tr("Level attended"), QH17A, tr("Level current"), $ );
   endif;
 
-PROC QH20
-preproc
-  if !QH07 in 0:4 then
-    skip to next QH01
-  endif;
-  
-postproc  
-  skip to next QH01
 PROC QH19B
   { Verify the maximum grade for the level }
   if !LevelYears( QH19A, $ ) then
@@ -1046,6 +1038,14 @@ PROC QH19B
   endif;
   
 
+PROC QH20
+preproc
+  if !QH07 in 0:4 then
+    skip to next QH01
+  endif;
+  
+postproc  
+  skip to next QH01
 PROC QHWOMEN
 preproc
   $ = count( QHSEC01_ROSTER where QH09 <> 0 );
@@ -1272,7 +1272,7 @@ PROC QH134
 PROC QH136A
 {New skip for TJ23}
   if $ in 2,8 then
-    skip to QH136E;
+    skip to QH136D;
   endif;
 PROC QH136D
 {New skip for TJ23}
