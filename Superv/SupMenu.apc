@@ -1266,7 +1266,7 @@ PROC GLOBAL
         if x then
           QCLUSTER = WCLUSTER;
           QNUMBER  = tonumber( caselist(x,1));
-          QLINE    = tonumber( caselist(x,2)));
+          QLINE    = tonumber( caselist(x,2));
           if loadcase(TJIN80) then
             xcase  = edit("9999", WCLUSTER) + edit("9999",QNUMBER) + edit("99",QLINE);
             xparamet = xparaux + edit("9999",QNUMBER) + edit("99",QLINE);
