@@ -138,7 +138,9 @@ language = RU
   RU ( "HIV" ) ВИЧ
   RU ( "Malaria" ) Малярия
   RU ( "Do you want to review HH/individual questionnaires?" ) Вы хотите просмотреть анкеты HH/ индивидуальные анкеты?
+  RU ( "Select an woman to review from household %04d" ) Выберите женщину для обзора из семьи %04d 
   RU ( "Households" ) Домохозяйства
+  RU ( "Household" ) домохозяйство
   RU ( "Individuals" ) Индивиди
   RU ( "There is another session running or the computer crashed while running" ) Запущен другой сеанс или произошел сбой компьютера во время работы
   RU ( "Reset" ) Сброс
@@ -165,6 +167,19 @@ language = RU
   RU ( "No, do not clean" ) Нет, не чистить
   RU ( "Files for interviewer %04d cleaned" ) Файлы для интервьюера %04d очищены
   RU ( "Partial=%d, result=%d,use option 7 Data Exchange-> 7 Fix result in a household to resolve problem" ) Частичное=%d, результат=%d, используйте вариант 7 Обмен данными-> 7 Исправить результат в домохозяйстве для решения проблемы
+  RU ( "No." ) Номер.
+  RU ( "Name" ) Фамили и имя главы домохозяйства
+  RU ( "Structure" ) Строение
+  RU ( "Male" ) Мужчина
+  RU ( "Int" ) Инт
+  RU ( "Not to be assigned yet" ) Пока еще не назначено
+  RU ( "Advance to end" ) Идти в конец
+  RU ( "and lives at address" ) и живет по адресу
+  RU ( "Seq.No" ) Номер ДХ
+  RU ( "Address" ) Адрес
+  RU ( "Male/L-S" ) Мужчины
+  RU ( "Result" ) Результат
+  RU ( "Interviewer" ) Интервьюер
 	     RU ( "" ) 
 		   RU ( "" ) 
 		   
