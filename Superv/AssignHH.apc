@@ -80,9 +80,7 @@ PROC GLOBAL
       SREMHH(i)   = 0;
       SREMLINE(i) = 0;
     enddo;
-    if writecase( CONTSUP ) then
-      errmsg( 100, SSAMPLE )
-    else
+    if !writecase( CONTSUP ) then
       errmsg( 101, SSAMPLE )
     endif;
   end;
