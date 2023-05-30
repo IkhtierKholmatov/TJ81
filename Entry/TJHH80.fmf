@@ -481,6 +481,7 @@ Name=QHTYPE
 Position=276,173,291,193
 Item=QHTYPE,TJHH80
 UseEnterKey=Yes
+Protected=Yes
 DataCaptureType=RadioButton
 Form=1
   

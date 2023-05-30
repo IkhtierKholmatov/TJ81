@@ -1962,7 +1962,7 @@ DataType=Numeric
 Label=Washing machine
 Name=QH132G_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Vacuum cleaner
@@ -1975,7 +1975,7 @@ DataType=Numeric
 Label=Vacuum cleaner
 Name=QH132H_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Microwave
@@ -1988,7 +1988,7 @@ DataType=Numeric
 Label=Microwave
 Name=QH132I_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Video camera/
@@ -2001,7 +2001,7 @@ DataType=Numeric
 Label=Video camera/
 Name=QH132J_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Table/
@@ -2014,7 +2014,7 @@ DataType=Numeric
 Label=Table/
 Name=QH132K_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Chair
@@ -2027,7 +2027,7 @@ DataType=Numeric
 Label=Chair
 Name=QH132L_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Sofa/divan
@@ -2040,7 +2040,7 @@ DataType=Numeric
 Label=Sofa/divan
 Name=QH132M_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Bed
@@ -2053,7 +2053,7 @@ DataType=Numeric
 Label=Bed
 Name=QH132N_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Buffet/curio cabinet/wall unit
@@ -2066,7 +2066,7 @@ DataType=Numeric
 Label=Buffet/curio cabinet/wall unit
 Name=QH132O_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Air conditioner
@@ -2079,7 +2079,7 @@ DataType=Numeric
 Label=Air conditioner
 Name=QH132P_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=DVD Player
@@ -2092,7 +2092,7 @@ DataType=Numeric
 Label=DVD Player
 Name=QH132Q_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Satellite antenna/dish/cable
@@ -2105,7 +2105,7 @@ DataType=Numeric
 Label=Satellite antenna/dish/cable
 Name=QH132R_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Freezer
@@ -2118,7 +2118,7 @@ DataType=Numeric
 Label=Freezer
 Name=QH132S_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Electric fan
@@ -2131,7 +2131,7 @@ DataType=Numeric
 Label=Electric fan
 Name=QH132T_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Sewing machine
@@ -2144,7 +2144,7 @@ DataType=Numeric
 Label=Sewing machine
 Name=QH132U_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=In-door heater
@@ -2157,7 +2157,7 @@ DataType=Numeric
 Label=In-door heater
 Name=QH132V_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Mini-generator ("dvizhok")
@@ -2170,7 +2170,7 @@ DataType=Numeric
 Label=Mini-generator ("dvizhok")
 Name=QH132W_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Fuel or wood stock
@@ -2183,7 +2183,7 @@ DataType=Numeric
 Label=Fuel or wood stock
 Name=QH132X_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Carpet (handmade or machine made)
@@ -2196,7 +2196,7 @@ DataType=Numeric
 Label=Carpet (handmade or machine made)
 Name=QH132Y_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Connection to the Internet
@@ -2209,7 +2209,7 @@ DataType=Numeric
 Label=Connection to the Internet
 Name=QH132Z_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Dish washing machine
@@ -2222,7 +2222,7 @@ DataType=Numeric
 Label=Dish washing machine
 Name=QH132TT_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Clothes dryer machine
@@ -2235,7 +2235,7 @@ DataType=Numeric
 Label=Clothes dryer machine
 Name=QH132UU_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Electric water heater /Termix
@@ -2248,7 +2248,7 @@ DataType=Numeric
 Label=Electric water heater /Termix
 Name=QH132VV_VS1
 Value=1;Yes|ДА|ДА
-Value=2;НЕТ|НЕТ|НЕТ
+Value=2;No|НЕТ|НЕТ
 
 [Item]
 Label=Watch

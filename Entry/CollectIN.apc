@@ -3918,9 +3918,14 @@ preproc
   if Q114 in 4,5 then
     skip to Q117
   endif;		  
+PROC Q115E
+preproc
+  if !Q114 in 2,3 then
+    skip to Q117
+  endif;		  
 PROC Q117
 preproc
-  if Q114 >= 4 then   {modified for TJ23}
+  if Q114 > 1 then   {modified for TJ23}
     skip to Q119
   endif;
 

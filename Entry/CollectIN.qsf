@@ -5125,7 +5125,7 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p>908.  What is your (husbands/partner)&#39;s occupation? That is, what kind of work does he mainly do?</p>
+            <p>908.  What is your ~~PARTNER~~'s occupation? That is, what kind of work does he mainly do?</p>
           RU: |
             <p>908.  Чем занимается ваш ~~PARTNER~~? То есть, какую работу он в основном выполняет?</p>
           TJ: |
@@ -5224,7 +5224,7 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p>921.  Who usually decides how your (husbands/partners)&#39;s earnings will be used: you, your ~~PARTNER~~, or you and your ~~PARTNER~~ jointly?</p>
+            <p>921.  Who usually decides how your ~~PARTNER~~'s earnings will be used: you, your ~~PARTNER~~, or you and your ~~PARTNER~~ jointly?</p>
           RU: |
             <p>921.  Кто обычно решает, как будут использованы деньги, которые зарабатывет ваш ~~PARTNER~~: вы, ваш ~~PARTNER~~, или вы и ваш ~~PARTNER~~ совместно?</p>
           TJ: |
