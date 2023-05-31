@@ -71,7 +71,7 @@ PROC GLOBAL
   array string intvwname(400);             {                       - name }
   numeric IFSS = 0;                       { If IFSS is being used }
   numeric SyncCloud = 1;                  { If SyncCloud is being used }
-  numeric doFCT     = 1;                  { run FCT in field !!! }
+  numeric doFCT     = 0;                  { run FCT in field !!! }
 
   numeric minhhR    = 5;                  { minimum completed households that must be in supervisor tablet to begin selection for reinterview !!! }
   numeric maxhhselR = 5;                  { maximum number of  households that can be selected for reinteview by supervisor !!! }
@@ -1900,8 +1900,7 @@ postproc
           errmsg(014,getbluetoothname(),edit("9999",SupCode ));
           SaveSetting( "SupSession", "9" );                    // save session flag for restart
           TheCommand = MakeText('cmd /c start %s\supmenu.lnk', PathName(Application));
-          ExecSystem( TheCommand, maximized, wait );          
-          stop(1);
+          ExecSystem( TheCommand, maximized, stop );          
         endif;
       endif;
     endif;
