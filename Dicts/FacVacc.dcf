@@ -158,9 +158,9 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccination record found
 Name=FR02_VS1
-Value=1;Yes, found|Yes, seen
-Value=2;Yes, child's record found, but no vaccination card|Yes, seen, no records in the MOH form
-Value=3;No
+Value=1;Yes, found|ДА ВИДЕЛИ
+Value=2;Yes, child's record found, but no vaccination card|ДА ВИДЕЛИ, НЕТ ЗАПИСИ В ФОРМАХ МЗ
+Value=3;No|НЕТ
 
 [Item]
 Label=Vaccination roster
@@ -181,26 +181,26 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccine name
 Name=FR03N_VS1
-Value=1;BCG|BCG
-Value=2;Polio at birth
-Value=3;Polio 1
-Value=4;Polio 2
-Value=5;Polio 3
-Value=6;Polio 4
-Value=7;IPV|IPV 1
-Value=8;IPV 2
-Value=9;Hepatitis B at birth
-Value=10;Penta 1
-Value=11;Penta 2
-Value=12;Penta 3
-Value=13;Penta 4
-Value=14;Rotavirus 1
-Value=15;Rotavirus 2
-Value=16;Pneumococcal 1|Pneumococcal 1
-Value=17;Pneumococcal 1|Pneumococcal 2
-Value=18;Pneumococcal 1|Pneumococcal 3
-Value=19;MR|Measles 1
-Value=20;Last Vitamin A
+Value=1;BCG|БСЖ
+Value=2;Polio at birth|ОРАЛЬНАЯ ФАЛАЧ ПОЛИО ВАКЦИНА (ОПВ) 0
+Value=3;Polio 1|ОРАЛЬНАЯ ФАЛАЧ ПОЛИО ВАКЦИНА (ОПВ) 1
+Value=4;Polio 2|ОРАЛЬНАЯ ФАЛАЧ ПОЛИО ВАКЦИНА (ОПВ) 2
+Value=5;Polio 3|ОРАЛЬНАЯ ФАЛАЧ ПОЛИО ВАКЦИНА (ОПВ) 3
+Value=6;Polio 4|ОРАЛЬНАЯ ФАЛАЧ ПОЛИО ВАКЦИНА (ОПВ) 4
+Value=7;IPV 1|ИНАКТИВИРОВАННАЯ ФАЛАЧ ПОЛИО ВАКЦИНА (ИПВ) 1
+Value=8;IPV 2|ИНАКТИВИРОВАННАЯ  ФАЛАЧ ПОЛИО ВАКЦИНА (ИПВ) 2
+Value=9;Hepatitis B at birth|ГЕПАТИТ В ПЕРВЫЕ 24 ЧАСА ПОСЛЕ РОЖДЕНИЯ (ГВ-1)
+Value=10;Penta 1|АКДС-1, ГB-1, Hib-1 (ПЕНТАВАЛЕНТ) 1
+Value=11;Penta 2|АКДС-2, ГB-2, Hib-2 (ПЕНТАВАЛЕНТ) 2
+Value=12;Penta 3|АКДС-3,ГB-3, Hib-3 (ПЕНТАВАЛЕНТ) 3
+Value=13;Penta 4|АКДС-4
+Value=14;Rotavirus 1|РОТАВИРУСНАЯ (Рота)1
+Value=15;Rotavirus 2|РОТАВИРУСНАЯ (Рота) 2
+Value=16;Pneumococcal 1|ПНЕВМОКОККОВАЯ (ВПК)-1
+Value=17;Pneumococcal 1|ПНЕВМОКОККОВАЯ (ВПК)-2
+Value=18;Pneumococcal 1|ПНЕВМОКОККОВАЯ (ВПК)-3
+Value=19;Measles 1|КОРЬ(СУРХЧА), ПАРОТИТ(БАНОГУШАК) И КРАСНУХА(ГУЛАШОН) ВАКЦИНА (КПК/СБГ) 1
+Value=20;Last Vitamin A|ВИТАМИН А (САМАЯ ПОСЛЕДНЯЯ)
 
 [Item]
 Label=Vaccine date (day)
@@ -213,10 +213,10 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccine date (day)
 Name=FR03D_VS1
-Value=0;Not given|Not recorded
+Value=0;Not given|Не дано|Не дано
 Value=1:31
-Value=44;Marked on card|No date recorded, but marked on card
-Value=98;Don't know/incomplete
+Value=44;No date given, but marked on the card|Дата не указана, но отмечена в паспорте|Дата не указана, но отмечена в паспорте
+Value=98;Don't know/incomplete|Не знаю/неполный|Не знаю/неполный
 
 [Item]
 Label=Vaccine date (month)
@@ -229,21 +229,21 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccine date (month)
 Name=FR03M_VS1
-Value=0;Not given|Not recorded
-Value=1;January
-Value=2;February
-Value=3;March
-Value=4;April
-Value=5;May
-Value=6;June
-Value=7;July
-Value=8;August
-Value=9;September
-Value=10;October
-Value=11;November
-Value=12;December
-Value=44;Marked on card|Not recorded, but marked on card
-Value=98;Don't know/incomplete
+Value=0;Not given|Не дано|Не дано
+Value=1;January|Январь|Январь
+Value=2;February|Февраль|Февраль
+Value=3;March|Март|Март
+Value=4;April|Апрель|Апрель
+Value=5;May|Май|Май
+Value=6;June|Июнь|Июнь
+Value=7;July|Июль|Июль
+Value=8;August|Август|Август
+Value=9;September|Сентябрь|Сентябрь
+Value=10;October|Октябрь|Октябрь
+Value=11;November|Ноябрь|Ноябрь
+Value=12;December|Декабрь|Декабрь
+Value=44;Marked on card|Дата не указана, но отмечена в паспорте|Дата не указана, но отмечена в паспорте
+Value=98;Don't know/incomplete|Не знаю/неполный|Не знаю/неполный
 
 [Item]
 Label=Vaccine date (year)
@@ -256,7 +256,7 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccine date (year)
 Name=FR03Y_VS1
-Value=0;Not given|Not recorded
+Value=0;Not given|Не дано
 Value=2017;2017|2017
 Value=2018;2018|2018
 Value=2019;2019|2019
@@ -264,8 +264,8 @@ Value=2020;2020|2020
 Value=2021;2021|2021
 Value=2022;2022|2022
 Value=2023;2023|2023
-Value=4444;Marked on card|Not recorded, but marked on card
-Value=9998;Don't know/Incomplete
+Value=4444;Marked on card|Дата не указана, но отмечена в паспорте
+Value=9998;Don't know/Incomplete|Не знаю/неполный
 
 [Item]
 Label=Consent to take photo of vaccination passport|Photographie prise du carnet de vaccination
@@ -275,9 +275,9 @@ Len=1
 DataType=Numeric
 
 [ValueSet]
-Label=Consent to take photo of vaccination passport|
+Label=Consent to take photo of vaccination passport
 Name=FR04_VS1
-Value=1;Yes, consent granted|Photographie prise
+Value=1;Yes, consent granted|ДА, РАЗРЕШЕНИЕ ПОЛУЧЕНО
 Value=2;No|ФОТОГРАФИЯ НЕ СДЕЛАНА, РАЗРЕШЕНИЕ НЕ ПОЛУЧЕНО
 
 [Item]

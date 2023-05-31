@@ -684,10 +684,10 @@ Name=FR03D
 Position=6,0,35,20
 Item=FR03D,FACVACC
 UseEnterKey=Yes
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
   
 [Text]
-Position=5,0,48,24
+Position=5,0,21,16
 Text=ДЕНЬ
 HorizontalAlignment=Center
  
