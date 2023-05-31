@@ -102,14 +102,20 @@ preproc
 
   populate();
 
+PROC SAMPSEL_QUES
 postproc
-  stop(1);
+stop(1);
 PROC XTOTAL
 preproc
 //!!! check total number of households equals number of entries in SAMREC2
   if $ <> totocc(SAMREC2000) then
     $ = totocc(SAMREC2000);
   endif;
+PROC XCLDATE
+preproc
+if visualvalue($) = notappl then
+  $ = sysdate("DDMMYYYY");
+endif;
 PROC XCHANGE
 preproc
   $ = 1;

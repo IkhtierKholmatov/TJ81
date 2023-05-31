@@ -1539,8 +1539,7 @@ postproc
           //errmsg(014);
 		  errmsg(014,getbluetoothname(),edit("9999",IntCode ));
           TheCommand = MakeText('cmd /c start %s\dcmenu.lnk', PathName(Application));
-          ExecSystem( TheCommand, minimized, wait );          
-          stop(1);
+          ExecSystem( TheCommand, minimized, stop );          
         endif;
       endif;
     endif;

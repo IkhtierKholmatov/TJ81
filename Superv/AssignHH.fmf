@@ -1,5 +1,5 @@
 ﻿[FormFile]
-Version=CSPro 7.5
+Version=CSPro 7.7
 Name=SAMPSEL_FF
 Label=SampleSel
 DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
@@ -15,12 +15,13 @@ Name=FORM000
 Label=Sample selection questionnaire
 QuestionTextHeight=70
 Level=1
-Size=1056,822
+Size=987,822
   
 Item=SAMREC2000
 Item=XCLUSTER
 Item=XTOTAL
 Item=XCHANGE
+Item=XCLDATE
   
 [EndForm]
   
@@ -33,7 +34,6 @@ Required=Yes
 Name=SAMPSEL_QUES_FORM
 Label=Sample selection questionnaire
 Form=1
-LogicControl=No
 Max=1
   
 [Field]
@@ -43,6 +43,7 @@ Item=XCLUSTER,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
@@ -57,12 +58,23 @@ Item=XTOTAL,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
 Form=1
   
 [Text]
 Position=265,13,504,29
 Text=Ménages sélectionnés dans la grappe
  
+  
+[Field]
+Name=XCLDATE
+Position=800,11,913,31
+Item=XCLDATE,SAMPSEL
+UseEnterKey=Yes
+Protected=Yes
+DataCaptureType=TextBox
+Form=1
+  
   
 [Field]
 Name=XCHANGE
@@ -411,6 +423,7 @@ Item=XNUMBER,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
   
 [Text]
 Text=N° Ménage
@@ -431,6 +444,7 @@ Name=XSTRUCT
 Position=0,0,57,20
 Item=XSTRUCT,SAMPSEL
 Protected=Yes
+DataCaptureType=TextBox
   
 [Text]
 Text=N° structure
@@ -453,6 +467,7 @@ Item=XADDRESS,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
   
 [Text]
 Position=0,0,74,16
@@ -465,6 +480,7 @@ Item=XNAME,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
   
 [Text]
 Position=0,0,48,16
@@ -487,6 +503,7 @@ Item=XMALE,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
   
 [Text]
 Text=Enq. Homme
@@ -509,6 +526,7 @@ Item=XRESULT,SAMPSEL
 Protected=Yes
 Verify=No
 UpperCase=Yes
+DataCaptureType=TextBox
   
 [Text]
 Text=Résultat

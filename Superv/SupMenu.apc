@@ -1901,8 +1901,7 @@ postproc
           errmsg(014,getbluetoothname(),edit("9999",SupCode ));
           SaveSetting( "SupSession", "9" );                    // save session flag for restart
           TheCommand = MakeText('cmd /c start %s\supmenu.lnk', PathName(Application));
-          ExecSystem( TheCommand, maximized, wait );          
-          stop(1);
+          ExecSystem( TheCommand, maximized, stop );          
         endif;
       endif;
     endif;
