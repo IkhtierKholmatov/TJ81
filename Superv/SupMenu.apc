@@ -1210,7 +1210,9 @@ PROC GLOBAL
       enddo;
       x = showarray(header, caselist, title(tr("No."), tr("Address"), tr("Result"), tr("Int")));
       if x then
-        x = tonumber( caselist(x,1));
+        QHCLUST = WCLUSTER;
+        QHNUMBER = tonumber(caselist(x,1));
+        loadcase(TJHH80, QHCLUST, QHNUMBER);
       endif;
       close( TJHH80 );
     else
@@ -1226,7 +1228,7 @@ PROC GLOBAL
       if gethh() then
         { review households including incomplete }
         if QHRESULT <> 1 then
-          errmsg( 0011, ZRESULT );
+          errmsg( 0011, QHRESULT );
         endif;
         xcase  = edit("9999", WCLUSTER) + edit("9999",QHNUMBER);
         xparamet = xparaux + edit("9999",QHNUMBER);
@@ -1247,6 +1249,7 @@ PROC GLOBAL
         hhtoget = gethh();
       endif;
       fname = work + "\ALLIND.DAT";
+      close(TJIN80);
       concatind();
       concatoth();                { concatenate others }
       if !FindDups( dirstocheck, xcluster, 2) then
@@ -1254,7 +1257,7 @@ PROC GLOBAL
         header = maketext (tr("Select an woman to review from household %04d"), hhtoget);
         caselist.clear();
         numeric ctr = 0;
-        forcase TJIN80 do
+        forcase TJIN80 where QNUMBER = hhtoget do
           inc(ctr);
           caselist(ctr,1) = edit("9999", QNUMBER );
           caselist(ctr,2) = edit("99", QLINE );
@@ -1267,7 +1270,7 @@ PROC GLOBAL
           QCLUSTER = WCLUSTER;
           QNUMBER  = tonumber( caselist(x,1));
           QLINE    = tonumber( caselist(x,2));
-          if loadcase(TJIN80) then
+          if loadcase(TJIN80, QCLUSTER, QNUMBER, QLINE) then
             xcase  = edit("9999", WCLUSTER) + edit("9999",QNUMBER) + edit("99",QLINE);
             xparamet = xparaux + edit("9999",QNUMBER) + edit("99",QLINE);
             AppName = "CollectIN";
