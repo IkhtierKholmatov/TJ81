@@ -6151,7 +6151,7 @@ Max=6
 DisplaySize=59,61,932,1408
 Orientation=Vertical
 ColumnWidth=529
-StubColumnWidth=72
+StubColumnWidth=126
 HeadingRowHeight=24
 FreeMovement=No
  
@@ -6199,7 +6199,7 @@ Width=10
 Width=35
   
 [HeaderText]
-Position=13,0,72,35
+Position=67,0,126,35
 Text=QCOL51
  
 [Field]
@@ -6221,7 +6221,7 @@ Text=QCOL51
 Width=52
   
 [HeaderText]
-Position=33,14,72,38
+Position=87,14,126,38
 Text=Q503
 VerticalAlignment=Middle
  
@@ -6258,7 +6258,7 @@ Text=Q503
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q504
  
 [Field]
@@ -6278,7 +6278,7 @@ Text=Q504
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q505
  
 [Field]
@@ -6298,7 +6298,7 @@ Text=Q505
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q507
  
 [Field]
@@ -6318,7 +6318,7 @@ Text=Q507
 Width=28
   
 [HeaderText]
-Position=33,0,72,28
+Position=87,0,126,28
 Text=Q508
  
 [Field]
@@ -6360,7 +6360,7 @@ Text=Q508Y
 Width=28
   
 [HeaderText]
-Position=25,0,72,28
+Position=79,0,126,28
 Text=D509B
  
 [Field]
@@ -6402,7 +6402,7 @@ Text=Y509B
 Width=28
   
 [HeaderText]
-Position=25,0,72,28
+Position=79,0,126,28
 Text=D509H
  
 [Field]
@@ -6444,7 +6444,7 @@ Text=Y509H
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509P0
  
 [Field]
@@ -6486,7 +6486,7 @@ Text=Y509P0
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509P1
  
 [Field]
@@ -6528,7 +6528,7 @@ Text=Y509P1
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509P2
  
 [Field]
@@ -6570,7 +6570,7 @@ Text=Y509P2
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509P3
  
 [Field]
@@ -6612,7 +6612,7 @@ Text=Y509P3
 Width=33
   
 [HeaderText]
-Position=18,0,72,33
+Position=72,0,126,33
 Text=D509P4
 VerticalAlignment=Middle
  
@@ -6650,7 +6650,7 @@ Text=Polio 4 year
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509D1
  
 [Field]
@@ -6692,7 +6692,7 @@ Text=Y509D1
 Width=28
   
 [HeaderText]
-Position=18,4,72,28
+Position=72,4,126,28
 Text=D509D2
  
 [Field]
@@ -6734,7 +6734,7 @@ Text=Y509D2
 Width=30
   
 [HeaderText]
-Position=18,0,72,30
+Position=72,0,126,30
 Text=D509D3
  
 [Field]
@@ -6776,7 +6776,7 @@ Text=Y509D3
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509R1
  
 [Field]
@@ -6818,7 +6818,7 @@ Text=Y509R1
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509R2
  
 [Field]
@@ -6860,7 +6860,7 @@ Text=Y509R2
 Width=28
   
 [HeaderText]
-Position=5,4,72,28
+Position=59,4,126,28
 Text=D509IPV1
  
 [Field]
@@ -6903,7 +6903,7 @@ Text=Y509IPV
 Width=32
   
 [HeaderText]
-Position=5,0,72,32
+Position=59,0,126,32
 Text=D509IPV2
  
 [Field]
@@ -6945,7 +6945,7 @@ Text=Y509IPV1
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509N1
  
 [Field]
@@ -6987,7 +6987,7 @@ Text=Y509N1
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509N2
  
 [Field]
@@ -7029,7 +7029,7 @@ Text=Y509N2
 Width=28
   
 [HeaderText]
-Position=18,0,72,28
+Position=72,0,126,28
 Text=D509N3
  
 [Field]
@@ -7071,7 +7071,7 @@ Text=Y509N3
 Width=28
   
 [HeaderText]
-Position=16,0,72,28
+Position=70,0,126,28
 Text=D509M1
  
 [Field]
@@ -7113,7 +7113,7 @@ Text=Y509M1
 Width=32
   
 [HeaderText]
-Position=18,0,72,32
+Position=72,0,126,32
 Text=D509D4
  
 [Field]
@@ -7156,7 +7156,7 @@ Text=Y509D4
 Width=28
   
 [HeaderText]
-Position=25,0,72,28
+Position=79,0,126,28
 Text=D509V
  
 [Field]
@@ -7198,7 +7198,7 @@ Text=Y509V1
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q510
  
 [Field]
@@ -7218,7 +7218,7 @@ Text=Q510
 Width=52
   
 [HeaderText]
-Position=33,28,72,52
+Position=87,28,126,52
 Text=Q512
  
 [Field]
@@ -7251,7 +7251,7 @@ Text=Q512W
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q513
  
 [Field]
@@ -7271,7 +7271,7 @@ Text=Q513
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q514
  
 [Field]
@@ -7291,7 +7291,7 @@ Text=Q514
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q515
  
 [Field]
@@ -7311,7 +7311,7 @@ Text=Q515
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q516
  
 [Field]
@@ -7331,7 +7331,7 @@ Text=Q516
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q517
  
 [Field]
@@ -7351,7 +7351,7 @@ Text=Q517
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q518
  
 [Field]
@@ -7371,7 +7371,7 @@ Text=Q518
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q519
  
 [Field]
@@ -7391,7 +7391,7 @@ Text=Q519
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q520
  
 [Field]
@@ -7411,7 +7411,7 @@ Text=Q520
 Width=28
   
 [HeaderText]
-Position=24,4,72,28
+Position=78,4,126,28
 Text=Q520A
  
 [Field]
@@ -7432,7 +7432,7 @@ Text=Q520A
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q521
  
 [Field]
@@ -7452,7 +7452,7 @@ Text=Q521
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q522
  
 [Field]
@@ -7472,7 +7472,7 @@ Text=Q522
 Width=28
   
 [HeaderText]
-Position=24,4,72,28
+Position=78,4,126,28
 Text=Q522A
  
 [Field]
@@ -7492,7 +7492,7 @@ Text=Q522A
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q523
  
 [Field]
@@ -7512,7 +7512,7 @@ Text=Q523
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q524
  
 [Field]
@@ -7532,7 +7532,7 @@ Text=Q524
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q525
  
 [Field]
@@ -7552,7 +7552,7 @@ Text=Q525
 Width=28
   
 [HeaderText]
-Position=33,4,72,28
+Position=87,4,126,28
 Text=Q526
  
 [Field]
@@ -7572,7 +7572,7 @@ Text=Q526
 Width=28
   
 [HeaderText]
-Position=33,0,72,28
+Position=87,0,126,28
 Text=Q527
  
 [Field]
@@ -7592,7 +7592,7 @@ Text=Q527
 Width=28
   
 [HeaderText]
-Position=33,0,72,28
+Position=87,0,126,28
 Text=Q529
  
 [Field]
@@ -7612,7 +7612,7 @@ Text=Q529
 Width=28
   
 [HeaderText]
-Position=34,4,72,28
+Position=88,4,126,28
 Text=FA01
  
 [Field]
@@ -7630,7 +7630,7 @@ Text=FA01
 Width=28
   
 [HeaderText]
-Position=34,4,72,28
+Position=88,4,126,28
 Text=FA02
  
 [Field]
@@ -7645,11 +7645,11 @@ Text=FA02
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=27,4,72,28
-Text=NAME
+Position=58,0,126,40
+Text=ИМЯ РЕБЕНКА
  
 [Field]
 Name=FA03A
@@ -7660,16 +7660,16 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Text=NAME
+Text=ИМЯ РЕБЕНКА
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=0,4,72,28
-Text=SURNAME
+Position=50,0,126,40
+Text=ФАМИЛИЯ РЕБЕНКА
  
 [Field]
 Name=FA03B
@@ -7680,16 +7680,16 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Text=SURNAME
+Text=ФАМИЛИЯ РЕБЕНКА
  
 [EndColumn]
   
 [Column]
-Width=40
+Width=45
   
 [HeaderText]
-Position=18,0,72,40
-Text=MOTH. NAME
+Position=65,0,126,45
+Text=ИМЯ МАТЕРИ
  
 [Field]
 Name=FA04A
@@ -7700,16 +7700,16 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Text=MOTH. NAME
+Text=ИМЯ МАТЕРИ
  
 [EndColumn]
   
 [Column]
-Width=40
+Width=42
   
 [HeaderText]
-Position=0,0,72,40
-Text=MOTH. SURNAME
+Position=50,2,126,42
+Text=ФАМИЛИЯ МАТЕРИ
  
 [Field]
 Name=FA04B
@@ -7720,17 +7720,16 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Position=0,0,116,16
-Text=MOTH. SURNAME
+Text=ФАМИЛИЯ МАТЕРИ
  
 [EndColumn]
   
 [Column]
-Width=28
+Width=40
   
 [HeaderText]
-Position=2,4,72,28
-Text=ADDRESS
+Position=51,0,126,40
+Text=домашний адрес
  
 [Field]
 Name=FA05
@@ -7741,8 +7740,7 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Position=0,0,65,16
-Text=ADDRESS
+Text=домашний адрес
  
 [EndColumn]
   
@@ -7750,8 +7748,9 @@ Text=ADDRESS
 Width=40
   
 [HeaderText]
-Position=7,0,72,40
-Text=NAME FACILITY
+Position=20,4,126,40
+Text=НАЗВАНИЕ МЕДУЧРЕЖДЕНИЯ
+Font=-011 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
 [Field]
 Name=FA06A
@@ -7762,8 +7761,8 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Position=0,0,102,16
-Text=NAME FACILITY
+Text=НАЗВАНИЕ МЕДУЧРЕЖДЕНИЯ
+Font=-011 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
 [EndColumn]
   
@@ -7771,8 +7770,8 @@ Text=NAME FACILITY
 Width=40
   
 [HeaderText]
-Position=2,0,72,40
-Text=ADDRESS FACILITY
+Position=12,0,126,40
+Text=адрес медучреждения
  
 [Field]
 Name=FA06B
@@ -7783,8 +7782,7 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Position=0,0,128,16
-Text=ADDRESS FACILITY
+Text=адрес медучреждения
  
 [EndColumn]
   
@@ -7792,8 +7790,8 @@ Text=ADDRESS FACILITY
 Width=40
   
 [HeaderText]
-Position=7,0,72,40
-Text=PHONE FACILITY
+Position=3,0,126,40
+Text=номер телефона медучреждения
  
 [Field]
 Name=FA06C
@@ -7804,8 +7802,7 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Position=0,0,111,16
-Text=PHONE FACILITY
+Text=номер телефона медучреждения
  
 [EndColumn]
   
@@ -7813,8 +7810,8 @@ Text=PHONE FACILITY
 Width=28
   
 [HeaderText]
-Position=1,4,72,28
-Text=DR. NAME
+Position=42,4,126,28
+Text=ИМЯ ВРАЧА
  
 [Field]
 Name=FA07A
@@ -7825,7 +7822,7 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Text=DR. NAME
+Text=ИМЯ ВРАЧА
  
 [EndColumn]
   
@@ -7833,8 +7830,9 @@ Text=DR. NAME
 Width=40
   
 [HeaderText]
-Position=0,0,72,40
-Text=DR. LAST NAME
+Position=23,18,126,40
+Text=ФАМИЛИЯ ВРАЧА
+Font=-011 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
 [Field]
 Name=FA07B
@@ -7845,7 +7843,8 @@ DataCaptureType=TextBox
 Keyboard=1049
   
 [Text]
-Text=DR. LAST NAME
+Text=ФАМИЛИЯ ВРАЧА
+Font=-011 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
  
 [EndColumn]
   
@@ -7853,7 +7852,7 @@ Text=DR. LAST NAME
 Width=28
   
 [HeaderText]
-Position=34,4,72,28
+Position=88,4,126,28
 Text=FA08
  
 [Field]

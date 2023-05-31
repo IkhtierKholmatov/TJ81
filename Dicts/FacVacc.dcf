@@ -114,35 +114,35 @@ Len=4
 DataType=Numeric
 
 [Item]
-Label=Mother's name|Doctor's name
+Label=Doctors's name|Doctor's name
 Name=FRDNAME
 Start=89
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Mother's name|Name of facility
+Label=Name if facility|Name of facility
 Name=FRFNAME
 Start=109
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Mother's name|Address of facility
+Label=Facility adress|Address of facility
 Name=FRFADDR
 Start=129
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Mother's name|Phone number of facility
+Label=Facility telephone number|Phone number of facility
 Name=FRFPHONE
 Start=149
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Vaccination record found|Uchastok Number
+Label=Uchastok number|Uchastok Number
 Name=FRUCHN
 Start=169
 Len=2
@@ -213,10 +213,10 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccine date (day)
 Name=FR03D_VS1
-Value=0;Not given|Не дано|Не дано
+Value=0;Not given|Не дано
 Value=1:31
-Value=44;No date given, but marked on the card|Дата не указана, но отмечена в паспорте|Дата не указана, но отмечена в паспорте
-Value=98;Don't know/incomplete|Не знаю/неполный|Не знаю/неполный
+Value=44;No date given, but marked on the card|Дата не указана, но отмечена в паспорте
+Value=98;Don't know/incomplete|Не знаю/неполный
 
 [Item]
 Label=Vaccine date (month)
@@ -229,21 +229,21 @@ DataType=Numeric
 [ValueSet]
 Label=Vaccine date (month)
 Name=FR03M_VS1
-Value=0;Not given|Не дано|Не дано
-Value=1;January|Январь|Январь
-Value=2;February|Февраль|Февраль
-Value=3;March|Март|Март
-Value=4;April|Апрель|Апрель
-Value=5;May|Май|Май
-Value=6;June|Июнь|Июнь
-Value=7;July|Июль|Июль
-Value=8;August|Август|Август
-Value=9;September|Сентябрь|Сентябрь
-Value=10;October|Октябрь|Октябрь
-Value=11;November|Ноябрь|Ноябрь
-Value=12;December|Декабрь|Декабрь
-Value=44;Marked on card|Дата не указана, но отмечена в паспорте|Дата не указана, но отмечена в паспорте
-Value=98;Don't know/incomplete|Не знаю/неполный|Не знаю/неполный
+Value=0;Not given|Не дано
+Value=1;January|Январь
+Value=2;February|Февраль
+Value=3;March|Март
+Value=4;April|Апрель
+Value=5;May|Май
+Value=6;June|Июнь
+Value=7;July|Июль
+Value=8;August|Август
+Value=9;September|Сентябрь
+Value=10;October|Октябрь
+Value=11;November|Ноябрь
+Value=12;December|Декабрь
+Value=44;Marked on card|Дата не указана, но отмечена в паспорте
+Value=98;Don't know/incomplete|Не знаю/неполный
 
 [Item]
 Label=Vaccine date (year)
