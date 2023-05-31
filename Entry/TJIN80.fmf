@@ -1763,6 +1763,7 @@ Text=Q115
 Name=Q115A
 Position=494,265,521,285
 Item=Q115A,TJIN80
+UseEnterKey=Yes
 DataCaptureType=ComboBox
 Form=3
   
@@ -1775,6 +1776,7 @@ Text=Q115A
 Name=Q115C
 Position=507,296,521,316
 Item=Q115C,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
 Form=3
   
@@ -1787,6 +1789,7 @@ Text=Q115C
 Name=Q115E
 Position=494,325,521,345
 Item=Q115E,TJIN80
+UseEnterKey=Yes
 DataCaptureType=ComboBox
 Form=3
   
@@ -2940,9 +2943,11 @@ Text=Q228A
 Name=Q228A
 Position=14,0,28,20
 Item=Q228A,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,42,16
 Text=Q228A
  
 [EndColumn]
@@ -2958,9 +2963,11 @@ Text=Q228B
 Name=Q228B
 Position=13,0,27,20
 Item=Q228B,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,44,16
 Text=Q228B
  
 [EndColumn]
@@ -4358,10 +4365,11 @@ VerticalAlignment=Middle
 Name=Q404A
 Position=117,0,131,20
 Item=Q404A,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Position=30,0,78,28
+Position=30,0,72,16
 Text=Q404A
 VerticalAlignment=Middle
  
@@ -4799,10 +4807,11 @@ VerticalAlignment=Middle
 Name=Q426A
 Position=117,0,131,20
 Item=Q426A,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Position=60,0,108,28
+Position=60,0,102,16
 Text=Q426A
 VerticalAlignment=Middle
  
@@ -4820,10 +4829,11 @@ VerticalAlignment=Middle
 Name=Q426B
 Position=116,0,130,20
 Item=Q426B,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Position=60,0,108,28
+Position=60,0,104,16
 Text=Q426B
 VerticalAlignment=Middle
  
@@ -4902,10 +4912,11 @@ VerticalAlignment=Middle
 Name=Q430A
 Position=117,1,131,21
 Item=Q430A,TJIN80
+UseEnterKey=Yes
 DataCaptureType=RadioButton
   
 [Text]
-Position=60,0,108,30
+Position=60,0,102,16
 Text=Q430A
 VerticalAlignment=Middle
  

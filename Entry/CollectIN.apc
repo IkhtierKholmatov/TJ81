@@ -3765,8 +3765,8 @@ preproc
 PROC Q102
 preproc
 if Q101H in 0:5,23 then
-	errmsg( 90000, Q101H, $ ) 
-	select( tr("Check tablet time" ), $);
+	warning( 0184 ) 
+	select( tr("Check tablet clock" ), $, tr("Continue"), continue );;
   endif;
 
 postproc
@@ -9440,6 +9440,12 @@ postproc
 
 { @@@ Begin Men's Questionnaire }
 
+PROC QLANGI
+preproc
+if Q1116H in 0:5,23 then
+	warning( 0184 ) 
+	select( tr("Check tablet clock" ), $, tr("Continue"), continue );;
+  endif;
 PROC QLANGQ
 preproc
   savedata();

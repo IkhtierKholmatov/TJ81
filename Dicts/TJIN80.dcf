@@ -45,7 +45,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Individual identification
+Label=Individual identification|ИДЕНТИФИКАЦИЯ|ИДЕНТИФИКАЦИЯ
 Name=QSECOVER
 RecordTypeValue='W00'
 RecordLen=240
@@ -202,18 +202,18 @@ DataType=Numeric
 [ValueSet]
 Label=Month of interview
 Name=QINTM_VS1
-Value=1;January|Январь|Январь
-Value=2;February|Февраль|Февраль
-Value=3;March|Март|Март
-Value=4;April|Апрель|Апрель
-Value=5;May|Май|Май
-Value=6;June|Июнь|Июнь
-Value=7;July|Июль|Июль
-Value=8;August|Август|Август
-Value=9;September|Сентябрь|Сентябрь
-Value=10;October|Октябрь|Октябрь
-Value=11;November|Ноябрь|Ноябрь
-Value=12;December|Декабрь|Декабрь
+Value=1;January|Январь|январ
+Value=2;February|Февраль|феврал
+Value=3;March|Март|март
+Value=4;April|Апрель|апрел
+Value=5;May|Май|май
+Value=6;June|Июнь|июн
+Value=7;July|Июль|июл
+Value=8;August|Август|август
+Value=9;September|Сентябрь|сентябр
+Value=10;October|Октябрь|октябр
+Value=11;November|Ноябрь|ноябр
+Value=12;December|Декабрь|декабр
 
 [Item]
 Label=Year of interview
@@ -612,7 +612,7 @@ Len=1
 DataType=Numeric
 
 [Record]
-Label=Respondent's Background
+Label=Respondent's Background|ИНФОРМАЦИЯ О РЕСПОНДЕНТЕ|ИНФОРМАЦИЯ О РЕСПОНДЕНТЕ
 Name=QWSEC01
 RecordTypeValue='W01'
 Required=No
@@ -1239,7 +1239,7 @@ Name=QWFWLTH_VS1
 Value=0;NotAppl
 
 [Record]
-Label=Reproduction
+Label=Reproduction|РЕПРОДУКЦИЯ|РЕПРОДУКЦИЯ
 Name=QWSEC2A
 RecordTypeValue='W2A'
 Required=No
@@ -1483,7 +1483,7 @@ Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
 
 [Record]
-Label=Pregnancy History
+Label=Pregnancy History|КОНТРАЦЕПЦИЯ|КОНТРАЦЕПЦИЯ
 Name=QWSEC2B
 RecordTypeValue='W2B'
 Required=No
@@ -1922,7 +1922,7 @@ Len=1
 DataType=Numeric
 
 [Record]
-Label=Working calendar
+Label=Working calendar|РАБОЧИЙ КАЛЕНДАРЬ|РАБОЧИЙ КАЛЕНДАРЬ
 Name=QWSEC2Y
 RecordTypeValue='W2Y'
 Required=No
@@ -1943,7 +1943,7 @@ Len=72
 DataType=Alpha
 
 [Record]
-Label=Calendar
+Label=Calendar|КАЛЕНДАРЬ|КАЛЕНДАРЬ
 Name=QWSEC2C
 RecordTypeValue='W2C'
 Required=No
@@ -2001,7 +2001,7 @@ Value='Z                                                                       '
 Value='?                                                                       ';Missing|отсутствующий|отсутствующий
 
 [Record]
-Label=Reproduction (continued)
+Label=Reproduction (continued)|РЕПРОДУКЦИЯ (ПРОДОЛЖЕНИЕ)|РЕПРОДУКЦИЯ (ПРОДОЛЖЕНИЕ)
 Name=QWSEC2D
 RecordTypeValue='W2D'
 Required=No
@@ -2262,7 +2262,7 @@ Len=2
 DataType=Numeric
 
 [Record]
-Label=Contraceptive Knowledge & Use
+Label=Contraceptive Knowledge & Use|КОНТРАЦЕПТИВНЫЕ ЗНАНИЯ И ИСПОЛЬЗОВАНИЕ|КОНТРАЦЕПТИВНЫЕ ЗНАНИЯ И ИСПОЛЬЗОВАНИЕ
 Name=QWSEC3A
 RecordTypeValue='W3A'
 Required=No
@@ -2356,7 +2356,7 @@ Value='M              ';Withdrawal|ПРЕРВАННЫЙ ПОЛОВОЙ АКТ|П
 Value='Y              ';No methods declared spontaneously|Нет методов, объявленных спонтанно|Нет методов, объявленных спонтанно
 
 [Record]
-Label=Contraceptive Practice
+Label=Contraceptive Practice|КОНТРАЦЕПТИВНАЯ ПРАКТИКА|КОНТРАЦЕПТИВНАЯ ПРАКТИКА
 Name=QWSEC3B
 RecordTypeValue='W3B'
 Required=No
@@ -2525,18 +2525,18 @@ DataType=Numeric
 [ValueSet]
 Label=Month started using current method
 Name=Q314M_VS1
-Value=1;January|Январь|Январь
-Value=2;February|Февраль|Февраль
-Value=3;March|Март|Март
-Value=4;April|Апрель|Апрель
-Value=5;May|Май|Май
-Value=6;June|Июнь|Июнь
-Value=7;July|Июль|Июль
-Value=8;August|Август|Август
-Value=9;September|Сентябрь|Сентябрь
-Value=10;October|Октябрь|Октябрь
-Value=11;November|Ноябрь|Ноябрь
-Value=12;December|Декабрь|Декабрь
+Value=1;January|Январь|январ
+Value=2;February|Февраль|феврал
+Value=3;March|Март|март
+Value=4;April|Апрель|апрел
+Value=5;May|Май|май
+Value=6;June|Июнь|июн
+Value=7;July|Июль|июл
+Value=8;August|Август|август
+Value=9;September|Сентябрь|сентябр
+Value=10;October|Октябрь|октябр
+Value=11;November|Ноябрь|ноябр
+Value=12;December|Декабрь|декабр
 
 [Item]
 Label=Year started using current method
@@ -2862,20 +2862,20 @@ DataType=Numeric
 [ValueSet]
 Label=Current contraceptive method (major method)
 Name=Q307N_VS1
-Value=1;Female Sterilization|Stérilisation féminine|Stérilisation féminine
-Value=2;Male Sterilization|Stérilisation masculine|Stérilisation masculine
-Value=3;IUD|DIU|DIU
-Value=4;Injectables|Injectables|Injectables
-Value=5;Implants|Implants|Implants
-Value=6;Pill|Pilule|Pilule
-Value=7;Condom|Condom|Condom
-Value=8;Female condom|Condom féminin|Condom féminin
-Value=9;Emergency contraception|Contraception d'urgence|Contraception d'urgence
-Value=11;Lactational amenorrhea method (LAM)|MAMA|MAMA
-Value=12;Rhythm method|Méthode du rythme|Méthode du rythme
-Value=13;Withdrawal|Retrait|Retrait
-Value=95;Other modern method|Autre méthode moderne|Autre méthode moderne
-Value=96;Other traditional method|Autre méthode traditionnelle|Autre méthode traditionnelle
+Value=1;Female Sterilization|Женская Стерилизация|Безуриётикунонии занона
+Value=2;Male Sterilization|Мужская Стерилизация|Безуриётикунонии мардона
+Value=3;IUD|Внутриматочная Спираль (ВМС)|Спирали Дохилибачадон (СДЧ)
+Value=4;Injectables|Инъекционные|Тазриқҳо
+Value=5;Implants|Импланты|Имплантатҳо
+Value=6;Pill|Таблетки Противозачаточные|Ҳабҳои Зиддиҳомилашавӣ
+Value=7;Condom|Презерватив|Рифола
+Value=8;Female condom|Женский презерватив|Рифолаи занона
+Value=9;Emergency contraception|Экстренная Контрацепция|Пешгирии ҳомиладоршавии фавқулодда
+Value=11;Lactational amenorrhea method (LAM)|Метод Лактационной Аменореи (ЛАМ)|Усули аменореяи ширӣ (ЛАМ)
+Value=12;Rhythm method|Ритм Метод|Усули Тартибӣ
+Value=13;Withdrawal|Прерванный Половой Акт|Алоқаи Љинсии Ќатъгардида
+Value=95;Other modern method|Другой современный метод |Дигар усули муосир
+Value=96;Other traditional method|Другой традиционный метод |Дигар усули анъанавӣ
 
 [Item]
 Label=Date started using current method (CMC)
@@ -2900,7 +2900,7 @@ Value=7;Month - a, y imp
 Value=8;None - all imp
 
 [Record]
-Label=Contraceptive Use History
+Label=Contraceptive Use History|ИСТОРИЯ ИСПОЛЬЗОВАНИЯ КОНТРАЦЕПЦИИ|ИСТОРИЯ ИСПОЛЬЗОВАНИЯ КОНТРАЦЕПЦИИ
 Name=QWSEC3C
 RecordTypeValue='W3C'
 Required=No
@@ -2932,18 +2932,18 @@ DataType=Numeric
 [ValueSet]
 Label=Month episode began
 Name=Q317AM_VS1
-Value=1;January|Январь|Январь
-Value=2;February|Февраль|Февраль
-Value=3;March|Март|Март
-Value=4;April|Апрель|Апрель
-Value=5;May|Май|Май
-Value=6;June|Июнь|Июнь
-Value=7;July|Июль|Июль
-Value=8;August|Август|Август
-Value=9;September|Сентябрь|Сентябрь
-Value=10;October|Октябрь|Октябрь
-Value=11;November|Ноябрь|Ноябрь
-Value=12;December|Декабрь|Декабрь
+Value=1;January|Январь|январ
+Value=2;February|Февраль|феврал
+Value=3;March|Март|март
+Value=4;April|Апрель|апрел
+Value=5;May|Май|май
+Value=6;June|Июнь|июн
+Value=7;July|Июль|июл
+Value=8;August|Август|август
+Value=9;September|Сентябрь|сентябр
+Value=10;October|Октябрь|октябр
+Value=11;November|Ноябрь|ноябр
+Value=12;December|Декабрь|декабр
 
 [Item]
 Label=Year episode began
@@ -2976,20 +2976,20 @@ DataType=Alpha
 [ValueSet]
 Label=Method used in interval
 Name=Q317C_VS1
-Value=1;Female sterilization|ЖЕНСКАЯ СТЕРИЛИЗАЦИЯ|ЖЕНСКАЯ СТЕРИЛИЗАЦИЯ
-Value=2;Male sterilization|МУЖСКАЯ СТЕРИЛИЗАЦИЯ|МУЖСКАЯ СТЕРИЛИЗАЦИЯ
-Value=3;IUD|ВМС|ВМС
-Value=4;Injectables|ИНЪЕКЦИИ|ИНЪЕКЦИИ
-Value=5;Implants|ИМПЛАНТАТЫ|ИМПЛАНТАТЫ
-Value=6;Pill|ТАБЛЕТКИ|ТАБЛЕТКИ
-Value=7;Condom|ПРЕЗЕРВАТИВ|ПРЕЗЕРВАТИВ
-Value=8;Female condom|ЖЕНСКИЙ ПРЕЗЕРВАТИВ|ЖЕНСКИЙ ПРЕЗЕРВАТИВ
-Value=9;Emergency contraception|ЭКСТРЕННАЯ КОНТРАЦЕПЦИЯ|ЭКСТРЕННАЯ КОНТРАЦЕПЦИЯ
-Value='K';Lactational amenorrhea method (LAM)|МЕТОД ЛАКТАЦИОННОЙ АМЕНОРЕИ|МЕТОД ЛАКТАЦИОННОЙ АМЕНОРЕИ
-Value='L';Rhythm method|РИТМ-МЕТОД|РИТМ-МЕТОД
-Value='M';Withdrawal|ПРЕРВАННЫЙ ПОЛОВОЙ АКТ|ПРЕРВАННЫЙ ПОЛОВОЙ АКТ
-Value='X';Other modern method|ДРУГОЙ СОВРЕМЕННЫЙ МЕТОД|ДРУГОЙ СОВРЕМЕННЫЙ МЕТОД
-Value='Y';Other traditional method|ДРУГОЙ ТРАДИЦИОННЫЙ МЕТОД|ДРУГОЙ ТРАДИЦИОННЫЙ МЕТОД
+Value=1;Female sterilization|ЖЕНСКАЯ СТЕРИЛИЗАЦИЯ|Безуриётикунонии занона
+Value=2;Male sterilization|МУЖСКАЯ СТЕРИЛИЗАЦИЯ|Безуриётикунонии мардона
+Value=3;IUD|ВМС|Спирали Дохилибачадон (СДЧ)
+Value=4;Injectables|ИНЪЕКЦИИ|Тазриқҳо
+Value=5;Implants|ИМПЛАНТАТЫ|Имплантатҳо
+Value=6;Pill|ТАБЛЕТКИ|Ҳабҳои Зиддиҳомилашавӣ
+Value=7;Condom|ПРЕЗЕРВАТИВ|Рифола
+Value=8;Female condom|ЖЕНСКИЙ ПРЕЗЕРВАТИВ|Рифолаи занона
+Value=9;Emergency contraception|ЭКСТРЕННАЯ КОНТРАЦЕПЦИЯ|Пешгирии ҳомиладоршавии фавқулодда
+Value='K';Lactational amenorrhea method (LAM)|МЕТОД ЛАКТАЦИОННОЙ АМЕНОРЕИ|Усули аменореяи ширӣ (ЛАМ)
+Value='L';Rhythm method|РИТМ-МЕТОД|Усули Тартибӣ
+Value='M';Withdrawal|ПРЕРВАННЫЙ ПОЛОВОЙ АКТ|Алоқаи Љинсии Ќатъгардида
+Value='X';Other modern method|ДРУГОЙ СОВРЕМЕННЫЙ МЕТОД|Дигар усули муосир
+Value='Y';Other traditional method|ДРУГОЙ ТРАДИЦИОННЫЙ МЕТОД|Дигар усули анъанавӣ
 
 [Item]
 Label=Months after episode and before began using
@@ -3278,7 +3278,7 @@ Len=2
 DataType=Numeric
 
 [Record]
-Label=Pregnancy and Postnatal Care
+Label=Pregnancy and Postnatal Care|БЕРЕМЕННОСТЬ И ПОСЛЕРОДОВОЙ НАБЛЮДЕНИЕ|БЕРЕМЕННОСТЬ И ПОСЛЕРОДОВОЙ НАБЛЮДЕНИЕ
 Name=QWSEC04
 RecordTypeValue='W04'
 Required=No
@@ -3371,19 +3371,19 @@ DataType=Numeric
 [ValueSet]
 Label=Month of end of pregnancy
 Name=Q406M_VS1
-Value=1;January|Январь|Январь
-Value=2;February|Февраль|Февраль
-Value=3;March|Март|Март
-Value=4;April|Апрель|Апрель
-Value=5;May|Май|Май
-Value=6;June|Июнь|Июнь
-Value=7;July|Июль|Июль
-Value=8;August|Август|Август
-Value=9;September|Сентябрь|Сентябрь
-Value=10;October|Октябрь|Октябрь
-Value=11;November|Ноябрь|Ноябрь
-Value=12;December|Декабрь|Декабрь
-Value=98;Don't know month|Не знаю месяц|Не знаю месяц
+Value=1;January|Январь|январ
+Value=2;February|Февраль|феврал
+Value=3;March|Март|март
+Value=4;April|Апрель|апрел
+Value=5;May|Май|май
+Value=6;June|Июнь|июн
+Value=7;July|Июль|июл
+Value=8;August|Август|август
+Value=9;September|Сентябрь|сентябр
+Value=10;October|Октябрь|октябр
+Value=11;November|Ноябрь|ноябр
+Value=12;December|Декабрь|декабр
+Value=98;Don't know month|Не знаю месяц|Моҳро намедонам
 
 [Item]
 Label=Year of end of pregnancy
@@ -4749,7 +4749,7 @@ Value=2;No|НЕТ|НЕТ
 Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Record]
-Label=Child Immunization
+Label=Child Immunization|ИММУНИЗАЦИЯ ДЕТЕЙ|ИММУНИЗАЦИЯ ДЕТЕЙ
 Name=QWSEC05
 RecordTypeValue='W05'
 Required=No
@@ -6252,7 +6252,7 @@ Len=2
 DataType=Numeric
 
 [Record]
-Label=Child Health
+Label=Child Health|ЗДОРОВЬЕ ДЕТЕЙ|ЗДОРОВЬЕ ДЕТЕЙ
 Name=QWSEC6A
 RecordTypeValue='W6A'
 Required=No
@@ -6804,7 +6804,7 @@ Value='X                 ';Other|ДРУГОЕ|ДРУГОЕ
 Value='Z                 ';Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Record]
-Label=Child Feeding and Women's Feeding
+Label=Child Feeding and Women's Feeding|КОРМЛЕНИЕ ДЕТЕЙ И ЖЕНЩИН|КОРМЛЕНИЕ ДЕТЕЙ И ЖЕНЩИН
 Name=QWSEC6B
 RecordTypeValue='W6B'
 Required=No
@@ -7772,7 +7772,7 @@ Len=20
 DataType=Alpha
 
 [Record]
-Label=Marriage and Sexual Activity
+Label=Marriage and Sexual Activity|БРАК И СЕКСУАЛЬНАЯ АКТИВНОСТЬ|БРАК И СЕКСУАЛЬНАЯ АКТИВНОСТЬ
 Name=QWSEC07
 RecordTypeValue='W07'
 Required=No
@@ -8466,7 +8466,7 @@ Value=8;N, inconsistent with sex in last 4 weeks
 Value=9;N, sex before last birth
 
 [Record]
-Label=Fertility Preferences
+Label=Fertility Preferences|ПРЕДПОЧТЕНИЯ В ВОПРОСАХ ДЕТОРОЖДЕНИЯ|ПРЕДПОЧТЕНИЯ В ВОПРОСАХ ДЕТОРОЖДЕНИЯ
 Name=QWSEC08
 RecordTypeValue='W08'
 Required=No
@@ -8813,7 +8813,7 @@ Value=3;Fewer children|МЕНЬШЕ ДЕТЕЙ|МЕНЬШЕ ДЕТЕЙ
 Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Record]
-Label=Husband's and Woman's Background
+Label=Husband's and Woman's Background|ИНФОРМАЦИЯ О МУЖЕ И РАБОТЕ ЖЕНЫ|ИНФОРМАЦИЯ О МУЖЕ И РАБОТЕ ЖЕНЫ
 Name=QWSEC09
 RecordTypeValue='W09'
 Required=No
@@ -9331,7 +9331,7 @@ Value=2;No|НЕТ|НЕТ
 Value=8;Don't know|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Record]
-Label=HIV/AIDS
+Label=HIV/AIDS|ВИЧ/СПИД|ВИЧ/СПИД
 Name=QWSEC10
 RecordTypeValue='W10'
 Required=No
@@ -10003,7 +10003,7 @@ Value=2;No|НЕТ|НЕТ
 Value=8;Depends/not sure|ЗАВИСИТ/НЕ УВЕРЕНА|ЗАВИСИТ/НЕ УВЕРЕНА
 
 [Record]
-Label=Other Health Issues
+Label=Other Health Issues|ДРУГИЕ ВОПРОСЫ ЗДОРОВЬЯ|ДРУГИЕ ВОПРОСЫ ЗДОРОВЬЯ
 Name=QWSEC11
 RecordTypeValue='W11'
 Required=No
@@ -10312,7 +10312,7 @@ Value=1;Big problem|БОЛЬШАЯ ПРОБЛЕМА|БОЛЬШАЯ ПРОБЛЕ�
 Value=2;Not a big problem|НЕ БОЛЬШАЯ ПРОБЛЕМА|НЕ БОЛЬШАЯ ПРОБЛЕМА
 
 [Record]
-Label=Domestic Violence
+Label=Domestic Violence|ОТНОШЕНИЯ В СЕМЬЕ|ОТНОШЕНИЯ В СЕМЬЕ
 Name=QWSECDV
 RecordTypeValue='WDV'
 Required=No

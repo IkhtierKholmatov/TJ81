@@ -37,7 +37,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Household identification
+Label=Household identification|ИДЕНТИФИКАЦИЯ ДОМОХОЗЯЙСТВА|ИДЕНТИФИКАЦИЯ ДОМОХОЗЯЙСТВА
 Name=QHSECOVER
 RecordTypeValue='H00'
 RecordLen=308
@@ -719,7 +719,7 @@ Len=2
 DataType=Numeric
 
 [Record]
-Label=Household members list
+Label=Household members list|СПИСОК ЧЛЕНОВ ДОМОХОЗЯЙСТВА|СПИСОК ЧЛЕНОВ ДОМОХОЗЯЙСТВА
 Name=QHSEC01X
 RecordTypeValue='H1X'
 Required=No
@@ -842,7 +842,7 @@ Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
 
 [Record]
-Label=Household Schedule
+Label=Household Schedule|СПИСОК ДОМОХОЗЯЙСТВА|СПИСОК ДОМОХОЗЯЙСТВА
 Name=QHSEC01
 RecordTypeValue='H01'
 Required=No
@@ -1247,7 +1247,7 @@ Value=1;Yes|ДА|ДА
 Value=0;No, don't know|Нет, не знаю|Нет, не знаю
 
 [Record]
-Label=Household Characteristics
+Label=Household Characteristics|ХАРАКТЕРИСТИКИ ДОМОХОЗЯЙСТВА|ХАРАКТЕРИСТИКИ ДОМОХОЗЯЙСТВА
 Name=QHSEC02
 RecordTypeValue='H02'
 Required=No
@@ -2571,7 +2571,7 @@ Value=3;HAS NO EFFECT|НИКАК НЕ УЛУЧШИЛИ|НИКАК НЕ УЛУЧ�
 Value=8;DON’T KNOW|НЕ ЗНАЮ|НЕ ЗНАЮ
 
 [Record]
-Label=Additional household characteristics
+Label=Additional household characteristics|ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ ДОМОХОЗЯЙСТВА|ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ ДОМОХОЗЯЙСТВА
 Name=QHSEC04
 RecordTypeValue='H04'
 Required=No
@@ -2716,7 +2716,7 @@ Value=4;Household doesn't use salt|ДОМОХОЗЯЙСТВО НЕ ИСПОЛЬ�
 Value=6;Salt not tested|СОЛЬ НЕ ТЕСТИРОВАНА|СОЛЬ НЕ ТЕСТИРОВАНА
 
 [Record]
-Label=Child discipline
+Label=Child discipline|МОДУЛЬ ПО ДИСЦИПЛИНЕ ДЕТЕЙ|МОДУЛЬ ПО ДИСЦИПЛИНЕ ДЕТЕЙ
 Name=QHSECCD
 RecordTypeValue='HCD'
 Required=No
@@ -2913,7 +2913,7 @@ Len=1
 DataType=Alpha
 
 [Record]
-Label=Biomarker Identification
+Label=Biomarker Identification|ИДЕНТИФИКАЦИЯ БИОМАРКЕРАМ |БИОМАРКЕРАМ ИДЕНТИФИКАЦИЯ 
 Name=QBSECOVER
 RecordTypeValue='B00'
 Required=No
@@ -3028,7 +3028,7 @@ Value='     ';Not applicable
 Name=NOTAPPL,Special
 
 [Record]
-Label=Height, Weight, Hemoglobin (children)
+Label=Height, Weight, Hemoglobin (children)|ИЗМЕРЕНИЕ ВЕСА, РОСТА И ГЕМОГЛОБИНА ДЕТЕЙ|ИЗМЕРЕНИЕ ВЕСА, РОСТА И ГЕМОГЛОБИНА ДЕТЕЙ
 Name=QBSEC01
 RecordTypeValue='B01'
 Required=No
@@ -3803,7 +3803,7 @@ Value=1;Yes|ДА|ДА
 Value=2;No|НЕТ|НЕТ
 
 [Record]
-Label=Height, Weight, Hemoglobin (women)
+Label=Height, Weight, Hemoglobin (women)|ИЗМЕРЕНИЕ ВЕСА, РОСТА И ГЕМОГЛОБИНА ДЛЯ ЖЕНЩИН|ИЗМЕРЕНИЕ ВЕСА, РОСТА И ГЕМОГЛОБИНА ДЛЯ ЖЕНЩИН
 Name=QBSEC02
 RecordTypeValue='B02'
 Required=No

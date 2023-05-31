@@ -588,6 +588,11 @@ PROC QHCONSENT_FORM
 
 PROC QHCONSENT
 preproc
+if QH100H in 0:5,23 then
+	warning( 0184 ) 
+	select( tr("Check tablet clock" ), $, tr("Continue"), continue );;
+  endif;
+
   if QHRESULT <> 1 & special(visualvalue($)) then
     endgroup
   elseif visualvalue($) = 1 then
@@ -1269,6 +1274,18 @@ PROC QH134
   if $ in 2 then
     skip to QH135;
   endif;
+PROC QH134AA
+  if $ > QHMEMBER then
+    errmsg( 0181, $, QHMEMBER ) select( tr("Fix number of women"), $ );
+  endif;
+PROC QH134AB
+  if $ > QHMEMBER then
+    errmsg( 0182, $, QHMEMBER ) select( tr("Fix number of men"), $ );
+  endif;
+
+  if ( QH134AA + $ ) > QHMEMBER then
+    errmsg( 0183, QH134AA, $, QHMEMBER ) select( tr("Fix number of women"), QH134AA , tr("Fix number of men"), $);
+  endif;
 PROC QH136A
 {New skip for TJ23}
   if $ in 2,8 then
@@ -1385,6 +1402,12 @@ preproc
 	endrecode;
   endif;
 	
+PROC QHLANGI
+preproc
+if QH156H in 0:5,23 then
+	warning( 0184 ) 
+	select( tr("Check tablet clock" ), $, tr("Continue"), continue );;
+  endif;
 PROC GHAUX
 preproc
 skip to QHFINISH;

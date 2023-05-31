@@ -1,4 +1,36 @@
-﻿language = RU
+﻿//Text related to variables EVENT1, EVENT2 
+  TJ ( "(the beginning of the calendar)" ) (начало календаря)
+  TJ ( "the time when you were using the" ) время, когда вы использовали
+  TJ ( "the month of the interview" ) месяц интервью
+  TJ ( "the time when you were not using any method" ) время, когда вы не использовали какой-либо метод
+  TJ ( "the time when the" ) время, когда
+  TJ ( "ended" ) закончился
+  TJ ( "the time when" ) время, когда 
+  TJ ( "was born" ) был рожден
+  TJ ( "the time when the current pregnancy started" ) время начала текущей беременности
+  TJ ( "has an undefined error" ) есть невыясненная ошибка
+  TJ ( "the start of the pregnancy of" ) начало беременности 
+  TJ ( "the start of the pregnancy that ended in") начало беременности, которая закончилась в
+  TJ ( "the start of the current pregnancy" ) начало текущей беременности
+  TJ ( "when you started to use the" ) когда вы начали использовать
+  TJ ( "when you were not using any method" ) когда вы не использовали какой-либо метод
+ 
+//Text related to variable PARTNER 
+  TJ ( "husband" ) муж
+  TJ ( "partner" ) партнер
+  TJ ( "(husband/partner)" ) (муж/партнер)
+  
+//Text related to variable PARTYPE  
+  TJ ( "husband" ) муж 
+  TJ ( "male partner" ) партнер-мужчина
+  
+//Text related to variable RELPAST
+  TJ ( "current" ) текущий
+  TJ ( "last" ) последний  
+//Text related to variable RELLAST  
+  TJ ( "last" ) последний
+  
+language = RU
  0001 E Кластер %04d не найден в файле выборки
  0002 E Неправильное имя файла %s (%s): Выйдите, исправьте имя файла и перезапустите
  0003 E Неправильная дата на компьютере (%02d/%02d/%04d): выйдите, исправьте дату и перезапустите
@@ -43,11 +75,11 @@
  0130 E Если с членом домохозяйства произошло более одного несчастного случая, следует сообщать только о последнем
  0150 E Приемлемость члена домохозяйства неправильная
  0151 E Количество подходящих %s неверно: Ожидается %02d, найдено %02d
- 0152 E Не согласуется со статусом выживания родителей AH12=%1d AH14=%1d
- 0155 W Жидкое топливо заявлено как кухонная плита (AH117=%d), но используемое топливо не является жидким
+ 0152 E Не согласуется со статусом выживания родителей QH12=%1d QH14=%1d
+ 0155 W Жидкое топливо заявлено как кухонная плита (QH117=%d), но используемое топливо не является жидким
  0160 E Наивысший уровень образования  который посещал%1d выше уровня образования  который посещается в текущем учебном году %d
  0161 E Наивысший уровень класс/курс образования который посещал %1d:%02d, не согласуется с самым недавним уровнем и классом/курсом образования %1d:%02d
- 0165 W Заявлено, что в домохозяйстве нет электричества, но электричество используется для приготовления пищи, отопления или освещения (AH117=%d %s AH125=%d %s AH126=%d %s)
+ 0165 W Заявлено, что в домохозяйстве нет электричества, но электричество используется для приготовления пищи, отопления или освещения (QH117=%d %s QH125=%d %s QH126=%d %s)
  0180 E Заявлено, что домашнее хозяйство владеет животными, но 00 было введено для всех разных видов животных.
 
  0201 E Номер линии члена, который спал под сеткой вне диапазона (всего лиц %02d)
@@ -59,10 +91,10 @@
  0211 E Женщина выбранная для модуля домашнего насилия  не правильная(пол %d семейное положение %d критерии подходимости %02d)
 
  0410 E Неверный номер линии в колонке %1d: ожидается %02d
- 0415 W Пол (%1d) отличается от пола в списке домохозяйств (AH04=%1d)
- 0420 W Возраст (%02d), отличается от возраста в списке домохозяйства (AH07=%02d)
+ 0415 W Пол (%1d) отличается от пола в списке домохозяйств (QH04=%1d)
+ 0420 W Возраст (%02d), отличается от возраста в списке домохозяйства (QH07=%02d)
  0435 E Возраст не согласуется на основе даты рождения и даты интервью домохозяйства
- 0437 W Возраст этого ребенка в списке (AH07=%d) и дата рождения, введенная в биомаркер (AB103=%d-%d-%d) не согласуются 
+ 0437 W Возраст этого ребенка в списке (QH07=%d) и дата рождения, введенная в биомаркер (QB103=%d-%d-%d) не согласуются 
  0440 W Вес за пределами ожидаемого диапазона
  0441 W Второй десятичный знак для веса, отличается от 0,5
  0442 E Вес отличается от веса, введенного ранее
@@ -71,7 +103,7 @@
  0452 E Рост отличается от роста введенного ранее
  0460 W Детей до 2 лет обычно измеряются лежа, детей старше 2 лет измеряют стоя
  0462 E Несогласование между возрастом (%d), как ребенок был измерен (%d-%s) и ответом на этот вопрос
- 0470 E Согласия на Анемию не дано (AB120=%01d), поэтому измерение гемоглобина AB122=%4.1f не должно иметь приемлемого значения
+ 0470 E Согласия на Анемию не дано (QB120=%01d), поэтому измерение гемоглобина QB122=%4.1f не должно иметь приемлемого значения
  0471 E Согласия на Анемию не дано респондентом (%01d), поэтому гемоглобин=%4.1f не должен иметь приемлемого значения
  0472 E Согласия на Анемию не дано родителем/опекуном (%01d) или несовершеннолетним (%01d), поэтому гемоглобин=%4.1f не должен иметь приемлемого значения
  0473 W Неправдоподобный уровень гемоглобина %4.1f, проверьте наличие ошибок ввода
@@ -94,14 +126,14 @@
  0495 E Недопустимая последовательность символов в штрихкоде (%5s)
  0496 E Недопустимое поле проверки (последний символ) для штрихкода (%5s)
  0501 E Согласие на малярию не дано (%01d) не согласуется со штрихкодом=%s
- 0502 E Согласие на малярию не дано (AB120=%01d) не согласуется с результатом RDT на малярию
+ 0502 E Согласие на малярию не дано (QB120=%01d) не согласуется с результатом RDT на малярию
 
  1000 E Номер линии респондента неверный: Пожалуйста, введите номер линии женщины %02d
  1002 W Индивидуальная анкета не закончена. Проверить код результата
  1005 E Записанная модель тонометра не соответствует окружности руки %d
- 1030 E Время проживания респондента в текущем месте жительства (A104=%02d) превышает текущий возраст
+ 1030 E Время проживания респондента в текущем месте жительства (Q104=%02d) превышает текущий возраст
  1031 W Респондент - гость, однако она обычный житель в списке домохозяйства (%1d)
- 1035 W Дата переезда в нынешнее место жительства не согласуется с количеством лет проживания в нынешнем месте A104=%d
+ 1035 W Дата переезда в нынешнее место жительства не согласуется с количеством лет проживания в нынешнем месте Q104=%d
  1060 E Ни дата рождения, ни возраст не указаны: %02d/%04d %02d
  1061 W Возраст респондента и возраст в домохозяйстве различаются: %02d %02d
  1062 E Дата рождения и возраст не согласуются: дата рождения=%02d/%04d возраст=%02d интервью=%02d/%04d
@@ -112,13 +144,13 @@
  2030 E Количество мальчиков и девочек должно быть больше нуля
  2080 E Неправильно указано количество когда-либо рожденных детей
  2090 E Проверить и исправить 201-208 при необходимости
- 2100 E Количество уже записанных беременностей (%d) превышает число, указанное в A212 (%d). Либо исправьте количество беременностей в A201-A212, либо удалите неправильную беременность из истории беременностей
+ 2100 E Количество уже записанных беременностей (%d) превышает число, указанное в Q212 (%d). Либо исправьте количество беременностей в Q201-Q212, либо удалите неправильную беременность из истории беременностей
  2120 E Неверный код одноплодной или многоплодной беременности
  2121 W Обычно исход многоплодной беременности одинаков. Пожалуйста, подтвердите и убедитесь, что это правильно.
- 2122 E Многоплодная беременность, но только один исход беременности A212W=%d
+ 2122 E Многоплодная беременность, но только один исход беременности Q212W=%d
  2123 E Если эта беременность имеется %s, общее количество беременностей превысит сообщенное число %d. Пожалуйста, вернитесь назад и исправьте 201-212 или измените количество детей для этой беременности в 215.
  2125 E Проверить соответствие продолжительности беременности между единицами измерения и числами
- 2141 W Ребенок имеет другой пол в домохозяйстве (AH04=%1d, A219=%1d)
+ 2141 W Ребенок имеет другой пол в домохозяйстве (QH04=%1d, Q219=%1d)
  2142 E Неверная комбинация длительности беременности, проверьте единицы измерения и числа
  2143 E Продолжительность беременности %02d %s не согласуется с заявленным исходом беременности (%s)
  2144 E Продолжительность беременности (%d %s) отличается от продолжительности, указанной для предыдущего близнеца (%d %s)
@@ -130,14 +162,14 @@
  2153 E Беременность следует кодировать как многоплодная, если она приходится на ту же дату, что и предыдущая беременность
  2155 E Дата родов (%s %d/%d/%d) не согласуется между близнецами/тройняшками (%s %d/%d/%d)
  2156 E Дата родов должна быть в пределах одного дня друг от друга для близнецов/тройняшек: %s %d/%d/%d, %s %d/%d/%d
- 2160 E Ребёнок жив, но в A216 был объявлен «Мертворождённым».
+ 2160 E Ребёнок жив, но в Q216 был объявлен «Мертворождённым».
  2170 E Возраст ребенка и возраст близнеца разные
  2171 E Возраст ребенка (%d) и дата рождения (%d/%d/%d) не согласуется
- 2173 W Ребенок имеет другой возраст в списке домохозяйстве (AH07=%02d, A225=%02d)
- 2175 W Возраст ребенка (A225=%d) и введенная дата рождения (A220=%d-%d-%d) не согласуются
+ 2173 W Ребенок имеет другой возраст в списке домохозяйстве (QH07=%02d, Q225=%02d)
+ 2175 W Возраст ребенка (Q225=%d) и введенная дата рождения (Q220=%d-%d-%d) не согласуются
  2181 E Номер линии домохозяйства ребенка неприемлем
- 2182 W Ребенк имеет другую мать в домохозяйстве (AH11=%02d, Линия Матери=%02d)
- 2183 W Ребенок имеет другой статус проживания в домохозяйстве (AH05=%1d, A226=%1d)
+ 2182 W Ребенк имеет другую мать в домохозяйстве (QH11=%02d, Линия Матери=%02d)
+ 2183 W Ребенок имеет другой статус проживания в домохозяйстве (QH05=%1d, Q226=%1d)
  2184 E Номер линии ребенка из домохозяйства уже используется для ребенка %d
  2185 W Мать имеет ребенка %02d, записанного в списке домохозяйства, но не в истории рождений.
  2190 E Возраст на момент смерти неприемлем для  единиц значения=9
@@ -177,13 +209,13 @@
  3141 E Статус стерилизации респондента не согласуется c текущим методом
  3142 E Текущий метод (%s), о котором никогда не слышала, согласно таблицы контрацепции
  3143 W Метод, использованный во время последнего секса (%s), о котором никогда не слышала, согласно таблицы контрацепции
- 3145 E Респондент стерилизован согласно A304, что не согласуется с текущим методом
- 3146 E Партнер респондента, стерилизованный согласно A304, не согласуется с текущим методом
- 3150 E Проверить согласованность A304=%d с текущим методом
+ 3145 E Респондент стерилизован согласно Q304, что не согласуется с текущим методом
+ 3146 E Партнер респондента, стерилизованный согласно Q304, не согласуется с текущим методом
+ 3150 E Проверить согласованность Q304=%d с текущим методом
  3160 E Заявлено, что  во время последнего полового акта никакой метод не использовался, но в настоящее время респондент использует %s
  3211 W Дата начала использования текущего метода (%04d-%04d) не согласуется с календарем (%04d строка %02d)
  3212 W Использование стерилизации в календаре в строке %02d
- 3270 E Текущий метод в вопросе A307=%1s должен быть таким же в этом вопросе
+ 3270 E Текущий метод в вопросе Q307=%1s должен быть таким же в этом вопросе
 
  4030 E Неправильный номер линии ребенка в колонке %1d: Ожидается %02d
  4160 E Неверное время первого дородового визита
@@ -197,10 +229,10 @@
  4280 W Все еще кормит грудью ребенка,который не является последным ребенком 
  4290 W Продолжительность грудного вскармливания %02d не согласуется с интервалом: интервью=%02d/%04d дата рождения=%02d/%04d
  4292 E В настоящее время код грудного вскармливания не принят для последних рождений
- 4295 E Если вчера ребенок ел какую-либо твердую или полутвердую пищу, в вопросах с A637A по A637R должен быть хотя бы один «да» (код 1)
+ 4295 E Если вчера ребенок ел какую-либо твердую или полутвердую пищу, в вопросах с Q637A по Q637R должен быть хотя бы один «да» (код 1)
 
  4430 E Неправильный номер линии ребенка в колонке %1d: ожидается %02d
- 4460 E Сочетание владения (A504=%d) и просмотра (A507=%d) паспорта вакцинации и/или другого документа не согласуется
+ 4460 E Сочетание владения (Q504=%d) и просмотра (Q507=%d) паспорта вакцинации и/или другого документа не согласуется
  4465 W Извините, никакой фотографии не было сделано для ребенка %02d-%s 
  4470 E Дата вакцинации (%02d/%02d/%04d) вне допустимого диапазона или неверная комбинация дня/месяца/года
  4471 E Указана дата вакцинации (%02d/%02d/%04d) для ребенка %02d до даты рождения ребенка (%02d/%02d/%04d)
@@ -213,11 +245,11 @@
  5020 E Текущее семейное положение (%1d) и семейное положение из календаря (%1s) не согласуется
  5040 E Никогда не состояла в союзе, но записана как в союзе за последние 5 лет в календаре
  5060 E Номер линии мужа превышает число членов домохозяйства
- 5061 E Неверный пол (AH04=%1d) партнера респондента
+ 5061 E Неверный пол (QH04=%1d) партнера респондента
  5062 W Возраст (%02d) мужа/партнера (линия=%02d) меньше %02d
  5064 W Для партнера (%02d) проверьте согласованность отношения респондента к главе домохозяйства (%02d) и к партнеру (%02d)
- 5065 E Респондент заявил, что только один раз состоял в браке, но живет раздельно. Однако в настоящее время она замужем согласно A701=%d
- 5066 E Респондент заявил, что только один раз состоял в браке, но продолжает состоять в союзе. Однако в настоящее время она не замужем согласно A701=%d
+ 5065 E Респондент заявил, что только один раз состоял в браке, но живет раздельно. Однако в настоящее время она замужем согласно Q701=%d
+ 5066 E Респондент заявил, что только один раз состоял в браке, но продолжает состоять в союзе. Однако в настоящее время она не замужем согласно Q701=%d
  5100 W Ранг (%02d) жены превышает количество жен (%02d, включая респондента)
  5120 W Первый союз после даты интервью: дата союза=%02d/%04d возраст в союзе=%02d интервью=%02d/%04d дата рождения=%02d/%04d возраст=%02d
  5121 W Первый союз до возраста %02d: дата рождения=%02d/%04d возраст=%02d дата союза=%02d/%04d возраст в союзе u=%02d
@@ -236,13 +268,13 @@
  5190 W Возраст при первом половом акте превышает текущий возраст: интервью=%02d/%04d дата рождения=%02d/%04d возраст=%02d первый половой акт=%02d
  5191 W Возраст при первом половом акте после возраста при первом зачатии: ребенок рожден=%02d/%04d рождение=%02d/%04d первый половой акт=%02d
  5192 E Первый половой акт при первом браке, но никогда в союзе
- 5193 E Время, прошедшее с момента последнего полового акта A723=%d/%02d больше, чем текущий возраст (%02d)
- 5240 W Ответ муж, но никогда не состояла в союзе (A701=%1d, A702=%1d)
- 5241 W Ответ: сожитель, но никогда не была замужем и не проживала с мужчиной (A701=%1d, A702=%1d)
+ 5193 E Время, прошедшее с момента последнего полового акта Q723=%d/%02d больше, чем текущий возраст (%02d)
+ 5240 W Ответ муж, но никогда не состояла в союзе (Q701=%1d, Q702=%1d)
+ 5241 W Ответ: сожитель, но никогда не была замужем и не проживала с мужчиной (Q701=%1d, Q702=%1d)
  5243 W Количество партнеров должно быть 3 или более
  5245 W Общее количество партнеров должно быть больше или равно количеству партнеров за последний год (%d)
 
- 6020 E Ответ (%1d) не согласуется с текущим статусом беременности (A232=%1d)
+ 6020 E Ответ (%1d) не согласуется с текущим статусом беременности (Q232=%1d)
  6031 W Время до следующего рождения кажется неправильным
  6032 W Ответила после замужества, но респондент в настоящее время  замужем (%1d)
  6100 W Респондент состоит в союзе (%1d), но ответила "Не замужем"
@@ -251,14 +283,14 @@
  6280 W Использовали презерватив с партнером, но никогда не использовали презерватив в таблице контрацепции
 
  7051 E Уровень и класс/курс образования партнера не согласуется
- 7250 W Респондент упомянул мужа/партнера (%1d), но не в союзе (A701=%1d)
+ 7250 W Респондент упомянул мужа/партнера (%1d), но не в союзе (Q701=%1d)
 
  8110 E Несоответствие времени начала (%02d:%02d) и окончания интервью (%02d:%02d)
  9000 E Братья и сестры перечислены не по порядку: Брат/сестра %02d лет с рождения=%02d, Брат/сестра %02d лет с рождения=%02d
  9001 W Более 30 лет между самым старшим (%02d) и самым младшим (%02d) братом или сестрой
  9002 E Предшествующих рождений до респондента больше, чем общее число рождений матери
 
- 9006 E Количество инъекций, сделанных медицинским персоналом, не может быть больше, чем количество инъекций в прошлом году (zzA1101=%02d)
+ 9006 E Количество инъекций, сделанных медицинским персоналом, не может быть больше, чем количество инъекций в прошлом году (zzQ1101=%02d)
  
  9010 E Сравните возраст (%02d) с количеством лет, прошедших с момента последнего теста на рак шейки матки
 
@@ -277,13 +309,13 @@
  9800 E Запрещены записи до даты интервью в колонке 1 календаря в %s, %04d
  9801 E Недопустимый код %1s в колонке календаря %1d в %s, %04d
  9802 E Рождение в %s, %04d в календаре (cmc=%04d) вне диапазона из истории беременности (ребенок%02d=%04d-%04d)
- 9803 W Рождение в %s, %04d в календаре имеет продолжительность беременности %02d месяцев, что не согласуется с заявленной в A221=%d/%02d
+ 9803 W Рождение в %s, %04d в календаре имеет продолжительность беременности %02d месяцев, что не согласуется с заявленной в Q221=%d/%02d
  9804 E Рождение %02d в истории беременности не имеет записи в календаре
  9805 E Прекращение использования, но код не указан в колонке 2, строка %02d
  9806 W Прекращение в последующих месяцах %02d & %02d. Пожалуйста, проверьте!
  9807 E Нет прекращения использования, но код прекращения использования указан в строке %02d
  9818 E Код беременности в %s, %04d в колонке 1 календаря, за которым не следует код прерывания
- 9819 W Прерванная беременность в %s, %04d календаря имеет срок беременности %02d, что отличается от указанного в A221=%d/%02d
+ 9819 W Прерванная беременность в %s, %04d календаря имеет срок беременности %02d, что отличается от указанного в Q221=%d/%02d
  9820 E Начало использования нового метода, но никакого кода не указано в колонке 3 в %s, %04d
 
  9980 E Пожалуйста, выберите из категорий в основных группах
@@ -335,7 +367,7 @@
 25062 W Возраст (%02d) жены/партнера (линия=%02d) меньше %02d
 25064 W Для партнера (%02d) проверьте согласованность отношения респондента к главе домохозяйства (%02d) и к партнеру (%02d)
 25065 E Номер линии жены/партнера %02d уже введен
-25068 W Возраст жены отличается от указанного в домохозяйстве AH07=%02d
+25068 W Возраст жены отличается от указанного в домохозяйстве QH07=%02d
 25110 W Количество жен на протяжении всей жизни %2d меньше, чем количество женщин, с которыми он живет (%2d)
 25120 W Первый союз после даты интервью: дата союза=%02d/%04d возраст в союзе=%02d интервью=%02d/%04d дата рождения=%02d/%04d возраст=%02d
 25121 W Первый союз до возраста %02d: дата рождения=%02d/%04d возраст=%02d дата союза=%02d/%04d возраст в союзе=%02d
@@ -378,18 +410,18 @@
 80005 E С этого момента номер домохозяйства %d станет частью назначенных вам домохозяйств
 80006 E Домохозяйство %d не существует в кластере %d
 
-82142 E Количество мальчиков на %02d превышает общее количество мальчиков, заявленное в A203=%02d A205=%02d A207=%02d
-82143 E Количество девочек на %02d превышает общее количество девочек, заявленное в A203=%02d A205=%02d A207=%02d
-82144 E Количество потерь беременности %02d превышает общее количество потерь, заявленное в A211=%02d
+82142 E Количество мальчиков на %02d превышает общее количество мальчиков, заявленное в Q203=%02d Q205=%02d Q207=%02d
+82143 E Количество девочек на %02d превышает общее количество девочек, заявленное в Q203=%02d Q205=%02d Q207=%02d
+82144 E Количество потерь беременности %02d превышает общее количество потерь, заявленное в Q211=%02d
 82283 E Продолжительность беременности не согласуется с другими событиями в %s, %d
 82284 E Продолжительность терминации не согласуется с другими событиями в %s, %d
 82285 E Дата начала эпизода должна быть раньше даты, когда респондент начал использовать текущий метод в %02d/%04d
-82363 W Респондентка в менопаузе, но ей меньше 30 лет (A111=%02d)
-82364 W Последняя менструация больше возраста минус 10 (A111=%02d)
-82365 E Возраст во время первой менструации больше текущего возраста (A111=%02d)
-82369 W Никогда не было менструаций, но были беременна (A212=%02d) или беременна в настоящее время (A232=%d)
+82363 W Респондентка в менопаузе, но ей меньше 30 лет (Q111=%02d)
+82364 W Последняя менструация больше возраста минус 10 (Q111=%02d)
+82365 E Возраст во время первой менструации больше текущего возраста (Q111=%02d)
+82369 W Никогда не было менструаций, но были беременна (Q212=%02d) или беременна в настоящее время (Q232=%d)
 82371 E Дата терминации не в порядке убывания
-82372 E Это терминация должна быть после терминации, объявленного в zzA231=%02d/%04d
+82372 E Это терминация должна быть после терминации, объявленного в zzQ231=%02d/%04d
 83132 E Текущий метод начала использоваться до рождения, зарегистрированного в %s, %d
 83133 E Текущий метод начала использовать до терминации, указанной в %s, %d
 83134 E Даты начала и окончания эпизода не согласуются
@@ -402,12 +434,11 @@
 
 89823 E Респондентка беременна, но беременность не зарегистрирована в календаре
 89824 E Терминация, зарегистрированная в %s=%02d/%04d, не была зарегистрирована в строке календаря %02d
-89825 E В календаре зарегистрирована терминация, но у респондента никогда не было терминаций в соответствии с zzA230=%d
+89825 E В календаре зарегистрирована терминация, но у респондента никогда не было терминаций в соответствии с zzQ230=%d
 89991 E Первый символ должен быть буквой
 89997 E Дата для текущего союза предшествует дате первого союза (%02d/%04d), проблема должна быть решена
 89998 E Неверная дата, она не может быть позже даты интервью
 89999 E Запись не может быть пустой
-
 
 { common strings used by data collection applications }
   RU ( "Note" ) Записки
@@ -547,7 +578,7 @@
   RU ( "Dur/Preg" ) Длительность/беременность
   RU ( "Stayed" ) Оставались
   RU ( "Line number" ) Номер линии
-  RU ( "Correct the number of pregnancies in A201-A212" ) Исправьте количество беременностей в A201-A212
+  RU ( "Correct the number of pregnancies in Q201-Q212" ) Исправьте количество беременностей в Q201-Q212
   RU ( "Continue to pregnancy history to remove the incorrect pregnancy" ) Продолжайте в историю беременности, чтобы удалить неправильную беременность
   RU ( "Date of birth/end of pregnancy" ) Дата рождения/окончание беременности
   RU ( "Pregnancy inserted" ) Беременность вставлена
@@ -856,12 +887,16 @@ language = EN
  0130 E If a household member has more than one accident only the last one must be reported 
  0150 E Eligibility of household member incorrect
  0151 E Number of eligible %s incorrect: Expected %02d, found %02d
- 0152 E Inconsistent with parents survival status AH12=%1d AH14=%1d
- 0155 W Liquid fuel declared as cookstove (AH117=%d), but fuel used is not liquid
+ 0152 E Inconsistent with parents survival status QH12=%1d QH14=%1d
+ 0155 W Liquid fuel declared as cookstove (QH117=%d), but fuel used is not liquid
  0160 E Highest level of education attended %1d greater than level attending in current school year %d
  0161 E Highest level & grade of education attended %1d:%02d inconsistent with most recent level and grade of education %1d:%02d
- 0165 W Declared that household doesn't have electricity, but electricity used for cooking, heat, or light (AH117=%d %s AH125=%d %s AH126=%d %s) 
+ 0165 W Declared that household doesn't have electricity, but electricity used for cooking, heat, or light (QH117=%d %s QH125=%d %s QH126=%d %s) 
  0180 E Declared that household own animals, but 00 was entered for all different type of animals
+ 0181 E The number of women on (QH134AA=%d) cannot be more than the total number of household members (%d)
+ 0182 E The number of men on (QH134AB=%d) cannot be more than the total number of household members (%d)
+ 0183 E The number of women and men on (QH134AA=%d + QH134AB=%d) cannot be more than the total number of household members (%d)
+ 0184 W Interview time incorrect, should be between 6 AM to 10 PM
 
  0201 E Line number of member who slept under a net out of range (total members %02d)
  0202 E Member already listed under this net
@@ -872,10 +907,10 @@ language = EN
  0211 E Woman selected for domestic violence incorrect (Sex %d marital status %d eligibility criteria %02d)
 
  0410 E Line number in column %1d incorrect: Expected %02d
- 0415 W Sex (%1d) different from sex in household schedule (AH04=%1d)
- 0420 W Age (%02d) different from age in household schedule (AH07=%02d)
+ 0415 W Sex (%1d) different from sex in household schedule (QH04=%1d)
+ 0420 W Age (%02d) different from age in household schedule (QH07=%02d)
  0435 E Age inconsistent based on date of birth and date of household interview
- 0437 W Age of this child in roster (AH07=%d) and DOB entered in biomarker (AB103=%d-%d-%d) are not consistent
+ 0437 W Age of this child in roster (QH07=%d) and DOB entered in biomarker (QB103=%d-%d-%d) are not consistent
  0440 W Weight outside range expected
  0441 W Second decimal for weight different from 0,5
  0442 E Weight is different from the weight entered previously
@@ -884,7 +919,7 @@ language = EN
  0452 E Height is different from the height entered previoulsy
  0460 W Children under 2 are usually measured lying down, children 2+ measured standing up
  0462 E Inconsistency between age (%d), how child was measured (%d-%s) and answer to this question
- 0470 E Consent for Anemia not given (AB120=%01d), thus hemoglobin measurement AB122=%4.1f should not have a valid value
+ 0470 E Consent for Anemia not given (QB120=%01d), thus hemoglobin measurement QB122=%4.1f should not have a valid value
  0471 E Consent for Anemia not given by respondent (%01d), thus hemoglobin=%4.1f should not have a valid value
  0472 E Consent for Anemia not given parent/caretaker (%01d) or minor (%01d), thus hemoglobin=%4.1f should not have a valid value 
  0473 W Implausible hemoglobin level %4.1f, check for keying errors
@@ -907,14 +942,14 @@ language = EN
  0495 E Invalid sequence of characters in barcode (%5s)
  0496 E Invalid check field (last character) for barcode (%5s)
  0501 E Consent for malaria not given (%01d) inconsistent with barcode=%s
- 0502 E Consent for malaria not given (AB120=%01d) inconsistent with result of malaria RDT
+ 0502 E Consent for malaria not given (QB120=%01d) inconsistent with result of malaria RDT
 
  1000 E Line number of respondent incorrect: Please enter woman number %02d
  1002 W Individual questionnaire incomplete.  Check result code
  1005 E The blood pressure monitor model registered doesn't agree with arm circumference %d
- 1030 E Time respondent living in current place of residence (A104=%02d) exceeds current age
+ 1030 E Time respondent living in current place of residence (Q104=%02d) exceeds current age
  1031 W Respondent is a visitor, however she is a usual resident in the household schedule (%1d)
- 1035 W Date moved to current place of residence inconsistent with years living in current place A104=%d
+ 1035 W Date moved to current place of residence inconsistent with years living in current place Q104=%d
  1060 E Neither date of birth nor age specified: %02d/%04d %02d
  1061 W Age of respondent and age in household different: %02d %02d
  1062 E Date of birth and age inconsistent: dob=%02d/%04d age=%02d interview=%02d/%04d
@@ -925,13 +960,13 @@ language = EN
  2030 E Number of boys and girls must be greater than zero
  2080 E Number of children ever born incorrect
  2090 E Probe and correct 201-208 as necessary
- 2100 E Number of pregnancies already recorded (%d) exceeds number given in A212 (%d). Either correct the number of pregnancies in A201-A212 or delete the incorrect pregnancy from the pregnancy history
+ 2100 E Number of pregnancies already recorded (%d) exceeds number given in Q212 (%d). Either correct the number of pregnancies in Q201-Q212 or delete the incorrect pregnancy from the pregnancy history
  2120 E Single or multiple pregnancy code incorrect
  2121 W Usually outcome of multiple pregnancy is the same. Please confirm and ensure it is correct.
- 2122 E Multiple pregnancy, but only one pregnancy outcome A212W=%d
+ 2122 E Multiple pregnancy, but only one pregnancy outcome Q212W=%d
  2123 E If this pregnancy is %s the total number of pregnancies will exceed the number given %d.  Please go back and correct 201-212, or change the number of babies for this pregnancy in 215
  2125 E Check consistency of the pregnancy duration between units and numbers
- 2141 W Child has different sex in household (AH04=%1d, A219=%1d)
+ 2141 W Child has different sex in household (QH04=%1d, Q219=%1d)
  2142 E Pregnancy duration combination incorrect, verify units and numbers
  2143 E Pregnancy duration of %02d %s is not consistent with the pregnancy outcome reported ( %s )
  2144 E Duration of pregnancy (%d %s) is different from duration given for prior twin (%d %s)
@@ -943,14 +978,14 @@ language = EN
  2153 E Pregnancy should be coded as multiple pregnancy if on the same date as previous pregnancy
  2155 E Date of delivery (%s %d/%d/%d) inconsistent between twins/triplets (%s %d/%d/%d)
  2156 E Date of delivery should be within one day of each other for twins/triplets: %s %d/%d/%d, %s %d/%d/%d
- 2160 E Child is alive, but was declared as "Born dead" in A216
+ 2160 E Child is alive, but was declared as "Born dead" in Q216
  2170 E Age of child and age of twin different
  2171 E Age of child (%d) and date of birth (%d/%d/%d) inconsistent
- 2173 W Child has different age in household (AH07=%02d, A225=%02d)
- 2175 W Age of child (A225=%d) and DOB entered (A220=%d-%d-%d) are not consistent
+ 2173 W Child has different age in household (QH07=%02d, Q225=%02d)
+ 2175 W Age of child (Q225=%d) and DOB entered (Q220=%d-%d-%d) are not consistent
  2181 E Household line number of child invalid
- 2182 W Child has different mother in household (AH11=%02d, Mother's Line=%02d)
- 2183 W Child has different residence status in household (AH05=%1d, A226=%1d)
+ 2182 W Child has different mother in household (QH11=%02d, Mother's Line=%02d)
+ 2183 W Child has different residence status in household (QH05=%1d, Q226=%1d)
  2184 E Line number of child from household already used for child %d
  2185 W Mother has child %02d listed in household, but not in birth history
  2190 E Age at death invalid for units=9
@@ -990,13 +1025,13 @@ language = EN
  3141 E Respondent's sterilization status inconsistent with current method
  3142 E Current method (%s) never heard of according to contraceptive table
  3143 W Method used at last sex (%s) never heard of according to contraceptive table
- 3145 E Respondent sterilized according to A304 inconsistent with current method 
- 3146 E Respondent's partner sterilized according to A304 inconsistent with current method 
- 3150 E Check consistency of A304=%d with current method
+ 3145 E Respondent sterilized according to Q304 inconsistent with current method 
+ 3146 E Respondent's partner sterilized according to Q304 inconsistent with current method 
+ 3150 E Check consistency of Q304=%d with current method
  3160 E Declared no method used at last sexual intercourse, but respondent is currently using %s
  3211 W Date of start of use of current method (%04d-%04d) does not agree with calendar (%04d row %02d)
  3212 W Sterilization use in calendar in row %02d
- 3270 E Current method in question A307=%1s must be the same in this question
+ 3270 E Current method in question Q307=%1s must be the same in this question
 
  4030 E Line number of child in column %1d incorrect: Expected %02d
  4160 E Timing of first antenatal visit incorrect
@@ -1010,10 +1045,10 @@ language = EN
  4280 W Still breastfeeding child that is not the last child
  4290 W Duration of breastfeeding %02d inconsistent with interval: interview=%02d/%04d dob=%02d/%04d
  4292 E Currently breastfeeding code not accepted for last births
- 4295 E If the child ate any solid or semi-solid food yesterday there has to be at least one yes (code 1) in questions A637A to A637R
+ 4295 E If the child ate any solid or semi-solid food yesterday there has to be at least one yes (code 1) in questions Q637A to Q637R
 
  4430 E Line number of child in column %1d incorrect: Expected %02d
- 4460 E Combination of possession (A504=%d) and observation (A507=%d) of card and/or other document inconsistent
+ 4460 E Combination of possession (Q504=%d) and observation (Q507=%d) of card and/or other document inconsistent
  4465 W Sorry, no photograph was taken for child %02d-%s
  4470 E Date of vaccination (%02d/%02d/%04d) out of range or combination of day/month/year incorrect
  4471 E Vaccination date given (%02d/%02d/%04d) for child %02d before child's date of birth (%02d/%02d/%04d)
@@ -1026,11 +1061,11 @@ language = EN
  5020 E Current marital status (%1d) and marital status from calendar (%1s) inconsistent
  5040 E Never in union, but recorded as in union in last 5 years on calendar
  5060 E Line number of husband exceeds number of household members
- 5061 E Sex (AH04=%1d) of respondent's partner incorrect
+ 5061 E Sex (QH04=%1d) of respondent's partner incorrect
  5062 W Age (%02d) of the husband/partner (line=%02d) is under %02d
  5064 W For partner (%02d) check consistency of respondent's relationship to the household head (%02d) and that of partner (%02d)
- 5065 E Respondent declared only once married but separated.  However, she is currently married according to A701=%d
- 5066 E Respondent declared only once married but and continues in union.  However, she is not currently married according to A701=%d
+ 5065 E Respondent declared only once married but separated.  However, she is currently married according to Q701=%d
+ 5066 E Respondent declared only once married but and continues in union.  However, she is not currently married according to Q701=%d
  5100 W Rank (%02d) of wife exceeds number of wives (%02d - including respondent)
  5120 W First union after date of interview: dou=%02d/%04d age at u=%02d interview=%02d/%04d dob=%02d/%04d age=%02d
  5121 W First union before age %02d: dob=%02d/%04d age=%02d dou=%02d/%04d age at u=%02d
@@ -1049,13 +1084,13 @@ language = EN
  5190 W Age at first sex exceeds current age: interview=%02d/%04d dob=%02d/%04d age=%02d first sex=%02d
  5191 W Age at first sex after age at first conception: child born=%02d/%04d birth=%02d/%04d first sex=%02d
  5192 E First sex when first married, but never in union
- 5193 E Time since last sexual intercourse A723=%d/%02d greater than current age (%02d)
- 5240 W Answer husband but has never been in union (A701=%1d, A702=%1d)
- 5241 W Answer live-in-partner, but has never been married or lived with a man (A701=%1d, A702=%1d)
+ 5193 E Time since last sexual intercourse Q723=%d/%02d greater than current age (%02d)
+ 5240 W Answer husband but has never been in union (Q701=%1d, Q702=%1d)
+ 5241 W Answer live-in-partner, but has never been married or lived with a man (Q701=%1d, Q702=%1d)
  5243 W Number of partners should be 3 or more
  5245 W Total number of partners must be greater or equal to partners in the last year (%d)
 
- 6020 E Response (%1d) inconsistent with current pregnancy status (A232=%1d)
+ 6020 E Response (%1d) inconsistent with current pregnancy status (Q232=%1d)
  6031 W Time to next birth seems incorrect
  6032 W Answered after marriage, but respondent is currently married (%1d)
  6100 W Respondent in union (%1d), but responded "Not married"
@@ -1064,14 +1099,14 @@ language = EN
  6280 W Used condom with partner but have never used condom in contraceptive table
 
  7051 E Level and grade of partner's education inconsistent
- 7250 W Respondent mentioned husband/partner (%1d) but not in union (A701=%1d)
+ 7250 W Respondent mentioned husband/partner (%1d) but not in union (Q701=%1d)
 
  8110 E Inconsistency between time of beginning (%02d:%02d) and end of interview (%02d:%02d)
  9000 E Siblings listed out of order: Sibling %02d years since birth=%02d, Sibling %02d years since birth=%02d
  9001 W More than 30 years between oldest (%02d) and youngest (%02d) sibling
  9002 E Preceding births to respondent greater than mother's total number of births
 
- 9006 E Injections administered by health personnel can't be more than injections in last year (zzA1101=%02d)
+ 9006 E Injections administered by health personnel can't be more than injections in last year (zzQ1101=%02d)
  
  9010 E Compare age (%02d) with years since last cervical cancer test
 
@@ -1090,13 +1125,13 @@ language = EN
  9800 E No entries allowed before the date of interview in calendar column 1 in %s, %04d
  9801 E Invalid code %1s in calendar column %1d in %s, %04d
  9802 E Birth in %s, %04d in calendar (cmc=%04d) out of range from birth history (child%02d=%04d-%04d)
- 9803 W Birth in %s, %04d in calendar has gestation length of %02d months that and doesn't agree with that declared in A221=%d/%02d
+ 9803 W Birth in %s, %04d in calendar has gestation length of %02d months that and doesn't agree with that declared in Q221=%d/%02d
  9804 E Birth %02d in pregnancy history does not have entry in calendar
  9805 E Discontinuation of use but no code given in column 2 row %02d
  9806 W Discontinuation in consecutive months %02d & %02d. Please check!
  9807 E No discontinuation of use, but code for discontinuation given in row %02d
  9818 E Pregnancy code in %s, %04d in column 1 of calendar not followed by a termination code
- 9819 W Terminated pregnancy in %s, %04d of calendar has gestation length of %02d which is different from that reported reported in A221=%d/%02d
+ 9819 W Terminated pregnancy in %s, %04d of calendar has gestation length of %02d which is different from that reported reported in Q221=%d/%02d
  9820 E Start of new method, but no code given in column 3 in %s, %04d
 
  9980 E Please select from the categories within the major groups
@@ -1148,7 +1183,7 @@ language = EN
 25062 W Age (%02d) of the wife/partner (line=%02d) is under %02d
 25064 W For partner (%02d) check consistency of respondent's relationship to the household head (%02d) and that of partner (%02d)
 25065 E Line number of wife/partner %02d already entered
-25068 W Wife age different from that given in the household AH07=%02d
+25068 W Wife age different from that given in the household QH07=%02d
 25110 W Number of lifetime wives %2d is less than the number of women he lives with (%2d)
 25120 W First union after date of interview: dou=%02d/%04d age at u=%02d interview=%02d/%04d dob=%02d/%04d age=%02d
 25121 W First union before age %02d: dob=%02d/%04d age=%02d dou=%02d/%04d age at u=%02d
@@ -1191,18 +1226,18 @@ language = EN
 80005 E From this point on household number %d will become part of households assigned to you
 80006 E Household %d does not exist in cluster %d
 
-82142 E Number of boys %02d exceed the total number of boys declared in A203=%02d A205=%02d A207=%02d
-82143 E Number of girls %02d exceed the total number of girls declared in A203=%02d A205=%02d A207=%02d
-82144 E Number of pregnacy losses %02d exceed the total number of losses declared in A211=%02d
+82142 E Number of boys %02d exceed the total number of boys declared in Q203=%02d Q205=%02d Q207=%02d
+82143 E Number of girls %02d exceed the total number of girls declared in Q203=%02d Q205=%02d Q207=%02d
+82144 E Number of pregnacy losses %02d exceed the total number of losses declared in Q211=%02d
 82283 E The pregnancy duration is inconsistent with other events in %s, %d
 82284 E The termination duration is inconsistent with other events in %s, %d
 82285 E The date the episode begins should be before the date the respondent started using the current method in %02d/%04d
-82363 W Respondent in menopause but she is less than 30 years old (A111=%02d)
-82364 W Last period greater than age minus 10 (A111=%02d)
-82365 E Age at first period greater than current age (A111=%02d)
-82369 W Never menstruated but had pregnancies (A212=%02d) or is currently pregnant (A232=%d)
+82363 W Respondent in menopause but she is less than 30 years old (Q111=%02d)
+82364 W Last period greater than age minus 10 (Q111=%02d)
+82365 E Age at first period greater than current age (Q111=%02d)
+82369 W Never menstruated but had pregnancies (Q212=%02d) or is currently pregnant (Q232=%d)
 82371 E Termination date not in descending order
-82372 E This termination should be after termination declared in zzA231=%02d/%04d
+82372 E This termination should be after termination declared in zzQ231=%02d/%04d
 83132 E Current method began to be used before the birth reported in %s, %d
 83133 E Current method began to be used before the termination reported in %s, %d
 83134 E Dates when episode begins and ends are inconsistent
@@ -1215,7 +1250,7 @@ language = EN
 
 89823 E Respondent is pregnant but pregnancy not registered in calendar
 89824 E The termination registered in %s=%02d/%04d wasn't registered in calendar row %02d
-89825 E There are terminations registered in calendar but respondent never had a termination according to zzA230=%d
+89825 E There are terminations registered in calendar but respondent never had a termination according to zzQ230=%d
 89991 E First character must be a letter
 89997 E The date for current union is before the date of first union (%02d/%04d), the problem has to be resolved
 89998 E Invalid date, it can't be after the date of interview

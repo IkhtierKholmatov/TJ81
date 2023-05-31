@@ -71,7 +71,7 @@ PROC GLOBAL
   array string intvwname(400);             {                       - name }
   numeric IFSS = 0;                       { If IFSS is being used }
   numeric SyncCloud = 1;                  { If SyncCloud is being used }
-  numeric doFCT     = 1;                  { run FCT in field !!! }
+  numeric doFCT     = 0;                  { run FCT in field !!! }
 
   numeric minhhR    = 5;                  { minimum completed households that must be in supervisor tablet to begin selection for reinterview !!! }
   numeric maxhhselR = 5;                  { maximum number of  households that can be selected for reinteview by supervisor !!! }
@@ -1710,12 +1710,13 @@ PreProc
   synclogfile = Path.Concat(wrkprj, maketext("synclog%04d.csv", tonumber( loadsetting("Supervisor") )));
   // check current version of CSEntry for FCT purposes
   // disable running FCT if version < 7.6
-  string csprover = diagnostics("version");
+  {string csprover = diagnostics("version");
   if csprover = "7.6" | csprover = "7.7" then
     doFCT = 1;
   else
     doFCT = 0;
   endif;
+  }
   { folder list for checking duplicates }
   dirstocheck.clear();
   dirstocheck.add(receive);
