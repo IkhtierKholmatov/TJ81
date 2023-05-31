@@ -7359,7 +7359,7 @@ postproc
 
 PROC Q513
   if $ <> 1 then
-    skip to next FA01
+    skip to FA01
   endif;
 
 PROC Q515
