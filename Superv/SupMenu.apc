@@ -1572,7 +1572,8 @@ PROC GLOBAL
       else
         concathh();     { concatenate household questionnaires from all interviewers }
         concatind();     { concatenate individual questionnaires from all interviewers }
-        open(TJIN80);
+        fname = work + "\ALLIND.DAT";
+        setfile(TJIN80, fname);
         // open facility file for checking status
         fname = final + "\F" + xcluster + ".dat";
         if !FileExist(fname) then
