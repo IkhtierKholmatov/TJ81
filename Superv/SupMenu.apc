@@ -1597,12 +1597,12 @@ PROC GLOBAL
               else
                 list_ch(i,7) = maketext("%02d-%02d-%04d",Q220D(Q503(j)), Q220M(Q503(j)), Q220Y(Q503(j)));
               endif;
+              clear(FACVACC);
               FRCLUST = QCLUSTER;
               FRHNUMBER = QNUMBER;
               FRMLINE = QLINE;
               FRCLINE = Q503(j);
-              clear(FACVACC);
-              found = loadcase(FACVACC);
+              found = loadcase(FACVACC, FRCLUST, FRHNUMBER, FRMLINE, FRCLINE);
               recode found :: FR04    -> string status_str     :: status  ;
                          1 :: notappl -> tr( "Partial" )       ::  2 ;
                          1 :: 1,2     -> tr( "Completed" )     ::  1 ;
@@ -1627,7 +1627,10 @@ PROC GLOBAL
                       1    -> VacEntry( 0,0); { modify }
                            -> 9; 
             endrecode; 
+            SaveSetting( "SupSession", "8" );
             RunPFFS();
+          else
+            SaveSetting( "SupSession", "1" );
           endif;
       endif;
     endif;
@@ -1962,6 +1965,8 @@ postproc
   elseif samesession = 7 then          // !!! returning after running FCT
     FileCopy(superv + "\output.xml", superv + "\output" + xsuperv + ".xml");// version for upload to server to check !!!
     SendData_SyncCloud();
+  elseif samesession = 8 then          // !!! returning after entry of vacc card at facility
+    run_vacentry();
   endif;
   
 
