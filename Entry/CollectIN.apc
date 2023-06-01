@@ -246,16 +246,23 @@
 
   { list all pictures and use the last last one taken }
   function string GetPicture()
-    string picfile;
+      string picfile;
     list string PictureList;
-    picfile = "C:/Users/" + GetUserName() + "/OneDrive/Pictures/Camera Roll";  //New default location Windows 11
+    picfile = "C:/Users/" + GetUserName() + "/OneDrive/Pictures/Camera Roll"; {Default location if OneDrive is activated in tablet}
     dirlist( PictureList, picfile, "WIN*.JPG" );
     do j = 1 while j <= PictureList.length()
       Textstr2 = PictureList(j);
     enddo;
-    GetPicture = Textstr2;
+	if Textstr2="" then	
+	  picfile = "C:/Users/" + GetUserName() + "/Pictures/Camera Roll"; {Default location if OneDrive is not activated in tablet}
+      dirlist( PictureList, picfile, "WIN*.JPG" );
+      do j = 1 while j <= PictureList.length()
+        Textstr2 = PictureList(j);
+      enddo;
+	endif;
+	GetPicture = Textstr2;
   end;
-
+  
   { function to take picture with a windows tablet }
   function TakePictureW( child )
     image VCardPic;

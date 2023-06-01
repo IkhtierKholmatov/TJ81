@@ -88,12 +88,19 @@ PROC GLOBAL
   function string GetPicture()
     string picfile;
     list string PictureList;
-    picfile = "C:/Users/" + GetUserName() + "/OneDrive/Pictures/Camera Roll";
+    picfile = "C:/Users/" + GetUserName() + "/OneDrive/Pictures/Camera Roll"; {Default location if OneDrive is activated in tablet}
     dirlist( PictureList, picfile, "WIN*.JPG" );
     do j = 1 while j <= PictureList.length()
       Textstr2 = PictureList(j);
     enddo;
-    GetPicture = Textstr2;
+	if Textstr2="" then	
+	  picfile = "C:/Users/" + GetUserName() + "/Pictures/Camera Roll"; {Default location if OneDrive is not activated in tablet}
+      dirlist( PictureList, picfile, "WIN*.JPG" );
+      do j = 1 while j <= PictureList.length()
+        Textstr2 = PictureList(j);
+      enddo;
+	endif;
+	GetPicture = Textstr2;
   end;
 
   { function to take picture with a windows tablet }
@@ -152,8 +159,9 @@ preproc
   mm = ss - 100*(int(ss/100));
   yy = int((ss-mm)/100);
 
-  { set language at start of the program, defaulting to language passed by menu }
-  setlanguage(loadsetting("Language", getlanguage()));
+  { set language at start of the program, defaulting to Russian }
+  setlanguage(loadsetting("Language", "RU"));
+  setvaluesets( "_" + getlanguage() );
   
   setfont( ALL, "Arial", 16, bold );
 
@@ -309,7 +317,7 @@ vckbirth( FR03D, FR03M, $, FRCLINE);
 PROC FR04
   if demode() = add & $ = 1 then
     TakePictureW( FRCLINE )
-    elseif $ <> 1 then
+	elseif $ <> 1 then
       skip to FRFINAL
   endif;	
 

@@ -30,6 +30,386 @@
 //Text related to variable RELLAST  
   TJ ( "last" ) последний
   
+    TJ ( "Note" ) Записки
+  TJ ( "Lang" ) Язык
+  TJ ( "Ver" ) Версия
+  TJ ( "Section" ) Раздел
+  TJ ( "Responses" ) Ответы
+  TJ ( "Go to section:" ) Перейти в раздел:
+  TJ ( "Cancel" ) Отмена
+  TJ ( "Select location for responses" ) Выберите место для ответов
+  TJ ( "Top left corner beneath questions" ) Верхний левый угол под вопросами
+  TJ ( "Next to field on the form" ) Рядом с полем в форме
+  TJ ( "Monday" ) Понедельник
+  TJ ( "Tuesday" ) Вторник
+  TJ ( "Wednesday" ) Среда
+  TJ ( "Thursday" ) Черверг
+  TJ ( "Friday" ) Пятница
+  TJ ( "Saturday" ) Суббота
+  TJ ( "Sunday" ) Воскресенье
+  TJ ( "Changing this will remove %d household member(s) after %s. Please confirm that you want to remove them" ) Изменение этого параметра приведет к удалению %d членов семьи после %s. Пожалуйста, подтвердите, что вы хотите удалить их
+  TJ ( "Yes" ) Да
+  TJ ( "No" ) Нет
+  TJ ( "Husband" ) Муж
+  TJ ( "Son" ) Сын
+  TJ ( "Son-in-law" ) Муж дочери или жена сына
+  TJ ( "Father" ) Отец
+  TJ ( "Father-in-law" ) Отец супруга(и)
+  TJ ( "Brother" ) Брат
+  TJ ( "Wife" ) Жена
+  TJ ( "Daughter" ) Дочь
+  TJ ( "Daughter-in-law" ) Жена сына
+  TJ ( "Mother" ) Мать
+  TJ ( "Mother-in-law" ) Мать супруга(и)
+  TJ ( "Sister" ) Сестра
+  TJ ( "Household members" ) Члены домохозяйства
+  TJ ( "Line" ) Линия
+  TJ ( "First name" ) Имя
+  TJ ( "Last name" ) Фамилия
+  TJ ( "Relation" ) Отношение
+  TJ ( "Sex" ) Пол
+  TJ ( "Usual" ) Обычный
+  TJ ( "Last night" ) Прошлой ночью
+  TJ ( "Age" ) Возраст
+  TJ ( "Household" ) Домохозяйство
+  TJ ( "Interview result" ) Результат интервью
+  TJ ( "Continue" ) Продолжать
+  TJ ( "Please confirm that the result of this interview is a refusal" ) Пожалуйста, подтвердите, что результатом этого интервью является отказ
+  TJ ( "Yes, Refused" ) Да, отказано
+  TJ ( "No, consent given" ) Нет, согласие дано
+  TJ ( "Name" ) Имя
+  TJ ( "Sex of head" ) Пол главы домохозяйства
+  TJ ( "Sex spouse" ) Пол супруга(и)
+  TJ ( "Usual Resident" ) Обычный житель
+  TJ ( "Place slept" ) Место спал
+  TJ ( "Relationship" ) Отношение
+  TJ ( "HH Member's Age" ) Возраст члена ДХ
+  TJ ( "Respondent HH" ) Респондент ДХ
+  TJ ( "Eligibility" ) Подходимость
+  TJ ( "Not a household member" ) Не член домохозяйства
+  TJ ( "mother" ) мать
+  TJ ( "father" ) отец
+  TJ ( "Level of education" ) Уровень образования
+  TJ ( "Grade/year/form" ) Класс/год/курс
+  TJ ( "Level attended" ) Уровень посещал
+  TJ ( "Level current" ) Текущий уровень
+  TJ ( "her" ) ее
+  TJ ( "his" ) его
+  TJ ( "Current line number" ) Текущий номер линии
+  TJ ( "Previous line number" ) Предыдущий номер линии
+  TJ ( "Child (%02d-%s) selected for the child labor module" ) Ребенок (%02d-%s), отобран для модуля детского труда
+  TJ ( "Child (%02d-%s) selected for child discipline module" ) Ребенок (%02d-%s), отобран для модуля по дисциплине детей
+  TJ ( "Minutes" ) Минуты
+  TJ ( "Fix answers marked" ) Исправить отмеченные ответы
+  TJ ( "Cookstove" ) Плита
+  TJ ( "Fuel" ) Топливо
+  TJ ( "Own animals" ) Владение животными
+  TJ ( "Chickens" ) Куры
+  TJ ( "Electricity" ) Electricity
+  TJ ( "Cooking stove" ) Кухонная плита
+  TJ ( "Heating fuel" ) Топливо для отопления
+  TJ ( "Lighting fuel" ) Топливо для освещения
+  TJ ( "Person slept in net" ) Человек спал в москитной сетке 
+  TJ ( "Nobody else slept under mosquito net" ) "Никто больше не спал под москитной сеткой"
+  TJ ( "%s (%02d) selected for domestic violence" ) %s (%02d) выбрана для домашнего насилия
+  TJ ( "GPS device acquiring GPS satellites. Please wait to complete its capture" ) Устройство GPS, принимающее спутники GPS. Пожалуйста, подождите, чтобы завершить его захват
+  TJ ( "Date biomarker" ) Дата биомаркер
+  TJ ( "Date of birth" ) Дата рождения
+  TJ ( "Weight" ) Вес
+  TJ ( "Height" ) Рост
+  TJ ( "Lying/Standing" ) Лежа/стоя
+  TJ ( "Correct measure" ) Правильное измерение
+  TJ ( "Fieldworker" ) Полевой работник
+  TJ ( "Assistant" ) Помощник
+  TJ ( "Date measurement" ) Дата измерения
+  TJ ( "Consent" ) Согласие
+  TJ ( "Barcode" ) Штрихкод
+  TJ ( "Hemoglobin" ) Гемоглобин
+  TJ ( "Result RDT" ) Результат RDT
+  TJ ( "Result" ) Результат
+  TJ ( "Age group" ) Возрастная группа
+  TJ ( "Marital status" ) Семейное положение
+  TJ ( "Coordinates were already collected. Are you sure that you need to recollect them?" ) Координаты уже собраны. Вы уверены, что вам нужно их собрать снова?
+  TJ ( "No, do not recollect the coordinates" ) Нет, не собирать снова координаты
+  TJ ( "Yes, recollect the coordinates" ) Да, собирать снова координаты
+  TJ ( "Marital status grouped" ) Семейное положение сгруппировано
+  TJ ( "Consent adult" ) Согласие взрослого
+  TJ ( "Consent minor" ) Согласие несовершеннолетнего
+  TJ ( "Enter text" ) Введите текст
+  TJ ( "End of questionnaire, do you want to:" ) Конец вопросника, хотите ли вы:
+  TJ ( "Review Interview" ) Пересмотр интервью
+  TJ ( "Finalize Interview" ) Завершить интервью
+  
+
+{ strings used by CollectIN some strings were translated for CollectHH }
+{ translations in functions } 
+  TJ ( "End of questionnaire" ) Конец вопросника
+  TJ ( "Click OK to continue" ) Нажмите ОК, чтобы продолжить
+  TJ ( "Do you want to take another picture of the document" ) Вы хотите сделать еще одну фотографию документа
+  TJ ( "Boy" ) Мальчик
+  TJ ( "Girl" ) Девочка
+  TJ ( "Alive" ) Живой
+  TJ ( "Dead" ) Мертвый
+  TJ ( "DK" ) Не знаю
+  TJ ( "Male" ) Мужской
+  TJ ( "Female" ) Женский
+  TJ ( "Pregnancy history" ) История беременности
+  TJ ( "expecting" ) беременная
+  TJ ( "pregnancy outcomes" ) исходы беременности
+  TJ ( "Initial Outcome" ) Первоначальный Исход
+  TJ ( "Final Outcome" ) Окончательный Исход
+  TJ ( "Date" ) Дата
+  TJ ( "Live Mother" ) Живая Мать
+  TJ ( "Years-D" ) Годы-D
+  TJ ( "Age-D" ) Возраст-D
+  TJ ( "List of events" ) Список событий
+  TJ ( "Event" ) Событие
+  TJ ( "Dur/Preg" ) Длительность/беременность
+  TJ ( "Stayed" ) Оставались
+  TJ ( "Line number" ) Номер линии
+  TJ ( "Correct the number of pregnancies in Q201-Q212" ) Исправьте количество беременностей в Q201-Q212
+  TJ ( "Continue to pregnancy history to remove the incorrect pregnancy" ) Продолжайте в историю беременности, чтобы удалить неправильную беременность
+  TJ ( "Date of birth/end of pregnancy" ) Дата рождения/окончание беременности
+  TJ ( "Pregnancy inserted" ) Беременность вставлена
+  TJ ( "Pregnancy deleted" ) Беременность удалена
+  TJ ( "Pregnancy moved" ) Беременность перенесена
+  TJ ( "Yes, delete the pregnancy of %s in %s %d" ) Да, удалить беременность %s в %s %d
+  TJ ( "No, make no change" ) Нет, не менять
+  TJ ( "No change made" ) Изменения не внесены
+  TJ ( "Yes, move the pregnancy of %s in %s %d before the pregnancy of %s in %s %d" ) Да, перенести беременность %s в %s %d до беременности %s в %s %d
+  TJ ( "Select the pregnancy to move the current pregnancy before" ) Выберите беременность, чтобы переместить текущую беременность до 
+  TJ ( "Outcome" ) Исход
+  TJ ( "Pregnancies" ) Беременности
+  TJ ( "Insert pregnancy before current pregnancy" ) Вставить беременность перед текущей беременностью
+  TJ ( "Delete current pregnancy" ) Удалить текущую беременность
+  TJ ( "Move current pregnancy" ) Перенести текущую беременность
+  TJ ( "Currently pregnant" ) В настоящее время беременна
+  TJ ( "Duration of pregnancy" ) Продолжительность беременности
+
+{ translations in functions used by the calendar }
+  TJ ( "Calendar" ) Календарь
+  TJ ( "Year" ) Год
+  TJ ( "Month" ) Месяц
+  TJ ( "Row" ) Строка
+  TJ ( "Episode" ) Эпизод
+  TJ ( "Use" ) Использовать
+  TJ ( "Disc" ) Прерывать
+  TJ ( "Label" ) Метка
+  TJ ( "Date started using" ) Дата начала использования
+  TJ ( "Current method" ) Текущий метод
+
+{ remaining translations in functions } 
+  TJ ( "Display food or drink categories" ) Отображение категорий еды или напитков
+  TJ ( "No food or drink categories exist for this question" ) Для этого вопроса не существует категорий еды или напитков
+  TJ ( "VaccCard" ) Паспорт Вакцинаций 
+  TJ ( "Vaccination" ) Вакцинация
+  TJ ( "Date of vaccination" ) Дата вакцинации
+  TJ ( "first twin" ) первый близнец
+  TJ ( "second twin" ) второй близнец
+  TJ ( "third twin" ) третий близнец
+  TJ ( "fourth twin" ) четвертый близнец
+  TJ ( "fifth twin" ) пятый близнец
+
+{ translations in application's logic for sections 1 and 2 }
+  TJ ( "Time living in place of interview" ) Время проживания в месте интервью
+  TJ ( "Monitor model" ) Модель монитора
+  TJ ( "Arm circumference" ) Окружность руки
+  TJ ( "Date moved here" ) Дата перемещена сюда 
+  TJ ( "Years living in place of residence" ) Годы проживания по месту жительства
+  TJ ( "Less than one year" ) Менее одного года
+  TJ ( "Any children living at home" ) Любые дети, живущие дома
+  TJ ( "Number of children living at home" ) Количество детей, проживающих дома
+  TJ ( "Any children living away" ) Любые дети, живущие вдали
+  TJ ( "Number of children living away" ) Количество детей, проживающих отдельно
+  TJ ( "Any boys or girls who died" ) Любые мальчики или девочки, которые умерли
+  TJ ( "Number of boys or girls who died" ) Количество мальчиков или девочек, которые умерли
+  TJ ( "Any children ever born" ) Любые дети, когда-либо рожденные
+  TJ ( "Check children ever born" ) Проверить когда-либо рожденных детей
+  TJ ( "Reconfirm number of children" ) Подтвердить количество детей
+  TJ ( "Boys at home" ) Мальчики дома
+  TJ ( "Begin reproduction" ) Начать репродукцию
+  TJ ( "Begin pregnancy history" ) Начать историю беременности
+  TJ ( "Girls at home" ) Девочки дома
+  TJ ( "Boys living away" ) Мальчики, живущие вдали
+  TJ ( "Girls living away" ) Девочки, живущие вдали
+  TJ ( "Boys who died" ) Мальчики, которые умерли
+  TJ ( "Girls who died" ) Девочки, которые умерли
+  TJ ( "Boys" ) Мальчики
+  TJ ( "Girls" ) Девочки
+  TJ ( "Pregnancy losses" ) Потери беременности
+  TJ ( "Date of end of pregnancy for %s in %s %d is before date of end of pregnancy for %s in %s %d. Reorder these pregnancies?" ) Дата окончания беременности для %s в %s %d предшествует дате окончания беременности для %s в %s %d. Изменить порядок этих беременностей? 
+  TJ ( "Correct date of pregnancy for %s" ) Правильная дата беременности для %s
+  TJ ( "Single or multiple pregnancy" ) Одноплодная или многоплодная беременность
+  TJ ( "Number of pregnancies" ) Количество беременностей
+  TJ ( "Pregnancy outcome" ) Исход беременности
+  TJ ( "Prior pregnancy outcome" ) Исход предшествующей беременности
+  TJ ( "STILLBIRTH" ) МЕРТВОРОЖДЕНИЕ
+  TJ ( "MISCARRIAGE" ) ВЫКИДЫШ
+  TJ ( "ABORTION" ) АБОРТ
+  TJ ( "Date of pregnancy" ) Дата беременности
+  TJ ( "Date of prior pregnancy" ) Дата предыдущей беременности
+  TJ ( "Date of" ) Дата
+  TJ ( "Duration of pregnancy of" ) Продолжительность беременности 
+  TJ ( "Born dead" ) Родился мертвым
+  TJ ( "Stillbirth" ) Мертворождение
+  TJ ( "Child alive" ) Ребенок жив
+  TJ ( "Age of child" ) Возраст ребенка
+  TJ ( "Age of twin" ) Возраст близнеца
+  TJ ( "Child not listed in household" ) Ребенок, не записан в домохозяйстве
+  TJ ( "Line number in the household" ) Номер линии в домохозяйстве
+  TJ ( "Line number for this child" ) Номер линии для этого ребенка
+  TJ ( "Line number for child" ) Номер линии для ребенка
+  TJ ( "Sex of child" ) Пол ребенка
+  TJ ( "Child living with respondent" ) Ребенок, проживающий с респондентом
+  TJ ( "Age at death number" ) Возраст на момент смерти число
+  TJ ( "Unit" ) Единица измерения
+  TJ ( "Age at death" ) Возраст на момент смерти
+  TJ ( "Time since last period" ) Время после последней менструации
+  TJ ( "Age at menarche" ) Возраст первой менструации
+
+{ translations for section 3 }
+  TJ ( "Record other modern method" ) Запишите другой современный метод
+  TJ ( "Record other traditional method" ) Запишите другой традиционный метод
+  TJ ( "Respondent or partner sterilized" ) Респондент или партнер стерилизован
+  TJ ( "Knowledge of" ) Знание о
+  TJ ( "Date of sterilization" ) Дата стерилизации
+  TJ ( "Date started using method" ) Дата начала использования метода
+  TJ ( "Events" ) События
+  TJ ( "Go back to pregnancy history to reset calendar" ) Вернитесь к истории беременности, чтобы перезагрузить календарь
+  TJ ( "Introduction to calendar" ) Введение в календарь
+  TJ ( "Go back to current pregnancy" ) Вернуться к текущей беременности
+  TJ ( "Date of start of current method" ) Дата начала текущего метода
+  TJ ( "Current-Pregnancy" ) Текущая беременность
+  TJ ( "Method used" ) Метод использованный
+  TJ ( "Knowledge of method" ) Знание метода
+  TJ ( "Months not using" ) Месяцы не использования
+  TJ ( "Date began using" ) Дата начала использования
+  TJ ( "Months using" ) Месяцев использования
+  TJ ( "Date end using" ) Дата окончания использования
+  TJ ( "The date of end of the episode exceeds by" ) Дата окончания эпизода превышает на
+  TJ ( "months" ) месяцы
+  TJ ( "the pregnancy of" ) беременность
+  TJ ( "in" ) в
+  TJ ( "the" ) в
+  TJ ( "that occurred in" ) что произошло в
+  TJ ( "the current pregnancy" ) текущая беременность
+  TJ ( "another (unexpected) event" ) другое (неожиданное) событие
+  TJ ( "the birth of" ) рождение
+  TJ ( "Reason stop using" ) Причина прекращения использования
+  TJ ( "Use of emergency contraception" ) Использование экстренной контрацепции
+  TJ ( "Ever use of contraception" ) Использование контрацепции когда-либо  
+
+{ translation for sections 4-9 }
+  TJ ( "Timing of 1st antenatal visit" ) Время первого дородового визита
+  TJ ( "Timing for 1st bath" ) Время для 1-го купания
+  TJ ( "Timing to apply chlorhexidine" ) Время применения хлоргексидина  
+  TJ ( "Possession of card" ) Владение паспортом вакцинаций
+  TJ ( "Observation of card" ) Видели паспорт вакцинаций
+  TJ ( "Date of birth on card" ) Дата рождения на карточке
+  TJ ( "Date of birth in pregnancy history" ) Дата рождения в истории беременности
+  TJ ( "Children for child health module" ) "Дети для модуля по здоровью ребенка»
+  TJ ( "Any treatment" ) Любое лечение
+  TJ ( "First treatment" ) Первое лечение
+  TJ ( "Foods and drinks" ) Еда и напитки
+  TJ ( "Child drank: " ) Ребенок пил: 
+  TJ ( "Drinks not included in the options above" ) Напитки, не включенные в вышеперечисленные варианты 
+  TJ ( "Foods not included in the options above" ) Продукты, не включенные в вышеперечисленные варианты 
+  TJ ( "Line number of husband/partner" ) Номер линии мужа/партнера
+  TJ ( "Number of wives" ) Количество жен
+  TJ ( "Wife rank" ) Ранг жены
+  TJ ( "Date of 1st union" ) Дата первого союза
+  TJ ( "Age at 1st union" ) Возраст при первом союзе
+  TJ ( "Date of current union" ) Дата текущего союза
+  TJ ( "Age at current union" ) Возраст в текущем союзе
+  TJ ( "Age at first intercourse" ) Возраст на момент первого полового акта
+  TJ ( "Current age" ) Текущий возраст
+  TJ ( "Date of first pregnancy" ) Дата первой беременности
+  TJ ( "Number" ) Номер
+  TJ ( "Time since last sex" ) Время с момента последнего секса
+  TJ ( "Method used during last sex" ) Метод, использованный во время последнего секса
+  TJ ( "Relationship with last sex partner" ) Отношения с последним сексуальным партнером
+  TJ ( "Relationship with prior sex partner" ) Отношения с предыдущим сексуальным партнером
+  TJ ( "Relationship with third prior sex partner" ) Отношение с третьим предыдущим сексуальным партнером
+  TJ ( "Lifetime number of sex partners" ) Количество сексуальных партнеров за всю жизнь 
+  TJ ( "Timing for future birth" ) Время будущего рождения
+  TJ ( "Time to wait for future birth" ) Время подождать для будущего рождения
+  TJ ( "Reason not using" ) Причина не использования
+  TJ ( "Knowledge of methods" ) Знание методов
+  TJ ( "Either" ) И то и другое
+  TJ ( "Total" ) Всего
+  TJ ( "Ideal number of children by sex" ) Идеальное количество детей по полу
+  TJ ( "Ideal number of children" ) Идеальное количество детей
+  TJ ( "Partner's level of education" ) Уровень образования партнера
+  TJ ( "Partner's grade/year/form" ) Уровень/год/класс/курс партнера
+  TJ ( "Person deciding how earnings are used" ) Лицо, решающее, как используются заработки
+  TJ ( "Person deciding how husband's earnings are used" ) Лицо, решающее, как использовать заработки мужа
+  TJ ( "Final say on health care" ) Последнее слово по уходу за здоровьем
+  TJ ( "Final say on large purchases" ) Последнее слово о крупных покупках
+  TJ ( "Final say on visits to family" ) Последнее слово о посещении семьи
+  TJ ( "Presence of husband/partner" ) Присутствие мужа/партнера
+
+{ translation for sections 10, 11, MMM, DV, FGC }
+  TJ ( "Date most recent HIV test" ) Дата последнего теста на ВИЧ
+  TJ ( "Date tested positive" ) Дата положительного результата теста
+  TJ ( "Date first HIV test" ) Дата первого теста на ВИЧ
+  TJ ( "Last cervical cancer test" ) Последний тест на рак шейки матки
+  TJ ( "Modify" ) Изменить
+  TJ ( "Order numbers" ) Порядок нумерации
+  TJ ( "Number of siblings" ) Количество братьев и сестер
+  TJ ( "Introduction Maternal Mortality" ) Введение Материнская смертность
+  TJ ( "Order number for" ) Порядковый номер для
+  TJ ( "Siblings born before respondent" ) Братья и сестры, родившиеся раньше респондента
+  TJ ( "Siblings" ) Братья и сестры
+  TJ ( "Status for" ) Статус для
+  TJ ( "Status for first sibling" ) Статус первого брата
+  TJ ( "Age at first time forced to have sex" ) Возраст в первый раз заставили заняться сексом
+  TJ ( "Age at circumcision" ) Возраст при обрезании
+  TJ ( "Daughter's age at circumcision" ) Возраст дочери на момент обрезания
+  TJ ( "Daughter's current age" ) Текущий возраст дочери
+
+{ translations for men questionnaire - most strings for men were already translated }  
+  TJ ( "Age at birth of first child" ) Возраст при рождении первого ребенка
+  TJ ( "Age of youngest child" ) Возраст младшего ребенка
+  TJ ( "Line number of wife/partner" ) Номер строки жены/партнера
+  TJ ( "this wife or partner" ) это жена или партнер
+  TJ ( "Age of wife/partner" ) Возраст жены/партнера
+  TJ ( "Used condom during last intercourse" ) Использованный презерватив во время последнего полового акта
+  TJ ( "Knowledge of condom" ) Знание презерватива
+  TJ ( "Age at traditional circumcision" ) Возраст при традиционном обрезании
+  TJ ( "Circumcision" ) Обрезание
+  TJ ( "Traditional" ) Традиционное
+  TJ ( "Medical" ) Медицинское
+  TJ ( "Age at medical circumcision" ) Возраст медицинского обрезания
+  TJ ( "Change this response" ) Изменить этот ответ
+  TJ ( "Dec" ) Дек
+  TJ ( "Nov" ) Ноя
+  TJ ( "Oct" ) Окт
+  TJ ( "Sep" ) Сен
+  TJ ( "Aug" ) Авг
+  TJ ( "Jul" ) Июл
+  TJ ( "Jun" ) Июн
+  TJ ( "May" ) Май
+  TJ ( "Apr" ) Апр
+  TJ ( "Mar" ) Мар
+  TJ ( "Feb" ) Фев
+  TJ ( "Jan" ) Янв
+  TJ ( "Acceptable range" ) Допустимый диапазон
+  TJ ( "At the high end of acceptable range" ) На верхней границе допустимого диапазона
+  TJ ( "Above acceptable range" ) Выше допустимого диапазона
+  TJ ( "Moderately high" ) Умеренно высокий
+  TJ ( "High" ) Высокий
+  TJ ( "Very high" ) Очень высокий
+  TJ ( "24 months" ) 24 месяца
+  TJ ( "12 months") 12 месяцев
+  TJ ( "2 months" ) 2 месяца
+  TJ ( "1 month" ) 1 месяц
+  TJ ( "7 days" ) 7 дней
+  TJ ( "Today" ) Сегодня
+  TJ ( "Date of delivery" ) Дата родов
+  TJ ( "Date of prior delivery" ) Дата предыдущих родов
+  TJ ( "Move pregnancy" ) Перенести беременность
+  TJ ( "Date of pregnancy" ) Дата беременности  
+  
 language = RU
  0001 E Кластер %04d не найден в файле выборки
  0002 E Неправильное имя файла %s (%s): Выйдите, исправьте имя файла и перезапустите

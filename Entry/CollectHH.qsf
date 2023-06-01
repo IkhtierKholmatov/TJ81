@@ -1484,6 +1484,8 @@ questions:
             <p>136AA.  How many of them are women?</p>
           RU: |
             <p>136AA.  Сколько из них женщин?</p>
+          TJ: |
+            136AA. Чанд нафари онҳо занон?<p></p>
   - name: TJHH80.QH136BB
     conditions:
       - questionText:
@@ -1654,6 +1656,8 @@ questions:
             <p><span style="font-size:21px;color:#0000ff;font-family:'Arial', sans-serif;">A WINDOW WILL BE DISPLAYED TO WRITE ANY NOTES.  AFTER THAT THE QUESTIONNAIRE WILL BE SAVED AUTOMATICALLY.&#160;</span></p>
             <p>&#160;</p>
           RU: |
+            <p><span style="font-size: 18px;"><font color="#0000ff">КОНЕЦ АНКЕТЫ ДЛЯ ДОМОХОЗЯЙСТВА.</font></span></p><p><font color="#0000ff"><br></font></p><p><span style="font-size: 18px;"><font color="#0000ff">ОТОБРАЖАЕТСЯ ОКНО ДЛЯ НАПИСАНИЯ ЛЮБЫХ ЗАМЕЧАНИЙ. ПОСЛЕ ЭТОГО АНКЕТА БУДЕТ СОХРАНЕНА АВТОМАТИЧЕСКИ.</font></span></p><p></p>
+          TJ: |
             <p><span style="font-size: 18px;"><font color="#0000ff">КОНЕЦ АНКЕТЫ ДЛЯ ДОМОХОЗЯЙСТВА.</font></span></p><p><font color="#0000ff"><br></font></p><p><span style="font-size: 18px;"><font color="#0000ff">ОТОБРАЖАЕТСЯ ОКНО ДЛЯ НАПИСАНИЯ ЛЮБЫХ ЗАМЕЧАНИЙ. ПОСЛЕ ЭТОГО АНКЕТА БУДЕТ СОХРАНЕНА АВТОМАТИЧЕСКИ.</font></span></p><p></p>
   - name: TJHH80.QBINTD
     conditions:
